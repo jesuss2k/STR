@@ -1,0 +1,81 @@
+<html><head><title>POWL - 1D</title><script src=https://cdn.plot.ly/plotly-latest.min.js></script></head><body><div id=plotly-div></div><script>
+            fetch('../../JSON/EMA1D/POWL.json')
+                .then(response => response.json())
+                .then(data => {
+                    Plotly.react('plotly-div', data.data, data.layout);
+                });
+        </script><style>
+        /* Make body and html take up the full height */
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling */
+            height: 100%;
+            background-color: black; /* Dark background */
+            color: white;
+        }
+
+        /* Ensure plot takes up the full height and width */
+        #plotly-div {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Style navigation arrows as overlays */
+        .nav-arrow {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            font-size: 20px;
+            color: white;
+            opacity: 0.7;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        /* Adjust position of left and right arrows */
+        .nav-arrow.left {
+            left: 10px;
+        }
+        .nav-arrow.right {
+            right: 10px;
+        }
+    </style><div style="position: fixed; bottom: 6px; left: 285px; transform: translateX(-50%); background: #111; color: gray; padding: 0px; z-index: 10;"><a href=../../../IndexCopy.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 1">Home</a> | <a href=../EMA1D/POWL.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 2">EMA 1D</a> | <a href=../Renko1D/POWL_Renko1D_25.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 3">ATR 25</a> | <a href=../Renko1D/POWL_Renko1D_50.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 4">ATR 50</a> | <a href=../Renko1D/POWL_Renko1D_100.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 5">ATR 100</a> | <a href=../EMA1W/POWL.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 6">EMA 1W</a> | <a href=../EMA30Min/POWL.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 7">EMA 30m</a> | <a href=../EMA30MinETH/POWL.html style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 8">EMA 30m ETH</a></div><div class="nav-arrow left"><a href=PFE.html style="color: white; text-decoration: none;">&larr;</a></div><div class="nav-arrow right"><a href=PSN.html style="color: white; text-decoration: none;">&rarr;</a></div><script>
+        document.addEventListener('keydown', function(event) {
+            switch(event.keyCode) {
+                case 37: // Left arrow key
+                    window.location.href = 'PFE.html';
+                    break;
+                case 39: // Right arrow key
+                    window.location.href = 'PSN.html';
+                    break;
+                case 49: // Key '1'
+                    window.location.href = '../../../IndexCopy.html';
+                    break;
+                case 50: // Key '2'
+                    window.location.href = '../EMA1D/POWL.html';
+                    break;
+                case 51: // Key '3'
+                    window.location.href = '../Renko1D/POWL_Renko1D_25.html';
+                    break;
+                case 52: // Key '4'
+                    window.location.href = '../Renko1D/POWL_Renko1D_50.html';
+                    break;
+                case 53: // Key '5'
+                    window.location.href = '../Renko1D/POWL_Renko1D_100.html';
+                    break;
+                case 54: // Key '6'
+                    window.location.href = '../EMA1W/POWL.html';
+                    break;
+                case 55: // Key '7'
+                    window.location.href = '../EMA30Min/POWL.html';
+                    break;
+                case 56: // Key '8'
+                    window.location.href = '../EMA30MinETH/POWL.html';
+                    break;
+            }
+        });
+    </script></body></html>
