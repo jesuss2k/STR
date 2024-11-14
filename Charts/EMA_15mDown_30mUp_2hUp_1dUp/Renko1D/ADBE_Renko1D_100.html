@@ -1,0 +1,79 @@
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+
+    <style>
+        /* Make body and html take up the full height */
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling */
+            height: 100%;
+            background-color: black; /* Dark background */
+            color: white;
+        }
+
+        /* Ensure plot takes up the full height and width */
+        #plotly-div {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    
+    <!-- ATR Switch in Bottom Center with Hover Help for Keyboard Shortcuts -->
+    <div style="position: fixed; bottom: 6px; left: 152px; transform: translateX(-50%); background: #111; color: gray; padding: 0px; z-index: 10;">
+        <a href="../../../IndexCopy.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 1">Home</a> | <a href="../EMA1D/ADBE.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 1">EMA 1D</a> | <a href="ADBE_Renko1D_25.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 2">ATR 25</a> | <a href="ADBE_Renko1D_50.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 3">ATR 50</a> | <a href="ADBE_Renko1D_100.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 4">ATR 100</a><a href="../EMA1W/ADBE.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 6">EMA 1W</a><a href="../EMA30Min/ADBE.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 7">EMA 30m</a><a href="../EMA30MinETH/ADBE.html" style="color: gray; text-decoration: none; background: transparent; outline: none; box-shadow: none; border: none; padding: 0; margin: 0;" title="Shortcut: 8">EMA 30m ETH</a>
+    </div>
+    
+    <!-- Previous Ticker Arrow -->
+    <div style="position: fixed; left: 10px; top: 50%; transform: translateY(-50%); font-size: 2em; z-index: 1000;">
+        <a href="ZS_Renko1D_100.html" style="color: #333; text-decoration: none;">&#8592;</a>
+    </div>
+    
+    <!-- Next Ticker Arrow -->
+    <div style="position: fixed; right: 10px; top: 50%; transform: translateY(-50%); font-size: 2em; z-index: 1000;">
+        <a href="ADSK_Renko1D_100.html" style="color: #333; text-decoration: none;">&#8594;</a>
+    </div>
+
+    <!-- JavaScript for Keyboard Shortcuts -->
+    <script>
+        document.addEventListener('keydown', function(event) {
+            switch(event.keyCode) {
+                case 37: // Left arrow key
+                    window.location.href = 'ZS_Renko1D_100.html';
+                    break;
+                case 39: // Right arrow key
+                    window.location.href = 'ADSK_Renko1D_100.html';
+                    break;
+                case 49: // Key '1'
+                    window.location.href = '../../../IndexCopy.html';
+                    break;
+                case 50: // Key '2'
+                    window.location.href = '../EMA1D/ADBE.html';
+                    break;
+                case 51: // Key '3'
+                    window.location.href = 'ADBE_Renko1D_25.html';
+                    break;
+                case 52: // Key '4'
+                    window.location.href = 'ADBE_Renko1D_50.html';
+                    break;
+                case 53: // Key '5'
+                    window.location.href = 'ADBE_Renko1D_100.html';
+                    break;
+                case 54: // Key '6'
+                    window.location.href = '../EMA1W/ADBE.html';
+                    break;
+                case 55: // Key '7'
+                    window.location.href = '../EMA30Min/ADBE.html';
+                    break;
+                case 56: // Key '8'
+                    window.location.href = '../EMA30MinETH/ADBE.html';
+                    break;
+            }
+        });
+    </script>
+    
+    <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.31.1.min.js"></script>                <div id="7d92e516-6fec-4c59-a3c1-76c7ad4f3ab2" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("7d92e516-6fec-4c59-a3c1-76c7ad4f3ab2")) {                    Plotly.newPlot(                        "7d92e516-6fec-4c59-a3c1-76c7ad4f3ab2",                        [{"line":{"color":"#4caf50"},"mode":"lines","x":[1,7],"y":[556.54,628.78],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[7,11],"y":[628.78,568.58],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[11,15],"y":[568.58,628.78],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[15,21],"y":[628.78,544.5],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[21,22],"y":[544.5,568.58],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[22,23],"y":[568.58,544.5],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[23,24],"y":[544.5,568.58],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[24,29],"y":[568.58,496.34],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[29,30],"y":[496.34,520.42],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[30,35],"y":[520.42,448.18],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[35,44],"y":[448.18,568.58],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[44,47],"y":[568.58,520.42],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[47,51],"y":[520.42,580.62],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#DC484C"},"mode":"lines","x":[51,58],"y":[580.62,484.3],"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"#4caf50"},"mode":"lines","x":[58,61],"y":[484.3,532.46],"type":"scatter","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#f2f5fa"},"error_y":{"color":"#f2f5fa"},"marker":{"line":{"color":"rgb(17,17,17)","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"baxis":{"endlinecolor":"#A2B1C6","gridcolor":"#506784","linecolor":"#506784","minorgridcolor":"#506784","startlinecolor":"#A2B1C6"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"line":{"color":"#283442"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"marker":{"line":{"color":"#283442"}},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#506784"},"line":{"color":"rgb(17,17,17)"}},"header":{"fill":{"color":"#2a3f5f"},"line":{"color":"rgb(17,17,17)"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#f2f5fa","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#f2f5fa"},"geo":{"bgcolor":"rgb(17,17,17)","lakecolor":"rgb(17,17,17)","landcolor":"rgb(17,17,17)","showlakes":true,"showland":true,"subunitcolor":"#506784"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"dark"},"paper_bgcolor":"rgb(17,17,17)","plot_bgcolor":"rgb(17,17,17)","polar":{"angularaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","radialaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"yaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"},"zaxis":{"backgroundcolor":"rgb(17,17,17)","gridcolor":"#506784","gridwidth":2,"linecolor":"#506784","showbackground":true,"ticks":"","zerolinecolor":"#C8D4E3"}},"shapedefaults":{"line":{"color":"#f2f5fa"}},"sliderdefaults":{"bgcolor":"#C8D4E3","bordercolor":"rgb(17,17,17)","borderwidth":1,"tickwidth":0},"ternary":{"aaxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"baxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""},"bgcolor":"rgb(17,17,17)","caxis":{"gridcolor":"#506784","linecolor":"#506784","ticks":""}},"title":{"x":0.05},"updatemenudefaults":{"bgcolor":"#506784","borderwidth":0},"xaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#283442","linecolor":"#506784","ticks":"","title":{"standoff":15},"zerolinecolor":"#283442","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"showgrid":false,"showticklabels":false},"yaxis":{"anchor":"x","domain":[0.0,1.0]},"shapes":[{"line":{"color":"yellow","dash":"dash","width":1},"type":"line","x0":1,"x1":61,"xref":"x","y0":508.0,"y1":508.0,"yref":"y"},{"line":{"color":"cyan","dash":"dash","width":1},"type":"line","x0":1,"x1":61,"xref":"x","y0":504.68,"y1":504.68,"yref":"y"}],"annotations":[{"align":"right","font":{"color":"#4caf50","size":20},"showarrow":false,"text":"4.60%\n\n$527.89 : $23.21","x":0.98,"xref":"paper","y":0.02,"yref":"paper"}],"title":{"text":"ADBE Renko 1D 100"},"margin":{"l":20,"r":20,"t":30,"b":20},"showlegend":false},                        {"responsive": true}                    )                };                            </script>        </div>
+</body>
+</html>
