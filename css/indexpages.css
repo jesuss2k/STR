@@ -43,6 +43,15 @@ span[style="color: green;"] {
 span[style="color: red;"] {
     color: #f44336 !important;
 }
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+    color: #d3d3d3;
+    font-size: 1.5rem;
+    margin: 0;
+}
 footer {
     text-align: center;
     padding: 10px;
