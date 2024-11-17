@@ -12,65 +12,56 @@
             margin: 0;
             padding: 0;
         }
-
-        header, footer {
-            background-color: #1e1e1e;
-            padding: 1rem;
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
             text-align: center;
+            border-bottom: 1px solid #333;
         }
-
-        header h1, footer p {
-            margin: 0;
+        main {
+            padding: 20px;
         }
-
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
         a {
-            color: #1e90ff;
             text-decoration: none;
+            color: #888888; /* Default gray for links */
         }
-
         a:hover {
             text-decoration: underline;
         }
-
-        main {
-            padding: 1rem;
-        }
-
-        section {
-            margin-bottom: 1.5rem;
-        }
-
-        section h2 {
-            color: #ffd700;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin: 0.5rem 0;
-        }
-
         span {
             font-weight: bold;
         }
-
-        span[style*="color: green;"] {
-            color: #32cd32; /* Adjusted green for dark background */
+        span[style="color: green;"] {
+            color: #4caf50 !important;
         }
-
-        span[style*="color: red;"] {
-            color: #ff6347; /* Adjusted red for dark background */
+        span[style="color: red;"] {
+            color: #f44336 !important;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f1f1f;
+            border-top: 1px solid #333;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome</h1>
-    </header>
-    
     <main>
         <section>
             <h2>Open</h2>
@@ -96,12 +87,6 @@
             <ul>
                 <li><a href="Charts/30M_Porfolio_Up/EMA1D/Index.html">Portfolio Up</a></li>
                 <li><a href="Charts/Portfolio/EMA1D/Index.html">Portfolio</a></li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Portfolio</h2>
-            <ul>
                 <li><a href="Charts/ZLEMA UP/EMA1D/Index.html">ZLEMA UP</a></li>
             </ul>
         </section>
@@ -109,37 +94,21 @@
         <section>
             <h2>EMA</h2>
             <ul>
-                <li><a href="Charts/EMA_12/EMA1D/Index.html">
-                    <span>EMA 12</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mUp_30mDown_2hDown_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mUp_30mDown_2hUp_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mUp_30mUp_2hUp_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mUp_30mUp_2hDown_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mDown_30mUp_2hUp_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mDown_30mDown_2hUp_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_15mDown_30mUp_2hDown_1dUp/EMA1D/Index.html">
-                    <span>15m</span> <span>30m</span> <span>2h</span> <span>1d</span>
-                </a></li>
-                <li><a href="Charts/EMA_1d/EMA1D/Index.html"><span>1d</span></a></li>
-                <li><a href="Charts/EMA_2h/EMA1D/Index.html"><span>2h</span></a></li>
-                <li><a href="Charts/EMA_30m/EMA1D/Index.html"><span>30m</span></a></li>
-                <li><a href="Charts/EMA_15m/EMA1D/Index.html"><span>15m</span></a></li>
+                <li><a href="Charts/EMA_12/EMA1D/Index.html"><span style="color: #106a5b;">EMA 12</span></a></li>
+                <li><a href="Charts/EMA_15mUp_30mDown_2hDown_1dUp/EMA1D/Index.html"><span style="color: #106a5b;">15m</span> <span style="color: #7a3f3f;">30m</span> <span style="color: #7a3f3f;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_15mUp_30mDown_2hUp_1dUp/EMA1D/Index.html"><span style="color: #106a5b;">15m</span> <span style="color: #7a3f3f;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_15mUp_30mUp_2hUp_1dUp/EMA1D/Index.html"><span style="color: #106a5b;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_15mUp_30mUp_2hDown_1dUp/EMA1D/Index.html"><span style="color: #106a5b;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #7a3f3f;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_15mDown_30mUp_2hUp_1dUp/EMA1D/Index.html"><span style="color: #7a3f3f;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_15mDown_30mDown_2hUp_1dUp/EMA1D/Index.html"><span style="color: #7a3f3f;">15m</span> <span style="color: #7a3f3f;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_15mDown_30mUp_2hDown_1dUp/EMA1D/Index.html"><span style="color: #7a3f3f;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #7a3f3f;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_1d/EMA1D/Index.html"><span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="Charts/EMA_2h/EMA1D/Index.html"><span style="color: #106a5b;">2h</span></a></li>
+                <li><a href="Charts/EMA_30m/EMA1D/Index.html"><span style="color: #106a5b;">30m</span></a></li>
+                <li><a href="Charts/EMA_15m/EMA1D/Index.html"><span style="color: #106a5b;">15m</span></a></li>
             </ul>
         </section>
-
+                
         <section>
             <h2>Other</h2>
             <ul>
