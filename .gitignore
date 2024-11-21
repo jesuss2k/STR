@@ -117,124 +117,125 @@ dist
 
 # Local subdirectory
 local/
-chartslocal/
+Chartslocal/
 
-#charts\JSON\EMA1D
-charts\JSON\EMA1W
-charts\JSON\EMA30Min
-charts\JSON\EMA30MinETH
 
-charts\30M_Open_Down\EMA1W
-charts\30M_Open_Down\EMA30Min
-charts\30M_Open_Down\EMA30MinETH
+# Charts\JSON\EMA1D
+Charts\JSON\EMA1W
+Charts\JSON\EMA30Min
+Charts\JSON\EMA30MinETH
 
-charts\30M_Open_Up\EMA1W
-charts\30M_Open_Up\EMA30Min
-charts\30M_Open_Up\EMA30MinETH
+Charts\30M_Open_Down\EMA1W
+Charts\30M_Open_Down\EMA30Min
+Charts\30M_Open_Down\EMA30MinETH
 
-charts\30M_Porfolio_Up\EMA1W
-charts\30M_Porfolio_Up\EMA30Min
-charts\30M_Porfolio_Up\EMA30MinETH
+Charts\30M_Open_Up\EMA1W
+Charts\30M_Open_Up\EMA30Min
+Charts\30M_Open_Up\EMA30MinETH
 
-charts\Closed\EMA1W
-charts\Closed\EMA30Min
-charts\Closed\EMA30MinETH
-charts\Closed\Renko1D
+Charts\30M_Porfolio_Up\EMA1W
+Charts\30M_Porfolio_Up\EMA30Min
+Charts\30M_Porfolio_Up\EMA30MinETH
 
-charts\Earnings_Future\EMA1W
-charts\Earnings_Future\EMA30Min
-charts\Earnings_Future\EMA30MinETH
+Charts\Closed\EMA1W
+Charts\Closed\EMA30Min
+Charts\Closed\EMA30MinETH
+Charts\Closed\Renko1D
 
-charts\Earnings_Past\EMA1W
-charts\Earnings_Past\EMA30Min
-charts\Earnings_Past\EMA30MinETH
+Charts\Earnings_Future\EMA1W
+Charts\Earnings_Future\EMA30Min
+Charts\Earnings_Future\EMA30MinETH
 
-charts\EMA_1d\EMA1W
-charts\EMA_1d\EMA30Min
-charts\EMA_1d\EMA30MinETH
-charts\EMA_1d\Renko1D
+Charts\Earnings_Past\EMA1W
+Charts\Earnings_Past\EMA30Min
+Charts\Earnings_Past\EMA30MinETH
 
-charts\EMA_2hUp_15mDown\EMA1W
-charts\EMA_2hUp_15mDown\EMA30Min
-charts\EMA_2hUp_15mDown\EMA30MinETH
-charts\EMA_2hUp_15mDown\Renko1D
+Charts\EMA_1d\EMA1W
+Charts\EMA_1d\EMA30Min
+Charts\EMA_1d\EMA30MinETH
+Charts\EMA_1d\Renko1D
 
-charts\EMA_2hUp_15mUp\EMA1W
-charts\EMA_2hUp_15mUp\EMA30Min
-charts\EMA_2hUp_15mUp\EMA30MinETH
-charts\EMA_2hUp_15mUp\Renko1D
+Charts\EMA_2hUp_15mDown\EMA1W
+Charts\EMA_2hUp_15mDown\EMA30Min
+Charts\EMA_2hUp_15mDown\EMA30MinETH
+Charts\EMA_2hUp_15mDown\Renko1D
 
-charts\EMA_12\EMA1W
-charts\EMA_12\EMA30Min
-charts\EMA_12\EMA30MinETH
-charts\EMA_12\Renko1D
+Charts\EMA_2hUp_15mUp\EMA1W
+Charts\EMA_2hUp_15mUp\EMA30Min
+Charts\EMA_2hUp_15mUp\EMA30MinETH
+Charts\EMA_2hUp_15mUp\Renko1D
 
-charts\EMA_15m\EMA1W
-charts\EMA_15m\EMA30Min
-charts\EMA_15m\EMA30MinETH
-charts\EMA_15m\Renko1D
+Charts\EMA_12\EMA1W
+Charts\EMA_12\EMA30Min
+Charts\EMA_12\EMA30MinETH
+Charts\EMA_12\Renko1D
 
-charts\EMA_15mDown_30mDown_2hUp_1dUp\EMA1W
-charts\EMA_15mDown_30mDown_2hUp_1dUp\EMA30Min
-charts\EMA_15mDown_30mDown_2hUp_1dUp\EMA30MinETH
-charts\EMA_15mDown_30mDown_2hUp_1dUp\Renko1D
+Charts\EMA_15m\EMA1W
+Charts\EMA_15m\EMA30Min
+Charts\EMA_15m\EMA30MinETH
+Charts\EMA_15m\Renko1D
 
-charts\EMA_15mDown_30mUp_2hDown_1dUp\EMA1W
-charts\EMA_15mDown_30mUp_2hDown_1dUp\EMA30Min
-charts\EMA_15mDown_30mUp_2hDown_1dUp\EMA30MinETH
-charts\EMA_15mDown_30mUp_2hDown_1dUp\Renko1D
+Charts\EMA_15mDown_30mDown_2hUp_1dUp\EMA1W
+Charts\EMA_15mDown_30mDown_2hUp_1dUp\EMA30Min
+Charts\EMA_15mDown_30mDown_2hUp_1dUp\EMA30MinETH
+Charts\EMA_15mDown_30mDown_2hUp_1dUp\Renko1D
 
-charts\EMA_15mDown_30mUp_2hUp_1dUp\EMA1W
-charts\EMA_15mDown_30mUp_2hUp_1dUp\EMA30Min
-charts\EMA_15mDown_30mUp_2hUp_1dUp\EMA30MinETH
-charts\EMA_15mDown_30mUp_2hUp_1dUp\Renko1D
+Charts\EMA_15mDown_30mUp_2hDown_1dUp\EMA1W
+Charts\EMA_15mDown_30mUp_2hDown_1dUp\EMA30Min
+Charts\EMA_15mDown_30mUp_2hDown_1dUp\EMA30MinETH
+Charts\EMA_15mDown_30mUp_2hDown_1dUp\Renko1D
 
-charts\EMA_15mUp_30mDown_2hDown_1dUp\EMA1W
-charts\EMA_15mUp_30mDown_2hDown_1dUp\EMA30Min
-charts\EMA_15mUp_30mDown_2hDown_1dUp\EMA30MinETH
-charts\EMA_15mUp_30mDown_2hDown_1dUp\Renko1D
+Charts\EMA_15mDown_30mUp_2hUp_1dUp\EMA1W
+Charts\EMA_15mDown_30mUp_2hUp_1dUp\EMA30Min
+Charts\EMA_15mDown_30mUp_2hUp_1dUp\EMA30MinETH
+Charts\EMA_15mDown_30mUp_2hUp_1dUp\Renko1D
 
-charts\EMA_15mUp_30mDown_2hUp_1dUp\EMA1W
-charts\EMA_15mUp_30mDown_2hUp_1dUp\EMA30Min
-charts\EMA_15mUp_30mDown_2hUp_1dUp\EMA30MinETH
-charts\EMA_15mUp_30mDown_2hUp_1dUp\Renko1D
+Charts\EMA_15mUp_30mDown_2hDown_1dUp\EMA1W
+Charts\EMA_15mUp_30mDown_2hDown_1dUp\EMA30Min
+Charts\EMA_15mUp_30mDown_2hDown_1dUp\EMA30MinETH
+Charts\EMA_15mUp_30mDown_2hDown_1dUp\Renko1D
 
-charts\EMA_15mUp_30mUp_2hDown_1dUp\EMA1W
-charts\EMA_15mUp_30mUp_2hDown_1dUp\EMA30Min
-charts\EMA_15mUp_30mUp_2hDown_1dUp\EMA30MinETH
-charts\EMA_15mUp_30mUp_2hDown_1dUp\Renko1D
+Charts\EMA_15mUp_30mDown_2hUp_1dUp\EMA1W
+Charts\EMA_15mUp_30mDown_2hUp_1dUp\EMA30Min
+Charts\EMA_15mUp_30mDown_2hUp_1dUp\EMA30MinETH
+Charts\EMA_15mUp_30mDown_2hUp_1dUp\Renko1D
 
-charts\EMA_30m\EMA1W
-charts\EMA_30m\EMA30Min
-charts\EMA_30m\EMA30MinETH
-charts\EMA_30m\Renko1D
+Charts\EMA_15mUp_30mUp_2hDown_1dUp\EMA1W
+Charts\EMA_15mUp_30mUp_2hDown_1dUp\EMA30Min
+Charts\EMA_15mUp_30mUp_2hDown_1dUp\EMA30MinETH
+Charts\EMA_15mUp_30mUp_2hDown_1dUp\Renko1D
 
-charts\Index\EMA1W
-charts\Index\EMA30Min
-charts\Index\EMA30MinETH
-charts\Index\Renko1D
+Charts\EMA_30m\EMA1W
+Charts\EMA_30m\EMA30Min
+Charts\EMA_30m\EMA30MinETH
+Charts\EMA_30m\Renko1D
 
-charts\Open\EMA1W
-charts\Open\EMA30Min
-charts\Open\EMA30MinETH
-charts\Open\Renko1D
+Charts\Index\EMA1W
+Charts\Index\EMA30Min
+Charts\Index\EMA30MinETH
+Charts\Index\Renko1D
 
-charts\Portfolio\EMA1W
-charts\Portfolio\EMA30Min
-charts\Portfolio\EMA30MinETH
-charts\Portfolio\Renko1D
+Charts\Open\EMA1W
+Charts\Open\EMA30Min
+Charts\Open\EMA30MinETH
+Charts\Open\Renko1D
 
-charts\SPY\EMA1W
-charts\SPY\EMA30Min
-charts\SPY\EMA30MinETH
-charts\SPY\Renko1D
+Charts\Portfolio\EMA1W
+Charts\Portfolio\EMA30Min
+Charts\Portfolio\EMA30MinETH
+Charts\Portfolio\Renko1D
 
-charts\ZLEMA UP\EMA1W
-charts\ZLEMA UP\EMA30Min
-charts\ZLEMA UP\EMA30MinETH
-charts\ZLEMA UP\Renko1D
+Charts\SPY\EMA1W
+Charts\SPY\EMA30Min
+Charts\SPY\EMA30MinETH
+Charts\SPY\Renko1D
 
-charts\ZLEMA_1D\EMA1W
-charts\ZLEMA_1D\EMA30Min
-charts\ZLEMA_1D\EMA30MinETH
-charts\ZLEMA_1D\Renko1D
+Charts\ZLEMA UP\EMA1W
+Charts\ZLEMA UP\EMA30Min
+Charts\ZLEMA UP\EMA30MinETH
+Charts\ZLEMA UP\Renko1D
+
+Charts\ZLEMA_1D\EMA1W
+Charts\ZLEMA_1D\EMA30Min
+Charts\ZLEMA_1D\EMA30MinETH
+Charts\ZLEMA_1D\Renko1D
