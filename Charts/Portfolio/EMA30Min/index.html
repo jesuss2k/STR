@@ -3,57 +3,28 @@
     <head>
         <title>Portfolio 30Min Tickers</title>
         <link rel="stylesheet" href="../../../css/indexpages.css">
-        <style>
-            body {
-                background-color: black;
-                color: white;
-                font-family: Arial, sans-serif;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                background-color: black;
-            }
-            th, td {
-                padding: 10px;
-                text-align: left;
-                border-bottom: 1px solid #444;
-            }
-            a {
-                text-decoration: none;
-                color: lightgray;
-            }
-            a:hover {
-                color: dodgerblue;
-            }
-            .light-green {
-                color: lime;
-            }
-            .green {
-                color: lightgreen;
-            }
-            .orange {
-                color: orange;
-            }
-            .red {
-                color: red;
-            }
-        </style>
     </head>
     <body>
         <header>Portfolio 30Min</header>
         <main>
         <section>
-            <h2>2024-11-23 11:20</h2>
+            <h2>2024-11-23 12:20</h2>
     
                 <section>
                     
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="AAP.html">AAP</a></td>
                             <td class="light-green">5.43%</td>
@@ -549,11 +520,13 @@
                             <td class="green">1.12%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
         </section>
         </main>
+        <script src="../../../js/script.js"></script>
     </body>
     </html>
     

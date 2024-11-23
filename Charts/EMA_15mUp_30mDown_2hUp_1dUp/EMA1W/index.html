@@ -3,67 +3,40 @@
     <head>
         <title>EMA_15mUp_30mDown_2hUp_1dUp 1W Tickers</title>
         <link rel="stylesheet" href="../../../css/indexpages.css">
-        <style>
-            body {
-                background-color: black;
-                color: white;
-                font-family: Arial, sans-serif;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                background-color: black;
-            }
-            th, td {
-                padding: 10px;
-                text-align: left;
-                border-bottom: 1px solid #444;
-            }
-            a {
-                text-decoration: none;
-                color: lightgray;
-            }
-            a:hover {
-                color: dodgerblue;
-            }
-            .light-green {
-                color: lime;
-            }
-            .green {
-                color: lightgreen;
-            }
-            .orange {
-                color: orange;
-            }
-            .red {
-                color: red;
-            }
-        </style>
     </head>
     <body>
         <header>EMA_15mUp_30mDown_2hUp_1dUp 1W</header>
         <main>
         <section>
-            <h2>2024-11-23 11:23</h2>
+            <h2>2024-11-23 12:23</h2>
     
                 <section>
                     <h3>2024-11-22</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="COIN.html">COIN</a></td>
                             <td class="light-green">3.19%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
         </section>
         </main>
+        <script src="../../../js/script.js"></script>
     </body>
     </html>
     
