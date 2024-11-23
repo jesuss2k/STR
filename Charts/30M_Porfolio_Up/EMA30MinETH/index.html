@@ -3,57 +3,28 @@
     <head>
         <title>30M_Porfolio_Up 30MinETH Tickers</title>
         <link rel="stylesheet" href="../../../css/indexpages.css">
-        <style>
-            body {
-                background-color: black;
-                color: white;
-                font-family: Arial, sans-serif;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                background-color: black;
-            }
-            th, td {
-                padding: 10px;
-                text-align: left;
-                border-bottom: 1px solid #444;
-            }
-            a {
-                text-decoration: none;
-                color: lightgray;
-            }
-            a:hover {
-                color: dodgerblue;
-            }
-            .light-green {
-                color: lime;
-            }
-            .green {
-                color: lightgreen;
-            }
-            .orange {
-                color: orange;
-            }
-            .red {
-                color: red;
-            }
-        </style>
     </head>
     <body>
         <header>30M_Porfolio_Up 30MinETH</header>
         <main>
         <section>
-            <h2>2024-11-23 11:23</h2>
+            <h2>2024-11-23 12:23</h2>
     
                 <section>
                     <h3>2024-11-15</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="TMV.html">TMV</a></td>
                             <td class="orange">-0.30%</td>
@@ -204,17 +175,25 @@
                             <td class="orange">-0.20%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
                 <section>
                     <h3>2024-11-14</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="SDS.html">SDS</a></td>
                             <td class="orange">-0.51%</td>
@@ -270,17 +249,25 @@
                             <td class="">-3.86%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
                 <section>
                     <h3>2024-11-13</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="GGLS.html">GGLS</a></td>
                             <td class="green">1.79%</td>
@@ -321,17 +308,25 @@
                             <td class="orange">-0.21%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
                 <section>
                     <h3>2024-11-12</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="CB.html">CB</a></td>
                             <td class="green">0.04%</td>
@@ -352,43 +347,61 @@
                             <td class="green">0.23%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
                 <section>
                     <h3>2024-08-23</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="VOO.html">VOO</a></td>
                             <td class="green">0.34%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
                 <section>
                     <h3>2024-08-21</h3>
-                    <table>
-                        <tr>
-                            <th>Ticker</th>
-                            <th>% Day</th>
-                        </tr>
-            
+                    <table id="sortableTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)">
+                                    Ticker <span class="sort-icon"></span>
+                                </th>
+                                <th onclick="sortTable(1)">
+                                    % Day <span class="sort-icon"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    
                         <tr>
                             <td><a href="GPS.html">GPS</a></td>
                             <td class="light-green">4.38%</td>
                         </tr>
                 
-                    </table>
+                     </tbody>
+                </table>
                 </section>
             
         </section>
         </main>
+        <script src="../../../js/script.js"></script>
     </body>
     </html>
     
