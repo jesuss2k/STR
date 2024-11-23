@@ -4,7 +4,7 @@ function sortTable(columnIndex) {
     const table = document.getElementById("sortableTable");
     const headers = table.querySelectorAll("th");
     const rows = Array.from(table.rows).slice(1); // Exclude header row
-    const isNumeric = columnIndex === 1; // Only second column is numeric
+    const isNumeric = columnIndex !== 0; // Only Ticker (column 0) is non-numeric
     const currentSortState = sortStates[columnIndex] || "asc"; // Default to ascending
 
     // Determine new sort state
@@ -26,8 +26,16 @@ function sortTable(columnIndex) {
 
     // Sort rows
     const sortedRows = rows.sort((a, b) => {
-        const aText = a.cells[columnIndex].innerText.replace('%', '');
-        const bText = b.cells[columnIndex].innerText.replace('%', '');
+        let aText = a.cells[columnIndex].innerText.replace('%', '');
+        let bText = b.cells[columnIndex].innerText.replace('%', '');
+
+        // Handle 52-week range column (parse width of the current price)
+        if (columnIndex === 2) {
+            const aBar = a.cells[columnIndex].querySelector(".current-price").style.width;
+            const bBar = b.cells[columnIndex].querySelector(".current-price").style.width;
+            aText = parseFloat(aBar);
+            bText = parseFloat(bBar);
+        }
 
         const comparison = isNumeric
             ? parseFloat(aText) - parseFloat(bText)

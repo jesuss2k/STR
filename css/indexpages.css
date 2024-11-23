@@ -67,3 +67,43 @@ a:hover {
 .red {
     color: red;
 }
+
+/* Table headers and cells remain consistent */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+/* New column will inherit the same styles as others */
+
+/* Container for 52-week range */
+.range-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Labels for min and max values */
+.range-label {
+    font-size: 0.9em;
+    color: lightgray;
+}
+
+/* Range bar styling */
+.range-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #444; /* Background for the entire range bar */
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Current price marker */
+.current-price {
+    height: 100%;
+    background-color: lightgray; /* Light gray for the progress bar */
+    border-radius: 5px;
+}
