@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #444;
+    margin-bottom: 0px;
+}
+
+.tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tab:hover,
+.tab.active {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.content {
+    padding: 2px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed; /* Fixed layout for consistent cell sizes */
+    border-collapse: separate; /* Allows rounded corners */
+    border-spacing: 0; /* Removes gaps between cells */
+    margin-top: 20px;
+    border-radius: 10px; /* Rounds the entire table */
+    overflow: hidden; /* Ensures proper clipping for rounded corners */
+    background-color: #1e1e1e; /* Slightly lighter dark for contrast */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle; /* Ensure content stays centered vertically */
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    background-color: #1e1e1e;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive Overview */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.4rem;
+    }
+}
+
+/* Close Button Styling */
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+/* Container for each item */
+.summary-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #1e1e1e; /* Slightly lighter dark for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+}
+
+/* Icon Styling */
+.icon {
+    width: 50px; /* Explicit width */
+    height: 50px; /* Explicit height */
+    border-radius: 50%; /* Ensures the icon is a perfect circle */
+    background-color: #333; /* Dark gray circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #888; /* Grayscale color for the icon */
+    filter: grayscale(100%);
+    line-height: 1; /* Prevents emoji stretching */
+}
+
+/* Specific Styles for Summary Table */
+.summary-table {
+    width: 100%;
+    table-layout: fixed; /* Fixed layout for consistent cell sizes */
+    border-collapse: separate; /* Allows rounded corners */
+    border-spacing: 0; /* Removes gaps between cells */
+    margin-top: 20px;
+    border-radius: 10px; /* Rounds the entire table */
+    overflow: hidden; /* Ensures proper clipping for rounded corners */
+    background-color: #1e1e1e; /* Slightly lighter dark for contrast */
+}
+
+.summary-table th, 
+.summary-table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle; /* Vertically center content */
+}
+
+.summary-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.summary-table td {
+    background-color: #1e1e1e;
+}
+
+/* Rounding the top corners of the table */
+.summary-table th:first-child {
+    border-top-left-radius: 10px;
+}
+.summary-table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* Rounding the bottom corners of the table */
+.summary-table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.summary-table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Text content */
+.summary-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-description {
+    font-size: 16px;
+    margin: 0;
+    color: #e0e0e0;
+}
+
+.summary-category {
+    font-size: 16px;
+    margin: 0;
+    color: #e0e0e0;
+}

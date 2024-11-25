@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Summary Table</title>
+    <style>
+        /* Dark Theme */
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Specific Styles for Summary Table */
+        .summary-table {
+            width: 100%;
+            table-layout: fixed; /* Fixed layout for consistent cell sizes */
+            border-collapse: separate; /* Allows rounded corners */
+            border-spacing: 0; /* Removes gaps between cells */
+            margin-top: 20px;
+            border-radius: 10px; /* Rounds the entire table */
+            overflow: hidden; /* Ensures proper clipping for rounded corners */
+        }
+
+        .summary-table th, 
+        .summary-table td {
+            padding: 10px;
+            text-align: left;
+            vertical-align: middle; /* Vertically center content */
+        }
+
+        .summary-table th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .summary-table td {
+            background-color: #1e1e1e;
+        }
+
+        /* Rounding the top corners of the table */
+        .summary-table th:first-child {
+            border-top-left-radius: 10px;
+        }
+        .summary-table th:last-child {
+            border-top-right-radius: 10px;
+        }
+
+        /* Rounding the bottom corners of the table */
+        .summary-table tr:last-child td:first-child {
+            border-bottom-left-radius: 10px;
+        }
+        .summary-table tr:last-child td:last-child {
+            border-bottom-right-radius: 10px;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #888;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table class="summary-table">
+        <thead>
+            <tr>
+                <th>Icon</th>
+                <th>Description</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="icon">ℹ</div>
+                </td>
+                <td>Designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories.</td>
+                <td>Hardware & Equipment</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="icon">🌐</div>
+                </td>
+                <td>Provides search engine services, cloud computing, and online advertising technologies.</td>
+                <td>Internet Services</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
