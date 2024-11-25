@@ -107,3 +107,21 @@ th, td {
     background-color: lightgray; /* Light gray for the progress bar */
     border-radius: 5px;
 }
+
+/* Style for the ticker cell */
+.ticker-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between logo and ticker text */
+}
+
+/* Style for the stock logo in a circular shape */
+.stock-logo {
+    width: 32px; /* Adjust the logo size */
+    height: 32px;
+    border-radius: 50%; /* Make it a circle */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    background-color: #222; /* Placeholder background in case of loading issues */
+    border: 1px solid #444; /* Optional: border for better visibility */
+}
+
