@@ -3,7 +3,8 @@ function loadPlot(jsonPath) {
     fetch(jsonPath)
         .then(response => response.json())
         .then(data => {
-            Plotly.react('plotly-div', data.data, data.layout);
+            const config = { displayModeBar: false }; // Disable modebar
+            Plotly.newPlot('plotly-div', data.data, data.layout, config);
         })
         .catch(error => console.error('Error loading plot:', error));
 }
