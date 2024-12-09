@@ -40,6 +40,25 @@ th.sorted .sort-icon {
     visibility: visible;
 }
 
+/* Restrict the width of the last column */
+table td:last-child {
+    width: 40px; /* Enforce a fixed width */
+    max-width: 40px; /* Prevent the column from expanding */
+    text-align: center; /* Center the content */
+    padding: 0; /* Remove any extra padding */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+/* Restrict the size of the icon in the last column */
+table td:last-child img {
+    width: 32px; /* Fixed width */
+    height: 32px; /* Fixed height */
+    display: block; /* Ensure the image behaves like a block element */
+    margin: auto; /* Center the image within the cell */
+    object-fit: contain; /* Ensure the image fits within the bounds without distortion */
+}
+
+
 /* Link styling */
 a {
     text-decoration: none;
@@ -90,6 +109,12 @@ th, td {
     color: lightgray;
 }
 
+.range-bar-container {
+    display: flex;
+    align-items: center; /* Vertically align the bar and the icon */
+    justify-content: space-between; /* Push the icon to the right */
+}
+
 /* Range bar styling */
 .range-bar {
     width: 100%;
@@ -99,6 +124,8 @@ th, td {
     overflow: hidden;
     position: relative;
     margin: 0 auto;
+    flex-grow: 1; /* Allow the range bar to take up remaining space */
+    margin-right: 10px; /* Add some space between the bar and the icon */
 }
 
 /* Current price marker */
