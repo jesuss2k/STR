@@ -1,154 +1,73 @@
-/* General body styling */
-body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STR</title>
+    <link rel="stylesheet" href="indexpages.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h2 class="title">Open</h2>
+            <ul>
+                <li><a href="Open_Positions_Variation.html">Open Positions Variation</a></li>
+                <li><a href="candlestick_chart_Open.html">Candlestick Chart</a></li>
+                <li><a href="Charts/Open/EMA1D/Index.html">Open</a></li>
+                <li><a href="Charts/30M_Open_Down/EMA1D/Index.html">Open Down</a></li>
+                <li><a href="Charts/30M_Open_Up/EMA1D/Index.html">Open Up</a></li>
+            </ul>
+        </section>
 
-/* Table styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: black;
-}
+        <section>
+            <h2 class="title">Portfolio</h2>
+            <ul>
+                <li><a href="Charts/30M_Porfolio_Up/EMA1D/Index.html">Portfolio Up</a></li>
+                <li><a href="Charts/Portfolio/EMA1D/Index.html">Portfolio</a></li>
+                <li><a href="Charts/ZLEMA UP/EMA1D/Index.html">ZLEMA UP</a></li>
+            </ul>
+        </section>
 
-/* Table headers and cells */
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #444;
-}
-
-/* Header styling */
-th {
-    cursor: pointer;
-    position: relative;
-}
-
-/* Sort icon styling */
-th .sort-icon {
-    margin-left: 5px;
-    width: 12px; /* Reserve space for icons */
-    display: inline-block; /* Keep consistent width */
-    text-align: center;
-    color: lightgray;
-    visibility: hidden; /* Initially hidden */
-}
-
-/* Show the sort icon for the currently sorted column */
-th.sorted .sort-icon {
-    visibility: visible;
-}
-
-/* Restrict the width of the last column */
-table td:last-child {
-    width: 40px; /* Enforce a fixed width */
-    max-width: 40px; /* Prevent the column from expanding */
-    text-align: center; /* Center the content */
-    padding: 0; /* Remove any extra padding */
-    overflow: hidden; /* Ensure content doesn't overflow */
-}
-
-/* Restrict the size of the icon in the last column */
-table td:last-child img {
-    width: 32px; /* Fixed width */
-    height: 32px; /* Fixed height */
-    display: block; /* Ensure the image behaves like a block element */
-    margin: auto; /* Center the image within the cell */
-    object-fit: contain; /* Ensure the image fits within the bounds without distortion */
-}
-
-
-/* Link styling */
-a {
-    text-decoration: none;
-    color: lightgray;
-}
-
-/* Link hover effect */
-a:hover {
-    color: dodgerblue;
-}
-
-/* Color classes */
-.light-green {
-    color: lime;
-}
-
-.green {
-    color: lightgreen;
-}
-
-.orange {
-    color: orange;
-}
-
-.red {
-    color: red;
-}
-
-/* Table headers and cells remain consistent */
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #444;
-}
-
-/* New column will inherit the same styles as others */
-
-/* Container for 52-week range */
-.range-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-/* Labels for min and max values */
-.range-label {
-    font-size: 0.9em;
-    color: lightgray;
-}
-
-.range-bar-container {
-    display: flex;
-    align-items: center; /* Vertically align the bar and the icon */
-    justify-content: space-between; /* Push the icon to the right */
-}
-
-/* Range bar styling */
-.range-bar {
-    width: 100%;
-    height: 10px;
-    background-color: #444; /* Background for the entire range bar */
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-    flex-grow: 1; /* Allow the range bar to take up remaining space */
-    margin-right: 10px; /* Add some space between the bar and the icon */
-}
-
-/* Current price marker */
-.current-price {
-    height: 100%;
-    background-color: lightgray; /* Light gray for the progress bar */
-    border-radius: 5px;
-}
-
-/* Style for the ticker cell */
-.ticker-cell {
-    display: flex;
-    align-items: center;
-    gap: 8px; /* Space between logo and ticker text */
-}
-
-/* Style for the stock logo in a circular shape */
-.stock-logo {
-    width: 32px; /* Adjust the logo size */
-    height: 32px;
-    border-radius: 50%; /* Make it a circle */
-    object-fit: cover; /* Ensure the image fits within the circle */
-    background-color: #222; /* Placeholder background in case of loading issues */
-    border: 1px solid #444; /* Optional: border for better visibility */
-}
-
+        <section>
+            <h2 class="title">EMA</h2>
+            <ul>
+                <li><a href="Charts/EMA_12/EMA1D/Index.html"><span class="green">EMA 12</span></a></li>
+                <li><a href="Charts/EMA_15mUp_30mDown_2hDown_1dUp/EMA1D/Index.html">
+                    <span class="green">15m</span>
+                    <span class="red">30m</span>
+                    <span class="red">2h</span>
+                    <span class="green">1d</span>
+                </a></li>
+                <li><a href="Charts/EMA_15mUp_30mDown_2hUp_1dUp/EMA1D/Index.html">
+                    <span class="green">15m</span>
+                    <span class="red">30m</span>
+                    <span class="green">2h</span>
+                    <span class="green">1d</span>
+                </a></li>
+                <li><a href="Charts/EMA_15mUp_30mUp_2hUp_1dUp/EMA1D/Index.html">
+                    <span class="green">15m</span>
+                    <span class="green">30m</span>
+                    <span class="green">2h</span>
+                    <span class="green">1d</span>
+                </a></li>
+                <li><a href="Charts/EMA_15mUp_30mUp_2hDown_1dUp/EMA1D/Index.html">
+                    <span class="green">15m</span>
+                    <span class="green">30m</span>
+                    <span class="red">2h</span>
+                    <span class="green">1d</span>
+                </a></li>
+                <li><a href="Charts/EMA_15mDown_30mUp_2hUp_1dUp/EMA1D/Index.html">
+                    <span class="red">15m</span>
+                    <span class="green">30m</span>
+                    <span class="green">2h</span>
+                    <span class="green">1d</span>
+                </a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>
