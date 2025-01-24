@@ -1,1 +1,111 @@
-<html><head><title>MNDY - 1D</title><link rel=stylesheet href=../../css/chart.css><script src=https://cdn.plot.ly/plotly-latest.min.js></script><script src=../../js/chart.js></script></head><body><div id=plotly-div></div><div id=home-link><a href=index.html title=Home>&#8962;</a></div><div id=stock-logo><a href=../../summaries/MNDY.html title=Summary><img src=https://s3-symbol-logo.tradingview.com/monday-com.svg class=stock-logo></a></div><div class="nav-arrow left"><a href=MMYT.html style="color: white; text-decoration: none;">&larr;</a></div><div class="nav-arrow right"><a href=ORCL.html style="color: white; text-decoration: none;">&rarr;</a></div><div id=other-menus><a href=# id=menu-caption>&#9650; EMA 1D</a><div id=menu-options><a href=# onclick="loadPlot('../../charts/JSON/EMA1D/MNDY.json')">EMA 1D</a><a href=# onclick="loadImage('../../charts/Renko1D/MNDY.png')">Renko 1D</a><a href=# onclick="loadImage('../../chartsl/Renko1h/MNDY.png')">Renko 1h</a><a href=# onclick="loadPlot('../../chartsl/JSON/EMA1W/MNDY.json')">EMA 1W</a><a href=# onclick="loadPlot('../../chartsl/JSON/EMA30Min/MNDY.json')">EMA 30m</a><a href=# onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/MNDY.json')">EMA 30m ETH</a></div><script> document.addEventListener('keydown', function(event) { switch(event.keyCode) { case 37: window.location.href = 'MMYT.html'; break; case 39: window.location.href = 'ORCL.html'; break; case 49: window.location.href = 'index.html'; break; case 50: loadPlot('../../charts/JSON/EMA1D/MNDY.json'); break; case 51: loadImage('../../charts/Renko1D/MNDY.png'); break; case 52: loadImage('../../chartsl/Renko1h/MNDY.png'); break; case 53: loadPlot('../../chartsl/JSON/Renko1D_100/MNDY.json'); break; case 54: loadPlot('../../chartsl/JSON/EMA1W/MNDY.json'); break; case 55: loadPlot('../../chartsl/JSON/EMA30Min/MNDY.json'); break; case 56: loadPlot('../../charts/JSON/EMA30MinETH/MNDY.json'); break; } }); document.addEventListener('DOMContentLoaded', function() { initSwipeNavigation({ swipeLeftUrl: 'ORCL.html', swipeRightUrl: 'MMYT.html' }); }); </script><script> document.addEventListener('DOMContentLoaded', function () { loadPlot('../../charts/JSON/EMA1W/MNDY.json'); }); </script></body></html>
+
+        <html>
+        <head>
+            <title>MNDY - 1D</title>
+            <link rel="stylesheet" href="../../css/chart.css">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="../../js/chart.js"></script>
+        </head>
+        <body>
+            <div id="plotly-div"></div>
+            
+    <div id="home-link">
+        <a href="index.html" title="Home">&#8962;</a>
+    </div>
+    <div id="stock-logo">
+        <a href="../../summaries/MNDY.html" title="Summary">
+            <img src="https://s3-symbol-logo.tradingview.com/monday-com.svg" class="stock-logo">
+        </a>
+    </div>
+    <div class="nav-arrow left">
+        <a href="MMYT.html" style="color: white; text-decoration: none;">&larr;</a>
+    </div>
+    <div class="nav-arrow right">
+        <a href="ORCL.html" style="color: white; text-decoration: none;">&rarr;</a>
+    </div>
+
+    <div id="other-menus">
+        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <div id="menu-options" style="display: none;">
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/MNDY.json')">EMA 1D</a>
+            <a href="#" onclick="loadImage('../../charts/Renko1D/MNDY.png')">Renko 1D</a>
+            <a href="#" onclick="loadImage('../../chartsl/Renko1h/MNDY.png')">Renko 1h</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/MNDY.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/MNDY.json')">EMA 30m</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/MNDY.json')">EMA 30m ETH</a>
+        </div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            switch(event.keyCode) {
+                case 37: window.location.href = 'MMYT.html'; break;
+                case 39: window.location.href = 'ORCL.html'; break;
+                case 49: window.location.href = 'index.html'; break;
+                case 50: loadPlot('../../charts/JSON/EMA1D/MNDY.json'); break;
+                case 51: loadImage('../../charts/Renko1D/MNDY.png'); break;
+                case 52: loadImage('../../chartsl/Renko1h/MNDY.png'); break;
+                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/MNDY.json'); break;
+                case 54: loadPlot('../../chartsl/JSON/EMA1W/MNDY.json'); break;
+                case 55: loadPlot('../../chartsl/JSON/EMA30Min/MNDY.json'); break;
+                case 56: loadPlot('../../charts/JSON/EMA30MinETH/MNDY.json'); break;
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            initSwipeNavigation({
+                swipeLeftUrl: 'ORCL.html',
+                swipeRightUrl: 'MMYT.html'
+            });
+
+            const menuCaption = document.getElementById('menu-caption');
+            const menuOptions = document.getElementById('menu-options');
+    
+            console.log("DOM fully loaded. Initializing menu...");
+    
+            /* Initialize state variable */
+            let isMenuOpen = false;
+    
+            /* Check localStorage for the saved display state */
+            const savedDisplayState = localStorage.getItem('menuDisplayState');
+            console.log("Saved display state from localStorage:", savedDisplayState);
+    
+            if (savedDisplayState === 'block') {
+                menuOptions.style.display = 'block';
+                isMenuOpen = true;
+                console.log("Menu initialized as open.");
+            } else {
+                menuOptions.style.display = 'none';
+                isMenuOpen = false;
+                console.log("Menu initialized as closed.");
+            }
+    
+            /* Toggle the menu display and save the state */
+            menuCaption.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                /* Toggle the menu state */
+                if (isMenuOpen) {
+                    menuOptions.style.display = 'none';
+                    localStorage.setItem('menuDisplayState', 'none');
+                    isMenuOpen = false;
+                    console.log("Menu closed. New state saved: 'none'");
+                } else {
+                    menuOptions.style.display = 'block';
+                    localStorage.setItem('menuDisplayState', 'block');
+                    isMenuOpen = true;
+                    console.log("Menu opened. New state saved: 'block'");
+                }
+            });
+        });
+    </script>
+
+    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    /*loadImage('../../charts/Renko1D/MNDY.png');
+                    loadPlot('../../charts/JSON/EMA1D/MNDY.json');*/
+                    loadPlot('../../charts/JSON/EMA1W/MNDY.json');
+                });
+            </script>
+        </body>
+        </html>
+        
