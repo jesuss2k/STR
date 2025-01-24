@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="INSM.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="GE.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="MIRM.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'INSM.html'; break;
+                case 37: window.location.href = 'GE.html'; break;
                 case 39: window.location.href = 'MIRM.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/KYMR.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'MIRM.html',
-                swipeRightUrl: 'INSM.html'
+                swipeRightUrl: 'GE.html'
             });
 
             const menuCaption = document.getElementById('menu-caption');

@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="SMAR.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="PG.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="EBAY.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="ZUO.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'SMAR.html'; break;
-                case 39: window.location.href = 'EBAY.html'; break;
+                case 37: window.location.href = 'PG.html'; break;
+                case 39: window.location.href = 'ZUO.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/TYO.json'); break;
                 case 51: loadImage('../../charts/Renko1D/TYO.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'EBAY.html',
-                swipeRightUrl: 'SMAR.html'
+                swipeLeftUrl: 'ZUO.html',
+                swipeRightUrl: 'PG.html'
             });
 
             const menuCaption = document.getElementById('menu-caption');
