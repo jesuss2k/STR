@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="ECL.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="IWM.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="LULU.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="WBD.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'ECL.html'; break;
-                case 39: window.location.href = 'LULU.html'; break;
+                case 37: window.location.href = 'IWM.html'; break;
+                case 39: window.location.href = 'WBD.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/FLUT.json'); break;
                 case 51: loadImage('../../charts/Renko1D/FLUT.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'LULU.html',
-                swipeRightUrl: 'ECL.html'
+                swipeLeftUrl: 'WBD.html',
+                swipeRightUrl: 'IWM.html'
             });
 
             const menuCaption = document.getElementById('menu-caption');
