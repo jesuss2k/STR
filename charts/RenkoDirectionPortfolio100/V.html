@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="BIDU.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="TGT.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="LMT.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'BIDU.html'; break;
+                case 37: window.location.href = 'TGT.html'; break;
                 case 39: window.location.href = 'LMT.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/V.json'); break;
@@ -53,48 +53,10 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'LMT.html',
-                swipeRightUrl: 'BIDU.html'
+                swipeRightUrl: 'TGT.html'
             });
 
-            const menuCaption = document.getElementById('menu-caption');
-            const menuOptions = document.getElementById('menu-options');
-    
-            console.log("DOM fully loaded. Initializing menu...");
-    
-            /* Initialize state variable */
-            let isMenuOpen = false;
-    
-            /* Check localStorage for the saved display state */
-            const savedDisplayState = localStorage.getItem('menuDisplayState');
-            console.log("Saved display state from localStorage:", savedDisplayState);
-    
-            if (savedDisplayState === 'block') {
-                menuOptions.style.display = 'block';
-                isMenuOpen = true;
-                console.log("Menu initialized as open.");
-            } else {
-                menuOptions.style.display = 'none';
-                isMenuOpen = false;
-                console.log("Menu initialized as closed.");
-            }
-    
-            /* Toggle the menu display and save the state */
-            menuCaption.addEventListener('click', function (e) {
-                e.preventDefault();
-    
-                /* Toggle the menu state */
-                if (isMenuOpen) {
-                    menuOptions.style.display = 'none';
-                    localStorage.setItem('menuDisplayState', 'none');
-                    isMenuOpen = false;
-                    console.log("Menu closed. New state saved: 'none'");
-                } else {
-                    menuOptions.style.display = 'block';
-                    localStorage.setItem('menuDisplayState', 'block');
-                    isMenuOpen = true;
-                    console.log("Menu opened. New state saved: 'block'");
-                }
-            });
+            initializeMenuLogic();
         });
     </script>
 

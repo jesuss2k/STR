@@ -56,45 +56,7 @@
                 swipeRightUrl: 'HES.html'
             });
 
-            const menuCaption = document.getElementById('menu-caption');
-            const menuOptions = document.getElementById('menu-options');
-    
-            console.log("DOM fully loaded. Initializing menu...");
-    
-            /* Initialize state variable */
-            let isMenuOpen = false;
-    
-            /* Check localStorage for the saved display state */
-            const savedDisplayState = localStorage.getItem('menuDisplayState');
-            console.log("Saved display state from localStorage:", savedDisplayState);
-    
-            if (savedDisplayState === 'block') {
-                menuOptions.style.display = 'block';
-                isMenuOpen = true;
-                console.log("Menu initialized as open.");
-            } else {
-                menuOptions.style.display = 'none';
-                isMenuOpen = false;
-                console.log("Menu initialized as closed.");
-            }
-    
-            /* Toggle the menu display and save the state */
-            menuCaption.addEventListener('click', function (e) {
-                e.preventDefault();
-    
-                /* Toggle the menu state */
-                if (isMenuOpen) {
-                    menuOptions.style.display = 'none';
-                    localStorage.setItem('menuDisplayState', 'none');
-                    isMenuOpen = false;
-                    console.log("Menu closed. New state saved: 'none'");
-                } else {
-                    menuOptions.style.display = 'block';
-                    localStorage.setItem('menuDisplayState', 'block');
-                    isMenuOpen = true;
-                    console.log("Menu opened. New state saved: 'block'");
-                }
-            });
+            initializeMenuLogic();
         });
     </script>
 
