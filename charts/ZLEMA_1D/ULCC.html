@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="DXCM.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="GCT.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="TD.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="MDB.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'DXCM.html'; break;
-                case 39: window.location.href = 'TD.html'; break;
+                case 37: window.location.href = 'GCT.html'; break;
+                case 39: window.location.href = 'MDB.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/ULCC.json'); break;
                 case 51: loadImage('../../charts/Renko1D/ULCC.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'TD.html',
-                swipeRightUrl: 'DXCM.html'
+                swipeLeftUrl: 'MDB.html',
+                swipeRightUrl: 'GCT.html'
             });
 
             initializeMenuLogic();
