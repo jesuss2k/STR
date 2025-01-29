@@ -21,7 +21,7 @@
         <a href="ADSK.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="DIA.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="TECS.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'ADSK.html'; break;
-                case 39: window.location.href = 'DIA.html'; break;
+                case 39: window.location.href = 'TECS.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/TD.json'); break;
                 case 51: loadImage('../../charts/Renko1D/TD.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'DIA.html',
+                swipeLeftUrl: 'TECS.html',
                 swipeRightUrl: 'ADSK.html'
             });
 
