@@ -21,7 +21,7 @@
         <a href="CCL.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="HIMS.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="EL.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'CCL.html'; break;
-                case 39: window.location.href = 'HIMS.html'; break;
+                case 39: window.location.href = 'EL.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/RYAAY.json'); break;
                 case 51: loadImage('../../charts/Renko1D/RYAAY.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'HIMS.html',
+                swipeLeftUrl: 'EL.html',
                 swipeRightUrl: 'CCL.html'
             });
 
