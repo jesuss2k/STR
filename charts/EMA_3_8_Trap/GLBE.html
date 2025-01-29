@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="PFGC.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="HOOD.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="GTLB.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'PFGC.html'; break;
+                case 37: window.location.href = 'HOOD.html'; break;
                 case 39: window.location.href = 'GTLB.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/GLBE.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'GTLB.html',
-                swipeRightUrl: 'PFGC.html'
+                swipeRightUrl: 'HOOD.html'
             });
 
             initializeMenuLogic();
