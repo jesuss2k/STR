@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="TGT.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="WMT.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="WMT.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="UDOW.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'TGT.html'; break;
-                case 39: window.location.href = 'WMT.html'; break;
+                case 37: window.location.href = 'WMT.html'; break;
+                case 39: window.location.href = 'UDOW.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/ALK.json'); break;
                 case 51: loadImage('../../charts/Renko1D/ALK.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'WMT.html',
-                swipeRightUrl: 'TGT.html'
+                swipeLeftUrl: 'UDOW.html',
+                swipeRightUrl: 'WMT.html'
             });
 
             initializeMenuLogic();
