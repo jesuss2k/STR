@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="BBY.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="CCL.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="ORCL.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="GRBK.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'BBY.html'; break;
-                case 39: window.location.href = 'ORCL.html'; break;
+                case 37: window.location.href = 'CCL.html'; break;
+                case 39: window.location.href = 'GRBK.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/GDX.json'); break;
                 case 51: loadImage('../../charts/Renko1D/GDX.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'ORCL.html',
-                swipeRightUrl: 'BBY.html'
+                swipeLeftUrl: 'GRBK.html',
+                swipeRightUrl: 'CCL.html'
             });
 
             initializeMenuLogic();
