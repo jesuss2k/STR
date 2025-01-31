@@ -21,7 +21,7 @@
         <a href="CELH.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="SMTC.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="SQ.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'CELH.html'; break;
-                case 39: window.location.href = 'SMTC.html'; break;
+                case 39: window.location.href = 'SQ.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/WSM.json'); break;
                 case 51: loadImage('../../charts/Renko1D/WSM.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'SMTC.html',
+                swipeLeftUrl: 'SQ.html',
                 swipeRightUrl: 'CELH.html'
             });
 

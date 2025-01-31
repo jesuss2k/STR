@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="NFLX.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="NET.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="NTNX.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'NFLX.html'; break;
+                case 37: window.location.href = 'NET.html'; break;
                 case 39: window.location.href = 'NTNX.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/NMHI.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'NTNX.html',
-                swipeRightUrl: 'NFLX.html'
+                swipeRightUrl: 'NET.html'
             });
 
             initializeMenuLogic();
