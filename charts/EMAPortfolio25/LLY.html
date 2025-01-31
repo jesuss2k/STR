@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="KLAC.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="RCL.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="COST.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'KLAC.html'; break;
+                case 37: window.location.href = 'RCL.html'; break;
                 case 39: window.location.href = 'COST.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/LLY.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'COST.html',
-                swipeRightUrl: 'KLAC.html'
+                swipeRightUrl: 'RCL.html'
             });
 
             initializeMenuLogic();
