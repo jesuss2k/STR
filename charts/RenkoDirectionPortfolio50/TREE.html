@@ -21,7 +21,7 @@
         <a href="TMV.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="IWM.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="SPY.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'TMV.html'; break;
-                case 39: window.location.href = 'IWM.html'; break;
+                case 39: window.location.href = 'SPY.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/TREE.json'); break;
                 case 51: loadImage('../../charts/Renko1D/TREE.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'IWM.html',
+                swipeLeftUrl: 'SPY.html',
                 swipeRightUrl: 'TMV.html'
             });
 
