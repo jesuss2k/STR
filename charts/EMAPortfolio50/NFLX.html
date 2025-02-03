@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="COST.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="AXON.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="TEAM.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="COST.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/NFLX.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/NFLX.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/NFLX.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/NFLX.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/NFLX.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/NFLX.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/NFLX.json')">EMA 30m ETH</a>
         </div>
@@ -38,22 +38,22 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'COST.html'; break;
-                case 39: window.location.href = 'TEAM.html'; break;
+                case 37: window.location.href = 'AXON.html'; break;
+                case 39: window.location.href = 'COST.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/NFLX.json'); break;
                 case 51: loadImage('../../charts/Renko1D/NFLX.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/NFLX.png'); break;
                 case 53: loadPlot('../../chartsl/JSON/Renko1D_100/NFLX.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA1W/NFLX.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/NFLX.json'); break;
                 case 55: loadPlot('../../chartsl/JSON/EMA30Min/NFLX.json'); break;
-                case 56: loadPlot('../../charts/JSON/EMA30MinETH/NFLX.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/NFLX.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'TEAM.html',
-                swipeRightUrl: 'COST.html'
+                swipeLeftUrl: 'COST.html',
+                swipeRightUrl: 'AXON.html'
             });
 
             initializeMenuLogic();
