@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="HPE.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="GOOG.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="HIMS.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'HPE.html'; break;
+                case 37: window.location.href = 'GOOG.html'; break;
                 case 39: window.location.href = 'HIMS.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/GOOGL.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'HIMS.html',
-                swipeRightUrl: 'HPE.html'
+                swipeRightUrl: 'GOOG.html'
             });
 
             initializeMenuLogic();
