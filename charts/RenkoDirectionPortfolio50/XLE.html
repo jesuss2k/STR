@@ -21,7 +21,7 @@
         <a href="YOU.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="POWL.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="LNG.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/XLE.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/XLE.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/XLE.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/XLE.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/XLE.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/XLE.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/XLE.json')">EMA 30m ETH</a>
         </div>
@@ -39,20 +39,20 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'YOU.html'; break;
-                case 39: window.location.href = 'POWL.html'; break;
+                case 39: window.location.href = 'LNG.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/XLE.json'); break;
                 case 51: loadImage('../../charts/Renko1D/XLE.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/XLE.png'); break;
                 case 53: loadPlot('../../chartsl/JSON/Renko1D_100/XLE.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA1W/XLE.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/XLE.json'); break;
                 case 55: loadPlot('../../chartsl/JSON/EMA30Min/XLE.json'); break;
-                case 56: loadPlot('../../charts/JSON/EMA30MinETH/XLE.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/XLE.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'POWL.html',
+                swipeLeftUrl: 'LNG.html',
                 swipeRightUrl: 'YOU.html'
             });
 

@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="SNOW.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="SQQQ.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="NFLX.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="TD.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/MNDY.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/MNDY.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/MNDY.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/MNDY.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/MNDY.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/MNDY.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/MNDY.json')">EMA 30m ETH</a>
         </div>
@@ -38,22 +38,22 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'SNOW.html'; break;
-                case 39: window.location.href = 'NFLX.html'; break;
+                case 37: window.location.href = 'SQQQ.html'; break;
+                case 39: window.location.href = 'TD.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/MNDY.json'); break;
                 case 51: loadImage('../../charts/Renko1D/MNDY.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/MNDY.png'); break;
                 case 53: loadPlot('../../chartsl/JSON/Renko1D_100/MNDY.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA1W/MNDY.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/MNDY.json'); break;
                 case 55: loadPlot('../../chartsl/JSON/EMA30Min/MNDY.json'); break;
-                case 56: loadPlot('../../charts/JSON/EMA30MinETH/MNDY.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/MNDY.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'NFLX.html',
-                swipeRightUrl: 'SNOW.html'
+                swipeLeftUrl: 'TD.html',
+                swipeRightUrl: 'SQQQ.html'
             });
 
             initializeMenuLogic();

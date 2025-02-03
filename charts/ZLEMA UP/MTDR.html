@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="LABU.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="PHR.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="BBY.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="RCL.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/MTDR.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/MTDR.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/MTDR.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/MTDR.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/MTDR.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/MTDR.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/MTDR.json')">EMA 30m ETH</a>
         </div>
@@ -38,22 +38,22 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'LABU.html'; break;
-                case 39: window.location.href = 'BBY.html'; break;
+                case 37: window.location.href = 'PHR.html'; break;
+                case 39: window.location.href = 'RCL.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/MTDR.json'); break;
                 case 51: loadImage('../../charts/Renko1D/MTDR.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/MTDR.png'); break;
                 case 53: loadPlot('../../chartsl/JSON/Renko1D_100/MTDR.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA1W/MTDR.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/MTDR.json'); break;
                 case 55: loadPlot('../../chartsl/JSON/EMA30Min/MTDR.json'); break;
-                case 56: loadPlot('../../charts/JSON/EMA30MinETH/MTDR.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/MTDR.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'BBY.html',
-                swipeRightUrl: 'LABU.html'
+                swipeLeftUrl: 'RCL.html',
+                swipeRightUrl: 'PHR.html'
             });
 
             initializeMenuLogic();

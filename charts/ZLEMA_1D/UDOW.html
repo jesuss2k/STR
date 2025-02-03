@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="YEXT.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="DXCM.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="WDC.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="MA.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/UDOW.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/UDOW.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/UDOW.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/UDOW.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/UDOW.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/UDOW.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/UDOW.json')">EMA 30m ETH</a>
         </div>
@@ -38,22 +38,22 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'YEXT.html'; break;
-                case 39: window.location.href = 'WDC.html'; break;
+                case 37: window.location.href = 'DXCM.html'; break;
+                case 39: window.location.href = 'MA.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/UDOW.json'); break;
                 case 51: loadImage('../../charts/Renko1D/UDOW.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/UDOW.png'); break;
                 case 53: loadPlot('../../chartsl/JSON/Renko1D_100/UDOW.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA1W/UDOW.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/UDOW.json'); break;
                 case 55: loadPlot('../../chartsl/JSON/EMA30Min/UDOW.json'); break;
-                case 56: loadPlot('../../charts/JSON/EMA30MinETH/UDOW.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/UDOW.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'WDC.html',
-                swipeRightUrl: 'YEXT.html'
+                swipeLeftUrl: 'MA.html',
+                swipeRightUrl: 'DXCM.html'
             });
 
             initializeMenuLogic();

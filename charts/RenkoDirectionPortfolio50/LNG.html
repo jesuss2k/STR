@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="SOXX.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="XLE.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="HES.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="HPE.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/LNG.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/LNG.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/LNG.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/LNG.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/LNG.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/LNG.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/LNG.json')">EMA 30m ETH</a>
         </div>
@@ -38,22 +38,22 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'SOXX.html'; break;
-                case 39: window.location.href = 'HES.html'; break;
+                case 37: window.location.href = 'XLE.html'; break;
+                case 39: window.location.href = 'HPE.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/LNG.json'); break;
                 case 51: loadImage('../../charts/Renko1D/LNG.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/LNG.png'); break;
                 case 53: loadPlot('../../chartsl/JSON/Renko1D_100/LNG.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA1W/LNG.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/LNG.json'); break;
                 case 55: loadPlot('../../chartsl/JSON/EMA30Min/LNG.json'); break;
-                case 56: loadPlot('../../charts/JSON/EMA30MinETH/LNG.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/LNG.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'HES.html',
-                swipeRightUrl: 'SOXX.html'
+                swipeLeftUrl: 'HPE.html',
+                swipeRightUrl: 'XLE.html'
             });
 
             initializeMenuLogic();
