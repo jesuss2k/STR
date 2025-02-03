@@ -21,7 +21,7 @@
         <a href="META.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="MAMA.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="WDC.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'META.html'; break;
-                case 39: window.location.href = 'MAMA.html'; break;
+                case 39: window.location.href = 'WDC.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/APLD.json'); break;
                 case 51: loadImage('../../charts/Renko1D/APLD.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'MAMA.html',
+                swipeLeftUrl: 'WDC.html',
                 swipeRightUrl: 'META.html'
             });
 
