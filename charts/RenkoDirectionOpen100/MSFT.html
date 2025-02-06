@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="NVDA.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="CROX.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="CAT.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="ABNB.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'NVDA.html'; break;
-                case 39: window.location.href = 'CAT.html'; break;
+                case 37: window.location.href = 'CROX.html'; break;
+                case 39: window.location.href = 'ABNB.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/MSFT.json'); break;
                 case 51: loadImage('../../charts/Renko1D/MSFT.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'CAT.html',
-                swipeRightUrl: 'NVDA.html'
+                swipeLeftUrl: 'ABNB.html',
+                swipeRightUrl: 'CROX.html'
             });
 
             initializeMenuLogic();
