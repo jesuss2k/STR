@@ -21,7 +21,7 @@
         <a href="LULU.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="AMZN.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="ASPN.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'LULU.html'; break;
-                case 39: window.location.href = 'AMZN.html'; break;
+                case 39: window.location.href = 'ASPN.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/DAKT.json'); break;
                 case 51: loadImage('../../charts/Renko1D/DAKT.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'AMZN.html',
+                swipeLeftUrl: 'ASPN.html',
                 swipeRightUrl: 'LULU.html'
             });
 
