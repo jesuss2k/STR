@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="TJX.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="CSCO.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="INSM.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="CTLP.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'TJX.html'; break;
-                case 39: window.location.href = 'INSM.html'; break;
+                case 37: window.location.href = 'CSCO.html'; break;
+                case 39: window.location.href = 'CTLP.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/BIDU.json'); break;
                 case 51: loadImage('../../charts/Renko1D/BIDU.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'INSM.html',
-                swipeRightUrl: 'TJX.html'
+                swipeLeftUrl: 'CTLP.html',
+                swipeRightUrl: 'CSCO.html'
             });
 
             initializeMenuLogic();
