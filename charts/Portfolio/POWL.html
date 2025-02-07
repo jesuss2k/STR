@@ -1,14 +1,14 @@
 
-    <html>
-    <head>
-        <title>POWL - 1D</title>
-        <link rel="stylesheet" href="../../css/chart.css">
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="../../js/chart.js"></script>
-    </head>
-    <body>
-        <div id="plotly-div"></div>
-        
+        <html>
+        <head>
+            <title>POWL - 1D</title>
+            <link rel="stylesheet" href="../../css/chart.css">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="../../js/chart.js"></script>
+        </head>
+        <body>
+            <div id="plotly-div"></div>
+            
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="PFE.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="PLTR.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="PSN.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/POWL.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/POWL.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/POWL.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/POWL.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/POWL.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/POWL.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/POWL.json')">EMA 30m ETH</a>
         </div>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'PFE.html'; break;
+                case 37: window.location.href = 'PLTR.html'; break;
                 case 39: window.location.href = 'PSN.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/POWL.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'PSN.html',
-                swipeRightUrl: 'PFE.html'
+                swipeRightUrl: 'PLTR.html'
             });
 
             initializeMenuLogic();
@@ -61,13 +61,13 @@
     </script>
 
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/POWL.png');
-                loadPlot('../../charts/JSON/EMA1D/POWL.json');*/
-                loadPlot('../../charts/JSON/EMA1W/POWL.json');
-            });
-        </script>
-    </body>
-    </html>
-    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    /*loadImage('../../charts/Renko1D/POWL.png');
+                    loadPlot('../../charts/JSON/EMA1D/POWL.json');*/
+                    loadPlot('../../charts/JSON/EMA1W/POWL.json');
+                });
+            </script>
+        </body>
+        </html>
+        

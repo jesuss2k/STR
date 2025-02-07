@@ -1,14 +1,14 @@
 
-    <html>
-    <head>
-        <title>GRBK - 1D</title>
-        <link rel="stylesheet" href="../../css/chart.css">
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="../../js/chart.js"></script>
-    </head>
-    <body>
-        <div id="plotly-div"></div>
-        
+        <html>
+        <head>
+            <title>GRBK - 1D</title>
+            <link rel="stylesheet" href="../../css/chart.css">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="../../js/chart.js"></script>
+        </head>
+        <body>
+            <div id="plotly-div"></div>
+            
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="GPN.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="GPRO.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="HES.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="GTLB.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/GRBK.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/GRBK.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/GRBK.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/GRBK.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/GRBK.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/GRBK.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/GRBK.json')">EMA 30m ETH</a>
         </div>
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'GPN.html'; break;
-                case 39: window.location.href = 'HES.html'; break;
+                case 37: window.location.href = 'GPRO.html'; break;
+                case 39: window.location.href = 'GTLB.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/GRBK.json'); break;
                 case 51: loadImage('../../charts/Renko1D/GRBK.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'HES.html',
-                swipeRightUrl: 'GPN.html'
+                swipeLeftUrl: 'GTLB.html',
+                swipeRightUrl: 'GPRO.html'
             });
 
             initializeMenuLogic();
@@ -61,13 +61,13 @@
     </script>
 
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/GRBK.png');
-                loadPlot('../../charts/JSON/EMA1D/GRBK.json');*/
-                loadPlot('../../charts/JSON/EMA1W/GRBK.json');
-            });
-        </script>
-    </body>
-    </html>
-    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    /*loadImage('../../charts/Renko1D/GRBK.png');
+                    loadPlot('../../charts/JSON/EMA1D/GRBK.json');*/
+                    loadPlot('../../charts/JSON/EMA1W/GRBK.json');
+                });
+            </script>
+        </body>
+        </html>
+        
