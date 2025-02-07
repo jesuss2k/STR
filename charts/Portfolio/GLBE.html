@@ -1,14 +1,14 @@
 
-    <html>
-    <head>
-        <title>GLBE - 1D</title>
-        <link rel="stylesheet" href="../../css/chart.css">
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="../../js/chart.js"></script>
-    </head>
-    <body>
-        <div id="plotly-div"></div>
-        
+        <html>
+        <head>
+            <title>GLBE - 1D</title>
+            <link rel="stylesheet" href="../../css/chart.css">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="../../js/chart.js"></script>
+        </head>
+        <body>
+            <div id="plotly-div"></div>
+            
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -21,7 +21,7 @@
         <a href="GGLS.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="GPN.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="GM.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/GLBE.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/GLBE.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/GLBE.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/GLBE.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/GLBE.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/GLBE.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/GLBE.json')">EMA 30m ETH</a>
         </div>
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'GGLS.html'; break;
-                case 39: window.location.href = 'GPN.html'; break;
+                case 39: window.location.href = 'GM.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/GLBE.json'); break;
                 case 51: loadImage('../../charts/Renko1D/GLBE.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'GPN.html',
+                swipeLeftUrl: 'GM.html',
                 swipeRightUrl: 'GGLS.html'
             });
 
@@ -61,13 +61,13 @@
     </script>
 
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/GLBE.png');
-                loadPlot('../../charts/JSON/EMA1D/GLBE.json');*/
-                loadPlot('../../charts/JSON/EMA1W/GLBE.json');
-            });
-        </script>
-    </body>
-    </html>
-    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    /*loadImage('../../charts/Renko1D/GLBE.png');
+                    loadPlot('../../charts/JSON/EMA1D/GLBE.json');*/
+                    loadPlot('../../charts/JSON/EMA1W/GLBE.json');
+                });
+            </script>
+        </body>
+        </html>
+        

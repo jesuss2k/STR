@@ -1,14 +1,14 @@
 
-    <html>
-    <head>
-        <title>SPY - 1D</title>
-        <link rel="stylesheet" href="../../css/chart.css">
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="../../js/chart.js"></script>
-    </head>
-    <body>
-        <div id="plotly-div"></div>
-        
+        <html>
+        <head>
+            <title>SPY - 1D</title>
+            <link rel="stylesheet" href="../../css/chart.css">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="../../js/chart.js"></script>
+        </head>
+        <body>
+            <div id="plotly-div"></div>
+            
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="SOXX.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="SPXU.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="SQQQ.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="SQ.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/SPY.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/SPY.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/SPY.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/SPY.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/SPY.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/SPY.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/SPY.json')">EMA 30m ETH</a>
         </div>
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'SOXX.html'; break;
-                case 39: window.location.href = 'SQQQ.html'; break;
+                case 37: window.location.href = 'SPXU.html'; break;
+                case 39: window.location.href = 'SQ.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/SPY.json'); break;
                 case 51: loadImage('../../charts/Renko1D/SPY.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'SQQQ.html',
-                swipeRightUrl: 'SOXX.html'
+                swipeLeftUrl: 'SQ.html',
+                swipeRightUrl: 'SPXU.html'
             });
 
             initializeMenuLogic();
@@ -61,13 +61,13 @@
     </script>
 
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/SPY.png');
-                loadPlot('../../charts/JSON/EMA1D/SPY.json');*/
-                loadPlot('../../charts/JSON/EMA1W/SPY.json');
-            });
-        </script>
-    </body>
-    </html>
-    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    /*loadImage('../../charts/Renko1D/SPY.png');
+                    loadPlot('../../charts/JSON/EMA1D/SPY.json');*/
+                    loadPlot('../../charts/JSON/EMA1W/SPY.json');
+                });
+            </script>
+        </body>
+        </html>
+        
