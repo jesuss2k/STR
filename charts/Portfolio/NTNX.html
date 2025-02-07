@@ -1,14 +1,14 @@
 
-        <html>
-        <head>
-            <title>NTNX - 1D</title>
-            <link rel="stylesheet" href="../../css/chart.css">
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-            <script src="../../js/chart.js"></script>
-        </head>
-        <body>
-            <div id="plotly-div"></div>
-            
+    <html>
+    <head>
+        <title>NTNX - 1D</title>
+        <link rel="stylesheet" href="../../css/chart.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="../../js/chart.js"></script>
+    </head>
+    <body>
+        <div id="plotly-div"></div>
+        
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -21,7 +21,7 @@
         <a href="NRG.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="NU.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="NUGT.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/NTNX.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/NTNX.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/NTNX.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/NTNX.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/NTNX.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/NTNX.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/NTNX.json')">EMA 30m ETH</a>
         </div>
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'NRG.html'; break;
-                case 39: window.location.href = 'NU.html'; break;
+                case 39: window.location.href = 'NUGT.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/NTNX.json'); break;
                 case 51: loadImage('../../charts/Renko1D/NTNX.png'); break;
@@ -52,7 +52,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'NU.html',
+                swipeLeftUrl: 'NUGT.html',
                 swipeRightUrl: 'NRG.html'
             });
 
@@ -61,13 +61,13 @@
     </script>
 
     
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    /*loadImage('../../charts/Renko1D/NTNX.png');
-                    loadPlot('../../charts/JSON/EMA1D/NTNX.json');*/
-                    loadPlot('../../charts/JSON/EMA1W/NTNX.json');
-                });
-            </script>
-        </body>
-        </html>
-        
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                /*loadImage('../../charts/Renko1D/NTNX.png');
+                loadPlot('../../charts/JSON/EMA1D/NTNX.json');*/
+                loadPlot('../../charts/JSON/EMA1W/NTNX.json');
+            });
+        </script>
+    </body>
+    </html>
+    
