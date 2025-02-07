@@ -1,14 +1,14 @@
 
-        <html>
-        <head>
-            <title>TYD - 1D</title>
-            <link rel="stylesheet" href="../../css/chart.css">
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-            <script src="../../js/chart.js"></script>
-        </head>
-        <body>
-            <div id="plotly-div"></div>
-            
+    <html>
+    <head>
+        <title>TYD - 1D</title>
+        <link rel="stylesheet" href="../../css/chart.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="../../js/chart.js"></script>
+    </head>
+    <body>
+        <div id="plotly-div"></div>
+        
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="TXN.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="TREE.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="TYO.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/TYD.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/TYD.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/TYD.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/TYD.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/TYD.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/TYD.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/TYD.json')">EMA 30m ETH</a>
         </div>
@@ -38,7 +38,7 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'TXN.html'; break;
+                case 37: window.location.href = 'TREE.html'; break;
                 case 39: window.location.href = 'TYO.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/TYD.json'); break;
@@ -53,7 +53,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
                 swipeLeftUrl: 'TYO.html',
-                swipeRightUrl: 'TXN.html'
+                swipeRightUrl: 'TREE.html'
             });
 
             initializeMenuLogic();
@@ -61,13 +61,13 @@
     </script>
 
     
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    /*loadImage('../../charts/Renko1D/TYD.png');
-                    loadPlot('../../charts/JSON/EMA1D/TYD.json');*/
-                    loadPlot('../../charts/JSON/EMA1W/TYD.json');
-                });
-            </script>
-        </body>
-        </html>
-        
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                /*loadImage('../../charts/Renko1D/TYD.png');
+                loadPlot('../../charts/JSON/EMA1D/TYD.json');*/
+                loadPlot('../../charts/JSON/EMA1W/TYD.json');
+            });
+        </script>
+    </body>
+    </html>
+    

@@ -1,14 +1,14 @@
 
-        <html>
-        <head>
-            <title>MSFD - 1D</title>
-            <link rel="stylesheet" href="../../css/chart.css">
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-            <script src="../../js/chart.js"></script>
-        </head>
-        <body>
-            <div id="plotly-div"></div>
-            
+    <html>
+    <head>
+        <title>MSFD - 1D</title>
+        <link rel="stylesheet" href="../../css/chart.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="../../js/chart.js"></script>
+    </head>
+    <body>
+        <div id="plotly-div"></div>
+        
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="MRVL.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="MNDY.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="MSFT.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="NNOX.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -30,7 +30,7 @@
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/MSFD.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/MSFD.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/MSFD.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/MSFD.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/MSFD.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/MSFD.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/MSFD.json')">EMA 30m ETH</a>
         </div>
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'MRVL.html'; break;
-                case 39: window.location.href = 'MSFT.html'; break;
+                case 37: window.location.href = 'MNDY.html'; break;
+                case 39: window.location.href = 'NNOX.html'; break;
                 case 49: window.location.href = 'index.html'; break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/MSFD.json'); break;
                 case 51: loadImage('../../charts/Renko1D/MSFD.png'); break;
@@ -52,8 +52,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             initSwipeNavigation({
-                swipeLeftUrl: 'MSFT.html',
-                swipeRightUrl: 'MRVL.html'
+                swipeLeftUrl: 'NNOX.html',
+                swipeRightUrl: 'MNDY.html'
             });
 
             initializeMenuLogic();
@@ -61,13 +61,13 @@
     </script>
 
     
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    /*loadImage('../../charts/Renko1D/MSFD.png');
-                    loadPlot('../../charts/JSON/EMA1D/MSFD.json');*/
-                    loadPlot('../../charts/JSON/EMA1W/MSFD.json');
-                });
-            </script>
-        </body>
-        </html>
-        
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                /*loadImage('../../charts/Renko1D/MSFD.png');
+                loadPlot('../../charts/JSON/EMA1D/MSFD.json');*/
+                loadPlot('../../charts/JSON/EMA1W/MSFD.json');
+            });
+        </script>
+    </body>
+    </html>
+    
