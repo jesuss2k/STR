@@ -21,41 +21,39 @@
         <a href="GM.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="SOFI.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="AMD.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/GOOGL.json')">EMA 1D</a>
-            <a href="#" onclick="loadImage('../../charts/Renko1D/GOOGL.png')">Renko 1D</a>
-            <a href="#" onclick="loadImage('../../chartsl/Renko1h/GOOGL.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/GOOGL.json')">EMA 1W</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/GOOGL.json')">EMA 30m</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/GOOGL.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/GOOGL.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/GOOGL.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/GOOGL.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/GOOGL.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/GOOGL.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/GOOGL.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'GM.html'; break;
-                case 39: window.location.href = 'SOFI.html'; break;
-                case 49: window.location.href = 'index.html'; break;
-                case 50: loadPlot('../../charts/JSON/EMA1D/GOOGL.json'); break;
-                case 51: loadImage('../../charts/Renko1D/GOOGL.png'); break;
-                case 52: loadImage('../../chartsl/Renko1h/GOOGL.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/GOOGL.json'); break;
-                case 54: loadPlot('../../charts/JSON/EMA1W/GOOGL.json'); break;
-                case 55: loadPlot('../../chartsl/JSON/EMA30Min/GOOGL.json'); break;
-                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/GOOGL.json'); break;
+                case 39: window.location.href = 'AMD.html'; break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadChart('../../charts/JSON/EMA1W/GOOGL.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/GOOGL.json'); break;
+                case 51: loadChart('../../charts/Renko1D/GOOGL.png'); break;
+                case 52: loadChart('../../charts/Renko1h/GOOGL.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/GOOGL.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/GOOGL.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
-            initSwipeNavigation({
-                swipeLeftUrl: 'SOFI.html',
+            /*initSwipeNavigation({
+                swipeLeftUrl: 'AMD.html',
                 swipeRightUrl: 'GM.html'
-            });
-
+            });*/
             initializeMenuLogic();
         });
     </script>
@@ -63,9 +61,7 @@
     
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/GOOGL.png');
-                loadPlot('../../charts/JSON/EMA1D/GOOGL.json');*/
-                loadPlot('../../charts/JSON/EMA1W/GOOGL.json');
+                loadChart(getCurrentChartDirectory() + '/GOOGL.json');
             });
         </script>
     </body>

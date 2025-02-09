@@ -25,14 +25,14 @@
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/MA.json')">EMA 1D</a>
-            <a href="#" onclick="loadImage('../../charts/Renko1D/MA.png')">Renko 1D</a>
-            <a href="#" onclick="loadImage('../../chartsl/Renko1h/MA.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/MA.json')">EMA 1W</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/MA.json')">EMA 30m</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/MA.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/MA.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/MA.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/MA.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/MA.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/MA.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/MA.json')">EMA 30m ETH</a>
         </div>
 
     <script>
@@ -40,22 +40,20 @@
             switch(event.keyCode) {
                 case 37: window.location.href = 'MCD.html'; break;
                 case 39: window.location.href = 'NKE.html'; break;
-                case 49: window.location.href = 'index.html'; break;
-                case 50: loadPlot('../../charts/JSON/EMA1D/MA.json'); break;
-                case 51: loadImage('../../charts/Renko1D/MA.png'); break;
-                case 52: loadImage('../../chartsl/Renko1h/MA.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/MA.json'); break;
-                case 54: loadPlot('../../charts/JSON/EMA1W/MA.json'); break;
-                case 55: loadPlot('../../chartsl/JSON/EMA30Min/MA.json'); break;
-                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/MA.json'); break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadChart('../../charts/JSON/EMA1W/MA.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/MA.json'); break;
+                case 51: loadChart('../../charts/Renko1D/MA.png'); break;
+                case 52: loadChart('../../charts/Renko1h/MA.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/MA.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/MA.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
-            initSwipeNavigation({
+            /*initSwipeNavigation({
                 swipeLeftUrl: 'NKE.html',
                 swipeRightUrl: 'MCD.html'
-            });
-
+            });*/
             initializeMenuLogic();
         });
     </script>
@@ -63,9 +61,7 @@
     
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/MA.png');
-                loadPlot('../../charts/JSON/EMA1D/MA.json');*/
-                loadPlot('../../charts/JSON/EMA1W/MA.json');
+                loadChart(getCurrentChartDirectory() + '/MA.json');
             });
         </script>
     </body>

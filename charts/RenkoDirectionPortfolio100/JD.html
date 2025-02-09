@@ -18,44 +18,42 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="INSM.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="ACN.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="TMF.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="AXON.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/JD.json')">EMA 1D</a>
-            <a href="#" onclick="loadImage('../../charts/Renko1D/JD.png')">Renko 1D</a>
-            <a href="#" onclick="loadImage('../../chartsl/Renko1h/JD.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/JD.json')">EMA 1W</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/JD.json')">EMA 30m</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/JD.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/JD.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/JD.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/JD.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/JD.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/JD.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/JD.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'INSM.html'; break;
-                case 39: window.location.href = 'TMF.html'; break;
-                case 49: window.location.href = 'index.html'; break;
-                case 50: loadPlot('../../charts/JSON/EMA1D/JD.json'); break;
-                case 51: loadImage('../../charts/Renko1D/JD.png'); break;
-                case 52: loadImage('../../chartsl/Renko1h/JD.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/JD.json'); break;
-                case 54: loadPlot('../../charts/JSON/EMA1W/JD.json'); break;
-                case 55: loadPlot('../../chartsl/JSON/EMA30Min/JD.json'); break;
-                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/JD.json'); break;
+                case 37: window.location.href = 'ACN.html'; break;
+                case 39: window.location.href = 'AXON.html'; break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadChart('../../charts/JSON/EMA1W/JD.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/JD.json'); break;
+                case 51: loadChart('../../charts/Renko1D/JD.png'); break;
+                case 52: loadChart('../../charts/Renko1h/JD.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/JD.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/JD.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
-            initSwipeNavigation({
-                swipeLeftUrl: 'TMF.html',
-                swipeRightUrl: 'INSM.html'
-            });
-
+            /*initSwipeNavigation({
+                swipeLeftUrl: 'AXON.html',
+                swipeRightUrl: 'ACN.html'
+            });*/
             initializeMenuLogic();
         });
     </script>
@@ -63,9 +61,7 @@
     
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/JD.png');
-                loadPlot('../../charts/JSON/EMA1D/JD.json');*/
-                loadPlot('../../charts/JSON/EMA1W/JD.json');
+                loadChart(getCurrentChartDirectory() + '/JD.json');
             });
         </script>
     </body>

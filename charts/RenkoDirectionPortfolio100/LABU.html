@@ -18,44 +18,42 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="AMSC.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="SOXS.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="FNGU.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="YEXT.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/LABU.json')">EMA 1D</a>
-            <a href="#" onclick="loadImage('../../charts/Renko1D/LABU.png')">Renko 1D</a>
-            <a href="#" onclick="loadImage('../../chartsl/Renko1h/LABU.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/LABU.json')">EMA 1W</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/LABU.json')">EMA 30m</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/LABU.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/LABU.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/LABU.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/LABU.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/LABU.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/LABU.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/LABU.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'AMSC.html'; break;
-                case 39: window.location.href = 'FNGU.html'; break;
-                case 49: window.location.href = 'index.html'; break;
-                case 50: loadPlot('../../charts/JSON/EMA1D/LABU.json'); break;
-                case 51: loadImage('../../charts/Renko1D/LABU.png'); break;
-                case 52: loadImage('../../chartsl/Renko1h/LABU.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/LABU.json'); break;
-                case 54: loadPlot('../../charts/JSON/EMA1W/LABU.json'); break;
-                case 55: loadPlot('../../chartsl/JSON/EMA30Min/LABU.json'); break;
-                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/LABU.json'); break;
+                case 37: window.location.href = 'SOXS.html'; break;
+                case 39: window.location.href = 'YEXT.html'; break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadChart('../../charts/JSON/EMA1W/LABU.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/LABU.json'); break;
+                case 51: loadChart('../../charts/Renko1D/LABU.png'); break;
+                case 52: loadChart('../../charts/Renko1h/LABU.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/LABU.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/LABU.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
-            initSwipeNavigation({
-                swipeLeftUrl: 'FNGU.html',
-                swipeRightUrl: 'AMSC.html'
-            });
-
+            /*initSwipeNavigation({
+                swipeLeftUrl: 'YEXT.html',
+                swipeRightUrl: 'SOXS.html'
+            });*/
             initializeMenuLogic();
         });
     </script>
@@ -63,9 +61,7 @@
     
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/LABU.png');
-                loadPlot('../../charts/JSON/EMA1D/LABU.json');*/
-                loadPlot('../../charts/JSON/EMA1W/LABU.json');
+                loadChart(getCurrentChartDirectory() + '/LABU.json');
             });
         </script>
     </body>

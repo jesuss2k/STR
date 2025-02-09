@@ -21,41 +21,39 @@
         <a href="NFLX.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="TREE.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="COST.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/GDX.json')">EMA 1D</a>
-            <a href="#" onclick="loadImage('../../charts/Renko1D/GDX.png')">Renko 1D</a>
-            <a href="#" onclick="loadImage('../../chartsl/Renko1h/GDX.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/GDX.json')">EMA 1W</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/GDX.json')">EMA 30m</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/GDX.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/GDX.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/GDX.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/GDX.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/GDX.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/GDX.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/GDX.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'NFLX.html'; break;
-                case 39: window.location.href = 'TREE.html'; break;
-                case 49: window.location.href = 'index.html'; break;
-                case 50: loadPlot('../../charts/JSON/EMA1D/GDX.json'); break;
-                case 51: loadImage('../../charts/Renko1D/GDX.png'); break;
-                case 52: loadImage('../../chartsl/Renko1h/GDX.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/GDX.json'); break;
-                case 54: loadPlot('../../charts/JSON/EMA1W/GDX.json'); break;
-                case 55: loadPlot('../../chartsl/JSON/EMA30Min/GDX.json'); break;
-                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/GDX.json'); break;
+                case 39: window.location.href = 'COST.html'; break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadChart('../../charts/JSON/EMA1W/GDX.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/GDX.json'); break;
+                case 51: loadChart('../../charts/Renko1D/GDX.png'); break;
+                case 52: loadChart('../../charts/Renko1h/GDX.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/GDX.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/GDX.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
-            initSwipeNavigation({
-                swipeLeftUrl: 'TREE.html',
+            /*initSwipeNavigation({
+                swipeLeftUrl: 'COST.html',
                 swipeRightUrl: 'NFLX.html'
-            });
-
+            });*/
             initializeMenuLogic();
         });
     </script>
@@ -63,9 +61,7 @@
     
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/GDX.png');
-                loadPlot('../../charts/JSON/EMA1D/GDX.json');*/
-                loadPlot('../../charts/JSON/EMA1W/GDX.json');
+                loadChart(getCurrentChartDirectory() + '/GDX.json');
             });
         </script>
     </body>
