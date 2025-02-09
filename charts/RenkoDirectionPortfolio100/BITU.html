@@ -18,19 +18,19 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="OLLI.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="DTST.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="GCT.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="BURL.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
+        <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/BITU.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/BITU.json')">EMA 1D</a>
             <a href="#" onclick="loadImage('../../charts/Renko1D/BITU.png')">Renko 1D</a>
             <a href="#" onclick="loadImage('../../chartsl/Renko1h/BITU.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA1W/BITU.json')">EMA 1W</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/BITU.json')">EMA 30m</a>
             <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/BITU.json')">EMA 30m ETH</a>
         </div>
@@ -38,25 +38,16 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'OLLI.html'; break;
-                case 39: window.location.href = 'GCT.html'; break;
-                case 49: window.location.href = 'index.html'; break;
+                case 37: window.location.href = 'DTST.html'; break;
+                case 39: window.location.href = 'BURL.html'; break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadPlot('../../charts/JSON/EMA1W/BITU.json'); break;
                 case 50: loadPlot('../../charts/JSON/EMA1D/BITU.json'); break;
                 case 51: loadImage('../../charts/Renko1D/BITU.png'); break;
                 case 52: loadImage('../../chartsl/Renko1h/BITU.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/BITU.json'); break;
-                case 54: loadPlot('../../charts/JSON/EMA1W/BITU.json'); break;
-                case 55: loadPlot('../../chartsl/JSON/EMA30Min/BITU.json'); break;
-                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/BITU.json'); break;
+                case 53: loadPlot('../../chartsl/JSON/EMA30Min/BITU.json'); break;
+                case 54: loadPlot('../../chartsl/JSON/EMA30MinETH/BITU.json'); break;
             }
-        });
-        document.addEventListener('DOMContentLoaded', function() {
-            initSwipeNavigation({
-                swipeLeftUrl: 'GCT.html',
-                swipeRightUrl: 'OLLI.html'
-            });
-
-            initializeMenuLogic();
         });
     </script>
 

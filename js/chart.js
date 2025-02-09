@@ -49,6 +49,20 @@ function loadPlot(jsonPath) {
         .catch(error => console.error('Error loading plot:', error));
 }
 
+function loadChart(chartPath) {
+    if (chartPath.includes('Renko')) {
+        let imagePath = chartPath.replace('.json', '.png');
+        loadImage(imagePath);
+    } else if (chartPath.endsWith('.json')) {
+        loadPlot(chartPath);
+    } else if (chartPath.endsWith('.png')) {
+        loadImage(chartPath);
+    }
+
+    setCurrentChartDirectory(chartPath);
+}
+
+
 // Adjust viewport height for responsiveness
 function adjustViewportHeight() {
     const vh = window.innerHeight * 0.01;
@@ -181,5 +195,22 @@ function initializeMenuLogic() {
             console.log("Menu opened. New state saved: 'block'");
         }
     });
+}
+
+function getCurrentChartDirectory() {
+    let savedCurrentChartDirectory = localStorage.getItem('CurrentChartDirectory');
+    
+    if (!savedCurrentChartDirectory || savedCurrentChartDirectory.length === 0) {
+        savedCurrentChartDirectory = '../../charts/JSON/EMA1W';
+    }
+
+    console.log("getCurrentChartDirectory = " + savedCurrentChartDirectory);
+
+    return savedCurrentChartDirectory;
+}
+
+
+function setCurrentChartDirectory(chartPath) {
+    localStorage.setItem('CurrentChartDirectory', chartPath.substring(0, chartPath.lastIndexOf('/')));
 }
 
