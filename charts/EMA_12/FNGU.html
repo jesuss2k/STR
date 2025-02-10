@@ -18,45 +18,50 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="EA.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="KLAC.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="SDS.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="BSX.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
         <a href="#" id="menu-caption">&#9650; Chart</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/FNGU.json')">EMA 1W</a>
-            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/FNGU.json')">EMA 1D</a>
-            <a href="#" onclick="loadImage('../../charts/Renko1D/FNGU.png')">Renko 1D</a>
-            <a href="#" onclick="loadImage('../../chartsl/Renko1h/FNGU.png')">Renko 1h</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/FNGU.json')">EMA 30m</a>
-            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/FNGU.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/FNGU.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/FNGU.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/FNGU.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/FNGU.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/FNGU.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/FNGU.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'EA.html'; break;
-                case 39: window.location.href = 'SDS.html'; break;
+                case 37: window.location.href = 'KLAC.html'; break;
+                case 39: window.location.href = 'BSX.html'; break;
                 case 48: window.location.href = 'index.html'; break;
-                case 49: loadPlot('../../charts/JSON/EMA1W/FNGU.json'); break;
-                case 50: loadPlot('../../charts/JSON/EMA1D/FNGU.json'); break;
-                case 51: loadImage('../../charts/Renko1D/FNGU.png'); break;
-                case 52: loadImage('../../chartsl/Renko1h/FNGU.png'); break;
-                case 53: loadPlot('../../chartsl/JSON/EMA30Min/FNGU.json'); break;
-                case 54: loadPlot('../../chartsl/JSON/EMA30MinETH/FNGU.json'); break;
+                case 49: loadChart('../../charts/JSON/EMA1W/FNGU.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/FNGU.json'); break;
+                case 51: loadChart('../../charts/Renko1D/FNGU.png'); break;
+                case 52: loadChart('../../charts/Renko1h/FNGU.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/FNGU.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/FNGU.json'); break;
             }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            /*initSwipeNavigation({
+                swipeLeftUrl: 'BSX.html',
+                swipeRightUrl: 'KLAC.html'
+            });*/
+            initializeMenuLogic();
         });
     </script>
 
     
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                /*loadImage('../../charts/Renko1D/FNGU.png');
-                loadPlot('../../charts/JSON/EMA1D/FNGU.json');*/
-                loadPlot('../../charts/JSON/EMA1W/FNGU.json');
+                loadChart(getCurrentChartDirectory() + '/FNGU.json');
             });
         </script>
     </body>
