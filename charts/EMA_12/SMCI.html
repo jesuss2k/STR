@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="HIMS.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="CTLP.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="BABA.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="UPST.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'HIMS.html'; break;
-                case 39: window.location.href = 'BABA.html'; break;
+                case 37: window.location.href = 'CTLP.html'; break;
+                case 39: window.location.href = 'UPST.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/SMCI.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/SMCI.json'); break;
@@ -51,8 +51,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'BABA.html',
-                swipeRightUrl: 'HIMS.html'
+                swipeLeftUrl: 'UPST.html',
+                swipeRightUrl: 'CTLP.html'
             });*/
             initializeMenuLogic();
         });
