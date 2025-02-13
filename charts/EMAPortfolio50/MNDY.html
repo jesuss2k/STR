@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="COST.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="META.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="DRN.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="COST.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'COST.html'; break;
-                case 39: window.location.href = 'DRN.html'; break;
+                case 37: window.location.href = 'META.html'; break;
+                case 39: window.location.href = 'COST.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/MNDY.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/MNDY.json'); break;
@@ -51,8 +51,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'DRN.html',
-                swipeRightUrl: 'COST.html'
+                swipeLeftUrl: 'COST.html',
+                swipeRightUrl: 'META.html'
             });*/
             initializeMenuLogic();
         });
