@@ -21,7 +21,7 @@
         <a href="PSTG.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="ADSK.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="VNOM.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -39,7 +39,7 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'PSTG.html'; break;
-                case 39: window.location.href = 'ADSK.html'; break;
+                case 39: window.location.href = 'VNOM.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/AR.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/AR.json'); break;
@@ -51,7 +51,7 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'ADSK.html',
+                swipeLeftUrl: 'VNOM.html',
                 swipeRightUrl: 'PSTG.html'
             });*/
             initializeMenuLogic();
