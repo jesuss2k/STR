@@ -1,0 +1,69 @@
+
+    <html>
+    <head>
+        <title>SOXL - 1D</title>
+        <link rel="stylesheet" href="../../css/chart.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="../../js/chart.js"></script>
+    </head>
+    <body>
+        <div id="plotly-div"></div>
+        
+    <div id="home-link">
+        <a href="index.html" title="Home">&#8962;</a>
+    </div>
+    <div id="stock-logo">
+        <a href="../../summaries/SOXL.html" title="Summary">
+            <img src="https://s3-symbol-logo.tradingview.com/direxion.svg" class="stock-logo">
+        </a>
+    </div>
+    <div class="nav-arrow left">
+        <a href="VST.html" style="color: white; text-decoration: none;">&larr;</a>
+    </div>
+    <div class="nav-arrow right">
+        <a href="NKE.html" style="color: white; text-decoration: none;">&rarr;</a>
+    </div>
+
+    <div id="other-menus">
+        <a href="#" id="menu-caption">&#9650; Chart</a>
+        <div id="menu-options" style="display: none;">
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/SOXL.json')">EMA 1W</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/SOXL.json')">EMA 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1D/SOXL.png')">Renko 1D</a>
+            <a href="#" onclick="loadChart('../../charts/Renko1h/SOXL.png')">Renko 1h</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/SOXL.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/SOXL.json')">EMA 30m ETH</a>
+        </div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            switch(event.keyCode) {
+                case 37: window.location.href = 'VST.html'; break;
+                case 39: window.location.href = 'NKE.html'; break;
+                case 48: window.location.href = 'index.html'; break;
+                case 49: loadChart('../../charts/JSON/EMA1W/SOXL.json'); break;
+                case 50: loadChart('../../charts/JSON/EMA1D/SOXL.json'); break;
+                case 51: loadChart('../../charts/Renko1D/SOXL.png'); break;
+                case 52: loadChart('../../charts/Renko1h/SOXL.png'); break;
+                case 53: loadChart('../../chartsl/JSON/EMA30Min/SOXL.json'); break;
+                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/SOXL.json'); break;
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            /*initSwipeNavigation({
+                swipeLeftUrl: 'NKE.html',
+                swipeRightUrl: 'VST.html'
+            });*/
+            initializeMenuLogic();
+        });
+    </script>
+
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                loadChart(getCurrentChartDirectory() + '/SOXL.json');
+            });
+        </script>
+    </body>
+    </html>
+    
