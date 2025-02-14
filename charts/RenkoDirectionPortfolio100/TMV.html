@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="BURL.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="DOCU.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="HPE.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="SOXX.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'BURL.html'; break;
-                case 39: window.location.href = 'HPE.html'; break;
+                case 37: window.location.href = 'DOCU.html'; break;
+                case 39: window.location.href = 'SOXX.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/TMV.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/TMV.json'); break;
@@ -51,8 +51,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'HPE.html',
-                swipeRightUrl: 'BURL.html'
+                swipeLeftUrl: 'SOXX.html',
+                swipeRightUrl: 'DOCU.html'
             });*/
             initializeMenuLogic();
         });
