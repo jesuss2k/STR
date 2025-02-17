@@ -1,246 +1,35 @@
-
-    <html>
-    <head>
-        <title>EMA_15m Tickers</title>
-        <link rel="stylesheet" href="../../css/indexpages.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>EMA_15m</header>
-        <main>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../../css/indexpages.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>Open</header>
+    <main>
+      <section>
+        <div id="home-link">
+          <a href="../../index.html" title="Home">&#8962; Home</a>
+        </div>
         <section>
-            <div id="home-link">
-                <a href="../../index.html" title="Home">&#8962; 2025-02-14 16:40</a>
-            </div>
-    
-                <section>
-                    <h3>EMA_15m</h3>
-                    <table id="sortableTable">
-                        <thead>
-                            <tr>
-                                <th onclick="sortTable(0)">
-                                    Ticker <span class="sort-icon"></span>
-                                </th>
-                                <th onclick="sortTable(1)">
-                                    % Day <span class="sort-icon"></span>
-                                </th>
-                                <th onclick="sortTable(2)">
-                                    52-Week <span class="sort-icon"></span>
-                                </th>
-                                <th>
-                                    <span class="sort-icon"></span>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                    
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/american-airlines-group.svg" class="stock-logo">
-                                    <a href="AAL.html">AAL</a>
-                                </div>
-                            </td>
-                            <td class="green">1.33%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 68.5942173479561%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3AAAL" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/american-eagle-outfitters.svg" class="stock-logo">
-                                    <a href="AEO.html">AEO</a>
-                                </div>
-                            </td>
-                            <td class="green">0.28%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 2.3048928427011734%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NYSE%3AAEO" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/direxion.svg" class="stock-logo">
-                                    <a href="DRV.html">DRV</a>
-                                </div>
-                            </td>
-                            <td class="green">1.41%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 18.153597766191027%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=DRV" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/global-payments.svg" class="stock-logo">
-                                    <a href="GPN.html">GPN</a>
-                                </div>
-                            </td>
-                            <td class="green">1.44%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 27.962132536123562%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NYSE%3AGPN" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/servicenow.svg" class="stock-logo">
-                                    <a href="NOW.html">NOW</a>
-                                </div>
-                            </td>
-                            <td class="orange">-0.29%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 62.246027495090175%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NYSE%3ANOW" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/oscar-health.svg" class="stock-logo">
-                                    <a href="OSCR.html">OSCR</a>
-                                </div>
-                            </td>
-                            <td class="light-green">3.06%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 9.066901408450715%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NYSE%3AOSCR" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/proshares.svg" class="stock-logo">
-                                    <a href="SDOW.html">SDOW</a>
-                                </div>
-                            </td>
-                            <td class="green">1.04%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 74.50105658605307%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=AMEX%3ASDOW" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/semtech.svg" class="stock-logo">
-                                    <a href="SMTC.html">SMTC</a>
-                                </div>
-                            </td>
-                            <td class="green">1.77%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 30.138008205893335%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3ASMTC" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/taiwan-semiconductor.svg" class="stock-logo">
-                                    <a href="TSM.html">TSM</a>
-                                </div>
-                            </td>
-                            <td class="green">1.03%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 78.25876896318485%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NYSE%3ATSM" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/ulta-beauty.svg" class="stock-logo">
-                                    <a href="ULTA.html">ULTA</a>
-                                </div>
-                            </td>
-                            <td class="green">1.30%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 18.305467867025204%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3AULTA" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                     </tbody>
-                </table>
-                </section>
-            
+          <h3>Open</h3>
+          <table id="sortableTable">
+            <thead>
+              <tr id="table-header">
+                <!-- Header cells will be built dynamically -->
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <!-- Table rows will be injected here -->
+            </tbody>
+          </table>
         </section>
-        </main>
-        <script src="../../js/indexpages.js"></script>
-    </body>
-    </html>
-    
+      </section>
+    </main>
+    <script src="../../js/indexpages.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", populateTickerTable);
+    </script>
+  </body>
+</html>

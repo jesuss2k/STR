@@ -1,146 +1,35 @@
-
-    <html>
-    <head>
-        <title>Index Tickers</title>
-        <link rel="stylesheet" href="../../css/indexpages.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>Index</header>
-        <main>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../../css/indexpages.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>Open</header>
+    <main>
+      <section>
+        <div id="home-link">
+          <a href="../../index.html" title="Home">&#8962; Home</a>
+        </div>
         <section>
-            <div id="home-link">
-                <a href="../../index.html" title="Home">&#8962; 2025-02-14 16:39</a>
-            </div>
-    
-                <section>
-                    <h3>Index</h3>
-                    <table id="sortableTable">
-                        <thead>
-                            <tr>
-                                <th onclick="sortTable(0)">
-                                    Ticker <span class="sort-icon"></span>
-                                </th>
-                                <th onclick="sortTable(1)">
-                                    % Day <span class="sort-icon"></span>
-                                </th>
-                                <th onclick="sortTable(2)">
-                                    52-Week <span class="sort-icon"></span>
-                                </th>
-                                <th>
-                                    <span class="sort-icon"></span>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                    
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/ishares.svg" class="stock-logo">
-                                    <a href="IBIT.html">IBIT</a>
-                                </div>
-                            </td>
-                            <td class="green">1.08%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 80.8472553699284%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3AIBIT" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/ishares.svg" class="stock-logo">
-                                    <a href="IWM.html">IWM</a>
-                                </div>
-                            </td>
-                            <td class="orange">-0.08%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 64.56002982848621%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=IWM" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/invesco.svg" class="stock-logo">
-                                    <a href="QQQ.html">QQQ</a>
-                                </div>
-                            </td>
-                            <td class="green">0.42%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 99.20685279187818%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3AQQQ" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/ishares.svg" class="stock-logo">
-                                    <a href="SOXX.html">SOXX</a>
-                                </div>
-                            </td>
-                            <td class="green">0.10%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 40.60777195105552%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3ASOXX" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
-                                <div class="ticker-cell">
-                                    <img src="https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr.svg" class="stock-logo">
-                                    <a href="SPY.html">SPY</a>
-                                </div>
-                            </td>
-                            <td class="">-0.00%</td>
-                            <td>
-                                <div class="range-bar">
-                                    <div class="current-price" style="width: 98.9014732180874%;"></div>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="https://www.tradingview.com/chart/?symbol=AMEX%3ASPY" title="TradingView" target="_blank">
-                                    <img src="https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909" class="stock-logo">
-                                </a>
-                            </td>
-                        </tr>
-                
-                     </tbody>
-                </table>
-                </section>
-            
+          <h3>Open</h3>
+          <table id="sortableTable">
+            <thead>
+              <tr id="table-header">
+                <!-- Header cells will be built dynamically -->
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <!-- Table rows will be injected here -->
+            </tbody>
+          </table>
         </section>
-        </main>
-        <script src="../../js/indexpages.js"></script>
-    </body>
-    </html>
-    
+      </section>
+    </main>
+    <script src="../../js/indexpages.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", populateTickerTable);
+    </script>
+  </body>
+</html>
