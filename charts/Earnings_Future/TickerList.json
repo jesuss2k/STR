@@ -1,8 +1,11 @@
 [
-{"ticker":"CB","dayChange":0.67,"weekRange":43.41},
-{"ticker":"LMT","dayChange":1.63,"weekRange":5.21},
-{"ticker":"PFE","dayChange":0.05,"weekRange":15.04},
-{"ticker":"SDS","dayChange":0.05,"weekRange":1.61},
-{"ticker":"SPXU","dayChange":0.0,"weekRange":1.1},
-{"ticker":"WIX","dayChange":-0.15,"weekRange":81.68}
+{"ticker":"BURL","dayChange":0.59,"weekRange":57.88},
+{"ticker":"CAT","dayChange":0.19,"weekRange":42.13},
+{"ticker":"DECK","dayChange":0.5,"weekRange":26.4},
+{"ticker":"DOCU","dayChange":0.0,"weekRange":65.31},
+{"ticker":"LMT","dayChange":1.26,"weekRange":4.44},
+{"ticker":"LULU","dayChange":1.57,"weekRange":57.44},
+{"ticker":"MSFT","dayChange":0.3,"weekRange":29.07},
+{"ticker":"PFE","dayChange":0.12,"weekRange":15.3},
+{"ticker":"WIX","dayChange":1.82,"weekRange":85.08}
 ]
