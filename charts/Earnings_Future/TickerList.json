@@ -1,7 +1,8 @@
 [
-{"ticker":"CB","dayChange":0.5,"weekRange":42.71},
-{"ticker":"LMT","dayChange":1.29,"weekRange":4.49},
-{"ticker":"PSN","dayChange":1.12,"weekRange":5.09},
-{"ticker":"SDS","dayChange":0.03,"weekRange":1.56},
-{"ticker":"SPXU","dayChange":0.02,"weekRange":1.12}
+{"ticker":"CB","dayChange":0.67,"weekRange":43.41},
+{"ticker":"LMT","dayChange":1.63,"weekRange":5.21},
+{"ticker":"PFE","dayChange":0.05,"weekRange":15.04},
+{"ticker":"SDS","dayChange":0.05,"weekRange":1.61},
+{"ticker":"SPXU","dayChange":0.0,"weekRange":1.1},
+{"ticker":"WIX","dayChange":-0.15,"weekRange":81.68}
 ]
