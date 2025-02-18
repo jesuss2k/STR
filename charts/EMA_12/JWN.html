@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="IWM.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="TNA.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="NU.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="VST.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -38,8 +38,8 @@
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'IWM.html'; break;
-                case 39: window.location.href = 'NU.html'; break;
+                case 37: window.location.href = 'TNA.html'; break;
+                case 39: window.location.href = 'VST.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/JWN.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/JWN.json'); break;
@@ -51,8 +51,8 @@
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'NU.html',
-                swipeRightUrl: 'IWM.html'
+                swipeLeftUrl: 'VST.html',
+                swipeRightUrl: 'TNA.html'
             });*/
             initializeMenuLogic();
         });
