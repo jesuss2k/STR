@@ -1,7 +1,7 @@
 [
-{"ticker":"IBIT","dayChange":2.49,"weekRange":82.88},
-{"ticker":"IWM","dayChange":-1.17,"weekRange":60.48},
-{"ticker":"QQQ","dayChange":-0.82,"weekRange":95.52},
-{"ticker":"SOXX","dayChange":-0.23,"weekRange":49.91},
-{"ticker":"SPY","dayChange":-0.75,"weekRange":95.92}
+{"ticker":"IBIT","dayChange":2.47,"weekRange":82.85},
+{"ticker":"IWM","dayChange":-1.07,"weekRange":60.91},
+{"ticker":"QQQ","dayChange":-0.77,"weekRange":95.74},
+{"ticker":"SOXX","dayChange":-0.19,"weekRange":50.06},
+{"ticker":"SPY","dayChange":-0.7,"weekRange":96.18}
 ]
