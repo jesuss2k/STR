@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="TTWO.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="IBM.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="WDC.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="GDX.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/T.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/T.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/T.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/T.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/T.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/T.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'TTWO.html'; break;
-                case 39: window.location.href = 'WDC.html'; break;
+                case 37: window.location.href = 'IBM.html'; break;
+                case 39: window.location.href = 'GDX.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/T.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/T.json'); break;
                 case 51: loadChart('../../charts/Renko1D/T.png'); break;
                 case 52: loadChart('../../charts/Renko1h/T.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/T.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/T.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/T.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'WDC.html',
-                swipeRightUrl: 'TTWO.html'
+                swipeLeftUrl: 'GDX.html',
+                swipeRightUrl: 'IBM.html'
             });*/
             initializeMenuLogic();
         });

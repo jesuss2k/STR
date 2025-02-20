@@ -21,7 +21,7 @@
         <a href="V.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="JD.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="FLUT.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,7 +31,7 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/JBLU.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/JBLU.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/JBLU.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/JBLU.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/JBLU.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/JBLU.json')">EMA 30m ETH</a>
         </div>
 
@@ -39,19 +39,19 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'V.html'; break;
-                case 39: window.location.href = 'JD.html'; break;
+                case 39: window.location.href = 'FLUT.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/JBLU.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/JBLU.json'); break;
                 case 51: loadChart('../../charts/Renko1D/JBLU.png'); break;
                 case 52: loadChart('../../charts/Renko1h/JBLU.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/JBLU.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/JBLU.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/JBLU.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'JD.html',
+                swipeLeftUrl: 'FLUT.html',
                 swipeRightUrl: 'V.html'
             });*/
             initializeMenuLogic();
