@@ -21,7 +21,7 @@
         <a href="ELF.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="DFS.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="AJG.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,7 +31,7 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/FAST.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/FAST.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/FAST.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/FAST.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/FAST.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/FAST.json')">EMA 30m ETH</a>
         </div>
 
@@ -39,19 +39,19 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'ELF.html'; break;
-                case 39: window.location.href = 'DFS.html'; break;
+                case 39: window.location.href = 'AJG.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/FAST.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/FAST.json'); break;
                 case 51: loadChart('../../charts/Renko1D/FAST.png'); break;
                 case 52: loadChart('../../charts/Renko1h/FAST.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/FAST.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/FAST.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/FAST.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'DFS.html',
+                swipeLeftUrl: 'AJG.html',
                 swipeRightUrl: 'ELF.html'
             });*/
             initializeMenuLogic();

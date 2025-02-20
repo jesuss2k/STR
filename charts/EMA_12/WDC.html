@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="UBER.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="PGR.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="TMUS.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="ECL.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/WDC.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/WDC.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/WDC.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/WDC.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/WDC.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/WDC.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'UBER.html'; break;
-                case 39: window.location.href = 'TMUS.html'; break;
+                case 37: window.location.href = 'PGR.html'; break;
+                case 39: window.location.href = 'ECL.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/WDC.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/WDC.json'); break;
                 case 51: loadChart('../../charts/Renko1D/WDC.png'); break;
                 case 52: loadChart('../../charts/Renko1h/WDC.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/WDC.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/WDC.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/WDC.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'TMUS.html',
-                swipeRightUrl: 'UBER.html'
+                swipeLeftUrl: 'ECL.html',
+                swipeRightUrl: 'PGR.html'
             });*/
             initializeMenuLogic();
         });

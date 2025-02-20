@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="SBUX.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="SMCI.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="HIMS.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="SBUX.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/TD.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/TD.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/TD.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/TD.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/TD.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/TD.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'SBUX.html'; break;
-                case 39: window.location.href = 'HIMS.html'; break;
+                case 37: window.location.href = 'SMCI.html'; break;
+                case 39: window.location.href = 'SBUX.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/TD.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/TD.json'); break;
                 case 51: loadChart('../../charts/Renko1D/TD.png'); break;
                 case 52: loadChart('../../charts/Renko1h/TD.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/TD.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/TD.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/TD.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'HIMS.html',
-                swipeRightUrl: 'SBUX.html'
+                swipeLeftUrl: 'SBUX.html',
+                swipeRightUrl: 'SMCI.html'
             });*/
             initializeMenuLogic();
         });

@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="MRVL.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="UAL.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="DRN.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/RCL.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/RCL.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/RCL.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/RCL.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/RCL.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/RCL.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'MRVL.html'; break;
+                case 37: window.location.href = 'UAL.html'; break;
                 case 39: window.location.href = 'DRN.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/RCL.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/RCL.json'); break;
                 case 51: loadChart('../../charts/Renko1D/RCL.png'); break;
                 case 52: loadChart('../../charts/Renko1h/RCL.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/RCL.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/RCL.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/RCL.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
                 swipeLeftUrl: 'DRN.html',
-                swipeRightUrl: 'MRVL.html'
+                swipeRightUrl: 'UAL.html'
             });*/
             initializeMenuLogic();
         });

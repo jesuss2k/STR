@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="GTLB.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="WDAY.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="APLD.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="CAKE.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/FNGD.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/FNGD.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/FNGD.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/FNGD.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/FNGD.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/FNGD.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'GTLB.html'; break;
-                case 39: window.location.href = 'APLD.html'; break;
+                case 37: window.location.href = 'WDAY.html'; break;
+                case 39: window.location.href = 'CAKE.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/FNGD.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/FNGD.json'); break;
                 case 51: loadChart('../../charts/Renko1D/FNGD.png'); break;
                 case 52: loadChart('../../charts/Renko1h/FNGD.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/FNGD.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/FNGD.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/FNGD.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'APLD.html',
-                swipeRightUrl: 'GTLB.html'
+                swipeLeftUrl: 'CAKE.html',
+                swipeRightUrl: 'WDAY.html'
             });*/
             initializeMenuLogic();
         });

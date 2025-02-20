@@ -21,7 +21,7 @@
         <a href="APP.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="CTLP.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="DIA.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,7 +31,7 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/ACN.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/ACN.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/ACN.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/ACN.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/ACN.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/ACN.json')">EMA 30m ETH</a>
         </div>
 
@@ -39,19 +39,19 @@
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
                 case 37: window.location.href = 'APP.html'; break;
-                case 39: window.location.href = 'CTLP.html'; break;
+                case 39: window.location.href = 'DIA.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/ACN.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/ACN.json'); break;
                 case 51: loadChart('../../charts/Renko1D/ACN.png'); break;
                 case 52: loadChart('../../charts/Renko1h/ACN.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/ACN.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/ACN.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/ACN.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'CTLP.html',
+                swipeLeftUrl: 'DIA.html',
                 swipeRightUrl: 'APP.html'
             });*/
             initializeMenuLogic();

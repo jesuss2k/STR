@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="RETL.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="AEO.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="NVDD.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/HUMA.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/HUMA.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/HUMA.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/HUMA.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/HUMA.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/HUMA.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'RETL.html'; break;
+                case 37: window.location.href = 'AEO.html'; break;
                 case 39: window.location.href = 'NVDD.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/HUMA.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/HUMA.json'); break;
                 case 51: loadChart('../../charts/Renko1D/HUMA.png'); break;
                 case 52: loadChart('../../charts/Renko1h/HUMA.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/HUMA.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/HUMA.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/HUMA.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
                 swipeLeftUrl: 'NVDD.html',
-                swipeRightUrl: 'RETL.html'
+                swipeRightUrl: 'AEO.html'
             });*/
             initializeMenuLogic();
         });

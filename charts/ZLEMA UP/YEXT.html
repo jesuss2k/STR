@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="MGM.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="VEEV.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
         <a href="BOX.html" style="color: white; text-decoration: none;">&rarr;</a>
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/YEXT.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/YEXT.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/YEXT.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/YEXT.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/YEXT.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/YEXT.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'MGM.html'; break;
+                case 37: window.location.href = 'VEEV.html'; break;
                 case 39: window.location.href = 'BOX.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/YEXT.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/YEXT.json'); break;
                 case 51: loadChart('../../charts/Renko1D/YEXT.png'); break;
                 case 52: loadChart('../../charts/Renko1h/YEXT.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/YEXT.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/YEXT.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/YEXT.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
                 swipeLeftUrl: 'BOX.html',
-                swipeRightUrl: 'MGM.html'
+                swipeRightUrl: 'VEEV.html'
             });*/
             initializeMenuLogic();
         });

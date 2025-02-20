@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="SDOW.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="SOXX.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="DRN.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="TZA.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/AMZD.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/AMZD.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/AMZD.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/AMZD.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/AMZD.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/AMZD.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'SDOW.html'; break;
-                case 39: window.location.href = 'DRN.html'; break;
+                case 37: window.location.href = 'SOXX.html'; break;
+                case 39: window.location.href = 'TZA.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/AMZD.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/AMZD.json'); break;
                 case 51: loadChart('../../charts/Renko1D/AMZD.png'); break;
                 case 52: loadChart('../../charts/Renko1h/AMZD.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/AMZD.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/AMZD.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/AMZD.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'DRN.html',
-                swipeRightUrl: 'SDOW.html'
+                swipeLeftUrl: 'TZA.html',
+                swipeRightUrl: 'SOXX.html'
             });*/
             initializeMenuLogic();
         });
