@@ -1,9 +1,7 @@
 [
-{"ticker":"CAT","dayChange":-0.33,"weekRange":40.19},
 {"ticker":"DTST","dayChange":-1.73,"weekRange":15.97},
-{"ticker":"NVDD","dayChange":0.84,"weekRange":3.08},
-{"ticker":"SDS","dayChange":1.62,"weekRange":3.14},
-{"ticker":"SPXU","dayChange":2.36,"weekRange":2.61},
-{"ticker":"TECS","dayChange":2.82,"weekRange":72.83},
-{"ticker":"UNH","dayChange":-0.86,"weekRange":36.16}
+{"ticker":"GRBK","dayChange":0.5,"weekRange":25.67},
+{"ticker":"MAMA","dayChange":0.29,"weekRange":47.14},
+{"ticker":"ULTA","dayChange":0.63,"weekRange":17.18},
+{"ticker":"UNH","dayChange":-0.98,"weekRange":35.85}
 ]
