@@ -1,14 +1,14 @@
 
-    <html>
-    <head>
-        <title>FNGD - 1D</title>
-        <link rel="stylesheet" href="../../css/chart.css">
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="../../js/chart.js"></script>
-    </head>
-    <body>
-        <div id="plotly-div"></div>
-        
+        <html>
+        <head>
+            <title>FNGD - 1D</title>
+            <link rel="stylesheet" href="../../css/chart.css">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="../../js/chart.js"></script>
+        </head>
+        <body>
+            <div id="plotly-div"></div>
+            
     <div id="home-link">
         <a href="index.html" title="Home">&#8962;</a>
     </div>
@@ -25,14 +25,14 @@
     </div>
 
     <div id="other-menus">
-        <a href="#" id="menu-caption">&#9650; Chart</a>
+        <a href="#" id="menu-caption">&#9650; EMA 1D</a>
         <div id="menu-options" style="display: none;">
-            <a href="#" onclick="loadChart('../../charts/JSON/EMA1W/FNGD.json')">EMA 1W</a>
-            <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/FNGD.json')">EMA 1D</a>
-            <a href="#" onclick="loadChart('../../charts/Renko1D/FNGD.png')">Renko 1D</a>
-            <a href="#" onclick="loadChart('../../charts/Renko1h/FNGD.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/FNGD.json')">EMA 30m</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/FNGD.json')">EMA 30m ETH</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1D/FNGD.json')">EMA 1D</a>
+            <a href="#" onclick="loadImage('../../charts/Renko1D/FNGD.png')">Renko 1D</a>
+            <a href="#" onclick="loadImage('../../chartsl/Renko1h/FNGD.png')">Renko 1h</a>
+            <a href="#" onclick="loadPlot('../../charts/JSON/EMA1W/FNGD.json')">EMA 1W</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30Min/FNGD.json')">EMA 30m</a>
+            <a href="#" onclick="loadPlot('../../chartsl/JSON/EMA30MinETH/FNGD.json')">EMA 30m ETH</a>
         </div>
 
     <script>
@@ -40,30 +40,34 @@
             switch(event.keyCode) {
                 case 37: window.location.href = 'FLUT.html'; break;
                 case 39: window.location.href = 'FNGU.html'; break;
-                case 48: window.location.href = 'index.html'; break;
-                case 49: loadChart('../../charts/JSON/EMA1W/FNGD.json'); break;
-                case 50: loadChart('../../charts/JSON/EMA1D/FNGD.json'); break;
-                case 51: loadChart('../../charts/Renko1D/FNGD.png'); break;
-                case 52: loadChart('../../charts/Renko1h/FNGD.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/FNGD.json'); break;
-                case 54: loadChart('../../chartsl/JSON/EMA30MinETH/FNGD.json'); break;
+                case 49: window.location.href = 'index.html'; break;
+                case 50: loadPlot('../../charts/JSON/EMA1D/FNGD.json'); break;
+                case 51: loadImage('../../charts/Renko1D/FNGD.png'); break;
+                case 52: loadImage('../../chartsl/Renko1h/FNGD.png'); break;
+                case 53: loadPlot('../../chartsl/JSON/Renko1D_100/FNGD.json'); break;
+                case 54: loadPlot('../../charts/JSON/EMA1W/FNGD.json'); break;
+                case 55: loadPlot('../../chartsl/JSON/EMA30Min/FNGD.json'); break;
+                case 56: loadPlot('../../chartsl/JSON/EMA30MinETH/FNGD.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
-            /*initSwipeNavigation({
+            initSwipeNavigation({
                 swipeLeftUrl: 'FNGU.html',
                 swipeRightUrl: 'FLUT.html'
-            });*/
+            });
+
             initializeMenuLogic();
         });
     </script>
 
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                loadChart(getCurrentChartDirectory() + '/FNGD.json');
-            });
-        </script>
-    </body>
-    </html>
-    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    /*loadImage('../../charts/Renko1D/FNGD.png');
+                    loadPlot('../../charts/JSON/EMA1D/FNGD.json');*/
+                    loadPlot('../../charts/JSON/EMA1W/FNGD.json');
+                });
+            </script>
+        </body>
+        </html>
+        
