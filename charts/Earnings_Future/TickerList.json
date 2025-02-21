@@ -1,7 +1,5 @@
 [
-{"ticker":"ASPN","dayChange":0.12,"weekRange":0.58},
-{"ticker":"ERY","dayChange":1.35,"weekRange":26.74},
-{"ticker":"NNOX","dayChange":1.64,"weekRange":16.73},
-{"ticker":"NVDD","dayChange":0.51,"weekRange":3.05},
-{"ticker":"TSM","dayChange":-0.25,"weekRange":73.36}
+{"ticker":"DRV","dayChange":2.33,"weekRange":16.87},
+{"ticker":"ERY","dayChange":2.37,"weekRange":29.43},
+{"ticker":"LABD","dayChange":3.29,"weekRange":29.64}
 ]
