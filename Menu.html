@@ -3,60 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Launch Options</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
-        .option {
-            width: 150px;
-            height: 150px;
-            background-color: #1e1e1e;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: transform 0.2s, background-color 0.2s;
-            text-align: center;
-            font-size: 40px;
-        }
-        .option:hover {
-            transform: scale(1.05);
-            background-color: #333;
-        }
-        .option i {
-            font-size: 60px;
-        }
-        @media (min-width: 600px) {
-            .container {
-                flex-direction: row;
-            }
-        }
-    </style>
+    <title>STR</title>
+    <link rel="stylesheet" href="css/indexpages.css">
 </head>
 <body>
-    <div class="container">
-        <div class="option" onclick="location.href='Menu.html'">
-            <i class="fas fa-cloud"></i>
-        </div>
-        <div class="option" onclick="location.href='http://192.168.5.41:8000/Menu.html'">
-            <i class="fas fa-desktop"></i>
-        </div>
-    </div>
+    <!-- Home Header -->
+    <header>Home</header>
+
+    <main>
+        <section>
+            <h2>Open</h2>
+            <ul>
+                <li><a href="stats/Open_Positions_Variation.html">Open Positions Variation</a></li>
+                <li><a href="stats/candlestick_chart_Open.html">Candlestick Chart</a></li>
+                <li><a href="charts/Open/index.html">Open</a></li>
+                <li><a href="charts/EMAOpen/index.html">EMA Levels</a></li>
+                <li><a href="charts/RenkoDirectionOpen25/index.html">Renko Direction 25</a></li>
+                <li><a href="charts/RenkoDirectionOpen50/index.html">Renko Direction 50</a></li>
+                <li><a href="charts/RenkoDirectionOpen100/index.html">Renko Direction 100</a></li>
+                <li><a href="charts/1W_Open_Down/index.html">1W Down EMA 5</a></li>
+                <li><a href="charts/1W_Open_Up/index.html">1W Up EMA 5</a></li>
+                <li><a href="charts/30M_Open_Down/index.html">Open 30M ETH Down</a></li>
+                <li><a href="charts/30M_Open_Up/index.html">Open 30M ETH Up</a></li>
+                <li><a href="charts/2h_Open_Crossover_Down_12_25/index.html">2h Crossover Down 12-25</a></li>
+            </ul>   
+        </section>
+
+        <section>
+            <h2>Closed</h2>
+            <ul>
+                <li><a href="stats/candlestick_chart_Closed.html">Candlestick Chart</a></li>
+                <li><a href="charts/Closed/index.html">Closed</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Portfolio</h2>
+            <ul>
+                <li><a href="charts/Renko_Portafolio_Blocks_50/index.html">Renko Blocks Up 50</a></li>
+                <li><a href="charts/Renko_Portafolio_Blocks_100/index.html">Renko Blocks Up 100</a></li>
+                <li><a href="charts/RenkoDirectionPortfolio50/index.html">Renko Direction 50</a></li>
+                <li><a href="charts/RenkoDirectionPortfolio100/index.html">Renko Direction 100</a></li>
+                <li><a href="charts/EMAPortfolio/index.html">EMA Levels</a></li>
+                <li><a href="charts/EMAPortfolio25/index.html">EMA Levels Renko 25</a></li>
+                <li><a href="charts/EMAPortfolio50/index.html">EMA Levels Renko 50</a></li>
+                <li><a href="charts/1W_Portfolio_Up/index.html">1W Up EMA 5</a></li>
+                <li><a href="charts/30M_Porfolio_Up/index.html">30 Min ETH Portfolio Up</a></li>
+                <li><a href="charts/1W_Porfolio_Crossover_Up_1_5/index.html">1W Crossover Up 1-5</a></li>
+                <li><a href="charts/1W_Porfolio_Crossover_Up_5_10/index.html">1W Crossover Up 5-10</a></li>
+                <li><a href="charts/2h_Porfolio_Crossover_Up_12_25/">2h Crossover Up 12-25</a></li>
+                <li><a href="charts/Portfolio/index.html">Portfolio</a></li>
+                <li><a href="charts/EMA_12_UP/index.html">EMA 12 UP</a></li>
+                <li><a href="charts/EMA_25_UP/index.html">EMA 25 UP</a></li>
+                <li><a href="charts/ZLEMA UP/index.html">ZLEMA UP</a></li>
+                <li><a href="charts/EMA_200_UP/index.html">EMA 200 UP</a></li>
+                <li><a href="charts/EMA_3_8_Trap/index.html">EMA 3-8 Trap</a></li>
+                <li><a href="charts/Portfolio/index.html">All</a></li>
+                <li><a href="charts/Portfolio_Relative_Strenght/index.html">Relative Strenght</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Earnings</h2>
+            <ul>
+                <li><a href="charts/Earnings_Past/index.html">Past</a></li>
+                <li><a href="charts/Earnings_Future/index.html">Future</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>ZLEMA</h2>
+            <ul>
+                <li><a href="charts/ZLEMA_1D/index.html">ZLEMA 1D</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>EMA</h2>
+            <ul>
+                <li><a href="charts/EMA_12/index.html"><span style="color: #106a5b;">EMA 12</span></a></li>
+                <li><a href="charts/EMA_15mUp_30mDown_2hDown_1dUp/index.html"><span style="color: #106a5b;">15m</span> <span style="color: #7a3f3f;">30m</span> <span style="color: #7a3f3f;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_15mUp_30mDown_2hUp_1dUp/index.html"><span style="color: #106a5b;">15m</span> <span style="color: #7a3f3f;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_2hUp_15mDown/index.html"><span style="color: #106a5b;">2h</span> <span style="color: #7a3f3f;">15m</span></a></li>
+                <li><a href="charts/EMA_2hUp_15mUp/index.html"><span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">15m</span></a></li>
+                <li><a href="charts/EMA_15mDown_30mUp_2hUp_1dUp/index.html"><span style="color: #7a3f3f;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>                
+                <li><a href="charts/EMA_15mUp_30mUp_2hDown_1dUp/index.html"><span style="color: #106a5b;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #7a3f3f;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_15mDown_30mDown_2hUp_1dUp/index.html"><span style="color: #7a3f3f;">15m</span> <span style="color: #7a3f3f;">30m</span> <span style="color: #106a5b;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_15mDown_30mUp_2hDown_1dUp/index.html"><span style="color: #7a3f3f;">15m</span> <span style="color: #106a5b;">30m</span> <span style="color: #7a3f3f;">2h</span> <span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_1d/index.html"><span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_30m/index.html"><span style="color: #106a5b;">30m</span></a></li>
+                <li><a href="charts/EMA_15m/index.html"><span style="color: #106a5b;">15m</span></a></li>
+            </ul>
+        </section>
+                
+        <section>
+            <h2>Other</h2>
+            <ul>
+                <li><a href="charts/Index/index.html">Index</a></li>
+                <li><a href="charts/SPY/index.html">SPY</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
 </body>
 </html>
