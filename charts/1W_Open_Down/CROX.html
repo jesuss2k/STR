@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="MARA.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="ADBE.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="CAT.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="ASML.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/CROX.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/CROX.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/CROX.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/CROX.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/CROX.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/CROX.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'MARA.html'; break;
-                case 39: window.location.href = 'CAT.html'; break;
+                case 37: window.location.href = 'ADBE.html'; break;
+                case 39: window.location.href = 'ASML.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/CROX.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/CROX.json'); break;
                 case 51: loadChart('../../charts/Renko1D/CROX.png'); break;
                 case 52: loadChart('../../charts/Renko1h/CROX.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/CROX.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/CROX.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/CROX.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'CAT.html',
-                swipeRightUrl: 'MARA.html'
+                swipeLeftUrl: 'ASML.html',
+                swipeRightUrl: 'ADBE.html'
             });*/
             initializeMenuLogic();
         });
