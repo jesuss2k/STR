@@ -50,6 +50,8 @@ function loadPlot(jsonPath) {
 }
 
 function loadChart(chartPath) {
+    console.log("loadChart charPath = " + chartPath);
+    
     if (chartPath.includes('Renko')) {
         let imagePath = chartPath.replace('.json', '.png');
         loadImage(imagePath);
