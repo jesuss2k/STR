@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         document.getElementById("stock-image").alt = `${ticker} Logo`;
 
         // Load default chart
-        loadChart(`../../charts/JSON/EMA1D/${ticker}.json`);
+        loadChart(getCurrentChartDirectory() + `/${ticker}.json`);
 
         // Set chart links
         document.getElementById("chart-ema1w").onclick = () => loadChart(`../../charts/JSON/EMA1W/${ticker}.json`);
