@@ -8,6 +8,7 @@ function saveSortedTickers() {
 
     // Store sorted tickers in localStorage
     localStorage.setItem("sortedTickers", JSON.stringify(tickers));
+    console.log(tickers);
 }
 
 function getSortedTickers() {
