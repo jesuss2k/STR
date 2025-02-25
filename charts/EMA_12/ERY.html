@@ -18,10 +18,10 @@
         </a>
     </div>
     <div class="nav-arrow left">
-        <a href="DG.html" style="color: white; text-decoration: none;">&larr;</a>
+        <a href="OSCR.html" style="color: white; text-decoration: none;">&larr;</a>
     </div>
     <div class="nav-arrow right">
-        <a href="HNST.html" style="color: white; text-decoration: none;">&rarr;</a>
+        <a href="DIS.html" style="color: white; text-decoration: none;">&rarr;</a>
     </div>
 
     <div id="other-menus">
@@ -31,28 +31,28 @@
             <a href="#" onclick="loadChart('../../charts/JSON/EMA1D/ERY.json')">EMA 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1D/ERY.png')">Renko 1D</a>
             <a href="#" onclick="loadChart('../../charts/Renko1h/ERY.png')">Renko 1h</a>
-            <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30Min/ERY.json')">EMA 30m</a>
+            <a href="#" onclick="loadChart('../../charts/JSON/EMA30Min/ERY.json')">EMA 30m</a>
             <a href="#" onclick="loadChart('../../chartsl/JSON/EMA30MinETH/ERY.json')">EMA 30m ETH</a>
         </div>
 
     <script>
         document.addEventListener('keydown', function(event) {
             switch(event.keyCode) {
-                case 37: window.location.href = 'DG.html'; break;
-                case 39: window.location.href = 'HNST.html'; break;
+                case 37: window.location.href = 'OSCR.html'; break;
+                case 39: window.location.href = 'DIS.html'; break;
                 case 48: window.location.href = 'index.html'; break;
                 case 49: loadChart('../../charts/JSON/EMA1W/ERY.json'); break;
                 case 50: loadChart('../../charts/JSON/EMA1D/ERY.json'); break;
                 case 51: loadChart('../../charts/Renko1D/ERY.png'); break;
                 case 52: loadChart('../../charts/Renko1h/ERY.png'); break;
-                case 53: loadChart('../../chartsl/JSON/EMA30Min/ERY.json'); break;
+                case 53: loadChart('../../charts/JSON/EMA30Min/ERY.json'); break;
                 case 54: loadChart('../../chartsl/JSON/EMA30MinETH/ERY.json'); break;
             }
         });
         document.addEventListener('DOMContentLoaded', function() {
             /*initSwipeNavigation({
-                swipeLeftUrl: 'HNST.html',
-                swipeRightUrl: 'DG.html'
+                swipeLeftUrl: 'DIS.html',
+                swipeRightUrl: 'OSCR.html'
             });*/
             initializeMenuLogic();
         });
