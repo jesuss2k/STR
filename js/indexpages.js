@@ -129,6 +129,8 @@ function populateTickerTable() {
       tbody.innerHTML = ""; // Clear existing rows
 
       listData.forEach(item => {
+        console.log(item.ticker);
+        
         const ticker = item.ticker;
         const info = infoMap[ticker];
         const detailUrl = "ticker.html?ticker=" + ticker;

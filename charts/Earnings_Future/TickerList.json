@@ -1,12 +1,6 @@
 [
-{"ticker":"AMSC","dayChange":6.08,"weekRange":46.44},
-{"ticker":"FNGU","dayChange":4.15,"weekRange":68.56},
-{"ticker":"HNST","dayChange":1.97,"weekRange":49.92},
-{"ticker":"HUM","dayChange":-1.62,"weekRange":21.62},
-{"ticker":"JBLU","dayChange":3.56,"weekRange":57.54},
-{"ticker":"LNG","dayChange":1.37,"weekRange":63.3},
-{"ticker":"LUNA","dayChange":6.58,"weekRange":1.71},
-{"ticker":"SNPS","dayChange":2.73,"weekRange":8.02},
-{"ticker":"SOXX","dayChange":1.74,"weekRange":33.71},
-{"ticker":"ULCC","dayChange":0.4,"weekRange":63.45}
+{"ticker":"AMSC","dayChange":-2.02,"weekRange":44.64},
+{"ticker":"LUNA","dayChange":-1.23,"weekRange":1.6},
+{"ticker":"MARA","dayChange":9.48,"weekRange":7.17},
+{"ticker":"WDC","dayChange":0.42,"weekRange":6.42}
 ]
