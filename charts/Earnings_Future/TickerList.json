@@ -1,6 +1,10 @@
 [
-{"ticker":"ANF","dayChange":2.7,"weekRange":5.15},
-{"ticker":"FL","dayChange":1.44,"weekRange":2.1},
-{"ticker":"VNOM","dayChange":-0.13,"weekRange":49.44},
-{"ticker":"YOU","dayChange":1.6,"weekRange":30.05}
+{"ticker":"COIN","dayChange":3.33,"weekRange":33.97},
+{"ticker":"DDOG","dayChange":1.76,"weekRange":23.47},
+{"ticker":"DTST","dayChange":2.36,"weekRange":14.08},
+{"ticker":"HNST","dayChange":6.79,"weekRange":44.82},
+{"ticker":"OMC","dayChange":0.94,"weekRange":8.32},
+{"ticker":"PSN","dayChange":0.16,"weekRange":3.75},
+{"ticker":"SMTC","dayChange":7.39,"weekRange":28.67},
+{"ticker":"TSLA","dayChange":3.23,"weekRange":43.54}
 ]
