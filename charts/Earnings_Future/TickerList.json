@@ -1,7 +1,6 @@
 [
-{"ticker":"ASPN","dayChange":0.26,"weekRange":0.78},
-{"ticker":"DRV","dayChange":0.28,"weekRange":13.4},
-{"ticker":"DTST","dayChange":2.24,"weekRange":13.98},
-{"ticker":"HNST","dayChange":5.69,"weekRange":43.99},
-{"ticker":"SMTC","dayChange":6.45,"weekRange":28.11}
+{"ticker":"AR","dayChange":2.42,"weekRange":70.06},
+{"ticker":"ASPN","dayChange":0.07,"weekRange":0.72},
+{"ticker":"HNST","dayChange":4.66,"weekRange":43.2},
+{"ticker":"IBIT","dayChange":1.73,"weekRange":59.49}
 ]
