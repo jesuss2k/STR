@@ -19,12 +19,13 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
 
         document.title = `${ticker} - 1D`;
-        document.getElementById("summary-link").href = `../../summaries/${ticker}.html`;
+        document.getElementById("summary-link").href = `index.html`;
         document.getElementById("stock-image").src = stockData.logoUrl;
         document.getElementById("stock-image").alt = `${ticker} Logo`;
 
         loadChart(getCurrentChartDirectory() + `/${ticker}.json`);
 
+        document.getElementById("chart-summary").href = `../../summaries/${ticker}.html`;
         document.getElementById("chart-ema1w").onclick = () => loadChart(`../../charts/JSON/EMA1W/${ticker}.json`);
         document.getElementById("chart-ema1d").onclick = () => loadChart(`../../charts/JSON/EMA1D/${ticker}.json`);
         document.getElementById("chart-renko1d").onclick = () => loadChart(`../../charts/Renko1D/${ticker}.png`);
