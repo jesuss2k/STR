@@ -56,14 +56,14 @@ html, body {
 
 .stock-logo {
     position: fixed;
-    bottom: 2px; /* Distance from the bottom of the screen */
-    right: 2px; /* Distance from the right of the screen */
-    width: 48px; /* Adjust the logo size */
-    height: 48px;
+    top: 10px;
+    left: 10px;
+    width: 28px; /* Adjust the logo size */
+    height: 28px;
     border-radius: 50%; /* Make it a circle */
     object-fit: cover; /* Ensure the image fits within the circle */
     background-color: #222; /* Placeholder background in case of loading issues */
-    border: 1px solid #444; /* Optional: border for better visibility */
+    border: 0px; /* Optional: border for better visibility */
     z-index: 10; /* Ensure it stays on top */
 }
 
