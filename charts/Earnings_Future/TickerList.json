@@ -1,10 +1,3 @@
 [
-{"ticker":"ADSK","dayChange":1.36,"weekRange":62.92},
-{"ticker":"ASML","dayChange":0.6,"weekRange":14.61},
-{"ticker":"AXON","dayChange":0.39,"weekRange":58.08},
-{"ticker":"EA","dayChange":0.94,"weekRange":28.39},
-{"ticker":"GPRO","dayChange":-0.28,"weekRange":1.31},
-{"ticker":"MSFT","dayChange":-0.77,"weekRange":10.07},
-{"ticker":"NOW","dayChange":-1.01,"weekRange":50.41},
-{"ticker":"ORCL","dayChange":-0.7,"weekRange":62.01}
+{"ticker":"EBAY","dayChange":0.59,"weekRange":72.47}
 ]
