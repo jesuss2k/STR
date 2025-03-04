@@ -1,4 +1,7 @@
 [
-{"ticker":"ADBE","dayChange":-0.74,"weekRange":18.33},
-{"ticker":"MARA","dayChange":-1.67,"weekRange":8.28}
+{"ticker":"BIDU","dayChange":2.42,"weekRange":23.47},
+{"ticker":"DRV","dayChange":2.27,"weekRange":10.7},
+{"ticker":"EA","dayChange":1.21,"weekRange":29.26},
+{"ticker":"PSN","dayChange":2.89,"weekRange":3.98},
+{"ticker":"TSM","dayChange":2.16,"weekRange":50.61}
 ]
