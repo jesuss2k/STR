@@ -1,0 +1,15 @@
+[
+{"Date":"25-02-28","ticker":"TMUS","dayChange":0.36,"weekRange":97.71},
+{"Date":"25-02-28","ticker":"FAST","dayChange":-0.73,"weekRange":53.06},
+{"Date":"25-02-27","ticker":"MA","dayChange":-2.55,"weekRange":85.68},
+{"Date":"25-02-26","ticker":"INTU","dayChange":-0.5,"weekRange":27.78},
+{"Date":"25-02-26","ticker":"GM","dayChange":-5.81,"weekRange":25.48},
+{"Date":"25-02-25","ticker":"FICO","dayChange":-0.4,"weekRange":57.97},
+{"Date":"25-02-21","ticker":"PG","dayChange":2.1,"weekRange":95.69},
+{"Date":"25-02-19","ticker":"LLY","dayChange":-1.08,"weekRange":79.77},
+{"Date":"25-02-13","ticker":"PAYC","dayChange":-0.74,"weekRange":76.6},
+{"Date":"25-02-05","ticker":"VZ","dayChange":0.75,"weekRange":85.08},
+{"Date":"25-02-04","ticker":"MMC","dayChange":-0.09,"weekRange":94.37},
+{"Date":"25-01-27","ticker":"PGR","dayChange":-0.28,"weekRange":96.72},
+{"Date":"25-01-27","ticker":"AJG","dayChange":-0.16,"weekRange":96.37}
+]

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradingView Chart</title>
+    <script src="https://unpkg.com/lightweight-charts@3.8.0/dist/lightweight-charts.standalone.production.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000;
+            color: white;
+            height: 100vh;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        #chart-container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        #toggleButton {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 50%;
+            z-index: 10;
+        }
+        #toggleButton:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="chart-container">
+        <button id="toggleButton">L</button>
+    </div>
+
+    <script>
+        let chart, mainSeries, emaSeries = {};
+        let isCandlestick = true;
+
+        function getTickerFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('ticker') || 'AAPL';
+        }
+
+        async function fetchData() {
+            let ticker = getTickerFromURL();
+            let filePath = `../JSON/1W/${ticker}.json`;  // Updated path
+
+            try {
+                let response = await fetch(filePath);
+                if (!response.ok) throw new Error("Data not found!");
+
+                let data = await response.json();
+                console.log(`Loaded JSON Data for ${ticker}:`, data);
+
+                if (!data || data.length === 0) {
+                    throw new Error("No data found in JSON");
+                }
+
+                let candlestickData = data.map(item => ({
+                    time: item.Timestamp.split("T")[0], 
+                    open: item.Open,
+                    high: item.High,
+                    low: item.Low,
+                    close: item.Close
+                }));
+
+                let lineData = data.map(item => ({
+                    time: item.Timestamp.split("T")[0],
+                    value: item.Close 
+                }));
+
+                let emaData = {
+                    ema5: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_5 })),
+                    ema10: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_10 })),
+                    ema20: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_20 })),
+                    ema40: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_40 })),
+                    ema100: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_100 })),
+                    ema200: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_200 })),
+                    ema400: data.map(item => ({ time: item.Timestamp.split("T")[0], value: item.EMA_400 }))
+                };
+
+                function createChart(type) {
+                    if (chart) {
+                        chart.remove();
+                    }
+                    
+                    chart = LightweightCharts.createChart(document.getElementById('chart-container'), {
+                        width: window.innerWidth,
+                        height: window.innerHeight,
+                        layout: { backgroundColor: '#000000', textColor: 'white' },
+                        grid: { vertLines: { color: '#000000' }, horzLines: { color: '#000000' } },
+                        rightPriceScale: {
+                            borderColor: '#000000'
+                        },
+                        timeScale: {
+                            borderColor: '#000000',
+                            rightOffset: 8  // 8 bars of space on the right
+                        }
+                    });
+
+                    mainSeries = type === "candlestick"
+                        ? chart.addCandlestickSeries()
+                        : chart.addLineSeries({ lineWidth: 1 });
+
+                    mainSeries.setData(type === "candlestick" ? candlestickData : lineData);
+
+                    let emaOptions = { lineWidth: 1, priceLineVisible: false, lastValueVisible: false };
+
+                    emaSeries.ema5 = chart.addLineSeries({ ...emaOptions, color: '#ffff00' });
+                    emaSeries.ema10 = chart.addLineSeries({ ...emaOptions, color: '#e67e22' });
+                    emaSeries.ema20 = chart.addLineSeries({ ...emaOptions, color: '#ff0000' });
+                    emaSeries.ema40 = chart.addLineSeries({ ...emaOptions, color: '#ffffff' });
+                    emaSeries.ema100 = chart.addLineSeries({ ...emaOptions, color: '#ab47bc' });
+                    emaSeries.ema200 = chart.addLineSeries({ ...emaOptions, color: '#4caf50' });
+                    emaSeries.ema400 = chart.addLineSeries({ ...emaOptions, color: '#f48fb1' });
+
+                    emaSeries.ema5.setData(emaData.ema5);
+                    emaSeries.ema10.setData(emaData.ema10);
+                    emaSeries.ema20.setData(emaData.ema20);
+                    emaSeries.ema40.setData(emaData.ema40);
+                    emaSeries.ema100.setData(emaData.ema100);
+                    emaSeries.ema200.setData(emaData.ema200);
+                    emaSeries.ema400.setData(emaData.ema400);
+
+                    // Apply margins
+                    chart.applyOptions({
+                        priceScale: {
+                            scaleMargins: {
+                                top: 0.1,  // 10%
+                                bottom: 0.08  // 8%
+                            }
+                        }
+                    });
+
+                    // Show last 156 bars
+                    if (data.length > 156) {
+                        chart.timeScale().setVisibleLogicalRange({
+                            from: data.length - 156,  // Show the last 150 bars
+                            to: data.length + 3      // Leave 3 bars at the end
+                        });
+                    }                    
+                }
+
+                createChart("candlestick");
+                document.getElementById("toggleButton").addEventListener("click", () => {
+                    isCandlestick = !isCandlestick;
+                    createChart(isCandlestick ? "candlestick" : "line");
+                });
+
+            } catch (error) {
+                console.error(`Error loading data for ${ticker}:`, error);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", fetchData);
+    </script>
+
+</body>
+</html>
