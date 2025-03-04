@@ -1,7 +1,11 @@
 [
-{"ticker":"BIDU","dayChange":2.42,"weekRange":23.47},
-{"ticker":"DRV","dayChange":2.27,"weekRange":10.7},
-{"ticker":"EA","dayChange":1.21,"weekRange":29.26},
-{"ticker":"PSN","dayChange":2.89,"weekRange":3.98},
-{"ticker":"TSM","dayChange":2.16,"weekRange":50.61}
+{"ticker":"BIDU","dayChange":3.23,"weekRange":25.23},
+{"ticker":"DRV","dayChange":2.6,"weekRange":11.02},
+{"ticker":"GOOG","dayChange":2.21,"weekRange":52.94},
+{"ticker":"GOOGL","dayChange":1.89,"weekRange":51.72},
+{"ticker":"GTLB","dayChange":4.56,"weekRange":54.08},
+{"ticker":"KYMR","dayChange":1.47,"weekRange":6.38},
+{"ticker":"PSN","dayChange":3.56,"weekRange":4.59},
+{"ticker":"TMV","dayChange":1.74,"weekRange":43.54},
+{"ticker":"TSM","dayChange":3.04,"weekRange":52.13}
 ]
