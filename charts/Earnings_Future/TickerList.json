@@ -1,7 +1,9 @@
 [
-{"ticker":"BP","dayChange":-0.35,"weekRange":31.38},
-{"ticker":"DUST","dayChange":2.69,"weekRange":62.18},
-{"ticker":"ERX","dayChange":0.18,"weekRange":11.4},
-{"ticker":"HPQ","dayChange":0.91,"weekRange":19.12},
-{"ticker":"XLE","dayChange":0.15,"weekRange":19.0}
+{"ticker":"BP","dayChange":-0.53,"weekRange":30.91},
+{"ticker":"DUST","dayChange":1.61,"weekRange":61.45},
+{"ticker":"ELF","dayChange":-0.39,"weekRange":1.6},
+{"ticker":"ERX","dayChange":0.53,"weekRange":12.14},
+{"ticker":"FDX","dayChange":-0.25,"weekRange":9.69},
+{"ticker":"GPN","dayChange":-0.14,"weekRange":17.51},
+{"ticker":"XLE","dayChange":0.3,"weekRange":19.79}
 ]
