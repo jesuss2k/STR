@@ -1,6 +1,7 @@
 [
-{"ticker":"BBY","dayChange":3.91,"weekRange":26.7},
-{"ticker":"DAKT","dayChange":6.36,"weekRange":38.6},
-{"ticker":"HES","dayChange":0.43,"weekRange":45.19},
-{"ticker":"HPQ","dayChange":0.58,"weekRange":18.31}
+{"ticker":"BP","dayChange":-0.35,"weekRange":31.38},
+{"ticker":"DUST","dayChange":2.69,"weekRange":62.18},
+{"ticker":"ERX","dayChange":0.18,"weekRange":11.4},
+{"ticker":"HPQ","dayChange":0.91,"weekRange":19.12},
+{"ticker":"XLE","dayChange":0.15,"weekRange":19.0}
 ]
