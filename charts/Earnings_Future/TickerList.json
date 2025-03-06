@@ -1,12 +1,7 @@
 [
-{"ticker":"AMSC","dayChange":-1.25,"weekRange":31.43},
-{"ticker":"BBY","dayChange":3.59,"weekRange":26.0},
-{"ticker":"DAKT","dayChange":7.42,"weekRange":39.75},
-{"ticker":"DAL","dayChange":-0.81,"weekRange":58.18},
-{"ticker":"DTST","dayChange":1.08,"weekRange":9.44},
-{"ticker":"GLBE","dayChange":-0.56,"weekRange":34.19},
-{"ticker":"HES","dayChange":0.26,"weekRange":44.59},
-{"ticker":"HPQ","dayChange":0.12,"weekRange":17.22},
-{"ticker":"RETL","dayChange":0.07,"weekRange":8.45},
-{"ticker":"RXRX","dayChange":0.46,"weekRange":14.94}
+{"ticker":"BBY","dayChange":3.26,"weekRange":25.28},
+{"ticker":"DAKT","dayChange":6.69,"weekRange":38.96},
+{"ticker":"HES","dayChange":0.5,"weekRange":45.41},
+{"ticker":"RETL","dayChange":-1.46,"weekRange":6.54},
+{"ticker":"XRT","dayChange":-0.43,"weekRange":8.39}
 ]
