@@ -1,8 +1,6 @@
 [
 {"ticker":"FICO","dayChange":0.97,"weekRange":56.17},
-{"ticker":"LLY","dayChange":-4.73,"weekRange":60.58},
 {"ticker":"PAYC","dayChange":4.62,"weekRange":71.21},
-{"ticker":"AJG","dayChange":-4.66,"weekRange":81.42},
 {"ticker":"ASML","dayChange":2.43,"weekRange":18.67},
 {"ticker":"MARA","dayChange":6.16,"weekRange":21.78},
 {"ticker":"UBER","dayChange":1.75,"weekRange":66.64},
@@ -14,6 +12,6 @@
 {"ticker":"NKE","dayChange":1.13,"weekRange":29.44},
 {"ticker":"PG","dayChange":0.74,"weekRange":83.35},
 {"ticker":"LMT","dayChange":2.63,"weekRange":27.08},
-{"ticker":"FAST","dayChange":2.76,"weekRange":79.25},
+{"ticker":"FAST","dayChange":2.74,"weekRange":79.17},
 {"ticker":"EA","dayChange":2.38,"weekRange":46.59}
 ]

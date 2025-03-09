@@ -141,9 +141,12 @@ function populateTickerTable() {
         const tdTicker = document.createElement("td");
         const tickerDiv = document.createElement("div");
         tickerDiv.className = "ticker-cell";
+        
         const logoImg = document.createElement("img");
         logoImg.src = info.logoUrl;
         logoImg.className = "stock-logo";
+        logoImg.title = `${info.companyName} - ${info.industry}`;
+
         const tickerLink = document.createElement("a");
         tickerLink.href = detailUrl;
         tickerLink.textContent = ticker;
