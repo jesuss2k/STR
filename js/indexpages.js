@@ -119,9 +119,9 @@ function populateTickerTable() {
       function getDayChangeClass(dayChangeStr) {
         const value = parseFloat(dayChangeStr);
         if (value > 2) return "light-green";
-        else if (value > 0 && value <= 2) return "green";
+        else if (value >= 0 && value <= 2) return "green";
         else if (value < 0 && value >= -2) return "orange";
-        else if (value < -4) return "red";
+        else if (value < -2) return "red";
         else return "";
       }
 
@@ -162,10 +162,60 @@ function populateTickerTable() {
 
         extraColumns.forEach(col => {
           const tdExtra = document.createElement("td");
-          tdExtra.textContent = item[col] !== undefined ? item[col] : "";
+        
+          if (col === "EMAs" && item[col]) {
+            // Format EMAs column with specific colors
+            const emsFormatted = item[col].split(" ").map(char => {
+              const span = document.createElement("span");
+              span.textContent = char;
+              span.style.color = char === "O" ? "#DC484C" : char === "X" ? "#499782" : "black";
+              span.style.marginRight = "0px"; // Add spacing between characters
+              return span;
+            });
+        
+            emsFormatted.forEach(span => tdExtra.appendChild(span));
+          } 
+          else if (col === "$ Prft") {
+            // Parse numeric value and apply green/red logic
+            let value = parseFloat(item[col]);
+        
+            if (!isNaN(value)) {
+              const absValue = value; // Math.abs(value); // Remove the minus sign
+              tdExtra.textContent = absValue; // Show absolute value
+        
+              tdExtra.style.color = value >= 0 ? "#499782" : "#DC484C"; // Green if >= 0, Red otherwise
+            } else {
+              tdExtra.textContent = item[col] !== undefined ? item[col] : "";
+            }
+          } 
+          else if (col === "% Pfrt") {
+            // Parse numeric value and apply color logic
+            let value = parseFloat(item[col]);
+        
+            if (!isNaN(value)) {
+              const absValue = value; // Remove the minus sign
+              tdExtra.textContent = absValue; // Show absolute value
+        
+              if (value >= 10) {
+                tdExtra.className = "light-green";
+              } else if (value >= 0 && value < 10) {
+                tdExtra.className = "green";
+              } else if (value >= -5 && value < 0) {
+                tdExtra.className = "orange";
+              } else if (value < -5) {
+                tdExtra.className = "red";
+              }
+            } else {
+              tdExtra.textContent = item[col] !== undefined ? item[col] : "";
+            }
+          } 
+          else {
+            tdExtra.textContent = item[col] !== undefined ? item[col] : "";
+          }
+        
           tr.appendChild(tdExtra);
         });
-
+                        
         const tdRange = document.createElement("td");
         const rangeBar = document.createElement("div");
         rangeBar.className = "range-bar";
