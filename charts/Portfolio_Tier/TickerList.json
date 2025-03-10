@@ -9,10 +9,10 @@
 {"EMAs":"O O O O O O","ticker":"COST","dayChange":-3.1,"weekRange":62.25},
 {"EMAs":"O O O O O O","ticker":"FTNT","dayChange":-5.17,"weekRange":68.83},
 {"EMAs":"O O O O O O","ticker":"HOOD","dayChange":-19.79,"weekRange":40.9},
-{"EMAs":"O O O O O O","ticker":"NET","dayChange":-8.1,"weekRange":45.21},
+{"EMAs":"O O O O O O","ticker":"NET","dayChange":-8.0,"weekRange":45.33},
 {"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-2.74,"weekRange":62.14},
 {"EMAs":"X X X X O O","ticker":"OKTA","dayChange":-6.45,"weekRange":74.63},
-{"EMAs":"O O O O O O","ticker":"PLTR","dayChange":-10.06,"weekRange":53.33},
+{"EMAs":"O O O O O O","ticker":"PLTR","dayChange":-10.05,"weekRange":53.34},
 {"EMAs":"O O O O O O","ticker":"SHOP","dayChange":-7.37,"weekRange":54.68},
 {"EMAs":"O O O O O O","ticker":"ALK","dayChange":-8.53,"weekRange":50.26},
 {"EMAs":"X X X O O O","ticker":"BABA","dayChange":-5.75,"weekRange":83.35},
@@ -37,5 +37,5 @@
 {"EMAs":"X O O O O O","ticker":"AJG","dayChange":-0.66,"weekRange":79.56},
 {"EMAs":"O O O O O O","ticker":"IBKR","dayChange":-13.01,"weekRange":47.78},
 {"EMAs":"O O O O O O","ticker":"KLAC","dayChange":-4.63,"weekRange":24.03},
-{"EMAs":"O O O O O O","ticker":"AAL","dayChange":-3.98,"weekRange":34.32}
+{"EMAs":"O O O O O O","ticker":"AAL","dayChange":-4.07,"weekRange":34.2}
 ]
