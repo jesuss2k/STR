@@ -1,4 +1,5 @@
 [
-{"EMAs":"O O X X X X","ticker":"KYMR","dayChange":0.11,"weekRange":15.93},
-{"EMAs":"O X X X X X","ticker":"DRV","dayChange":3.12,"weekRange":18.66}
+{"EMAs":"O X X X X X","ticker":"F","dayChange":0.61,"weekRange":15.54},
+{"EMAs":"O O X X X X","ticker":"KYMR","dayChange":0.4,"weekRange":16.32},
+{"EMAs":"O X X X X X","ticker":"DRV","dayChange":2.5,"weekRange":18.04}
 ]
