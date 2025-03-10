@@ -74,19 +74,19 @@ a:hover {
 
 /* Color classes */
 .light-green {
-    color: lime;
+    color: #499782;
 }
 
 .green {
-    color: lightgreen;
+    color: #499782;
 }
 
 .orange {
-    color: orange;
+    color: #ffa080;
 }
 
 .red {
-    color: red;
+    color: #DC484C;
 }
 
 /* Table headers and cells remain consistent */
@@ -152,5 +152,18 @@ th, td {
     object-fit: cover; /* Ensure the image fits within the circle */
     background-color: #222; /* Placeholder background in case of loading issues */
     border: 0px; /* Optional: border for better visibility */
+}
+
+/* Home Link */
+#home-link {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Make it a circle */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 32px;
 }
 
