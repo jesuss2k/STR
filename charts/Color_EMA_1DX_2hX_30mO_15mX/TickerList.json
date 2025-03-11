@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"BABA","dayChange":3.63,"weekRange":89.6},
-{"EMAs":"X X X O O X","ticker":"ERY","dayChange":1.84,"weekRange":57.14},
-{"EMAs":"X X X X O X","ticker":"GDX","dayChange":2.74,"weekRange":83.02},
-{"EMAs":"X X X X O X","ticker":"NUGT","dayChange":5.63,"weekRange":70.68}
+{"EMAs":"X X X X O X","ticker":"OKTA","dayChange":2.5,"weekRange":80.29},
+{"EMAs":"X X X O O X","ticker":"BABA","dayChange":3.55,"weekRange":89.45},
+{"EMAs":"X X X O O X","ticker":"ERY","dayChange":1.13,"weekRange":55.07}
 ]
