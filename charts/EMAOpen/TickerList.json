@@ -1,16 +1,14 @@
 [
-{"EMAs":"X X X X O O","Group":"3:6","ticker":"FAST","dayChange":-2.33,"weekRange":70.49},
-{"EMAs":"X X X X O O","Group":"3:6","ticker":"EA","dayChange":-1.47,"weekRange":43.46},
-{"EMAs":"X X X X O O","Group":"3:6","ticker":"LMT","dayChange":-2.12,"weekRange":24.75},
-{"EMAs":"X X O O O O","Group":"12:25 ","ticker":"MMC","dayChange":-1.52,"weekRange":79.85},
-{"EMAs":"X X X O O O","Group":"12:25 ","ticker":"PG","dayChange":-1.93,"weekRange":71.83},
-{"EMAs":"X O O O O O","Group":"50:100","ticker":"PAYC","dayChange":-3.66,"weekRange":67.39},
-{"EMAs":"X X X X O O","Group":"100:200","ticker":"PCAR","dayChange":-4.25,"weekRange":44.63},
-{"EMAs":"X O O O O O","Group":"100:200","ticker":"UBER","dayChange":-2.59,"weekRange":50.76},
-{"EMAs":"O O O O X X","Group":"100:200","ticker":"PANW","dayChange":3.15,"weekRange":61.68},
-{"EMAs":"O O O O O O","Group":"100:200","ticker":"WSM","dayChange":-5.59,"weekRange":55.44},
-{"EMAs":"X X X X O O","Group":"200","ticker":"PCAR","dayChange":-4.25,"weekRange":44.63},
-{"EMAs":"X O O O O O","Group":"200","ticker":"UBER","dayChange":-2.59,"weekRange":50.76},
-{"EMAs":"O O O O X X","Group":"200","ticker":"PANW","dayChange":3.15,"weekRange":61.68},
-{"EMAs":"O O O O O O","Group":"200","ticker":"WSM","dayChange":-5.59,"weekRange":55.44}
+{"EMAs":"X X X X O O","Group":"3","ticker":"EA","dayChange":-0.98,"weekRange":44.74},
+{"EMAs":"X X X X O O","Group":"3:6","ticker":"FAST","dayChange":-2.46,"weekRange":70.07},
+{"EMAs":"X X X X O O","Group":"3:6","ticker":"LMT","dayChange":-2.08,"weekRange":24.85},
+{"EMAs":"X X X O O O","Group":"12:25 ","ticker":"PG","dayChange":-1.87,"weekRange":72.24},
+{"EMAs":"X X O O O O","Group":"12:25 ","ticker":"MMC","dayChange":-1.28,"weekRange":81.09},
+{"EMAs":"X O O O O O","Group":"50:100","ticker":"PAYC","dayChange":-4.2,"weekRange":66.25},
+{"EMAs":"X O O O O O","Group":"100:200","ticker":"UBER","dayChange":-3.69,"weekRange":48.26},
+{"EMAs":"O O O O X X","Group":"100:200","ticker":"PANW","dayChange":2.85,"weekRange":60.99},
+{"EMAs":"O O O O O O","Group":"100:200","ticker":"WSM","dayChange":-5.57,"weekRange":55.48},
+{"EMAs":"X O O O O O","Group":"200","ticker":"UBER","dayChange":-3.69,"weekRange":48.26},
+{"EMAs":"O O O O X X","Group":"200","ticker":"PANW","dayChange":2.85,"weekRange":60.99},
+{"EMAs":"O O O O O O","Group":"200","ticker":"WSM","dayChange":-5.57,"weekRange":55.48}
 ]
