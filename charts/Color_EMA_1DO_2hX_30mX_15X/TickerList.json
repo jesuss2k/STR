@@ -1,3 +1,6 @@
 [
-{"EMAs":"O X X X X X","ticker":"DRV","dayChange":1.61,"weekRange":19.71}
+{"EMAs":"O O X X X X","ticker":"TMV","dayChange":1.58,"weekRange":53.15},
+{"EMAs":"O O X X X X","ticker":"ZS","dayChange":3.45,"weekRange":74.47},
+{"EMAs":"O X X X X X","ticker":"DRV","dayChange":4.35,"weekRange":22.56},
+{"EMAs":"O O X X X X","ticker":"AAP","dayChange":1.2,"weekRange":7.11}
 ]
