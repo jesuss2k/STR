@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"ROOT","dayChange":10.19,"weekRange":96.05}
+{"EMAs":"X X X O O X","ticker":"BABA","dayChange":3.63,"weekRange":89.6},
+{"EMAs":"X X X O O X","ticker":"ERY","dayChange":1.84,"weekRange":57.14},
+{"EMAs":"X X X X O X","ticker":"GDX","dayChange":2.74,"weekRange":83.02},
+{"EMAs":"X X X X O X","ticker":"NUGT","dayChange":5.63,"weekRange":70.68}
 ]
