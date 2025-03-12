@@ -1,4 +1,6 @@
 [
-{"EMAs":"X X X X O O","ticker":"LMT","dayChange":-2.07,"weekRange":19.81},
-{"EMAs":"X X X X O O","ticker":"EA","dayChange":-0.78,"weekRange":40.51}
+{"EMAs":"O O O O X X","ticker":"CROX","dayChange":3.58,"weekRange":17.63},
+{"EMAs":"X X X O O O","ticker":"LMT","dayChange":-1.79,"weekRange":20.48},
+{"EMAs":"O O O X X X","ticker":"MU","dayChange":7.91,"weekRange":16.96},
+{"EMAs":"X X X X O O","ticker":"EA","dayChange":-1.39,"weekRange":38.96}
 ]
