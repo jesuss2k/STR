@@ -161,9 +161,20 @@ function getCurrentChartDirectory_v2() {
     return savedCurrentChartDirectory;
 }
 
-// Set the current chart directory in localStorage
 function setCurrentChartDirectory_v2(chartPath) {
-    localStorage.setItem('CurrentChartDirectory', chartPath.substring(0, chartPath.lastIndexOf('/')));
+    if (!chartPath || typeof chartPath !== 'string') {
+        console.error("Invalid chartPath provided to setCurrentChartDirectory_v2.");
+        return;
+    }
+
+    const directoryPath = chartPath.substring(0, chartPath.lastIndexOf('/'));
+
+    if (directoryPath.length > 0) {
+        localStorage.setItem('CurrentChartDirectory', directoryPath);
+        console.log("setCurrentChartDirectory_v2 = " + directoryPath);
+    } else {
+        console.warn("setCurrentChartDirectory_v2: Unable to determine directory path from chartPath:", chartPath);
+    }
 }
 
 async function loadTradingViewChart_v2(ticker = null) {
@@ -194,10 +205,10 @@ async function loadTradingViewChart_v2(ticker = null) {
 
     if (!ticker) {
         console.log("No ticker provided. Displaying empty chart.");
-        
-        // Make sure the function exists before calling it
+
+        // Check if addLineSeries() is available
         if (typeof chart.addLineSeries !== 'function') {
-            console.error("Error: 'chart.addLineSeries' is not available.");
+            console.error("Error: 'chart.addLineSeries' is not available in Lightweight Charts v3.8.0.");
             return;
         }
 
@@ -225,9 +236,9 @@ async function loadTradingViewChart_v2(ticker = null) {
             close: entry.Close
         }));
 
-        // Check if candlestick series is available before adding
+        // Ensure addCandlestickSeries() exists before using it
         if (typeof chart.addCandlestickSeries !== 'function') {
-            console.error("Error: 'chart.addCandlestickSeries' is not available.");
+            console.error("Error: 'chart.addCandlestickSeries' is not available in Lightweight Charts v3.8.0.");
             return;
         }
 
