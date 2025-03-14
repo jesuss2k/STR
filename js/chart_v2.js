@@ -172,13 +172,13 @@ async function loadTradingViewChart_v2(ticker = null) {
     const container = document.getElementById('plotly-div');
     container.innerHTML = '';
 
-    // Ensure TradingView library is available
+    // Ensure LightweightCharts is loaded before using it
     if (typeof LightweightCharts === 'undefined' || !LightweightCharts.createChart) {
         console.error("TradingView Lightweight Charts library is missing or not loaded.");
         return;
     }
 
-    // Create chart
+    // Create the TradingView chart
     const chart = LightweightCharts.createChart(container, {
         width: container.clientWidth,
         height: container.clientHeight,
@@ -194,6 +194,13 @@ async function loadTradingViewChart_v2(ticker = null) {
 
     if (!ticker) {
         console.log("No ticker provided. Displaying empty chart.");
+        
+        // Make sure the function exists before calling it
+        if (typeof chart.addLineSeries !== 'function') {
+            console.error("Error: 'chart.addLineSeries' is not available.");
+            return;
+        }
+
         const lineSeries = chart.addLineSeries();
         lineSeries.setData([]);
         return;
@@ -218,7 +225,12 @@ async function loadTradingViewChart_v2(ticker = null) {
             close: entry.Close
         }));
 
-        // Add candlestick series
+        // Check if candlestick series is available before adding
+        if (typeof chart.addCandlestickSeries !== 'function') {
+            console.error("Error: 'chart.addCandlestickSeries' is not available.");
+            return;
+        }
+
         const candleSeries = chart.addCandlestickSeries();
         candleSeries.setData(candleData);
 
