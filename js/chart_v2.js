@@ -180,42 +180,80 @@ function setCurrentChartDirectory_v2(chartPath) {
 async function loadTradingViewChart_v2(ticker = null) {
     console.log("Loading TradingView Chart...");
 
-    const container = document.getElementById('plotly-div');
-    container.innerHTML = '';
+    if (!ticker) {
+        console.error("Error: No ticker provided. Cannot load chart.");
+        return;
+    }
 
-    // Ensure LightweightCharts is loaded before using it
+    const container = document.getElementById('plotly-div');
+    const histogramContainer = document.getElementById('plotly-histogram');
+
+    container.innerHTML = '';
+    histogramContainer.innerHTML = '';
+
     if (typeof LightweightCharts === 'undefined' || !LightweightCharts.createChart) {
         console.error("TradingView Lightweight Charts library is missing or not loaded.");
         return;
     }
 
-    // Create the TradingView chart
+    // ✅ Create Main Chart
     const chart = LightweightCharts.createChart(container, {
         width: container.clientWidth,
         height: container.clientHeight,
         layout: {
             backgroundColor: 'black',
-            textColor: 'white'
+            textColor: 'gray'
         },
         grid: {
             vertLines: { color: '#222' },
             horzLines: { color: '#222' }
+        },
+        timeScale: {
+            rightOffset: 10,
+            barSpacing: 6,
+            fixLeftEdge: true,
+            fixRightEdge: true
+        },
+        priceScale: {
+            scaleMargins: {
+                top: 0.1,
+                bottom: 0.08
+            },
+            borderVisible: false,
+            entireTextOnly: false,
+            visible: true,
+            drawTicks: false,
+            ticksVisible: false
         }
     });
 
-    if (!ticker) {
-        console.log("No ticker provided. Displaying empty chart.");
-
-        // Check if addLineSeries() is available
-        if (typeof chart.addLineSeries !== 'function') {
-            console.error("Error: 'chart.addLineSeries' is not available in Lightweight Charts v3.8.0.");
-            return;
+    // ✅ Create Histogram Chart (WITHOUT TIME SCALE)
+    const histogramChart = LightweightCharts.createChart(histogramContainer, {
+        width: container.clientWidth,
+        height: histogramContainer.clientHeight,
+        layout: {
+            backgroundColor: 'black',
+            textColor: 'gray'
+        },
+        grid: {
+            vertLines: { color: '#222' },
+            horzLines: { color: '#222' }
+        },
+        timeScale: {
+            visible: false // ✅ Remove time scale from histogram
+        },
+        priceScale: {
+            scaleMargins: {
+                top: 0.02,
+                bottom: 0.02
+            },
+            borderVisible: false,
+            entireTextOnly: false,
+            visible: true, // ✅ Show scale for histogram values
+            drawTicks: true,
+            ticksVisible: true
         }
-
-        const lineSeries = chart.addLineSeries();
-        lineSeries.setData([]);
-        return;
-    }
+    });
 
     const jsonPath = `../JSON/2H/${ticker}.json`;
 
@@ -227,41 +265,152 @@ async function loadTradingViewChart_v2(ticker = null) {
 
         const rawData = await response.json();
 
-        // Convert JSON data into TradingView format
+        // ✅ Plot Candlestick Series
         const candleData = rawData.map(entry => ({
-            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000), // Convert to Unix timestamp
+            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
             open: entry.Open,
             high: entry.High,
             low: entry.Low,
             close: entry.Close
         }));
 
-        // Ensure addCandlestickSeries() exists before using it
-        if (typeof chart.addCandlestickSeries !== 'function') {
-            console.error("Error: 'chart.addCandlestickSeries' is not available in Lightweight Charts v3.8.0.");
-            return;
-        }
-
-        const candleSeries = chart.addCandlestickSeries();
+        const candleSeries = chart.addCandlestickSeries({
+            priceLineVisible: true,
+            lastValueVisible: false,
+        });
         candleSeries.setData(candleData);
 
-        console.log("Candlestick chart successfully loaded.");
+        console.log("✅ Candlestick chart successfully loaded for", ticker);
+
+        // ========== 📈 ADD EMA SERIES 📈 ==========
+        const emaColors = {
+            EMA_12: "#ffcbfb",  // Light Pink
+            EMA_25: "#8c3caf",  // Purple
+            EMA_50: "#38ccdd",  // Cyan
+            EMA_100: "#ffff00", // Yellow
+            EMA_200: "#e67e22", // Orange
+            EMA_400: "#ff0000", // Red
+            EMA_800: "#ffffff"  // White
+        };
+
+        Object.keys(emaColors).forEach(emaKey => {
+            if (!rawData[0][emaKey]) {
+                console.warn(`⚠ Skipping ${emaKey}, not found in JSON.`);
+                return;
+            }
+
+            const emaData = rawData.map(entry => ({
+                time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+                value: entry[emaKey]
+            }));
+
+            const emaSeries = chart.addLineSeries({
+                color: emaColors[emaKey],
+                lineWidth: 1,
+                priceLineVisible: false,
+                lastValueVisible: false,
+                crossHairMarkerVisible: false
+            });
+
+            emaSeries.setData(emaData);
+            console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]}`);
+        });
+
+        // ========== 📊 ADD HISTOGRAM (EMA_12 - EMA_25) 📊 ==========
+        if (rawData[0].EMA_12 && rawData[0].EMA_25) {
+            let prevValue = rawData[0].EMA_12 - rawData[0].EMA_25; // First value as reference
+
+            const histogramData = rawData.map((entry, index) => {
+                const value = entry.EMA_12 - entry.EMA_25;
+                let color;
+
+                if (value >= 0) {
+                    color = value > prevValue ? "rgba(12, 171, 7, 0.7)" : "rgba(139, 222, 122, 0.7)"; // Dark Green (up), Light Green (down)
+                } else {
+                    color = value < prevValue ? "rgba(222, 7, 28, 0.7)" : "rgba(222, 167, 166, 0.7)"; // Dark Red (down), Light Red (up)
+                }
+                prevValue = value; // Update for next iteration
+
+                return {
+                    time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+                    value,
+                    color
+                };
+            });
+
+            const histogramSeries = histogramChart.addHistogramSeries({
+                priceLineVisible: true,
+                lastValueVisible: false
+            });
+
+            histogramSeries.setData(histogramData);
+            console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
+        } else {
+            console.warn("⚠ Histogram not plotted: EMA_12 or EMA_25 missing in JSON.");
+        }
+
+        // ========== 🔄 SYNC CHARTS (ZOOM, PAN, BAR SPACING) 🔄 ==========
+        function syncCharts(sourceChart, targetChart) {
+            sourceChart.timeScale().subscribeVisibleTimeRangeChange((range) => {
+                targetChart.timeScale().setVisibleRange(range);
+            });
+
+            sourceChart.timeScale().subscribeBarSpacingChange((spacing) => {
+                targetChart.timeScale().applyOptions({ barSpacing: spacing });
+            });
+
+            sourceChart.subscribeCrosshairMove((param) => {
+                targetChart.setCrosshairPosition(param);
+            });
+
+            targetChart.timeScale().subscribeVisibleTimeRangeChange((range) => {
+                sourceChart.timeScale().setVisibleRange(range);
+            });
+
+            targetChart.timeScale().subscribeBarSpacingChange((spacing) => {
+                sourceChart.timeScale().applyOptions({ barSpacing: spacing });
+            });
+
+            targetChart.subscribeCrosshairMove((param) => {
+                sourceChart.setCrosshairPosition(param);
+            });
+        }
+
+        syncCharts(chart, histogramChart);
+
+        // ✅ Force Sync on Load
+        setTimeout(() => {
+            const visibleRange = chart.timeScale().getVisibleRange();
+            if (visibleRange) {
+                histogramChart.timeScale().setVisibleRange(visibleRange);
+            }
+
+            chart.timeScale().applyOptions({ rightOffset: 10 });
+            histogramChart.timeScale().applyOptions({ rightOffset: 10 });
+
+            console.log("✅ Forced histogram synchronization on load.");
+        }, 500);
+
+        console.log("✅ Main chart and histogram are now fully synchronized.");
+
     } catch (error) {
-        console.error("Error loading candlestick chart:", error);
+        console.error("❌ Error loading candlestick chart:", error);
     }
 }
 
-// Update loadChart_v2 function to support "2H" TradingView charts
+
 function loadChart_v2(chartPath, ticker = '') {
     console.log("loadChart_v2 charPath = " + chartPath);
-    
+
     if (chartPath.includes('Renko')) {
         let imagePath = chartPath.replace('.json', '.png');
         loadImage_v2(imagePath);
     } else if (chartPath.endsWith('.json')) {
         if (chartPath.includes('/2H/')) {
-            loadTradingViewChart_v2(ticker); // Load candlestick chart for 2H
+            localStorage.setItem('selectedChart', '2H'); // ✅ Store "2H" selection
+            loadTradingViewChart_v2(ticker); // ✅ Load "2H" chart
         } else {
+            localStorage.setItem('selectedChart', 'default'); // ✅ Reset if not "2H"
             loadPlot_v2(chartPath);
         }
     } else if (chartPath.endsWith('.png')) {
@@ -271,11 +420,17 @@ function loadChart_v2(chartPath, ticker = '') {
     setCurrentChartDirectory_v2(chartPath);
 }
 
-// Add event listener for the "2H" menu option
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("chart-ema2h").onclick = () => {
         const params = new URLSearchParams(window.location.search);
         const ticker = params.get("ticker");
-        loadTradingViewChart_v2(ticker);
+
+        if (!ticker) {
+            console.error("Error: No ticker found in URL.");
+            return;
+        }
+
+        loadTradingViewChart_v2(ticker); // ✅ Ensure ticker is passed
     };
 });
+

@@ -133,7 +133,7 @@ function populateTickerTable() {
         
         const ticker = item.ticker;
         const info = infoMap[ticker];
-        const detailUrl = "ticker.html?ticker=" + ticker;
+        const detailUrl = "ticker_v2.html?ticker=" + ticker;
         const dayChangeClass = getDayChangeClass(item.dayChange);
 
         const tr = document.createElement("tr");
