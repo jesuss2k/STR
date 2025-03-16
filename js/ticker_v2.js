@@ -24,25 +24,22 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         // ✅ Check if "2H" was last selected and reload it
         const lastSelectedChart = localStorage.getItem('selectedChart');
+        console.log(`LastSelectedChart=${lastSelectedChart}`)
 
-        if (lastSelectedChart === '2H') {
-            console.log("🔄 Reloading last selected 2H chart...");
-            loadTradingViewChart_v2(ticker);
+        if (lastSelectedChart === null || lastSelectedChart.includes('Renko')) {
+            loadChart_v2('2H', '2H', ticker)
         } else {
-            loadChart_v2(getCurrentChartDirectory_v2() + `/${ticker}.json`, ticker);
+            loadChart_v2(lastSelectedChart, lastSelectedChart, ticker)
         }
 
         document.getElementById("chart-summary").href = `../../summaries/${ticker}.html`;
-        document.getElementById("chart-ema1w").onclick = () => loadChart_v2(`../../charts/JSON/EMA1W/${ticker}.json`, ticker);
-        document.getElementById("chart-ema1d").onclick = () => loadChart_v2(`../../charts/JSON/EMA1D/${ticker}.json`, ticker);
-        document.getElementById("chart-renko1d").onclick = () => loadChart_v2(`../../charts/Renko1D/${ticker}.png`, ticker);
-        document.getElementById("chart-renko1h").onclick = () => loadChart_v2(`../../charts/Renko1h/${ticker}.png`, ticker);
-        document.getElementById("chart-ema30m").onclick = () => loadChart_v2(`../../charts/JSON/EMA30Min/${ticker}.json`, ticker);
-        document.getElementById("chart-ema2h").onclick = () => {
-            localStorage.setItem('selectedChart', '2H'); // ✅ Ensure selection is saved
-            loadTradingViewChart_v2(ticker);
-        };
-
+        document.getElementById("chart-ema1w").onclick = () => loadChart_v2('1W', '1W', ticker);
+        document.getElementById("chart-ema1d").onclick = () => loadChart_v2('1D', '1D', ticker);
+        document.getElementById("chart-ema2h").onclick = ()  => loadChart_v2('2H', '2H', ticker);
+        document.getElementById("chart-ema30m").onclick = ()  => loadChart_v2('30M', '30M', ticker);
+        document.getElementById("chart-renko1d").onclick = () => loadChart_v2('Renko1D', `../../charts/Renko1D/${ticker}.png`, ticker);
+        document.getElementById("chart-renko1h").onclick = () => loadChart_v2('Renko1H', `../../charts/Renko1h/${ticker}.png`, ticker);
+ 
         const sortedTickers = JSON.parse(localStorage.getItem("sortedTickers")) || [];
         const index = sortedTickers.indexOf(ticker);
 
@@ -104,13 +101,22 @@ document.addEventListener("DOMContentLoaded", async function () {
                     loadChart_v2(getChartPath_v2(currentSelection, ticker), ticker);
                     break;
                 case "1":
+                    loadChart_v2('1W', '1W', ticker);
+                    break;
                 case "2":
+                    loadChart_v2('1D', '1D', ticker);
+                    break;
                 case "3":
+                    loadChart_v2('2H', '2H', ticker);
+                    break;
                 case "4":
+                    loadChart_v2('30M', '30M', ticker);
+                    break;
                 case "5":
+                    loadChart_v2('Renko1D', `../../charts/Renko1D/${ticker}.png`, ticker);
+                    break;
                 case "6":
-                    currentSelection = event.key.charCodeAt(0);
-                    loadChart_v2(getChartPath_v2(currentSelection, ticker), ticker);
+                    loadChart_v2('Renko1H', `../../charts/Renko1h/${ticker}.png`, ticker);
                     break;
             }
         });

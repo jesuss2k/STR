@@ -18,11 +18,13 @@ body, html {
 #plotly-div {
     width: 100vw;
     height: 84vh; /* ✅ Main chart takes 75% of viewport height */
+    background-color: black;
 }
 
 #plotly-histogram {
     width: 100vw;
     height: 16vh; /* ✅ Histogram takes 25% of viewport height */
+    background-color: black;
 }
 
 /* Navigation Arrows */
