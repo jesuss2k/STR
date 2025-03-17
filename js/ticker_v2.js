@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const lastSelectedChart = localStorage.getItem('selectedChart');
         console.log(`LastSelectedChart=${lastSelectedChart}`)
 
-        if (lastSelectedChart === null || lastSelectedChart.includes('Renko')) {
+        if (lastSelectedChart === null) {
             loadChart_v2('2H', '2H', ticker)
         } else {
             loadChart_v2(lastSelectedChart, lastSelectedChart, ticker)
@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         document.getElementById("chart-ema1d").onclick = () => loadChart_v2('1D', '1D', ticker);
         document.getElementById("chart-ema2h").onclick = ()  => loadChart_v2('2H', '2H', ticker);
         document.getElementById("chart-ema30m").onclick = ()  => loadChart_v2('30M', '30M', ticker);
-        document.getElementById("chart-renko1d").onclick = () => loadChart_v2('Renko1D', `../../charts/Renko1D/${ticker}.png`, ticker);
-        document.getElementById("chart-renko1h").onclick = () => loadChart_v2('Renko1H', `../../charts/Renko1h/${ticker}.png`, ticker);
+        document.getElementById("chart-renko1d").onclick = () => loadChart_v2('Rk 1D', `../../charts/Renko1D/${ticker}.png`, ticker);
+        document.getElementById("chart-renko1h").onclick = () => loadChart_v2('Rk 1h', `../../charts/Renko1h/${ticker}.png`, ticker);
  
         const sortedTickers = JSON.parse(localStorage.getItem("sortedTickers")) || [];
         const index = sortedTickers.indexOf(ticker);
@@ -113,10 +113,10 @@ document.addEventListener("DOMContentLoaded", async function () {
                     loadChart_v2('30M', '30M', ticker);
                     break;
                 case "5":
-                    loadChart_v2('Renko1D', `../../charts/Renko1D/${ticker}.png`, ticker);
+                    loadChart_v2('Rk 1D', `../../charts/Renko1D/${ticker}.png`, ticker);
                     break;
                 case "6":
-                    loadChart_v2('Renko1H', `../../charts/Renko1h/${ticker}.png`, ticker);
+                    loadChart_v2('Rk 1h', `../../charts/Renko1h/${ticker}.png`, ticker);
                     break;
             }
         });

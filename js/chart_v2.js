@@ -702,7 +702,6 @@ async function loadTradingViewChart_v2(ticker = null) {
     plotCandlesticks(chart, candleData);
     console.log(`✅ Candlestick chart successfully loaded for ${ticker}`);
 
- 
     if (selectedChart === '1W') {
         await plotOrders(chart, candleData, ticker);
         localStorage.setItem('selectedChart', '1W');
@@ -730,11 +729,13 @@ async function loadTradingViewChart_v2(ticker = null) {
 function loadChart_v2(chartType, chartPath, ticker = '') {
     console.log("loadChart_v2 charPath = " + chartPath);
 
-    if (chartPath.includes('Renko')) {
-        let imagePath = chartPath.replace('.json', '.png');
-        loadImage_v2(imagePath);
+    localStorage.setItem('selectedChart', chartType);
+
+    if (chartType.includes('Rk 1D')) {
+        loadImage_v2(`../../charts/Renko1D/${ticker}.png`);
+    } else if (chartType.includes('Rk 1h')) {
+        loadImage_v2(`../../charts/Renko1h/${ticker}.png`);
     } else {
-        localStorage.setItem('selectedChart', chartType);
         loadTradingViewChart_v2(ticker);
     }
 
@@ -742,8 +743,6 @@ function loadChart_v2(chartType, chartPath, ticker = '') {
     if (menuCaption) {
         menuCaption.textContent = localStorage.getItem('selectedChart');
     }
-
-    //setCurrentChartDirectory_v2(chartPath);
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
