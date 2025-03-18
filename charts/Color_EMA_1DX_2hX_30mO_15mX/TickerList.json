@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"AMZD","dayChange":1.18,"weekRange":38.46}
+{"EMAs":"X X X O O X","ticker":"SDS","dayChange":2.36,"weekRange":36.04},
+{"EMAs":"X X X O O X","ticker":"SPXU","dayChange":3.52,"weekRange":31.86},
+{"EMAs":"X X X O O X","ticker":"SQQQ","dayChange":5.55,"weekRange":93.98},
+{"EMAs":"X X X O O X","ticker":"QID","dayChange":3.67,"weekRange":37.69}
 ]

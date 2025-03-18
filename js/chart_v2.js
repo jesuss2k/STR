@@ -235,7 +235,7 @@ function createMainChart(container) {
             },
             borderVisible: false,
             entireTextOnly: false,
-            visible: true,
+            visible: false,
             drawTicks: false,
             ticksVisible: false
         }
@@ -305,6 +305,11 @@ function prepareCandleData(rawData) {
  */
 function plotCandlesticks(chart, candleData) {
     const candleSeries = chart.addCandlestickSeries({
+        priceFormat: {
+            type: 'price',
+            precision: 0,
+            minMove: 1
+        },        
         priceLineVisible: true,
         lastValueVisible: false,
     });
@@ -409,8 +414,12 @@ function plotHistogram_1W(histogramChart, rawData) {
 
     const histogramSeries = histogramChart.addHistogramSeries({
         priceLineVisible: true,
-        lastValueVisible: false
-    });
+        lastValueVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 1,
+            minMove: 1
+        }});
 
     histogramSeries.setData(histogramData);
     console.log("✅ Histogram (EMA_5 - EMA_10) added with trend-based colors.");
@@ -478,8 +487,12 @@ function plotHistogram_1D(histogramChart, rawData) {
 
     const histogramSeries = histogramChart.addHistogramSeries({
         priceLineVisible: true,
-        lastValueVisible: false
-    });
+        lastValueVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 1,
+            minMove: 1
+        }});
 
     histogramSeries.setData(histogramData);
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
@@ -550,8 +563,12 @@ function plotHistogram_2H(histogramChart, rawData) {
 
     const histogramSeries = histogramChart.addHistogramSeries({
         priceLineVisible: true,
-        lastValueVisible: false
-    });
+        lastValueVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 1,
+            minMove: 1
+        }});
 
     histogramSeries.setData(histogramData);
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
@@ -618,8 +635,12 @@ function plotHistogram_30m(histogramChart, rawData) {
 
     const histogramSeries = histogramChart.addHistogramSeries({
         priceLineVisible: true,
-        lastValueVisible: false
-    });
+        lastValueVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 1,
+            minMove: 1
+        }});
 
     histogramSeries.setData(histogramData);
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
