@@ -3,11 +3,9 @@ function loadImage_v2(imagePath) {
     console.log('Reached loadImage_v2 with path:', imagePath); // For debugging
 
     const container = document.getElementById('plotly-div');
+    const histogramContainer = document.getElementById('plotly-histogram');    
     
-    // If you're using Plotly on that same container, you might want to purge it first:
-    if (typeof Plotly !== 'undefined' && Plotly.purge) {
-        Plotly.purge(container);
-    }
+    clearContainers(container, histogramContainer);
     
     // Clear any HTML previously in the container
     container.innerHTML = '';
