@@ -223,10 +223,10 @@ function createMainChart(container) {
             horzLines: { color: 'rgba(34, 34, 34, 0.5)' }
         },
         timeScale: {
-            rightOffset: 10,
-            barSpacing: 6,
-            fixLeftEdge: true,
-            fixRightEdge: true
+            // rightOffset: 10,
+            // barSpacing: 6,
+            // fixLeftEdge: false,
+            // fixRightEdge: false
         },
         priceScale: {
             scaleMargins: {
@@ -238,7 +238,13 @@ function createMainChart(container) {
             visible: false,
             drawTicks: false,
             ticksVisible: false
-        }
+        },
+        rightPriceScale: {
+            borderVisible: false,
+        },
+        crosshair: {
+            mode: 0, // 0 => Normal, 1 => Magnet
+        }        
     });
 }
 
@@ -275,7 +281,10 @@ function createHistogramChart(histogramContainer, width) {
             drawTicks: true,
             ticksVisible: true,
             autoScale: true
-        }
+        },
+        rightPriceScale: {
+            borderVisible: false,
+        },        
     });
 }
 
@@ -311,9 +320,10 @@ function plotCandlesticks(chart, candleData) {
             minMove: 1
         },        
         priceLineVisible: true,
-        lastValueVisible: false,
+        lastValueVisible: false
     });
     candleSeries.setData(candleData);
+
     return candleSeries;
 }
 
@@ -377,11 +387,12 @@ function plotEMAs_1W(chart, rawData) {
             lineWidth: 1,
             priceLineVisible: false,
             lastValueVisible: false,
-            crossHairMarkerVisible: false,
-            pointMarkersVisible: false
+            crosshairMarkerVisible: false,
+            pointMarkersVisible: false,
         });
 
         emaSeries.setData(emaData);
+        
         console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]}`);
     });
 }
@@ -417,7 +428,7 @@ function plotHistogram_1W(histogramChart, rawData) {
         lastValueVisible: false,
         priceFormat: {
             type: 'price',
-            precision: 1,
+            precision: 0,
             minMove: 1
         }});
 
@@ -451,6 +462,8 @@ function plotEMAs_1D(chart, rawData) {
             lineWidth: 1,
             priceLineVisible: false,
             lastValueVisible: false,
+            crosshairMarkerVisible: false,
+            pointMarkersVisible: false,
             lineStyle: emaKey === "ZLEMA" ? 3 : 0 // Dashed line for ZLEMA (2 = Dotted, 0 = Solid)
         });
 
@@ -490,7 +503,7 @@ function plotHistogram_1D(histogramChart, rawData) {
         lastValueVisible: false,
         priceFormat: {
             type: 'price',
-            precision: 1,
+            precision: 0,
             minMove: 1
         }});
 
@@ -526,8 +539,8 @@ function plotEMAs_2H(chart, rawData) {
             lineWidth: 1,
             priceLineVisible: false,
             lastValueVisible: false,
-            crossHairMarkerVisible: false,
-            pointMarkersVisible: false
+            crosshairMarkerVisible: false,
+            pointMarkersVisible: false,
         });
 
         emaSeries.setData(emaData);
@@ -566,7 +579,7 @@ function plotHistogram_2H(histogramChart, rawData) {
         lastValueVisible: false,
         priceFormat: {
             type: 'price',
-            precision: 1,
+            precision: 0,
             minMove: 1
         }});
 
@@ -599,7 +612,9 @@ function plotEMAs_30m(chart, rawData) {
             color: emaColors[emaKey],
             lineWidth: 1,
             priceLineVisible: false,
-            lastValueVisible: false
+            lastValueVisible: false,
+            crosshairMarkerVisible: false,
+            pointMarkersVisible: false,
         });
 
         emaSeries.setData(emaData);
@@ -638,7 +653,7 @@ function plotHistogram_30m(histogramChart, rawData) {
         lastValueVisible: false,
         priceFormat: {
             type: 'price',
-            precision: 1,
+            precision: 0,
             minMove: 1
         }});
 
