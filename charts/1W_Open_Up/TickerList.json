@@ -1,11 +1,13 @@
 [
-{"EMAs":"O X X X O O","ticker":"GM","dayChange":-0.67,"weekRange":43.58},
-{"EMAs":"O X X X X X","ticker":"ASML","dayChange":0.11,"weekRange":18.44},
-{"EMAs":"X X X X X X","ticker":"LMT","dayChange":0.36,"weekRange":24.88},
-{"EMAs":"O X X X X X","ticker":"UNH","dayChange":0.96,"weekRange":34.69},
-{"EMAs":"O X X X X X","ticker":"CROX","dayChange":-0.37,"weekRange":19.77},
-{"EMAs":"O O X X X X","ticker":"PAYC","dayChange":0.47,"weekRange":75.1},
-{"EMAs":"X X X X X O","ticker":"MU","dayChange":-1.35,"weekRange":24.57},
-{"EMAs":"X X X X X O","ticker":"EA","dayChange":-0.72,"weekRange":50.03},
-{"EMAs":"X X X X X X","ticker":"INTC","dayChange":0.9,"weekRange":27.55}
+{"EMAs":"O X X X X X","ticker":"ASML","dayChange":-0.4,"weekRange":17.81},
+{"EMAs":"O X X X X X","ticker":"INTU","dayChange":1.41,"weekRange":33.59},
+{"EMAs":"O X X X X O","ticker":"GM","dayChange":0.37,"weekRange":44.39},
+{"EMAs":"O X X X O X","ticker":"NU","dayChange":1.78,"weekRange":31.43},
+{"EMAs":"O X X X X X","ticker":"UNH","dayChange":-0.41,"weekRange":33.62},
+{"EMAs":"X X X X X X","ticker":"LMT","dayChange":0.9,"weekRange":27.01},
+{"EMAs":"X X X X X X","ticker":"PAYC","dayChange":1.24,"weekRange":77.7},
+{"EMAs":"O X X X X X","ticker":"CROX","dayChange":1.96,"weekRange":22.41},
+{"EMAs":"X X X X X O","ticker":"EA","dayChange":0.13,"weekRange":50.38},
+{"EMAs":"X X X X X O","ticker":"MU","dayChange":0.23,"weekRange":24.88},
+{"EMAs":"X X X X X O","ticker":"INTC","dayChange":-5.32,"weekRange":22.42}
 ]
