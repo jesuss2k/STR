@@ -1,3 +1,6 @@
 [
-{"EMAs":"O O X X O X","ticker":"APP","dayChange":3.99,"weekRange":49.37}
+{"EMAs":"O O X X O X","ticker":"ARM","dayChange":-0.17,"weekRange":32.88},
+{"EMAs":"O X X O O X","ticker":"KYMR","dayChange":0.06,"weekRange":20.58},
+{"EMAs":"O O X X O X","ticker":"STX","dayChange":0.78,"weekRange":21.27},
+{"EMAs":"O X X O O X","ticker":"MAMA","dayChange":2.05,"weekRange":33.13}
 ]
