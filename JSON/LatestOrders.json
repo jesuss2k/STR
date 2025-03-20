@@ -50,6 +50,7 @@
 {"ticker":"CROX","positionStatus":"Closed","price":135.2776},
 {"ticker":"CROX","positionStatus":"Open","price":105.91},
 {"ticker":"CRWD","positionStatus":"Closed","price":363.595},
+{"ticker":"CRWD","positionStatus":"Open","price":376.57},
 {"ticker":"CTLP","positionStatus":"Closed","price":7.79},
 {"ticker":"DAKT","positionStatus":"Closed","price":11.74},
 {"ticker":"DAL","positionStatus":"Closed","price":51.422},
