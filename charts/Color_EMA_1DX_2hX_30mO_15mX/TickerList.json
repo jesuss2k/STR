@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"INTC","dayChange":0.55,"weekRange":20.75},
-{"EMAs":"X X X X O X","ticker":"OKTA","dayChange":0.72,"weekRange":92.78},
-{"EMAs":"X X X O O X","ticker":"VZ","dayChange":0.51,"weekRange":65.4},
-{"EMAs":"X X X X O X","ticker":"AMZD","dayChange":-0.08,"weekRange":39.08}
+{"EMAs":"X X X O O X","ticker":"INTC","dayChange":2.25,"weekRange":22.27},
+{"EMAs":"X X X O O X","ticker":"VZ","dayChange":0.05,"weekRange":63.33}
 ]

@@ -1,3 +1,9 @@
 [
-{"EMAs":"O X X X O X","ticker":"PFE","dayChange":0.0,"weekRange":24.22}
+{"EMAs":"O O X X O X","ticker":"APLD","dayChange":-1.03,"weekRange":47.97},
+{"EMAs":"O O X X O X","ticker":"ARM","dayChange":0.11,"weekRange":32.57},
+{"EMAs":"O O X X O X","ticker":"PSTG","dayChange":0.38,"weekRange":21.53},
+{"EMAs":"O O X X O X","ticker":"UDOW","dayChange":-0.32,"weekRange":39.03},
+{"EMAs":"O O X X O X","ticker":"XRT","dayChange":0.28,"weekRange":15.61},
+{"EMAs":"O O X X O X","ticker":"SNPS","dayChange":0.23,"weekRange":12.7},
+{"EMAs":"O O X X O X","ticker":"HLI","dayChange":0.47,"weekRange":58.45}
 ]
