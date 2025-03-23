@@ -360,6 +360,33 @@ async function plotOrders(chart, candleData, ticker) {
     }
 }
 
+async function plotGuruFocus(chart, candleData, ticker) {
+    try {
+        const GuruFocusData = await fetchJSONData("../../JSON/GuruFocus.json");
+        console.log(`📄 Loaded ${GuruFocusData.length} GuruFocus from GuruFocus.json`);
+
+        const filteredOrders = GuruFocusData.filter(GuruFocus => GuruFocus.ticker === ticker);
+        console.log(`📊 Found ${filteredOrders.length} GuruFocus for ${ticker}:`, filteredOrders);
+
+        filteredOrders.forEach(GuruFocus => {
+            chart.addLineSeries({
+                lineWidth: 9,
+                color: "rgba(245, 245, 220, 0.4)",
+                priceLineVisible: false,                
+                lastValueVisible: false,
+                lineStyle: LightweightCharts.LineStyle.Solid
+            }).setData([
+                { time: candleData[0].time, value: GuruFocus.GFValue },
+                { time: candleData[candleData.length - 1].time, value: GuruFocus.GFValue }
+            ]);
+
+            console.log(`✅ Plotted GuruFocus at ${GuruFocus.GFValue}`);
+        });
+    } catch (error) {
+        console.error("❌ Error loading GuruFocus JSON:", error);
+    }
+}
+
 function plotEMAs_1W(chart, rawData) {
     const emaColors = {
         EMA_5: "#ffff00", // Yellow
@@ -738,11 +765,13 @@ async function loadTradingViewChart_v2(ticker = null) {
 
     if (selectedChart === '1W') {
         await plotOrders(chart, candleData, ticker);
+        await plotGuruFocus(chart, candleData, ticker);
         localStorage.setItem('selectedChart', '1W');
         plotEMAs_1W(chart, rawData);
         plotHistogram_1W(histogramChart, rawData);
     } else if (selectedChart === '1D') {
         await plotOrders(chart, candleData, ticker);
+        await plotGuruFocus(chart, candleData, ticker);
         localStorage.setItem('selectedChart', '1D');
         plotEMAs_1D(chart, rawData);
         plotHistogram_1D(histogramChart, rawData);

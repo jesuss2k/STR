@@ -15,7 +15,7 @@
 {"EMAs":"O O O O O X","ticker":"IBM","dayChange":0.23,"weekRange":78.25},
 {"EMAs":"X O O O O O","ticker":"PM","dayChange":-0.65,"weekRange":88.8},
 {"EMAs":"X X O O O O","ticker":"MRK","dayChange":-1.71,"weekRange":22.52},
-{"EMAs":"X O O O O O","ticker":"TMUS","dayChange":-0.46,"weekRange":82.45},
+{"EMAs":"X O O O O O","ticker":"TMUS","dayChange":-0.46,"weekRange":82.4},
 {"EMAs":"X X X X X O","ticker":"BP","dayChange":-0.58,"weekRange":53.49},
 {"EMAs":"O O O O O O","ticker":"ECL","dayChange":-0.37,"weekRange":59.94},
 {"EMAs":"X X X X X X","ticker":"GM","dayChange":0.73,"weekRange":48.65},
