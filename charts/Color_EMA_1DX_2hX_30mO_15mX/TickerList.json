@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"NFLX","dayChange":1.35,"weekRange":84.54}
+{"EMAs":"X X X X O X","ticker":"HUM","dayChange":-0.04,"weekRange":29.55},
+{"EMAs":"X X X O O X","ticker":"DASH","dayChange":0.6,"weekRange":81.69},
+{"EMAs":"X X X O O X","ticker":"VEEV","dayChange":0.79,"weekRange":75.81}
 ]
