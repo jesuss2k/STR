@@ -1,6 +1,5 @@
 [
-{"EMAs":"O X X O O X","ticker":"CCL","dayChange":0.55,"weekRange":48.63},
-{"EMAs":"O X X O O X","ticker":"MAMA","dayChange":1.96,"weekRange":38.12},
-{"EMAs":"O O X X O X","ticker":"RETL","dayChange":1.47,"weekRange":18.0},
-{"EMAs":"O X X O O X","ticker":"MIRM","dayChange":1.82,"weekRange":77.12}
+{"EMAs":"O O X O O X","ticker":"CMG","dayChange":0.6,"weekRange":12.25},
+{"EMAs":"O X X O O X","ticker":"CAVA","dayChange":0.65,"weekRange":24.68},
+{"EMAs":"O X X O O X","ticker":"MA","dayChange":1.39,"weekRange":77.76}
 ]
