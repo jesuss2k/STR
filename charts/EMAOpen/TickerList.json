@@ -1,23 +1,5 @@
 [
-{"EMAs":"X X X X X X","Group":"3","ticker":"EA","dayChange":0.8,"weekRange":57.16},
-{"EMAs":"O X X X X X","Group":"3","ticker":"PG","dayChange":0.08,"weekRange":63.32},
-{"EMAs":"X X O X X X","Group":"3","ticker":"CROX","dayChange":2.77,"weekRange":27.11},
-{"EMAs":"X X X X X O","Group":"3","ticker":"UNH","dayChange":-0.12,"weekRange":44.63},
-{"EMAs":"X X X X X X","Group":"3","ticker":"INTU","dayChange":-0.03,"weekRange":37.48},
-{"EMAs":"O X X X X X","Group":"3","ticker":"DFS","dayChange":-0.11,"weekRange":59.22},
-{"EMAs":"X X X X O O","Group":"3:6","ticker":"V","dayChange":-1.17,"weekRange":82.26},
-{"EMAs":"O X O O X X","Group":"6:12","ticker":"GDDY","dayChange":0.32,"weekRange":63.34},
-{"EMAs":"O O O O O X","Group":"25:50","ticker":"UBER","dayChange":0.18,"weekRange":56.44},
-{"EMAs":"O O O O X X","Group":"100:200","ticker":"SHOP","dayChange":2.26,"weekRange":60.73},
-{"EMAs":"O O O O X X","Group":"100:200","ticker":"META","dayChange":1.67,"weekRange":52.54},
-{"EMAs":"O X O O X X","Group":"100:200","ticker":"GDDY","dayChange":0.32,"weekRange":63.34},
-{"EMAs":"O X X X X X","Group":"100:200","ticker":"DFS","dayChange":-0.11,"weekRange":59.22},
-{"EMAs":"O O O O X X","Group":"100:200","ticker":"CRWD","dayChange":2.78,"weekRange":63.42},
-{"EMAs":"X X O O X X","Group":"100:200","ticker":"FICO","dayChange":1.32,"weekRange":58.82},
-{"EMAs":"O O O O X X","Group":"200","ticker":"SHOP","dayChange":2.26,"weekRange":60.73},
-{"EMAs":"O O O O X X","Group":"200","ticker":"META","dayChange":1.67,"weekRange":52.54},
-{"EMAs":"O X O O X X","Group":"200","ticker":"GDDY","dayChange":0.32,"weekRange":63.34},
-{"EMAs":"O X X X X X","Group":"200","ticker":"DFS","dayChange":-0.11,"weekRange":59.22},
-{"EMAs":"O O O O X X","Group":"200","ticker":"CRWD","dayChange":2.78,"weekRange":63.42},
-{"EMAs":"X X O O X X","Group":"200","ticker":"FICO","dayChange":1.32,"weekRange":58.82}
+{"EMAs":"X X X X X O","Group":"3","ticker":"UNH","dayChange":-1.54,"weekRange":49.26},
+{"EMAs":"O O O O O O","Group":"100:200","ticker":"V","dayChange":-6.2,"weekRange":57.66},
+{"EMAs":"O O O O O O","Group":"200","ticker":"V","dayChange":-6.2,"weekRange":57.66}
 ]
