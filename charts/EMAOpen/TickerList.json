@@ -1,13 +1,16 @@
 [
-{"EMAs":"O X X X X X","Group":"3","ticker":"IONQ","dayChange":0.77,"weekRange":40.95},
-{"EMAs":"O O X X X X","Group":"3","ticker":"MSFT","dayChange":1.86,"weekRange":35.34},
-{"EMAs":"O X X X X X","Group":"3","ticker":"CRWD","dayChange":2.52,"weekRange":69.51},
-{"EMAs":"X X X X X X","Group":"3","ticker":"LMT","dayChange":2.42,"weekRange":28.0},
-{"EMAs":"X X X X X X","Group":"3","ticker":"UNH","dayChange":0.85,"weekRange":83.74},
-{"EMAs":"O X X X X X","Group":"3","ticker":"FICO","dayChange":2.08,"weekRange":60.36},
-{"EMAs":"O O X X X X","Group":"50:100","ticker":"V","dayChange":2.71,"weekRange":70.89},
-{"EMAs":"O O O X X X","Group":"100:200","ticker":"GDDY","dayChange":1.78,"weekRange":54.28},
-{"EMAs":"O X X X X X","Group":"100:200","ticker":"IONQ","dayChange":0.77,"weekRange":40.95},
-{"EMAs":"O O O X X X","Group":"200","ticker":"GDDY","dayChange":1.78,"weekRange":54.28},
-{"EMAs":"O X X X X X","Group":"200","ticker":"IONQ","dayChange":0.77,"weekRange":40.95}
+{"EMAs":"O X X X X X","Group":"3","ticker":"MARA","dayChange":3.52,"weekRange":15.34},
+{"EMAs":"O X X X X X","Group":"3","ticker":"NVDA","dayChange":-0.2,"weekRange":45.28},
+{"EMAs":"O X X X X X","Group":"3","ticker":"UBER","dayChange":1.13,"weekRange":56.78},
+{"EMAs":"O X X X X X","Group":"3","ticker":"MSFT","dayChange":-0.16,"weekRange":34.82},
+{"EMAs":"X X X X X X","Group":"3","ticker":"EA","dayChange":1.8,"weekRange":56.84},
+{"EMAs":"O X X X X X","Group":"3","ticker":"PAYC","dayChange":1.18,"weekRange":76.3},
+{"EMAs":"X X X X X X","Group":"3","ticker":"LMT","dayChange":0.09,"weekRange":28.22},
+{"EMAs":"O X X X X X","Group":"3","ticker":"CRWD","dayChange":0.2,"weekRange":69.81},
+{"EMAs":"X X X X X X","Group":"3","ticker":"FICO","dayChange":2.35,"weekRange":63.78},
+{"EMAs":"O X X X O O","Group":"3:6","ticker":"IONQ","dayChange":-2.84,"weekRange":39.43},
+{"EMAs":"X X X X O O","Group":"3:6","ticker":"UNH","dayChange":-2.07,"weekRange":77.28},
+{"EMAs":"O O X X X X","Group":"50:100","ticker":"V","dayChange":0.53,"weekRange":72.45},
+{"EMAs":"O X X X O O","Group":"100:200","ticker":"IONQ","dayChange":-2.84,"weekRange":39.43},
+{"EMAs":"O X X X O O","Group":"200","ticker":"IONQ","dayChange":-2.84,"weekRange":39.43}
 ]
