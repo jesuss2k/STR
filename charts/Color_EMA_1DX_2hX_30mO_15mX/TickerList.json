@@ -1,4 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"CELH","dayChange":-0.7,"weekRange":20.55},
-{"EMAs":"X X X O O X","ticker":"ERY","dayChange":0.3,"weekRange":62.92}
+{"EMAs":"X X X O O X","ticker":"ROST","dayChange":0.69,"weekRange":41.88},
+{"EMAs":"X X X X O X","ticker":"PLTR","dayChange":1.15,"weekRange":69.9},
+{"EMAs":"X X X O O X","ticker":"TJX","dayChange":1.04,"weekRange":90.55},
+{"EMAs":"X X X X O X","ticker":"YOU","dayChange":1.68,"weekRange":46.65}
 ]
