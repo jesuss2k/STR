@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":-0.94,"weekRange":71.81},
-{"EMAs":"X X X O O X","ticker":"TMDX","dayChange":1.95,"weekRange":30.2},
-{"EMAs":"X X X X O X","ticker":"MMYT","dayChange":0.75,"weekRange":69.34},
-{"EMAs":"X X X X O X","ticker":"DLTR","dayChange":0.9,"weekRange":32.55}
+{"EMAs":"X X X X O X","ticker":"MCD","dayChange":-0.18,"weekRange":87.82},
+{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":-1.06,"weekRange":71.56},
+{"EMAs":"X X X O O X","ticker":"TMDX","dayChange":1.69,"weekRange":30.0}
 ]
