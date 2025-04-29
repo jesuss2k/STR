@@ -1,3 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"INTC","dayChange":3.47,"weekRange":15.8}
+{"EMAs":"O X X X O X","ticker":"DECK","dayChange":-0.04,"weekRange":11.85},
+{"EMAs":"O X X X O X","ticker":"GCT","dayChange":-1.2,"weekRange":6.6},
+{"EMAs":"O X X X O X","ticker":"PHR","dayChange":-1.05,"weekRange":55.13}
 ]
