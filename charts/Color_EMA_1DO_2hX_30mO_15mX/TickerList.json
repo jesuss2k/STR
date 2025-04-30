@@ -1,4 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"CCL","dayChange":-0.8,"weekRange":33.0},
-{"EMAs":"O X X O O X","ticker":"GCT","dayChange":-1.67,"weekRange":5.87}
+{"EMAs":"O X X X O X","ticker":"OMC","dayChange":-0.46,"weekRange":16.85},
+{"EMAs":"O X X O O X","ticker":"DE","dayChange":-0.41,"weekRange":67.81},
+{"EMAs":"O X X O O X","ticker":"UAL","dayChange":-0.86,"weekRange":39.66}
 ]
