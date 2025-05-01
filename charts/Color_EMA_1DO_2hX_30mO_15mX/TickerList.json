@@ -1,6 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"WBD","dayChange":-0.87,"weekRange":32.26},
-{"EMAs":"O X X O O X","ticker":"BIDU","dayChange":0.46,"weekRange":32.53},
-{"EMAs":"O X X O O X","ticker":"GPRO","dayChange":1.91,"weekRange":11.95},
-{"EMAs":"O X X O O X","ticker":"VNOM","dayChange":2.55,"weekRange":30.16}
+{"EMAs":"O X X O O X","ticker":"BIDU","dayChange":0.26,"weekRange":32.11},
+{"EMAs":"O X X O O X","ticker":"GPRO","dayChange":1.43,"weekRange":11.77},
+{"EMAs":"O X X O O X","ticker":"VNOM","dayChange":1.82,"weekRange":28.82}
 ]
