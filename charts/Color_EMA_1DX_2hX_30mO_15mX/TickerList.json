@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":4.45,"weekRange":39.28}
+{"EMAs":"X X X O O X","ticker":"HOOD","dayChange":-1.11,"weekRange":64.37},
+{"EMAs":"X X X X O X","ticker":"T","dayChange":-0.36,"weekRange":87.46},
+{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":2.2,"weekRange":37.89}
 ]
