@@ -1,4 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"UDOW","dayChange":1.92,"weekRange":37.09},
-{"EMAs":"O X X O O X","ticker":"DKS","dayChange":1.57,"weekRange":26.04}
+{"EMAs":"O X X X O X","ticker":"UDOW","dayChange":1.61,"weekRange":36.67},
+{"EMAs":"O X X X O X","ticker":"FDX","dayChange":0.94,"weekRange":17.66},
+{"EMAs":"O X X O O X","ticker":"DKS","dayChange":1.5,"weekRange":25.89}
 ]
