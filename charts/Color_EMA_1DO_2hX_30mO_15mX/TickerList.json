@@ -1,3 +1,5 @@
 [
-{"EMAs":"O O X X O X","ticker":"SBUX","dayChange":1.37,"weekRange":24.46}
+{"EMAs":"O X X O O X","ticker":"DKS","dayChange":1.93,"weekRange":26.81},
+{"EMAs":"O X X X O X","ticker":"NVO","dayChange":3.51,"weekRange":12.74},
+{"EMAs":"O X X X O X","ticker":"TXN","dayChange":0.88,"weekRange":28.04}
 ]
