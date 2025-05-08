@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"FLUT","dayChange":0.56,"weekRange":55.43},
-{"EMAs":"X X X O O X","ticker":"MDLZ","dayChange":0.28,"weekRange":60.7}
+{"EMAs":"X X X O O X","ticker":"DRN","dayChange":0.62,"weekRange":44.46},
+{"EMAs":"X X X X O X","ticker":"XLRE","dayChange":0.31,"weekRange":60.39},
+{"EMAs":"X X X O O X","ticker":"FLUT","dayChange":0.56,"weekRange":55.44}
 ]
