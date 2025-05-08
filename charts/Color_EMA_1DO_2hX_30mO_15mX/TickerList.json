@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O X X O X","ticker":"JD","dayChange":0.37,"weekRange":41.43},
-{"EMAs":"O X X O O X","ticker":"OMC","dayChange":0.91,"weekRange":19.65},
-{"EMAs":"O X X X O X","ticker":"JBLU","dayChange":2.47,"weekRange":24.75}
+{"EMAs":"O O X X O X","ticker":"JD","dayChange":0.06,"weekRange":40.99},
+{"EMAs":"O X X O O X","ticker":"OMC","dayChange":0.96,"weekRange":19.75}
 ]
