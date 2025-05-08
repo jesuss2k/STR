@@ -246,6 +246,7 @@
 {"ticker":"TQQQ","positionStatus":"Open","price":90.2261},
 {"ticker":"TREE","positionStatus":"Closed","price":41.25},
 {"ticker":"TSLA","positionStatus":"Closed","price":332.2632},
+{"ticker":"TSLA","positionStatus":"Open","price":287.42},
 {"ticker":"TSLS","positionStatus":"Closed","price":25.8921},
 {"ticker":"TSM","positionStatus":"Closed","price":149.0538},
 {"ticker":"TSM","positionStatus":"Open","price":198.555},
