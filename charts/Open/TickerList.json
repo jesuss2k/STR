@@ -24,11 +24,11 @@
 {"$ Prft":-12.0,"% Pfrt":-3.1,"EMAs":"X X X X O O","ticker":"DFS","dayChange":-1.02,"weekRange":81.72},
 {"$ Prft":221.0,"% Pfrt":11.8,"EMAs":"X X X X O O","ticker":"FICO","dayChange":-0.83,"weekRange":72.33},
 {"$ Prft":-2.0,"% Pfrt":-0.6,"EMAs":"X X X X O O","ticker":"GDDY","dayChange":-0.21,"weekRange":60.31},
-{"$ Prft":43.0,"% Pfrt":8.4,"EMAs":"X X X X O O","ticker":"PDD","dayChange":-0.25,"weekRange":29.02},
+{"$ Prft":43.0,"% Pfrt":8.4,"EMAs":"X X X X O O","ticker":"PDD","dayChange":-0.23,"weekRange":29.05},
 {"$ Prft":-27.0,"% Pfrt":-4.4,"EMAs":"X X X X O O","ticker":"META","dayChange":-0.92,"weekRange":50.24},
 {"$ Prft":12.0,"% Pfrt":2.7,"EMAs":"X X X X O X","ticker":"LMT","dayChange":-0.21,"weekRange":27.31},
 {"$ Prft":16.0,"% Pfrt":2.3,"EMAs":"X X X X X O","ticker":"V","dayChange":0.36,"weekRange":87.7},
-{"$ Prft":-635.0,"% Pfrt":-17.6,"EMAs":"X X X X X O","ticker":"UPRO","dayChange":-0.49,"weekRange":46.01},
+{"$ Prft":-634.0,"% Pfrt":-17.6,"EMAs":"X X X X X O","ticker":"UPRO","dayChange":-0.45,"weekRange":46.07},
 {"$ Prft":-44.0,"% Pfrt":-11.1,"EMAs":"X X X X X O","ticker":"TSM","dayChange":0.74,"weekRange":46.27},
 {"$ Prft":-119.0,"% Pfrt":-14.4,"EMAs":"X X X X X O","ticker":"TQQQ","dayChange":-0.24,"weekRange":40.77},
 {"$ Prft":-226.0,"% Pfrt":-44.9,"EMAs":"X X X X X O","ticker":"TNA","dayChange":-0.72,"weekRange":24.23},
@@ -63,7 +63,7 @@
 {"$ Prft":-65.0,"% Pfrt":-16.5,"EMAs":"X X X X X X","ticker":"CAT","dayChange":0.42,"weekRange":38.57},
 {"$ Prft":-10.0,"% Pfrt":-1.3,"EMAs":"X X X X X X","ticker":"AMZN","dayChange":0.51,"weekRange":45.59},
 {"$ Prft":-155.0,"% Pfrt":-23.2,"EMAs":"X X X X X X","ticker":"AMD","dayChange":1.12,"weekRange":23.79},
-{"$ Prft":14.0,"% Pfrt":2.0,"EMAs":"X X X X X X","ticker":"WIX","dayChange":-0.43,"weekRange":40.17},
+{"$ Prft":14.0,"% Pfrt":2.0,"EMAs":"X X X X X X","ticker":"WIX","dayChange":-0.43,"weekRange":37.88},
 {"$ Prft":36.0,"% Pfrt":6.0,"EMAs":"X X X X X X","ticker":"WSM","dayChange":-0.36,"weekRange":36.96},
 {"$ Prft":167.0,"% Pfrt":17.6,"EMAs":"X X X X X X","ticker":"AAL","dayChange":0.73,"weekRange":24.62}
 ]
