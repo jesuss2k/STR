@@ -1,8 +1,7 @@
 [
-{"Date":"25-05-12","ticker":"LMT","dayChange":-1.38,"weekRange":23.88},
-{"Date":"25-05-08","ticker":"CRWD","dayChange":2.95,"weekRange":94.71},
-{"Date":"25-05-07","ticker":"GOOGL","dayChange":0.78,"weekRange":28.82},
-{"Date":"25-05-01","ticker":"LLY","dayChange":-0.79,"weekRange":24.53},
-{"Date":"25-04-23","ticker":"PG","dayChange":-1.31,"weekRange":9.27},
-{"Date":"25-04-17","ticker":"UNH","dayChange":-16.18,"weekRange":0.31}
+{"Date":"25-05-12","ticker":"LMT","dayChange":-1.94,"weekRange":22.53},
+{"Date":"25-05-07","ticker":"GOOGL","dayChange":0.98,"weekRange":29.29},
+{"Date":"25-05-01","ticker":"LLY","dayChange":-1.12,"weekRange":23.69},
+{"Date":"25-04-23","ticker":"PG","dayChange":-1.72,"weekRange":6.5},
+{"Date":"25-04-17","ticker":"UNH","dayChange":-15.54,"weekRange":1.08}
 ]
