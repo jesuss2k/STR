@@ -1,5 +1,6 @@
 [
-{"EMAs":"O O O O X X","ticker":"UNH","dayChange":7.24,"weekRange":16.81},
-{"EMAs":"O O O X X O","ticker":"LLY","dayChange":-0.93,"weekRange":24.79},
-{"EMAs":"O X X O O O","ticker":"SBUX","dayChange":-1.29,"weekRange":28.14}
+{"EMAs":"O O O O X X","ticker":"UNH","dayChange":8.21,"weekRange":17.55},
+{"EMAs":"O O O X X X","ticker":"LLY","dayChange":-0.3,"weekRange":26.41},
+{"EMAs":"X X O O O O","ticker":"TEAM","dayChange":-2.86,"weekRange":41.52},
+{"EMAs":"O X X O O O","ticker":"SBUX","dayChange":-1.12,"weekRange":28.45}
 ]
