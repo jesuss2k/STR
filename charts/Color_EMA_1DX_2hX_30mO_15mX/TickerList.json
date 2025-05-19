@@ -1,13 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"TTD","dayChange":-0.66,"weekRange":34.52},
-{"EMAs":"X X X O O X","ticker":"ALK","dayChange":1.02,"weekRange":45.97},
-{"EMAs":"X X X X O X","ticker":"CDW","dayChange":0.06,"weekRange":49.29},
-{"EMAs":"X X X O O X","ticker":"INTC","dayChange":0.26,"weekRange":20.21},
-{"EMAs":"X X X X O X","ticker":"ISRG","dayChange":0.14,"weekRange":75.25},
-{"EMAs":"X X X X O X","ticker":"MTDR","dayChange":0.3,"weekRange":30.08},
-{"EMAs":"X X X X O X","ticker":"PINS","dayChange":1.33,"weekRange":41.8},
-{"EMAs":"X X X X O X","ticker":"PYPL","dayChange":0.56,"weekRange":42.63},
-{"EMAs":"X X X X O X","ticker":"WBD","dayChange":-0.03,"weekRange":41.21},
-{"EMAs":"X X X O O X","ticker":"GPRO","dayChange":0.3,"weekRange":15.24},
-{"EMAs":"X X X X O X","ticker":"ON","dayChange":0.54,"weekRange":27.98}
+{"EMAs":"X X X X O X","ticker":"APP","dayChange":0.31,"weekRange":65.19},
+{"EMAs":"X X X X O X","ticker":"ALK","dayChange":-0.36,"weekRange":45.83}
 ]
