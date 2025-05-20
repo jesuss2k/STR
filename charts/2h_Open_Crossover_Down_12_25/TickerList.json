@@ -1,8 +1,9 @@
 [
-{"Date":"25-05-20","ticker":"MRVL","dayChange":-3.45,"weekRange":16.56},
-{"Date":"25-05-20","ticker":"NU","dayChange":-3.02,"weekRange":51.79},
-{"Date":"25-05-20","ticker":"FICO","dayChange":-8.46,"weekRange":66.28},
-{"Date":"25-05-20","ticker":"SOFI","dayChange":-1.97,"weekRange":60.03},
-{"Date":"25-05-01","ticker":"LLY","dayChange":-0.62,"weekRange":24.82},
-{"Date":"25-04-17","ticker":"UNH","dayChange":2.56,"weekRange":19.67}
+{"Date":"25-05-20","ticker":"MRVL","dayChange":-3.66,"weekRange":16.4},
+{"Date":"25-05-20","ticker":"AAPL","dayChange":-1.53,"weekRange":40.02},
+{"Date":"25-05-20","ticker":"NU","dayChange":-3.47,"weekRange":50.95},
+{"Date":"25-05-20","ticker":"FICO","dayChange":-7.68,"weekRange":67.78},
+{"Date":"25-05-20","ticker":"SOFI","dayChange":-3.06,"weekRange":58.82},
+{"Date":"25-05-01","ticker":"LLY","dayChange":-1.0,"weekRange":23.86},
+{"Date":"25-04-17","ticker":"UNH","dayChange":1.95,"weekRange":19.16}
 ]
