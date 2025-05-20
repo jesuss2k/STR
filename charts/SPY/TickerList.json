@@ -1,5 +1,5 @@
 [
-{"ticker":"NVDA","dayChange":0.08,"weekRange":73.51},
+{"ticker":"NVDA","dayChange":0.13,"weekRange":73.6},
 {"ticker":"AAPL","dayChange":-1.17,"weekRange":43.54},
 {"ticker":"MSFT","dayChange":1.01,"weekRange":92.33},
 {"ticker":"AMZN","dayChange":0.28,"weekRange":60.0},
@@ -25,7 +25,7 @@
 {"ticker":"COST","dayChange":0.83,"weekRange":84.87},
 {"ticker":"PFE","dayChange":0.74,"weekRange":19.62},
 {"ticker":"KO","dayChange":-1.49,"weekRange":62.37},
-{"ticker":"ADBE","dayChange":0.87,"weekRange":34.7},
+{"ticker":"ADBE","dayChange":0.85,"weekRange":34.67},
 {"ticker":"CRM","dayChange":-1.21,"weekRange":48.17},
 {"ticker":"WMT","dayChange":-0.12,"weekRange":82.67},
 {"ticker":"TMO","dayChange":-0.18,"weekRange":18.15},
