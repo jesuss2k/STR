@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"NOW","dayChange":0.07,"weekRange":68.66}
+{"EMAs":"X X X O O X","ticker":"DDOG","dayChange":2.96,"weekRange":40.05},
+{"EMAs":"X X X O O X","ticker":"GCT","dayChange":1.11,"weekRange":30.25},
+{"EMAs":"X X X O O X","ticker":"NOW","dayChange":1.04,"weekRange":69.15},
+{"EMAs":"X X X X O X","ticker":"ZS","dayChange":1.64,"weekRange":98.86}
 ]
