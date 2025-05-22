@@ -1,5 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"PFE","dayChange":0.46,"weekRange":20.99},
-{"EMAs":"O X X X O X","ticker":"LABU","dayChange":1.13,"weekRange":15.94},
-{"EMAs":"O X X X O X","ticker":"MRNA","dayChange":3.9,"weekRange":2.48}
+{"EMAs":"O X X X O X","ticker":"PFE","dayChange":0.0,"weekRange":20.0},
+{"EMAs":"O O X X O X","ticker":"LABU","dayChange":-0.49,"weekRange":15.25}
 ]
