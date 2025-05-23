@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"ROAD","dayChange":0.29,"weekRange":92.78}
+{"EMAs":"X X X O O X","ticker":"MMC","dayChange":0.35,"weekRange":59.46},
+{"EMAs":"X X X O O X","ticker":"NRG","dayChange":0.25,"weekRange":93.68},
+{"EMAs":"X X X O O X","ticker":"ROAD","dayChange":0.98,"weekRange":94.08}
 ]
