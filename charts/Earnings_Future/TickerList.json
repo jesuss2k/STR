@@ -1,5 +1,5 @@
 [
-{"EMAs":"X X X X X X","ticker":"NVDA","dayChange":3.22,"weekRange":73.53},
-{"EMAs":"X X O O O O","ticker":"COST","dayChange":0.45,"weekRange":77.53},
-{"EMAs":"X X X O X X","ticker":"ADBE","dayChange":1.72,"weekRange":32.33}
+{"EMAs":"X X X X X X","ticker":"NVDA","dayChange":3.1,"weekRange":73.28},
+{"EMAs":"X X O O O X","ticker":"COST","dayChange":0.61,"weekRange":78.06},
+{"EMAs":"X X X O X X","ticker":"ADBE","dayChange":1.61,"weekRange":32.16}
 ]
