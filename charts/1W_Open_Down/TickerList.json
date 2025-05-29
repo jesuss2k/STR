@@ -6,6 +6,7 @@
 {"EMAs":"O O O O O O","ticker":"WIX","dayChange":0.09,"weekRange":13.15},
 {"EMAs":"O O O O O O","ticker":"LLY","dayChange":-0.8,"weekRange":14.32},
 {"EMAs":"X O O O O O","ticker":"GDDY","dayChange":-0.93,"weekRange":54.12},
+{"EMAs":"O O X X O O","ticker":"TMUS","dayChange":-0.76,"weekRange":67.62},
 {"EMAs":"O O O O X X","ticker":"AAPL","dayChange":0.1,"weekRange":34.34},
 {"EMAs":"X O O O O O","ticker":"CROX","dayChange":-2.79,"weekRange":26.22},
 {"EMAs":"X O O O X X","ticker":"NU","dayChange":2.18,"weekRange":44.71},

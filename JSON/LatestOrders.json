@@ -239,6 +239,7 @@
 {"ticker":"TGT","positionStatus":"Closed","price":136.42},
 {"ticker":"TJX","positionStatus":"Closed","price":113.64},
 {"ticker":"TMUS","positionStatus":"Closed","price":262.45},
+{"ticker":"TMUS","positionStatus":"Open","price":244.44},
 {"ticker":"TNA","positionStatus":"Closed","price":50.4825},
 {"ticker":"TNA","positionStatus":"Open","price":50.289},
 {"ticker":"TQQQ","positionStatus":"Closed","price":69.4134},
