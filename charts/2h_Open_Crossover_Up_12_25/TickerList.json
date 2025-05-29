@@ -4,8 +4,8 @@
 {"Date":"25-05-28","ticker":"BBY","dayChange":-0.97,"weekRange":33.93},
 {"Date":"25-05-28","ticker":"HLT","dayChange":-0.91,"weekRange":69.56},
 {"Date":"25-05-28","ticker":"SHOP","dayChange":0.35,"weekRange":72.44},
-{"Date":"25-05-28","ticker":"ANF","dayChange":14.67,"weekRange":17.53},
-{"Date":"25-05-27","ticker":"META","dayChange":0.23,"weekRange":67.44},
+{"Date":"25-05-28","ticker":"ANF","dayChange":14.67,"weekRange":17.89},
+{"Date":"25-05-27","ticker":"META","dayChange":0.2,"weekRange":67.37},
 {"Date":"25-05-27","ticker":"AMD","dayChange":-1.48,"weekRange":32.83},
 {"Date":"25-05-27","ticker":"ORCL","dayChange":1.2,"weekRange":58.86},
 {"Date":"25-05-27","ticker":"SBUX","dayChange":-1.16,"weekRange":31.47},
@@ -20,6 +20,7 @@
 {"Date":"25-05-27","ticker":"CAT","dayChange":-0.57,"weekRange":54.36},
 {"Date":"25-05-27","ticker":"LULU","dayChange":-1.7,"weekRange":45.48},
 {"Date":"25-05-27","ticker":"MRVL","dayChange":1.21,"weekRange":21.77},
+{"Date":"25-05-23","ticker":"TMUS","dayChange":-0.76,"weekRange":67.62},
 {"Date":"25-05-19","ticker":"LMT","dayChange":-1.44,"weekRange":25.54},
 {"Date":"25-05-15","ticker":"PG","dayChange":-0.24,"weekRange":45.2},
 {"Date":"25-05-13","ticker":"ASPN","dayChange":-3.89,"weekRange":7.8},
@@ -36,8 +37,8 @@
 {"Date":"25-04-23","ticker":"INTU","dayChange":0.33,"weekRange":98.09},
 {"Date":"25-04-23","ticker":"ADBE","dayChange":-0.21,"weekRange":31.37},
 {"Date":"25-04-23","ticker":"PAYC","dayChange":-0.69,"weekRange":97.29},
-{"Date":"25-04-22","ticker":"IONQ","dayChange":-1.0,"weekRange":85.2},
 {"Date":"25-04-22","ticker":"ELF","dayChange":-1.33,"weekRange":24.12},
-{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"weekRange":91.57},
-{"Date":"25-04-14","ticker":"DELL","dayChange":-0.19,"weekRange":41.89}
+{"Date":"25-04-22","ticker":"IONQ","dayChange":-1.0,"weekRange":85.2},
+{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"weekRange":91.55},
+{"Date":"25-04-14","ticker":"DELL","dayChange":-0.19,"weekRange":42.21}
 ]
