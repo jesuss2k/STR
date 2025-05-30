@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"PFE","dayChange":-0.53,"weekRange":22.68}
+{"EMAs":"X X X O O X","ticker":"DASH","dayChange":0.47,"weekRange":91.62},
+{"EMAs":"X X X O O X","ticker":"DXCM","dayChange":1.23,"weekRange":44.38},
+{"EMAs":"X X X X O X","ticker":"JBLU","dayChange":3.46,"weekRange":38.13},
+{"EMAs":"X X X X O X","ticker":"RETL","dayChange":0.82,"weekRange":41.94},
+{"EMAs":"X X X X O X","ticker":"XRT","dayChange":0.26,"weekRange":62.99}
 ]
