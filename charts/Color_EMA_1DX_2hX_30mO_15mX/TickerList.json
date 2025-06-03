@@ -1,3 +1,8 @@
 [
-{"EMAs":"X X X X O X","ticker":"PFGC","dayChange":-0.38,"weekRange":89.56}
+{"EMAs":"X X X O O X","ticker":"FL","dayChange":0.17,"weekRange":55.62},
+{"EMAs":"X X X O O X","ticker":"ROAD","dayChange":0.89,"weekRange":93.18},
+{"EMAs":"X X X O O X","ticker":"TMDX","dayChange":1.89,"weekRange":58.25},
+{"EMAs":"X X X O O X","ticker":"ULCC","dayChange":0.03,"weekRange":16.35},
+{"EMAs":"X X X O O X","ticker":"GPRO","dayChange":-0.25,"weekRange":17.16},
+{"EMAs":"X X X X O X","ticker":"PFGC","dayChange":-0.21,"weekRange":88.96}
 ]
