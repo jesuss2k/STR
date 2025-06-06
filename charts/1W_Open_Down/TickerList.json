@@ -1,5 +1,5 @@
 [
-{"EMAs":"X O O O O O","ticker":"TSLA","dayChange":-14.27,"weekRange":36.52},
+{"EMAs":"X O O O O O","ticker":"TSLA","dayChange":-14.26,"weekRange":36.52},
 {"EMAs":"O O O O O O","ticker":"UNH","dayChange":-1.51,"weekRange":12.3},
 {"EMAs":"O O O X X O","ticker":"PDD","dayChange":-0.32,"weekRange":17.82},
 {"EMAs":"O O X X X X","ticker":"FICO","dayChange":0.96,"weekRange":43.42},
@@ -11,7 +11,7 @@
 {"EMAs":"X X O O O O","ticker":"IONQ","dayChange":-7.52,"weekRange":62.74},
 {"EMAs":"X X O O O O","ticker":"PG","dayChange":-1.9,"weekRange":26.08},
 {"EMAs":"O O O O O O","ticker":"GDDY","dayChange":-1.04,"weekRange":55.64},
-{"EMAs":"X O O O O O","ticker":"PCAR","dayChange":-0.17,"weekRange":22.79},
+{"EMAs":"X O O O O O","ticker":"PCAR","dayChange":-0.15,"weekRange":22.84},
 {"EMAs":"O O X X O O","ticker":"AAPL","dayChange":-1.08,"weekRange":34.57},
 {"EMAs":"X X O O O O","ticker":"COST","dayChange":-3.89,"weekRange":76.36},
 {"EMAs":"O O O X X X","ticker":"NU","dayChange":1.42,"weekRange":43.45}
