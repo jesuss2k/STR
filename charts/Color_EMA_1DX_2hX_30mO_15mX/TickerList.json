@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"HOOD","dayChange":-0.82,"weekRange":92.17}
+{"EMAs":"X X X X O X","ticker":"OPRA","dayChange":0.21,"weekRange":71.35},
+{"EMAs":"X X X O O X","ticker":"MAMA","dayChange":-0.97,"weekRange":58.71},
+{"EMAs":"X X X X O X","ticker":"HOOD","dayChange":-0.76,"weekRange":92.23}
 ]
