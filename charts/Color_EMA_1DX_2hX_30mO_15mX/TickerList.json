@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"INSM","dayChange":1.15,"weekRange":61.16}
+{"EMAs":"X X X X O X","ticker":"HOOD","dayChange":1.01,"weekRange":94.26},
+{"EMAs":"X X X X O X","ticker":"PATH","dayChange":0.99,"weekRange":58.93},
+{"EMAs":"X X X O O X","ticker":"GDX","dayChange":0.02,"weekRange":88.62},
+{"EMAs":"X X X O O X","ticker":"NUGT","dayChange":-0.04,"weekRange":84.75}
 ]
