@@ -1,5 +1,11 @@
 [
-{"EMAs":"X X X X O X","ticker":"GCT","dayChange":1.61,"weekRange":33.45},
-{"EMAs":"X X X X O X","ticker":"POWL","dayChange":2.53,"weekRange":26.66},
-{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":1.2,"weekRange":38.27}
+{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":1.19,"weekRange":94.45},
+{"EMAs":"X X X X O X","ticker":"DE","dayChange":0.51,"weekRange":92.09},
+{"EMAs":"X X X X O X","ticker":"EXPE","dayChange":0.99,"weekRange":67.25},
+{"EMAs":"X X X X O X","ticker":"ZS","dayChange":0.92,"weekRange":96.05},
+{"EMAs":"X X X O O X","ticker":"AXON","dayChange":1.85,"weekRange":94.34},
+{"EMAs":"X X X X O X","ticker":"HIMS","dayChange":1.48,"weekRange":71.58},
+{"EMAs":"X X X X O X","ticker":"VEEV","dayChange":0.19,"weekRange":93.92},
+{"EMAs":"X X X X O X","ticker":"WDC","dayChange":1.23,"weekRange":52.75},
+{"EMAs":"X X X O O X","ticker":"DASH","dayChange":1.71,"weekRange":98.17}
 ]
