@@ -1,5 +1,6 @@
 [
-{"EMAs":"O O X O X X","ticker":"EA","dayChange":0.09,"weekRange":61.17},
-{"EMAs":"O O X X X X","ticker":"FAST","dayChange":-0.09,"weekRange":7.78},
-{"EMAs":"O X X X X X","ticker":"TMF","dayChange":1.95,"weekRange":13.71}
+{"EMAs":"O X X X X X","ticker":"BIDU","dayChange":0.33,"weekRange":31.61},
+{"EMAs":"O O X X X X","ticker":"EA","dayChange":0.21,"weekRange":61.51},
+{"EMAs":"O O X X X X","ticker":"FAST","dayChange":0.42,"weekRange":8.26},
+{"EMAs":"O X X X X X","ticker":"TMF","dayChange":1.9,"weekRange":13.65}
 ]
