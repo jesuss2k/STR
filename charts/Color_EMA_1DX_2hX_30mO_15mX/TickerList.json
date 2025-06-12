@@ -1,7 +1,9 @@
 [
-{"EMAs":"X X X O O X","ticker":"APLD","dayChange":2.45,"weekRange":75.22},
-{"EMAs":"X X X X O X","ticker":"ON","dayChange":1.76,"weekRange":44.15},
-{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":0.3,"weekRange":93.56},
-{"EMAs":"X X X O O X","ticker":"MDB","dayChange":1.19,"weekRange":31.55},
-{"EMAs":"X X X O O X","ticker":"CSCO","dayChange":1.32,"weekRange":93.34}
+{"EMAs":"X X X X O X","ticker":"TGT","dayChange":0.88,"weekRange":14.52},
+{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":2.14,"weekRange":37.71},
+{"EMAs":"X X X X O X","ticker":"WDC","dayChange":0.38,"weekRange":51.31},
+{"EMAs":"X X X O O X","ticker":"APLD","dayChange":6.56,"weekRange":79.21},
+{"EMAs":"X X X X O X","ticker":"ON","dayChange":2.49,"weekRange":44.92},
+{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":0.49,"weekRange":93.99},
+{"EMAs":"X X X O O X","ticker":"MDB","dayChange":1.25,"weekRange":31.61}
 ]
