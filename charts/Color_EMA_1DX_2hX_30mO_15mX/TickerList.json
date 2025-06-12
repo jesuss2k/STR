@@ -1,5 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"ABNB","dayChange":0.59,"weekRange":60.89},
-{"EMAs":"X X X X O X","ticker":"FDX","dayChange":0.31,"weekRange":25.43},
-{"EMAs":"X X X X O X","ticker":"TGT","dayChange":0.95,"weekRange":14.6}
+{"EMAs":"X X X O O X","ticker":"DG","dayChange":-0.07,"weekRange":65.1},
+{"EMAs":"X X X X O X","ticker":"TXN","dayChange":0.2,"weekRange":74.76},
+{"EMAs":"X X X X O X","ticker":"ABNB","dayChange":0.63,"weekRange":60.97},
+{"EMAs":"X X X X O X","ticker":"TGT","dayChange":0.9,"weekRange":14.54}
 ]
