@@ -1,5 +1,6 @@
 [
-{"EMAs":"O O X X X X","ticker":"SDOW","dayChange":6.03,"weekRange":55.44},
-{"EMAs":"O O X X X X","ticker":"HUM","dayChange":-0.47,"weekRange":11.03},
-{"EMAs":"O O X X X X","ticker":"TZA","dayChange":5.2,"weekRange":22.08}
+{"EMAs":"O X X X X X","ticker":"LUNA","dayChange":0.0,"weekRange":14.6},
+{"EMAs":"O O X X X X","ticker":"SDOW","dayChange":5.5,"weekRange":55.06},
+{"EMAs":"O O X X X X","ticker":"HUM","dayChange":0.13,"weekRange":11.76},
+{"EMAs":"O O X X X X","ticker":"TZA","dayChange":5.5,"weekRange":22.32}
 ]
