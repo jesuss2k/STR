@@ -1,7 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"GOOG","dayChange":0.83,"weekRange":52.51},
-{"EMAs":"X X X O O X","ticker":"FL","dayChange":0.25,"weekRange":57.01},
-{"EMAs":"X X X O O X","ticker":"ASPN","dayChange":1.87,"weekRange":7.3},
-{"EMAs":"X X X O O X","ticker":"SNOW","dayChange":0.58,"weekRange":94.95},
-{"EMAs":"X X X O O X","ticker":"KYMR","dayChange":0.57,"weekRange":82.14}
+{"EMAs":"X X X O O X","ticker":"GOOG","dayChange":1.05,"weekRange":53.1},
+{"EMAs":"X X X O O X","ticker":"FL","dayChange":0.23,"weekRange":57.0},
+{"EMAs":"X X X O O X","ticker":"ASPN","dayChange":1.62,"weekRange":7.24}
 ]
