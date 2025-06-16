@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O X X X X","ticker":"SDOW","dayChange":-3.22,"weekRange":52.64},
-{"EMAs":"O O X X X X","ticker":"HUM","dayChange":-0.01,"weekRange":11.75},
-{"EMAs":"O O X X X X","ticker":"TZA","dayChange":-3.3,"weekRange":19.6}
+{"EMAs":"O X X O X X","ticker":"BIDU","dayChange":2.16,"weekRange":31.66},
+{"EMAs":"O X X X X X","ticker":"HUM","dayChange":-0.21,"weekRange":11.5}
 ]
