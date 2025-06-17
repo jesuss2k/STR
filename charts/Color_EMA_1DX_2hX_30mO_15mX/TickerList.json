@@ -1,5 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"VEEV","dayChange":0.72,"weekRange":93.83},
-{"EMAs":"X X X O O X","ticker":"FL","dayChange":0.37,"weekRange":57.15},
-{"EMAs":"X X X O O X","ticker":"ASPN","dayChange":2.11,"weekRange":7.35}
+{"EMAs":"X X X O O X","ticker":"PSN","dayChange":1.03,"weekRange":25.55},
+{"EMAs":"X X X X O X","ticker":"VNOM","dayChange":1.69,"weekRange":33.61},
+{"EMAs":"X X X O O X","ticker":"FL","dayChange":-0.23,"weekRange":56.91},
+{"EMAs":"X X X O O X","ticker":"ASPN","dayChange":-0.08,"weekRange":7.33}
 ]
