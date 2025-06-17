@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"PSN","dayChange":1.03,"weekRange":25.55},
-{"EMAs":"X X X X O X","ticker":"VNOM","dayChange":1.69,"weekRange":33.61},
-{"EMAs":"X X X O O X","ticker":"FL","dayChange":-0.23,"weekRange":56.91},
-{"EMAs":"X X X O O X","ticker":"ASPN","dayChange":-0.08,"weekRange":7.33}
+{"EMAs":"X X X O O X","ticker":"SNOW","dayChange":0.33,"weekRange":95.34},
+{"EMAs":"X X X O O X","ticker":"PSN","dayChange":0.29,"weekRange":24.7},
+{"EMAs":"X X X O O X","ticker":"FL","dayChange":-0.08,"weekRange":57.06}
 ]
