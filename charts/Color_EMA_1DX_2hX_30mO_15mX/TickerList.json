@@ -1,7 +1,8 @@
 [
-{"EMAs":"X X X O O X","ticker":"FDX","dayChange":1.33,"weekRange":26.1},
-{"EMAs":"X X X O O X","ticker":"QLD","dayChange":1.15,"weekRange":80.24},
-{"EMAs":"X X X O O X","ticker":"QQQ","dayChange":0.56,"weekRange":93.66},
-{"EMAs":"X X X O O X","ticker":"KYMR","dayChange":2.18,"weekRange":82.53},
-{"EMAs":"X X X O O X","ticker":"SPY","dayChange":0.54,"weekRange":90.5}
+{"EMAs":"X X X X O X","ticker":"PLTR","dayChange":1.06,"weekRange":95.79},
+{"EMAs":"X X X X O X","ticker":"FDX","dayChange":1.18,"weekRange":25.81},
+{"EMAs":"X X X O O X","ticker":"QQQ","dayChange":0.43,"weekRange":93.17},
+{"EMAs":"X X X O O X","ticker":"SPY","dayChange":0.39,"weekRange":89.84},
+{"EMAs":"X X X X O X","ticker":"TECL","dayChange":1.09,"weekRange":61.57},
+{"EMAs":"X O X O O X","ticker":"TSLA","dayChange":3.1,"weekRange":47.43}
 ]
