@@ -1,4 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"PLTR","dayChange":1.27,"weekRange":96.04},
-{"EMAs":"X X X X O X","ticker":"DASH","dayChange":0.54,"weekRange":97.81}
+{"EMAs":"X X X O O X","ticker":"FDX","dayChange":1.35,"weekRange":26.78},
+{"EMAs":"X X X X O X","ticker":"ON","dayChange":2.51,"weekRange":45.94},
+{"EMAs":"X X X O O X","ticker":"DIS","dayChange":0.55,"weekRange":95.07},
+{"EMAs":"X X X X O X","ticker":"PLTR","dayChange":-0.42,"weekRange":95.56}
 ]
