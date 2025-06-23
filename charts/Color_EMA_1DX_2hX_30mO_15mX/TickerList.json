@@ -1,7 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"CRWD","dayChange":1.62,"weekRange":96.86},
-{"EMAs":"X X X O O X","ticker":"FLUT","dayChange":2.07,"weekRange":75.42},
-{"EMAs":"X X X O O X","ticker":"XLK","dayChange":0.15,"weekRange":95.98},
-{"EMAs":"X X X O O X","ticker":"LRCX","dayChange":1.45,"weekRange":3.3},
-{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":0.0,"weekRange":64.58}
+{"EMAs":"X X X O O X","ticker":"CRWD","dayChange":1.47,"weekRange":96.61},
+{"EMAs":"X X X O O X","ticker":"LRCX","dayChange":0.56,"weekRange":3.23}
 ]
