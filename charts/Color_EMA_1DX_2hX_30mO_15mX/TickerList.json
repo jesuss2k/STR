@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":-0.89,"weekRange":97.13},
-{"EMAs":"X X X O O X","ticker":"FLUT","dayChange":2.53,"weekRange":76.4},
-{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":0.55,"weekRange":65.62},
-{"EMAs":"X X X X O X","ticker":"WBD","dayChange":1.19,"weekRange":66.09}
+{"EMAs":"X X X X O X","ticker":"MIRM","dayChange":-0.6,"weekRange":81.14},
+{"EMAs":"X X X O O X","ticker":"FLUT","dayChange":2.76,"weekRange":76.87},
+{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":0.44,"weekRange":65.41}
 ]
