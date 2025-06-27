@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X O O X","ticker":"F","dayChange":0.95,"weekRange":33.38}
+{"EMAs":"X X X X O X","ticker":"CMG","dayChange":0.46,"weekRange":45.15},
+{"EMAs":"X X X O O X","ticker":"TTWO","dayChange":0.8,"weekRange":96.51},
+{"EMAs":"X X X X O X","ticker":"GRBK","dayChange":0.3,"weekRange":36.64},
+{"EMAs":"X X X O O X","ticker":"MAMA","dayChange":0.68,"weekRange":59.49},
+{"EMAs":"X X X O O X","ticker":"MDLZ","dayChange":0.03,"weekRange":62.51}
 ]
