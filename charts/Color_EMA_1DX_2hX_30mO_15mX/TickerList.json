@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"HLI","dayChange":0.86,"weekRange":81.92},
-{"EMAs":"X X X X O X","ticker":"LRCX","dayChange":-0.79,"weekRange":3.75},
-{"EMAs":"X X X X O X","ticker":"SOXX","dayChange":-0.54,"weekRange":74.91}
+{"EMAs":"X X X O O X","ticker":"HLI","dayChange":0.89,"weekRange":82.0},
+{"EMAs":"X X X X O X","ticker":"SOXX","dayChange":-0.45,"weekRange":75.09}
 ]
