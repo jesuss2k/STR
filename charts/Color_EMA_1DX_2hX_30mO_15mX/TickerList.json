@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"DAKT","dayChange":0.73,"weekRange":51.71}
+{"EMAs":"X X X X O X","ticker":"DAL","dayChange":0.03,"weekRange":41.03},
+{"EMAs":"X X X X O X","ticker":"TTWO","dayChange":-0.44,"weekRange":96.99},
+{"EMAs":"X X X O O X","ticker":"HLI","dayChange":1.21,"weekRange":83.0},
+{"EMAs":"X X X X O X","ticker":"LRCX","dayChange":-0.11,"weekRange":3.81},
+{"EMAs":"X X X X O X","ticker":"SOXX","dayChange":0.09,"weekRange":76.18}
 ]
