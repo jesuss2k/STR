@@ -1,10 +1,9 @@
 [
-{"Date":"25-06-30","ticker":"FICO","dayChange":0.48,"weekRange":39.08},
-{"Date":"25-06-30","ticker":"LLY","dayChange":0.53,"weekRange":34.67},
-{"Date":"25-06-26","ticker":"COST","dayChange":0.46,"weekRange":68.97},
-{"Date":"25-06-24","ticker":"LMT","dayChange":0.99,"weekRange":22.12},
-{"Date":"25-06-17","ticker":"IBKR","dayChange":2.69,"weekRange":3.34},
-{"Date":"25-06-13","ticker":"ACN","dayChange":1.16,"weekRange":20.53},
-{"Date":"25-06-05","ticker":"PG","dayChange":-0.34,"weekRange":11.49},
-{"Date":"25-05-28","ticker":"OKTA","dayChange":1.57,"weekRange":51.6}
+{"Date":"25-06-30","ticker":"FICO","dayChange":-0.08,"weekRange":37.27},
+{"Date":"25-06-30","ticker":"LLY","dayChange":0.26,"weekRange":35.37},
+{"Date":"25-06-26","ticker":"COST","dayChange":-0.36,"weekRange":67.81},
+{"Date":"25-06-24","ticker":"LMT","dayChange":-0.08,"weekRange":21.94},
+{"Date":"25-06-17","ticker":"IBKR","dayChange":-0.88,"weekRange":3.08},
+{"Date":"25-06-13","ticker":"ACN","dayChange":0.0,"weekRange":20.54},
+{"Date":"25-06-05","ticker":"PG","dayChange":0.37,"weekRange":13.96}
 ]
