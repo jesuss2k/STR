@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"PATH","dayChange":0.47,"weekRange":51.45},
-{"EMAs":"X X X O O X","ticker":"LNG","dayChange":1.54,"weekRange":80.02},
-{"EMAs":"X X X X O X","ticker":"SMCI","dayChange":2.64,"weekRange":39.45},
-{"EMAs":"X X X O O X","ticker":"WBD","dayChange":1.74,"weekRange":74.09}
+{"EMAs":"X X X O O X","ticker":"LNG","dayChange":1.66,"weekRange":80.33},
+{"EMAs":"X X X X O X","ticker":"SMCI","dayChange":2.49,"weekRange":39.36},
+{"EMAs":"X X X O O X","ticker":"WBD","dayChange":1.83,"weekRange":74.26}
 ]
