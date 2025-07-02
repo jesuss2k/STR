@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"CELH","dayChange":0.89,"weekRange":63.91},
-{"EMAs":"X X X O O X","ticker":"OLLI","dayChange":-0.2,"weekRange":91.01},
-{"EMAs":"X X X O O X","ticker":"LNG","dayChange":1.56,"weekRange":80.09},
-{"EMAs":"X X X O O X","ticker":"WBD","dayChange":1.51,"weekRange":73.68}
+{"EMAs":"X X X X O X","ticker":"CELH","dayChange":0.78,"weekRange":63.79},
+{"EMAs":"X X X O O X","ticker":"OLLI","dayChange":-0.28,"weekRange":90.77},
+{"EMAs":"X X X O O X","ticker":"WBD","dayChange":1.64,"weekRange":73.91}
 ]
