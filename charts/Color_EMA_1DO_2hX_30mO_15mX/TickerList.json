@@ -1,7 +1,3 @@
 [
-{"EMAs":"O O X X O X","ticker":"EVER","dayChange":1.2,"weekRange":58.58},
-{"EMAs":"O O X O O X","ticker":"ACIW","dayChange":1.31,"weekRange":35.49},
-{"EMAs":"O O X X O X","ticker":"ADP","dayChange":0.87,"weekRange":77.48},
-{"EMAs":"O X X O O X","ticker":"CRM","dayChange":1.48,"weekRange":31.07},
-{"EMAs":"O X X X O X","ticker":"GLBE","dayChange":1.46,"weekRange":17.92}
+{"EMAs":"O X X X O X","ticker":"TSLS","dayChange":0.13,"weekRange":7.2}
 ]
