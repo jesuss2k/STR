@@ -1,6 +1,6 @@
 [
 {"Date":"25-07-03","ticker":"VST","dayChange":2.77,"weekRange":94.27},
-{"Date":"25-07-03","ticker":"MDB","dayChange":3.23,"weekRange":30.65},
+{"Date":"25-07-03","ticker":"MDB","dayChange":3.38,"weekRange":30.78},
 {"Date":"25-07-03","ticker":"FICO","dayChange":0.68,"weekRange":40.41},
 {"Date":"25-07-01","ticker":"ACN","dayChange":0.82,"weekRange":25.24},
 {"Date":"25-07-01","ticker":"PG","dayChange":-0.23,"weekRange":17.82},
@@ -23,8 +23,8 @@
 {"Date":"25-06-24","ticker":"ASML","dayChange":-0.64,"weekRange":40.63},
 {"Date":"25-06-24","ticker":"HLT","dayChange":1.23,"weekRange":97.73},
 {"Date":"25-06-24","ticker":"SHOP","dayChange":1.52,"weekRange":84.09},
-{"Date":"25-06-24","ticker":"TMUS","dayChange":1.41,"weekRange":65.22},
-{"Date":"25-06-24","ticker":"UPRO","dayChange":2.29,"weekRange":89.9},
+{"Date":"25-06-24","ticker":"TMUS","dayChange":1.4,"weekRange":65.22},
+{"Date":"25-06-24","ticker":"UPRO","dayChange":2.3,"weekRange":89.92},
 {"Date":"25-06-24","ticker":"TQQQ","dayChange":2.8,"weekRange":84.73},
 {"Date":"25-06-24","ticker":"UBER","dayChange":1.72,"weekRange":98.1},
 {"Date":"25-06-24","ticker":"PCAR","dayChange":-1.69,"weekRange":38.09},
@@ -40,9 +40,9 @@
 {"Date":"25-06-16","ticker":"EL","dayChange":0.16,"weekRange":68.16},
 {"Date":"25-06-04","ticker":"CAT","dayChange":-0.14,"weekRange":86.35},
 {"Date":"25-06-03","ticker":"SMTC","dayChange":2.0,"weekRange":37.48},
-{"Date":"25-06-03","ticker":"SOXL","dayChange":1.47,"weekRange":30.56},
+{"Date":"25-06-03","ticker":"SOXL","dayChange":1.46,"weekRange":30.55},
 {"Date":"25-06-02","ticker":"SOFI","dayChange":2.48,"weekRange":97.29},
 {"Date":"25-04-24","ticker":"MSFT","dayChange":1.58,"weekRange":98.77},
-{"Date":"25-04-24","ticker":"NVDA","dayChange":1.3,"weekRange":97.72},
+{"Date":"25-04-24","ticker":"NVDA","dayChange":1.33,"weekRange":97.79},
 {"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"weekRange":91.33}
 ]
