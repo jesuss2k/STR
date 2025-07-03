@@ -1,7 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"META","dayChange":0.71,"weekRange":90.42},
-{"EMAs":"X X X O O X","ticker":"OLLI","dayChange":-0.13,"weekRange":90.56},
-{"EMAs":"X X X O O X","ticker":"IBM","dayChange":1.1,"weekRange":95.63},
-{"EMAs":"X X X O O X","ticker":"INTC","dayChange":2.45,"weekRange":24.37},
-{"EMAs":"X X X O O X","ticker":"NFLX","dayChange":1.17,"weekRange":94.52}
+{"EMAs":"X X X O O X","ticker":"META","dayChange":0.76,"weekRange":90.54},
+{"EMAs":"X X X O O X","ticker":"NFLX","dayChange":0.96,"weekRange":94.17},
+{"EMAs":"X X X X O X","ticker":"DASH","dayChange":-0.0,"weekRange":93.34}
 ]
