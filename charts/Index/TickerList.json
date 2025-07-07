@@ -1,7 +1,7 @@
 [
-{"EMAs":"X X X X O O","ticker":"IBIT","dayChange":-1.42,"weekRange":93.25},
-{"EMAs":"X X X X O O","ticker":"IWM","dayChange":-1.56,"weekRange":65.37},
-{"EMAs":"X X X X X O","ticker":"QQQ","dayChange":-0.8,"weekRange":96.51},
-{"EMAs":"X X X X O O","ticker":"SOXX","dayChange":-1.59,"weekRange":76.65},
-{"EMAs":"X X X X O O","ticker":"SPY","dayChange":-0.87,"weekRange":95.58}
+{"EMAs":"X X X X O O","ticker":"IBIT","dayChange":-1.36,"weekRange":93.36},
+{"EMAs":"X X X X O O","ticker":"IWM","dayChange":-1.39,"weekRange":65.88},
+{"EMAs":"X X X X O O","ticker":"QQQ","dayChange":-0.78,"weekRange":96.58},
+{"EMAs":"X X X X O O","ticker":"SOXX","dayChange":-1.61,"weekRange":76.62},
+{"EMAs":"X X X X O O","ticker":"SPY","dayChange":-0.81,"weekRange":95.86}
 ]
