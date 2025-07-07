@@ -1,5 +1,6 @@
 [
-{"EMAs":"O X X X X X","ticker":"TSLS","dayChange":7.57,"weekRange":11.31},
-{"EMAs":"O X X X X X","ticker":"TEAM","dayChange":0.35,"weekRange":41.41},
-{"EMAs":"O O X X X X","ticker":"TMV","dayChange":3.61,"weekRange":73.87}
+{"EMAs":"O O X X X X","ticker":"ADP","dayChange":-0.31,"weekRange":78.01},
+{"EMAs":"O O X X X X","ticker":"PAYC","dayChange":-0.54,"weekRange":71.97},
+{"EMAs":"O X X X X X","ticker":"TSLS","dayChange":7.12,"weekRange":11.07},
+{"EMAs":"O O X X X X","ticker":"TMV","dayChange":3.43,"weekRange":73.49}
 ]
