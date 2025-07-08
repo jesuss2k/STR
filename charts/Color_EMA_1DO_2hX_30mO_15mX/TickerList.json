@@ -1,3 +1,7 @@
 [
-{"EMAs":"O X X O O X","ticker":"VZ","dayChange":0.57,"weekRange":55.89}
+{"EMAs":"O X X O O X","ticker":"AEO","dayChange":1.21,"weekRange":5.61},
+{"EMAs":"O X X X O X","ticker":"DOCU","dayChange":0.4,"weekRange":49.36},
+{"EMAs":"O X X X O X","ticker":"TJX","dayChange":0.07,"weekRange":62.37},
+{"EMAs":"O X X O O X","ticker":"NOMD","dayChange":0.64,"weekRange":33.09},
+{"EMAs":"O X X O O X","ticker":"VZ","dayChange":0.61,"weekRange":56.04}
 ]
