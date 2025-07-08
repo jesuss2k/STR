@@ -1,6 +1,5 @@
 [
-{"EMAs":"O X X O O X","ticker":"AEO","dayChange":1.82,"weekRange":6.05},
-{"EMAs":"O X X O O X","ticker":"NOMD","dayChange":0.47,"weekRange":32.53},
-{"EMAs":"O X X X O X","ticker":"HPQ","dayChange":1.72,"weekRange":24.56},
-{"EMAs":"O X X O O X","ticker":"VZ","dayChange":0.84,"weekRange":57.06}
+{"EMAs":"O X X O O X","ticker":"AEO","dayChange":1.01,"weekRange":5.46},
+{"EMAs":"O X X O O X","ticker":"NOMD","dayChange":0.38,"weekRange":32.25},
+{"EMAs":"O X X O O X","ticker":"VZ","dayChange":0.43,"weekRange":55.27}
 ]
