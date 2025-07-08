@@ -1,9 +1,7 @@
 [
-{"EMAs":"X X X O O X","ticker":"CDW","dayChange":1.99,"weekRange":41.92},
-{"EMAs":"X X X X O X","ticker":"FDX","dayChange":1.38,"weekRange":36.83},
-{"EMAs":"X X X X O X","ticker":"GPN","dayChange":1.79,"weekRange":28.81},
-{"EMAs":"X X X X O X","ticker":"IWM","dayChange":0.72,"weekRange":67.7},
-{"EMAs":"X X X X O X","ticker":"KLAC","dayChange":0.81,"weekRange":97.87},
-{"EMAs":"X X X X O X","ticker":"PSTG","dayChange":0.69,"weekRange":56.21},
-{"EMAs":"X X X X O X","ticker":"LABU","dayChange":4.28,"weekRange":23.27}
+{"EMAs":"X X X X O X","ticker":"CAKE","dayChange":1.27,"weekRange":94.91},
+{"EMAs":"X X X X O X","ticker":"QQQ","dayChange":0.12,"weekRange":97.08},
+{"EMAs":"X O X O O X","ticker":"DE","dayChange":0.77,"weekRange":89.89},
+{"EMAs":"X X X O O X","ticker":"GRBK","dayChange":1.25,"weekRange":39.98},
+{"EMAs":"X X X O O X","ticker":"CDW","dayChange":2.05,"weekRange":42.03}
 ]
