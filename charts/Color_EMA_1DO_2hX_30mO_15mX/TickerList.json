@@ -1,3 +1,7 @@
 [
-{"EMAs":"O O X O O X","ticker":"ADP","dayChange":0.1,"weekRange":76.96}
+{"EMAs":"O X X O O X","ticker":"KMB","dayChange":-0.16,"weekRange":26.93},
+{"EMAs":"O X X X O X","ticker":"HPQ","dayChange":-0.56,"weekRange":23.92},
+{"EMAs":"O X X X O X","ticker":"MA","dayChange":0.07,"weekRange":80.77},
+{"EMAs":"O O X O O X","ticker":"ADP","dayChange":0.18,"weekRange":77.22},
+{"EMAs":"O X X O O X","ticker":"AEO","dayChange":0.2,"weekRange":5.75}
 ]
