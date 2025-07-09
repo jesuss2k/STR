@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O X X O X","ticker":"ADP","dayChange":0.27,"weekRange":77.51},
-{"EMAs":"O X X O O X","ticker":"GLBE","dayChange":0.49,"weekRange":17.17},
-{"EMAs":"O O X X O X","ticker":"WDAY","dayChange":0.71,"weekRange":44.98}
+{"EMAs":"O X X O O X","ticker":"GLBE","dayChange":0.12,"weekRange":16.84},
+{"EMAs":"O O X X O X","ticker":"WDAY","dayChange":-0.22,"weekRange":42.62}
 ]
