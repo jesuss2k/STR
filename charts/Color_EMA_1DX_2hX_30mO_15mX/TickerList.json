@@ -1,7 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"CDW","dayChange":0.06,"weekRange":41.79},
-{"EMAs":"X X X O O X","ticker":"GPN","dayChange":-0.01,"weekRange":27.22},
-{"EMAs":"X X X X O X","ticker":"HPE","dayChange":-0.1,"weekRange":69.59},
-{"EMAs":"X X X O O X","ticker":"OPRA","dayChange":1.83,"weekRange":75.71},
-{"EMAs":"X X X O O X","ticker":"WDC","dayChange":0.97,"weekRange":69.47}
+{"EMAs":"X X X X O X","ticker":"FDX","dayChange":0.87,"weekRange":37.03},
+{"EMAs":"X X X O O X","ticker":"CCL","dayChange":1.2,"weekRange":92.3},
+{"EMAs":"X X X X O X","ticker":"HPE","dayChange":0.01,"weekRange":69.6}
 ]
