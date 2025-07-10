@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"OMC","dayChange":1.42,"weekRange":13.36}
+{"EMAs":"X X X X O X","ticker":"BIDU","dayChange":-0.12,"weekRange":33.33},
+{"EMAs":"X X X X O X","ticker":"MNDY","dayChange":-0.03,"weekRange":78.58},
+{"EMAs":"X X X X O X","ticker":"RYAAY","dayChange":0.74,"weekRange":23.68},
+{"EMAs":"X X X O O X","ticker":"OMC","dayChange":1.43,"weekRange":13.38}
 ]
