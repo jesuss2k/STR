@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X O O X","ticker":"DASH","dayChange":0.92,"weekRange":94.45}
+{"EMAs":"X X X X O X","ticker":"PSN","dayChange":0.68,"weekRange":34.48},
+{"EMAs":"X X X O O X","ticker":"CCL","dayChange":1.33,"weekRange":91.49},
+{"EMAs":"X X X X O X","ticker":"ULTA","dayChange":0.2,"weekRange":89.07},
+{"EMAs":"X X X X O X","ticker":"MRK","dayChange":0.13,"weekRange":18.23},
+{"EMAs":"X X X O O X","ticker":"DASH","dayChange":0.2,"weekRange":94.76}
 ]
