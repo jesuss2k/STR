@@ -1,6 +1,6 @@
 [
 {"EMAs":"O O O O O O","ticker":"FICO","dayChange":0.18,"weekRange":6.83},
-{"EMAs":"X O O O O O","ticker":"ELF","dayChange":-3.6,"weekRange":35.06},
+{"EMAs":"X O O O O O","ticker":"ELF","dayChange":-3.6,"weekRange":38.82},
 {"EMAs":"O O O O O O","ticker":"LULU","dayChange":-3.22,"weekRange":4.39},
 {"EMAs":"O O O O O O","ticker":"OKTA","dayChange":0.45,"weekRange":37.56},
 {"EMAs":"O O O O O O","ticker":"DECK","dayChange":-3.29,"weekRange":3.58},
@@ -18,9 +18,9 @@
 {"EMAs":"X X O O O O","ticker":"CROX","dayChange":-1.68,"weekRange":24.45},
 {"EMAs":"X O O O O O","ticker":"QCOM","dayChange":-2.01,"weekRange":37.09},
 {"EMAs":"O O O O X X","ticker":"AJG","dayChange":1.24,"weekRange":57.47},
-{"EMAs":"X X O O O O","ticker":"MU","dayChange":-4.75,"weekRange":77.32},
+{"EMAs":"X X O O O O","ticker":"MU","dayChange":-4.75,"weekRange":82.2},
 {"EMAs":"O O O O X X","ticker":"DOCU","dayChange":3.62,"weekRange":46.41},
 {"EMAs":"O O O O X X","ticker":"COST","dayChange":1.09,"weekRange":65.88},
 {"EMAs":"O O O O O X","ticker":"V","dayChange":0.74,"weekRange":79.64},
-{"EMAs":"O O X X X X","ticker":"TSLA","dayChange":1.1,"weekRange":44.03}
+{"EMAs":"O O X X X X","ticker":"TSLA","dayChange":1.08,"weekRange":44.01}
 ]
