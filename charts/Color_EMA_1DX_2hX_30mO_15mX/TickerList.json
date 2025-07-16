@@ -1,4 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"IBIT","dayChange":2.03,"weekRange":95.25},
-{"EMAs":"X X X O O X","ticker":"MIRM","dayChange":2.07,"weekRange":90.72}
+{"EMAs":"X X X O O X","ticker":"CTLP","dayChange":0.05,"weekRange":94.13},
+{"EMAs":"X X X X O X","ticker":"HLI","dayChange":1.02,"weekRange":94.53},
+{"EMAs":"X X X O O X","ticker":"ULTA","dayChange":0.69,"weekRange":88.67},
+{"EMAs":"X X X O O X","ticker":"LABU","dayChange":5.56,"weekRange":27.72},
+{"EMAs":"X X X X O X","ticker":"MIRM","dayChange":1.89,"weekRange":90.2}
 ]
