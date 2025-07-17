@@ -1,13 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"EBAY","dayChange":0.48,"weekRange":90.46},
-{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":2.29,"weekRange":31.18},
-{"EMAs":"X X X X O X","ticker":"DAL","dayChange":2.34,"weekRange":62.77},
-{"EMAs":"X X X O O X","ticker":"EXPE","dayChange":1.16,"weekRange":71.95},
-{"EMAs":"X X X O O X","ticker":"MGM","dayChange":1.66,"weekRange":58.48},
-{"EMAs":"X X X X O X","ticker":"PINS","dayChange":0.37,"weekRange":67.68},
-{"EMAs":"X X X X O X","ticker":"STX","dayChange":1.41,"weekRange":96.67},
-{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.72,"weekRange":95.23},
-{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":0.07,"weekRange":95.88},
-{"EMAs":"X X X O O X","ticker":"LRCX","dayChange":0.18,"weekRange":4.77},
-{"EMAs":"X X X O O X","ticker":"MRNA","dayChange":0.62,"weekRange":8.82}
+{"EMAs":"X X X O O X","ticker":"MGM","dayChange":1.53,"weekRange":58.25},
+{"EMAs":"X X X X O X","ticker":"PINS","dayChange":0.53,"weekRange":67.98},
+{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.13,"weekRange":93.95},
+{"EMAs":"X X X O O X","ticker":"MRNA","dayChange":0.31,"weekRange":8.72}
 ]
