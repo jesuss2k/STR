@@ -1,8 +1,3 @@
 [
-{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":0.55,"weekRange":30.01},
-{"EMAs":"X X X X O X","ticker":"DAL","dayChange":1.17,"weekRange":60.93},
-{"EMAs":"X X X O O X","ticker":"MGM","dayChange":0.8,"weekRange":57.0},
-{"EMAs":"X X X X O X","ticker":"PINS","dayChange":0.35,"weekRange":67.63},
-{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.68,"weekRange":95.15},
-{"EMAs":"X X X O O X","ticker":"MRNA","dayChange":0.23,"weekRange":8.7}
+{"EMAs":"X X X X O X","ticker":"STX","dayChange":0.46,"weekRange":95.1}
 ]
