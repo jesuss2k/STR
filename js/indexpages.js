@@ -132,7 +132,13 @@ function populateTickerTable() {
         console.log(item.ticker);
         
         const ticker = item.ticker;
-        const info = infoMap[ticker];
+        const info = infoMap[ticker] || {
+            logoUrl: TRADING_VIEW_ICON_URL,
+            tradingViewUrl: "#",
+            companyName: "Info not available",
+            industry: "N/A"
+        };
+        
         const detailUrl = "ticker_v2.html?ticker=" + ticker;
         const dayChangeClass = getDayChangeClass(item.dayChange);
 
