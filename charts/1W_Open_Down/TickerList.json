@@ -12,7 +12,7 @@
 {"EMAs":"O O O O O O","ticker":"COST","dayChange":0.27,"weekRange":56.41},
 {"EMAs":"X O O O O O","ticker":"VST","dayChange":-1.16,"weekRange":86.36},
 {"EMAs":"O O O X X X","ticker":"DECK","dayChange":3.41,"weekRange":5.76},
-{"EMAs":"O O O O O O","ticker":"TMUS","dayChange":-0.73,"weekRange":51.91},
+{"EMAs":"O O O O O O","ticker":"TMUS","dayChange":-0.75,"weekRange":51.86},
 {"EMAs":"O O O O X X","ticker":"PG","dayChange":1.23,"weekRange":13.04},
 {"EMAs":"X O O O O O","ticker":"LLY","dayChange":-3.58,"weekRange":28.57},
 {"EMAs":"X O O O O O","ticker":"QCOM","dayChange":-0.95,"weekRange":42.16},
