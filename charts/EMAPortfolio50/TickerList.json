@@ -1,5 +1,4 @@
 [
-{"Group":"100:200","ticker":"PAYC","dayChange":2.22,"weekRange":67.0},
 {"Group":"25:50","ticker":"SQ","dayChange":0.67,"weekRange":72.21},
 {"Group":"25:50","ticker":"ADSK","dayChange":1.67,"weekRange":71.44},
 {"Group":"200","ticker":"GPRO","dayChange":12.59,"weekRange":37.5},
@@ -58,7 +57,6 @@
 {"Group":"12","ticker":"MMYT","dayChange":0.65,"weekRange":41.56},
 {"Group":"12","ticker":"PSN","dayChange":-0.5,"weekRange":36.01},
 {"Group":"12","ticker":"PSTG","dayChange":1.52,"weekRange":60.29},
-{"Group":"12","ticker":"PAYC","dayChange":2.22,"weekRange":67.0},
 {"Group":"12","ticker":"WDC","dayChange":1.46,"weekRange":86.01},
 {"Group":"12","ticker":"QLD","dayChange":-0.25,"weekRange":98.42},
 {"Group":"12","ticker":"ON","dayChange":2.21,"weekRange":60.52},
