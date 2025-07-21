@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"TMV","dayChange":-0.37,"weekRange":80.27}
+{"EMAs":"X X X X O X","ticker":"AAP","dayChange":0.77,"weekRange":91.66},
+{"EMAs":"X X X X O X","ticker":"IBIT","dayChange":1.21,"weekRange":95.22},
+{"EMAs":"X X X X O X","ticker":"SMCI","dayChange":2.63,"weekRange":56.39},
+{"EMAs":"X X X X O X","ticker":"TD","dayChange":0.57,"weekRange":95.31},
+{"EMAs":"X X X X O X","ticker":"ULCC","dayChange":1.58,"weekRange":18.67}
 ]
