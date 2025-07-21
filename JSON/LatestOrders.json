@@ -169,6 +169,7 @@
 {"ticker":"PANW","positionStatus":"Closed","price":316.15},
 {"ticker":"PANW","positionStatus":"Open","price":392.74},
 {"ticker":"PAYC","positionStatus":"Closed","price":257.475},
+{"ticker":"PAYC","positionStatus":"Open","price":224.715},
 {"ticker":"PCAR","positionStatus":"Closed","price":114.4373},
 {"ticker":"PCAR","positionStatus":"Open","price":106.655},
 {"ticker":"PDD","positionStatus":"Closed","price":111.2},

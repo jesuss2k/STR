@@ -18,6 +18,7 @@
 {"EMAs":"O O O X X X","ticker":"WIX","dayChange":0.22,"weekRange":15.67},
 {"EMAs":"X O O O X X","ticker":"QCOM","dayChange":1.44,"weekRange":45.07},
 {"EMAs":"O O O X X X","ticker":"HPQ","dayChange":1.25,"weekRange":20.72},
+{"EMAs":"O O X X X X","ticker":"PAYC","dayChange":2.22,"weekRange":67.0},
 {"EMAs":"O X O O O O","ticker":"LMT","dayChange":-1.12,"weekRange":22.53},
 {"EMAs":"O O O O O X","ticker":"V","dayChange":-0.22,"weekRange":78.45},
 {"EMAs":"X O O O O X","ticker":"UBER","dayChange":0.1,"weekRange":83.38}

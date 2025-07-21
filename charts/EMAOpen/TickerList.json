@@ -42,6 +42,8 @@
 {"EMAs":"O O O O O X","Group":"50:100","ticker":"V","dayChange":-0.22,"weekRange":78.45},
 {"EMAs":"O X X X X X","Group":"100:200","ticker":"DOCU","dayChange":2.25,"weekRange":51.76},
 {"EMAs":"O O X X X O","Group":"100:200","ticker":"AJG","dayChange":-0.25,"weekRange":54.78},
+{"EMAs":"O O X X X X","Group":"100:200","ticker":"PAYC","dayChange":2.22,"weekRange":67.0},
 {"EMAs":"O X X X X X","Group":"200","ticker":"DOCU","dayChange":2.25,"weekRange":51.76},
-{"EMAs":"O O X X X O","Group":"200","ticker":"AJG","dayChange":-0.25,"weekRange":54.78}
+{"EMAs":"O O X X X O","Group":"200","ticker":"AJG","dayChange":-0.25,"weekRange":54.78},
+{"EMAs":"O O X X X X","Group":"200","ticker":"PAYC","dayChange":2.22,"weekRange":67.0}
 ]
