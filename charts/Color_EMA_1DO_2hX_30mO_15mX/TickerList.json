@@ -1,4 +1,4 @@
 [
-{"EMAs":"O O X X O X","ticker":"IBKR","dayChange":-0.09,"weekRange":6.83},
-{"EMAs":"O O X O O X","ticker":"ROOT","dayChange":3.09,"weekRange":62.04}
+{"EMAs":"O O X X O X","ticker":"IBKR","dayChange":-0.1,"weekRange":6.83},
+{"EMAs":"O X X O O X","ticker":"ROOT","dayChange":3.46,"weekRange":62.34}
 ]
