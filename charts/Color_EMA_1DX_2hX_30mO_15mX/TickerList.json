@@ -1,9 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"INSM","dayChange":-0.14,"weekRange":91.27},
-{"EMAs":"X X X O O X","ticker":"CTLP","dayChange":0.0,"weekRange":95.13},
-{"EMAs":"X X X O O X","ticker":"TECL","dayChange":1.73,"weekRange":95.19},
-{"EMAs":"X X X O O X","ticker":"XLK","dayChange":0.51,"weekRange":96.82},
-{"EMAs":"X X X X O X","ticker":"ARM","dayChange":1.18,"weekRange":76.15},
-{"EMAs":"X X X O O X","ticker":"DELL","dayChange":2.16,"weekRange":74.64},
-{"EMAs":"X X X X O X","ticker":"FFIV","dayChange":0.46,"weekRange":90.33}
+{"EMAs":"X X X O O X","ticker":"APLD","dayChange":-0.18,"weekRange":63.82},
+{"EMAs":"X X X O O X","ticker":"FTNT","dayChange":0.24,"weekRange":83.8}
 ]
