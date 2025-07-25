@@ -1,5 +1,5 @@
 [
-{"EMAs":"X O X X X X","ticker":"META","dayChange":0.17,"weekRange":89.16},
+{"EMAs":"X O X X X X","ticker":"META","dayChange":0.17,"weekRange":88.86},
 {"EMAs":"X X X X X X","ticker":"AVGO","dayChange":1.77,"weekRange":98.47},
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":0.88,"weekRange":76.53},
 {"EMAs":"X X X X X X","ticker":"JPM","dayChange":-0.07,"weekRange":97.2},
@@ -18,7 +18,7 @@
 {"EMAs":"X X O O O X","ticker":"HOOD","dayChange":-0.15,"weekRange":88.43},
 {"EMAs":"X X O O X X","ticker":"NET","dayChange":1.28,"weekRange":93.02},
 {"EMAs":"X X X O O O","ticker":"OLLI","dayChange":-0.16,"weekRange":89.73},
-{"EMAs":"X X X O O O","ticker":"PFGC","dayChange":-1.55,"weekRange":92.77},
+{"EMAs":"X X X O O O","ticker":"PFGC","dayChange":-1.55,"weekRange":91.91},
 {"EMAs":"X X X O O O","ticker":"UAL","dayChange":-0.77,"weekRange":66.74},
 {"EMAs":"X X X X O O","ticker":"BABA","dayChange":-1.17,"weekRange":63.41},
 {"EMAs":"X X X X O O","ticker":"CCL","dayChange":-3.12,"weekRange":92.88},
