@@ -1,7 +1,7 @@
 [
 {"Date":"25-07-24","ticker":"MSFT","dayChange":0.99,"weekRange":97.79},
 {"Date":"25-07-24","ticker":"SOUN","dayChange":-1.97,"weekRange":38.12},
-{"Date":"25-07-23","ticker":"VST","dayChange":-1.94,"weekRange":94.63},
+{"Date":"25-07-23","ticker":"VST","dayChange":-1.94,"weekRange":92.26},
 {"Date":"25-07-23","ticker":"LLY","dayChange":0.82,"weekRange":43.44},
 {"Date":"25-07-23","ticker":"APP","dayChange":-0.6,"weekRange":64.43},
 {"Date":"25-07-23","ticker":"SOFI","dayChange":-0.23,"weekRange":92.65},
@@ -12,7 +12,7 @@
 {"Date":"25-07-22","ticker":"HPQ","dayChange":-0.73,"weekRange":24.11},
 {"Date":"25-07-22","ticker":"PCAR","dayChange":0.32,"weekRange":49.13},
 {"Date":"25-07-21","ticker":"QCOM","dayChange":-0.65,"weekRange":61.51},
-{"Date":"25-07-21","ticker":"V","dayChange":-0.37,"weekRange":82.46},
+{"Date":"25-07-21","ticker":"V","dayChange":-0.37,"weekRange":82.2},
 {"Date":"25-07-21","ticker":"TMUS","dayChange":5.8,"weekRange":71.79},
 {"Date":"25-07-21","ticker":"PYPL","dayChange":1.51,"weekRange":58.11},
 {"Date":"25-07-21","ticker":"WSM","dayChange":-1.69,"weekRange":58.33},
