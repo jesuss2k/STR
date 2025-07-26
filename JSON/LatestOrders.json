@@ -1,5 +1,6 @@
 [
 {"ticker":"AAL","positionStatus":"Closed","price":10.84},
+{"ticker":"AAL","positionStatus":"Open","price":11.78},
 {"ticker":"AAPD","positionStatus":"Closed","price":21.1622},
 {"ticker":"AAPL","positionStatus":"Closed","price":238.7103},
 {"ticker":"AAPL","positionStatus":"Open","price":200.405},
@@ -102,7 +103,7 @@
 {"ticker":"GPRO","positionStatus":"Closed","price":0.7721},
 {"ticker":"GRTS","positionStatus":"Closed","price":2.0401},
 {"ticker":"GTLB","positionStatus":"Closed","price":48.83},
-{"ticker":"HLT","positionStatus":"Open","price":224.88},
+{"ticker":"HLT","positionStatus":"Closed","price":271.84},
 {"ticker":"HOOD","positionStatus":"Closed","price":21.36},
 {"ticker":"HPQ","positionStatus":"Closed","price":35.3939},
 {"ticker":"HPQ","positionStatus":"Open","price":25.669},
@@ -127,6 +128,7 @@
 {"ticker":"LUNA","positionStatus":"Closed","price":6.6043},
 {"ticker":"MA","positionStatus":"Closed","price":546.66},
 {"ticker":"MARA","positionStatus":"Closed","price":17.1202},
+{"ticker":"MARA","positionStatus":"Open","price":17.895},
 {"ticker":"MARA","positionStatus":"Open","price":19.4575},
 {"ticker":"MARA","positionStatus":"Open","price":24.94},
 {"ticker":"MBUU","positionStatus":"Closed","price":36.8104},
