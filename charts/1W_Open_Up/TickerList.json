@@ -8,7 +8,6 @@
 {"EMAs":"X X X X X X","ticker":"QCOM","dayChange":-0.28,"weekRange":60.8},
 {"EMAs":"O X X X X X","ticker":"V","dayChange":0.87,"weekRange":84.74},
 {"EMAs":"X X X X O X","ticker":"HPQ","dayChange":-0.04,"weekRange":24.05},
-{"EMAs":"X X O X X X","ticker":"HLT","dayChange":2.27,"weekRange":93.04},
 {"EMAs":"X X X X O O","ticker":"CROX","dayChange":-0.95,"weekRange":31.74},
 {"EMAs":"X X X X O O","ticker":"AAPL","dayChange":0.06,"weekRange":49.15},
 {"EMAs":"X X O O O X","ticker":"CAVA","dayChange":2.04,"weekRange":17.59},
