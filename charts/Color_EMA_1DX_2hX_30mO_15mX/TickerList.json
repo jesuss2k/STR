@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"BAC","dayChange":0.23,"weekRange":94.06},
-{"EMAs":"X X X X O X","ticker":"MMYT","dayChange":0.72,"weekRange":55.03},
-{"EMAs":"X X X X O X","ticker":"CPB","dayChange":1.64,"weekRange":14.44},
-{"EMAs":"X X X X O X","ticker":"GOOG","dayChange":0.08,"weekRange":77.09}
+{"EMAs":"X X X O O X","ticker":"DRN","dayChange":3.15,"weekRange":49.61},
+{"EMAs":"X X X O O X","ticker":"MDLZ","dayChange":0.69,"weekRange":72.86},
+{"EMAs":"X X X O O X","ticker":"XLRE","dayChange":1.01,"weekRange":68.38}
 ]
