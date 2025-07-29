@@ -1,4 +1,6 @@
 [
+{"EMAs":"X X X X X X","ticker":"RCL","dayChange":-0.23,"weekRange":98.27},
+{"EMAs":"X X O O O O","ticker":"SOFI","dayChange":-0.85,"weekRange":89.72},
 {"EMAs":"X X X X X O","ticker":"HLT","dayChange":-1.13,"weekRange":89.34},
 {"EMAs":"O X X X X O","ticker":"IBKR","dayChange":-0.17,"weekRange":8.67},
 {"EMAs":"X X X X X X","ticker":"MRVL","dayChange":2.29,"weekRange":35.85},
