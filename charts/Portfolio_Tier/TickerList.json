@@ -6,7 +6,7 @@
 {"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-0.5,"weekRange":77.91},
 {"EMAs":"O O O O O O","ticker":"MELI","dayChange":-0.36,"weekRange":72.68},
 {"EMAs":"O O O O O O","ticker":"MMC","dayChange":-1.96,"weekRange":0.9},
-{"EMAs":"O O X X X O","ticker":"ABT","dayChange":-0.15,"weekRange":63.98},
+{"EMAs":"O O X X X O","ticker":"ABT","dayChange":-0.15,"weekRange":61.3},
 {"EMAs":"O O X X X X","ticker":"NOW","dayChange":1.75,"weekRange":59.12},
 {"EMAs":"O X X X O O","ticker":"T","dayChange":-1.43,"weekRange":84.93},
 {"EMAs":"O X X X X O","ticker":"IBKR","dayChange":-0.17,"weekRange":8.67},
