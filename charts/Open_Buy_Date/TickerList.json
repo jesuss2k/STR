@@ -40,8 +40,6 @@
 {"$ Prft":-49.0,"% Pfrt":-4.9,"EMAs":"O O O O O O","ticker":"COST","dayChange":-0.16,"weekRange":49.43},
 {"$ Prft":148.0,"% Pfrt":24.5,"EMAs":"X X X X X X","ticker":"WSM","dayChange":3.59,"weekRange":66.46},
 {"$ Prft":-71.0,"% Pfrt":-10.5,"EMAs":"O O O O O O","ticker":"WIX","dayChange":-1.31,"weekRange":11.5},
-{"$ Prft":417.0,"% Pfrt":65.2,"EMAs":"X X X X X X","ticker":"RCL","dayChange":-0.23,"weekRange":98.27},
-{"$ Prft":433.0,"% Pfrt":70.1,"EMAs":"X X O O O O","ticker":"SOFI","dayChange":-0.85,"weekRange":89.72},
 {"$ Prft":-44.0,"% Pfrt":-7.4,"EMAs":"O O O O O O","ticker":"ACN","dayChange":-2.16,"weekRange":3.08},
 {"$ Prft":27.0,"% Pfrt":6.8,"EMAs":"X X X X O O","ticker":"AAPL","dayChange":0.08,"weekRange":49.33},
 {"$ Prft":-19.0,"% Pfrt":-2.3,"EMAs":"X X X X X O","ticker":"LLY","dayChange":-0.56,"weekRange":44.35},

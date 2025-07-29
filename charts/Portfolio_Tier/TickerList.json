@@ -21,6 +21,7 @@
 {"EMAs":"X X X X X X","ticker":"BABA","dayChange":1.77,"weekRange":64.75},
 {"EMAs":"X X X X X X","ticker":"DELL","dayChange":2.01,"weekRange":83.05},
 {"EMAs":"X X X X X X","ticker":"OLLI","dayChange":4.2,"weekRange":98.33},
+{"EMAs":"X X X X X X","ticker":"RCL","dayChange":-0.23,"weekRange":98.27},
 {"EMAs":"X X X X X X","ticker":"HOOD","dayChange":1.83,"weekRange":93.29},
 {"EMAs":"X X X X X X","ticker":"NET","dayChange":0.5,"weekRange":97.8},
 {"EMAs":"X X X X X X","ticker":"UAL","dayChange":1.45,"weekRange":70.16},

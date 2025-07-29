@@ -82,6 +82,7 @@
 {"Group":"12","ticker":"MA","dayChange":0.01,"weekRange":82.96},
 {"Group":"12","ticker":"DKS","dayChange":1.06,"weekRange":60.21},
 {"Group":"12","ticker":"GE","dayChange":-0.36,"weekRange":97.7},
+{"Group":"12","ticker":"RCL","dayChange":-0.23,"weekRange":98.27},
 {"Group":"12","ticker":"SMCI","dayChange":10.24,"weekRange":77.54},
 {"Group":"12","ticker":"KLAC","dayChange":2.33,"weekRange":94.24},
 {"Group":"12","ticker":"AVGO","dayChange":1.42,"weekRange":99.31},

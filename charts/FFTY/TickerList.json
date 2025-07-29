@@ -32,6 +32,7 @@
 {"ticker":"FUTU","dayChange":-2.54,"weekRange":68.99},
 {"ticker":"CVLT","dayChange":-0.43,"weekRange":54.45},
 {"ticker":"IBKR","dayChange":-0.17,"weekRange":8.67},
+{"ticker":"SOFI","dayChange":-0.85,"weekRange":89.72},
 {"ticker":"GH","dayChange":3.09,"weekRange":84.42},
 {"ticker":"IOT","dayChange":1.72,"weekRange":27.08},
 {"ticker":"RSI","dayChange":0.27,"weekRange":29.55},

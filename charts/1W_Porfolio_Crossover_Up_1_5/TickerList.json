@@ -125,6 +125,7 @@
 {"Date":"25-06-05","ticker":"CTLP","dayChange":0.0,"weekRange":94.95},
 {"Date":"25-06-04","ticker":"DLTR","dayChange":0.89,"weekRange":98.99},
 {"Date":"25-06-02","ticker":"UPST","dayChange":-1.47,"weekRange":81.37},
+{"Date":"25-05-30","ticker":"SOFI","dayChange":-0.85,"weekRange":89.72},
 {"Date":"25-05-29","ticker":"INSM","dayChange":-2.12,"weekRange":89.06},
 {"Date":"25-05-12","ticker":"FL","dayChange":0.67,"weekRange":63.91},
 {"Date":"25-05-06","ticker":"PINS","dayChange":1.61,"weekRange":86.18},
@@ -142,6 +143,7 @@
 {"Date":"25-04-23","ticker":"AVGO","dayChange":1.42,"weekRange":99.31},
 {"Date":"25-04-23","ticker":"STX","dayChange":-0.28,"weekRange":96.23},
 {"Date":"25-04-22","ticker":"JPM","dayChange":-0.11,"weekRange":98.79},
+{"Date":"25-04-22","ticker":"RCL","dayChange":-0.23,"weekRange":98.27},
 {"Date":"25-04-22","ticker":"HOOD","dayChange":1.83,"weekRange":93.29},
 {"Date":"25-04-14","ticker":"TD","dayChange":-1.09,"weekRange":93.96},
 {"Date":"24-11-20","ticker":"NMHI","dayChange":-8.33,"weekRange":1.58}

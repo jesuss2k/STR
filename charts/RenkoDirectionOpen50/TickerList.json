@@ -59,8 +59,6 @@
 {"EMAs":"X X X X X X","Group":"X","ticker":"AMZN","dayChange":0.58,"weekRange":89.3},
 {"EMAs":"X X X X X X","Group":"X","ticker":"TQQQ","dayChange":0.97,"weekRange":93.19},
 {"EMAs":"X X X X O O","Group":"X","ticker":"MSFT","dayChange":-0.24,"weekRange":96.66},
-{"EMAs":"X X O O O O","Group":"X","ticker":"SOFI","dayChange":-0.85,"weekRange":89.72},
 {"EMAs":"X X X X X X","Group":"X","ticker":"BURL","dayChange":3.07,"weekRange":87.33},
-{"EMAs":"X X X X X O","Group":"X","ticker":"CAT","dayChange":-0.19,"weekRange":97.95},
-{"EMAs":"X X X X X X","Group":"X","ticker":"RCL","dayChange":-0.23,"weekRange":98.27}
+{"EMAs":"X X X X X O","Group":"X","ticker":"CAT","dayChange":-0.19,"weekRange":97.95}
 ]
