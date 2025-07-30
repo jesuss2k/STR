@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"CTLP","dayChange":0.09,"weekRange":95.13}
+{"EMAs":"X X X X O X","ticker":"DLTR","dayChange":-0.38,"weekRange":98.2},
+{"EMAs":"X X X X O X","ticker":"FLUT","dayChange":-0.33,"weekRange":96.62},
+{"EMAs":"X X X X O X","ticker":"PTC","dayChange":0.09,"weekRange":88.78},
+{"EMAs":"X X X X O X","ticker":"ATXS","dayChange":0.3,"weekRange":33.05}
 ]
