@@ -1,6 +1,10 @@
 [
-{"EMAs":"X X X X O X","ticker":"HOOD","dayChange":2.24,"weekRange":92.15},
-{"EMAs":"X X X X O X","ticker":"DASH","dayChange":1.02,"weekRange":96.53},
-{"EMAs":"X X X O O X","ticker":"GPRO","dayChange":7.03,"weekRange":49.83},
-{"EMAs":"X X X X O X","ticker":"FLUT","dayChange":-0.82,"weekRange":94.75}
+{"EMAs":"X X X X O X","ticker":"DLTR","dayChange":-0.39,"weekRange":97.39},
+{"EMAs":"X X X X O X","ticker":"SPY","dayChange":0.12,"weekRange":98.3},
+{"EMAs":"X X X O O X","ticker":"UPST","dayChange":1.9,"weekRange":80.91},
+{"EMAs":"X X X X O X","ticker":"TTD","dayChange":1.38,"weekRange":43.36},
+{"EMAs":"X X X O O X","ticker":"WBD","dayChange":1.72,"weekRange":92.81},
+{"EMAs":"X X X X O X","ticker":"WYNN","dayChange":0.66,"weekRange":95.2},
+{"EMAs":"X X X X O X","ticker":"BAC","dayChange":0.7,"weekRange":93.72},
+{"EMAs":"X X X O O X","ticker":"GPRO","dayChange":6.59,"weekRange":49.54}
 ]
