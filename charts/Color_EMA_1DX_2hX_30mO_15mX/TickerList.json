@@ -1,6 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"DLTR","dayChange":-0.38,"weekRange":98.2},
-{"EMAs":"X X X X O X","ticker":"FLUT","dayChange":-0.33,"weekRange":96.62},
-{"EMAs":"X X X X O X","ticker":"PTC","dayChange":0.09,"weekRange":88.78},
-{"EMAs":"X X X X O X","ticker":"ATXS","dayChange":0.3,"weekRange":33.05}
+{"EMAs":"X X X X O X","ticker":"HOOD","dayChange":2.24,"weekRange":92.15},
+{"EMAs":"X X X X O X","ticker":"DASH","dayChange":1.02,"weekRange":96.53},
+{"EMAs":"X X X O O X","ticker":"GPRO","dayChange":7.03,"weekRange":49.83},
+{"EMAs":"X X X X O X","ticker":"FLUT","dayChange":-0.82,"weekRange":94.75}
 ]
