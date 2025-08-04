@@ -46,5 +46,7 @@
 {"$ Prft":-82.0,"% Pfrt":-9.9,"EMAs":"O O O O O X","ticker":"PYPL","dayChange":1.59,"weekRange":32.6},
 {"$ Prft":58.0,"% Pfrt":7.9,"EMAs":"X X X X X X","ticker":"APP","dayChange":3.8,"weekRange":71.67},
 {"$ Prft":19.0,"% Pfrt":2.1,"EMAs":"O O O O O O","ticker":"PAYC","dayChange":1.32,"weekRange":66.77},
-{"$ Prft":-27.0,"% Pfrt":-4.6,"EMAs":"O O O O O X","ticker":"AAL","dayChange":1.86,"weekRange":25.8}
+{"$ Prft":-27.0,"% Pfrt":-4.6,"EMAs":"O O O O O X","ticker":"AAL","dayChange":1.86,"weekRange":25.8},
+{"$ Prft":-29.0,"% Pfrt":-10.4,"EMAs":"O O O O O X","ticker":"NVO","dayChange":1.78,"weekRange":2.32},
+{"$ Prft":79.0,"% Pfrt":13.5,"EMAs":"X X X X X X","ticker":"AEO","dayChange":23.98,"weekRange":29.84}
 ]
