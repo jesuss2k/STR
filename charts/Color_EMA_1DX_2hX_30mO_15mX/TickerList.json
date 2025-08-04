@@ -1,8 +1,8 @@
 [
-{"EMAs":"X X X O O X","ticker":"CAT","dayChange":1.06,"weekRange":95.45},
-{"EMAs":"X X X O O X","ticker":"ORCL","dayChange":2.69,"weekRange":93.04},
-{"EMAs":"X X X O O X","ticker":"SMCI","dayChange":3.89,"weekRange":84.56},
-{"EMAs":"X X X O O X","ticker":"AVGO","dayChange":2.72,"weekRange":94.15},
-{"EMAs":"X X X O O X","ticker":"PLTR","dayChange":3.42,"weekRange":99.02},
-{"EMAs":"X X X O O X","ticker":"PFGC","dayChange":0.15,"weekRange":92.92}
+{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":3.66,"weekRange":34.65},
+{"EMAs":"X X X X O X","ticker":"HIMS","dayChange":3.7,"weekRange":86.36},
+{"EMAs":"X X X O O X","ticker":"SNPS","dayChange":1.77,"weekRange":92.27},
+{"EMAs":"X X X O O X","ticker":"ULTA","dayChange":0.65,"weekRange":94.11},
+{"EMAs":"X X X O O X","ticker":"ORCL","dayChange":2.22,"weekRange":92.24},
+{"EMAs":"X X X O O X","ticker":"SMCI","dayChange":4.03,"weekRange":84.72}
 ]
