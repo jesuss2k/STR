@@ -1,8 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":3.66,"weekRange":34.65},
-{"EMAs":"X X X X O X","ticker":"HIMS","dayChange":3.7,"weekRange":86.36},
-{"EMAs":"X X X O O X","ticker":"SNPS","dayChange":1.77,"weekRange":92.27},
-{"EMAs":"X X X O O X","ticker":"ULTA","dayChange":0.65,"weekRange":94.11},
-{"EMAs":"X X X O O X","ticker":"ORCL","dayChange":2.22,"weekRange":92.24},
-{"EMAs":"X X X O O X","ticker":"SMCI","dayChange":4.03,"weekRange":84.72}
+{"EMAs":"X X X X O X","ticker":"SNPS","dayChange":2.31,"weekRange":93.43},
+{"EMAs":"X X X O O X","ticker":"ULTA","dayChange":0.89,"weekRange":94.67}
 ]
