@@ -12,5 +12,6 @@
 {"EMAs":"X X X X X X","ticker":"VST","dayChange":3.06,"weekRange":99.52},
 {"EMAs":"X X O X X X","ticker":"ANF","dayChange":8.5,"weekRange":31.07},
 {"EMAs":"X X X X X X","ticker":"WSM","dayChange":5.9,"weekRange":77.57},
-{"EMAs":"X X X X X X","ticker":"AMD","dayChange":3.35,"weekRange":95.25}
+{"EMAs":"X X X X X X","ticker":"AMD","dayChange":3.35,"weekRange":95.25},
+{"EMAs":"X X X X X X","ticker":"AEO","dayChange":23.98,"weekRange":29.84}
 ]

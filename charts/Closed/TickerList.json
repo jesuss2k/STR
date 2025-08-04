@@ -59,7 +59,6 @@
 {"EMAs":"X X O X X X","ticker":"CPB","dayChange":0.77,"weekRange":13.62},
 {"EMAs":"O O O O O O","ticker":"MRNA","dayChange":-0.09,"weekRange":6.44},
 {"EMAs":"X X X X X X","ticker":"DLTR","dayChange":0.02,"weekRange":96.87},
-{"EMAs":"X X X X X X","ticker":"AEO","dayChange":23.98,"weekRange":29.84},
 {"EMAs":"O O O O X X","ticker":"BIDU","dayChange":1.17,"weekRange":29.92},
 {"EMAs":"X X X X X X","ticker":"OLLI","dayChange":1.12,"weekRange":98.79},
 {"EMAs":"X O O O O O","ticker":"COIN","dayChange":0.75,"weekRange":57.76},

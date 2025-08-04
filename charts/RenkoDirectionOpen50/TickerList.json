@@ -2,6 +2,7 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"FICO","dayChange":-1.71,"weekRange":0.88},
 {"EMAs":"O O O O O O","Group":"O","ticker":"GDDY","dayChange":1.06,"weekRange":18.81},
 {"EMAs":"O O O O O X","Group":"O","ticker":"UNH","dayChange":1.28,"weekRange":1.57},
+{"EMAs":"O O O O O X","Group":"O","ticker":"NVO","dayChange":1.78,"weekRange":2.32},
 {"EMAs":"O O O O O X","Group":"O","ticker":"LULU","dayChange":1.52,"weekRange":2.08},
 {"EMAs":"O O O O O O","Group":"O","ticker":"ACN","dayChange":0.72,"weekRange":2.09},
 {"EMAs":"O O O O O O","Group":"O","ticker":"AJG","dayChange":-0.31,"weekRange":11.72},
@@ -43,6 +44,7 @@
 {"EMAs":"X X X O X X","Group":"X","ticker":"EL","dayChange":1.59,"weekRange":80.11},
 {"EMAs":"X X X X X X","Group":"X","ticker":"GM","dayChange":0.8,"weekRange":62.79},
 {"EMAs":"X X X X X X","Group":"X","ticker":"VST","dayChange":3.06,"weekRange":99.52},
+{"EMAs":"X X X X X X","Group":"X","ticker":"AEO","dayChange":23.98,"weekRange":29.84},
 {"EMAs":"X X X X X X","Group":"X","ticker":"APP","dayChange":3.8,"weekRange":71.67},
 {"EMAs":"X X X X X X","Group":"X","ticker":"AMD","dayChange":3.35,"weekRange":95.25},
 {"EMAs":"X X X X X X","Group":"X","ticker":"WSM","dayChange":5.9,"weekRange":77.57}
