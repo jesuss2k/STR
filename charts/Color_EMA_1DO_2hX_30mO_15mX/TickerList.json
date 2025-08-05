@@ -1,3 +1,7 @@
 [
-{"EMAs":"O O X X O X","ticker":"AXON","dayChange":0.32,"weekRange":84.31}
+{"EMAs":"O O X X O X","ticker":"QID","dayChange":1.23,"weekRange":4.33},
+{"EMAs":"O X X X O X","ticker":"SDS","dayChange":0.87,"weekRange":4.75},
+{"EMAs":"O X X X O X","ticker":"SPXU","dayChange":1.54,"weekRange":3.81},
+{"EMAs":"O O X X O X","ticker":"SQQQ","dayChange":1.8,"weekRange":23.01},
+{"EMAs":"O O X X O X","ticker":"TECS","dayChange":1.98,"weekRange":20.28}
 ]
