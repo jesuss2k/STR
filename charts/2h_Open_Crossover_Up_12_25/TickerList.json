@@ -3,12 +3,11 @@
 {"Date":"25-08-05","ticker":"UBER","dayChange":1.09,"weekRange":78.31},
 {"Date":"25-08-04","ticker":"AEO","dayChange":-9.49,"weekRange":20.29},
 {"Date":"25-08-04","ticker":"ANF","dayChange":0.27,"weekRange":31.61},
-{"Date":"25-08-01","ticker":"COST","dayChange":-1.23,"weekRange":50.73},
+{"Date":"25-08-01","ticker":"COST","dayChange":-1.23,"weekRange":49.96},
 {"Date":"25-07-23","ticker":"APP","dayChange":-4.32,"weekRange":67.93},
-{"Date":"25-07-23","ticker":"VST","dayChange":-2.08,"weekRange":95.06},
+{"Date":"25-07-23","ticker":"VST","dayChange":-2.08,"weekRange":94.98},
 {"Date":"25-07-22","ticker":"EL","dayChange":-1.71,"weekRange":77.27},
 {"Date":"25-07-21","ticker":"WSM","dayChange":1.63,"weekRange":82.88},
-{"Date":"25-07-09","ticker":"AMD","dayChange":-1.4,"weekRange":92.28},
 {"Date":"25-04-24","ticker":"NVDA","dayChange":-0.97,"weekRange":94.79},
-{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"weekRange":91.3}
+{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"weekRange":91.24}
 ]
