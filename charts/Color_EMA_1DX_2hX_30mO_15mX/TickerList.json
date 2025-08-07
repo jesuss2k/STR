@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"LNG","dayChange":-0.68,"weekRange":76.18}
+{"EMAs":"X X X O O X","ticker":"EME","dayChange":0.15,"weekRange":87.18},
+{"EMAs":"X X X X O X","ticker":"TMF","dayChange":0.76,"weekRange":18.07}
 ]
