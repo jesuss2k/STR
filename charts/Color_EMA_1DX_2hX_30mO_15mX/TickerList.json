@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"AMSC","dayChange":3.31,"weekRange":87.09},
-{"EMAs":"X X X X O X","ticker":"MCD","dayChange":0.12,"weekRange":66.36}
+{"EMAs":"X X X X O X","ticker":"DASH","dayChange":0.18,"weekRange":88.2},
+{"EMAs":"X X X O O X","ticker":"TYD","dayChange":0.4,"weekRange":41.44},
+{"EMAs":"X X X O O X","ticker":"AMSC","dayChange":3.41,"weekRange":87.2}
 ]
