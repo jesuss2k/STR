@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"AMSC","dayChange":2.27,"weekRange":85.9}
+{"EMAs":"X X X X O X","ticker":"BP","dayChange":0.56,"weekRange":86.39},
+{"EMAs":"X X X X O X","ticker":"DASH","dayChange":1.99,"weekRange":89.11},
+{"EMAs":"X O X O O X","ticker":"GPN","dayChange":2.23,"weekRange":30.89},
+{"EMAs":"X X X X O X","ticker":"RYAAY","dayChange":2.05,"weekRange":35.04}
 ]
