@@ -1,3 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"TTWO","dayChange":0.37,"weekRange":87.76}
+{"EMAs":"O X X O O X","ticker":"FDX","dayChange":0.4,"weekRange":29.65},
+{"EMAs":"O O X X O X","ticker":"FNGU","dayChange":-0.06,"weekRange":0.65}
 ]
