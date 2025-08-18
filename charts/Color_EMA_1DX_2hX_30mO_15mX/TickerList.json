@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"CCL","dayChange":0.6,"weekRange":93.31},
-{"EMAs":"X X X O O X","ticker":"WDC","dayChange":0.75,"weekRange":93.65},
-{"EMAs":"X X X X O X","ticker":"PSN","dayChange":0.31,"weekRange":41.98},
-{"EMAs":"X X X X O X","ticker":"TJX","dayChange":0.37,"weekRange":88.88}
+{"EMAs":"X X X X O X","ticker":"CCL","dayChange":0.66,"weekRange":93.4},
+{"EMAs":"X X X O O X","ticker":"PSTG","dayChange":-0.31,"weekRange":61.11}
 ]
