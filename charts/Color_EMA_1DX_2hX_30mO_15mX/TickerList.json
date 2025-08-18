@@ -1,10 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"BAC","dayChange":0.99,"weekRange":88.3},
-{"EMAs":"X X X X O X","ticker":"DELL","dayChange":0.49,"weekRange":89.31},
-{"EMAs":"X X X X O X","ticker":"HPE","dayChange":0.78,"weekRange":73.73},
-{"EMAs":"X X X X O X","ticker":"TNA","dayChange":0.84,"weekRange":50.89},
-{"EMAs":"X X X O O X","ticker":"WDC","dayChange":0.82,"weekRange":93.75},
-{"EMAs":"X X X X O X","ticker":"PSN","dayChange":0.47,"weekRange":42.19},
-{"EMAs":"X X X X O X","ticker":"TJX","dayChange":0.52,"weekRange":89.69},
-{"EMAs":"X X X X O X","ticker":"POWL","dayChange":0.9,"weekRange":50.65}
+{"EMAs":"X X X X O X","ticker":"CCL","dayChange":0.6,"weekRange":93.31},
+{"EMAs":"X X X O O X","ticker":"WDC","dayChange":0.75,"weekRange":93.65},
+{"EMAs":"X X X X O X","ticker":"PSN","dayChange":0.31,"weekRange":41.98},
+{"EMAs":"X X X X O X","ticker":"TJX","dayChange":0.37,"weekRange":88.88}
 ]
