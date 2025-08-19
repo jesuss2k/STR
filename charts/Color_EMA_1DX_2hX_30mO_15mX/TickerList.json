@@ -1,12 +1,9 @@
 [
-{"EMAs":"X X X X O X","ticker":"GDX","dayChange":-0.31,"weekRange":97.2},
-{"EMAs":"X X X X O X","ticker":"NUGT","dayChange":-0.37,"weekRange":96.33},
-{"EMAs":"X X X O O X","ticker":"QLD","dayChange":-0.06,"weekRange":95.68},
-{"EMAs":"X X X O O X","ticker":"QQQ","dayChange":-0.04,"weekRange":96.57},
-{"EMAs":"X X X X O X","ticker":"TJX","dayChange":0.33,"weekRange":88.67},
-{"EMAs":"X X X O O X","ticker":"TQQQ","dayChange":-0.13,"weekRange":94.81},
-{"EMAs":"X X X X O X","ticker":"HLT","dayChange":0.53,"weekRange":87.64},
-{"EMAs":"X X X O O X","ticker":"TECL","dayChange":0.51,"weekRange":93.92},
-{"EMAs":"X X X O O X","ticker":"XLK","dayChange":0.21,"weekRange":96.13},
-{"EMAs":"X X X X O X","ticker":"YOU","dayChange":-0.09,"weekRange":68.74}
+{"EMAs":"X X X X O X","ticker":"GRBK","dayChange":1.47,"weekRange":56.47},
+{"EMAs":"X X X O O X","ticker":"SOXL","dayChange":0.02,"weekRange":56.96},
+{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":-0.0,"weekRange":94.36},
+{"EMAs":"X X X O O X","ticker":"BABA","dayChange":0.51,"weekRange":61.85},
+{"EMAs":"X X X O O X","ticker":"BURL","dayChange":0.78,"weekRange":77.88},
+{"EMAs":"X X X O O X","ticker":"ROST","dayChange":1.09,"weekRange":61.32},
+{"EMAs":"X X X X O X","ticker":"ULTA","dayChange":1.28,"weekRange":95.29}
 ]
