@@ -1,8 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"ELF","dayChange":0.51,"weekRange":57.71},
-{"EMAs":"X X X O O X","ticker":"LABU","dayChange":1.28,"weekRange":29.65},
-{"EMAs":"X X X X O X","ticker":"TREE","dayChange":0.6,"weekRange":90.63},
-{"EMAs":"X X X X O X","ticker":"DIA","dayChange":0.02,"weekRange":96.75},
-{"EMAs":"X X X O O X","ticker":"GCT","dayChange":0.32,"weekRange":87.57},
-{"EMAs":"X X X X O X","ticker":"UDOW","dayChange":-0.04,"weekRange":72.98}
+{"EMAs":"X X X X O X","ticker":"YEXT","dayChange":0.87,"weekRange":88.83},
+{"EMAs":"X X X O O X","ticker":"HPE","dayChange":2.5,"weekRange":75.62},
+{"EMAs":"X X X X O X","ticker":"TREE","dayChange":0.05,"weekRange":90.73}
 ]
