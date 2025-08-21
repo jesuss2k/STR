@@ -229,6 +229,7 @@
 {"ticker":"UBER","positionStatus":"Closed","price":86.09},
 {"ticker":"UBER","positionStatus":"Open","price":87.26},
 {"ticker":"ULCC","positionStatus":"Closed","price":3.675},
+{"ticker":"UNH","positionStatus":"Open","price":304.84},
 {"ticker":"UNH","positionStatus":"Open","price":514.4294},
 {"ticker":"UPRO","positionStatus":"Closed","price":91.65},
 {"ticker":"UPST","positionStatus":"Closed","price":43.4302},
