@@ -1,4 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"GTLB","dayChange":1.1,"weekRange":17.32},
-{"EMAs":"O X X X O X","ticker":"MGM","dayChange":0.21,"weekRange":64.33}
+{"EMAs":"O O X O O X","ticker":"PATH","dayChange":-0.41,"weekRange":23.44},
+{"EMAs":"O X X X O X","ticker":"KYMR","dayChange":-0.14,"weekRange":67.54},
+{"EMAs":"O X X X O X","ticker":"GTLB","dayChange":0.82,"weekRange":16.99}
 ]
