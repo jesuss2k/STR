@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"YEXT","dayChange":0.87,"weekRange":88.83},
-{"EMAs":"X X X O O X","ticker":"HPE","dayChange":2.5,"weekRange":75.62},
-{"EMAs":"X X X X O X","ticker":"TREE","dayChange":0.05,"weekRange":90.73}
+{"EMAs":"X X X X O X","ticker":"HLT","dayChange":-0.09,"weekRange":88.25},
+{"EMAs":"X X X O O X","ticker":"LABU","dayChange":1.1,"weekRange":30.28}
 ]
