@@ -241,6 +241,7 @@
 {"ticker":"VZ","positionStatus":"Closed","price":42.76},
 {"ticker":"WBD","positionStatus":"Closed","price":10.6601},
 {"ticker":"WDAY","positionStatus":"Closed","price":243.6325},
+{"ticker":"WDAY","positionStatus":"Open","price":218.5761},
 {"ticker":"WIX","positionStatus":"Closed","price":129.615},
 {"ticker":"WSM","positionStatus":"Closed","price":161.375},
 {"ticker":"WSM","positionStatus":"Open","price":151.225},
