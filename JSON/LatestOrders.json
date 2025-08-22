@@ -114,6 +114,7 @@
 {"ticker":"INSM","positionStatus":"Closed","price":71.9535},
 {"ticker":"INTC","positionStatus":"Closed","price":24.2902},
 {"ticker":"INTU","positionStatus":"Closed","price":757.17},
+{"ticker":"INTU","positionStatus":"Open","price":666.995},
 {"ticker":"IONQ","positionStatus":"Open","price":44.7725},
 {"ticker":"IWM","positionStatus":"Closed","price":214.9001},
 {"ticker":"JWN","positionStatus":"Closed","price":15.5519},
