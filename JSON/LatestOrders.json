@@ -82,6 +82,7 @@
 {"ticker":"EL","positionStatus":"Closed","price":71.785},
 {"ticker":"EL","positionStatus":"Open","price":70.7997},
 {"ticker":"ELF","positionStatus":"Closed","price":115.585},
+{"ticker":"ELF","positionStatus":"Open","price":113.8466},
 {"ticker":"EXC","positionStatus":"Closed","price":35.4219},
 {"ticker":"F","positionStatus":"Closed","price":10.875},
 {"ticker":"FAST","positionStatus":"Closed","price":78.501},
