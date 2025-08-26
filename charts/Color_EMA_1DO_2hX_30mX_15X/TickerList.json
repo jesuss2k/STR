@@ -1,10 +1,13 @@
 [
-{"EMAs":"O X X X X X","ticker":"WIX","dayChange":0.31,"weekRange":13.53},
-{"EMAs":"O O X X X X","ticker":"IBM","dayChange":0.76,"weekRange":44.65},
-{"EMAs":"O O X X X X","ticker":"CAKE","dayChange":1.29,"weekRange":78.76},
+{"EMAs":"O X X X X X","ticker":"MAMA","dayChange":0.55,"weekRange":66.66},
+{"EMAs":"O O X X X X","ticker":"ON","dayChange":0.18,"weekRange":42.04},
+{"EMAs":"O X X X X X","ticker":"WIX","dayChange":0.41,"weekRange":13.63},
+{"EMAs":"O O X X X X","ticker":"EVER","dayChange":1.08,"weekRange":50.97},
+{"EMAs":"O O X X X X","ticker":"IBM","dayChange":0.84,"weekRange":44.83},
+{"EMAs":"O O X X X X","ticker":"CAKE","dayChange":1.25,"weekRange":78.69},
 {"EMAs":"O O X X X X","ticker":"ASPN","dayChange":2.16,"weekRange":10.37},
-{"EMAs":"O O X X X X","ticker":"CSCO","dayChange":1.08,"weekRange":81.03},
-{"EMAs":"O X X X X X","ticker":"OPRA","dayChange":2.55,"weekRange":37.85},
-{"EMAs":"O O X X X X","ticker":"NET","dayChange":1.01,"weekRange":85.32},
-{"EMAs":"O O X X X X","ticker":"ARM","dayChange":1.6,"weekRange":58.3}
+{"EMAs":"O O X X X X","ticker":"CSCO","dayChange":1.46,"weekRange":82.06},
+{"EMAs":"O O X X X X","ticker":"PINS","dayChange":0.77,"weekRange":70.3},
+{"EMAs":"O O X X X X","ticker":"NET","dayChange":1.19,"weekRange":85.57},
+{"EMAs":"O O X X X X","ticker":"ARM","dayChange":1.78,"weekRange":58.54}
 ]
