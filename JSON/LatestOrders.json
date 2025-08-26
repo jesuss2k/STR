@@ -30,6 +30,7 @@
 {"ticker":"APP","positionStatus":"Closed","price":298.0343},
 {"ticker":"APP","positionStatus":"Open","price":364.7434},
 {"ticker":"AR","positionStatus":"Closed","price":26.6003},
+{"ticker":"AR","positionStatus":"Open","price":30.73},
 {"ticker":"ASML","positionStatus":"Closed","price":916.5758},
 {"ticker":"ASML","positionStatus":"Open","price":682.605},
 {"ticker":"ASML","positionStatus":"Open","price":829.33},

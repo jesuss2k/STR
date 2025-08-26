@@ -3,9 +3,9 @@
 {"Date":"25-08-25","ticker":"ATXS","dayChange":-5.45,"weekRange":30.59},
 {"Date":"25-08-22","ticker":"COST","dayChange":-1.77,"weekRange":35.26},
 {"Date":"25-08-22","ticker":"WDAY","dayChange":0.96,"weekRange":20.37},
-{"Date":"25-08-21","ticker":"ELF","dayChange":-3.56,"weekRange":57.15},
+{"Date":"25-08-21","ticker":"ELF","dayChange":-3.56,"weekRange":58.77},
 {"Date":"25-08-20","ticker":"AAPL","dayChange":-0.26,"weekRange":63.76},
-{"Date":"25-08-20","ticker":"AEO","dayChange":-2.72,"weekRange":23.83},
+{"Date":"25-08-20","ticker":"AEO","dayChange":-2.72,"weekRange":23.93},
 {"Date":"25-08-20","ticker":"MU","dayChange":-1.07,"weekRange":80.34},
 {"Date":"25-08-19","ticker":"SBUX","dayChange":-2.91,"weekRange":24.57},
 {"Date":"25-08-19","ticker":"WSM","dayChange":-2.68,"weekRange":76.74},
@@ -17,6 +17,7 @@
 {"Date":"25-08-14","ticker":"IONQ","dayChange":-2.77,"weekRange":66.68},
 {"Date":"25-08-14","ticker":"CRWV","dayChange":-1.71,"weekRange":38.35},
 {"Date":"25-08-08","ticker":"CAVA","dayChange":-4.49,"weekRange":0.05},
+{"Date":"25-08-04","ticker":"AR","dayChange":-0.65,"weekRange":31.41},
 {"Date":"25-08-01","ticker":"INTU","dayChange":-0.86,"weekRange":44.23},
 {"Date":"25-07-29","ticker":"FTNT","dayChange":-2.97,"weekRange":16.82}
 ]
