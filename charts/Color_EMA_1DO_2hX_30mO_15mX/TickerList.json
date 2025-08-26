@@ -1,3 +1,5 @@
 [
-{"EMAs":"O X X O O X","ticker":"TMV","dayChange":0.84,"weekRange":68.19}
+{"EMAs":"O X X O O X","ticker":"QID","dayChange":0.63,"weekRange":3.99},
+{"EMAs":"O X X O O X","ticker":"SQQQ","dayChange":0.96,"weekRange":21.31},
+{"EMAs":"O X X O O X","ticker":"TECS","dayChange":0.87,"weekRange":19.91}
 ]
