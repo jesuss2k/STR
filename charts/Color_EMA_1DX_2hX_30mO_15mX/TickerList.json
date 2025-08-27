@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"FDX","dayChange":0.43,"weekRange":33.1},
-{"EMAs":"X X X X O X","ticker":"MA","dayChange":0.18,"weekRange":93.32}
+{"EMAs":"X X X X O X","ticker":"PFGC","dayChange":0.69,"weekRange":94.79},
+{"EMAs":"X X X X O X","ticker":"FDX","dayChange":0.38,"weekRange":32.98},
+{"EMAs":"X X X O O X","ticker":"MA","dayChange":-0.1,"weekRange":92.11}
 ]
