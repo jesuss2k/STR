@@ -1,4 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"DIS","dayChange":0.33,"weekRange":85.09},
-{"EMAs":"O O X X O X","ticker":"NOMD","dayChange":0.55,"weekRange":13.05}
+{"EMAs":"O O X X O X","ticker":"ON","dayChange":0.51,"weekRange":42.48},
+{"EMAs":"O X X X O X","ticker":"DIS","dayChange":0.37,"weekRange":85.2},
+{"EMAs":"O O X X O X","ticker":"NOMD","dayChange":0.84,"weekRange":13.79}
 ]
