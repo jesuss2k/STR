@@ -1,5 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"MA","dayChange":0.19,"weekRange":92.68},
-{"EMAs":"X X X X O X","ticker":"TXN","dayChange":0.17,"weekRange":80.58},
-{"EMAs":"X X X X O X","ticker":"FAST","dayChange":-0.33,"weekRange":23.98}
+{"EMAs":"X X X O O X","ticker":"MA","dayChange":0.3,"weekRange":93.16},
+{"EMAs":"X X X X O X","ticker":"TREE","dayChange":0.82,"weekRange":93.43},
+{"EMAs":"X X X O O X","ticker":"BIDU","dayChange":0.73,"weekRange":38.06}
 ]
