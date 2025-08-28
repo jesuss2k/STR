@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"GRBK","dayChange":-0.01,"weekRange":55.94},
-{"EMAs":"X X X O O X","ticker":"BIDU","dayChange":0.91,"weekRange":38.44}
+{"EMAs":"X X X O O X","ticker":"GRBK","dayChange":-0.14,"weekRange":55.68},
+{"EMAs":"X X X X O X","ticker":"TREE","dayChange":0.69,"weekRange":93.2},
+{"EMAs":"X X X O O X","ticker":"BIDU","dayChange":0.91,"weekRange":38.43}
 ]
