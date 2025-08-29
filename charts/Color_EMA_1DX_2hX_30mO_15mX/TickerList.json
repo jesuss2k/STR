@@ -1,5 +1,9 @@
 [
-{"EMAs":"X X X O O X","ticker":"PSN","dayChange":-0.55,"weekRange":42.15},
-{"EMAs":"X X X X O X","ticker":"GPN","dayChange":0.43,"weekRange":41.22},
-{"EMAs":"X X X O O X","ticker":"GRBK","dayChange":0.32,"weekRange":56.61}
+{"EMAs":"X X X X O X","ticker":"F","dayChange":0.68,"weekRange":94.37},
+{"EMAs":"X X X O O X","ticker":"MSFD","dayChange":0.9,"weekRange":16.52},
+{"EMAs":"X X X X O X","ticker":"TREE","dayChange":1.62,"weekRange":94.04},
+{"EMAs":"X X X X O X","ticker":"DRN","dayChange":0.72,"weekRange":45.1},
+{"EMAs":"X X X X O X","ticker":"PSN","dayChange":0.42,"weekRange":42.71},
+{"EMAs":"X X X O O X","ticker":"GRBK","dayChange":0.06,"weekRange":56.73},
+{"EMAs":"X X X O O X","ticker":"MCD","dayChange":0.33,"weekRange":73.75}
 ]
