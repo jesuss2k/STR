@@ -7,7 +7,7 @@
 {"EMAs":"O X O O X X","ticker":"ADBE","dayChange":0.77,"weekRange":10.34},
 {"EMAs":"X O O O O O","ticker":"AMD","dayChange":-3.53,"weekRange":78.2},
 {"EMAs":"O O O O O O","ticker":"DELL","dayChange":-8.88,"weekRange":68.67},
-{"EMAs":"O O O O O O","ticker":"OLLI","dayChange":-3.46,"weekRange":73.01},
+{"EMAs":"O O O O O O","ticker":"OLLI","dayChange":-3.46,"weekRange":72.94},
 {"EMAs":"O O O O O O","ticker":"IBKR","dayChange":-0.86,"weekRange":6.99},
 {"EMAs":"O O O O O O","ticker":"KLAC","dayChange":-2.46,"weekRange":78.61},
 {"EMAs":"O O O O O O","ticker":"MMC","dayChange":-0.31,"weekRange":18.44},
@@ -27,8 +27,8 @@
 {"EMAs":"X X X X X O","ticker":"SHOP","dayChange":-0.18,"weekRange":82.89},
 {"EMAs":"X X X X X X","ticker":"BABA","dayChange":12.9,"weekRange":80.36},
 {"EMAs":"X X X X X X","ticker":"RCL","dayChange":-0.72,"weekRange":98.46},
-{"EMAs":"X X X X X X","ticker":"T","dayChange":1.21,"weekRange":96.38},
+{"EMAs":"X X X X X X","ticker":"T","dayChange":1.21,"weekRange":96.3},
 {"EMAs":"X X X X X X","ticker":"ABT","dayChange":0.98,"weekRange":71.78},
-{"EMAs":"X X X X X X","ticker":"UAL","dayChange":-0.08,"weekRange":84.96},
+{"EMAs":"X X X X X X","ticker":"UAL","dayChange":-0.08,"weekRange":84.82},
 {"EMAs":"X X X X X X","ticker":"MELI","dayChange":0.03,"weekRange":82.76}
 ]
