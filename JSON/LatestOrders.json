@@ -214,6 +214,7 @@
 {"ticker":"STGW","positionStatus":"Closed","price":5.0503},
 {"ticker":"T","positionStatus":"Closed","price":16.412},
 {"ticker":"TEAM","positionStatus":"Closed","price":214.68},
+{"ticker":"TEAM","positionStatus":"Open","price":172.78},
 {"ticker":"TGT","positionStatus":"Closed","price":136.42},
 {"ticker":"TJX","positionStatus":"Closed","price":113.64},
 {"ticker":"TMUS","positionStatus":"Closed","price":262.45},
