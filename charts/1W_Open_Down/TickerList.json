@@ -13,7 +13,8 @@
 {"EMAs":"X O O O O O","ticker":"NKE","dayChange":-3.98,"weekRange":57.41},
 {"EMAs":"O O O O O O","ticker":"TSM","dayChange":-1.07,"weekRange":82.56},
 {"EMAs":"O X O O O X","ticker":"LULU","dayChange":-0.98,"weekRange":6.01},
-{"EMAs":"X O O O O O","ticker":"ASML","dayChange":-2.26,"weekRange":46.89},
+{"EMAs":"O X X X O O","ticker":"TEAM","dayChange":-2.87,"weekRange":10.82},
+{"EMAs":"X O O O O O","ticker":"ASML","dayChange":-2.26,"weekRange":49.92},
 {"EMAs":"O O O O O O","ticker":"COST","dayChange":-0.48,"weekRange":33.95},
 {"EMAs":"O O O O O O","ticker":"ILMN","dayChange":-2.14,"weekRange":33.11},
 {"EMAs":"O X X O O O","ticker":"ABNB","dayChange":-2.25,"weekRange":43.26},
@@ -23,8 +24,8 @@
 {"EMAs":"X X O O O O","ticker":"AMZN","dayChange":-1.6,"weekRange":78.83},
 {"EMAs":"X O O O X X","ticker":"WSM","dayChange":2.0,"weekRange":70.4},
 {"EMAs":"O X X X O X","ticker":"MARA","dayChange":0.5,"weekRange":30.53},
-{"EMAs":"O X X X X X","ticker":"NVO","dayChange":-0.14,"weekRange":12.11},
+{"EMAs":"O X X X X X","ticker":"NVO","dayChange":-0.14,"weekRange":12.16},
 {"EMAs":"X X O O O O","ticker":"PCAR","dayChange":-1.12,"weekRange":41.6},
-{"EMAs":"X X O O O O","ticker":"TSLA","dayChange":-1.35,"weekRange":42.93},
+{"EMAs":"X X O O O O","ticker":"TSLA","dayChange":-1.35,"weekRange":42.75},
 {"EMAs":"X X O O O O","ticker":"UBER","dayChange":-1.0,"weekRange":87.22}
 ]
