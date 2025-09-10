@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"BSX","dayChange":-0.33,"weekRange":87.54},
-{"EMAs":"X X X O O X","ticker":"PFGC","dayChange":-0.02,"weekRange":92.76},
-{"EMAs":"X X X X O X","ticker":"TJX","dayChange":-0.31,"weekRange":74.13},
-{"EMAs":"X X X X O X","ticker":"F","dayChange":0.43,"weekRange":93.52}
+{"EMAs":"X X X X O X","ticker":"INTC","dayChange":0.39,"weekRange":69.5},
+{"EMAs":"X X X O O X","ticker":"SNOW","dayChange":0.24,"weekRange":83.1}
 ]
