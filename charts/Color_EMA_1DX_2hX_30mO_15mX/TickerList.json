@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"BOX","dayChange":0.78,"weekRange":45.88}
+{"EMAs":"X X X O O X","ticker":"MIRM","dayChange":0.82,"weekRange":93.71},
+{"EMAs":"X X X X O X","ticker":"BOX","dayChange":0.73,"weekRange":45.74},
+{"EMAs":"X X X X O X","ticker":"OSCR","dayChange":-0.95,"weekRange":64.3}
 ]
