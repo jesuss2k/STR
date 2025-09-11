@@ -1,6 +1,7 @@
 [
-{"EMAs":"X X X O O X","ticker":"CPB","dayChange":-1.1,"weekRange":17.46},
-{"EMAs":"X X X O O X","ticker":"PFGC","dayChange":-0.25,"weekRange":95.47},
-{"EMAs":"X X X O O X","ticker":"IOT","dayChange":-0.54,"weekRange":22.92},
-{"EMAs":"X X X X O X","ticker":"TJX","dayChange":-0.17,"weekRange":82.96}
+{"EMAs":"X X X O O X","ticker":"SNOW","dayChange":0.13,"weekRange":82.91},
+{"EMAs":"X X X X O X","ticker":"CPB","dayChange":-0.74,"weekRange":17.98},
+{"EMAs":"X X X O O X","ticker":"PFGC","dayChange":-0.11,"weekRange":95.86},
+{"EMAs":"X X X O O X","ticker":"IOT","dayChange":0.39,"weekRange":24.1},
+{"EMAs":"X X X X O X","ticker":"TJX","dayChange":-0.08,"weekRange":83.35}
 ]
