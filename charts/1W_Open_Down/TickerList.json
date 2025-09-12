@@ -15,7 +15,7 @@
 {"EMAs":"O O O O O X","ticker":"CRM","dayChange":1.53,"weekRange":13.89},
 {"EMAs":"O O X X X O","ticker":"DELL","dayChange":0.74,"weekRange":72.62},
 {"EMAs":"O O O X X O","ticker":"NKE","dayChange":0.11,"weekRange":57.51},
-{"EMAs":"O O X O O X","ticker":"ADBE","dayChange":0.11,"weekRange":7.96},
+{"EMAs":"O O X O O X","ticker":"ADBE","dayChange":0.11,"weekRange":9.0},
 {"EMAs":"O X X X X X","ticker":"FTNT","dayChange":1.77,"weekRange":24.09},
 {"EMAs":"O O X O O O","ticker":"ANF","dayChange":-2.19,"weekRange":28.19},
 {"EMAs":"O O O O X X","ticker":"V","dayChange":1.59,"weekRange":70.15},
