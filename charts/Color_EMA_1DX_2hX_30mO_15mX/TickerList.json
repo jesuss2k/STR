@@ -1,6 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"PATH","dayChange":0.38,"weekRange":34.71},
-{"EMAs":"X X X O O X","ticker":"MIRM","dayChange":0.26,"weekRange":92.69},
-{"EMAs":"X X X O O X","ticker":"MSFD","dayChange":-0.12,"weekRange":18.34},
-{"EMAs":"X X X X O X","ticker":"OSCR","dayChange":-0.39,"weekRange":65.17}
+{"EMAs":"X X X X O X","ticker":"PATH","dayChange":0.69,"weekRange":35.27},
+{"EMAs":"X X X O O X","ticker":"MIRM","dayChange":1.48,"weekRange":94.9},
+{"EMAs":"X X X O O X","ticker":"MSFD","dayChange":-0.27,"weekRange":18.08},
+{"EMAs":"X X X X O X","ticker":"LUNA","dayChange":-5.26,"weekRange":30.22}
 ]
