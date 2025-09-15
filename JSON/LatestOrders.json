@@ -155,6 +155,7 @@
 {"ticker":"MRVL","positionStatus":"Closed","price":73.9707},
 {"ticker":"MRVL","positionStatus":"Open","price":76.71},
 {"ticker":"MSFT","positionStatus":"Closed","price":512.41},
+{"ticker":"MSFT","positionStatus":"Open","price":511.11},
 {"ticker":"MTDR","positionStatus":"Closed","price":55.49},
 {"ticker":"MU","positionStatus":"Closed","price":106.42},
 {"ticker":"MU","positionStatus":"Open","price":107.3585},
