@@ -2,6 +2,7 @@
 {"EMAs":"O O O O O O","ticker":"SNPS","dayChange":-1.47,"weekRange":18.69},
 {"EMAs":"O O O O O O","ticker":"LULU","dayChange":0.07,"weekRange":0.28},
 {"EMAs":"O O O O O O","ticker":"CAVA","dayChange":-1.71,"weekRange":0.19},
+{"EMAs":"O O X X O O","ticker":"DUOL","dayChange":-7.4,"weekRange":15.93},
 {"EMAs":"O O O O O X","ticker":"CROX","dayChange":0.19,"weekRange":4.94},
 {"EMAs":"O O O O O O","ticker":"ACN","dayChange":-0.28,"weekRange":1.2},
 {"EMAs":"O O O O O O","ticker":"ANF","dayChange":0.16,"weekRange":21.72},
@@ -29,6 +30,6 @@
 {"EMAs":"X X O O O O","ticker":"HPQ","dayChange":-0.79,"weekRange":35.19},
 {"EMAs":"X X O O O O","ticker":"PG","dayChange":-0.68,"weekRange":22.67},
 {"EMAs":"O X X X O O","ticker":"COST","dayChange":-0.81,"weekRange":44.03},
-{"EMAs":"O O X X X X","ticker":"NVO","dayChange":1.37,"weekRange":11.34},
+{"EMAs":"O O X X X X","ticker":"NVO","dayChange":1.37,"weekRange":11.72},
 {"EMAs":"O X X X X X","ticker":"FTNT","dayChange":1.66,"weekRange":24.34}
 ]
