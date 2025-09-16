@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"ABT","dayChange":1.22,"weekRange":72.67},
-{"EMAs":"X X X O O X","ticker":"HOOD","dayChange":0.69,"weekRange":92.29}
+{"EMAs":"X X X O O X","ticker":"FFIV","dayChange":-0.09,"weekRange":89.18},
+{"EMAs":"X X X X O X","ticker":"RETL","dayChange":-0.76,"weekRange":81.31},
+{"EMAs":"X X X O O X","ticker":"GLBE","dayChange":0.8,"weekRange":25.36}
 ]
