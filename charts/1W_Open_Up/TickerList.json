@@ -26,7 +26,7 @@
 {"EMAs":"X X X X X X","ticker":"UBER","dayChange":-1.03,"weekRange":95.37},
 {"EMAs":"X X X X X O","ticker":"DOCU","dayChange":0.17,"weekRange":50.4},
 {"EMAs":"X X X X X X","ticker":"PANW","dayChange":0.03,"weekRange":86.34},
-{"EMAs":"X X X X O O","ticker":"VST","dayChange":-1.92,"weekRange":93.43},
+{"EMAs":"X X X X O O","ticker":"VST","dayChange":-1.92,"weekRange":93.36},
 {"EMAs":"X X X O O O","ticker":"UNH","dayChange":-2.33,"weekRange":26.55},
 {"EMAs":"X X X X X X","ticker":"TSM","dayChange":0.26,"weekRange":96.69},
 {"EMAs":"X X X O O X","ticker":"SOUN","dayChange":3.52,"weekRange":49.88},
@@ -37,6 +37,6 @@
 {"EMAs":"X X X X X X","ticker":"CRWV","dayChange":-1.43,"weekRange":55.53},
 {"EMAs":"X X X X X X","ticker":"TSLA","dayChange":2.82,"weekRange":75.79},
 {"EMAs":"X X X X X X","ticker":"MU","dayChange":0.67,"weekRange":98.46},
-{"EMAs":"X X X X X X","ticker":"APP","dayChange":1.8,"weekRange":99.68},
+{"EMAs":"X X X X X X","ticker":"APP","dayChange":1.8,"weekRange":99.67},
 {"EMAs":"X X X X X X","ticker":"IONQ","dayChange":5.33,"weekRange":98.93}
 ]

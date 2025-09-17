@@ -152,6 +152,7 @@
 {"ticker":"MGM","positionStatus":"Closed","price":38.8104},
 {"ticker":"MLCO","positionStatus":"Closed","price":8.4613},
 {"ticker":"MMC","positionStatus":"Closed","price":229.9317},
+{"ticker":"MNDY","positionStatus":"Open","price":193.66},
 {"ticker":"MRNA","positionStatus":"Closed","price":33.82},
 {"ticker":"MRVL","positionStatus":"Closed","price":73.9707},
 {"ticker":"MRVL","positionStatus":"Open","price":76.71},
