@@ -20,7 +20,7 @@
 {"ticker":"HD","dayChange":-1.23,"weekRange":6.26},
 {"ticker":"CVX","dayChange":-0.01,"weekRange":97.74},
 {"ticker":"MRK","dayChange":0.09,"weekRange":16.89},
-{"ticker":"PEP","dayChange":-1.16,"weekRange":10.77},
+{"ticker":"PEP","dayChange":-1.16,"weekRange":10.78},
 {"ticker":"ABBV","dayChange":-0.92,"weekRange":84.23},
 {"ticker":"COST","dayChange":-0.84,"weekRange":40.23},
 {"ticker":"PFE","dayChange":-0.29,"weekRange":31.37},
@@ -46,6 +46,6 @@
 {"ticker":"HON","dayChange":-0.37,"weekRange":22.59},
 {"ticker":"QCOM","dayChange":1.81,"weekRange":70.7},
 {"ticker":"AMGN","dayChange":0.32,"weekRange":73.06},
-{"ticker":"C","dayChange":0.22,"weekRange":50.89},
+{"ticker":"C","dayChange":0.22,"weekRange":49.86},
 {"ticker":"CAT","dayChange":1.09,"weekRange":99.72}
 ]
