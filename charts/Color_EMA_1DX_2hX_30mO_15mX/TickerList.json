@@ -1,4 +1,8 @@
 [
-{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":-0.77,"weekRange":98.28},
-{"EMAs":"X X X O O X","ticker":"TJX","dayChange":0.19,"weekRange":83.21}
+{"EMAs":"X X X X O X","ticker":"GTLB","dayChange":-0.18,"weekRange":33.96},
+{"EMAs":"X X X X O X","ticker":"SSO","dayChange":0.28,"weekRange":99.39},
+{"EMAs":"X X X X O X","ticker":"TTWO","dayChange":0.11,"weekRange":97.16},
+{"EMAs":"X X X X O X","ticker":"UPRO","dayChange":0.42,"weekRange":99.23},
+{"EMAs":"X X X O O X","ticker":"TJX","dayChange":0.25,"weekRange":83.47},
+{"EMAs":"X X X X O X","ticker":"T","dayChange":0.24,"weekRange":95.54}
 ]
