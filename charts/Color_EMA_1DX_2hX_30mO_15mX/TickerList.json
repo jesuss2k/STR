@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"TNA","dayChange":-0.66,"weekRange":63.84},
-{"EMAs":"X O X X O X","ticker":"ULTA","dayChange":-0.75,"weekRange":92.66},
-{"EMAs":"X X X X O X","ticker":"RETL","dayChange":-0.9,"weekRange":81.12},
-{"EMAs":"X X X O O X","ticker":"FFIV","dayChange":-0.2,"weekRange":88.9}
+{"EMAs":"X X X O O X","ticker":"FFIV","dayChange":-0.11,"weekRange":89.12},
+{"EMAs":"X X X X O X","ticker":"TNA","dayChange":-0.62,"weekRange":63.89}
 ]
