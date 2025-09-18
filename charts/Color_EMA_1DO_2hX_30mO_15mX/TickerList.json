@@ -1,3 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"SMCI","dayChange":-0.02,"weekRange":56.21}
+{"EMAs":"O O X X O X","ticker":"ASPN","dayChange":2.8,"weekRange":10.07},
+{"EMAs":"O X X X O X","ticker":"COIN","dayChange":2.47,"weekRange":61.55},
+{"EMAs":"O X X X O X","ticker":"SMCI","dayChange":0.33,"weekRange":56.52}
 ]
