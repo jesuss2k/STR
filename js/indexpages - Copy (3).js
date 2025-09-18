@@ -15,91 +15,57 @@ function getSortedTickers() {
     return JSON.parse(localStorage.getItem("sortedTickers")) || [];
 }
 
-function parseSortableNumber(raw) {
-  if (raw == null) return NaN;
-  const cleaned = String(raw)
-    .trim()
-    .replace(/[%,$€\s]/g, "")
-    .replace(/,/g, "");
-  const n = parseFloat(cleaned);
-  return Number.isFinite(n) ? n : NaN;
-}
-
-function getComparableValue(cell) {
-  // 1) 52-week bar: read inline width from the .current-price element if present
-  const bar = cell.querySelector?.(".current-price");
-  if (bar && bar.style && bar.style.width) {
-    const n = parseFloat(bar.style.width);
-    if (Number.isFinite(n)) return { type: "number", value: n };
-  }
-
-  // 2) Prefer a data-sort attribute if you set it during rendering
-  if (cell.dataset && cell.dataset.sort != null) {
-    const maybeNum = parseSortableNumber(cell.dataset.sort);
-    if (Number.isFinite(maybeNum)) {
-      return { type: "number", value: maybeNum };
-    }
-    return { type: "text", value: String(cell.dataset.sort).trim() };
-  }
-
-  // 3) Fallback to visible text
-  const text = (cell.innerText || "").trim();
-  const num = parseSortableNumber(text);
-  if (Number.isFinite(num)) {
-    return { type: "number", value: num };
-  }
-  return { type: "text", value: text };
-}
-
 function sortTable(columnIndex) {
-  const table = document.getElementById("sortableTable");
-  const headers = table.querySelectorAll("th");
-  const rows = Array.from(table.rows).slice(1); // skip header
-  const currentSortState = sortStates[columnIndex] || "asc";
-  const newSortState = currentSortState === "asc" ? "desc" : "asc";
-  sortStates[columnIndex] = newSortState;
+    const table = document.getElementById("sortableTable");
+    const headers = table.querySelectorAll("th");
+    const rows = Array.from(table.rows).slice(1); // Exclude header row
+    const isNumeric = columnIndex !== 0; // Only Ticker (column 0) is non-numeric
+    const currentSortState = sortStates[columnIndex] || "asc"; // Default to ascending
 
-  // Update header styles/icons
-  headers.forEach((header, idx) => {
-    const icon = header.querySelector(".sort-icon");
-    header.classList.remove("sorted");
-    if (icon) {
-      icon.innerHTML = "";
-      if (idx === columnIndex) {
-        header.classList.add("sorted");
-        icon.innerHTML = newSortState === "asc" ? "&#9650;" : "&#9660;";
-      }
-    }
-  });
+    // Determine new sort state
+    const newSortState = currentSortState === "asc" ? "desc" : "asc";
+    sortStates[columnIndex] = newSortState;
 
-  const sortedRows = rows.sort((a, b) => {
-    const aCell = a.cells[columnIndex];
-    const bCell = b.cells[columnIndex];
+    // Reset header styles
+    headers.forEach((header, idx) => {
+        const icon = header.querySelector(".sort-icon");
+        header.classList.remove("sorted");
+        if (icon) {
+            icon.innerHTML = ""; // Clear any existing icon
+            if (idx === columnIndex) {
+                header.classList.add("sorted");
+                icon.innerHTML = newSortState === "asc" ? "&#9650;" : "&#9660;"; // ▲ or ▼
+            }
+        }
+    });
 
-    // Get comparable values with robust detection
-    const av = getComparableValue(aCell);
-    const bv = getComparableValue(bCell);
+    // Sort rows
+    const sortedRows = rows.sort((a, b) => {
+        let aText = a.cells[columnIndex].innerText.replace('%', '');
+        let bText = b.cells[columnIndex].innerText.replace('%', '');
 
-    let cmp = 0;
+        // Handle 52-week range column (parse width of the current price)
+        if (columnIndex === 2) {
+            const aBar = a.cells[columnIndex].querySelector(".current-price").style.width;
+            const bBar = b.cells[columnIndex].querySelector(".current-price").style.width;
+            aText = parseFloat(aBar);
+            bText = parseFloat(bBar);
+        }
 
-    if (av.type === "number" && bv.type === "number") {
-      // Numbers: put missing/NaN to the bottom on ascending
-      const aNum = Number.isFinite(av.value) ? av.value : Number.NEGATIVE_INFINITY;
-      const bNum = Number.isFinite(bv.value) ? bv.value : Number.NEGATIVE_INFINITY;
-      cmp = aNum - bNum;
-    } else {
-      // Text (or mixed): case-insensitive, natural order
-      const aStr = String(av.value).toLowerCase();
-      const bStr = String(bv.value).toLowerCase();
-      cmp = aStr.localeCompare(bStr, undefined, { numeric: true, sensitivity: "base" });
-    }
+        const comparison = isNumeric
+            ? parseFloat(aText) - parseFloat(bText)
+            : aText.localeCompare(bText);
 
-    return newSortState === "asc" ? cmp : -cmp;
-  });
+        return newSortState === "asc" ? comparison : -comparison;
+    });
 
-  table.tBodies[0].append(...sortedRows);
-  saveSortedTickers();
+    // Append sorted rows back to the table
+    table.tBodies[0].append(...sortedRows);
+
+    // Store the latest sorted tickers in localStorage
+    saveSortedTickers();
 }
+
 function populateTickerTable() {
     // Constant TradingView icon URL used for every ticker.
     const TRADING_VIEW_ICON_URL = "https://cdn-1.webcatalog.io/catalog/tradingview/tradingview-icon-filled-256.webp?v=1714773033909";
@@ -116,7 +82,7 @@ function populateTickerTable() {
       });
 
       // Define keys that are always present.
-      const alwaysKeys = ["ticker", "dayChange", "rsi_14", "weekRange"];
+      const alwaysKeys = ["ticker", "dayChange", "weekRange"];
       const extraColumnsSet = new Set();
       listData.forEach(item => {
         Object.keys(item).forEach(key => {
@@ -144,23 +110,11 @@ function populateTickerTable() {
 
       headerRow.appendChild(createHeaderCell("Ticker", 0));
       headerRow.appendChild(createHeaderCell("% Day", 1));
-
-      // dynamic extra columns (2 .. 2 + extraColumns.length - 1)
       extraColumns.forEach((col, index) => {
         headerRow.appendChild(createHeaderCell(col, 2 + index));
       });
-
-      // compute the next indices once
-      const rsiColIndex = 2 + extraColumns.length;
-      const week52ColIndex = rsiColIndex + 1;
-      const tvColIndex = week52ColIndex + 1;
-
-      // NEW: RSI (14) column BEFORE 52-Week
-      headerRow.appendChild(createHeaderCell("RSI (14)", rsiColIndex));
-
-      // existing 52-Week and TradingView columns
-      headerRow.appendChild(createHeaderCell("52-Week", week52ColIndex));
-      headerRow.appendChild(createHeaderCell("", tvColIndex)); // TradingView
+      headerRow.appendChild(createHeaderCell("52-Week", 2 + extraColumns.length));
+      headerRow.appendChild(createHeaderCell("", 3 + extraColumns.length)); // TradingView column
 
       function getDayChangeClass(dayChangeStr) {
         const value = parseFloat(dayChangeStr);
@@ -267,19 +221,6 @@ function populateTickerTable() {
         
           tr.appendChild(tdExtra);
         });
-
-        const tdRsi = document.createElement("td");
-        const rsiVal = parseFloat(item.rsi_14);
-        if (!isNaN(rsiVal)) {
-          tdRsi.textContent = rsiVal.toFixed(1);  // display
-          tdRsi.dataset.sort = rsiVal;            // <-- precise numeric sorting
-          // (optional) add bands:
-          // if (rsiVal >= 70) tdRsi.className = "red";
-          // else if (rsiVal <= 30) tdRsi.className = "green";
-        } else {
-          tdRsi.textContent = item.rsi_14 ?? "";
-        }
-        tr.appendChild(tdRsi);
                         
         const tdRange = document.createElement("td");
         const rangeBar = document.createElement("div");
