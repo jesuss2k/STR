@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"ORCL","dayChange":-0.28,"rsi_14":64.9,"weekRange":80.09},
-{"EMAs":"X X X X O X","ticker":"WBD","dayChange":-0.08,"rsi_14":74.1,"weekRange":86.88}
+{"EMAs":"X X X O O X","ticker":"YOU","dayChange":1.25,"rsi_14":63.3,"weekRange":90.99},
+{"EMAs":"X X X X O X","ticker":"ORCL","dayChange":-0.24,"rsi_14":64.9,"weekRange":80.15},
+{"EMAs":"X X X X O X","ticker":"DAKT","dayChange":1.36,"rsi_14":74.7,"weekRange":90.55}
 ]
