@@ -1,7 +1,7 @@
 [
 {"EMAs":"O O O O X X","ticker":"SNPS","dayChange":-0.13,"weekRange":20.86},
 {"EMAs":"O O O O X X","ticker":"LULU","dayChange":0.7,"weekRange":1.6},
-{"EMAs":"O O O O O O","ticker":"DUOL","dayChange":-0.56,"weekRange":12.41},
+{"EMAs":"O O O O O O","ticker":"DUOL","dayChange":-0.56,"weekRange":7.95},
 {"EMAs":"O O O O O O","ticker":"CAVA","dayChange":-1.09,"weekRange":0.44},
 {"EMAs":"O O O O O O","ticker":"ANF","dayChange":-1.53,"weekRange":19.54},
 {"EMAs":"O X X X O O","ticker":"MNDY","dayChange":-3.69,"weekRange":12.57},
@@ -12,7 +12,7 @@
 {"EMAs":"X O O O O O","ticker":"AAL","dayChange":0.56,"weekRange":37.55},
 {"EMAs":"O O O X X O","ticker":"SBUX","dayChange":-1.36,"weekRange":18.4},
 {"EMAs":"O O O O O O","ticker":"NKE","dayChange":-0.6,"weekRange":52.24},
-{"EMAs":"O O O O X X","ticker":"TMUS","dayChange":0.77,"weekRange":54.28},
+{"EMAs":"O O O O X X","ticker":"TMUS","dayChange":0.77,"weekRange":53.4},
 {"EMAs":"O O O O X X","ticker":"CRM","dayChange":1.21,"weekRange":11.04},
 {"EMAs":"O O O O X X","ticker":"AJG","dayChange":0.41,"weekRange":23.92},
 {"EMAs":"O O O X X X","ticker":"ABNB","dayChange":1.27,"weekRange":36.41},
