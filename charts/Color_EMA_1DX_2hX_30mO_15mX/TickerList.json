@@ -1,4 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"OPRA","dayChange":1.03,"rsi_14":63.4,"weekRange":70.11},
-{"EMAs":"X X X O O X","ticker":"YOU","dayChange":1.03,"rsi_14":62.9,"weekRange":90.53}
+{"EMAs":"X X X O O X","ticker":"GDX","dayChange":-0.26,"rsi_14":70.4,"weekRange":93.89},
+{"EMAs":"X X X O O X","ticker":"NUGT","dayChange":-0.47,"rsi_14":69.1,"weekRange":91.29},
+{"EMAs":"X X X O O X","ticker":"OPRA","dayChange":1.75,"rsi_14":64.2,"weekRange":71.56},
+{"EMAs":"X X X O O X","ticker":"YOU","dayChange":1.27,"rsi_14":63.4,"weekRange":91.05}
 ]
