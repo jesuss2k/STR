@@ -1,4 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"HIMS","dayChange":3.92,"weekRange":63.92},
-{"EMAs":"X X X X O X","ticker":"NTNX","dayChange":1.31,"weekRange":83.69}
+{"EMAs":"X X X X O X","ticker":"ORCL","dayChange":-0.28,"rsi_14":64.9,"weekRange":80.09},
+{"EMAs":"X X X X O X","ticker":"WBD","dayChange":-0.08,"rsi_14":74.1,"weekRange":86.88}
 ]
