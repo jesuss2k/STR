@@ -274,8 +274,8 @@ function populateTickerTable() {
           tdRsi.textContent = rsiVal.toFixed(1);  // display
           tdRsi.dataset.sort = rsiVal;            // <-- precise numeric sorting
           // (optional) add bands:
-          // if (rsiVal >= 70) tdRsi.className = "red";
-          // else if (rsiVal <= 30) tdRsi.className = "green";
+          if (rsiVal >= 70) tdRsi.className = "red";
+          else if (rsiVal <= 30) tdRsi.className = "green";
         } else {
           tdRsi.textContent = item.rsi_14 ?? "";
         }
