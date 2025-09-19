@@ -5,7 +5,7 @@
 {"Date":"25-09-17","ticker":"AR","dayChange":-1.12,"rsi_14":45.0,"weekRange":35.04},
 {"Date":"25-09-17","ticker":"UBER","dayChange":1.88,"rsi_14":51.6,"weekRange":87.61},
 {"Date":"25-09-16","ticker":"COST","dayChange":-1.11,"rsi_14":46.3,"weekRange":40.36},
-{"Date":"25-09-16","ticker":"DUOL","dayChange":3.76,"rsi_14":43.2,"weekRange":11.59},
+{"Date":"25-09-16","ticker":"DUOL","dayChange":3.76,"rsi_14":43.2,"weekRange":11.46},
 {"Date":"25-09-16","ticker":"TEAM","dayChange":-1.52,"rsi_14":44.3,"weekRange":8.36},
 {"Date":"25-09-15","ticker":"PAYC","dayChange":0.85,"rsi_14":42.3,"weekRange":53.33},
 {"Date":"25-09-15","ticker":"GDDY","dayChange":1.58,"rsi_14":46.9,"weekRange":16.59},
@@ -19,10 +19,11 @@
 {"Date":"25-09-08","ticker":"CROX","dayChange":-0.22,"rsi_14":40.4,"weekRange":8.54},
 {"Date":"25-09-05","ticker":"AJG","dayChange":1.39,"rsi_14":48.8,"weekRange":29.22},
 {"Date":"25-09-05","ticker":"AAL","dayChange":0.8,"rsi_14":47.4,"weekRange":38.49},
-{"Date":"25-09-05","ticker":"TMUS","dayChange":-0.26,"rsi_14":38.4,"weekRange":52.62},
+{"Date":"25-09-05","ticker":"TMUS","dayChange":-0.26,"rsi_14":38.4,"weekRange":52.35},
 {"Date":"25-09-05","ticker":"LULU","dayChange":3.84,"rsi_14":37.7,"weekRange":3.98},
 {"Date":"25-09-03","ticker":"ACN","dayChange":-0.7,"rsi_14":35.5,"weekRange":2.29},
 {"Date":"25-09-03","ticker":"SBUX","dayChange":0.24,"rsi_14":39.1,"weekRange":18.88},
 {"Date":"25-08-29","ticker":"NKE","dayChange":-0.29,"rsi_14":37.0,"weekRange":51.7},
+{"Date":"25-08-12","ticker":"DLTR","dayChange":0.49,"rsi_14":36.5,"weekRange":65.61},
 {"Date":"25-08-08","ticker":"CAVA","dayChange":1.88,"rsi_14":34.5,"weekRange":1.5}
 ]
