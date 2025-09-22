@@ -1,15 +1,13 @@
 [
-{"EMAs":"O O X X X X","ticker":"NFLX","dayChange":-0.08,"rsi_14":51.5,"weekRange":82.63},
-{"EMAs":"O X X X X X","ticker":"ASPN","dayChange":2.56,"rsi_14":53.2,"weekRange":10.95},
-{"EMAs":"O O X X X X","ticker":"CMG","dayChange":0.65,"rsi_14":35.9,"weekRange":4.48},
-{"EMAs":"O O X X X X","ticker":"AMD","dayChange":2.82,"rsi_14":51.0,"weekRange":77.47},
-{"EMAs":"O X X X X X","ticker":"MRNA","dayChange":5.84,"rsi_14":56.2,"weekRange":7.96},
-{"EMAs":"O X X X X X","ticker":"ON","dayChange":1.33,"rsi_14":56.7,"weekRange":46.0},
-{"EMAs":"O O X X X X","ticker":"PFE","dayChange":2.1,"rsi_14":50.3,"weekRange":38.05},
-{"EMAs":"O O X X X X","ticker":"AMZD","dayChange":1.1,"rsi_14":50.7,"weekRange":8.38},
-{"EMAs":"O X X X X X","ticker":"FNGU","dayChange":-0.8,"rsi_14":42.4,"weekRange":1.33},
-{"EMAs":"O X X X X X","ticker":"HUMA","dayChange":-1.88,"rsi_14":57.7,"weekRange":12.01},
-{"EMAs":"O X X X X X","ticker":"RXRX","dayChange":0.61,"rsi_14":50.5,"weekRange":13.42},
-{"EMAs":"O X X X X X","ticker":"SMCI","dayChange":0.96,"rsi_14":56.3,"weekRange":58.96},
-{"EMAs":"O O X X X X","ticker":"TMV","dayChange":1.63,"rsi_14":48.5,"weekRange":51.22}
+{"EMAs":"O X X X X X","ticker":"VEEV","dayChange":0.3,"rsi_14":50.5,"weekRange":81.24},
+{"EMAs":"O X X X X X","ticker":"ASPN","dayChange":3.14,"rsi_14":53.9,"weekRange":11.1},
+{"EMAs":"O O X X X X","ticker":"CMG","dayChange":1.18,"rsi_14":38.0,"weekRange":5.22},
+{"EMAs":"O O X X X X","ticker":"AMD","dayChange":2.83,"rsi_14":51.1,"weekRange":77.48},
+{"EMAs":"O X X X X X","ticker":"MRNA","dayChange":7.18,"rsi_14":57.7,"weekRange":8.71},
+{"EMAs":"O X X X X X","ticker":"ON","dayChange":1.49,"rsi_14":56.9,"weekRange":46.18},
+{"EMAs":"O O X X X X","ticker":"AMZD","dayChange":1.39,"rsi_14":51.6,"weekRange":8.95},
+{"EMAs":"O X X X X X","ticker":"FNGU","dayChange":-0.23,"rsi_14":42.9,"weekRange":1.36},
+{"EMAs":"O X X X X X","ticker":"RXRX","dayChange":1.43,"rsi_14":51.7,"weekRange":13.89},
+{"EMAs":"O X X X X X","ticker":"SMCI","dayChange":5.5,"rsi_14":62.8,"weekRange":63.18},
+{"EMAs":"O O X X X X","ticker":"TMV","dayChange":0.73,"rsi_14":46.6,"weekRange":49.31}
 ]
