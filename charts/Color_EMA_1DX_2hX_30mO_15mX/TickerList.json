@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.17,"rsi_14":60.2,"weekRange":88.55},
-{"EMAs":"X X X X O X","ticker":"YEXT","dayChange":0.45,"rsi_14":53.8,"weekRange":90.51}
+{"EMAs":"X X X X O X","ticker":"PSN","dayChange":-0.7,"rsi_14":59.5,"weekRange":44.53},
+{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.19,"rsi_14":60.3,"weekRange":88.61},
+{"EMAs":"X X X X O X","ticker":"MELI","dayChange":0.34,"rsi_14":58.5,"weekRange":81.53}
 ]
