@@ -196,6 +196,7 @@
 {"ticker":"PG","positionStatus":"Open","price":168.32},
 {"ticker":"PGR","positionStatus":"Closed","price":280.668},
 {"ticker":"PHR","positionStatus":"Closed","price":22.2879},
+{"ticker":"PHR","positionStatus":"Open","price":24.62},
 {"ticker":"PINS","positionStatus":"Closed","price":36.8123},
 {"ticker":"PLTR","positionStatus":"Closed","price":82.975},
 {"ticker":"PRGO","positionStatus":"Closed","price":30.3502},

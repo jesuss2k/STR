@@ -67,7 +67,7 @@
 {"Group":"12","ticker":"ZS","dayChange":-0.92,"rsi_14":59.0,"weekRange":82.5},
 {"Group":"12","ticker":"HOOD","dayChange":0.09,"rsi_14":69.4,"weekRange":98.33},
 {"Group":"12","ticker":"NVDA","dayChange":3.93,"rsi_14":61.5,"weekRange":99.04},
-{"Group":"12","ticker":"TMDX","dayChange":2.34,"rsi_14":62.6,"weekRange":62.95},
+{"Group":"12","ticker":"TMDX","dayChange":2.34,"rsi_14":62.6,"weekRange":64.95},
 {"Group":"12","ticker":"PLTR","dayChange":-1.68,"rsi_14":63.9,"weekRange":93.07},
 {"Group":"12","ticker":"SHOP","dayChange":2.49,"rsi_14":70.6,"weekRange":97.88},
 {"Group":"12","ticker":"GOOG","dayChange":-0.92,"rsi_14":81.1,"weekRange":96.65},

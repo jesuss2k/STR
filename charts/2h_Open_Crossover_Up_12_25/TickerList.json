@@ -42,7 +42,7 @@
 {"Date":"25-09-04","ticker":"LMT","dayChange":1.58,"rsi_14":72.2,"weekRange":33.65},
 {"Date":"25-09-02","ticker":"SOUN","dayChange":6.52,"rsi_14":70.3,"weekRange":62.64},
 {"Date":"25-08-27","ticker":"NOW","dayChange":-1.39,"rsi_14":55.7,"weekRange":51.81},
-{"Date":"25-08-22","ticker":"DOCU","dayChange":0.32,"rsi_14":67.5,"weekRange":53.87},
+{"Date":"25-08-22","ticker":"DOCU","dayChange":0.32,"rsi_14":67.5,"weekRange":53.62},
 {"Date":"25-08-22","ticker":"APP","dayChange":-0.94,"rsi_14":83.8,"weekRange":97.46},
 {"Date":"25-08-15","ticker":"NU","dayChange":0.8,"rsi_14":82.9,"weekRange":99.32},
 {"Date":"25-08-15","ticker":"LLY","dayChange":0.39,"rsi_14":55.6,"weekRange":41.57},
