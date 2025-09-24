@@ -1,12 +1,13 @@
 [
-{"EMAs":"O X X X X X","ticker":"AMD","dayChange":0.4,"rsi_14":50.9,"weekRange":77.21},
-{"EMAs":"O O X X X X","ticker":"EBAY","dayChange":1.23,"rsi_14":52.7,"weekRange":79.99},
-{"EMAs":"O O X X X X","ticker":"CB","dayChange":0.58,"rsi_14":54.2,"weekRange":46.29},
-{"EMAs":"O O X X X X","ticker":"FAST","dayChange":0.21,"rsi_14":51.3,"weekRange":84.07},
-{"EMAs":"O O X X X X","ticker":"LNG","dayChange":0.75,"rsi_14":52.7,"weekRange":73.81},
-{"EMAs":"O O X X X X","ticker":"TXN","dayChange":1.0,"rsi_14":43.1,"weekRange":53.73},
-{"EMAs":"O O X X X X","ticker":"VNOM","dayChange":1.88,"rsi_14":55.8,"weekRange":20.43},
-{"EMAs":"O O X X X X","ticker":"TTD","dayChange":0.38,"rsi_14":36.7,"weekRange":4.14},
-{"EMAs":"O X X X X X","ticker":"AMZD","dayChange":-0.49,"rsi_14":56.2,"weekRange":12.6},
-{"EMAs":"O O X X X X","ticker":"ISRG","dayChange":-0.12,"rsi_14":43.0,"weekRange":11.63}
+{"EMAs":"O X X X X X","ticker":"RXRX","dayChange":2.62,"rsi_14":50.5,"weekRange":13.37},
+{"EMAs":"O O X X X X","ticker":"MTDR","dayChange":2.61,"rsi_14":50.7,"weekRange":44.5},
+{"EMAs":"O O X X X X","ticker":"EBAY","dayChange":1.49,"rsi_14":53.4,"weekRange":80.52},
+{"EMAs":"O O X X X X","ticker":"CB","dayChange":1.05,"rsi_14":56.4,"weekRange":48.66},
+{"EMAs":"O O X X X X","ticker":"FAST","dayChange":-0.23,"rsi_14":49.5,"weekRange":82.75},
+{"EMAs":"O O X X X X","ticker":"LNG","dayChange":1.4,"rsi_14":55.2,"weekRange":75.72},
+{"EMAs":"O O X X X X","ticker":"TXN","dayChange":0.68,"rsi_14":41.9,"weekRange":53.01},
+{"EMAs":"O X X X X X","ticker":"VNOM","dayChange":3.59,"rsi_14":58.9,"weekRange":23.4},
+{"EMAs":"O O X X X X","ticker":"TTD","dayChange":0.02,"rsi_14":36.1,"weekRange":3.97},
+{"EMAs":"O X X X X X","ticker":"AMZD","dayChange":0.46,"rsi_14":59.1,"weekRange":14.53},
+{"EMAs":"O O X X X X","ticker":"ISRG","dayChange":0.22,"rsi_14":44.1,"weekRange":12.42}
 ]
