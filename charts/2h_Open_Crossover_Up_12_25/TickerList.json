@@ -1,6 +1,7 @@
 [
-{"Date":"25-09-23","ticker":"WSM","dayChange":1.89,"rsi_14":54.2,"weekRange":79.29},
+{"Date":"25-09-23","ticker":"RCL","dayChange":0.41,"rsi_14":46.3,"weekRange":82.27},
 {"Date":"25-09-23","ticker":"AR","dayChange":2.33,"rsi_14":57.0,"weekRange":42.76},
+{"Date":"25-09-23","ticker":"WSM","dayChange":1.89,"rsi_14":54.2,"weekRange":79.29},
 {"Date":"25-09-23","ticker":"UNH","dayChange":1.87,"rsi_14":67.1,"weekRange":28.55},
 {"Date":"25-09-22","ticker":"DUOL","dayChange":-3.18,"rsi_14":47.6,"weekRange":14.87},
 {"Date":"25-09-22","ticker":"CAVA","dayChange":-0.6,"rsi_14":41.4,"weekRange":2.93},
@@ -41,9 +42,9 @@
 {"Date":"25-09-04","ticker":"MU","dayChange":1.09,"rsi_14":77.9,"weekRange":96.29},
 {"Date":"25-09-04","ticker":"LMT","dayChange":1.31,"rsi_14":75.6,"weekRange":36.66},
 {"Date":"25-09-02","ticker":"SOUN","dayChange":4.27,"rsi_14":72.9,"weekRange":66.24},
-{"Date":"25-08-22","ticker":"DOCU","dayChange":-0.05,"rsi_14":67.4,"weekRange":53.53},
+{"Date":"25-08-22","ticker":"DOCU","dayChange":-0.05,"rsi_14":67.4,"weekRange":53.48},
 {"Date":"25-08-22","ticker":"APP","dayChange":1.19,"rsi_14":84.5,"weekRange":96.51},
 {"Date":"25-08-15","ticker":"NU","dayChange":-0.92,"rsi_14":77.3,"weekRange":96.29},
 {"Date":"25-08-13","ticker":"PANW","dayChange":-2.37,"rsi_14":63.3,"weekRange":89.22},
-{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":90.13}
+{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.95}
 ]
