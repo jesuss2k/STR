@@ -85,7 +85,7 @@
 {"EMAs":"X X X X O O","Group":"3","ticker":"ON","dayChange":1.03,"rsi_14":53.0,"weekRange":44.2},
 {"EMAs":"X X X X O X","Group":"3","ticker":"MAMA","dayChange":1.98,"rsi_14":69.0,"weekRange":88.65},
 {"EMAs":"X X X X X X","Group":"3","ticker":"AMZD","dayChange":0.21,"rsi_14":58.5,"weekRange":14.03},
-{"EMAs":"X X X X X X","Group":"3","ticker":"CPB","dayChange":-0.06,"rsi_14":55.6,"weekRange":21.08},
+{"EMAs":"X X X X X X","Group":"3","ticker":"CPB","dayChange":-0.06,"rsi_14":55.6,"weekRange":21.33},
 {"EMAs":"X X X X O O","Group":"3","ticker":"WDC","dayChange":-0.51,"rsi_14":80.0,"weekRange":95.21},
 {"EMAs":"X X X X O X","Group":"3","ticker":"SOXL","dayChange":-0.29,"rsi_14":73.0,"weekRange":79.42},
 {"EMAs":"X X X X X X","Group":"3","ticker":"GLBE","dayChange":1.19,"rsi_14":61.7,"weekRange":28.83},

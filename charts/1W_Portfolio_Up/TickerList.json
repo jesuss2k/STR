@@ -35,7 +35,7 @@
 {"EMAs":"X X O O X O","ticker":"XRT","dayChange":0.24,"rsi_14":56.6,"weekRange":91.95},
 {"EMAs":"X X O O X X","ticker":"WMT","dayChange":0.2,"rsi_14":56.6,"weekRange":87.54},
 {"EMAs":"X X X O O O","ticker":"HLI","dayChange":-1.73,"rsi_14":57.5,"weekRange":91.6},
-{"EMAs":"X X X X X X","ticker":"CPB","dayChange":-0.06,"rsi_14":55.6,"weekRange":21.08},
+{"EMAs":"X X X X X X","ticker":"CPB","dayChange":-0.06,"rsi_14":55.6,"weekRange":21.33},
 {"EMAs":"O X X X X X","ticker":"EBAY","dayChange":2.53,"rsi_14":56.0,"weekRange":82.62},
 {"EMAs":"X X X X O O","ticker":"IBKR","dayChange":-1.57,"rsi_14":54.7,"weekRange":89.76},
 {"EMAs":"X O X X X X","ticker":"ROST","dayChange":2.57,"rsi_14":56.5,"weekRange":74.51},

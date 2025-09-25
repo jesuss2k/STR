@@ -17,7 +17,7 @@
 {"Date":"25-09-17","ticker":"WDAY","dayChange":0.5,"rsi_14":61.8,"weekRange":40.8},
 {"Date":"25-09-17","ticker":"ACIW","dayChange":-0.15,"rsi_14":65.8,"weekRange":61.42},
 {"Date":"25-09-15","ticker":"AAPL","dayChange":-0.83,"rsi_14":68.9,"weekRange":91.43},
-{"Date":"25-09-15","ticker":"NVO","dayChange":-1.34,"rsi_14":55.5,"weekRange":16.58},
+{"Date":"25-09-15","ticker":"NVO","dayChange":-1.34,"rsi_14":55.5,"weekRange":16.99},
 {"Date":"25-09-11","ticker":"DELL","dayChange":-1.67,"rsi_14":54.8,"weekRange":80.88},
 {"Date":"25-09-11","ticker":"QCOM","dayChange":2.37,"rsi_14":74.9,"weekRange":86.05},
 {"Date":"25-09-11","ticker":"GM","dayChange":2.29,"rsi_14":66.1,"weekRange":93.28},
@@ -35,7 +35,7 @@
 {"Date":"25-09-04","ticker":"MU","dayChange":-2.82,"rsi_14":70.4,"weekRange":91.98},
 {"Date":"25-09-04","ticker":"IBM","dayChange":-1.73,"rsi_14":63.7,"weekRange":69.1},
 {"Date":"25-09-02","ticker":"SOUN","dayChange":-1.5,"rsi_14":70.5,"weekRange":64.93},
-{"Date":"25-08-22","ticker":"DOCU","dayChange":-0.95,"rsi_14":64.0,"weekRange":51.85},
+{"Date":"25-08-22","ticker":"DOCU","dayChange":-0.95,"rsi_14":64.0,"weekRange":49.57},
 {"Date":"25-08-22","ticker":"APP","dayChange":-1.42,"rsi_14":79.9,"weekRange":94.81},
 {"Date":"25-08-15","ticker":"NU","dayChange":-0.87,"rsi_14":72.4,"weekRange":94.4},
 {"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.95}
