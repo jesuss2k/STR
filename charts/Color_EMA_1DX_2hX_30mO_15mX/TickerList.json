@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"APLD","dayChange":1.68,"rsi_14":65.8,"weekRange":84.15}
+{"EMAs":"X X X X O X","ticker":"FDX","dayChange":-0.27,"rsi_14":61.2,"weekRange":37.53},
+{"EMAs":"X X X O O X","ticker":"PLTR","dayChange":0.41,"rsi_14":60.2,"weekRange":92.39},
+{"EMAs":"X X X O O X","ticker":"APLD","dayChange":1.68,"rsi_14":65.8,"weekRange":84.14}
 ]
