@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"CB","dayChange":-0.4,"rsi_14":57.0,"weekRange":50.05},
-{"EMAs":"X X X O O X","ticker":"PLTR","dayChange":0.73,"rsi_14":60.7,"weekRange":92.76},
-{"EMAs":"X X X O O X","ticker":"APLD","dayChange":2.03,"rsi_14":66.0,"weekRange":84.48}
+{"EMAs":"X X X X O X","ticker":"AMZD","dayChange":1.64,"rsi_14":58.9,"weekRange":15.65},
+{"EMAs":"X X X O O X","ticker":"MAMA","dayChange":0.57,"rsi_14":63.8,"weekRange":85.14}
 ]
