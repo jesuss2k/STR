@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"BBY","dayChange":-0.65,"rsi_14":54.0,"weekRange":41.95},
-{"EMAs":"X X X O O X","ticker":"WBD","dayChange":2.6,"rsi_14":70.8,"weekRange":93.19}
+{"EMAs":"X X X O O X","ticker":"FDX","dayChange":-0.33,"rsi_14":58.6,"weekRange":36.34},
+{"EMAs":"X X X X O X","ticker":"JPM","dayChange":-0.08,"rsi_14":68.5,"weekRange":97.77},
+{"EMAs":"X X X O O X","ticker":"WBD","dayChange":3.53,"rsi_14":71.5,"weekRange":94.53}
 ]

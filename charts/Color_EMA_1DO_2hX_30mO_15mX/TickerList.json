@@ -1,3 +1,4 @@
 [
-{"EMAs":"O O X X O X","ticker":"TZA","dayChange":1.03,"rsi_14":39.3,"weekRange":3.63}
+{"EMAs":"O O X O O X","ticker":"TXN","dayChange":0.27,"rsi_14":44.6,"weekRange":53.56},
+{"EMAs":"O X X O O X","ticker":"TYO","dayChange":0.23,"rsi_14":49.4,"weekRange":26.13}
 ]
