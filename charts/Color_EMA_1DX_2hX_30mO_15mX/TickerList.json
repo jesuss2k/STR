@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"TJX","dayChange":0.98,"rsi_14":60.0,"weekRange":91.66}
+{"EMAs":"X X X X O X","ticker":"LABD","dayChange":-0.08,"rsi_14":57.6,"weekRange":67.62},
+{"EMAs":"X X X O O X","ticker":"TJX","dayChange":1.16,"rsi_14":60.8,"weekRange":92.4}
 ]
