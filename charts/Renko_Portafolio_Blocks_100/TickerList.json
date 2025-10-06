@@ -59,7 +59,7 @@
 {"EMAs":"X O X X X X","Blocks":4,"ticker":"ABT","dayChange":1.2,"rsi_14":55.4,"weekRange":78.14},
 {"EMAs":"X X X X X O","Blocks":4,"ticker":"SMCI","dayChange":-1.03,"rsi_14":70.4,"weekRange":70.56},
 {"EMAs":"X X X X X O","Blocks":4,"ticker":"ULTA","dayChange":-0.25,"rsi_14":63.1,"weekRange":97.76},
-{"EMAs":"O X O O O O","Blocks":5,"ticker":"FNGU","dayChange":-1.73,"rsi_14":38.6,"weekRange":1.05},
+{"EMAs":"O X O O O O","Blocks":5,"ticker":"FNGU","dayChange":-1.73,"rsi_14":38.7,"weekRange":1.05},
 {"EMAs":"X X X X X X","Blocks":5,"ticker":"UDOW","dayChange":1.44,"rsi_14":66.2,"weekRange":92.49},
 {"EMAs":"X X X X X X","Blocks":5,"ticker":"TTWO","dayChange":0.29,"rsi_14":64.2,"weekRange":96.59},
 {"EMAs":"X X X X X X","Blocks":5,"ticker":"MAMA","dayChange":2.5,"rsi_14":63.3,"weekRange":85.81},

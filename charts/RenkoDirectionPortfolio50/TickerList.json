@@ -157,7 +157,7 @@
 {"EMAs":"O O X X X O","Dir":"O","ticker":"BOX","dayChange":-1.08,"rsi_14":46.7,"weekRange":38.43},
 {"EMAs":"O O X X X O","Dir":"O","ticker":"TMDX","dayChange":-0.33,"rsi_14":49.5,"weekRange":67.06},
 {"EMAs":"O O X X X X","Dir":"O","ticker":"CAKE","dayChange":0.6,"rsi_14":41.3,"weekRange":54.63},
-{"EMAs":"O X O O O O","Dir":"O","ticker":"FNGU","dayChange":-1.73,"rsi_14":38.6,"weekRange":1.05},
+{"EMAs":"O X O O O O","Dir":"O","ticker":"FNGU","dayChange":-1.73,"rsi_14":38.7,"weekRange":1.05},
 {"EMAs":"X O O O O O","Dir":"O","ticker":"ROAD","dayChange":-0.79,"rsi_14":52.1,"weekRange":82.11},
 {"EMAs":"X O O O O O","Dir":"O","ticker":"DAKT","dayChange":-0.94,"rsi_14":47.1,"weekRange":68.48},
 {"EMAs":"X O O O O O","Dir":"O","ticker":"SOFI","dayChange":-2.81,"rsi_14":42.6,"weekRange":77.15},
