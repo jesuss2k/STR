@@ -34,12 +34,12 @@
 {"Date":"25-09-17","ticker":"ACIW","dayChange":1.13,"rsi_14":70.0,"weekRange":68.38},
 {"Date":"25-09-15","ticker":"AAPL","dayChange":0.35,"rsi_14":71.0,"weekRange":97.71},
 {"Date":"25-09-10","ticker":"MRVL","dayChange":0.02,"rsi_14":72.4,"weekRange":48.68},
-{"Date":"25-09-08","ticker":"CRWD","dayChange":-1.39,"rsi_14":62.0,"weekRange":88.0},
+{"Date":"25-09-08","ticker":"CRWD","dayChange":-1.39,"rsi_14":62.0,"weekRange":87.9},
 {"Date":"25-09-05","ticker":"TSM","dayChange":1.42,"rsi_14":75.4,"weekRange":97.21},
 {"Date":"25-09-05","ticker":"ASML","dayChange":0.2,"rsi_14":84.8,"weekRange":98.27},
 {"Date":"25-09-05","ticker":"FTNT","dayChange":-0.58,"rsi_14":58.2,"weekRange":35.06},
 {"Date":"25-09-04","ticker":"LMT","dayChange":1.03,"rsi_14":81.7,"weekRange":45.19},
 {"Date":"25-09-04","ticker":"IBM","dayChange":0.58,"rsi_14":73.6,"weekRange":91.59},
-{"Date":"25-08-22","ticker":"APP","dayChange":-0.13,"rsi_14":71.9,"weekRange":89.7},
-{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.23}
+{"Date":"25-08-22","ticker":"APP","dayChange":-0.13,"rsi_14":71.9,"weekRange":89.67},
+{"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.09}
 ]

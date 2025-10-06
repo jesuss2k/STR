@@ -18,7 +18,7 @@
 {"EMAs":"X O O X O O","ticker":"NET","dayChange":-3.51,"rsi_14":50.7,"weekRange":91.1},
 {"EMAs":"X O X X X X","ticker":"ABT","dayChange":1.2,"rsi_14":55.4,"weekRange":78.14},
 {"EMAs":"X X O O O O","ticker":"PLTR","dayChange":-7.47,"rsi_14":49.7,"weekRange":88.8},
-{"EMAs":"X X X X O O","ticker":"PDD","dayChange":-0.73,"rsi_14":65.3,"weekRange":68.76},
+{"EMAs":"X X X X O O","ticker":"PDD","dayChange":-0.73,"rsi_14":65.3,"weekRange":69.05},
 {"EMAs":"X X X X O O","ticker":"KLAC","dayChange":-3.31,"rsi_14":69.9,"weekRange":91.15},
 {"EMAs":"X X X X X O","ticker":"BABA","dayChange":-0.69,"rsi_14":77.0,"weekRange":95.88},
 {"EMAs":"X X X X X O","ticker":"EA","dayChange":-0.15,"rsi_14":77.2,"weekRange":96.54},
