@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"SMTC","dayChange":5.97,"rsi_14":68.1,"weekRange":86.87},
-{"EMAs":"X X X X O X","ticker":"NVDA","dayChange":1.67,"rsi_14":62.9,"weekRange":97.69},
-{"EMAs":"X X X X O X","ticker":"LABD","dayChange":1.09,"rsi_14":58.1,"weekRange":68.28}
+{"EMAs":"X X X X O X","ticker":"NVDA","dayChange":1.55,"rsi_14":62.9,"weekRange":97.49},
+{"EMAs":"X X X X O X","ticker":"LABD","dayChange":1.34,"rsi_14":58.1,"weekRange":68.47}
 ]
