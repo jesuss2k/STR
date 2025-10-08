@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"NET","dayChange":1.21,"rsi_14":53.2,"weekRange":93.21},
-{"EMAs":"X X X X O X","ticker":"IWM","dayChange":0.86,"rsi_14":63.4,"weekRange":97.1},
-{"EMAs":"X X X O O X","ticker":"PDD","dayChange":0.5,"rsi_14":63.9,"weekRange":80.74},
-{"EMAs":"X X X X O X","ticker":"TNA","dayChange":2.52,"rsi_14":62.5,"weekRange":73.92}
+{"EMAs":"X X X O O X","ticker":"AMAT","dayChange":2.38,"rsi_14":66.2,"weekRange":90.37},
+{"EMAs":"X X X X O X","ticker":"IBIT","dayChange":1.13,"rsi_14":61.3,"weekRange":95.02}
 ]
