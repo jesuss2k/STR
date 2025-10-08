@@ -1,6 +1,6 @@
 [
 {"EMAs":"O O X X O O","Group":"O","ticker":"CAVA","dayChange":-3.4,"rsi_14":40.1,"weekRange":2.89},
-{"EMAs":"O O O O O O","Group":"O","ticker":"DLTR","dayChange":-2.92,"rsi_14":21.7,"weekRange":42.78},
+{"EMAs":"O O O O O O","Group":"O","ticker":"DLTR","dayChange":-3.01,"rsi_14":21.6,"weekRange":42.64},
 {"EMAs":"O O X X X O","Group":"O","ticker":"PHR","dayChange":-0.3,"rsi_14":39.5,"weekRange":40.41},
 {"EMAs":"O O O O X X","Group":"O","ticker":"ALK","dayChange":1.11,"rsi_14":29.2,"weekRange":24.05},
 {"EMAs":"O O O O O O","Group":"O","ticker":"ANF","dayChange":-3.12,"rsi_14":26.2,"weekRange":9.82},
@@ -17,7 +17,7 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"ROOT","dayChange":-1.68,"rsi_14":33.9,"weekRange":31.17},
 {"EMAs":"O O O O O X","Group":"O","ticker":"TEAM","dayChange":-0.05,"rsi_14":30.9,"weekRange":2.2},
 {"EMAs":"O O O O O O","Group":"O","ticker":"ABNB","dayChange":-0.42,"rsi_14":38.6,"weekRange":31.18},
-{"EMAs":"O O O X X X","Group":"O","ticker":"AMZN","dayChange":0.39,"rsi_14":45.4,"weekRange":74.42},
+{"EMAs":"O O O X X X","Group":"O","ticker":"AMZN","dayChange":0.4,"rsi_14":45.4,"weekRange":74.44},
 {"EMAs":"O O O X X O","Group":"O","ticker":"GDDY","dayChange":-1.4,"rsi_14":37.4,"weekRange":4.7},
 {"EMAs":"O O O O O O","Group":"O","ticker":"MNDY","dayChange":-5.14,"rsi_14":37.6,"weekRange":7.22},
 {"EMAs":"X X X X O O","Group":"O","ticker":"NVO","dayChange":-1.06,"rsi_14":55.6,"weekRange":18.5},
