@@ -83,6 +83,7 @@
 {"ticker":"DLTR","positionStatus":"Closed","price":85.05},
 {"ticker":"DOCU","positionStatus":"Closed","price":83.6196},
 {"ticker":"DOCU","positionStatus":"Open","price":76.7093},
+{"ticker":"DPZ","positionStatus":"Open","price":415.5806},
 {"ticker":"DUOL","positionStatus":"Open","price":293.621},
 {"ticker":"DXCM","positionStatus":"Closed","price":84.486},
 {"ticker":"EA","positionStatus":"Closed","price":143.56},
