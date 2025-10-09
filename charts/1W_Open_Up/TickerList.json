@@ -29,7 +29,7 @@
 {"EMAs":"X X X X X X","ticker":"EL","dayChange":3.32,"rsi_14":65.1,"weekRange":96.58},
 {"EMAs":"X X X X X X","ticker":"ELF","dayChange":3.18,"rsi_14":64.2,"weekRange":94.17},
 {"EMAs":"X X X X X O","ticker":"LLY","dayChange":0.25,"rsi_14":72.1,"weekRange":70.86},
-{"EMAs":"X X X X X X","ticker":"DUOL","dayChange":8.57,"rsi_14":62.9,"weekRange":31.49},
+{"EMAs":"X X X X X X","ticker":"DUOL","dayChange":8.53,"rsi_14":62.8,"weekRange":31.44},
 {"EMAs":"X X X X X X","ticker":"PYPL","dayChange":2.04,"rsi_14":70.7,"weekRange":53.64},
 {"EMAs":"X X X X X X","ticker":"TSM","dayChange":3.57,"rsi_14":73.9,"weekRange":98.39},
 {"EMAs":"X X X X X X","ticker":"CRWV","dayChange":8.65,"rsi_14":62.4,"weekRange":69.37},
@@ -38,7 +38,7 @@
 {"EMAs":"X X X X O O","ticker":"IONQ","dayChange":-6.22,"rsi_14":64.8,"weekRange":88.26},
 {"EMAs":"X X X X X X","ticker":"MRVL","dayChange":6.36,"rsi_14":75.5,"weekRange":56.49},
 {"EMAs":"X X X X X O","ticker":"SOUN","dayChange":3.74,"rsi_14":69.8,"weekRange":70.13},
-{"EMAs":"X X X X X X","ticker":"MU","dayChange":5.86,"rsi_14":78.1,"weekRange":96.83},
+{"EMAs":"X X X X X X","ticker":"MU","dayChange":5.84,"rsi_14":78.1,"weekRange":96.8},
 {"EMAs":"X X X X X X","ticker":"DELL","dayChange":9.05,"rsi_14":75.4,"weekRange":98.43},
 {"EMAs":"X X X X X X","ticker":"AMD","dayChange":11.37,"rsi_14":86.0,"weekRange":99.81}
 ]
