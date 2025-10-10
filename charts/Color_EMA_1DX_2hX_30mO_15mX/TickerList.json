@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X O O X","ticker":"MRK","dayChange":1.12,"rsi_14":59.2,"weekRange":36.73}
+{"EMAs":"X X X X O X","ticker":"KYMR","dayChange":1.3,"rsi_14":65.3,"weekRange":94.99},
+{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":-0.71,"rsi_14":63.8,"weekRange":82.91},
+{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.02,"rsi_14":75.8,"weekRange":95.82},
+{"EMAs":"X X X O O X","ticker":"POWL","dayChange":-1.86,"rsi_14":59.0,"weekRange":74.68},
+{"EMAs":"X X X O O X","ticker":"MRK","dayChange":1.27,"rsi_14":59.5,"weekRange":37.08}
 ]
