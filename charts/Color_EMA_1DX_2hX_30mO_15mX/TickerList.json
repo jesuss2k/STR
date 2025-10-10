@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.0,"rsi_14":75.8,"weekRange":95.82}
+{"EMAs":"X X X O O X","ticker":"CB","dayChange":0.06,"rsi_14":58.7,"weekRange":59.07},
+{"EMAs":"X X X O O X","ticker":"MIRM","dayChange":0.2,"rsi_14":56.3,"weekRange":89.02}
 ]
