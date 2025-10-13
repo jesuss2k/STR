@@ -73,6 +73,7 @@
 {"ticker":"DASH","positionStatus":"Closed","price":126.02},
 {"ticker":"DDOG","positionStatus":"Closed","price":124.8193},
 {"ticker":"DECK","positionStatus":"Closed","price":98.01},
+{"ticker":"DECK","positionStatus":"Open","price":95.84},
 {"ticker":"DELL","positionStatus":"Closed","price":113.341},
 {"ticker":"DELL","positionStatus":"Open","price":119.7647},
 {"ticker":"DELL","positionStatus":"Open","price":120.8181},
