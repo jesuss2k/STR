@@ -1,9 +1,7 @@
 [
-{"EMAs":"X X X O O X","ticker":"IBKR","dayChange":1.78,"rsi_14":59.6,"weekRange":92.31},
-{"EMAs":"X X X O O X","ticker":"NVDA","dayChange":3.35,"rsi_14":58.4,"weekRange":94.19},
-{"EMAs":"X X X O O X","ticker":"SMCI","dayChange":4.84,"rsi_14":63.4,"weekRange":77.6},
-{"EMAs":"X X X X O X","ticker":"SNOW","dayChange":1.75,"rsi_14":61.2,"weekRange":93.69},
-{"EMAs":"X X X O O X","ticker":"HPE","dayChange":3.84,"rsi_14":57.3,"weekRange":92.38},
-{"EMAs":"X X X X O X","ticker":"LABU","dayChange":2.2,"rsi_14":72.3,"weekRange":64.04},
-{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":5.03,"rsi_14":61.2,"weekRange":95.26}
+{"EMAs":"X X X O O X","ticker":"IBKR","dayChange":1.96,"rsi_14":59.9,"weekRange":92.62},
+{"EMAs":"X X X O O X","ticker":"SMCI","dayChange":4.39,"rsi_14":63.0,"weekRange":77.11},
+{"EMAs":"X X X O O X","ticker":"HPE","dayChange":3.05,"rsi_14":56.0,"weekRange":91.05},
+{"EMAs":"X X X X O X","ticker":"LABU","dayChange":1.2,"rsi_14":71.6,"weekRange":63.15},
+{"EMAs":"X X X O O X","ticker":"SOXX","dayChange":4.79,"rsi_14":60.8,"weekRange":94.81}
 ]
