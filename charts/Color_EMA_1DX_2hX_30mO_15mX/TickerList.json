@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"IBKR","dayChange":0.18,"rsi_14":60.6,"weekRange":93.33}
+{"EMAs":"X X X X O X","ticker":"NFLX","dayChange":0.23,"rsi_14":54.5,"weekRange":82.01},
+{"EMAs":"X X X X O X","ticker":"LABU","dayChange":1.82,"rsi_14":72.8,"weekRange":64.46},
+{"EMAs":"X X X O O X","ticker":"SMCI","dayChange":0.05,"rsi_14":62.3,"weekRange":76.3},
+{"EMAs":"X X X O O X","ticker":"EME","dayChange":-0.06,"rsi_14":60.3,"weekRange":94.35}
 ]
