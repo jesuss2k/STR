@@ -12,7 +12,7 @@
 {"EMAs":"O X X X X X","ticker":"CRM","dayChange":2.93,"rsi_14":54.7,"weekRange":15.63},
 {"EMAs":"O O X X X X","ticker":"HPQ","dayChange":7.05,"rsi_14":51.8,"weekRange":33.04},
 {"EMAs":"X X O O O O","ticker":"LMT","dayChange":-0.24,"rsi_14":66.4,"weekRange":44.88},
-{"EMAs":"X X X O O O","ticker":"LLY","dayChange":-1.69,"rsi_14":59.6,"weekRange":62.45},
+{"EMAs":"X X X O O O","ticker":"LLY","dayChange":-1.69,"rsi_14":59.6,"weekRange":62.73},
 {"EMAs":"X X X O O X","ticker":"DUOL","dayChange":1.54,"rsi_14":54.9,"weekRange":25.45},
 {"EMAs":"X X O O O O","ticker":"UNH","dayChange":1.17,"rsi_14":60.7,"weekRange":31.32},
 {"EMAs":"X X X X X X","ticker":"VST","dayChange":6.45,"rsi_14":55.3,"weekRange":92.06},

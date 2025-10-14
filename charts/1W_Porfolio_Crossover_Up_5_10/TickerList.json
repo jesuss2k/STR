@@ -45,10 +45,10 @@
 {"Date":"25-07-29","ticker":"AEO","dayChange":6.85,"rsi_14":42.0,"weekRange":48.3},
 {"Date":"25-07-24","ticker":"TREE","dayChange":-3.92,"rsi_14":24.7,"weekRange":48.31},
 {"Date":"25-07-22","ticker":"GPN","dayChange":1.65,"rsi_14":45.4,"weekRange":33.83},
-{"Date":"25-07-22","ticker":"PDD","dayChange":2.64,"rsi_14":46.9,"weekRange":73.15},
+{"Date":"25-07-22","ticker":"PDD","dayChange":2.64,"rsi_14":46.9,"weekRange":81.32},
 {"Date":"25-07-03","ticker":"LABU","dayChange":0.83,"rsi_14":71.3,"weekRange":62.82},
 {"Date":"25-07-02","ticker":"DKS","dayChange":8.57,"rsi_14":53.8,"weekRange":71.79},
-{"Date":"25-06-18","ticker":"RDDT","dayChange":2.58,"rsi_14":40.6,"weekRange":62.28},
+{"Date":"25-06-18","ticker":"RDDT","dayChange":2.58,"rsi_14":40.6,"weekRange":62.14},
 {"Date":"25-06-17","ticker":"HES","dayChange":0.96,"rsi_14":0,"weekRange":65.95},
 {"Date":"25-06-16","ticker":"BP","dayChange":0.63,"rsi_14":43.3,"weekRange":79.54},
 {"Date":"25-06-12","ticker":"POWL","dayChange":4.96,"rsi_14":60.4,"weekRange":77.63},
@@ -117,11 +117,11 @@
 {"Date":"25-05-01","ticker":"DASH","dayChange":2.82,"rsi_14":56.1,"weekRange":91.84},
 {"Date":"25-04-30","ticker":"HOOD","dayChange":1.24,"rsi_14":58.6,"weekRange":89.93},
 {"Date":"25-04-30","ticker":"F","dayChange":1.14,"rsi_14":44.3,"weekRange":71.1},
-{"Date":"25-04-29","ticker":"IBIT","dayChange":-0.59,"rsi_14":48.4,"weekRange":82.83},
+{"Date":"25-04-29","ticker":"IBIT","dayChange":-0.59,"rsi_14":48.4,"weekRange":82.8},
 {"Date":"25-04-29","ticker":"EBAY","dayChange":0.91,"rsi_14":45.3,"weekRange":73.69},
 {"Date":"25-04-29","ticker":"ULTA","dayChange":-1.16,"rsi_14":50.6,"weekRange":88.87},
 {"Date":"25-04-28","ticker":"ROAD","dayChange":0.84,"rsi_14":49.8,"weekRange":79.91},
-{"Date":"25-04-25","ticker":"WMT","dayChange":0.27,"rsi_14":50.7,"weekRange":84.86},
+{"Date":"25-04-25","ticker":"WMT","dayChange":0.27,"rsi_14":50.7,"weekRange":84.83},
 {"Date":"25-04-15","ticker":"PLTR","dayChange":1.01,"rsi_14":51.4,"weekRange":91.45},
 {"Date":"25-04-11","ticker":"FAST","dayChange":-7.54,"rsi_14":22.2,"weekRange":45.84},
 {"Date":"25-03-21","ticker":"EA","dayChange":0.13,"rsi_14":75.9,"weekRange":96.09},
@@ -130,5 +130,5 @@
 {"Date":"25-01-31","ticker":"GDX","dayChange":4.74,"rsi_14":68.3,"weekRange":99.74},
 {"Date":"25-01-24","ticker":"TD","dayChange":0.7,"rsi_14":52.1,"weekRange":89.59},
 {"Date":"24-11-20","ticker":"NMHI","dayChange":-8.33,"rsi_14":0,"weekRange":1.58},
-{"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":59.35}
+{"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":59.31}
 ]

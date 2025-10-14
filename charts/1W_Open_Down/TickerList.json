@@ -38,9 +38,9 @@
 {"EMAs":"O O O O O X","ticker":"AMZN","dayChange":1.71,"rsi_14":45.2,"weekRange":72.33},
 {"EMAs":"X O O O O X","ticker":"AR","dayChange":2.59,"rsi_14":45.5,"weekRange":37.83},
 {"EMAs":"X O O O O O","ticker":"OMC","dayChange":0.01,"rsi_14":46.9,"weekRange":21.07},
-{"EMAs":"X X O O O O","ticker":"V","dayChange":-0.1,"rsi_14":47.9,"weekRange":66.97},
+{"EMAs":"X X O O O O","ticker":"V","dayChange":-0.1,"rsi_14":47.9,"weekRange":66.85},
 {"EMAs":"X X O O O O","ticker":"PYPL","dayChange":-1.4,"rsi_14":47.5,"weekRange":34.41},
-{"EMAs":"X X O O O O","ticker":"NVO","dayChange":1.0,"rsi_14":49.1,"weekRange":16.51},
+{"EMAs":"X X O O O O","ticker":"NVO","dayChange":1.0,"rsi_14":49.1,"weekRange":16.82},
 {"EMAs":"X O O O X X","ticker":"QCOM","dayChange":5.33,"rsi_14":46.9,"weekRange":66.85},
 {"EMAs":"O X O O O X","ticker":"ACN","dayChange":1.09,"rsi_14":46.6,"weekRange":8.38}
 ]
