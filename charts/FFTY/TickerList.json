@@ -28,7 +28,7 @@
 {"ticker":"EXLS","dayChange":-0.19,"rsi_14":0,"weekRange":56.72},
 {"ticker":"FUTU","dayChange":-2.54,"rsi_14":0,"weekRange":57.34},
 {"ticker":"CVLT","dayChange":-0.43,"rsi_14":0,"weekRange":51.16},
-{"ticker":"IBKR","dayChange":2.04,"rsi_14":60.0,"weekRange":92.77},
+{"ticker":"IBKR","dayChange":2.19,"rsi_14":60.2,"weekRange":93.02},
 {"ticker":"SOFI","dayChange":3.63,"rsi_14":52.0,"weekRange":85.44},
 {"ticker":"GH","dayChange":3.09,"rsi_14":0,"weekRange":84.42},
 {"ticker":"IOT","dayChange":1.9,"rsi_14":47.2,"weekRange":20.2},
