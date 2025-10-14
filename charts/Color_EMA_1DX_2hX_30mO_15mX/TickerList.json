@@ -1,5 +1,3 @@
 [
-{"EMAs":"X X X X O X","ticker":"DDOG","dayChange":-1.25,"rsi_14":65.9,"weekRange":91.02},
-{"EMAs":"X X X X O X","ticker":"ASPN","dayChange":-1.83,"rsi_14":60.8,"weekRange":18.23},
-{"EMAs":"X X X X O X","ticker":"PATH","dayChange":-1.87,"rsi_14":68.7,"weekRange":79.47}
+{"EMAs":"X X X O O X","ticker":"EME","dayChange":-0.43,"rsi_14":59.2,"weekRange":93.7}
 ]
