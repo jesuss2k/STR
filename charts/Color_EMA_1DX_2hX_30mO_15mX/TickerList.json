@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"SNOW","dayChange":2.11,"rsi_14":61.6,"weekRange":94.29},
-{"EMAs":"X X X O O X","ticker":"RXRX","dayChange":3.95,"rsi_14":55.6,"weekRange":20.3},
-{"EMAs":"X X X O O X","ticker":"IBKR","dayChange":2.19,"rsi_14":60.2,"weekRange":93.02},
-{"EMAs":"X X X X O X","ticker":"LABU","dayChange":0.83,"rsi_14":71.3,"weekRange":62.82}
+{"EMAs":"X X X X O X","ticker":"CELH","dayChange":1.01,"rsi_14":61.0,"weekRange":93.02},
+{"EMAs":"X X X X O X","ticker":"MMC","dayChange":0.5,"rsi_14":60.5,"weekRange":21.48}
 ]
