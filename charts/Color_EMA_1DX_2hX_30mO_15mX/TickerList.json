@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"SNOW","dayChange":0.86,"rsi_14":57.6,"weekRange":91.21}
+{"EMAs":"X X X X O X","ticker":"INSM","dayChange":1.46,"rsi_14":71.0,"weekRange":97.44},
+{"EMAs":"X X X O O X","ticker":"SNOW","dayChange":0.8,"rsi_14":57.5,"weekRange":91.12}
 ]
