@@ -2,7 +2,7 @@
 {"EMAs":"O O O O O O","ticker":"META","dayChange":-0.99,"rsi_14":39.9,"weekRange":72.32},
 {"EMAs":"X O O O O O","ticker":"JPM","dayChange":-1.91,"rsi_14":44.2,"weekRange":86.25},
 {"EMAs":"X O X X X X","ticker":"GOOG","dayChange":0.63,"rsi_14":57.3,"weekRange":90.78},
-{"EMAs":"X X O O O O","ticker":"NVDA","dayChange":-4.41,"rsi_14":47.7,"weekRange":85.68},
+{"EMAs":"X X O O O O","ticker":"NVDA","dayChange":-4.4,"rsi_14":47.8,"weekRange":85.7},
 {"EMAs":"X X X X X O","ticker":"AVGO","dayChange":-3.52,"rsi_14":54.2,"weekRange":87.25},
 {"EMAs":"O O O O O X","ticker":"MELI","dayChange":-0.83,"rsi_14":39.4,"weekRange":51.22},
 {"EMAs":"O O O O X X","ticker":"T","dayChange":2.11,"rsi_14":33.2,"weekRange":58.12},

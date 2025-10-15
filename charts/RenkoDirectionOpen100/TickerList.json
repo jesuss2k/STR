@@ -18,7 +18,7 @@
 {"EMAs":"O O O X X X","Group":"O","ticker":"MNDY","dayChange":1.09,"rsi_14":45.4,"weekRange":12.16},
 {"EMAs":"O O O O X X","Group":"O","ticker":"GDDY","dayChange":-0.11,"rsi_14":35.5,"weekRange":2.64},
 {"EMAs":"O O O O O O","Group":"O","ticker":"DOCU","dayChange":-1.57,"rsi_14":36.4,"weekRange":4.84},
-{"EMAs":"O O O O O O","Group":"O","ticker":"AMZN","dayChange":-1.66,"rsi_14":41.5,"weekRange":67.82},
+{"EMAs":"O O O O O O","Group":"O","ticker":"AMZN","dayChange":-1.67,"rsi_14":41.5,"weekRange":67.8},
 {"EMAs":"O X X X X X","Group":"O","ticker":"AAL","dayChange":3.83,"rsi_14":54.3,"weekRange":34.81},
 {"EMAs":"O O O X X X","Group":"O","ticker":"INTU","dayChange":0.23,"rsi_14":41.0,"weekRange":44.3},
 {"EMAs":"X O O O O O","Group":"O","ticker":"NVO","dayChange":-1.46,"rsi_14":46.0,"weekRange":15.68},

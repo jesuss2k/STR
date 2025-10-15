@@ -19,7 +19,7 @@
 {"EMAs":"O O O O O X","ticker":"PG","dayChange":1.13,"rsi_14":37.7,"weekRange":6.56},
 {"EMAs":"O O O X X X","ticker":"TMUS","dayChange":1.94,"rsi_14":41.1,"weekRange":30.88},
 {"EMAs":"O O O X X X","ticker":"SBUX","dayChange":1.4,"rsi_14":42.4,"weekRange":13.47},
-{"EMAs":"O O O O O O","ticker":"AMZN","dayChange":-1.66,"rsi_14":41.5,"weekRange":67.82},
+{"EMAs":"O O O O O O","ticker":"AMZN","dayChange":-1.67,"rsi_14":41.5,"weekRange":67.8},
 {"EMAs":"O O O O X X","ticker":"PCAR","dayChange":2.02,"rsi_14":43.1,"weekRange":30.63},
 {"EMAs":"X O O O X X","ticker":"APP","dayChange":-0.01,"rsi_14":47.6,"weekRange":74.34},
 {"EMAs":"O O O X X X","ticker":"INTU","dayChange":0.23,"rsi_14":41.0,"weekRange":44.3},

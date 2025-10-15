@@ -37,6 +37,6 @@
 {"EMAs":"X O O O O O","Group":"50:100","ticker":"UBER","dayChange":0.18,"rsi_14":45.2,"weekRange":81.86},
 {"EMAs":"O O O X X X","Group":"50:100","ticker":"WSM","dayChange":0.79,"rsi_14":46.9,"weekRange":69.91},
 {"EMAs":"O O O X X X","Group":"50:100","ticker":"RCL","dayChange":2.49,"rsi_14":42.9,"weekRange":74.0},
-{"EMAs":"O O O O O O","Group":"100:200","ticker":"AMZN","dayChange":-1.66,"rsi_14":41.5,"weekRange":67.82},
-{"EMAs":"O O O O O O","Group":"200","ticker":"AMZN","dayChange":-1.66,"rsi_14":41.5,"weekRange":67.82}
+{"EMAs":"O O O O O O","Group":"100:200","ticker":"AMZN","dayChange":-1.67,"rsi_14":41.5,"weekRange":67.8},
+{"EMAs":"O O O O O O","Group":"200","ticker":"AMZN","dayChange":-1.67,"rsi_14":41.5,"weekRange":67.8}
 ]
