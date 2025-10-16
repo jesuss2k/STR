@@ -72,10 +72,10 @@
 {"$ Prft":142.0,"% Pfrt":16.2,"EMAs":"X X X X X X","ticker":"DUOL","dayChange":2.55,"rsi_14":58.8,"weekRange":29.29},
 {"$ Prft":28.0,"% Pfrt":3.6,"EMAs":"X X X X X X","ticker":"OMC","dayChange":0.97,"rsi_14":55.7,"weekRange":28.32},
 {"$ Prft":199.0,"% Pfrt":27.6,"EMAs":"X X X X X X","ticker":"DELL","dayChange":3.31,"rsi_14":59.9,"weekRange":87.58},
-{"$ Prft":522.0,"% Pfrt":77.9,"EMAs":"X X X X X X","ticker":"ATXS","dayChange":2.58,"rsi_14":84.7,"weekRange":93.25},
+{"$ Prft":523.0,"% Pfrt":78.0,"EMAs":"X X X X X X","ticker":"ATXS","dayChange":2.67,"rsi_14":84.7,"weekRange":93.36},
 {"$ Prft":508.0,"% Pfrt":33.6,"EMAs":"X X X X X X","ticker":"ASML","dayChange":2.71,"rsi_14":64.2,"weekRange":89.76},
 {"$ Prft":532.0,"% Pfrt":46.8,"EMAs":"X X X X X X","ticker":"AMD","dayChange":9.4,"rsi_14":75.6,"weekRange":99.08},
-{"$ Prft":1012.0,"% Pfrt":65.1,"EMAs":"X X X X X X","ticker":"SOUN","dayChange":2.5,"rsi_14":72.4,"weekRange":82.11},
+{"$ Prft":1014.0,"% Pfrt":65.3,"EMAs":"X X X X X X","ticker":"SOUN","dayChange":2.59,"rsi_14":72.5,"weekRange":82.21},
 {"$ Prft":212.0,"% Pfrt":53.5,"EMAs":"X X X X X X","ticker":"TSM","dayChange":2.96,"rsi_14":62.8,"weekRange":98.5},
 {"$ Prft":376.0,"% Pfrt":42.3,"EMAs":"X X X X X X","ticker":"VST","dayChange":2.6,"rsi_14":55.8,"weekRange":93.06}
 ]
