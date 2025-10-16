@@ -1,3 +1,4 @@
 [
-{"EMAs":"O X X O O X","ticker":"SDOW","dayChange":-0.19,"rsi_14":45.4,"weekRange":4.08}
+{"EMAs":"O X X O O X","ticker":"SDS","dayChange":0.45,"rsi_14":46.5,"weekRange":3.0},
+{"EMAs":"O O X O O X","ticker":"SPXU","dayChange":0.57,"rsi_14":46.1,"weekRange":2.22}
 ]
