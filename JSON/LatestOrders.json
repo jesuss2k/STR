@@ -28,6 +28,7 @@
 {"ticker":"AMSC","positionStatus":"Closed","price":33.3194},
 {"ticker":"AMZN","positionStatus":"Closed","price":190.45},
 {"ticker":"AMZN","positionStatus":"Open","price":186.5955},
+{"ticker":"AMZN","positionStatus":"Open","price":214.7798},
 {"ticker":"AMZN","positionStatus":"Open","price":222.6394},
 {"ticker":"AMZN","positionStatus":"Open","price":223.69},
 {"ticker":"ANF","positionStatus":"Open","price":183.8032},
