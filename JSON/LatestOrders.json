@@ -123,6 +123,7 @@
 {"ticker":"HOOD","positionStatus":"Closed","price":21.36},
 {"ticker":"HPQ","positionStatus":"Closed","price":35.3939},
 {"ticker":"HPQ","positionStatus":"Open","price":25.669},
+{"ticker":"IBIT","positionStatus":"Open","price":62.4799},
 {"ticker":"IBIT","positionStatus":"Open","price":64.04},
 {"ticker":"IBKR","positionStatus":"Closed","price":60.23},
 {"ticker":"IBM","positionStatus":"Open","price":246.7},
