@@ -71,6 +71,7 @@
 {"ticker":"CRWV","positionStatus":"Open","price":97.74},
 {"ticker":"CTLP","positionStatus":"Closed","price":7.79},
 {"ticker":"DAKT","positionStatus":"Closed","price":11.74},
+{"ticker":"DAKT","positionStatus":"Open","price":19.725},
 {"ticker":"DAL","positionStatus":"Closed","price":46.995},
 {"ticker":"DASH","positionStatus":"Closed","price":126.02},
 {"ticker":"DDOG","positionStatus":"Closed","price":124.8193},
