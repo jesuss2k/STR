@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"BURL","dayChange":0.23,"rsi_14":55.0,"weekRange":64.65},
-{"EMAs":"X X X X O X","ticker":"INSM","dayChange":0.8,"rsi_14":71.3,"weekRange":98.16},
-{"EMAs":"X X X X O X","ticker":"TTWO","dayChange":0.59,"rsi_14":60.9,"weekRange":96.37},
-{"EMAs":"X X X X O X","ticker":"BAC","dayChange":1.49,"rsi_14":54.1,"weekRange":91.47}
+{"EMAs":"X X X X O X","ticker":"NRG","dayChange":-0.16,"rsi_14":56.5,"weekRange":93.46},
+{"EMAs":"X X X X O X","ticker":"BAC","dayChange":1.75,"rsi_14":54.8,"weekRange":92.15}
 ]
