@@ -4,7 +4,7 @@
 {"ticker":"MSFT","dayChange":-0.35,"rsi_14":47.2,"weekRange":79.19},
 {"ticker":"AMZN","dayChange":-0.51,"rsi_14":39.5,"weekRange":65.43},
 {"ticker":"META","dayChange":-0.76,"rsi_14":42.0,"weekRange":73.4},
-{"ticker":"GOOGL","dayChange":0.14,"rsi_14":63.1,"weekRange":95.21},
+{"ticker":"GOOGL","dayChange":0.17,"rsi_14":63.1,"weekRange":95.28},
 {"ticker":"GOOG","dayChange":0.07,"rsi_14":63.0,"weekRange":95.04},
 {"ticker":"TSLA","dayChange":-1.47,"rsi_14":53.6,"weekRange":78.37},
 {"ticker":"BRK.B","dayChange":-1.29,"rsi_14":0,"weekRange":90.62},

@@ -1,9 +1,9 @@
 [
-{"EMAs":"O O O O O O","ticker":"ALAB","dayChange":1.32,"rsi_14":35.5,"weekRange":53.98},
+{"EMAs":"O O O O O O","ticker":"ALAB","dayChange":1.29,"rsi_14":35.5,"weekRange":53.96},
 {"EMAs":"O O O O O O","ticker":"ANF","dayChange":-2.87,"rsi_14":21.9,"weekRange":3.59},
 {"EMAs":"O O O O O O","ticker":"ROOT","dayChange":-5.16,"rsi_14":31.9,"weekRange":26.7},
 {"EMAs":"O O O O O O","ticker":"DOCU","dayChange":-1.16,"rsi_14":34.4,"weekRange":1.85},
-{"EMAs":"O O O O O O","ticker":"MNDY","dayChange":-2.25,"rsi_14":38.7,"weekRange":6.02},
+{"EMAs":"O O O O O O","ticker":"MNDY","dayChange":-2.19,"rsi_14":38.8,"weekRange":6.08},
 {"EMAs":"O O O O O O","ticker":"SNPS","dayChange":0.99,"rsi_14":38.3,"weekRange":26.04},
 {"EMAs":"O O O O O O","ticker":"ALK","dayChange":-2.17,"rsi_14":33.0,"weekRange":20.87},
 {"EMAs":"O O O O O O","ticker":"AJG","dayChange":-5.4,"rsi_14":30.2,"weekRange":6.09},
