@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"NRG","dayChange":-0.16,"rsi_14":56.5,"weekRange":93.46},
-{"EMAs":"X X X X O X","ticker":"BAC","dayChange":1.75,"rsi_14":54.8,"weekRange":92.15}
+{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.17,"rsi_14":75.3,"weekRange":96.56},
+{"EMAs":"X X X O O X","ticker":"PSTG","dayChange":0.5,"rsi_14":63.8,"weekRange":95.45},
+{"EMAs":"X X X X O X","ticker":"BURL","dayChange":0.2,"rsi_14":55.0,"weekRange":64.55}
 ]
