@@ -1,7 +1,9 @@
 [
-{"EMAs":"X X X O O X","ticker":"KYMR","dayChange":0.18,"rsi_14":62.7,"weekRange":90.97},
-{"EMAs":"X X X O O X","ticker":"ARM","dayChange":4.09,"rsi_14":62.2,"weekRange":89.8},
-{"EMAs":"X X X X O X","ticker":"AVGO","dayChange":1.27,"rsi_14":57.6,"weekRange":91.33},
-{"EMAs":"X X X X O X","ticker":"DAL","dayChange":1.46,"rsi_14":55.8,"weekRange":73.13},
-{"EMAs":"X X X O O X","ticker":"PSTG","dayChange":1.37,"rsi_14":65.0,"weekRange":96.64}
+{"EMAs":"X X X O O X","ticker":"GDX","dayChange":2.01,"rsi_14":59.2,"weekRange":90.76},
+{"EMAs":"X X X O O X","ticker":"NUGT","dayChange":4.48,"rsi_14":57.5,"weekRange":85.88},
+{"EMAs":"X X X O O X","ticker":"KYMR","dayChange":-0.44,"rsi_14":62.7,"weekRange":90.13},
+{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":2.99,"rsi_14":57.4,"weekRange":82.49},
+{"EMAs":"X X X O O X","ticker":"ARM","dayChange":3.57,"rsi_14":62.2,"weekRange":88.97},
+{"EMAs":"X X X O O X","ticker":"NNOX","dayChange":5.01,"rsi_14":53.4,"weekRange":7.97},
+{"EMAs":"X X X O O X","ticker":"PSTG","dayChange":1.03,"rsi_14":65.0,"weekRange":96.14}
 ]
