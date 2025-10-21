@@ -1,6 +1,6 @@
 [
 {"EMAs":"O O O O X X","ticker":"JPM","dayChange":1.61,"rsi_14":46.8,"weekRange":86.49},
-{"EMAs":"O O X X X X","ticker":"META","dayChange":2.14,"rsi_14":50.7,"weekRange":79.79},
+{"EMAs":"O O X X X X","ticker":"META","dayChange":2.13,"rsi_14":50.7,"weekRange":79.75},
 {"EMAs":"X O O O X O","ticker":"NVDA","dayChange":-0.32,"rsi_14":50.8,"weekRange":88.09},
 {"EMAs":"X X X X O O","ticker":"AVGO","dayChange":-0.03,"rsi_14":55.5,"weekRange":89.42},
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":1.27,"rsi_14":67.7,"weekRange":99.25},

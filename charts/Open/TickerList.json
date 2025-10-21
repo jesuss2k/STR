@@ -60,7 +60,7 @@
 {"$ Prft":6.0,"% Pfrt":1.1,"EMAs":"X O X X X X","ticker":"MSFT","dayChange":0.63,"rsi_14":52.7,"weekRange":81.65},
 {"$ Prft":221.0,"% Pfrt":14.9,"EMAs":"X O X X X X","ticker":"IBM","dayChange":0.84,"rsi_14":58.3,"weekRange":82.17},
 {"$ Prft":45.0,"% Pfrt":10.4,"EMAs":"X O X X X X","ticker":"WDAY","dayChange":2.97,"rsi_14":55.9,"weekRange":40.45},
-{"$ Prft":120.0,"% Pfrt":13.2,"EMAs":"X X O O O O","ticker":"MRVL","dayChange":-2.42,"rsi_14":54.9,"weekRange":48.18},
+{"$ Prft":120.0,"% Pfrt":13.2,"EMAs":"X X O O O O","ticker":"MRVL","dayChange":-2.4,"rsi_14":54.9,"weekRange":48.21},
 {"$ Prft":57.0,"% Pfrt":6.5,"EMAs":"X X O O O O","ticker":"DUOL","dayChange":-3.48,"rsi_14":46.7,"weekRange":19.46},
 {"$ Prft":164.0,"% Pfrt":22.7,"EMAs":"X X O O O O","ticker":"DELL","dayChange":-1.15,"rsi_14":54.0,"weekRange":81.74},
 {"$ Prft":733.0,"% Pfrt":47.2,"EMAs":"X X O O O O","ticker":"SOUN","dayChange":0.21,"rsi_14":57.3,"weekRange":70.58},

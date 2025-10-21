@@ -66,7 +66,7 @@
 {"EMAs":"X O O O O O","Group":"X","ticker":"CRWV","dayChange":-7.17,"rsi_14":47.8,"weekRange":60.95},
 {"EMAs":"X X O O O O","Group":"X","ticker":"DELL","dayChange":-1.15,"rsi_14":54.0,"weekRange":81.74},
 {"EMAs":"X X X X X X","Group":"X","ticker":"MARA","dayChange":5.93,"rsi_14":57.2,"weekRange":53.35},
-{"EMAs":"X X O O O O","Group":"X","ticker":"MRVL","dayChange":-2.42,"rsi_14":54.9,"weekRange":48.18},
+{"EMAs":"X X O O O O","Group":"X","ticker":"MRVL","dayChange":-2.4,"rsi_14":54.9,"weekRange":48.21},
 {"EMAs":"X X X X X X","Group":"X","ticker":"PANW","dayChange":1.89,"rsi_14":58.2,"weekRange":91.71},
 {"EMAs":"X X O O O O","Group":"X","ticker":"SOUN","dayChange":0.21,"rsi_14":57.3,"weekRange":70.58},
 {"EMAs":"X X X X X X","Group":"X","ticker":"TSLA","dayChange":1.85,"rsi_14":59.0,"weekRange":85.13},

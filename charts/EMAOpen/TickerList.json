@@ -24,7 +24,7 @@
 {"EMAs":"O X O O O X","Group":"3:6","ticker":"COST","dayChange":-0.02,"rsi_14":49.5,"weekRange":32.61},
 {"EMAs":"X X O O O O","Group":"6:12","ticker":"SOUN","dayChange":0.21,"rsi_14":57.3,"weekRange":70.58},
 {"EMAs":"O X X X X O","Group":"6:12","ticker":"CROX","dayChange":-0.8,"rsi_14":49.9,"weekRange":12.96},
-{"EMAs":"X X O O O O","Group":"12:25 ","ticker":"MRVL","dayChange":-2.42,"rsi_14":54.9,"weekRange":48.18},
+{"EMAs":"X X O O O O","Group":"12:25 ","ticker":"MRVL","dayChange":-2.4,"rsi_14":54.9,"weekRange":48.21},
 {"EMAs":"X X O O O O","Group":"12:25 ","ticker":"DELL","dayChange":-1.15,"rsi_14":54.0,"weekRange":81.74},
 {"EMAs":"X O O O O X","Group":"12:25 ","ticker":"LLY","dayChange":0.76,"rsi_14":54.3,"weekRange":59.38},
 {"EMAs":"X O O O O O","Group":"25:50","ticker":"CRWV","dayChange":-7.17,"rsi_14":47.8,"weekRange":60.95},

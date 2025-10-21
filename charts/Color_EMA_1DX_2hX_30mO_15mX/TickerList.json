@@ -1,6 +1,6 @@
 [
 {"EMAs":"X X X O O X","ticker":"CMG","dayChange":-0.55,"rsi_14":54.6,"weekRange":11.71},
-{"EMAs":"X X X X O X","ticker":"NVDD","dayChange":0.4,"rsi_14":68.9,"weekRange":90.33},
+{"EMAs":"X X X X O X","ticker":"NVDD","dayChange":0.34,"rsi_14":68.8,"weekRange":90.27},
 {"EMAs":"X X X X O X","ticker":"CAT","dayChange":0.78,"rsi_14":70.7,"weekRange":95.03},
 {"EMAs":"X X X X O X","ticker":"EA","dayChange":0.14,"rsi_14":75.0,"weekRange":96.43},
 {"EMAs":"X X X O O X","ticker":"GDX","dayChange":2.07,"rsi_14":60.5,"weekRange":90.85},

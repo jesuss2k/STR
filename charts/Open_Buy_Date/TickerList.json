@@ -44,7 +44,7 @@
 {"$ Prft":20.0,"% Pfrt":3.3,"EMAs":"O X X X X X","ticker":"AAL","dayChange":2.61,"rsi_14":52.9,"weekRange":34.62},
 {"$ Prft":5.0,"% Pfrt":1.8,"EMAs":"O O O O X X","ticker":"NVO","dayChange":2.52,"rsi_14":44.4,"weekRange":14.66},
 {"$ Prft":108.0,"% Pfrt":9.3,"EMAs":"X O O X X X","ticker":"FTNT","dayChange":1.7,"rsi_14":53.4,"weekRange":32.98},
-{"$ Prft":120.0,"% Pfrt":13.2,"EMAs":"X X O O O O","ticker":"MRVL","dayChange":-2.42,"rsi_14":54.9,"weekRange":48.18},
+{"$ Prft":120.0,"% Pfrt":13.2,"EMAs":"X X O O O O","ticker":"MRVL","dayChange":-2.4,"rsi_14":54.9,"weekRange":48.21},
 {"$ Prft":21.0,"% Pfrt":4.4,"EMAs":"O O O O O X","ticker":"ACIW","dayChange":0.53,"rsi_14":39.4,"weekRange":44.44},
 {"$ Prft":546.0,"% Pfrt":81.5,"EMAs":"X X X X X X","ticker":"ATXS","dayChange":1.42,"rsi_14":84.0,"weekRange":95.93},
 {"$ Prft":16.0,"% Pfrt":2.1,"EMAs":"X O O X X X","ticker":"OMC","dayChange":0.86,"rsi_14":51.9,"weekRange":25.42},

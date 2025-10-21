@@ -38,7 +38,7 @@
 {"EMAs":"X X X X X O","Group":"O","ticker":"HPQ","dayChange":1.06,"rsi_14":52.3,"weekRange":34.71},
 {"EMAs":"X X X X X X","Group":"O","ticker":"MARA","dayChange":5.93,"rsi_14":57.2,"weekRange":53.35},
 {"EMAs":"O O O X X X","Group":"O","ticker":"MNDY","dayChange":2.45,"rsi_14":46.5,"weekRange":11.22},
-{"EMAs":"X X O O O O","Group":"O","ticker":"MRVL","dayChange":-2.42,"rsi_14":54.9,"weekRange":48.18},
+{"EMAs":"X X O O O O","Group":"O","ticker":"MRVL","dayChange":-2.4,"rsi_14":54.9,"weekRange":48.21},
 {"EMAs":"X O O O O O","Group":"O","ticker":"CRWV","dayChange":-7.17,"rsi_14":47.8,"weekRange":60.95},
 {"EMAs":"X X O O O O","Group":"O","ticker":"SOUN","dayChange":0.21,"rsi_14":57.3,"weekRange":70.58},
 {"EMAs":"X X X X X X","Group":"O","ticker":"UNH","dayChange":2.21,"rsi_14":63.1,"weekRange":32.79},
