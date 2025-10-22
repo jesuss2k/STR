@@ -25,6 +25,7 @@
 {"EMAs":"X X X X X X","ticker":"CROX","dayChange":2.05,"rsi_14":53.4,"weekRange":15.51},
 {"EMAs":"O X X X X X","ticker":"CAVA","dayChange":5.11,"rsi_14":53.7,"weekRange":6.26},
 {"EMAs":"O X X X X X","ticker":"PINS","dayChange":2.58,"rsi_14":52.8,"weekRange":58.48},
+{"EMAs":"X X X X X X","ticker":"CMG","dayChange":1.75,"rsi_14":59.2,"weekRange":14.28},
 {"EMAs":"O X X X X X","ticker":"NOW","dayChange":2.61,"rsi_14":57.0,"weekRange":50.6},
 {"EMAs":"O X X X X X","ticker":"PCAR","dayChange":2.43,"rsi_14":58.0,"weekRange":44.5},
 {"EMAs":"O X X X X X","ticker":"ACN","dayChange":3.44,"rsi_14":55.7,"weekRange":12.49},

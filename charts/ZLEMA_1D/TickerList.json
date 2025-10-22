@@ -1,7 +1,7 @@
 [
 {"EMAs":"O X X X X X","ticker":"FNGU","dayChange":0.23,"rsi_14":50.4,"weekRange":1.22},
 {"EMAs":"X X X X X X","ticker":"EXPE","dayChange":3.62,"rsi_14":58.3,"weekRange":86.63},
-{"EMAs":"O X X O O O","ticker":"MDLZ","dayChange":-1.69,"rsi_14":46.8,"weekRange":44.72},
+{"EMAs":"O X X O O O","ticker":"MDLZ","dayChange":-1.69,"rsi_14":46.8,"weekRange":44.89},
 {"EMAs":"X O O X X O","ticker":"PSN","dayChange":-0.13,"rsi_14":54.5,"weekRange":50.42},
 {"EMAs":"X X X X X X","ticker":"GE","dayChange":1.31,"rsi_14":64.5,"weekRange":93.7},
 {"EMAs":"X X X X X X","ticker":"QQQ","dayChange":-0.03,"rsi_14":60.8,"weekRange":99.15},
@@ -78,7 +78,7 @@
 {"EMAs":"X X X X O O","ticker":"RYAAY","dayChange":-0.76,"rsi_14":55.0,"weekRange":79.59},
 {"EMAs":"X X X O O O","ticker":"CELH","dayChange":-1.63,"rsi_14":61.5,"weekRange":92.68},
 {"EMAs":"O X X X X X","ticker":"CAKE","dayChange":1.84,"rsi_14":50.9,"weekRange":50.66},
-{"EMAs":"X X O O O O","ticker":"ASPN","dayChange":-4.69,"rsi_14":52.1,"weekRange":22.33},
+{"EMAs":"X X O O O O","ticker":"ASPN","dayChange":-4.69,"rsi_14":52.1,"weekRange":22.91},
 {"EMAs":"X X O O O O","ticker":"MARA","dayChange":-3.18,"rsi_14":54.0,"weekRange":50.12},
 {"EMAs":"X X X X X X","ticker":"WBD","dayChange":10.97,"rsi_14":69.0,"weekRange":98.12},
 {"EMAs":"X X X X X X","ticker":"MRK","dayChange":1.51,"rsi_14":59.5,"weekRange":42.02},

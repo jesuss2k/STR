@@ -49,6 +49,7 @@
 {"Date":"25-10-14","ticker":"CROX","dayChange":2.05,"rsi_14":53.4,"weekRange":15.51},
 {"Date":"25-10-14","ticker":"TEAM","dayChange":6.25,"rsi_14":60.2,"weekRange":13.42},
 {"Date":"25-10-14","ticker":"DPZ","dayChange":-0.72,"rsi_14":45.3,"weekRange":22.01},
+{"Date":"25-10-13","ticker":"CMG","dayChange":1.75,"rsi_14":59.2,"weekRange":14.28},
 {"Date":"25-10-13","ticker":"HPQ","dayChange":1.81,"rsi_14":55.7,"weekRange":37.4},
 {"Date":"25-10-13","ticker":"AAL","dayChange":1.48,"rsi_14":55.6,"weekRange":36.32},
 {"Date":"25-10-02","ticker":"EL","dayChange":-3.88,"rsi_14":59.8,"weekRange":89.33},
