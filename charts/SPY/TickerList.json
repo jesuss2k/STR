@@ -1,8 +1,8 @@
 [
-{"ticker":"NVDA","dayChange":-0.83,"rsi_14":48.8,"weekRange":86.7},
+{"ticker":"NVDA","dayChange":-0.81,"rsi_14":48.9,"weekRange":86.73},
 {"ticker":"AAPL","dayChange":0.2,"rsi_14":66.8,"weekRange":97.38},
 {"ticker":"MSFT","dayChange":0.17,"rsi_14":53.6,"weekRange":82.06},
-{"ticker":"AMZN","dayChange":2.57,"rsi_14":51.0,"weekRange":74.76},
+{"ticker":"AMZN","dayChange":2.56,"rsi_14":51.0,"weekRange":74.75},
 {"ticker":"META","dayChange":0.15,"rsi_14":51.1,"weekRange":80.1},
 {"ticker":"GOOGL","dayChange":-2.37,"rsi_14":58.2,"weekRange":94.12},
 {"ticker":"GOOG","dayChange":-2.21,"rsi_14":58.6,"weekRange":94.32},
