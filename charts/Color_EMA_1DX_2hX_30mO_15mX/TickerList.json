@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"BBY","dayChange":0.81,"rsi_14":62.6,"weekRange":66.77},
-{"EMAs":"X X X X O X","ticker":"DIA","dayChange":0.26,"rsi_14":57.4,"weekRange":95.95},
-{"EMAs":"X X X X O X","ticker":"UDOW","dayChange":0.76,"rsi_14":55.9,"weekRange":90.65},
-{"EMAs":"X X X O O X","ticker":"INTC","dayChange":1.34,"rsi_14":62.9,"weekRange":89.83}
+{"EMAs":"X X X O O X","ticker":"ROST","dayChange":0.39,"rsi_14":59.6,"weekRange":94.41},
+{"EMAs":"X X X O O X","ticker":"WMT","dayChange":-0.26,"rsi_14":60.0,"weekRange":90.88}
 ]
