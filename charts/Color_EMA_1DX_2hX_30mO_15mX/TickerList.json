@@ -1,7 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"GPN","dayChange":1.66,"rsi_14":52.7,"weekRange":39.13},
-{"EMAs":"X X X X O X","ticker":"QLD","dayChange":1.27,"rsi_14":56.8,"weekRange":97.01},
-{"EMAs":"X X X X O X","ticker":"QQQ","dayChange":0.62,"rsi_14":57.9,"weekRange":98.14},
-{"EMAs":"X X X X O X","ticker":"TQQQ","dayChange":1.85,"rsi_14":56.2,"weekRange":95.81},
-{"EMAs":"X X X O O X","ticker":"BAC","dayChange":0.95,"rsi_14":55.0,"weekRange":93.46}
+{"EMAs":"X X X X O X","ticker":"DIA","dayChange":0.3,"rsi_14":57.4,"weekRange":96.13},
+{"EMAs":"X X X X O X","ticker":"UDOW","dayChange":0.79,"rsi_14":55.9,"weekRange":90.7}
 ]
