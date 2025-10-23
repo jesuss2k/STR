@@ -81,7 +81,7 @@
 {"$ Prft":7.0,"% Pfrt":1.2,"EMAs":"O O X X O X","ticker":"DAKT","dayChange":0.25,"rsi_14":50.6,"weekRange":68.76},
 {"$ Prft":-2.0,"% Pfrt":-0.3,"EMAs":"O O O X O O","ticker":"FAST","dayChange":-1.66,"rsi_14":32.0,"weekRange":47.6},
 {"$ Prft":-32.0,"% Pfrt":-4.0,"EMAs":"O O O O O O","ticker":"OPRA","dayChange":-2.09,"rsi_14":30.9,"weekRange":27.3},
-{"$ Prft":-11.0,"% Pfrt":-2.0,"EMAs":"X O O O O O","ticker":"ORCL","dayChange":-0.85,"rsi_14":43.6,"weekRange":67.86},
+{"$ Prft":-12.0,"% Pfrt":-2.1,"EMAs":"X O O O O O","ticker":"ORCL","dayChange":-0.9,"rsi_14":43.5,"weekRange":67.8},
 {"$ Prft":-11.0,"% Pfrt":-1.7,"EMAs":"X X X X O O","ticker":"CMG","dayChange":-1.77,"rsi_14":53.2,"weekRange":11.64},
 {"$ Prft":23.0,"% Pfrt":5.2,"EMAs":"O O O O X X","ticker":"PM","dayChange":3.2,"rsi_14":45.7,"weekRange":57.73}
 ]

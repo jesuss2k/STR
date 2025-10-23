@@ -11,7 +11,7 @@
 {"EMAs":"O O O O O X","ticker":"APP","dayChange":2.2,"rsi_14":43.6,"weekRange":69.24},
 {"EMAs":"O O O O O O","ticker":"NVO","dayChange":-2.56,"rsi_14":37.2,"weekRange":11.67},
 {"EMAs":"O O O O O O","ticker":"ALK","dayChange":-2.71,"rsi_14":36.5,"weekRange":20.61},
-{"EMAs":"X O O O O O","ticker":"ORCL","dayChange":-0.85,"rsi_14":43.6,"weekRange":67.86},
+{"EMAs":"X O O O O O","ticker":"ORCL","dayChange":-0.9,"rsi_14":43.5,"weekRange":67.8},
 {"EMAs":"O O O O O O","ticker":"IBIT","dayChange":-3.59,"rsi_14":40.3,"weekRange":69.45},
 {"EMAs":"O O O O X X","ticker":"AJG","dayChange":1.44,"rsi_14":35.7,"weekRange":9.89},
 {"EMAs":"X O O O O O","ticker":"DUOL","dayChange":-3.16,"rsi_14":44.9,"weekRange":17.67},
