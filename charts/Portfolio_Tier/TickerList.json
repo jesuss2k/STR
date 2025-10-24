@@ -6,7 +6,7 @@
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":0.48,"rsi_14":61.1,"weekRange":96.4},
 {"EMAs":"O O O O O O","ticker":"T","dayChange":-3.64,"rsi_14":23.5,"weekRange":38.53},
 {"EMAs":"O O O O O O","ticker":"ABT","dayChange":-1.26,"rsi_14":35.6,"weekRange":50.97},
-{"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-0.25,"rsi_14":34.6,"weekRange":61.75},
+{"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-0.25,"rsi_14":34.6,"weekRange":61.65},
 {"EMAs":"O O O O O O","ticker":"UAL","dayChange":-0.61,"rsi_14":43.0,"weekRange":68.25},
 {"EMAs":"O O O O O O","ticker":"MMC","dayChange":-0.65,"rsi_14":32.6,"weekRange":4.71},
 {"EMAs":"O O O O O X","ticker":"OLLI","dayChange":0.48,"rsi_14":40.5,"weekRange":62.52},

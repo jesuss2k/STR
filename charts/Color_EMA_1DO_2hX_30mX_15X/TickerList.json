@@ -1,6 +1,6 @@
 [
 {"EMAs":"O X X X X X","ticker":"CDW","dayChange":1.36,"rsi_14":52.5,"weekRange":24.73},
-{"EMAs":"O X X X X X","ticker":"CAKE","dayChange":-1.32,"rsi_14":52.9,"weekRange":52.45},
+{"EMAs":"O X X X X X","ticker":"CAKE","dayChange":-1.32,"rsi_14":52.9,"weekRange":50.82},
 {"EMAs":"O X X X X X","ticker":"DE","dayChange":1.53,"rsi_14":55.8,"weekRange":56.14},
 {"EMAs":"O O X X X X","ticker":"MELI","dayChange":2.53,"rsi_14":45.0,"weekRange":50.27},
 {"EMAs":"O O X X X X","ticker":"GRBK","dayChange":1.06,"rsi_14":47.9,"weekRange":65.35},

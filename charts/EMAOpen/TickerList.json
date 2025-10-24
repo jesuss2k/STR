@@ -55,7 +55,7 @@
 {"EMAs":"O O O O X X","Group":"25:50","ticker":"ORCL","dayChange":2.72,"rsi_14":47.1,"weekRange":71.06},
 {"EMAs":"X O O O O O","Group":"25:50","ticker":"LMT","dayChange":0.19,"rsi_14":47.3,"weekRange":46.86},
 {"EMAs":"X O O O X X","Group":"25:50","ticker":"FICO","dayChange":2.63,"rsi_14":50.2,"weekRange":28.6},
-{"EMAs":"O O O X X X","Group":"25:50","ticker":"APP","dayChange":4.4,"rsi_14":49.2,"weekRange":73.46},
+{"EMAs":"O O O X X X","Group":"25:50","ticker":"APP","dayChange":4.4,"rsi_14":49.2,"weekRange":73.45},
 {"EMAs":"O O O O O X","Group":"50:100","ticker":"WSM","dayChange":0.02,"rsi_14":44.8,"weekRange":66.24},
 {"EMAs":"O O X X X X","Group":"50:100","ticker":"AMZN","dayChange":1.44,"rsi_14":50.1,"weekRange":73.59},
 {"EMAs":"O O O X X X","Group":"50:100","ticker":"ALAB","dayChange":5.68,"rsi_14":38.7,"weekRange":54.0},
