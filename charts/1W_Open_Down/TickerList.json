@@ -24,7 +24,7 @@
 {"EMAs":"O O X X O X","ticker":"DOCU","dayChange":0.74,"rsi_14":46.2,"weekRange":11.39},
 {"EMAs":"O O O O O X","ticker":"WSM","dayChange":0.02,"rsi_14":44.8,"weekRange":66.24},
 {"EMAs":"O O O X X X","ticker":"ACIW","dayChange":1.01,"rsi_14":46.4,"weekRange":49.69},
-{"EMAs":"X O O O X X","ticker":"FICO","dayChange":2.46,"rsi_14":49.9,"weekRange":28.36},
+{"EMAs":"X O O O X X","ticker":"FICO","dayChange":2.63,"rsi_14":50.2,"weekRange":28.6},
 {"EMAs":"X O O O O O","ticker":"LMT","dayChange":0.19,"rsi_14":47.3,"weekRange":46.86},
 {"EMAs":"X O O O O X","ticker":"MRVL","dayChange":2.12,"rsi_14":49.5,"weekRange":44.39},
 {"EMAs":"O X X X X O","ticker":"DPZ","dayChange":-0.72,"rsi_14":47.1,"weekRange":23.82},
