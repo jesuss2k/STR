@@ -1,7 +1,7 @@
 [
 {"EMAs":"O O O X X X","ticker":"JPM","dayChange":2.0,"rsi_14":47.2,"weekRange":84.83},
 {"EMAs":"O X X X X X","ticker":"META","dayChange":0.59,"rsi_14":53.4,"weekRange":81.71},
-{"EMAs":"X O X X X X","ticker":"NVDA","dayChange":2.22,"rsi_14":55.8,"weekRange":91.36},
+{"EMAs":"X O X X X X","ticker":"NVDA","dayChange":2.25,"rsi_14":55.8,"weekRange":91.41},
 {"EMAs":"X X X X X X","ticker":"AVGO","dayChange":2.86,"rsi_14":57.7,"weekRange":91.49},
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":2.67,"rsi_14":67.2,"weekRange":98.33},
 {"EMAs":"O O O O O O","ticker":"OLLI","dayChange":-3.34,"rsi_14":35.7,"weekRange":55.14},
@@ -12,12 +12,12 @@
 {"EMAs":"O O O O O X","ticker":"T","dayChange":2.11,"rsi_14":32.2,"weekRange":44.71},
 {"EMAs":"O O O O X X","ticker":"UAL","dayChange":3.79,"rsi_14":49.8,"weekRange":73.92},
 {"EMAs":"O O X X X X","ticker":"WIX","dayChange":0.46,"rsi_14":45.4,"weekRange":19.68},
-{"EMAs":"O O X X X X","ticker":"NET","dayChange":0.28,"rsi_14":52.2,"weekRange":91.46},
+{"EMAs":"O O X X X X","ticker":"NET","dayChange":0.32,"rsi_14":52.3,"weekRange":91.52},
 {"EMAs":"O O X X X X","ticker":"MELI","dayChange":0.6,"rsi_14":46.0,"weekRange":51.55},
 {"EMAs":"O X X X O O","ticker":"CCL","dayChange":-0.14,"rsi_14":50.2,"weekRange":80.82},
 {"EMAs":"X O O X X X","ticker":"AMSC","dayChange":5.4,"rsi_14":51.1,"weekRange":80.7},
 {"EMAs":"X O X X X X","ticker":"HOOD","dayChange":4.06,"rsi_14":56.6,"weekRange":89.25},
-{"EMAs":"X O X X X X","ticker":"IBKR","dayChange":2.36,"rsi_14":54.2,"weekRange":88.66},
+{"EMAs":"X O X X X X","ticker":"IBKR","dayChange":2.35,"rsi_14":54.2,"weekRange":88.65},
 {"EMAs":"X X X X X X","ticker":"BABA","dayChange":1.63,"rsi_14":56.8,"weekRange":84.04},
 {"EMAs":"X X X X X X","ticker":"DAL","dayChange":3.71,"rsi_14":54.8,"weekRange":74.38},
 {"EMAs":"X X X X X X","ticker":"PDD","dayChange":0.5,"rsi_14":60.3,"weekRange":94.21},
@@ -25,5 +25,5 @@
 {"EMAs":"X X X X X X","ticker":"SHOP","dayChange":3.54,"rsi_14":67.4,"weekRange":98.29},
 {"EMAs":"X X X X X X","ticker":"EA","dayChange":0.11,"rsi_14":74.9,"weekRange":96.71},
 {"EMAs":"X X X X X X","ticker":"KLAC","dayChange":2.06,"rsi_14":65.8,"weekRange":98.68},
-{"EMAs":"X X X X X X","ticker":"XYZ","dayChange":1.23,"rsi_14":57.9,"weekRange":70.55}
+{"EMAs":"X X X X X X","ticker":"XYZ","dayChange":1.25,"rsi_14":57.9,"weekRange":70.57}
 ]
