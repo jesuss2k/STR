@@ -1,4 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"CCL","dayChange":1.22,"rsi_14":53.2,"weekRange":82.85},
-{"EMAs":"O X X O O X","ticker":"CPB","dayChange":0.64,"rsi_14":47.9,"weekRange":9.21}
+{"EMAs":"O X X X O X","ticker":"DTST","dayChange":1.59,"rsi_14":50.2,"weekRange":54.19},
+{"EMAs":"O X X X O X","ticker":"VNOM","dayChange":0.99,"rsi_14":49.8,"weekRange":13.24},
+{"EMAs":"O O X O O X","ticker":"YOU","dayChange":1.44,"rsi_14":44.9,"weekRange":58.17}
 ]

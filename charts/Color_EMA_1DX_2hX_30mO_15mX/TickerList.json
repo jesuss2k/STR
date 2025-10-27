@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"HLT","dayChange":0.84,"rsi_14":55.8,"weekRange":88.33}
+{"EMAs":"X X X O O X","ticker":"MCD","dayChange":0.73,"rsi_14":57.0,"weekRange":63.23},
+{"EMAs":"X X X X O X","ticker":"HLT","dayChange":0.46,"rsi_14":54.8,"weekRange":87.1}
 ]
