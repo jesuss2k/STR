@@ -1,3 +1,5 @@
 [
-{"EMAs":"O X X O O X","ticker":"CB","dayChange":1.19,"rsi_14":50.9,"weekRange":48.79}
+{"EMAs":"O X X X O X","ticker":"DUST","dayChange":-0.42,"rsi_14":51.6,"weekRange":5.13},
+{"EMAs":"O X X O O X","ticker":"CB","dayChange":0.81,"rsi_14":49.6,"weekRange":46.87},
+{"EMAs":"O X X O O X","ticker":"CDW","dayChange":0.46,"rsi_14":49.5,"weekRange":22.87}
 ]
