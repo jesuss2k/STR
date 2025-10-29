@@ -2,7 +2,7 @@
 {"Date":"25-10-27","ticker":"IBIT","dayChange":-1.21,"rsi_14":50.0,"weekRange":78.22},
 {"Date":"25-10-27","ticker":"MRVL","dayChange":-0.28,"rsi_14":58.4,"weekRange":51.46},
 {"Date":"25-10-27","ticker":"ALAB","dayChange":-1.19,"rsi_14":41.8,"weekRange":56.13},
-{"Date":"25-10-27","ticker":"TSLA","dayChange":1.81,"rsi_14":60.6,"weekRange":89.81},
+{"Date":"25-10-27","ticker":"TSLA","dayChange":1.8,"rsi_14":60.6,"weekRange":89.8},
 {"Date":"25-10-27","ticker":"CRWV","dayChange":-0.93,"rsi_14":54.2,"weekRange":65.99},
 {"Date":"25-10-27","ticker":"ROOT","dayChange":-3.74,"rsi_14":41.2,"weekRange":27.76},
 {"Date":"25-10-27","ticker":"TSM","dayChange":1.1,"rsi_14":59.4,"weekRange":94.45},
@@ -14,9 +14,9 @@
 {"Date":"25-10-24","ticker":"ANF","dayChange":0.91,"rsi_14":45.1,"weekRange":9.24},
 {"Date":"25-10-24","ticker":"UBER","dayChange":-1.03,"rsi_14":51.1,"weekRange":84.62},
 {"Date":"25-10-24","ticker":"APP","dayChange":-2.53,"rsi_14":55.2,"weekRange":79.77},
-{"Date":"25-10-23","ticker":"PYPL","dayChange":3.92,"rsi_14":59.3,"weekRange":45.37},
+{"Date":"25-10-23","ticker":"PYPL","dayChange":3.94,"rsi_14":59.4,"weekRange":45.41},
 {"Date":"25-10-23","ticker":"LLY","dayChange":-0.76,"rsi_14":56.3,"weekRange":62.95},
-{"Date":"25-10-23","ticker":"DELL","dayChange":1.67,"rsi_14":67.6,"weekRange":97.92},
+{"Date":"25-10-23","ticker":"DELL","dayChange":1.66,"rsi_14":67.6,"weekRange":97.9},
 {"Date":"25-10-21","ticker":"ACN","dayChange":1.03,"rsi_14":58.0,"weekRange":14.18},
 {"Date":"25-10-21","ticker":"PHR","dayChange":-0.26,"rsi_14":47.1,"weekRange":40.41},
 {"Date":"25-10-21","ticker":"BIIB","dayChange":-0.86,"rsi_14":55.8,"weekRange":50.61},
@@ -53,6 +53,6 @@
 {"Date":"25-10-02","ticker":"EL","dayChange":-1.69,"rsi_14":57.3,"weekRange":89.73},
 {"Date":"25-10-01","ticker":"ATXS","dayChange":-0.56,"rsi_14":83.8,"weekRange":98.56},
 {"Date":"25-09-29","ticker":"MU","dayChange":0.82,"rsi_14":73.2,"weekRange":98.12},
-{"Date":"25-09-29","ticker":"AMD","dayChange":-0.65,"rsi_14":73.6,"weekRange":96.49},
+{"Date":"25-09-29","ticker":"AMD","dayChange":-0.64,"rsi_14":73.6,"weekRange":96.51},
 {"Date":"25-04-14","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.09}
 ]
