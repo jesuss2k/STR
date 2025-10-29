@@ -12,6 +12,5 @@
 {"EMAs":"O X X X X X","ticker":"JD","dayChange":0.96,"rsi_14":55.0,"weekRange":27.98},
 {"EMAs":"O O X X X X","ticker":"KMB","dayChange":0.03,"rsi_14":45.2,"weekRange":9.63},
 {"EMAs":"O X X X X X","ticker":"MELI","dayChange":0.34,"rsi_14":55.4,"weekRange":64.46},
-{"EMAs":"O O X X X X","ticker":"JPM","dayChange":0.4,"rsi_14":52.7,"weekRange":89.08},
 {"EMAs":"O O X X X X","ticker":"HPE","dayChange":0.29,"rsi_14":52.6,"weekRange":84.87}
 ]

@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O X X X X","ticker":"JPM","dayChange":0.4,"rsi_14":52.7,"weekRange":89.08},
 {"EMAs":"X X X X X X","ticker":"NVDA","dayChange":4.98,"rsi_14":69.4,"weekRange":98.18},
 {"EMAs":"X X X X X X","ticker":"AVGO","dayChange":3.02,"rsi_14":65.7,"weekRange":99.47},
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":-0.56,"rsi_14":71.2,"weekRange":97.71},
