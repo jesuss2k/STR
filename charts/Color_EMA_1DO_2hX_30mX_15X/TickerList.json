@@ -1,9 +1,8 @@
 [
-{"EMAs":"O X X O X X","ticker":"CDW","dayChange":0.74,"rsi_14":50.3,"weekRange":23.37},
-{"EMAs":"O X X X X X","ticker":"ERX","dayChange":1.45,"rsi_14":50.5,"weekRange":43.08},
-{"EMAs":"O X X X X X","ticker":"XLE","dayChange":0.74,"rsi_14":50.9,"weekRange":57.7},
-{"EMAs":"O O X X X X","ticker":"DASH","dayChange":1.77,"rsi_14":51.9,"weekRange":85.41},
-{"EMAs":"O X X X X X","ticker":"DRV","dayChange":7.71,"rsi_14":63.1,"weekRange":22.41},
-{"EMAs":"O O X X X X","ticker":"VZ","dayChange":2.26,"rsi_14":44.0,"weekRange":26.87},
-{"EMAs":"O X X X X X","ticker":"MELI","dayChange":0.25,"rsi_14":55.8,"weekRange":65.04}
+{"EMAs":"O X X X X X","ticker":"HPE","dayChange":1.01,"rsi_14":54.9,"weekRange":86.7},
+{"EMAs":"O X X X X X","ticker":"TREE","dayChange":9.01,"rsi_14":59.2,"weekRange":73.76},
+{"EMAs":"O X X O X X","ticker":"CDW","dayChange":0.57,"rsi_14":51.9,"weekRange":24.42},
+{"EMAs":"O O X X X X","ticker":"TMV","dayChange":1.54,"rsi_14":49.6,"weekRange":19.44},
+{"EMAs":"O X X X X X","ticker":"DRV","dayChange":-0.99,"rsi_14":61.0,"weekRange":21.04},
+{"EMAs":"O X X X X X","ticker":"MELI","dayChange":2.5,"rsi_14":59.6,"weekRange":70.78}
 ]
