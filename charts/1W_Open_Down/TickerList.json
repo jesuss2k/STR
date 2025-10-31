@@ -37,7 +37,7 @@
 {"EMAs":"O O O O O O","ticker":"INTU","dayChange":0.02,"rsi_14":42.2,"weekRange":43.95},
 {"EMAs":"O O O O O O","ticker":"ADBE","dayChange":0.41,"rsi_14":43.4,"weekRange":5.1},
 {"EMAs":"O O O O O O","ticker":"OKTA","dayChange":0.3,"rsi_14":44.0,"weekRange":29.99},
-{"EMAs":"O X O O O O","ticker":"PINS","dayChange":-0.88,"rsi_14":45.3,"weekRange":51.34},
+{"EMAs":"O X O O O O","ticker":"PINS","dayChange":-0.91,"rsi_14":45.2,"weekRange":51.28},
 {"EMAs":"O O O O O O","ticker":"PG","dayChange":0.54,"rsi_14":42.2,"weekRange":7.81},
 {"EMAs":"X O O O O O","ticker":"WDAY","dayChange":0.65,"rsi_14":45.7,"weekRange":31.06},
 {"EMAs":"X X O O O O","ticker":"SBUX","dayChange":-1.21,"rsi_14":45.7,"weekRange":18.23},

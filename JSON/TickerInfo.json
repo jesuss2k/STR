@@ -690,7 +690,7 @@
 {"ticker":"DOW","companyName":"Dow","industry":"Materials","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=DOW"},
 {"ticker":"DOX","companyName":"Amdocs","industry":"Technology","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=DOX"},
 {"ticker":"DOYU","companyName":"DouYu International","industry":"Commercial Services","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=DOYU"},
-{"ticker":"DPZ","companyName":"Dominos Pizza","industry":"Consumer Discretionary","logoUrl":"https://s3-symbol-logo.tradingview.com/dominos-pizza.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=NYSE%3ADPZ"},
+{"ticker":"DPZ","companyName":"Dominos Pizza","industry":"Consumer Discretionary","logoUrl":"https://s3-symbol-logo.tradingview.com/dominos-pizza.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=NASDAQ%3ADPZ"},
 {"ticker":"DQ","companyName":"DAQO New Energy Corp.","industry":"Process Industries","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=DQ"},
 {"ticker":"DRI","companyName":"Darden Restaurants","industry":"Consumer Discretionary","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=DRI"},
 {"ticker":"DRMA","companyName":"Dermata Therapeutics","industry":"Health Technology","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=DRMA"},

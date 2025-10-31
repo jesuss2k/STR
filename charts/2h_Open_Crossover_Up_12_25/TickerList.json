@@ -13,7 +13,7 @@
 {"Date":"25-10-24","ticker":"ANF","dayChange":-1.43,"rsi_14":40.4,"weekRange":6.86},
 {"Date":"25-10-24","ticker":"UBER","dayChange":0.76,"rsi_14":54.1,"weekRange":87.11},
 {"Date":"25-10-24","ticker":"APP","dayChange":-1.68,"rsi_14":53.6,"weekRange":78.72},
-{"Date":"25-10-23","ticker":"DELL","dayChange":-1.6,"rsi_14":62.1,"weekRange":93.16},
+{"Date":"25-10-23","ticker":"DELL","dayChange":-1.58,"rsi_14":62.1,"weekRange":93.19},
 {"Date":"25-10-23","ticker":"DOMO","dayChange":-1.22,"rsi_14":45.0,"weekRange":61.78},
 {"Date":"25-10-23","ticker":"LLY","dayChange":3.81,"rsi_14":62.6,"weekRange":70.78},
 {"Date":"25-10-23","ticker":"SOFI","dayChange":-6.05,"rsi_14":53.7,"weekRange":85.25},
@@ -23,7 +23,7 @@
 {"Date":"25-10-21","ticker":"IOT","dayChange":-1.91,"rsi_14":50.4,"weekRange":23.51},
 {"Date":"25-10-21","ticker":"CRWD","dayChange":-1.25,"rsi_14":65.9,"weekRange":94.22},
 {"Date":"25-10-21","ticker":"MNDY","dayChange":1.51,"rsi_14":55.2,"weekRange":18.52},
-{"Date":"25-10-20","ticker":"MSFT","dayChange":-2.9,"rsi_14":54.2,"weekRange":85.93},
+{"Date":"25-10-20","ticker":"MSFT","dayChange":-2.92,"rsi_14":54.2,"weekRange":85.91},
 {"Date":"25-10-20","ticker":"PCAR","dayChange":0.62,"rsi_14":52.5,"weekRange":41.49},
 {"Date":"25-10-20","ticker":"COF","dayChange":-0.1,"rsi_14":51.1,"weekRange":84.23},
 {"Date":"25-10-20","ticker":"AAPL","dayChange":0.63,"rsi_14":71.1,"weekRange":97.39},
@@ -36,5 +36,5 @@
 {"Date":"25-10-13","ticker":"AAL","dayChange":-1.46,"rsi_14":54.5,"weekRange":40.38},
 {"Date":"25-10-01","ticker":"ATXS","dayChange":-0.71,"rsi_14":82.1,"weekRange":97.76},
 {"Date":"25-09-29","ticker":"MU","dayChange":-1.16,"rsi_14":72.2,"weekRange":95.09},
-{"Date":"25-09-29","ticker":"AMD","dayChange":-3.6,"rsi_14":68.1,"weekRange":93.57}
+{"Date":"25-09-29","ticker":"AMD","dayChange":-3.59,"rsi_14":68.1,"weekRange":93.58}
 ]
