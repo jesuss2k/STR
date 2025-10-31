@@ -1,4 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"HOOD","dayChange":6.73,"rsi_14":59.6,"weekRange":95.03},
-{"EMAs":"X X X X O X","ticker":"KLAC","dayChange":1.19,"rsi_14":67.0,"weekRange":92.41}
+{"EMAs":"X X X O O X","ticker":"ROST","dayChange":0.53,"rsi_14":60.5,"weekRange":92.32},
+{"EMAs":"X X X O O X","ticker":"ISRG","dayChange":0.79,"rsi_14":68.8,"weekRange":57.19},
+{"EMAs":"X X X X O X","ticker":"QLD","dayChange":1.24,"rsi_14":63.5,"weekRange":96.12},
+{"EMAs":"X X X X O X","ticker":"QQQ","dayChange":0.64,"rsi_14":64.4,"weekRange":97.03},
+{"EMAs":"X X X X O X","ticker":"KLAC","dayChange":0.44,"rsi_14":66.1,"weekRange":91.17}
 ]
