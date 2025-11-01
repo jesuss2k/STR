@@ -41,5 +41,5 @@
 {"EMAs":"O O O O X X","ticker":"INTU","dayChange":1.73,"rsi_14":48.7,"weekRange":48.0},
 {"EMAs":"X O O O O O","ticker":"CROX","dayChange":-1.03,"rsi_14":46.6,"weekRange":16.16},
 {"EMAs":"O O X X X X","ticker":"GDDY","dayChange":5.04,"rsi_14":48.7,"weekRange":8.93},
-{"EMAs":"O X O O O X","ticker":"PINS","dayChange":1.85,"rsi_14":48.7,"weekRange":54.76}
+{"EMAs":"O X O O O X","ticker":"PINS","dayChange":1.81,"rsi_14":48.6,"weekRange":54.7}
 ]

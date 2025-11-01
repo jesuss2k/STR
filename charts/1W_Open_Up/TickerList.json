@@ -6,7 +6,7 @@
 {"EMAs":"X O O O O X","ticker":"SOUN","dayChange":4.45,"rsi_14":49.3,"weekRange":63.22},
 {"EMAs":"X X O O O O","ticker":"PCAR","dayChange":-0.43,"rsi_14":51.0,"weekRange":40.26},
 {"EMAs":"X O O O X X","ticker":"WDAY","dayChange":3.03,"rsi_14":53.2,"weekRange":39.01},
-{"EMAs":"X O O O X X","ticker":"FICO","dayChange":4.69,"rsi_14":53.8,"weekRange":32.63},
+{"EMAs":"X O O O X X","ticker":"FICO","dayChange":4.68,"rsi_14":53.8,"weekRange":32.61},
 {"EMAs":"X X O O O O","ticker":"COF","dayChange":0.74,"rsi_14":53.1,"weekRange":86.03},
 {"EMAs":"X X O O O O","ticker":"EL","dayChange":-0.94,"rsi_14":52.9,"weekRange":86.04},
 {"EMAs":"X X O O O O","ticker":"ABNB","dayChange":0.16,"rsi_14":54.6,"weekRange":41.62},
@@ -29,7 +29,7 @@
 {"EMAs":"X X X X X X","ticker":"CRM","dayChange":1.47,"rsi_14":59.6,"weekRange":23.81},
 {"EMAs":"X X X X X X","ticker":"IOT","dayChange":4.15,"rsi_14":57.0,"weekRange":28.75},
 {"EMAs":"X X X X X O","ticker":"AAPL","dayChange":-0.38,"rsi_14":69.1,"weekRange":93.57},
-{"EMAs":"X X X X X X","ticker":"MNDY","dayChange":3.3,"rsi_14":60.1,"weekRange":22.24},
+{"EMAs":"X X X X X X","ticker":"MNDY","dayChange":3.19,"rsi_14":59.9,"weekRange":22.12},
 {"EMAs":"X X X O O O","ticker":"IBM","dayChange":-0.85,"rsi_14":66.5,"weekRange":89.64},
 {"EMAs":"X X X X X X","ticker":"LLY","dayChange":2.17,"rsi_14":66.7,"weekRange":76.67},
 {"EMAs":"X X X X X X","ticker":"TEAM","dayChange":5.45,"rsi_14":59.2,"weekRange":13.82},
@@ -41,9 +41,9 @@
 {"EMAs":"X X X X X X","ticker":"QCOM","dayChange":2.05,"rsi_14":62.4,"weekRange":70.58},
 {"EMAs":"X X X X X X","ticker":"AMZN","dayChange":9.58,"rsi_14":67.0,"weekRange":92.95},
 {"EMAs":"X X X X O O","ticker":"GM","dayChange":0.61,"rsi_14":72.1,"weekRange":95.98},
-{"EMAs":"X X X X X X","ticker":"MRVL","dayChange":5.8,"rsi_14":64.3,"weekRange":57.99},
+{"EMAs":"X X X X X X","ticker":"MRVL","dayChange":5.84,"rsi_14":64.4,"weekRange":58.03},
 {"EMAs":"X X X X O O","ticker":"MU","dayChange":-0.11,"rsi_14":71.9,"weekRange":94.95},
 {"EMAs":"X X X X O O","ticker":"AMD","dayChange":0.5,"rsi_14":68.5,"weekRange":94.25},
 {"EMAs":"X X X X X X","ticker":"ATXS","dayChange":0.96,"rsi_14":82.8,"weekRange":99.07},
-{"EMAs":"X X X X X X","ticker":"ILMN","dayChange":24.88,"rsi_14":74.6,"weekRange":62.46}
+{"EMAs":"X X X X X X","ticker":"ILMN","dayChange":24.78,"rsi_14":74.5,"weekRange":62.35}
 ]

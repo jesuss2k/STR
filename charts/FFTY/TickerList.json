@@ -21,7 +21,7 @@
 {"ticker":"NTRA","dayChange":1.02,"rsi_14":0,"weekRange":48.79},
 {"ticker":"TKO","dayChange":-0.35,"rsi_14":0,"weekRange":54.34},
 {"ticker":"GAMB","dayChange":-0.98,"rsi_14":0,"weekRange":48.96},
-{"ticker":"NET","dayChange":13.89,"rsi_14":72.3,"weekRange":99.47},
+{"ticker":"NET","dayChange":13.84,"rsi_14":72.3,"weekRange":99.41},
 {"ticker":"CORT","dayChange":1.86,"rsi_14":0,"weekRange":42.91},
 {"ticker":"AMSC","dayChange":0.53,"rsi_14":50.3,"weekRange":80.08},
 {"ticker":"TOST","dayChange":-1.92,"rsi_14":0,"weekRange":36.77},

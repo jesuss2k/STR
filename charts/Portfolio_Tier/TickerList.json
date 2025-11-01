@@ -1,6 +1,6 @@
 [
 {"EMAs":"X X X X O O","ticker":"AVGO","dayChange":-1.82,"rsi_14":59.5,"weekRange":93.22},
-{"EMAs":"X X X X X O","ticker":"NVDA","dayChange":-0.21,"rsi_14":66.5,"weekRange":92.25},
+{"EMAs":"X X X X X O","ticker":"NVDA","dayChange":-0.2,"rsi_14":66.5,"weekRange":92.28},
 {"EMAs":"X X X X X O","ticker":"GOOG","dayChange":-0.03,"rsi_14":78.0,"weekRange":93.23},
 {"EMAs":"O O O O O O","ticker":"DAL","dayChange":0.46,"rsi_14":44.9,"weekRange":64.25},
 {"EMAs":"O O O O O O","ticker":"OLLI","dayChange":-0.52,"rsi_14":42.8,"weekRange":61.85},
@@ -13,16 +13,16 @@
 {"EMAs":"O O O X X X","ticker":"CCL","dayChange":1.76,"rsi_14":47.8,"weekRange":77.61},
 {"EMAs":"O O O X X X","ticker":"NFLX","dayChange":2.74,"rsi_14":40.6,"weekRange":62.54},
 {"EMAs":"O X X X X X","ticker":"WIX","dayChange":7.6,"rsi_14":52.0,"weekRange":23.18},
-{"EMAs":"X O O O O X","ticker":"XYZ","dayChange":2.72,"rsi_14":47.9,"weekRange":63.35},
+{"EMAs":"X O O O O X","ticker":"XYZ","dayChange":2.73,"rsi_14":47.9,"weekRange":63.37},
 {"EMAs":"X O X O O O","ticker":"AMSC","dayChange":0.53,"rsi_14":50.3,"weekRange":80.08},
 {"EMAs":"X X O O O O","ticker":"BABA","dayChange":-2.01,"rsi_14":50.6,"weekRange":80.25},
 {"EMAs":"X X O O O O","ticker":"EA","dayChange":0.07,"rsi_14":70.1,"weekRange":95.83},
 {"EMAs":"X X X O O O","ticker":"PDD","dayChange":-0.84,"rsi_14":57.4,"weekRange":91.32},
 {"EMAs":"X X X O O O","ticker":"SHOP","dayChange":0.14,"rsi_14":63.5,"weekRange":92.59},
 {"EMAs":"X X X X O O","ticker":"KLAC","dayChange":-0.47,"rsi_14":64.5,"weekRange":89.67},
-{"EMAs":"X X X X O O","ticker":"MELI","dayChange":-1.48,"rsi_14":56.9,"weekRange":68.04},
+{"EMAs":"X X X X O O","ticker":"MELI","dayChange":-1.42,"rsi_14":57.0,"weekRange":68.18},
 {"EMAs":"X X X X X X","ticker":"HOOD","dayChange":6.31,"rsi_14":59.3,"weekRange":94.59},
-{"EMAs":"X X X X X X","ticker":"NET","dayChange":13.89,"rsi_14":72.3,"weekRange":99.47},
+{"EMAs":"X X X X X X","ticker":"NET","dayChange":13.84,"rsi_14":72.3,"weekRange":99.41},
 {"EMAs":"X X X X X X","ticker":"PLTR","dayChange":3.04,"rsi_14":67.3,"weekRange":97.73},
 {"EMAs":"X X X X X X","ticker":"IBKR","dayChange":2.7,"rsi_14":57.8,"weekRange":92.62}
 ]
