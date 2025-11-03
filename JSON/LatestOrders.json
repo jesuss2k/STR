@@ -113,6 +113,7 @@
 {"ticker":"FTNT","positionStatus":"Open","price":78.485},
 {"ticker":"GCT","positionStatus":"Closed","price":17.7},
 {"ticker":"GDDY","positionStatus":"Closed","price":152.28},
+{"ticker":"GDDY","positionStatus":"Open","price":135.58},
 {"ticker":"GDDY","positionStatus":"Open","price":183.675},
 {"ticker":"GETY","positionStatus":"Closed","price":4.9545},
 {"ticker":"GGE","positionStatus":"Closed","price":0.0346},
