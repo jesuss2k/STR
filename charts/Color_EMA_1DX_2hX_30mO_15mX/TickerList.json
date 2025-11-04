@@ -1,6 +1,3 @@
 [
-{"EMAs":"X X X O O X","ticker":"SHOP","dayChange":-0.53,"rsi_14":62.1,"weekRange":91.77},
-{"EMAs":"X X X O O X","ticker":"GE","dayChange":-0.11,"rsi_14":57.1,"weekRange":94.88},
-{"EMAs":"X X X O O X","ticker":"UPRO","dayChange":0.63,"rsi_14":60.9,"weekRange":95.4},
-{"EMAs":"X X X O O X","ticker":"SSO","dayChange":0.4,"rsi_14":61.4,"weekRange":96.15}
+{"EMAs":"X X X X O X","ticker":"MELI","dayChange":2.1,"rsi_14":59.4,"weekRange":71.96}
 ]
