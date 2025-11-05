@@ -1,4 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"CSCO","dayChange":0.17,"rsi_14":58.3,"weekRange":89.47},
-{"EMAs":"X X X O O X","ticker":"MELI","dayChange":-0.16,"rsi_14":54.6,"weekRange":65.66}
+{"EMAs":"X O X X O X","ticker":"ERY","dayChange":-0.52,"rsi_14":52.1,"weekRange":20.45},
+{"EMAs":"X X X O O X","ticker":"MELI","dayChange":-0.17,"rsi_14":54.6,"weekRange":65.64}
 ]
