@@ -1,3 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"MELI","dayChange":0.22,"rsi_14":56.4,"weekRange":67.6}
+{"EMAs":"X X X X O X","ticker":"AMAT","dayChange":2.92,"rsi_14":62.3,"weekRange":95.29},
+{"EMAs":"X X X O O X","ticker":"KLAC","dayChange":2.7,"rsi_14":64.2,"weekRange":91.99},
+{"EMAs":"X X X X O X","ticker":"LRCX","dayChange":3.86,"rsi_14":65.8,"weekRange":96.85},
+{"EMAs":"X X X X O X","ticker":"GOOG","dayChange":2.02,"rsi_14":72.9,"weekRange":94.47},
+{"EMAs":"X X X X O X","ticker":"GOOGL","dayChange":2.04,"rsi_14":72.4,"weekRange":94.45}
 ]
