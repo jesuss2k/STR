@@ -1,5 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"DRV","dayChange":0.89,"rsi_14":61.2,"weekRange":21.89},
-{"EMAs":"X X X O O X","ticker":"BAC","dayChange":1.0,"rsi_14":57.3,"weekRange":95.13},
-{"EMAs":"X X X X O X","ticker":"MDB","dayChange":1.72,"rsi_14":63.2,"weekRange":88.09}
+{"EMAs":"X X X X O X","ticker":"DRV","dayChange":0.58,"rsi_14":61.2,"weekRange":21.46},
+{"EMAs":"X X X O O X","ticker":"BAC","dayChange":0.72,"rsi_14":57.3,"weekRange":94.43},
+{"EMAs":"X X X X O X","ticker":"MDB","dayChange":1.04,"rsi_14":63.2,"weekRange":87.12}
 ]
