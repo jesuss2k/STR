@@ -24,6 +24,7 @@
 {"ticker":"ALK","positionStatus":"Closed","price":42.25},
 {"ticker":"AMD","positionStatus":"Closed","price":253.96},
 {"ticker":"AMSC","positionStatus":"Closed","price":33.3194},
+{"ticker":"AMSC","positionStatus":"Open","price":40.36},
 {"ticker":"AMZN","positionStatus":"Closed","price":190.45},
 {"ticker":"AMZN","positionStatus":"Open","price":186.5955},
 {"ticker":"AMZN","positionStatus":"Open","price":214.7798},

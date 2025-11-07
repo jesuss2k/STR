@@ -62,7 +62,7 @@
 {"EMAs":"X X X X X X","Blocks":9,"ticker":"MDB","dayChange":1.58,"rsi_14":63.0,"weekRange":87.9},
 {"EMAs":"X X O O X X","Blocks":10,"ticker":"LABU","dayChange":0.47,"rsi_14":55.6,"weekRange":71.87},
 {"EMAs":"X O O O O O","Blocks":10,"ticker":"INTC","dayChange":-2.97,"rsi_14":51.1,"weekRange":78.88},
-{"EMAs":"X O O O O O","Blocks":11,"ticker":"HOOD","dayChange":-10.81,"rsi_14":43.2,"weekRange":78.61},
+{"EMAs":"X O O O O O","Blocks":11,"ticker":"HOOD","dayChange":-10.81,"rsi_14":43.2,"weekRange":78.52},
 {"EMAs":"X X X X X X","Blocks":11,"ticker":"WDC","dayChange":2.19,"rsi_14":74.1,"weekRange":97.19},
 {"EMAs":"X O X X X X","Blocks":13,"ticker":"SMTC","dayChange":3.54,"rsi_14":55.7,"weekRange":82.64},
 {"EMAs":"X X X X X O","Blocks":15,"ticker":"INSM","dayChange":-0.64,"rsi_14":67.8,"weekRange":91.66},
