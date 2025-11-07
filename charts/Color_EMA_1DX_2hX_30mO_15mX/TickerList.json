@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"ROST","dayChange":0.28,"rsi_14":61.8,"weekRange":89.72}
+{"EMAs":"X X X X O X","ticker":"INSM","dayChange":-0.15,"rsi_14":67.4,"weekRange":91.45},
+{"EMAs":"X X X O O X","ticker":"MDB","dayChange":-0.29,"rsi_14":62.2,"weekRange":87.48}
 ]
