@@ -55,7 +55,7 @@
 {"Date":"25-11-03","ticker":"MSFD","dayChange":0.09,"rsi_14":66.8,"weekRange":18.86},
 {"Date":"25-11-03","ticker":"NVDD","dayChange":-0.09,"rsi_14":58.3,"weekRange":86.86},
 {"Date":"25-10-31","ticker":"EVER","dayChange":2.58,"rsi_14":71.9,"weekRange":65.67},
-{"Date":"25-10-30","ticker":"TMV","dayChange":0.73,"rsi_14":54.5,"weekRange":26.15},
+{"Date":"25-10-30","ticker":"TMV","dayChange":0.64,"rsi_14":54.3,"weekRange":25.92},
 {"Date":"25-10-28","ticker":"STX","dayChange":0.32,"rsi_14":66.2,"weekRange":97.71},
 {"Date":"25-10-28","ticker":"DRV","dayChange":-3.95,"rsi_14":52.8,"weekRange":17.36},
 {"Date":"25-10-23","ticker":"FDX","dayChange":1.25,"rsi_14":73.2,"weekRange":59.35},

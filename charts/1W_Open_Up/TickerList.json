@@ -1,8 +1,8 @@
 [
 {"EMAs":"X O O O X X","ticker":"IOT","dayChange":1.92,"rsi_14":50.6,"weekRange":24.36},
 {"EMAs":"X X O O O X","ticker":"APP","dayChange":-0.23,"rsi_14":52.4,"weekRange":76.94},
+{"EMAs":"X O O O O X","ticker":"SOFI","dayChange":3.87,"rsi_14":49.1,"weekRange":81.83},
 {"EMAs":"X O O O O O","ticker":"QCOM","dayChange":-1.33,"rsi_14":49.1,"weekRange":58.82},
-{"EMAs":"X O O O O X","ticker":"SOFI","dayChange":3.94,"rsi_14":49.2,"weekRange":81.91},
 {"EMAs":"X O O O O O","ticker":"ASML","dayChange":-1.19,"rsi_14":51.0,"weekRange":86.38},
 {"EMAs":"X X O O O X","ticker":"PCAR","dayChange":0.42,"rsi_14":51.4,"weekRange":41.11},
 {"EMAs":"X X O O O X","ticker":"NU","dayChange":-0.44,"rsi_14":54.0,"weekRange":91.59},
