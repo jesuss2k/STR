@@ -1,3 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"TSLS","dayChange":1.52,"rsi_14":48.3,"weekRange":4.11}
+{"EMAs":"O X X O O X","ticker":"TECS","dayChange":3.74,"rsi_14":46.5,"weekRange":2.45},
+{"EMAs":"O O X X O X","ticker":"SOXS","dayChange":6.03,"rsi_14":43.8,"weekRange":0.94}
 ]
