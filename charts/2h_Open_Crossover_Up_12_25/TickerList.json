@@ -20,7 +20,7 @@
 {"Date":"25-10-27","ticker":"JPM","dayChange":0.85,"rsi_14":65.0,"weekRange":97.73},
 {"Date":"25-10-23","ticker":"LLY","dayChange":4.57,"rsi_14":78.1,"weekRange":95.71},
 {"Date":"25-10-21","ticker":"BIIB","dayChange":0.48,"rsi_14":61.9,"weekRange":70.22},
-{"Date":"25-10-21","ticker":"AMZN","dayChange":1.63,"rsi_14":63.4,"weekRange":89.5},
+{"Date":"25-10-21","ticker":"AMZN","dayChange":1.63,"rsi_14":63.4,"weekRange":89.51},
 {"Date":"25-10-20","ticker":"AAPL","dayChange":0.36,"rsi_14":64.9,"weekRange":92.7},
 {"Date":"25-09-29","ticker":"MU","dayChange":6.46,"rsi_14":73.9,"weekRange":98.07}
 ]
