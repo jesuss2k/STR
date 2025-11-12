@@ -1,3 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"NOMD","dayChange":0.5,"rsi_14":46.8,"weekRange":9.31}
+{"EMAs":"O X X O O X","ticker":"TECS","dayChange":0.47,"rsi_14":45.8,"weekRange":2.33},
+{"EMAs":"O X X O O X","ticker":"QID","dayChange":0.9,"rsi_14":46.6,"weekRange":3.64}
 ]
