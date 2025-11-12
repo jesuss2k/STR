@@ -6,7 +6,7 @@
 {"Date":"25-11-11","ticker":"TMUS","dayChange":2.97,"rsi_14":42.9,"weekRange":16.31},
 {"Date":"25-11-11","ticker":"LULU","dayChange":-0.32,"rsi_14":48.1,"weekRange":4.0},
 {"Date":"25-11-11","ticker":"PANW","dayChange":0.8,"rsi_14":58.3,"weekRange":93.28},
-{"Date":"25-11-11","ticker":"UPRO","dayChange":0.71,"rsi_14":57.4,"weekRange":94.44},
+{"Date":"25-11-11","ticker":"UPRO","dayChange":0.69,"rsi_14":57.3,"weekRange":94.42},
 {"Date":"25-11-10","ticker":"CRWD","dayChange":-0.14,"rsi_14":66.9,"weekRange":99.14},
 {"Date":"25-11-10","ticker":"ANF","dayChange":-2.76,"rsi_14":39.2,"weekRange":4.32},
 {"Date":"25-11-10","ticker":"PCAR","dayChange":-0.97,"rsi_14":49.2,"weekRange":39.14},
@@ -25,7 +25,7 @@
 {"Date":"25-10-31","ticker":"ILMN","dayChange":0.72,"rsi_14":68.1,"weekRange":63.89},
 {"Date":"25-10-27","ticker":"JPM","dayChange":-0.4,"rsi_14":62.5,"weekRange":96.65},
 {"Date":"25-10-23","ticker":"LLY","dayChange":2.27,"rsi_14":80.2,"weekRange":96.99},
-{"Date":"25-10-21","ticker":"BIIB","dayChange":2.16,"rsi_14":66.1,"weekRange":75.36},
+{"Date":"25-10-21","ticker":"BIIB","dayChange":2.11,"rsi_14":66.0,"weekRange":75.24},
 {"Date":"25-10-21","ticker":"AMZN","dayChange":0.28,"rsi_14":63.8,"weekRange":90.23},
 {"Date":"25-10-20","ticker":"AAPL","dayChange":2.16,"rsi_14":71.4,"weekRange":98.09},
 {"Date":"25-09-29","ticker":"MU","dayChange":-4.81,"rsi_14":64.8,"weekRange":91.84}
