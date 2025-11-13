@@ -23,7 +23,7 @@
 {"EMAs":"X X X X O O","ticker":"CRWD","dayChange":-1.95,"rsi_14":60.5,"weekRange":92.18},
 {"EMAs":"X X X X X X","ticker":"UPRO","dayChange":0.17,"rsi_14":57.7,"weekRange":94.68},
 {"EMAs":"X X X X X O","ticker":"IBM","dayChange":0.4,"rsi_14":65.6,"weekRange":91.79},
-{"EMAs":"X X X X X O","ticker":"FICO","dayChange":-1.1,"rsi_14":62.2,"weekRange":43.35},
+{"EMAs":"X X X X X O","ticker":"FICO","dayChange":-1.1,"rsi_14":62.2,"weekRange":43.45},
 {"EMAs":"X X X X X O","ticker":"AR","dayChange":-2.1,"rsi_14":58.9,"weekRange":35.94},
 {"EMAs":"X X X X X X","ticker":"BIIB","dayChange":1.2,"rsi_14":68.1,"weekRange":78.15},
 {"EMAs":"X X X X X X","ticker":"GM","dayChange":0.87,"rsi_14":72.8,"weekRange":98.21},

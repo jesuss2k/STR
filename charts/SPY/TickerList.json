@@ -35,7 +35,7 @@
 {"ticker":"ACN","dayChange":1.64,"rsi_14":50.5,"weekRange":10.14},
 {"ticker":"ABT","dayChange":1.43,"rsi_14":53.8,"weekRange":59.14},
 {"ticker":"DHR","dayChange":0.53,"rsi_14":0,"weekRange":23.7},
-{"ticker":"CMCSA","dayChange":0.68,"rsi_14":0,"weekRange":36.36},
+{"ticker":"CMCSA","dayChange":0.68,"rsi_14":0,"weekRange":36.76},
 {"ticker":"TXN","dayChange":2.1,"rsi_14":40.9,"weekRange":28.31},
 {"ticker":"PM","dayChange":-0.79,"rsi_14":53.2,"weekRange":55.89},
 {"ticker":"VZ","dayChange":0.25,"rsi_14":53.5,"weekRange":32.91},

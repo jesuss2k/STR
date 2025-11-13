@@ -37,7 +37,7 @@
 {"Date":"25-07-29","ticker":"BABA","dayChange":-1.8,"rsi_14":39.5,"weekRange":69.13},
 {"Date":"25-07-29","ticker":"AEO","dayChange":1.89,"rsi_14":61.2,"weekRange":75.71},
 {"Date":"25-07-22","ticker":"PDD","dayChange":-0.78,"rsi_14":56.1,"weekRange":93.56},
-{"Date":"25-07-03","ticker":"LABU","dayChange":0.13,"rsi_14":66.8,"weekRange":95.55},
+{"Date":"25-07-03","ticker":"LABU","dayChange":0.13,"rsi_14":66.8,"weekRange":97.1},
 {"Date":"25-07-02","ticker":"DKS","dayChange":2.23,"rsi_14":50.1,"weekRange":64.03},
 {"Date":"25-06-17","ticker":"HES","dayChange":0.96,"rsi_14":0,"weekRange":65.95},
 {"Date":"25-06-16","ticker":"BP","dayChange":-1.31,"rsi_14":65.2,"weekRange":93.72},
@@ -50,7 +50,7 @@
 {"Date":"25-06-04","ticker":"SOXL","dayChange":4.54,"rsi_14":52.4,"weekRange":83.81},
 {"Date":"25-06-04","ticker":"UDOW","dayChange":2.1,"rsi_14":66.9,"weekRange":98.16},
 {"Date":"25-06-03","ticker":"WBD","dayChange":-3.73,"rsi_14":63.3,"weekRange":93.62},
-{"Date":"25-06-03","ticker":"PSN","dayChange":-0.18,"rsi_14":58.9,"weekRange":53.48},
+{"Date":"25-06-03","ticker":"PSN","dayChange":-0.18,"rsi_14":58.9,"weekRange":54.57},
 {"Date":"25-06-02","ticker":"KYMR","dayChange":0.25,"rsi_14":61.8,"weekRange":95.33},
 {"Date":"25-05-27","ticker":"GOOGL","dayChange":-1.58,"rsi_14":66.5,"weekRange":96.5},
 {"Date":"25-05-27","ticker":"DAL","dayChange":4.75,"rsi_14":54.9,"weekRange":73.05},
@@ -98,6 +98,6 @@
 {"Date":"25-02-03","ticker":"NUGT","dayChange":6.78,"rsi_14":60.4,"weekRange":80.63},
 {"Date":"25-01-31","ticker":"GDX","dayChange":3.31,"rsi_14":61.8,"weekRange":88.71},
 {"Date":"25-01-24","ticker":"TD","dayChange":1.4,"rsi_14":64.0,"weekRange":99.4},
-{"Date":"24-11-20","ticker":"NMHI","dayChange":-8.33,"rsi_14":0,"weekRange":3.03},
+{"Date":"24-11-20","ticker":"NMHI","dayChange":-8.33,"rsi_14":0,"weekRange":5.24},
 {"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":35.47}
 ]

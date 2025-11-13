@@ -23,7 +23,7 @@
 {"EMAs":"X X O O O O","ticker":"KLAC","dayChange":0.68,"rsi_14":57.1,"weekRange":88.34},
 {"EMAs":"X X O O O O","ticker":"NET","dayChange":-3.95,"rsi_14":49.7,"weekRange":80.07},
 {"EMAs":"O X X X X X","ticker":"DAL","dayChange":4.75,"rsi_14":54.9,"weekRange":73.05},
-{"EMAs":"O O O O O O","ticker":"ASPN","dayChange":-5.25,"rsi_14":23.9,"weekRange":0.15},
+{"EMAs":"O O O O O O","ticker":"ASPN","dayChange":-5.25,"rsi_14":23.9,"weekRange":0.16},
 {"EMAs":"O O X X X X","ticker":"ULCC","dayChange":7.12,"rsi_14":49.3,"weekRange":15.86},
 {"EMAs":"O O O X X X","ticker":"GTLB","dayChange":-0.17,"rsi_14":47.9,"weekRange":23.57},
 {"EMAs":"X X X X X X","ticker":"EA","dayChange":0.03,"rsi_14":73.9,"weekRange":98.02},
