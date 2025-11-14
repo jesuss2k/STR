@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.15,"rsi_14":69.4,"weekRange":97.63},
-{"EMAs":"X X X X O X","ticker":"AEO","dayChange":0.54,"rsi_14":58.9,"weekRange":74.16},
-{"EMAs":"X X X O O X","ticker":"VEEV","dayChange":0.78,"rsi_14":52.4,"weekRange":84.84},
-{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.83,"rsi_14":56.8,"weekRange":75.07}
+{"EMAs":"X X X X O X","ticker":"AEO","dayChange":0.97,"rsi_14":59.5,"weekRange":74.82},
+{"EMAs":"X X X O O X","ticker":"VEEV","dayChange":1.05,"rsi_14":53.2,"weekRange":85.56}
 ]
