@@ -45,7 +45,7 @@
 {"$ Prft":2.0,"% Pfrt":0.5,"EMAs":"O O O O O O","ticker":"ACIW","dayChange":-0.86,"rsi_14":40.6,"weekRange":34.84},
 {"$ Prft":-35.0,"% Pfrt":-4.6,"EMAs":"O O O X O O","ticker":"OMC","dayChange":-1.39,"rsi_14":40.2,"weekRange":12.47},
 {"$ Prft":133.0,"% Pfrt":19.3,"EMAs":"X X X X X X","ticker":"BIIB","dayChange":2.01,"rsi_14":71.4,"weekRange":83.09},
-{"$ Prft":140.0,"% Pfrt":20.0,"EMAs":"X X X O O O","ticker":"ILMN","dayChange":-1.73,"rsi_14":63.4,"weekRange":60.66},
+{"$ Prft":140.0,"% Pfrt":20.1,"EMAs":"X X X O O O","ticker":"ILMN","dayChange":-1.68,"rsi_14":63.5,"weekRange":60.73},
 {"$ Prft":-39.0,"% Pfrt":-19.8,"EMAs":"O O O O O O","ticker":"CRWV","dayChange":-8.3,"rsi_14":24.3,"weekRange":29.2},
 {"$ Prft":-49.0,"% Pfrt":-5.5,"EMAs":"O O O O O O","ticker":"NOW","dayChange":-1.66,"rsi_14":34.7,"weekRange":32.93},
 {"$ Prft":10.0,"% Pfrt":2.2,"EMAs":"O O O O O O","ticker":"WDAY","dayChange":-1.08,"rsi_14":38.7,"weekRange":20.48},
@@ -84,9 +84,9 @@
 {"$ Prft":-93.0,"% Pfrt":-13.1,"EMAs":"O O O O O O","ticker":"DOMO","dayChange":-7.62,"rsi_14":37.2,"weekRange":50.88},
 {"$ Prft":-24.0,"% Pfrt":-3.9,"EMAs":"X X X O O O","ticker":"IOT","dayChange":-1.83,"rsi_14":49.1,"weekRange":24.0},
 {"$ Prft":-11.0,"% Pfrt":-1.8,"EMAs":"O O X X O O","ticker":"EBAY","dayChange":-3.83,"rsi_14":42.1,"weekRange":60.6},
-{"$ Prft":-102.0,"% Pfrt":-7.7,"EMAs":"O O O O O O","ticker":"META","dayChange":0.16,"rsi_14":27.1,"weekRange":41.14},
+{"$ Prft":-102.0,"% Pfrt":-7.7,"EMAs":"O O O O O O","ticker":"META","dayChange":0.14,"rsi_14":27.0,"weekRange":41.11},
 {"$ Prft":18.0,"% Pfrt":3.1,"EMAs":"O O X X X X","ticker":"DXCM","dayChange":0.18,"rsi_14":40.6,"weekRange":14.33},
 {"$ Prft":-135.0,"% Pfrt":-16.7,"EMAs":"O O O O O O","ticker":"AMSC","dayChange":-4.41,"rsi_14":29.3,"weekRange":34.78},
 {"$ Prft":41.0,"% Pfrt":2.6,"EMAs":"X O O O O O","ticker":"TQQQ","dayChange":-6.18,"rsi_14":44.8,"weekRange":80.65},
-{"$ Prft":35.0,"% Pfrt":3.2,"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-4.96,"rsi_14":46.7,"weekRange":87.0}
+{"$ Prft":35.0,"% Pfrt":3.2,"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-4.98,"rsi_14":46.7,"weekRange":86.97}
 ]
