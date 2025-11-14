@@ -1,6 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"AEO","dayChange":0.51,"rsi_14":58.9,"weekRange":74.11},
-{"EMAs":"X X X O O X","ticker":"VEEV","dayChange":0.93,"rsi_14":52.8,"weekRange":85.24},
-{"EMAs":"X X X O O X","ticker":"VNOM","dayChange":1.56,"rsi_14":51.7,"weekRange":13.65},
-{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.73,"rsi_14":56.6,"weekRange":74.88}
+{"EMAs":"X X X X O X","ticker":"EA","dayChange":0.15,"rsi_14":69.4,"weekRange":97.62},
+{"EMAs":"X X X X O X","ticker":"AEO","dayChange":0.54,"rsi_14":58.9,"weekRange":74.16},
+{"EMAs":"X X X O O X","ticker":"VEEV","dayChange":0.69,"rsi_14":52.1,"weekRange":84.58},
+{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.82,"rsi_14":56.7,"weekRange":75.04}
 ]
