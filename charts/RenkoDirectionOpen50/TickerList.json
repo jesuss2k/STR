@@ -60,7 +60,7 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"GDDY","dayChange":-1.05,"rsi_14":41.3,"weekRange":5.16},
 {"EMAs":"X X O O X X","Group":"O","ticker":"CRWD","dayChange":1.47,"rsi_14":55.6,"weekRange":89.09},
 {"EMAs":"O O X X X X","Group":"O","ticker":"COST","dayChange":-0.23,"rsi_14":47.6,"weekRange":24.83},
-{"EMAs":"X O O O O O","Group":"O","ticker":"UPRO","dayChange":-0.13,"rsi_14":46.4,"weekRange":86.78},
+{"EMAs":"X O O O O O","Group":"O","ticker":"UPRO","dayChange":-0.15,"rsi_14":46.4,"weekRange":86.75},
 {"EMAs":"X X O O O O","Group":"O","ticker":"AAL","dayChange":-2.37,"rsi_14":49.3,"weekRange":40.19},
 {"EMAs":"O O O O O O","Group":"X","ticker":"ADBE","dayChange":-0.75,"rsi_14":41.6,"weekRange":3.44},
 {"EMAs":"O O O X X X","Group":"X","ticker":"CMG","dayChange":0.61,"rsi_14":30.2,"weekRange":4.92},

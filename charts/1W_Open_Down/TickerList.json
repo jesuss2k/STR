@@ -64,7 +64,7 @@
 {"EMAs":"O O X X X X","ticker":"WDAY","dayChange":3.28,"rsi_14":48.2,"weekRange":28.75},
 {"EMAs":"X X O O O O","ticker":"SOFI","dayChange":-2.01,"rsi_14":46.8,"weekRange":79.65},
 {"EMAs":"O X X O O O","ticker":"MGM","dayChange":-1.07,"rsi_14":47.9,"weekRange":44.76},
-{"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-0.13,"rsi_14":46.4,"weekRange":86.78},
+{"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-0.15,"rsi_14":46.4,"weekRange":86.75},
 {"EMAs":"X O O O O O","ticker":"ASML","dayChange":-1.26,"rsi_14":47.8,"weekRange":84.41},
 {"EMAs":"O O X X X X","ticker":"DPZ","dayChange":0.36,"rsi_14":47.9,"weekRange":16.04},
 {"EMAs":"O X X X X X","ticker":"TMUS","dayChange":0.7,"rsi_14":48.6,"weekRange":21.63},

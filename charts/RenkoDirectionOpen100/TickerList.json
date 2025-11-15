@@ -87,5 +87,5 @@
 {"EMAs":"X X X X O O","Group":"X","ticker":"GM","dayChange":-1.91,"rsi_14":65.2,"weekRange":92.48},
 {"EMAs":"X X X X X X","Group":"X","ticker":"LLY","dayChange":0.24,"rsi_14":83.2,"weekRange":97.97},
 {"EMAs":"X X X X X X","Group":"X","ticker":"MU","dayChange":4.17,"rsi_14":64.7,"weekRange":94.76},
-{"EMAs":"X O O O O O","Group":"X","ticker":"UPRO","dayChange":-0.13,"rsi_14":46.4,"weekRange":86.78}
+{"EMAs":"X O O O O O","Group":"X","ticker":"UPRO","dayChange":-0.15,"rsi_14":46.4,"weekRange":86.75}
 ]

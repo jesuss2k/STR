@@ -71,7 +71,7 @@
 {"$ Prft":502.0,"% Pfrt":33.2,"EMAs":"X O O O O O","ticker":"ASML","dayChange":-1.26,"rsi_14":47.8,"weekRange":84.41},
 {"$ Prft":-38.0,"% Pfrt":-6.2,"EMAs":"X O O O O O","ticker":"IOT","dayChange":-2.35,"rsi_14":44.9,"weekRange":21.02},
 {"$ Prft":42.0,"% Pfrt":2.7,"EMAs":"X O O O O O","ticker":"TQQQ","dayChange":0.08,"rsi_14":44.9,"weekRange":80.75},
-{"$ Prft":33.0,"% Pfrt":3.1,"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-0.13,"rsi_14":46.4,"weekRange":86.78},
+{"$ Prft":33.0,"% Pfrt":3.0,"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-0.15,"rsi_14":46.4,"weekRange":86.75},
 {"$ Prft":-4.0,"% Pfrt":-0.8,"EMAs":"X O X X O O","ticker":"QCOM","dayChange":-0.3,"rsi_14":51.8,"weekRange":62.45},
 {"$ Prft":-7.0,"% Pfrt":-1.2,"EMAs":"X X O O O O","ticker":"JPM","dayChange":-1.9,"rsi_14":44.4,"weekRange":84.48},
 {"$ Prft":-32.0,"% Pfrt":-5.4,"EMAs":"X X O O O O","ticker":"SOFI","dayChange":-2.01,"rsi_14":46.8,"weekRange":79.65},

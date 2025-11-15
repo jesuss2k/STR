@@ -87,5 +87,5 @@
 {"$ Prft":1.0,"% Pfrt":0.2,"EMAs":"O O X X O O","ticker":"DXCM","dayChange":-2.78,"rsi_14":37.5,"weekRange":10.09},
 {"$ Prft":-129.0,"% Pfrt":-16.0,"EMAs":"O O O O O O","ticker":"AMSC","dayChange":0.83,"rsi_14":29.8,"weekRange":35.27},
 {"$ Prft":42.0,"% Pfrt":2.7,"EMAs":"X O O O O O","ticker":"TQQQ","dayChange":0.08,"rsi_14":44.9,"weekRange":80.75},
-{"$ Prft":33.0,"% Pfrt":3.1,"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-0.13,"rsi_14":46.4,"weekRange":86.78}
+{"$ Prft":33.0,"% Pfrt":3.0,"EMAs":"X O O O O O","ticker":"UPRO","dayChange":-0.15,"rsi_14":46.4,"weekRange":86.75}
 ]
