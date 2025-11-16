@@ -3,6 +3,7 @@
 {"EMAs":"O O O O O X","ticker":"AVGO","dayChange":0.73,"rsi_14":45.2,"weekRange":82.28},
 {"EMAs":"X O O O X X","ticker":"NVDA","dayChange":1.77,"rsi_14":49.4,"weekRange":82.46},
 {"EMAs":"X X O O O O","ticker":"GOOG","dayChange":-0.77,"rsi_14":56.0,"weekRange":89.73},
+{"EMAs":"X O O O O O","ticker":"ASML","dayChange":-1.26,"rsi_14":47.8,"weekRange":84.41},
 {"EMAs":"X X X X O O","ticker":"AMD","dayChange":-0.46,"rsi_14":55.1,"weekRange":89.37},
 {"EMAs":"O O O O O O","ticker":"ALK","dayChange":-1.58,"rsi_14":38.5,"weekRange":4.91},
 {"EMAs":"O O O O O O","ticker":"BABA","dayChange":-3.78,"rsi_14":36.9,"weekRange":65.48},
@@ -22,7 +23,7 @@
 {"EMAs":"O X X X X O","ticker":"T","dayChange":-0.62,"rsi_14":49.5,"weekRange":50.06},
 {"EMAs":"O X X X X X","ticker":"ABT","dayChange":1.03,"rsi_14":59.1,"weekRange":64.97},
 {"EMAs":"X O O O O O","ticker":"PDD","dayChange":-2.62,"rsi_14":43.2,"weekRange":83.82},
-{"EMAs":"X O O O O O","ticker":"NET","dayChange":-1.38,"rsi_14":41.8,"weekRange":71.32},
+{"EMAs":"X O O O O O","ticker":"NET","dayChange":-1.38,"rsi_14":41.8,"weekRange":71.04},
 {"EMAs":"X O O O O O","ticker":"IBKR","dayChange":-1.51,"rsi_14":42.4,"weekRange":81.94},
 {"EMAs":"X O O O O O","ticker":"KLAC","dayChange":-2.36,"rsi_14":46.4,"weekRange":79.52},
 {"EMAs":"X X X X O O","ticker":"EA","dayChange":-0.14,"rsi_14":65.9,"weekRange":96.96}

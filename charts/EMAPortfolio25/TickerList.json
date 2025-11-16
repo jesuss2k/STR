@@ -1,6 +1,6 @@
 [
 {"Group":"12:25 ","ticker":"LUNA","dayChange":-5.63,"rsi_14":51.3,"weekRange":57.33},
-{"Group":"100:200","ticker":"DE","dayChange":0.6,"rsi_14":55.4,"weekRange":59.97},
+{"Group":"100:200","ticker":"DE","dayChange":0.6,"rsi_14":55.4,"weekRange":58.19},
 {"Group":"50:100","ticker":"WMT","dayChange":-0.06,"rsi_14":46.5,"weekRange":76.16},
 {"Group":"50:100","ticker":"NRG","dayChange":-0.58,"rsi_14":47.1,"weekRange":84.8},
 {"Group":"25:50","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":35.47},
@@ -78,7 +78,7 @@
 {"Group":"12","ticker":"MCD","dayChange":-0.18,"rsi_14":55.1,"weekRange":61.26},
 {"Group":"12","ticker":"KYMR","dayChange":2.06,"rsi_14":64.6,"weekRange":92.83},
 {"Group":"12","ticker":"ABT","dayChange":1.03,"rsi_14":59.1,"weekRange":64.97},
-{"Group":"12","ticker":"DE","dayChange":0.6,"rsi_14":55.4,"weekRange":59.97},
+{"Group":"12","ticker":"DE","dayChange":0.6,"rsi_14":55.4,"weekRange":58.19},
 {"Group":"12","ticker":"MRK","dayChange":-0.01,"rsi_14":70.4,"weekRange":61.75},
 {"Group":"12","ticker":"CSCO","dayChange":0.8,"rsi_14":72.6,"weekRange":94.52},
 {"Group":"12","ticker":"ULTA","dayChange":-0.85,"rsi_14":52.2,"weekRange":83.71},

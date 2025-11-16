@@ -1,10 +1,10 @@
 [
 {"EMAs":"X X X X O O","Blocks":1,"ticker":"NVDD","dayChange":-1.6,"rsi_14":54.4,"weekRange":85.53},
 {"EMAs":"O O O O O O","Blocks":1,"ticker":"JBLU","dayChange":-3.01,"rsi_14":40.3,"weekRange":17.1},
-{"EMAs":"X X X X O O","Blocks":1,"ticker":"DE","dayChange":0.6,"rsi_14":55.4,"weekRange":59.97},
+{"EMAs":"X X X X O O","Blocks":1,"ticker":"DE","dayChange":0.6,"rsi_14":55.4,"weekRange":58.19},
 {"EMAs":"O O O O O O","Blocks":1,"ticker":"RETL","dayChange":-2.02,"rsi_14":38.0,"weekRange":46.94},
 {"EMAs":"O O O O O O","Blocks":1,"ticker":"TGT","dayChange":-0.79,"rsi_14":44.9,"weekRange":6.21},
-{"EMAs":"O O O O O O","Blocks":1,"ticker":"TTWO","dayChange":-1.06,"rsi_14":35.0,"weekRange":66.23},
+{"EMAs":"O O O O O O","Blocks":1,"ticker":"TTWO","dayChange":-1.06,"rsi_14":35.0,"weekRange":66.07},
 {"EMAs":"O O O O O O","Blocks":1,"ticker":"XRT","dayChange":-0.58,"rsi_14":39.8,"weekRange":66.6},
 {"EMAs":"O O O O O X","Blocks":1,"ticker":"ADSK","dayChange":0.75,"rsi_14":44.1,"weekRange":69.2},
 {"EMAs":"O O O X O O","Blocks":1,"ticker":"KMB","dayChange":-0.42,"rsi_14":32.2,"weekRange":9.36},
