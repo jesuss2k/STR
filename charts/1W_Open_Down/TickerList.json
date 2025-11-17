@@ -30,6 +30,7 @@
 {"EMAs":"O O O O O O","ticker":"COF","dayChange":-2.25,"rsi_14":35.6,"weekRange":70.8},
 {"EMAs":"O O O O O O","ticker":"FAST","dayChange":-0.61,"rsi_14":30.6,"weekRange":31.97},
 {"EMAs":"O O O O O O","ticker":"ACIW","dayChange":-0.59,"rsi_14":38.7,"weekRange":32.4},
+{"EMAs":"O O O O X X","ticker":"MELI","dayChange":0.55,"rsi_14":38.1,"weekRange":41.44},
 {"EMAs":"O O X X O O","ticker":"DXCM","dayChange":0.65,"rsi_14":38.6,"weekRange":11.06},
 {"EMAs":"X O O O O O","ticker":"SOFI","dayChange":-2.86,"rsi_14":44.6,"weekRange":76.36},
 {"EMAs":"O O O O O O","ticker":"ANF","dayChange":0.23,"rsi_14":41.3,"weekRange":4.53},

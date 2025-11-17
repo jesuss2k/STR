@@ -157,6 +157,7 @@
 {"ticker":"MDB","positionStatus":"Closed","price":287.5923},
 {"ticker":"MDLZ","positionStatus":"Closed","price":68.8021},
 {"ticker":"MELI","positionStatus":"Closed","price":2082.84},
+{"ticker":"MELI","positionStatus":"Open","price":2043.54},
 {"ticker":"META","positionStatus":"Closed","price":680.54},
 {"ticker":"META","positionStatus":"Open","price":661.1},
 {"ticker":"MGM","positionStatus":"Closed","price":38.8104},

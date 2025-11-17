@@ -42,6 +42,7 @@
 {"$ Prft":-39.0,"% Pfrt":-5.0,"EMAs":"O O O O O X","ticker":"OMC","dayChange":0.64,"rsi_14":40.0,"weekRange":11.5},
 {"$ Prft":-6.0,"% Pfrt":-0.8,"EMAs":"O O O O X X","ticker":"SNPS","dayChange":1.4,"rsi_14":34.0,"weekRange":10.33},
 {"$ Prft":-234.0,"% Pfrt":-26.0,"EMAs":"O O O O X X","ticker":"PAYC","dayChange":0.08,"rsi_14":29.4,"weekRange":8.77},
+{"$ Prft":17.0,"% Pfrt":0.8,"EMAs":"O O O O X X","ticker":"MELI","dayChange":0.55,"rsi_14":38.1,"weekRange":41.44},
 {"$ Prft":163.0,"% Pfrt":18.3,"EMAs":"O O O O X X","ticker":"VST","dayChange":0.41,"rsi_14":39.5,"weekRange":65.65},
 {"$ Prft":-169.0,"% Pfrt":-26.6,"EMAs":"O O O X O O","ticker":"CMG","dayChange":-1.56,"rsi_14":28.7,"weekRange":3.59},
 {"$ Prft":-143.0,"% Pfrt":-15.5,"EMAs":"O O O X X X","ticker":"CROX","dayChange":6.24,"rsi_14":46.7,"weekRange":9.6},

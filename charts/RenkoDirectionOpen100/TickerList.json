@@ -30,6 +30,7 @@
 {"EMAs":"O O O O O X","Group":"O","ticker":"OMC","dayChange":0.64,"rsi_14":40.0,"weekRange":11.5},
 {"EMAs":"O O O O O O","Group":"O","ticker":"OKTA","dayChange":-2.41,"rsi_14":32.4,"weekRange":18.09},
 {"EMAs":"O O O O O O","Group":"O","ticker":"MNDY","dayChange":-4.01,"rsi_14":30.3,"weekRange":1.62},
+{"EMAs":"O O O O X X","Group":"O","ticker":"MELI","dayChange":0.55,"rsi_14":38.1,"weekRange":41.44},
 {"EMAs":"O O X O O O","Group":"O","ticker":"LULU","dayChange":-2.64,"rsi_14":44.2,"weekRange":2.62},
 {"EMAs":"O O X X X O","Group":"O","ticker":"MSFT","dayChange":-0.44,"rsi_14":45.9,"weekRange":77.46},
 {"EMAs":"O O O O O O","Group":"O","ticker":"NOW","dayChange":-0.87,"rsi_14":33.3,"weekRange":31.64},
