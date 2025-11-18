@@ -1,3 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"T","dayChange":0.82,"rsi_14":49.7,"weekRange":51.13}
+{"EMAs":"O X X O O X","ticker":"MTDR","dayChange":2.27,"rsi_14":50.1,"weekRange":20.1},
+{"EMAs":"O X X O O X","ticker":"CPB","dayChange":1.22,"rsi_14":52.0,"weekRange":9.77}
 ]

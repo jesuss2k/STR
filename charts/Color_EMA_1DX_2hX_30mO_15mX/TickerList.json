@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"EA","dayChange":0.43,"rsi_14":67.3,"weekRange":97.62}
+{"EMAs":"X X X O O X","ticker":"GDX","dayChange":1.32,"rsi_14":53.7,"weekRange":82.3},
+{"EMAs":"X X X O O X","ticker":"NUGT","dayChange":2.34,"rsi_14":52.2,"weekRange":71.85},
+{"EMAs":"X X X X O X","ticker":"KYMR","dayChange":1.54,"rsi_14":63.8,"weekRange":93.13},
+{"EMAs":"X X X O O X","ticker":"PFE","dayChange":1.24,"rsi_14":55.7,"weekRange":66.05}
 ]
