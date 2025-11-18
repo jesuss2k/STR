@@ -23,7 +23,7 @@
 {"EMAs":"X X X X O O","ticker":"ERX","dayChange":-3.67,"rsi_14":55.0,"weekRange":50.89},
 {"EMAs":"O X X X X O","ticker":"PGR","dayChange":0.08,"rsi_14":55.8,"weekRange":27.34},
 {"EMAs":"X X O O O O","ticker":"CAT","dayChange":-0.36,"rsi_14":54.2,"weekRange":86.57},
-{"EMAs":"X X X X O O","ticker":"DE","dayChange":-0.05,"rsi_14":55.1,"weekRange":58.01},
+{"EMAs":"X X X X O O","ticker":"DE","dayChange":-0.05,"rsi_14":55.1,"weekRange":57.51},
 {"EMAs":"O X X X X X","ticker":"MIRM","dayChange":1.08,"rsi_14":53.8,"weekRange":84.8},
 {"EMAs":"X O O X X X","ticker":"AMAT","dayChange":1.19,"rsi_14":52.7,"weekRange":88.39},
 {"EMAs":"O X X X X X","ticker":"SDS","dayChange":1.89,"rsi_14":57.5,"weekRange":7.04},

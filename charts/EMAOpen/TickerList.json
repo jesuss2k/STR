@@ -9,7 +9,6 @@
 {"EMAs":"X X O O O O","Group":"12:25 ","ticker":"AAPL","dayChange":-1.82,"rsi_14":54.4,"weekRange":90.88},
 {"EMAs":"X X O O O O","Group":"12:25 ","ticker":"CRWD","dayChange":-1.45,"rsi_14":52.0,"weekRange":86.2},
 {"EMAs":"X O O O O O","Group":"25:50","ticker":"AMZN","dayChange":-0.78,"rsi_14":48.3,"weekRange":73.53},
-{"EMAs":"X X O O O O","Group":"25:50","ticker":"IBM","dayChange":-2.79,"rsi_14":48.4,"weekRange":76.8},
 {"EMAs":"O O O O O O","Group":"50:100","ticker":"PANW","dayChange":-1.14,"rsi_14":38.9,"weekRange":73.94},
 {"EMAs":"X O O O O O","Group":"50:100","ticker":"SOFI","dayChange":-2.8,"rsi_14":44.7,"weekRange":76.42},
 {"EMAs":"X O O O O O","Group":"50:100","ticker":"QCOM","dayChange":-4.16,"rsi_14":44.0,"weekRange":53.96},
