@@ -1,13 +1,14 @@
 [
-{"EMAs":"O X X X X X","ticker":"PGR","dayChange":0.64,"rsi_14":57.7,"weekRange":28.89},
-{"EMAs":"O X X X X X","ticker":"TECS","dayChange":6.3,"rsi_14":61.9,"weekRange":5.54},
-{"EMAs":"O X X X X X","ticker":"FNGD","dayChange":5.48,"rsi_14":61.3,"weekRange":4.51},
-{"EMAs":"O X X X X X","ticker":"QID","dayChange":3.33,"rsi_14":61.9,"weekRange":9.19},
-{"EMAs":"O X X X X X","ticker":"SQQQ","dayChange":4.99,"rsi_14":61.5,"weekRange":6.43},
-{"EMAs":"O X X X X X","ticker":"SDS","dayChange":2.45,"rsi_14":63.1,"weekRange":9.45},
-{"EMAs":"O X X X X X","ticker":"SPXU","dayChange":3.62,"rsi_14":63.0,"weekRange":7.27},
-{"EMAs":"O O X X X X","ticker":"WMT","dayChange":-0.33,"rsi_14":47.3,"weekRange":76.6},
-{"EMAs":"O X X X X X","ticker":"SOXS","dayChange":9.09,"rsi_14":58.5,"weekRange":2.6},
-{"EMAs":"O X X X X X","ticker":"SDOW","dayChange":3.47,"rsi_14":60.8,"weekRange":11.42},
-{"EMAs":"O X X X X X","ticker":"AMZD","dayChange":3.84,"rsi_14":57.1,"weekRange":22.49}
+{"EMAs":"O X X X X X","ticker":"MIRM","dayChange":0.06,"rsi_14":54.0,"weekRange":84.89},
+{"EMAs":"O X X X X X","ticker":"T","dayChange":0.84,"rsi_14":51.1,"weekRange":51.19},
+{"EMAs":"O X X X X X","ticker":"PGR","dayChange":-0.04,"rsi_14":55.6,"weekRange":27.23},
+{"EMAs":"O X X X X X","ticker":"PM","dayChange":1.75,"rsi_14":52.7,"weekRange":55.71},
+{"EMAs":"O X X X X X","ticker":"TECS","dayChange":3.55,"rsi_14":59.6,"weekRange":4.95},
+{"EMAs":"O X X X X X","ticker":"FNGD","dayChange":3.04,"rsi_14":58.8,"weekRange":4.0},
+{"EMAs":"O X X X X X","ticker":"QID","dayChange":1.6,"rsi_14":59.2,"weekRange":8.01},
+{"EMAs":"O X X X X X","ticker":"SQQQ","dayChange":2.46,"rsi_14":58.8,"weekRange":5.59},
+{"EMAs":"O X X X X X","ticker":"SDS","dayChange":1.17,"rsi_14":60.4,"weekRange":8.19},
+{"EMAs":"O X X X X X","ticker":"SPXU","dayChange":1.84,"rsi_14":60.3,"weekRange":6.34},
+{"EMAs":"O X X X X X","ticker":"SOXS","dayChange":4.91,"rsi_14":56.0,"weekRange":2.27},
+{"EMAs":"O X X X X X","ticker":"SDOW","dayChange":2.87,"rsi_14":60.0,"weekRange":10.95}
 ]
