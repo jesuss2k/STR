@@ -1,9 +1,8 @@
 [
-{"EMAs":"O O O O X X","ticker":"PCAR","dayChange":4.38,"rsi_14":51.5,"weekRange":39.88},
-{"EMAs":"X X O O O X","ticker":"AAPL","dayChange":0.52,"rsi_14":56.5,"weekRange":92.16},
-{"EMAs":"X X X O O O","ticker":"FICO","dayChange":-1.55,"rsi_14":55.8,"weekRange":39.36},
-{"EMAs":"X X X O X X","ticker":"AR","dayChange":3.39,"rsi_14":59.2,"weekRange":38.08},
-{"EMAs":"X X O O X X","ticker":"ILMN","dayChange":1.11,"rsi_14":64.6,"weekRange":62.49},
-{"EMAs":"X X X X X X","ticker":"BIIB","dayChange":2.41,"rsi_14":71.2,"weekRange":96.49},
-{"EMAs":"X X X X X X","ticker":"LLY","dayChange":1.53,"rsi_14":83.2,"weekRange":99.18}
+{"EMAs":"X X O O O O","ticker":"AAPL","dayChange":-0.01,"rsi_14":54.3,"weekRange":90.86},
+{"EMAs":"X X O O O O","ticker":"FICO","dayChange":-2.0,"rsi_14":54.8,"weekRange":38.63},
+{"EMAs":"X X X X X X","ticker":"AR","dayChange":3.33,"rsi_14":59.1,"weekRange":37.95},
+{"EMAs":"X X X O X X","ticker":"ILMN","dayChange":1.57,"rsi_14":65.2,"weekRange":63.15},
+{"EMAs":"X X X X X X","ticker":"BIIB","dayChange":2.52,"rsi_14":71.3,"weekRange":96.79},
+{"EMAs":"X X X X X X","ticker":"LLY","dayChange":0.82,"rsi_14":82.5,"weekRange":97.44}
 ]
