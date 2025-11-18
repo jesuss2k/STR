@@ -1,7 +1,7 @@
 [
 {"EMAs":"O O O O O O","ticker":"AVGO","dayChange":0.06,"rsi_14":45.3,"weekRange":82.35},
 {"EMAs":"O O O O O O","ticker":"TSLA","dayChange":1.13,"rsi_14":42.6,"weekRange":70.97},
-{"EMAs":"X O O O O O","ticker":"NVDA","dayChange":-1.83,"rsi_14":46.5,"weekRange":79.69},
+{"EMAs":"X O O O O O","ticker":"NVDA","dayChange":-1.88,"rsi_14":46.4,"weekRange":79.62},
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":3.11,"rsi_14":61.9,"weekRange":94.13},
 {"EMAs":"X O O O O X","ticker":"ASML","dayChange":1.29,"rsi_14":50.8,"weekRange":86.98},
 {"EMAs":"X X O O O O","ticker":"AMD","dayChange":-2.55,"rsi_14":52.0,"weekRange":86.07},
@@ -11,7 +11,7 @@
 {"EMAs":"O O O O O O","ticker":"DAL","dayChange":-4.54,"rsi_14":42.4,"weekRange":59.65},
 {"EMAs":"O O O O O O","ticker":"DELL","dayChange":-8.43,"rsi_14":26.4,"weekRange":55.22},
 {"EMAs":"O O O O O O","ticker":"PFGC","dayChange":-1.06,"rsi_14":34.0,"weekRange":63.15},
-{"EMAs":"O O O O O O","ticker":"WIX","dayChange":-0.88,"rsi_14":33.2,"weekRange":7.03},
+{"EMAs":"O O O O O O","ticker":"WIX","dayChange":-0.85,"rsi_14":33.2,"weekRange":7.06},
 {"EMAs":"O O O O O O","ticker":"HOOD","dayChange":-5.33,"rsi_14":37.7,"weekRange":69.49},
 {"EMAs":"O O O O O O","ticker":"NET","dayChange":-3.96,"rsi_14":38.1,"weekRange":66.14},
 {"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-0.83,"rsi_14":7.3,"weekRange":0.24},
@@ -22,8 +22,8 @@
 {"EMAs":"O O O O O O","ticker":"XYZ","dayChange":-2.63,"rsi_14":24.6,"weekRange":29.25},
 {"EMAs":"O O X X O O","ticker":"MMC","dayChange":-1.06,"rsi_14":40.8,"weekRange":9.07},
 {"EMAs":"O X O O O O","ticker":"OLLI","dayChange":-1.43,"rsi_14":45.5,"weekRange":65.64},
-{"EMAs":"O X X X O O","ticker":"T","dayChange":-0.57,"rsi_14":47.4,"weekRange":48.34},
-{"EMAs":"O X X X X O","ticker":"ABT","dayChange":-0.4,"rsi_14":57.0,"weekRange":63.25},
+{"EMAs":"O X X X O O","ticker":"T","dayChange":-0.47,"rsi_14":47.8,"weekRange":48.63},
+{"EMAs":"O X X X X O","ticker":"ABT","dayChange":-0.43,"rsi_14":56.8,"weekRange":63.12},
 {"EMAs":"X O O O O O","ticker":"PDD","dayChange":-1.46,"rsi_14":39.5,"weekRange":80.17},
 {"EMAs":"X O O O O O","ticker":"KLAC","dayChange":-0.05,"rsi_14":46.3,"weekRange":79.44},
 {"EMAs":"X X X O O O","ticker":"EA","dayChange":-0.14,"rsi_14":63.5,"weekRange":96.63}

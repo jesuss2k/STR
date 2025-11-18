@@ -18,5 +18,5 @@
 {"Timestamp":"2025-11-14 10:30:00","EMAs":"O X X X X X","ticker":"MIRM","dayChange":1.08,"rsi_14":53.8,"weekRange":84.8},
 {"Timestamp":"2025-11-13 10:30:00","EMAs":"O X X X X X","ticker":"SDOW","dayChange":3.59,"rsi_14":55.4,"weekRange":8.65},
 {"Timestamp":"2025-11-12 13:00:00","EMAs":"X X X X X X","ticker":"TZA","dayChange":5.95,"rsi_14":64.4,"weekRange":10.45},
-{"Timestamp":"2025-11-12 10:00:00","EMAs":"O X X X X X","ticker":"AMZD","dayChange":0.9,"rsi_14":50.1,"weekRange":16.38}
+{"Timestamp":"2025-11-12 10:00:00","EMAs":"O X X X X X","ticker":"AMZD","dayChange":0.85,"rsi_14":50.0,"weekRange":16.29}
 ]
