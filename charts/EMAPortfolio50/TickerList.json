@@ -1,7 +1,6 @@
 [
 {"Group":"12:25 ","ticker":"LUNA","dayChange":19.52,"rsi_14":51.1,"weekRange":56.89},
 {"Group":"100:200","ticker":"DG","dayChange":0.17,"rsi_14":53.3,"weekRange":71.62},
-{"Group":"200","ticker":"TYO","dayChange":-0.35,"rsi_14":53.3,"weekRange":15.89},
 {"Group":"200","ticker":"MSFD","dayChange":2.81,"rsi_14":62.9,"weekRange":19.94},
 {"Group":"200","ticker":"VZ","dayChange":1.15,"rsi_14":58.9,"weekRange":39.87},
 {"Group":"200","ticker":"AMZD","dayChange":4.34,"rsi_14":57.9,"weekRange":23.29},
@@ -23,7 +22,6 @@
 {"Group":"200","ticker":"DASH","dayChange":0.68,"rsi_14":37.3,"weekRange":43.57},
 {"Group":"200","ticker":"PGR","dayChange":-0.21,"rsi_14":55.0,"weekRange":26.83},
 {"Group":"200","ticker":"KMB","dayChange":-0.4,"rsi_14":31.0,"weekRange":7.87},
-{"Group":"12","ticker":"TYO","dayChange":-0.35,"rsi_14":53.3,"weekRange":15.89},
 {"Group":"12","ticker":"NOMD","dayChange":0.0,"rsi_14":49.1,"weekRange":10.54},
 {"Group":"12","ticker":"CTLP","dayChange":1.71,"rsi_14":65.0,"weekRange":84.83},
 {"Group":"12","ticker":"NNOX","dayChange":16.96,"rsi_14":46.1,"weekRange":6.45},

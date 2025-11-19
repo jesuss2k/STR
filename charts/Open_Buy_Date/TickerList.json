@@ -70,6 +70,6 @@
 {"$ Prft":22.0,"% Pfrt":3.8,"EMAs":"O O X X X X","ticker":"DXCM","dayChange":2.87,"rsi_14":43.7,"weekRange":15.48},
 {"$ Prft":-184.0,"% Pfrt":-22.8,"EMAs":"O O O O O O","ticker":"AMSC","dayChange":-2.99,"rsi_14":27.8,"weekRange":30.42},
 {"$ Prft":-54.0,"% Pfrt":-3.5,"EMAs":"O O O O O O","ticker":"TQQQ","dayChange":-3.62,"rsi_14":38.3,"weekRange":73.36},
-{"$ Prft":-26.0,"% Pfrt":-2.4,"EMAs":"O O O O O O","ticker":"UPRO","dayChange":-2.48,"rsi_14":37.8,"weekRange":79.06},
+{"$ Prft":-26.0,"% Pfrt":-2.4,"EMAs":"O O O O O O","ticker":"UPRO","dayChange":-2.5,"rsi_14":37.8,"weekRange":79.03},
 {"$ Prft":15.0,"% Pfrt":0.7,"EMAs":"O O O O X X","ticker":"MELI","dayChange":0.05,"rsi_14":38.0,"weekRange":41.31}
 ]

@@ -10,7 +10,7 @@
 {"EMAs":"X O O O O O","Group":"50:100","ticker":"QCOM","dayChange":-1.01,"rsi_14":42.4,"weekRange":51.98},
 {"EMAs":"O O O O O O","Group":"50:100","ticker":"TQQQ","dayChange":-3.62,"rsi_14":38.3,"weekRange":73.36},
 {"EMAs":"O O O O O O","Group":"50:100","ticker":"SOFI","dayChange":-2.96,"rsi_14":42.5,"weekRange":73.1},
-{"EMAs":"O O O O O O","Group":"50:100","ticker":"UPRO","dayChange":-2.48,"rsi_14":37.8,"weekRange":79.06},
+{"EMAs":"O O O O O O","Group":"50:100","ticker":"UPRO","dayChange":-2.5,"rsi_14":37.8,"weekRange":79.03},
 {"EMAs":"O O X X X X","Group":"50:100","ticker":"LMT","dayChange":0.84,"rsi_14":48.9,"weekRange":47.55},
 {"EMAs":"X O O O O O","Group":"50:100","ticker":"JPM","dayChange":-0.32,"rsi_14":40.4,"weekRange":80.98},
 {"EMAs":"O O O O O O","Group":"100:200","ticker":"ALAB","dayChange":-1.32,"rsi_14":33.9,"weekRange":42.82},
