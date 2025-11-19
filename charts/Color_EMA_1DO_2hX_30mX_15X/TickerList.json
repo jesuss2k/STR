@@ -1,9 +1,8 @@
 [
-{"EMAs":"O X X X X X","ticker":"MTDR","dayChange":-1.36,"rsi_14":48.4,"weekRange":18.75},
-{"EMAs":"O X X X X X","ticker":"CTLP","dayChange":-0.05,"rsi_14":64.1,"weekRange":84.71},
-{"EMAs":"O O X X X X","ticker":"NNOX","dayChange":1.66,"rsi_14":47.7,"weekRange":7.12},
-{"EMAs":"O X X X X X","ticker":"PGR","dayChange":0.76,"rsi_14":57.4,"weekRange":28.68},
-{"EMAs":"O O X X X X","ticker":"DASH","dayChange":-1.3,"rsi_14":36.0,"weekRange":41.45},
-{"EMAs":"O X X X X X","ticker":"SDOW","dayChange":-0.55,"rsi_14":59.1,"weekRange":10.72},
-{"EMAs":"O X X X X X","ticker":"AMZD","dayChange":0.86,"rsi_14":59.3,"weekRange":24.75}
+{"EMAs":"O O X X X X","ticker":"ERY","dayChange":3.17,"rsi_14":47.6,"weekRange":11.74},
+{"EMAs":"O X X X X X","ticker":"NOMD","dayChange":0.99,"rsi_14":52.2,"weekRange":11.77},
+{"EMAs":"O O X X X X","ticker":"NRG","dayChange":2.34,"rsi_14":53.0,"weekRange":89.91},
+{"EMAs":"O O X X X X","ticker":"TMDX","dayChange":10.32,"rsi_14":59.2,"weekRange":81.93},
+{"EMAs":"O X X X X X","ticker":"SDOW","dayChange":0.22,"rsi_14":60.7,"weekRange":11.35},
+{"EMAs":"O X X X X X","ticker":"AMZD","dayChange":0.1,"rsi_14":58.1,"weekRange":23.45}
 ]
