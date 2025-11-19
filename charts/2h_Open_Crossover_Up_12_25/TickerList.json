@@ -1,9 +1,10 @@
 [
-{"Date":"25-11-18","ticker":"DECK","dayChange":-0.92,"rsi_14":41.6,"weekRange":2.82},
-{"Date":"25-11-18","ticker":"AR","dayChange":0.1,"rsi_14":59.2,"weekRange":38.18},
-{"Date":"25-11-18","ticker":"CROX","dayChange":2.15,"rsi_14":49.8,"weekRange":12.16},
-{"Date":"25-11-17","ticker":"LMT","dayChange":-0.83,"rsi_14":45.9,"weekRange":44.63},
-{"Date":"25-11-13","ticker":"DXCM","dayChange":-0.91,"rsi_14":42.5,"weekRange":14.08},
-{"Date":"25-10-23","ticker":"LLY","dayChange":1.77,"rsi_14":84.1,"weekRange":98.32},
-{"Date":"25-10-21","ticker":"BIIB","dayChange":-1.11,"rsi_14":67.4,"weekRange":93.69}
+{"Date":"25-11-19","ticker":"NVO","dayChange":3.05,"rsi_14":43.4,"weekRange":5.85},
+{"Date":"25-11-18","ticker":"AR","dayChange":0.92,"rsi_14":60.6,"weekRange":40.09},
+{"Date":"25-11-18","ticker":"DECK","dayChange":-0.91,"rsi_14":41.6,"weekRange":2.83},
+{"Date":"25-11-18","ticker":"CROX","dayChange":2.06,"rsi_14":49.7,"weekRange":12.02},
+{"Date":"25-11-17","ticker":"LMT","dayChange":-1.01,"rsi_14":45.3,"weekRange":44.01},
+{"Date":"25-11-13","ticker":"DXCM","dayChange":-0.73,"rsi_14":42.7,"weekRange":14.36},
+{"Date":"25-10-23","ticker":"LLY","dayChange":1.9,"rsi_14":84.2,"weekRange":98.61},
+{"Date":"25-10-21","ticker":"BIIB","dayChange":-0.53,"rsi_14":69.4,"weekRange":95.31}
 ]
