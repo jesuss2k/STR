@@ -816,8 +816,9 @@ function loadChart_v2(chartType, chartPath, ticker = '') {
 
     // ✅ LINE = just a render mode toggle (keep timeframe)
     if (chartType === 'LINE') {
-        setRenderMode_v2('LINE');
-        loadTradingViewChart_v2(ticker);
+        const newMode = toggleRenderMode_v2();   // ✅ flip LINE <-> CANDLES
+        loadTradingViewChart_v2(ticker);         // ✅ redraw same timeframe
+        updateLineMenuLabel_v2(newMode);         // ✅ refresh label
 
         const menuCaption = document.getElementById("menu-caption");
         if (menuCaption) {
@@ -826,8 +827,7 @@ function loadChart_v2(chartType, chartPath, ticker = '') {
         return;
     }
 
-    // ✅ Any normal timeframe resets to candles
-    setRenderMode_v2('CANDLES');
+    updateLineMenuLabel_v2();
 
     localStorage.setItem('selectedChart', chartType);
 
