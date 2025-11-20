@@ -306,6 +306,19 @@ function prepareCandleData(rawData) {
     }));
 }
 
+
+function plotLine(chart, lineData) {
+    const lineSeries = chart.addLineSeries({
+        color: "blue",
+        lineWidth: 2,
+        priceLineVisible: true,
+        lastValueVisible: true
+    });
+
+    lineSeries.setData(lineData);
+    return lineSeries;
+}
+
 /**
  * Plots candlestick data on the main chart.
  * @param {IChartApi} chart - The main chart instance.
@@ -759,9 +772,18 @@ async function loadTradingViewChart_v2(ticker = null) {
         return;
     }
 
+    // Always prepare candleData (used for orders/GuruFocus)
     const candleData = prepareCandleData(rawData);
-    plotCandlesticks(chart, candleData);
-    console.log(`✅ Candlestick chart successfully loaded for ${ticker}`);
+
+    const renderMode = getRenderMode_v2();
+    if (renderMode === 'LINE') {
+        const lineData = prepareLineData(rawData);
+        plotCloseLine(chart, lineData);
+        console.log(`✅ Rendered LINE for ${ticker}`);
+    } else {
+        plotCandlesticks(chart, candleData);
+        console.log(`✅ Rendered CANDLES for ${ticker}`);
+    }
 
     if (selectedChart === '1W') {
         await plotOrders(chart, candleData, ticker);
@@ -790,7 +812,22 @@ async function loadTradingViewChart_v2(ticker = null) {
 }
 
 function loadChart_v2(chartType, chartPath, ticker = '') {
-    console.log("loadChart_v2 charPath = " + chartPath);
+    console.log("loadChart_v2 chartType = " + chartType);
+
+    // ✅ LINE = just a render mode toggle (keep timeframe)
+    if (chartType === 'LINE') {
+        setRenderMode_v2('LINE');
+        loadTradingViewChart_v2(ticker);
+
+        const menuCaption = document.getElementById("menu-caption");
+        if (menuCaption) {
+            menuCaption.textContent = localStorage.getItem('selectedChart');
+        }
+        return;
+    }
+
+    // ✅ Any normal timeframe resets to candles
+    setRenderMode_v2('CANDLES');
 
     localStorage.setItem('selectedChart', chartType);
 
@@ -839,6 +876,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         //     menuCaption.textContent = localStorage.getItem('selectedChart');
         // }
 
+        document.getElementById("chart-line").onclick = () => loadChart_v2('LINE', 'LINE', ticker);
+
         console.log(`✅ Renamed "Summary" to "${ticker}" in the Options Menu.`);
 
     } catch (error) {
@@ -846,5 +885,48 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 });
 
+// ---------- Render mode (LINE vs CANDLES) ----------
+function getRenderMode_v2() {
+    return localStorage.getItem('chartRenderMode_v2') || 'CANDLES';
+}
 
+function setRenderMode_v2(mode) {
+    localStorage.setItem('chartRenderMode_v2', mode === 'LINE' ? 'LINE' : 'CANDLES');
+}
+
+// ---------- Line chart helpers ----------
+function prepareLineData(rawData) {
+    return rawData.map(entry => ({
+        time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+        value: entry.Close
+    }));
+}
+
+function plotCloseLine(chart, lineData) {
+    const lineSeries = chart.addLineSeries({
+        color: "dodgerblue",   // blue line
+        lineWidth: 2,
+        lastValueVisible: true,
+        priceLineVisible: true
+    });
+    lineSeries.setData(lineData);
+    return lineSeries;
+}
+
+function toggleRenderMode_v2() {
+    const current = getRenderMode_v2();
+    const next = current === 'LINE' ? 'CANDLES' : 'LINE';
+    setRenderMode_v2(next);
+    return next;
+}
+
+// Updates the menu label to show what you'll switch TO
+function updateLineMenuLabel_v2(mode = getRenderMode_v2()) {
+    const lineBtn = document.getElementById('chart-line');
+    if (!lineBtn) return;
+
+    // If currently LINE, button shows "Candles" (clicking will go candles)
+    // If currently CANDLES, button shows "Line"
+    lineBtn.textContent = (mode === 'LINE') ? 'Candles' : 'Line';
+}
 
