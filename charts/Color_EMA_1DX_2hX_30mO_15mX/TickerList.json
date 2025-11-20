@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"FNGD","dayChange":0.92,"rsi_14":57.8,"weekRange":3.98},
-{"EMAs":"X X X X O X","ticker":"QID","dayChange":1.07,"rsi_14":59.6,"weekRange":8.52},
-{"EMAs":"X X X X O X","ticker":"TZA","dayChange":0.11,"rsi_14":63.2,"weekRange":10.18}
+{"EMAs":"X X X X O X","ticker":"TSLS","dayChange":0.35,"rsi_14":57.0,"weekRange":9.15},
+{"EMAs":"X X X X O X","ticker":"NVDD","dayChange":1.29,"rsi_14":57.0,"weekRange":88.34}
 ]
