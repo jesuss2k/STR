@@ -1,5 +1,5 @@
 [
-{"Group":"200","ticker":"MSFD","dayChange":1.56,"rsi_14":69.8,"weekRange":25.19},
+{"Group":"200","ticker":"MSFD","dayChange":1.53,"rsi_14":69.8,"weekRange":25.14},
 {"Group":"200","ticker":"ECL","dayChange":0.09,"rsi_14":48.0,"weekRange":62.28},
 {"Group":"200","ticker":"AMZD","dayChange":2.48,"rsi_14":62.1,"weekRange":27.47},
 {"Group":"200","ticker":"TMV","dayChange":-0.99,"rsi_14":56.0,"weekRange":30.29},
@@ -7,7 +7,7 @@
 {"Group":"200","ticker":"ERY","dayChange":2.37,"rsi_14":51.0,"weekRange":14.63},
 {"Group":"200","ticker":"TZA","dayChange":5.43,"rsi_14":68.3,"weekRange":12.77},
 {"Group":"200","ticker":"TSLS","dayChange":2.43,"rsi_14":59.6,"weekRange":10.5},
-{"Group":"200","ticker":"SDOW","dayChange":2.38,"rsi_14":63.6,"weekRange":13.02},
+{"Group":"200","ticker":"SDOW","dayChange":2.41,"rsi_14":63.7,"weekRange":13.05},
 {"Group":"200","ticker":"NOMD","dayChange":0.08,"rsi_14":51.5,"weekRange":11.46},
 {"Group":"200","ticker":"QID","dayChange":4.73,"rsi_14":65.1,"weekRange":11.04},
 {"Group":"200","ticker":"FNGD","dayChange":6.56,"rsi_14":63.6,"weekRange":5.19},
@@ -27,7 +27,7 @@
 {"Group":"12","ticker":"DUST","dayChange":8.67,"rsi_14":49.9,"weekRange":3.7},
 {"Group":"12","ticker":"ERY","dayChange":2.37,"rsi_14":51.0,"weekRange":14.63},
 {"Group":"12","ticker":"FNGD","dayChange":6.56,"rsi_14":63.6,"weekRange":5.19},
-{"Group":"12","ticker":"MSFD","dayChange":1.56,"rsi_14":69.8,"weekRange":25.19},
+{"Group":"12","ticker":"MSFD","dayChange":1.53,"rsi_14":69.8,"weekRange":25.14},
 {"Group":"12","ticker":"AMZD","dayChange":2.48,"rsi_14":62.1,"weekRange":27.47},
 {"Group":"12","ticker":"SOXS","dayChange":14.29,"rsi_14":61.2,"weekRange":3.16},
 {"Group":"12","ticker":"TZA","dayChange":5.43,"rsi_14":68.3,"weekRange":12.77},
@@ -35,7 +35,7 @@
 {"Group":"12","ticker":"KYMR","dayChange":-0.29,"rsi_14":62.5,"weekRange":92.2},
 {"Group":"12","ticker":"QID","dayChange":4.73,"rsi_14":65.1,"weekRange":11.04},
 {"Group":"12","ticker":"ECL","dayChange":0.09,"rsi_14":48.0,"weekRange":62.28},
-{"Group":"12","ticker":"SDOW","dayChange":2.38,"rsi_14":63.6,"weekRange":13.02},
+{"Group":"12","ticker":"SDOW","dayChange":2.41,"rsi_14":63.7,"weekRange":13.05},
 {"Group":"12","ticker":"TJX","dayChange":1.55,"rsi_14":63.5,"weekRange":92.47},
 {"Group":"12","ticker":"LABU","dayChange":-1.52,"rsi_14":59.8,"weekRange":87.7},
 {"Group":"12","ticker":"TECS","dayChange":9.47,"rsi_14":65.8,"weekRange":6.88},
@@ -46,7 +46,7 @@
 {"Group":"12","ticker":"GOOG","dayChange":-1.03,"rsi_14":63.0,"weekRange":89.7},
 {"Group":"12","ticker":"GOOGL","dayChange":-1.15,"rsi_14":62.6,"weekRange":89.77},
 {"Group":"12","ticker":"INSM","dayChange":-1.93,"rsi_14":69.2,"weekRange":94.34},
-{"Group":"12","ticker":"SPXU","dayChange":4.63,"rsi_14":88.6,"weekRange":99.74},
+{"Group":"12","ticker":"SPXU","dayChange":4.56,"rsi_14":88.6,"weekRange":99.65},
 {"Group":"12","ticker":"SDS","dayChange":3.06,"rsi_14":92.0,"weekRange":99.82},
 {"Group":"12","ticker":"SQQQ","dayChange":7.04,"rsi_14":86.9,"weekRange":99.5}
 ]

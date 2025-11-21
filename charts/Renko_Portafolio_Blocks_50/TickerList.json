@@ -34,13 +34,13 @@
 {"EMAs":"O X X X X X","Blocks":5,"ticker":"NOMD","dayChange":0.08,"rsi_14":51.5,"weekRange":11.46},
 {"EMAs":"O X X X X X","Blocks":5,"ticker":"SOXS","dayChange":14.29,"rsi_14":61.2,"weekRange":3.16},
 {"EMAs":"O X X X X X","Blocks":5,"ticker":"WMT","dayChange":6.46,"rsi_14":63.0,"weekRange":91.72},
-{"EMAs":"X X X X X X","Blocks":5,"ticker":"MSFD","dayChange":1.56,"rsi_14":69.8,"weekRange":25.19},
+{"EMAs":"X X X X X X","Blocks":5,"ticker":"MSFD","dayChange":1.53,"rsi_14":69.8,"weekRange":25.14},
 {"EMAs":"X X X X X X","Blocks":5,"ticker":"FNGD","dayChange":6.56,"rsi_14":63.6,"weekRange":5.19},
 {"EMAs":"X X X X X X","Blocks":6,"ticker":"TZA","dayChange":5.43,"rsi_14":68.3,"weekRange":12.77},
 {"EMAs":"X X X X X X","Blocks":6,"ticker":"TECS","dayChange":9.47,"rsi_14":65.8,"weekRange":6.88},
 {"EMAs":"X X X X X X","Blocks":6,"ticker":"QID","dayChange":4.73,"rsi_14":65.1,"weekRange":11.04},
 {"EMAs":"X X X X O O","Blocks":6,"ticker":"VZ","dayChange":-1.04,"rsi_14":51.1,"weekRange":32.5},
-{"EMAs":"X X X X X X","Blocks":7,"ticker":"SDOW","dayChange":2.38,"rsi_14":63.6,"weekRange":13.02},
+{"EMAs":"X X X X X X","Blocks":7,"ticker":"SDOW","dayChange":2.41,"rsi_14":63.7,"weekRange":13.05},
 {"EMAs":"X X X O X X","Blocks":7,"ticker":"CB","dayChange":0.8,"rsi_14":66.1,"weekRange":80.66},
 {"EMAs":"X X X O O O","Blocks":7,"ticker":"AEO","dayChange":0.29,"rsi_14":57.5,"weekRange":73.32},
 {"EMAs":"O X X O O X","Blocks":7,"ticker":"PGR","dayChange":1.38,"rsi_14":56.1,"weekRange":28.04},
@@ -49,6 +49,6 @@
 {"EMAs":"O X X X X X","Blocks":9,"ticker":"AMZD","dayChange":2.48,"rsi_14":62.1,"weekRange":27.47},
 {"EMAs":"X X X X O O","Blocks":14,"ticker":"WBD","dayChange":-0.91,"rsi_14":61.4,"weekRange":92.14},
 {"EMAs":"X X X X X X","Blocks":15,"ticker":"SQQQ","dayChange":7.04,"rsi_14":86.9,"weekRange":99.5},
-{"EMAs":"X X X X X X","Blocks":17,"ticker":"SPXU","dayChange":4.63,"rsi_14":88.6,"weekRange":99.74},
+{"EMAs":"X X X X X X","Blocks":17,"ticker":"SPXU","dayChange":4.56,"rsi_14":88.6,"weekRange":99.65},
 {"EMAs":"X X X X X X","Blocks":19,"ticker":"SDS","dayChange":3.06,"rsi_14":92.0,"weekRange":99.82}
 ]

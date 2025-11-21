@@ -904,14 +904,27 @@ function prepareLineData(rawData) {
 
 function plotCloseLine(chart, lineData) {
     const lineSeries = chart.addLineSeries({
-        color: "dodgerblue",   // blue line
+        color: "dodgerblue",
         lineWidth: 2,
-        lastValueVisible: true,
-        priceLineVisible: true
+
+        // 1) NO show last price label
+        lastValueVisible: false,
+
+        // (also hide the horizontal last-price line)
+        priceLineVisible: false,
+
+        // 2) NO decimals
+        priceFormat: {
+            type: 'price',
+            precision: 0,
+            minMove: 1
+        }
     });
+
     lineSeries.setData(lineData);
     return lineSeries;
 }
+
 
 function toggleRenderMode_v2() {
     const current = getRenderMode_v2();
