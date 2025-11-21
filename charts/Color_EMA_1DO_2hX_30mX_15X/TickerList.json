@@ -1,13 +1,14 @@
 [
-{"EMAs":"O X X X X X","ticker":"MTDR","dayChange":1.27,"rsi_14":50.1,"weekRange":20.05},
-{"EMAs":"O O X X X X","ticker":"RCL","dayChange":5.18,"rsi_14":44.3,"weekRange":50.28},
-{"EMAs":"O O X X X X","ticker":"AAP","dayChange":7.48,"rsi_14":51.6,"weekRange":56.19},
-{"EMAs":"O O X X X X","ticker":"GRBK","dayChange":6.05,"rsi_14":53.6,"weekRange":55.41},
-{"EMAs":"O O X X X X","ticker":"PFGC","dayChange":3.17,"rsi_14":49.6,"weekRange":71.07},
-{"EMAs":"O X X X X X","ticker":"NOMD","dayChange":1.11,"rsi_14":55.1,"weekRange":12.85},
-{"EMAs":"O X X X X X","ticker":"T","dayChange":1.94,"rsi_14":56.0,"weekRange":55.11},
-{"EMAs":"O O X X X X","ticker":"DUST","dayChange":-2.66,"rsi_14":47.7,"weekRange":3.23},
-{"EMAs":"O O X X X X","ticker":"KMB","dayChange":1.46,"rsi_14":39.5,"weekRange":11.81},
-{"EMAs":"O X X X X X","ticker":"NNOX","dayChange":27.97,"rsi_14":66.1,"weekRange":19.89},
-{"EMAs":"O X X X X X","ticker":"ECL","dayChange":2.33,"rsi_14":55.8,"weekRange":71.74}
+{"EMAs":"O X X X X X","ticker":"MTDR","dayChange":1.52,"rsi_14":50.6,"weekRange":20.4},
+{"EMAs":"O O X X X X","ticker":"RCL","dayChange":4.97,"rsi_14":43.9,"weekRange":50.01},
+{"EMAs":"O O X X X X","ticker":"AAP","dayChange":7.61,"rsi_14":51.7,"weekRange":56.34},
+{"EMAs":"O O X X X X","ticker":"BBY","dayChange":4.57,"rsi_14":48.5,"weekRange":54.73},
+{"EMAs":"O O X X X X","ticker":"GRBK","dayChange":6.6,"rsi_14":54.6,"weekRange":56.65},
+{"EMAs":"O O X X X X","ticker":"PFGC","dayChange":3.06,"rsi_14":49.2,"weekRange":70.83},
+{"EMAs":"O X X X X X","ticker":"NOMD","dayChange":1.44,"rsi_14":56.1,"weekRange":13.25},
+{"EMAs":"O X X X X X","ticker":"T","dayChange":1.7,"rsi_14":55.2,"weekRange":54.4},
+{"EMAs":"O O X X X X","ticker":"KMB","dayChange":1.32,"rsi_14":39.1,"weekRange":11.54},
+{"EMAs":"O X X X X X","ticker":"NNOX","dayChange":27.54,"rsi_14":66.0,"weekRange":19.71},
+{"EMAs":"O O X X X X","ticker":"TYD","dayChange":0.61,"rsi_14":55.3,"weekRange":79.51},
+{"EMAs":"O X X X X X","ticker":"ECL","dayChange":2.05,"rsi_14":55.0,"weekRange":70.6}
 ]
