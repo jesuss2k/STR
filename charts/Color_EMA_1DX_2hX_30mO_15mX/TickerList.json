@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"ISRG","dayChange":1.48,"rsi_14":61.4,"weekRange":70.9}
+{"EMAs":"X X X O O X","ticker":"TMV","dayChange":-0.06,"rsi_14":55.8,"weekRange":30.14},
+{"EMAs":"X X X O O X","ticker":"TD","dayChange":0.63,"rsi_14":55.4,"weekRange":96.51}
 ]
