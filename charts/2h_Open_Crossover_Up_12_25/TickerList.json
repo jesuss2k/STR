@@ -10,10 +10,12 @@
 {"Date":"25-11-21","ticker":"FICO","dayChange":3.93,"rsi_14":60.7,"weekRange":44.38},
 {"Date":"25-11-21","ticker":"SBUX","dayChange":3.3,"rsi_14":53.6,"weekRange":23.47},
 {"Date":"25-11-21","ticker":"CAVA","dayChange":12.23,"rsi_14":41.4,"weekRange":5.01},
+{"Date":"25-11-21","ticker":"PFGC","dayChange":2.49,"rsi_14":47.3,"weekRange":69.5},
 {"Date":"25-11-20","ticker":"PCAR","dayChange":5.52,"rsi_14":62.7,"weekRange":53.69},
 {"Date":"25-11-20","ticker":"PG","dayChange":1.84,"rsi_14":56.7,"weekRange":18.79},
 {"Date":"25-11-18","ticker":"CROX","dayChange":3.73,"rsi_14":54.8,"weekRange":16.59},
 {"Date":"25-11-13","ticker":"DXCM","dayChange":3.1,"rsi_14":45.3,"weekRange":15.64},
+{"Date":"25-11-07","ticker":"PGR","dayChange":0.4,"rsi_14":57.4,"weekRange":29.01},
 {"Date":"25-10-23","ticker":"LLY","dayChange":1.57,"rsi_14":83.0,"weekRange":98.43},
 {"Date":"25-10-21","ticker":"BIIB","dayChange":4.23,"rsi_14":75.7,"weekRange":98.91}
 ]
