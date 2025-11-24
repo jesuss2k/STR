@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     const params = new URLSearchParams(window.location.search);
     const ticker = params.get("ticker");
 
+    console.log("DOMContentLoaded ticker_v2.js");
+
     if (!ticker) {
         console.error("Error: No ticker parameter in URL.");
         return;

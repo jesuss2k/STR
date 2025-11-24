@@ -198,3 +198,33 @@ a:hover {
     color: red;
 }
 
+#ema-overlay {
+    position: fixed;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3000;
+
+    color: white;           /* <-- key part: visible text */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+
+    background: rgba(0, 0, 0, 0.55);
+    padding: 2px 8px;
+    border-radius: 4px;
+
+    pointer-events: none;
+}
+
+#ema-overlay .ema-o {
+    color: #850411; /* red */
+}
+
+#ema-overlay .ema-x {
+    color: #076704; /* green */
+}
+
+
+
+

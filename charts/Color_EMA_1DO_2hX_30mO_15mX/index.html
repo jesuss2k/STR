@@ -1,9 +1,33 @@
-
-    <html>
-        <head><title>No Data Found</title></head>
-        <body>
-            <h2>No data found for query: Color_EMA_1DO_2hX_30mO_15mX</h2>
-            <button onclick="window.history.back()">Back</button>
-        </body>
-    </html>
-    
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../../css/indexpages.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <main>
+      <section>
+        <div id="home-link">
+          <a href="../../Menu.html" title="Home">&#8962;</a>
+        </div>
+        <section>
+          <table id="sortableTable">
+            <thead>
+              <tr id="table-header">
+                <!-- Header cells will be built dynamically -->
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <!-- Table rows will be injected here -->
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+    <script src="../../js/indexpages.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", populateTickerTable);
+    </script>
+  </body>
+</html>

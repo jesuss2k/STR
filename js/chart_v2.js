@@ -849,10 +849,60 @@ document.addEventListener("DOMContentLoaded", async function () {
     const params = new URLSearchParams(window.location.search);
     const ticker = params.get("ticker");
 
+    console.log("DOMContentLoaded chart_v2.js");
+
     if (!ticker) {
         console.error("⚠ No ticker provided in URL.");
         return;
     }
+
+     // ✅ Overlay superior centrado con estado de EMAs desde TickerTechnicals.json
+    async function updateEmaOverlay_v2(ticker) {
+        try {
+            // Misma base que TickerInfo.json, pero el archivo está en:
+            // ..\..\TickerTechnicals.json  => "../../TickerTechnicals.json"
+            const response = await fetch("../../JSON/TickerTechnicals.json");
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status} loading TickerTechnicals.json`);
+            }
+
+            const technicals = await response.json();
+
+            // El JSON tiene {"ticker":"AAPL","EMAs":"X X O X X X"}
+            // Por si algún día viene con mayúscula/minúscula distinta:
+            const rec = technicals.find(x =>
+                (x.ticker || x.Ticker) === ticker
+            );
+
+            const overlay = document.getElementById("ema-overlay");
+            if (!overlay) {
+                console.warn("ema-overlay div not found in HTML.");
+                return;
+            }
+
+            const emasRaw = rec?.EMAs ?? "";
+
+            // Build colored HTML: O/0 = red, X = green
+            const emasHtml = emasRaw
+                .replace(/\s+/g, "")              // remove spaces like "O O X"
+                .split("")                        // each char
+                .map(ch => {
+                    const c = ch.toUpperCase();
+                    if (c === "X") return `<span class="ema-x">X</span>`;
+                    if (c === "O" || c === "0") return `<span class="ema-o">O</span>`;
+                    return ""; // ignore anything else
+                })
+                .join("");
+
+            overlay.innerHTML = emasHtml;
+
+            console.log(`✅ EMA overlay updated for ${ticker}: ${overlay.textContent}`);
+        } catch (err) {
+            console.error("❌ Error loading/painting EMA overlay:", err);
+        }
+    }
+
+    updateEmaOverlay_v2(ticker);   
 
     try {
         const response = await fetch("../../JSON/TickerInfo.json");
