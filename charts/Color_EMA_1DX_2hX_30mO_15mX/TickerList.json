@@ -1,5 +1,3 @@
 [
-{"EMAs":"X X X X O X","ticker":"CB","dayChange":0.74,"rsi_14":65.4,"weekRange":83.73},
-{"EMAs":"X X X X O X","ticker":"TECS","dayChange":5.42,"rsi_14":59.1,"weekRange":6.08},
-{"EMAs":"X X X X O X","ticker":"WMT","dayChange":1.61,"rsi_14":56.8,"weekRange":87.1}
+{"EMAs":"X X X O O X","ticker":"WBD","dayChange":0.72,"rsi_14":61.2,"weekRange":93.01}
 ]
