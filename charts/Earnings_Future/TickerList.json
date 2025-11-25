@@ -18,6 +18,7 @@
 {"EMAs":"O O O O X X","ticker":"PATH","dayChange":2.31,"rsi_14":41.3,"weekRange":41.99},
 {"EMAs":"O O X X X O","ticker":"ULTA","dayChange":-0.19,"rsi_14":47.4,"weekRange":78.1},
 {"EMAs":"X X X X X X","ticker":"TD","dayChange":0.79,"rsi_14":60.2,"weekRange":99.26},
+{"EMAs":"O O X X X X","ticker":"MAMA","dayChange":1.15,"rsi_14":52.5,"weekRange":83.81},
 {"EMAs":"X X O O O O","ticker":"CPB","dayChange":-3.32,"rsi_14":47.1,"weekRange":6.95},
 {"EMAs":"O O X X X X","ticker":"SNPS","dayChange":4.19,"rsi_14":43.3,"weekRange":13.6},
 {"EMAs":"O O O O O O","ticker":"COST","dayChange":-1.43,"rsi_14":35.1,"weekRange":6.98},
