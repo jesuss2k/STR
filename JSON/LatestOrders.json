@@ -50,6 +50,7 @@
 {"ticker":"BOX","positionStatus":"Closed","price":31.9806},
 {"ticker":"BTBT","positionStatus":"Closed","price":3.145},
 {"ticker":"BURL","positionStatus":"Closed","price":271.035},
+{"ticker":"CAKE","positionStatus":"Open","price":46.25},
 {"ticker":"CAT","positionStatus":"Closed","price":425.98},
 {"ticker":"CAVA","positionStatus":"Open","price":82.47},
 {"ticker":"CCL","positionStatus":"Closed","price":15.3001},

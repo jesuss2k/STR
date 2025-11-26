@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X X X","ticker":"DE","dayChange":2.24,"rsi_14":69.5,"weekRange":72.74},
 {"EMAs":"O O O O X X","ticker":"MDB","dayChange":0.34,"rsi_14":45.4,"weekRange":78.06},
 {"EMAs":"O O O O O O","ticker":"GTLB","dayChange":-0.51,"rsi_14":35.5,"weekRange":9.21},
 {"EMAs":"O O O O X X","ticker":"CRWD","dayChange":1.09,"rsi_14":47.5,"weekRange":79.71},

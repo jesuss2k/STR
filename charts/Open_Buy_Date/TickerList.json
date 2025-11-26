@@ -26,13 +26,13 @@
 {"$ Prft":-94.0,"% Pfrt":-10.2,"EMAs":"O O X X X X","ticker":"ABNB","dayChange":3.63,"rsi_14":46.4,"weekRange":29.16},
 {"$ Prft":-114.0,"% Pfrt":-11.4,"EMAs":"O O X X X X","ticker":"DOCU","dayChange":3.08,"rsi_14":47.8,"weekRange":10.05},
 {"$ Prft":-339.0,"% Pfrt":-41.1,"EMAs":"O O X X X X","ticker":"CAVA","dayChange":3.74,"rsi_14":42.4,"weekRange":4.68},
-{"$ Prft":-51.0,"% Pfrt":-5.3,"EMAs":"O O X X X O","ticker":"HPQ","dayChange":-0.25,"rsi_14":42.8,"weekRange":16.89},
+{"$ Prft":-51.0,"% Pfrt":-5.3,"EMAs":"O O X X X O","ticker":"HPQ","dayChange":-0.25,"rsi_14":42.8,"weekRange":19.09},
 {"$ Prft":-193.0,"% Pfrt":-20.5,"EMAs":"O O O O X X","ticker":"AJG","dayChange":0.82,"rsi_14":37.8,"weekRange":9.64},
 {"$ Prft":-242.0,"% Pfrt":-26.9,"EMAs":"O O O X X X","ticker":"PAYC","dayChange":3.22,"rsi_14":36.0,"weekRange":7.05},
 {"$ Prft":84.0,"% Pfrt":14.3,"EMAs":"X X X X X X","ticker":"AAL","dayChange":2.75,"rsi_14":57.9,"weekRange":46.79},
 {"$ Prft":-38.0,"% Pfrt":-14.1,"EMAs":"O O O O X X","ticker":"NVO","dayChange":4.65,"rsi_14":41.1,"weekRange":5.73},
 {"$ Prft":49.0,"% Pfrt":4.2,"EMAs":"O O O X X X","ticker":"FTNT","dayChange":1.38,"rsi_14":45.8,"weekRange":24.05},
-{"$ Prft":3.0,"% Pfrt":0.6,"EMAs":"O O X X X X","ticker":"ACIW","dayChange":1.01,"rsi_14":45.7,"weekRange":38.24},
+{"$ Prft":3.0,"% Pfrt":0.6,"EMAs":"O O X X X X","ticker":"ACIW","dayChange":1.01,"rsi_14":45.7,"weekRange":38.27},
 {"$ Prft":-37.0,"% Pfrt":-4.8,"EMAs":"O O X X O O","ticker":"OMC","dayChange":-2.65,"rsi_14":44.2,"weekRange":11.91},
 {"$ Prft":219.0,"% Pfrt":31.7,"EMAs":"X X X X X X","ticker":"BIIB","dayChange":2.91,"rsi_14":79.9,"weekRange":95.73},
 {"$ Prft":208.0,"% Pfrt":29.8,"EMAs":"X X X X X X","ticker":"ILMN","dayChange":2.92,"rsi_14":70.8,"weekRange":72.24},
@@ -72,5 +72,6 @@
 {"$ Prft":181.0,"% Pfrt":8.7,"EMAs":"O O X X X X","ticker":"UPRO","dayChange":2.74,"rsi_14":52.3,"weekRange":87.98},
 {"$ Prft":10.0,"% Pfrt":2.4,"EMAs":"O O O O O O","ticker":"AMD","dayChange":-4.15,"rsi_14":40.0,"weekRange":68.02},
 {"$ Prft":-8.0,"% Pfrt":-0.9,"EMAs":"X X X X X O","ticker":"PGR","dayChange":0.59,"rsi_14":56.0,"weekRange":28.48},
-{"$ Prft":0.0,"% Pfrt":0.0,"EMAs":"O O X X X X","ticker":"PFGC","dayChange":2.33,"rsi_14":48.3,"weekRange":69.35}
+{"$ Prft":0.0,"% Pfrt":0.0,"EMAs":"O O X X X X","ticker":"PFGC","dayChange":2.33,"rsi_14":48.3,"weekRange":69.35},
+{"$ Prft":11.0,"% Pfrt":1.6,"EMAs":"O O X X X X","ticker":"CAKE","dayChange":4.44,"rsi_14":45.7,"weekRange":15.96}
 ]
