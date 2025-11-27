@@ -9,7 +9,7 @@
 {"EMAs":"O O O O X X","ticker":"PANW","dayChange":-0.49,"rsi_14":28.9,"weekRange":51.85},
 {"EMAs":"O O O O O O","ticker":"PAYC","dayChange":-2.14,"rsi_14":33.1,"weekRange":3.88},
 {"EMAs":"O O O O O O","ticker":"NOW","dayChange":-2.74,"rsi_14":31.5,"weekRange":23.88},
-{"EMAs":"O O O O O O","ticker":"WDAY","dayChange":-7.89,"rsi_14":39.7,"weekRange":11.19},
+{"EMAs":"O O O O O O","ticker":"WDAY","dayChange":-7.85,"rsi_14":39.7,"weekRange":11.29},
 {"EMAs":"O O X X O O","ticker":"HPQ","dayChange":-1.4,"rsi_14":40.7,"weekRange":17.0},
 {"EMAs":"O O O O O O","ticker":"INTU","dayChange":-2.92,"rsi_14":38.9,"weekRange":34.33},
 {"EMAs":"O O O X X X","ticker":"PHR","dayChange":-0.44,"rsi_14":39.8,"weekRange":13.93},
@@ -46,5 +46,5 @@
 {"EMAs":"O O X X X O","ticker":"AMZN","dayChange":-0.22,"rsi_14":48.6,"weekRange":69.72},
 {"EMAs":"O O X X X X","ticker":"V","dayChange":-0.22,"rsi_14":48.4,"weekRange":45.47},
 {"EMAs":"O O X X X X","ticker":"UNH","dayChange":1.05,"rsi_14":49.1,"weekRange":24.5},
-{"EMAs":"O O X X X X","ticker":"META","dayChange":-0.4,"rsi_14":46.3,"weekRange":48.63}
+{"EMAs":"O O X X X X","ticker":"META","dayChange":-0.41,"rsi_14":46.2,"weekRange":48.6}
 ]
