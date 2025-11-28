@@ -74,6 +74,6 @@
 {"$ Prft":3.0,"% Pfrt":0.3,"EMAs":"X X X X X X","ticker":"PGR","dayChange":1.21,"rsi_14":60.0,"weekRange":31.42},
 {"$ Prft":-2.0,"% Pfrt":-0.5,"EMAs":"O X X X X O","ticker":"PFGC","dayChange":-0.48,"rsi_14":46.9,"weekRange":68.22},
 {"$ Prft":22.0,"% Pfrt":3.2,"EMAs":"O O X X X X","ticker":"CAKE","dayChange":1.57,"rsi_14":48.8,"weekRange":18.7},
-{"$ Prft":0.0,"% Pfrt":-0.5,"EMAs":"O O O X X X","ticker":"IBKR","dayChange":1.61,"rsi_14":44.2,"weekRange":77.4},
+{"$ Prft":-3.0,"% Pfrt":-0.5,"EMAs":"O O O X X X","ticker":"IBKR","dayChange":1.61,"rsi_14":44.2,"weekRange":77.4},
 {"$ Prft":1.0,"% Pfrt":0.1,"EMAs":"O O X X X X","ticker":"APLD","dayChange":5.05,"rsi_14":44.6,"weekRange":58.63}
 ]

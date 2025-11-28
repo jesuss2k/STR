@@ -24,7 +24,7 @@
 {"$ Prft":-68.0,"% Pfrt":-3.4,"EMAs":"O O O X X X","ticker":"MSFT","dayChange":1.78,"rsi_14":40.0,"weekRange":66.79},
 {"$ Prft":171.0,"% Pfrt":19.3,"EMAs":"O O O X X X","ticker":"VST","dayChange":3.49,"rsi_14":45.3,"weekRange":66.73},
 {"$ Prft":44.0,"% Pfrt":3.8,"EMAs":"O O O X X X","ticker":"FTNT","dayChange":-0.4,"rsi_14":44.9,"weekRange":23.33},
-{"$ Prft":0.0,"% Pfrt":-0.5,"EMAs":"O O O X X X","ticker":"IBKR","dayChange":1.61,"rsi_14":44.2,"weekRange":77.4},
+{"$ Prft":-3.0,"% Pfrt":-0.5,"EMAs":"O O O X X X","ticker":"IBKR","dayChange":1.61,"rsi_14":44.2,"weekRange":77.4},
 {"$ Prft":-64.0,"% Pfrt":-6.6,"EMAs":"O O X X O O","ticker":"HPQ","dayChange":-1.4,"rsi_14":40.7,"weekRange":17.62},
 {"$ Prft":154.0,"% Pfrt":12.6,"EMAs":"O O X X X O","ticker":"AMZN","dayChange":-0.22,"rsi_14":48.6,"weekRange":69.72},
 {"$ Prft":-124.0,"% Pfrt":-14.3,"EMAs":"O O X X X O","ticker":"TEAM","dayChange":-0.68,"rsi_14":42.1,"weekRange":4.47},
