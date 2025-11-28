@@ -1,3 +1,4 @@
 [
-{"EMAs":"O X X O O X","ticker":"NOMD","dayChange":0.54,"rsi_14":48.9,"weekRange":11.41}
+{"EMAs":"O X X X O X","ticker":"AAP","dayChange":0.89,"rsi_14":51.9,"weekRange":56.09},
+{"EMAs":"O O X O O X","ticker":"YEXT","dayChange":-0.24,"rsi_14":48.2,"weekRange":78.59}
 ]
