@@ -1,17 +1,17 @@
 [
-{"EMAs":"O O X X X X","Blocks":1,"ticker":"HOOD","dayChange":0.23,"rsi_14":52.0,"weekRange":79.57},
+{"EMAs":"O O O O X X","Blocks":1,"ticker":"UDOW","dayChange":1.73,"rsi_14":31.8,"weekRange":9.93},
 {"EMAs":"O O X X X X","Blocks":1,"ticker":"SOXL","dayChange":5.28,"rsi_14":53.6,"weekRange":78.18},
-{"EMAs":"O O X X X X","Blocks":1,"ticker":"XYZ","dayChange":2.72,"rsi_14":48.9,"weekRange":45.08},
+{"EMAs":"O X X X O O","Blocks":1,"ticker":"TMF","dayChange":-1.55,"rsi_14":51.8,"weekRange":42.59},
 {"EMAs":"O X X X X X","Blocks":1,"ticker":"RDDT","dayChange":4.29,"rsi_14":57.1,"weekRange":67.28},
+{"EMAs":"O X X X X X","Blocks":1,"ticker":"TNA","dayChange":1.57,"rsi_14":58.5,"weekRange":74.75},
 {"EMAs":"X O O O O O","Blocks":1,"ticker":"SQQQ","dayChange":-2.23,"rsi_14":43.1,"weekRange":2.22},
+{"EMAs":"X X X X X X","Blocks":1,"ticker":"DIA","dayChange":0.6,"rsi_14":59.2,"weekRange":93.89},
 {"EMAs":"X X X X X X","Blocks":1,"ticker":"SPY","dayChange":0.55,"rsi_14":59.1,"weekRange":96.96},
 {"EMAs":"O X X X X X","Blocks":2,"ticker":"INTC","dayChange":10.19,"rsi_14":64.4,"weekRange":92.26},
-{"EMAs":"X X X X X O","Blocks":2,"ticker":"NNOX","dayChange":-1.54,"rsi_14":64.1,"weekRange":20.68},
-{"EMAs":"X X X X X X","Blocks":2,"ticker":"XLE","dayChange":1.31,"rsi_14":55.6,"weekRange":75.28},
-{"EMAs":"X X O X X X","Blocks":3,"ticker":"VZ","dayChange":0.56,"rsi_14":53.9,"weekRange":36.08},
-{"EMAs":"X X X O O O","Blocks":5,"ticker":"CB","dayChange":-0.58,"rsi_14":61.4,"weekRange":80.4},
-{"EMAs":"X X X X X X","Blocks":6,"ticker":"WBD","dayChange":0.5,"rsi_14":67.5,"weekRange":98.8},
-{"EMAs":"X X O X X X","Blocks":10,"ticker":"CSCO","dayChange":1.14,"rsi_14":61.8,"weekRange":88.85},
+{"EMAs":"X X X X X X","Blocks":2,"ticker":"WMT","dayChange":1.29,"rsi_14":66.6,"weekRange":99.38},
+{"EMAs":"X X X X X X","Blocks":3,"ticker":"GDX","dayChange":2.06,"rsi_14":65.4,"weekRange":96.41},
 {"EMAs":"X X X X X X","Blocks":12,"ticker":"AVGO","dayChange":1.36,"rsi_14":68.3,"weekRange":99.98},
-{"EMAs":"X X X X X X","Blocks":13,"ticker":"GOOG","dayChange":-0.05,"rsi_14":73.7,"weekRange":95.4}
+{"EMAs":"X X X X X X","Blocks":13,"ticker":"GOOG","dayChange":-0.05,"rsi_14":73.7,"weekRange":95.4},
+{"EMAs":"X X X X X X","Blocks":13,"ticker":"GOOGL","dayChange":0.07,"rsi_14":73.5,"weekRange":95.41},
+{"EMAs":"O X X X X X","Blocks":14,"ticker":"TSM","dayChange":0.53,"rsi_14":53.8,"weekRange":88.79}
 ]
