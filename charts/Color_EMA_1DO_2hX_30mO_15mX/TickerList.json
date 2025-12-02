@@ -1,6 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"JBLU","dayChange":0.78,"rsi_14":55.3,"weekRange":23.44},
-{"EMAs":"O O X X O X","ticker":"SOUN","dayChange":4.38,"rsi_14":38.2,"weekRange":29.82},
-{"EMAs":"O O X X O X","ticker":"COIN","dayChange":3.94,"rsi_14":43.8,"weekRange":42.21},
-{"EMAs":"O O X X O X","ticker":"EME","dayChange":0.85,"rsi_14":44.0,"weekRange":63.8}
+{"EMAs":"O O X X O X","ticker":"OPRA","dayChange":2.5,"rsi_14":42.8,"weekRange":9.29},
+{"EMAs":"O X X O O X","ticker":"SHOP","dayChange":5.42,"rsi_14":52.1,"weekRange":77.91}
 ]
