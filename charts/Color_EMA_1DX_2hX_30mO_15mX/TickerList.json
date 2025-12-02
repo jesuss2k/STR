@@ -1,6 +1,8 @@
 [
-{"EMAs":"X X X O O X","ticker":"ISRG","dayChange":0.26,"rsi_14":60.9,"weekRange":75.31},
-{"EMAs":"X X X X O X","ticker":"GM","dayChange":0.69,"rsi_14":67.6,"weekRange":98.52},
-{"EMAs":"X X X X O X","ticker":"SDS","dayChange":-0.26,"rsi_14":74.2,"weekRange":89.52},
-{"EMAs":"X X X X O X","ticker":"SPXU","dayChange":-0.41,"rsi_14":66.9,"weekRange":83.79}
+{"EMAs":"X X X X O X","ticker":"DIA","dayChange":0.42,"rsi_14":56.4,"weekRange":92.29},
+{"EMAs":"X X X X O X","ticker":"GOOG","dayChange":0.64,"rsi_14":69.6,"weekRange":93.79},
+{"EMAs":"X X X X O X","ticker":"GOOGL","dayChange":0.61,"rsi_14":69.2,"weekRange":93.62},
+{"EMAs":"X X X O O X","ticker":"PSN","dayChange":1.43,"rsi_14":51.4,"weekRange":61.89},
+{"EMAs":"X X X X O X","ticker":"SDS","dayChange":-0.34,"rsi_14":74.0,"weekRange":89.42},
+{"EMAs":"X X X X O X","ticker":"SPXU","dayChange":-0.51,"rsi_14":66.8,"weekRange":83.68}
 ]
