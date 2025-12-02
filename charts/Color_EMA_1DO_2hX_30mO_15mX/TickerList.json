@@ -1,3 +1,6 @@
 [
-{"EMAs":"O O X X O X","ticker":"DELL","dayChange":-0.94,"rsi_14":44.9,"weekRange":64.66}
+{"EMAs":"O X X X O X","ticker":"JBLU","dayChange":0.78,"rsi_14":55.3,"weekRange":23.44},
+{"EMAs":"O O X X O X","ticker":"SOUN","dayChange":4.38,"rsi_14":38.2,"weekRange":29.82},
+{"EMAs":"O O X X O X","ticker":"COIN","dayChange":3.94,"rsi_14":43.8,"weekRange":42.21},
+{"EMAs":"O O X X O X","ticker":"EME","dayChange":0.85,"rsi_14":44.0,"weekRange":63.8}
 ]
