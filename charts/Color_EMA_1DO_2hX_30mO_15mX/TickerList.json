@@ -1,4 +1,4 @@
 [
-{"EMAs":"O O X X O X","ticker":"FFIV","dayChange":0.8,"rsi_14":39.6,"weekRange":13.67},
-{"EMAs":"O O X X O X","ticker":"CDW","dayChange":0.88,"rsi_14":46.8,"weekRange":9.92}
+{"EMAs":"O X X O O X","ticker":"OSCR","dayChange":1.2,"rsi_14":51.1,"weekRange":44.84},
+{"EMAs":"O O X X O X","ticker":"FFIV","dayChange":-0.02,"rsi_14":37.2,"weekRange":12.07}
 ]

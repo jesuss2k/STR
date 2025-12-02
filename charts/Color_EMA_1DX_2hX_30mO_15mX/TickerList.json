@@ -1,6 +1,3 @@
 [
-{"EMAs":"X X X X O X","ticker":"GOOG","dayChange":0.53,"rsi_14":69.4,"weekRange":93.61},
-{"EMAs":"X X X X O X","ticker":"GOOGL","dayChange":0.5,"rsi_14":69.0,"weekRange":93.44},
-{"EMAs":"X X X O O X","ticker":"ISRG","dayChange":0.08,"rsi_14":60.5,"weekRange":74.78},
-{"EMAs":"X X X O O X","ticker":"PSN","dayChange":1.54,"rsi_14":51.7,"weekRange":62.09}
+{"EMAs":"X X X O O X","ticker":"ISRG","dayChange":0.06,"rsi_14":60.5,"weekRange":74.72}
 ]
