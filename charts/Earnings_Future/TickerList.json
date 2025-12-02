@@ -26,5 +26,5 @@
 {"EMAs":"X X X X X X","ticker":"ASML","dayChange":2.64,"rsi_14":62.2,"weekRange":99.35},
 {"EMAs":"O X X X O O","ticker":"NVO","dayChange":-1.86,"rsi_14":46.3,"weekRange":7.7},
 {"EMAs":"X X X X X X","ticker":"BP","dayChange":1.14,"rsi_14":59.1,"weekRange":90.9},
-{"EMAs":"X X O O O O","ticker":"CSCO","dayChange":-1.13,"rsi_14":57.4,"weekRange":85.74}
+{"EMAs":"X X O O O O","ticker":"CSCO","dayChange":-1.17,"rsi_14":57.2,"weekRange":85.63}
 ]

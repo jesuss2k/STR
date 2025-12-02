@@ -43,7 +43,7 @@
 {"Timestamp":"2025-11-25 13:00:00","EMAs":"O X X X X X","ticker":"APP","dayChange":4.02,"rsi_14":59.4,"weekRange":77.62},
 {"Timestamp":"2025-11-25 12:30:00","EMAs":"O X X X X X","ticker":"SOXL","dayChange":0.12,"rsi_14":53.7,"weekRange":78.29},
 {"Timestamp":"2025-11-25 12:30:00","EMAs":"O O X X X X","ticker":"TECL","dayChange":0.19,"rsi_14":49.1,"weekRange":74.66},
-{"Timestamp":"2025-11-25 12:30:00","EMAs":"O X X X X X","ticker":"SOXX","dayChange":0.07,"rsi_14":56.0,"weekRange":90.38},
+{"Timestamp":"2025-11-25 12:30:00","EMAs":"O X X X X X","ticker":"SOXX","dayChange":0.06,"rsi_14":55.9,"weekRange":90.35},
 {"Timestamp":"2025-11-25 12:00:00","EMAs":"O O X X X X","ticker":"XLK","dayChange":0.05,"rsi_14":51.0,"weekRange":85.29},
 {"Timestamp":"2025-11-25 10:30:00","EMAs":"O O X X X X","ticker":"DIS","dayChange":2.2,"rsi_14":47.1,"weekRange":59.81},
 {"Timestamp":"2025-11-25 10:00:00","EMAs":"X X X X X X","ticker":"WMT","dayChange":0.92,"rsi_14":68.4,"weekRange":99.3},
@@ -59,10 +59,10 @@
 {"Timestamp":"2025-11-21 14:00:00","EMAs":"O O X X X X","ticker":"PATH","dayChange":1.88,"rsi_14":50.0,"weekRange":50.64},
 {"Timestamp":"2025-11-21 14:00:00","EMAs":"X X X X X X","ticker":"MU","dayChange":1.68,"rsi_14":58.7,"weekRange":89.89},
 {"Timestamp":"2025-11-21 13:30:00","EMAs":"X X X X X X","ticker":"AMAT","dayChange":0.99,"rsi_14":65.3,"weekRange":99.21},
-{"Timestamp":"2025-11-21 12:00:00","EMAs":"O O X X X X","ticker":"JD","dayChange":0.24,"rsi_14":41.7,"weekRange":9.27},
+{"Timestamp":"2025-11-21 12:00:00","EMAs":"O O X X X X","ticker":"JD","dayChange":0.2,"rsi_14":41.6,"weekRange":9.21},
 {"Timestamp":"2025-11-21 12:00:00","EMAs":"O O X X X X","ticker":"ROAD","dayChange":-0.76,"rsi_14":46.5,"weekRange":58.53},
 {"Timestamp":"2025-11-21 11:30:00","EMAs":"O O X X X X","ticker":"HPE","dayChange":0.32,"rsi_14":45.8,"weekRange":68.91},
-{"Timestamp":"2025-11-21 11:30:00","EMAs":"O X X X X X","ticker":"ON","dayChange":0.26,"rsi_14":56.3,"weekRange":44.46},
+{"Timestamp":"2025-11-21 11:30:00","EMAs":"O X X X X X","ticker":"ON","dayChange":0.38,"rsi_14":56.5,"weekRange":44.6},
 {"Timestamp":"2025-11-21 11:00:00","EMAs":"X X X X X X","ticker":"EVER","dayChange":2.08,"rsi_14":68.5,"weekRange":76.94},
 {"Timestamp":"2025-11-21 09:30:00","EMAs":"X X X X X X","ticker":"AEO","dayChange":4.17,"rsi_14":80.5,"weekRange":99.79}
 ]

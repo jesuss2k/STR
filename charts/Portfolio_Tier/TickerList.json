@@ -19,7 +19,7 @@
 {"EMAs":"O X X X X O","ticker":"ALK","dayChange":-0.79,"rsi_14":49.7,"weekRange":12.09},
 {"EMAs":"O X X X X X","ticker":"MMC","dayChange":0.3,"rsi_14":50.9,"weekRange":13.31},
 {"EMAs":"X X X O O O","ticker":"T","dayChange":-0.88,"rsi_14":51.9,"weekRange":52.44},
-{"EMAs":"X X X X O O","ticker":"ABT","dayChange":-0.61,"rsi_14":50.4,"weekRange":56.8},
+{"EMAs":"X X X X O O","ticker":"ABT","dayChange":-0.69,"rsi_14":50.1,"weekRange":56.47},
 {"EMAs":"X X X X X O","ticker":"DAL","dayChange":0.08,"rsi_14":62.9,"weekRange":83.46},
 {"EMAs":"X X X X X O","ticker":"UAL","dayChange":-0.82,"rsi_14":57.6,"weekRange":76.75},
 {"EMAs":"X X X X X X","ticker":"EA","dayChange":0.29,"rsi_14":68.5,"weekRange":98.72}
