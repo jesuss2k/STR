@@ -1,9 +1,9 @@
 [
 {"EMAs":"O X X X X X","ticker":"DOCU","dayChange":0.78,"rsi_14":50.6,"weekRange":12.08},
 {"EMAs":"O X X X X X","ticker":"IOT","dayChange":1.91,"rsi_14":50.9,"weekRange":21.57},
+{"EMAs":"O X X X X O","ticker":"ALK","dayChange":0.33,"rsi_14":50.3,"weekRange":12.44},
 {"EMAs":"O X X X X X","ticker":"HPQ","dayChange":3.12,"rsi_14":50.7,"weekRange":25.06},
 {"EMAs":"X X X X O O","ticker":"JPM","dayChange":-0.34,"rsi_14":52.0,"weekRange":88.03},
-{"EMAs":"O O X X X X","ticker":"CRWD","dayChange":2.46,"rsi_14":50.2,"weekRange":81.28},
 {"EMAs":"O X X X X X","ticker":"COST","dayChange":1.1,"rsi_14":53.8,"weekRange":24.37},
 {"EMAs":"O X X X O O","ticker":"NKE","dayChange":-0.7,"rsi_14":51.7,"weekRange":41.94},
 {"EMAs":"O X X X X X","ticker":"TEAM","dayChange":1.54,"rsi_14":50.6,"weekRange":7.63},
