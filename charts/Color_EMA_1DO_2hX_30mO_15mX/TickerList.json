@@ -1,4 +1,6 @@
 [
-{"EMAs":"O O X X O X","ticker":"LNG","dayChange":-0.07,"rsi_14":43.2,"weekRange":29.63},
-{"EMAs":"O O X O O X","ticker":"FFIV","dayChange":0.15,"rsi_14":37.7,"weekRange":12.37}
+{"EMAs":"O O X O O X","ticker":"CDW","dayChange":-0.33,"rsi_14":45.8,"weekRange":9.22},
+{"EMAs":"O O X X O X","ticker":"DUOL","dayChange":1.49,"rsi_14":34.7,"weekRange":5.04},
+{"EMAs":"O X X X O X","ticker":"FNGU","dayChange":-1.82,"rsi_14":50.6,"weekRange":1.15},
+{"EMAs":"O O X O O X","ticker":"HUMA","dayChange":2.38,"rsi_14":45.0,"weekRange":3.52}
 ]

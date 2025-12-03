@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"NVDD","dayChange":0.28,"rsi_14":56.0,"weekRange":90.28}
+{"EMAs":"X X X O O X","ticker":"AVGO","dayChange":-0.25,"rsi_14":57.1,"weekRange":91.55},
+{"EMAs":"X X X O O X","ticker":"ISRG","dayChange":0.35,"rsi_14":61.3,"weekRange":75.76}
 ]
