@@ -57,8 +57,8 @@
 {"$ Prft":-61.0,"% Pfrt":-17.5,"EMAs":"O X X X O O","ticker":"ALAB","dayChange":-13.47,"rsi_14":41.4,"weekRange":44.41},
 {"$ Prft":-38.0,"% Pfrt":-6.5,"EMAs":"O O X O O X","ticker":"DAKT","dayChange":0.33,"rsi_14":45.9,"weekRange":58.08},
 {"$ Prft":-43.0,"% Pfrt":-2.6,"EMAs":"O O X X X X","ticker":"FAST","dayChange":0.8,"rsi_14":44.0,"weekRange":33.7},
-{"$ Prft":-155.0,"% Pfrt":-27.8,"EMAs":"O O O O O O","ticker":"ORCL","dayChange":0.07,"rsi_14":30.4,"weekRange":36.25},
-{"$ Prft":-123.0,"% Pfrt":-19.3,"EMAs":"O X X X O O","ticker":"CMG","dayChange":-0.2,"rsi_14":52.0,"weekRange":11.95},
+{"$ Prft":-155.0,"% Pfrt":-27.8,"EMAs":"O O O O O O","ticker":"ORCL","dayChange":0.08,"rsi_14":30.5,"weekRange":36.25},
+{"$ Prft":-123.0,"% Pfrt":-19.4,"EMAs":"O X X X O O","ticker":"CMG","dayChange":-0.29,"rsi_14":51.8,"weekRange":11.87},
 {"$ Prft":-66.0,"% Pfrt":-3.8,"EMAs":"O O O X X X","ticker":"TMUS","dayChange":1.69,"rsi_14":45.4,"weekRange":13.91},
 {"$ Prft":3.0,"% Pfrt":0.2,"EMAs":"X X X X O O","ticker":"JPM","dayChange":-0.34,"rsi_14":52.0,"weekRange":88.03},
 {"$ Prft":2.0,"% Pfrt":0.3,"EMAs":"X X X X X X","ticker":"SOFI","dayChange":1.65,"rsi_14":54.5,"weekRange":86.66},
@@ -78,7 +78,7 @@
 {"$ Prft":2.0,"% Pfrt":0.3,"EMAs":"O O X X X X","ticker":"NET","dayChange":2.06,"rsi_14":44.2,"weekRange":65.56},
 {"$ Prft":-7.0,"% Pfrt":-1.3,"EMAs":"O X X X O X","ticker":"RCL","dayChange":-0.57,"rsi_14":45.4,"weekRange":49.91},
 {"$ Prft":-2.0,"% Pfrt":-0.3,"EMAs":"O O X X X X","ticker":"MARA","dayChange":3.39,"rsi_14":37.7,"weekRange":11.98},
-{"$ Prft":-27.0,"% Pfrt":-5.9,"EMAs":"O X X X O O","ticker":"UPST","dayChange":-3.32,"rsi_14":49.6,"weekRange":17.52},
+{"$ Prft":-28.0,"% Pfrt":-6.1,"EMAs":"O X X X O O","ticker":"UPST","dayChange":-3.52,"rsi_14":49.4,"weekRange":17.38},
 {"$ Prft":-3.0,"% Pfrt":-0.6,"EMAs":"O X X X X X","ticker":"MMC","dayChange":-0.35,"rsi_14":49.5,"weekRange":12.44},
 {"$ Prft":-20.0,"% Pfrt":-3.5,"EMAs":"O O O O O O","ticker":"WSM","dayChange":-2.4,"rsi_14":42.3,"weekRange":53.38}
 ]
