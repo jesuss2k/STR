@@ -1,3 +1,4 @@
 [
-{"EMAs":"O O X O O X","ticker":"FFIV","dayChange":0.14,"rsi_14":37.6,"weekRange":12.35}
+{"EMAs":"O O X X O X","ticker":"LNG","dayChange":-0.07,"rsi_14":43.2,"weekRange":29.63},
+{"EMAs":"O O X O O X","ticker":"FFIV","dayChange":0.15,"rsi_14":37.7,"weekRange":12.37}
 ]
