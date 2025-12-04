@@ -20,11 +20,12 @@
 {"EMAs":"O O X X O O","ticker":"EBAY","dayChange":-1.1,"rsi_14":41.4,"weekRange":54.88},
 {"EMAs":"O O X X X X","ticker":"ELF","dayChange":8.32,"rsi_14":41.0,"weekRange":30.49},
 {"EMAs":"O O X X X X","ticker":"MNDY","dayChange":2.64,"rsi_14":40.4,"weekRange":5.62},
+{"EMAs":"O O X X X X","ticker":"CRWD","dayChange":1.48,"rsi_14":53.0,"weekRange":84.11},
 {"EMAs":"X X X X O O","ticker":"SOFI","dayChange":-1.49,"rsi_14":52.8,"weekRange":84.83},
 {"EMAs":"O O X X X X","ticker":"NOW","dayChange":1.03,"rsi_14":43.9,"weekRange":29.69},
 {"EMAs":"O X X X O O","ticker":"AMZN","dayChange":-0.87,"rsi_14":51.2,"weekRange":73.03},
 {"EMAs":"O O O O O O","ticker":"V","dayChange":0.0,"rsi_14":43.3,"weekRange":40.01},
 {"EMAs":"O O O O O X","ticker":"PHR","dayChange":1.14,"rsi_14":40.5,"weekRange":12.88},
-{"EMAs":"O O X X X X","ticker":"CRM","dayChange":1.71,"rsi_14":50.4,"weekRange":11.4},
+{"EMAs":"O O X X X X","ticker":"CRM","dayChange":1.71,"rsi_14":50.4,"weekRange":11.55},
 {"EMAs":"O X O O O X","ticker":"ALAB","dayChange":6.69,"rsi_14":46.9,"weekRange":48.84}
 ]

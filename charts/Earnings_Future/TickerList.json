@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X X O","ticker":"ULTA","dayChange":-0.64,"rsi_14":60.5,"weekRange":89.47},
-{"EMAs":"X X X X X X","ticker":"TD","dayChange":-0.21,"rsi_14":64.9,"weekRange":97.83},
 {"EMAs":"X X X X X O","ticker":"MAMA","dayChange":-1.77,"rsi_14":67.2,"weekRange":93.06},
 {"EMAs":"O O O O O O","ticker":"CPB","dayChange":-0.17,"rsi_14":41.0,"weekRange":3.11},
 {"EMAs":"O O O O O O","ticker":"DAKT","dayChange":-2.55,"rsi_14":41.7,"weekRange":54.75},

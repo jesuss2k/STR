@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O X X X X","ticker":"CRWD","dayChange":1.48,"rsi_14":53.0,"weekRange":84.11},
 {"EMAs":"X X O O O O","ticker":"LLY","dayChange":-1.2,"rsi_14":60.4,"weekRange":83.94},
 {"EMAs":"O O X X X X","ticker":"OPRA","dayChange":2.07,"rsi_14":46.5,"weekRange":11.82},
 {"EMAs":"X X X X X X","ticker":"TQQQ","dayChange":0.71,"rsi_14":56.9,"weekRange":88.43},
@@ -32,7 +31,7 @@
 {"EMAs":"X X X X X X","ticker":"SMTC","dayChange":0.87,"rsi_14":58.8,"weekRange":89.07},
 {"EMAs":"O O O O X X","ticker":"BURL","dayChange":1.55,"rsi_14":39.7,"weekRange":37.4},
 {"EMAs":"X X X X X X","ticker":"SOXL","dayChange":6.35,"rsi_14":61.1,"weekRange":90.4},
-{"EMAs":"X X X X X X","ticker":"TNA","dayChange":5.36,"rsi_14":58.5,"weekRange":78.61},
+{"EMAs":"X X X X X X","ticker":"TNA","dayChange":5.36,"rsi_14":58.5,"weekRange":79.3},
 {"EMAs":"X X X X X X","ticker":"GOOGL","dayChange":1.21,"rsi_14":70.4,"weekRange":95.11},
 {"EMAs":"O O X X O O","ticker":"PDD","dayChange":-1.43,"rsi_14":35.3,"weekRange":57.53},
 {"EMAs":"O X X X X X","ticker":"SHOP","dayChange":2.02,"rsi_14":54.4,"weekRange":80.25},
