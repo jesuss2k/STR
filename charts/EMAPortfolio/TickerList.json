@@ -71,7 +71,7 @@
 {"EMAs":"X X X X X X","Group":"3","ticker":"BAC","dayChange":1.69,"rsi_14":61.0,"weekRange":97.23},
 {"EMAs":"X X X X X X","Group":"3","ticker":"BP","dayChange":2.42,"rsi_14":64.8,"weekRange":96.78},
 {"EMAs":"X X X X X X","Group":"3","ticker":"AAP","dayChange":1.59,"rsi_14":56.7,"weekRange":59.94},
-{"EMAs":"X X X X X X","Group":"3","ticker":"CSCO","dayChange":1.17,"rsi_14":63.0,"weekRange":91.75},
+{"EMAs":"X X X X X X","Group":"3","ticker":"CSCO","dayChange":1.14,"rsi_14":63.0,"weekRange":91.75},
 {"EMAs":"X X X X X X","Group":"3","ticker":"TQQQ","dayChange":0.71,"rsi_14":56.9,"weekRange":88.43},
 {"EMAs":"X X X X X X","Group":"3","ticker":"XRT","dayChange":1.42,"rsi_14":62.8,"weekRange":85.97},
 {"EMAs":"X X X X X X","Group":"3","ticker":"GCT","dayChange":1.49,"rsi_14":73.7,"weekRange":99.37},

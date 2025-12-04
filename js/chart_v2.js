@@ -560,7 +560,8 @@ function plotEMAs_2H(chart, rawData) {
         EMA_100: "#ffff00", // Yellow
         EMA_200: "#e67e22", // Orange
         EMA_400: "#ff0000", // Red
-        EMA_800: "#ffffff"  // White
+        EMA_800: "#ffffff",  // White
+        ZLEMA: "#ff0000"    // Red (Dashed)        
     };
 
     Object.keys(emaColors).forEach(emaKey => {
@@ -581,10 +582,11 @@ function plotEMAs_2H(chart, rawData) {
             lastValueVisible: false,
             crosshairMarkerVisible: false,
             pointMarkersVisible: false,
+            lineStyle: emaKey === "ZLEMA" ? 3 : 0 // Dashed line for ZLEMA (2 = Dotted, 0 = Solid)            
         });
 
         emaSeries.setData(emaData);
-        console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]}`);
+        console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]} ${emaKey === "ZLEMA" ? "(Dashed)" : ""}`);
     });
 }
 
@@ -634,7 +636,8 @@ function plotEMAs_30m(chart, rawData) {
         EMA_38: "#ffcbfb",   // Light Pink
         EMA_75: "#8c3caf",   // Purple
         EMA_150: "#38ccdd",  // Cyan
-        EMA_300: "#ffff00"
+        EMA_300: "#ffff00",
+        ZLEMA: "#ff0000"    // Red (Dashed)        
     };
 
     Object.keys(emaColors).forEach(emaKey => {
@@ -655,10 +658,11 @@ function plotEMAs_30m(chart, rawData) {
             lastValueVisible: false,
             crosshairMarkerVisible: false,
             pointMarkersVisible: false,
+            lineStyle: emaKey === "ZLEMA" ? 3 : 0 // Dashed line for ZLEMA (2 = Dotted, 0 = Solid)            
         });
 
         emaSeries.setData(emaData);
-        console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]}`);
+        console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]} ${emaKey === "ZLEMA" ? "(Dashed)" : ""}`);
     });
 }
 

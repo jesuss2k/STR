@@ -89,7 +89,7 @@
 {"Group":"12","ticker":"EA","dayChange":-0.01,"rsi_14":70.9,"weekRange":99.39},
 {"Group":"12","ticker":"TD","dayChange":-0.21,"rsi_14":64.9,"weekRange":97.83},
 {"Group":"12","ticker":"ARM","dayChange":1.99,"rsi_14":43.2,"weekRange":57.38},
-{"Group":"12","ticker":"CSCO","dayChange":1.17,"rsi_14":63.0,"weekRange":91.75},
+{"Group":"12","ticker":"CSCO","dayChange":1.14,"rsi_14":63.0,"weekRange":91.75},
 {"Group":"12","ticker":"MCD","dayChange":2.32,"rsi_14":52.7,"weekRange":62.62},
 {"Group":"12","ticker":"TGT","dayChange":0.5,"rsi_14":52.8,"weekRange":12.13},
 {"Group":"12","ticker":"EVER","dayChange":1.22,"rsi_14":70.8,"weekRange":80.97},
