@@ -4,7 +4,7 @@
 {"EMAs":"X X X X X O","ticker":"MAMA","dayChange":-1.77,"rsi_14":67.2,"weekRange":93.06},
 {"EMAs":"O O O O O O","ticker":"CPB","dayChange":-0.17,"rsi_14":41.0,"weekRange":3.11},
 {"EMAs":"O O O O O O","ticker":"DAKT","dayChange":-2.55,"rsi_14":41.7,"weekRange":54.75},
-{"EMAs":"O O O X X X","ticker":"ORCL","dayChange":3.31,"rsi_14":36.5,"weekRange":39.19},
+{"EMAs":"O O O X X X","ticker":"ORCL","dayChange":3.3,"rsi_14":36.4,"weekRange":39.17},
 {"EMAs":"X X X X X X","ticker":"SNPS","dayChange":3.8,"rsi_14":68.5,"weekRange":35.21},
 {"EMAs":"O X X X X X","ticker":"COST","dayChange":0.02,"rsi_14":54.0,"weekRange":24.48},
 {"EMAs":"X X X O O X","ticker":"AVGO","dayChange":-0.25,"rsi_14":57.1,"weekRange":91.55},

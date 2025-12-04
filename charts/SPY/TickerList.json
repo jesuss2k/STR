@@ -1,5 +1,5 @@
 [
-{"ticker":"NVDA","dayChange":-1.04,"rsi_14":44.5,"weekRange":74.02},
+{"ticker":"NVDA","dayChange":-1.03,"rsi_14":44.5,"weekRange":74.04},
 {"ticker":"AAPL","dayChange":-0.71,"rsi_14":70.4,"weekRange":96.26},
 {"ticker":"MSFT","dayChange":-2.5,"rsi_14":37.9,"weekRange":63.11},
 {"ticker":"AMZN","dayChange":-0.87,"rsi_14":51.2,"weekRange":73.03},
@@ -33,7 +33,7 @@
 {"ticker":"MCD","dayChange":2.32,"rsi_14":52.7,"weekRange":62.62},
 {"ticker":"CSCO","dayChange":1.17,"rsi_14":63.0,"weekRange":91.75},
 {"ticker":"ACN","dayChange":4.53,"rsi_14":70.5,"weekRange":25.72},
-{"ticker":"ABT","dayChange":-0.8,"rsi_14":42.7,"weekRange":47.58},
+{"ticker":"ABT","dayChange":-0.82,"rsi_14":42.6,"weekRange":47.51},
 {"ticker":"DHR","dayChange":0.53,"rsi_14":0,"weekRange":23.7},
 {"ticker":"CMCSA","dayChange":0.68,"rsi_14":0,"weekRange":39.35},
 {"ticker":"TXN","dayChange":4.19,"rsi_14":71.0,"weekRange":52.18},

@@ -3,7 +3,7 @@
 {"EMAs":"O O X X X X","ticker":"CRWV","dayChange":4.38,"rsi_14":38.1,"weekRange":29.87},
 {"EMAs":"O O X X O X","ticker":"AMD","dayChange":1.1,"rsi_14":46.2,"weekRange":74.04},
 {"EMAs":"O O X X X X","ticker":"MARA","dayChange":4.7,"rsi_14":42.0,"weekRange":15.03},
-{"EMAs":"O O O X X X","ticker":"ORCL","dayChange":3.31,"rsi_14":36.5,"weekRange":39.19},
+{"EMAs":"O O O X X X","ticker":"ORCL","dayChange":3.3,"rsi_14":36.4,"weekRange":39.17},
 {"EMAs":"O O X X X X","ticker":"PANW","dayChange":1.97,"rsi_14":43.3,"weekRange":62.27},
 {"EMAs":"O O X O O X","ticker":"IONQ","dayChange":3.67,"rsi_14":45.6,"weekRange":46.09},
 {"EMAs":"O O O O O O","ticker":"DAKT","dayChange":-2.55,"rsi_14":41.7,"weekRange":54.75},
