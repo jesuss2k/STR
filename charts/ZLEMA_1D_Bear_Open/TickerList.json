@@ -22,8 +22,8 @@
 {"EMAs":"O O O O O O","ticker":"COST","dayChange":-3.04,"rsi_14":41.5,"weekRange":10.92},
 {"EMAs":"O O O O O O","ticker":"PG","dayChange":-0.92,"rsi_14":41.2,"weekRange":7.6},
 {"EMAs":"O O X X X X","ticker":"VST","dayChange":2.58,"rsi_14":46.2,"weekRange":66.17},
-{"EMAs":"X X X O O O","ticker":"AAPL","dayChange":-1.51,"rsi_14":61.5,"weekRange":92.66},
 {"EMAs":"X X X X O X","ticker":"SOFI","dayChange":1.67,"rsi_14":54.5,"weekRange":86.84},
 {"EMAs":"O O X X X X","ticker":"NOW","dayChange":0.72,"rsi_14":46.3,"weekRange":30.84},
-{"EMAs":"O O X X X X","ticker":"MNDY","dayChange":1.8,"rsi_14":43.4,"weekRange":6.98}
+{"EMAs":"O O X X X X","ticker":"MNDY","dayChange":1.8,"rsi_14":43.4,"weekRange":6.98},
+{"EMAs":"X X X O O O","ticker":"AAPL","dayChange":-1.21,"rsi_14":63.1,"weekRange":93.37}
 ]
