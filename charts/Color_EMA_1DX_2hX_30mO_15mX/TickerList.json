@@ -1,5 +1,3 @@
 [
-{"EMAs":"X X X X O X","ticker":"EXPE","dayChange":1.15,"rsi_14":60.6,"weekRange":88.05},
-{"EMAs":"X X X X O X","ticker":"MAMA","dayChange":1.03,"rsi_14":67.0,"weekRange":93.82},
-{"EMAs":"X X X O O X","ticker":"INSM","dayChange":-0.01,"rsi_14":62.6,"weekRange":94.92}
+{"EMAs":"X X X X O X","ticker":"INTC","dayChange":4.28,"rsi_14":61.2,"weekRange":92.73}
 ]
