@@ -59,7 +59,7 @@
 {"Date":"25-06-05","ticker":"MDB","dayChange":-2.36,"rsi_14":67.3,"weekRange":91.69},
 {"Date":"25-06-04","ticker":"SOXL","dayChange":-3.05,"rsi_14":58.3,"weekRange":87.14},
 {"Date":"25-06-03","ticker":"WBD","dayChange":-0.28,"rsi_14":69.1,"weekRange":98.52},
-{"Date":"25-06-03","ticker":"PSN","dayChange":1.88,"rsi_14":53.9,"weekRange":65.15},
+{"Date":"25-06-03","ticker":"PSN","dayChange":1.88,"rsi_14":53.9,"weekRange":66.49},
 {"Date":"25-06-02","ticker":"KYMR","dayChange":0.86,"rsi_14":60.1,"weekRange":95.46},
 {"Date":"25-05-27","ticker":"GOOGL","dayChange":-0.84,"rsi_14":67.6,"weekRange":93.69},
 {"Date":"25-05-27","ticker":"GOOG","dayChange":-0.87,"rsi_14":68.1,"weekRange":94.17},
@@ -99,5 +99,5 @@
 {"Date":"25-01-31","ticker":"GDX","dayChange":0.41,"rsi_14":60.2,"weekRange":92.85},
 {"Date":"25-01-24","ticker":"TD","dayChange":2.03,"rsi_14":71.4,"weekRange":99.26},
 {"Date":"24-11-20","ticker":"NMHI","dayChange":-8.33,"rsi_14":0,"weekRange":5.47},
-{"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":35.47}
+{"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":35.98}
 ]
