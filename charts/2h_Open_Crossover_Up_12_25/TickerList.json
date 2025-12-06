@@ -49,7 +49,7 @@
 {"Date":"25-11-25","ticker":"ALK","dayChange":4.92,"rsi_14":70.0,"weekRange":29.72},
 {"Date":"25-11-24","ticker":"AAPL","dayChange":-0.68,"rsi_14":59.4,"weekRange":91.76},
 {"Date":"25-11-24","ticker":"META","dayChange":1.74,"rsi_14":59.8,"weekRange":61.19},
-{"Date":"25-11-24","ticker":"UPST","dayChange":-0.66,"rsi_14":57.4,"weekRange":23.63},
+{"Date":"25-11-24","ticker":"UPST","dayChange":-0.7,"rsi_14":57.4,"weekRange":23.6},
 {"Date":"25-11-24","ticker":"EL","dayChange":1.26,"rsi_14":71.0,"weekRange":98.89},
 {"Date":"25-11-24","ticker":"HPQ","dayChange":0.04,"rsi_14":56.5,"weekRange":30.13},
 {"Date":"25-11-24","ticker":"GPRO","dayChange":-1.35,"rsi_14":55.5,"weekRange":54.0},
