@@ -31,7 +31,7 @@
 {"EMAs":"X X X X X X","Blocks":3,"ticker":"MU","dayChange":5.0,"rsi_14":55.8,"weekRange":88.26},
 {"EMAs":"O X X X X X","Blocks":3,"ticker":"CDW","dayChange":1.24,"rsi_14":51.1,"weekRange":12.17},
 {"EMAs":"O X X X X O","Blocks":3,"ticker":"EME","dayChange":-1.85,"rsi_14":48.1,"weekRange":66.14},
-{"EMAs":"O X X X O O","Blocks":3,"ticker":"HNST","dayChange":-3.73,"rsi_14":43.8,"weekRange":6.17},
+{"EMAs":"O X X X O O","Blocks":3,"ticker":"HNST","dayChange":-3.73,"rsi_14":43.8,"weekRange":6.69},
 {"EMAs":"X X X X X X","Blocks":3,"ticker":"STX","dayChange":5.19,"rsi_14":58.7,"weekRange":91.87},
 {"EMAs":"O X X O O O","Blocks":3,"ticker":"MA","dayChange":0.59,"rsi_14":47.7,"weekRange":58.69},
 {"EMAs":"O O X X X X","Blocks":3,"ticker":"PYPL","dayChange":0.83,"rsi_14":44.6,"weekRange":17.01},

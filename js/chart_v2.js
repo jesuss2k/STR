@@ -408,7 +408,8 @@ function plotEMAs_1W(chart, rawData) {
         EMA_40: "#ffffff",  // White
         EMA_100: "#ab47bc",
         EMA_200: "#4caf50",
-        EMA_400: "#f48fb1"
+        EMA_400: "#f48fb1",
+        ZLEMA: "#ff0000"    // Red (Dashed)        
     };
 
     Object.keys(emaColors).forEach(emaKey => {
@@ -424,11 +425,12 @@ function plotEMAs_1W(chart, rawData) {
 
         const emaSeries = chart.addLineSeries({
             color: emaColors[emaKey],
-            lineWidth: 1,
+            lineWidth: emaKey === "ZLEMA" ? 1 : 1,
             priceLineVisible: false,
             lastValueVisible: false,
             crosshairMarkerVisible: false,
             pointMarkersVisible: false,
+            lineStyle: emaKey === "ZLEMA" ? 3 : 0 // Dashed line for ZLEMA (2 = Dotted, 0 = Solid)
         });
 
         emaSeries.setData(emaData);

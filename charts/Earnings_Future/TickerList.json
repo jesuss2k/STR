@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O O","ticker":"MAMA","dayChange":-1.12,"rsi_14":61.8,"weekRange":90.05},
 {"EMAs":"O O O O O X","ticker":"CPB","dayChange":0.97,"rsi_14":40.3,"weekRange":3.06},
 {"EMAs":"X X X X X X","ticker":"SNPS","dayChange":0.71,"rsi_14":67.7,"weekRange":35.32},
 {"EMAs":"O O X X X X","ticker":"ORCL","dayChange":1.52,"rsi_14":44.3,"weekRange":43.52},
