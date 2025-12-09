@@ -1,6 +1,5 @@
 [
-{"EMAs":"O X X X O X","ticker":"FNGU","dayChange":0.72,"rsi_14":52.1,"weekRange":1.19},
-{"EMAs":"O X X O O X","ticker":"HNST","dayChange":0.79,"rsi_14":44.9,"weekRange":7.52},
-{"EMAs":"O X X O O X","ticker":"OSCR","dayChange":2.09,"rsi_14":52.2,"weekRange":46.67},
-{"EMAs":"O O X O O X","ticker":"IBIT","dayChange":0.41,"rsi_14":44.0,"weekRange":30.34}
+{"EMAs":"O X X O O X","ticker":"OSCR","dayChange":0.99,"rsi_14":51.1,"weekRange":45.2},
+{"EMAs":"O X X O O X","ticker":"GPN","dayChange":0.71,"rsi_14":52.8,"weekRange":24.27},
+{"EMAs":"O X X O O X","ticker":"HNST","dayChange":0.74,"rsi_14":44.8,"weekRange":7.49}
 ]
