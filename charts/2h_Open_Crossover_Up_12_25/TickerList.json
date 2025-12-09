@@ -1,7 +1,7 @@
 [
 {"Date":"25-12-08","ticker":"LMT","dayChange":2.91,"rsi_14":52.3,"weekRange":52.02},
-{"Date":"25-12-08","ticker":"EBAY","dayChange":1.66,"rsi_14":48.8,"weekRange":59.22},
-{"Date":"25-12-08","ticker":"MSFT","dayChange":1.65,"rsi_14":47.9,"weekRange":69.48},
+{"Date":"25-12-08","ticker":"EBAY","dayChange":1.67,"rsi_14":48.8,"weekRange":59.24},
+{"Date":"25-12-08","ticker":"MSFT","dayChange":1.63,"rsi_14":47.8,"weekRange":69.42},
 {"Date":"25-12-08","ticker":"WSM","dayChange":0.05,"rsi_14":45.0,"weekRange":54.92},
 {"Date":"25-12-05","ticker":"OMC","dayChange":-0.39,"rsi_14":49.2,"weekRange":15.16},
 {"Date":"25-12-05","ticker":"ALAB","dayChange":9.0,"rsi_14":58.4,"weekRange":59.61},
@@ -20,7 +20,7 @@
 {"Date":"25-12-01","ticker":"CRWV","dayChange":-2.33,"rsi_14":46.3,"weekRange":34.35},
 {"Date":"25-12-01","ticker":"CRM","dayChange":-0.4,"rsi_14":65.3,"weekRange":25.89},
 {"Date":"25-12-01","ticker":"UBER","dayChange":1.37,"rsi_14":56.6,"weekRange":77.92},
-{"Date":"25-11-28","ticker":"MARA","dayChange":2.56,"rsi_14":40.5,"weekRange":14.12},
+{"Date":"25-11-28","ticker":"MARA","dayChange":2.64,"rsi_14":40.6,"weekRange":14.18},
 {"Date":"25-11-28","ticker":"IBKR","dayChange":2.03,"rsi_14":50.3,"weekRange":81.4},
 {"Date":"25-11-28","ticker":"PINS","dayChange":1.5,"rsi_14":46.5,"weekRange":20.15},
 {"Date":"25-11-28","ticker":"NET","dayChange":2.44,"rsi_14":48.5,"weekRange":68.26},

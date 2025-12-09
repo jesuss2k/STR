@@ -1,5 +1,5 @@
 [
-{"EMAs":"O O X X X X","ticker":"NVDA","dayChange":1.73,"rsi_14":51.1,"weekRange":78.8},
+{"EMAs":"O O X X X X","ticker":"NVDA","dayChange":1.72,"rsi_14":51.0,"weekRange":78.78},
 {"EMAs":"X O O O O O","ticker":"LLY","dayChange":-1.26,"rsi_14":50.7,"weekRange":76.57},
 {"EMAs":"X X X O O O","ticker":"GOOG","dayChange":-2.37,"rsi_14":62.5,"weekRange":92.36},
 {"EMAs":"X X X X O O","ticker":"TSLA","dayChange":-3.39,"rsi_14":53.7,"weekRange":82.15},
@@ -8,7 +8,7 @@
 {"EMAs":"O O O O O O","ticker":"OLLI","dayChange":-2.09,"rsi_14":42.9,"weekRange":51.05},
 {"EMAs":"O O O O O O","ticker":"T","dayChange":-1.74,"rsi_14":38.4,"weekRange":41.14},
 {"EMAs":"O O O O O O","ticker":"ABT","dayChange":-2.39,"rsi_14":34.8,"weekRange":36.98},
-{"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-3.41,"rsi_14":30.2,"weekRange":28.29},
+{"EMAs":"O O O O O O","ticker":"NFLX","dayChange":-3.44,"rsi_14":30.2,"weekRange":28.23},
 {"EMAs":"O O O O O O","ticker":"XYZ","dayChange":-0.11,"rsi_14":39.7,"weekRange":33.55},
 {"EMAs":"O O O O O X","ticker":"BABA","dayChange":-0.12,"rsi_14":46.3,"weekRange":69.33},
 {"EMAs":"O O O X X O","ticker":"PDD","dayChange":0.0,"rsi_14":37.1,"weekRange":58.34},
