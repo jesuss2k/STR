@@ -1,6 +1,3 @@
 [
-{"EMAs":"O O X O O X","ticker":"TTD","dayChange":1.02,"rsi_14":38.8,"weekRange":1.54},
-{"EMAs":"O X X O O X","ticker":"OSCR","dayChange":1.17,"rsi_14":51.3,"weekRange":45.44},
-{"EMAs":"O X X O O X","ticker":"GPN","dayChange":0.37,"rsi_14":52.0,"weekRange":23.77},
-{"EMAs":"O X X O O X","ticker":"HNST","dayChange":0.74,"rsi_14":44.8,"weekRange":7.49}
+{"EMAs":"O X X O O X","ticker":"GPN","dayChange":0.28,"rsi_14":51.8,"weekRange":23.63}
 ]
