@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O O X X X","ticker":"CPB","dayChange":1.49,"rsi_14":45.4,"weekRange":6.05},
 {"EMAs":"X X X X X O","ticker":"SNPS","dayChange":-0.22,"rsi_14":67.2,"weekRange":34.97},
 {"EMAs":"O X X X X X","ticker":"ORCL","dayChange":1.36,"rsi_14":46.5,"weekRange":44.82},
 {"EMAs":"O O O O X X","ticker":"DAKT","dayChange":2.28,"rsi_14":43.2,"weekRange":54.26},
