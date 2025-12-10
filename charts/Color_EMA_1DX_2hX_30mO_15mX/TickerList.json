@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"MCD","dayChange":-0.3,"rsi_14":54.3,"weekRange":66.92},
-{"EMAs":"X X X X O X","ticker":"ASML","dayChange":0.21,"rsi_14":61.0,"weekRange":95.03},
-{"EMAs":"X X X X O X","ticker":"BIDU","dayChange":1.28,"rsi_14":55.0,"weekRange":67.94},
-{"EMAs":"X X X O O X","ticker":"BAC","dayChange":0.64,"rsi_14":58.0,"weekRange":95.66}
+{"EMAs":"X X X X O X","ticker":"TMV","dayChange":-0.66,"rsi_14":61.3,"weekRange":38.81},
+{"EMAs":"X X X X O X","ticker":"TXN","dayChange":0.96,"rsi_14":65.1,"weekRange":50.51},
+{"EMAs":"X X X X O X","ticker":"MCD","dayChange":-0.26,"rsi_14":54.5,"weekRange":67.18}
 ]
