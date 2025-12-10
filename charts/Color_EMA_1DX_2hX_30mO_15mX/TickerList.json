@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"AMAT","dayChange":0.45,"rsi_14":69.3,"weekRange":96.5}
+{"EMAs":"X X X X O X","ticker":"BIDU","dayChange":1.25,"rsi_14":55.0,"weekRange":67.89},
+{"EMAs":"X X X O O X","ticker":"BAC","dayChange":0.56,"rsi_14":57.7,"weekRange":95.47},
+{"EMAs":"X X X O O X","ticker":"DIA","dayChange":0.47,"rsi_14":57.9,"weekRange":95.13},
+{"EMAs":"X X X X O X","ticker":"MTDR","dayChange":0.71,"rsi_14":63.5,"weekRange":33.5}
 ]
