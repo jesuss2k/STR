@@ -34,7 +34,7 @@
 {"EMAs":"O O X X X X","ticker":"WDAY","dayChange":0.57,"rsi_14":48.4,"weekRange":21.6},
 {"EMAs":"O X X O O O","ticker":"ADP","dayChange":-0.18,"rsi_14":47.2,"weekRange":13.35},
 {"EMAs":"O X X X O O","ticker":"OMC","dayChange":0.12,"rsi_14":49.5,"weekRange":18.77},
-{"EMAs":"O X X O X X","ticker":"CAKE","dayChange":1.36,"rsi_14":48.2,"weekRange":17.66},
+{"EMAs":"O X X O X X","ticker":"CAKE","dayChange":1.39,"rsi_14":48.2,"weekRange":17.7},
 {"EMAs":"O X X O X X","ticker":"CMG","dayChange":0.36,"rsi_14":49.3,"weekRange":10.76},
 {"EMAs":"O X X X X X","ticker":"PINS","dayChange":0.11,"rsi_14":46.7,"weekRange":20.33}
 ]

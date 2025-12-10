@@ -4,6 +4,7 @@
 {"EMAs":"O X X X X X","Group":"3","ticker":"PINS","dayChange":0.11,"rsi_14":46.7,"weekRange":20.33},
 {"EMAs":"O X X X X O","Group":"3","ticker":"IBKR","dayChange":-0.38,"rsi_14":49.5,"weekRange":80.78},
 {"EMAs":"X X X X X X","Group":"3","ticker":"AAL","dayChange":1.14,"rsi_14":69.1,"weekRange":61.6},
+{"EMAs":"O X X O X X","Group":"3","ticker":"CAKE","dayChange":1.39,"rsi_14":48.2,"weekRange":17.7},
 {"EMAs":"X X X X X X","Group":"3","ticker":"MGM","dayChange":1.61,"rsi_14":64.6,"weekRange":66.1},
 {"EMAs":"X X X X X O","Group":"3","ticker":"AR","dayChange":0.13,"rsi_14":63.7,"weekRange":55.31},
 {"EMAs":"O X X X O O","Group":"3","ticker":"OMC","dayChange":0.12,"rsi_14":49.5,"weekRange":18.77},
