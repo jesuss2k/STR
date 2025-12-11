@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"DG","dayChange":0.28,"rsi_14":70.6,"weekRange":86.61}
+{"EMAs":"X X X O O X","ticker":"AMZD","dayChange":1.19,"rsi_14":51.0,"weekRange":18.71},
+{"EMAs":"X X X X O X","ticker":"ON","dayChange":0.55,"rsi_14":62.6,"weekRange":61.62},
+{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":0.04,"rsi_14":66.9,"weekRange":96.76}
 ]
