@@ -1,7 +1,7 @@
 [
 {"Date":"25-12-10","ticker":"MRNA","dayChange":2.8,"rsi_14":65.0,"weekRange":25.34},
 {"Date":"25-12-10","ticker":"JBLU","dayChange":1.41,"rsi_14":69.3,"weekRange":34.0},
-{"Date":"25-12-10","ticker":"RETL","dayChange":4.02,"rsi_14":68.0,"weekRange":77.73},
+{"Date":"25-12-10","ticker":"RETL","dayChange":4.02,"rsi_14":68.0,"weekRange":79.49},
 {"Date":"25-12-10","ticker":"PLTR","dayChange":3.34,"rsi_14":61.5,"weekRange":86.39},
 {"Date":"25-12-08","ticker":"XRT","dayChange":1.38,"rsi_14":68.4,"weekRange":94.73},
 {"Date":"25-12-05","ticker":"VNOM","dayChange":1.07,"rsi_14":67.8,"weekRange":33.93},
@@ -14,7 +14,7 @@
 {"Date":"25-12-03","ticker":"DTST","dayChange":-0.4,"rsi_14":77.9,"weekRange":83.28},
 {"Date":"25-12-02","ticker":"PATH","dayChange":-1.53,"rsi_14":72.2,"weekRange":89.01},
 {"Date":"25-12-02","ticker":"UAL","dayChange":1.93,"rsi_14":63.2,"weekRange":87.09},
-{"Date":"25-12-02","ticker":"TNA","dayChange":4.06,"rsi_14":64.2,"weekRange":90.64},
+{"Date":"25-12-02","ticker":"TNA","dayChange":4.06,"rsi_14":64.2,"weekRange":93.47},
 {"Date":"25-12-01","ticker":"APP","dayChange":-2.94,"rsi_14":67.1,"weekRange":92.23},
 {"Date":"25-12-01","ticker":"ULTA","dayChange":-0.38,"rsi_14":69.7,"weekRange":96.29},
 {"Date":"25-12-01","ticker":"DG","dayChange":0.28,"rsi_14":70.6,"weekRange":86.61},
@@ -98,5 +98,5 @@
 {"Date":"25-01-31","ticker":"GDX","dayChange":1.68,"rsi_14":62.2,"weekRange":96.58},
 {"Date":"25-01-24","ticker":"TD","dayChange":2.38,"rsi_14":82.1,"weekRange":99.35},
 {"Date":"24-11-20","ticker":"NMHI","dayChange":-8.33,"rsi_14":0,"weekRange":5.47},
-{"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":35.98}
+{"Date":"24-09-19","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":40.29}
 ]
