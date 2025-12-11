@@ -1,5 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"AMZD","dayChange":1.19,"rsi_14":51.0,"weekRange":18.71},
-{"EMAs":"X X X X O X","ticker":"ON","dayChange":0.55,"rsi_14":62.6,"weekRange":61.62},
-{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":0.04,"rsi_14":66.9,"weekRange":96.76}
+{"EMAs":"X X X X O X","ticker":"SMTC","dayChange":0.25,"rsi_14":65.4,"weekRange":97.07},
+{"EMAs":"X X X O O X","ticker":"AMZD","dayChange":1.14,"rsi_14":50.9,"weekRange":18.63},
+{"EMAs":"X X X X O X","ticker":"ON","dayChange":0.67,"rsi_14":62.7,"weekRange":61.79},
+{"EMAs":"X X X O O X","ticker":"ATXS","dayChange":-0.04,"rsi_14":66.6,"weekRange":96.66}
 ]

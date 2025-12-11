@@ -1,6 +1,4 @@
 [
-{"EMAs":"O X X X O X","ticker":"COIN","dayChange":-0.82,"rsi_14":46.6,"weekRange":43.87},
-{"EMAs":"O X X O O X","ticker":"FNGU","dayChange":-0.64,"rsi_14":50.8,"weekRange":1.16},
-{"EMAs":"O X X X O X","ticker":"EME","dayChange":0.53,"rsi_14":49.3,"weekRange":66.88},
-{"EMAs":"O O X X O X","ticker":"SMCI","dayChange":-0.34,"rsi_14":41.1,"weekRange":22.56}
+{"EMAs":"O X X O O X","ticker":"DASH","dayChange":1.5,"rsi_14":53.3,"weekRange":52.42},
+{"EMAs":"O X X X O X","ticker":"DUOL","dayChange":2.34,"rsi_14":46.9,"weekRange":9.45}
 ]
