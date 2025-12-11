@@ -1,8 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"KLAC","dayChange":-0.95,"rsi_14":60.0,"weekRange":92.18},
-{"EMAs":"X X X O O X","ticker":"QQQ","dayChange":-0.58,"rsi_14":56.9,"weekRange":94.43},
-{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":-0.69,"rsi_14":63.6,"weekRange":77.12},
-{"EMAs":"X X X O O X","ticker":"TQQQ","dayChange":-1.62,"rsi_14":55.5,"weekRange":88.53},
-{"EMAs":"X X X X O X","ticker":"TSLA","dayChange":-0.92,"rsi_14":56.0,"weekRange":84.96},
-{"EMAs":"X X X X O X","ticker":"SMTC","dayChange":0.25,"rsi_14":65.4,"weekRange":97.07}
+{"EMAs":"X X X X O X","ticker":"RDDT","dayChange":-1.14,"rsi_14":62.8,"weekRange":76.6},
+{"EMAs":"X X X O O X","ticker":"TMV","dayChange":0.22,"rsi_14":60.5,"weekRange":38.43},
+{"EMAs":"X X X X O X","ticker":"TSLA","dayChange":-1.02,"rsi_14":55.8,"weekRange":84.8},
+{"EMAs":"X X X O O X","ticker":"AMZD","dayChange":0.94,"rsi_14":50.4,"weekRange":18.31}
 ]
