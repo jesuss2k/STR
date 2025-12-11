@@ -12,7 +12,7 @@
 {"EMAs":"O O O O O O","ticker":"PG","dayChange":0.14,"rsi_14":32.9,"weekRange":4.01},
 {"EMAs":"O X X X O X","ticker":"NVDA","dayChange":-0.64,"rsi_14":49.0,"weekRange":77.38},
 {"EMAs":"O X X O O X","ticker":"CRWD","dayChange":0.3,"rsi_14":51.6,"weekRange":82.39},
-{"EMAs":"O O O O O O","ticker":"MSFT","dayChange":-2.78,"rsi_14":40.5,"weekRange":63.39},
+{"EMAs":"O O O O O O","ticker":"MSFT","dayChange":-2.74,"rsi_14":40.6,"weekRange":63.5},
 {"EMAs":"O O O O O O","ticker":"COST","dayChange":-1.58,"rsi_14":34.5,"weekRange":1.6},
 {"EMAs":"O O X X X X","ticker":"AMSC","dayChange":2.65,"rsi_14":40.2,"weekRange":34.32},
 {"EMAs":"X X O O X X","ticker":"AAPL","dayChange":0.58,"rsi_14":58.7,"weekRange":91.76},
