@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"TMV","dayChange":0.25,"rsi_14":60.6,"weekRange":38.51},
-{"EMAs":"X X X X O X","ticker":"TSLA","dayChange":-1.01,"rsi_14":55.8,"weekRange":84.82},
-{"EMAs":"X X X O O X","ticker":"AMZD","dayChange":0.74,"rsi_14":49.8,"weekRange":17.99}
+{"EMAs":"X X X X O X","ticker":"JBLU","dayChange":1.64,"rsi_14":62.2,"weekRange":32.8},
+{"EMAs":"X X X O O X","ticker":"SDS","dayChange":1.49,"rsi_14":68.7,"weekRange":88.91}
 ]
