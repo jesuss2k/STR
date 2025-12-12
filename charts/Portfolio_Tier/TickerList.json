@@ -1,7 +1,7 @@
 [
 {"EMAs":"X O O X X X","ticker":"LLY","dayChange":1.58,"rsi_14":53.7,"weekRange":78.98},
 {"EMAs":"X X O O O O","ticker":"GOOG","dayChange":-2.27,"rsi_14":59.0,"weekRange":91.95},
-{"EMAs":"X X X X O X","ticker":"TSLA","dayChange":-1.02,"rsi_14":55.8,"weekRange":84.81},
+{"EMAs":"X X X X O X","ticker":"TSLA","dayChange":-1.01,"rsi_14":55.8,"weekRange":84.82},
 {"EMAs":"X X X X X X","ticker":"AVGO","dayChange":-1.6,"rsi_14":64.0,"weekRange":97.02},
 {"EMAs":"X X X X X X","ticker":"ASML","dayChange":0.31,"rsi_14":62.3,"weekRange":96.65},
 {"EMAs":"O O O O O O","ticker":"BABA","dayChange":-1.21,"rsi_14":45.5,"weekRange":68.24},
