@@ -1,6 +1,6 @@
 [
 {"EMAs":"O O O O O O","ticker":"IBIT","dayChange":-1.73,"rsi_14":43.0,"weekRange":28.5},
-{"EMAs":"X X X X O O","ticker":"IWM","dayChange":-1.51,"rsi_14":60.6,"weekRange":95.03},
+{"EMAs":"X X X X O O","ticker":"IWM","dayChange":-1.53,"rsi_14":60.5,"weekRange":94.97},
 {"EMAs":"X X O O O O","ticker":"QQQ","dayChange":-1.91,"rsi_14":47.9,"weekRange":90.03},
 {"EMAs":"X X O O O O","ticker":"SOXX","dayChange":-4.78,"rsi_14":50.6,"weekRange":89.43},
 {"EMAs":"X X X O O O","ticker":"SPY","dayChange":-1.08,"rsi_14":53.6,"weekRange":96.18}

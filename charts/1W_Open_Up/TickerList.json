@@ -4,7 +4,7 @@
 {"EMAs":"X O O O O O","ticker":"BIIB","dayChange":0.93,"rsi_14":54.8,"weekRange":85.27},
 {"EMAs":"X X O O O O","ticker":"GPRO","dayChange":-0.57,"rsi_14":48.4,"weekRange":50.23},
 {"EMAs":"O X X X X X","ticker":"ACIW","dayChange":0.15,"rsi_14":53.0,"weekRange":40.02},
-{"EMAs":"X X O O O O","ticker":"UPRO","dayChange":-3.17,"rsi_14":51.9,"weekRange":91.59},
+{"EMAs":"X X O O O O","ticker":"UPRO","dayChange":-3.21,"rsi_14":51.8,"weekRange":91.52},
 {"EMAs":"X X X X X O","ticker":"INTU","dayChange":-0.75,"rsi_14":56.0,"weekRange":49.2},
 {"EMAs":"X X O O X X","ticker":"AAPL","dayChange":0.09,"rsi_14":57.6,"weekRange":91.34},
 {"EMAs":"O X X X X X","ticker":"MMC","dayChange":1.49,"rsi_14":57.8,"weekRange":16.3},

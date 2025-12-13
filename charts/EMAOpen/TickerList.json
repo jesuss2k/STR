@@ -47,7 +47,7 @@
 {"EMAs":"X X X X X O","Group":"3:6","ticker":"ALK","dayChange":-2.19,"rsi_14":68.9,"weekRange":34.04},
 {"EMAs":"X X X X O O","Group":"3:6","ticker":"TEAM","dayChange":-0.75,"rsi_14":60.0,"weekRange":11.99},
 {"EMAs":"X X O O X X","Group":"6:12","ticker":"AAPL","dayChange":0.09,"rsi_14":57.6,"weekRange":91.34},
-{"EMAs":"X X O O O O","Group":"12:25 ","ticker":"UPRO","dayChange":-3.17,"rsi_14":51.9,"weekRange":91.59},
+{"EMAs":"X X O O O O","Group":"12:25 ","ticker":"UPRO","dayChange":-3.21,"rsi_14":51.8,"weekRange":91.52},
 {"EMAs":"X X X O O O","Group":"12:25 ","ticker":"IOT","dayChange":-5.61,"rsi_14":54.2,"weekRange":32.75},
 {"EMAs":"X O O O O O","Group":"12:25 ","ticker":"BIIB","dayChange":0.93,"rsi_14":54.8,"weekRange":85.27},
 {"EMAs":"X X X O O O","Group":"12:25 ","ticker":"SNPS","dayChange":-5.09,"rsi_14":55.7,"weekRange":30.49},
