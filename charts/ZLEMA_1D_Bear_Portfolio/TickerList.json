@@ -52,7 +52,6 @@
 {"EMAs":"X X O O O O","ticker":"GOOG","dayChange":-1.01,"rsi_14":56.1,"weekRange":90.24},
 {"EMAs":"O X O O O O","ticker":"RXRX","dayChange":-5.46,"rsi_14":42.6,"weekRange":6.3},
 {"EMAs":"X X O O O O","ticker":"SMTC","dayChange":-8.62,"rsi_14":49.9,"weekRange":85.28},
-{"EMAs":"X O X X X X","ticker":"LLY","dayChange":1.8,"rsi_14":57.8,"weekRange":82.7},
 {"EMAs":"X X O O O O","ticker":"TSM","dayChange":-4.2,"rsi_14":49.2,"weekRange":87.79},
 {"EMAs":"X X O O O O","ticker":"SOXX","dayChange":-4.78,"rsi_14":50.6,"weekRange":89.43},
 {"EMAs":"X O O O O O","ticker":"YEXT","dayChange":-1.19,"rsi_14":41.3,"weekRange":75.88},

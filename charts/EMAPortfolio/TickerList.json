@@ -127,7 +127,7 @@
 {"EMAs":"X X X X X X","Group":"3","ticker":"MA","dayChange":1.52,"rsi_14":63.0,"weekRange":78.09},
 {"EMAs":"X X O O O X","Group":"3:6","ticker":"ATXS","dayChange":0.15,"rsi_14":64.8,"weekRange":96.3},
 {"EMAs":"X X X X X X","Group":"3:6","ticker":"DRV","dayChange":0.34,"rsi_14":56.1,"weekRange":21.22},
-{"EMAs":"X X X X O O","Group":"3:6","ticker":"VNOM","dayChange":-0.76,"rsi_14":63.7,"weekRange":31.47},
+{"EMAs":"X X X X O O","Group":"3:6","ticker":"VNOM","dayChange":-0.76,"rsi_14":63.7,"weekRange":32.37},
 {"EMAs":"O X X X O O","Group":"3:6","ticker":"PTC","dayChange":-1.12,"rsi_14":44.8,"weekRange":49.38},
 {"EMAs":"X X X X O O","Group":"3:6","ticker":"TNA","dayChange":-4.62,"rsi_14":59.3,"weekRange":92.39},
 {"EMAs":"X X X X X O","Group":"3:6","ticker":"RETL","dayChange":-2.79,"rsi_14":65.2,"weekRange":79.84},
