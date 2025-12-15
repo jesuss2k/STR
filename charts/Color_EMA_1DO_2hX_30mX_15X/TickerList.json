@@ -1,15 +1,12 @@
 [
-{"EMAs":"O X X X X X","ticker":"BURL","dayChange":1.03,"rsi_14":50.9,"weekRange":58.19},
-{"EMAs":"O X X O X X","ticker":"EME","dayChange":0.46,"rsi_14":49.0,"weekRange":66.77},
-{"EMAs":"O X X X X X","ticker":"CELH","dayChange":0.33,"rsi_14":46.8,"weekRange":50.14},
-{"EMAs":"O X X X X X","ticker":"PM","dayChange":3.52,"rsi_14":60.9,"weekRange":60.85},
-{"EMAs":"O X X X X X","ticker":"QID","dayChange":0.68,"rsi_14":53.8,"weekRange":5.3},
-{"EMAs":"O O X X X X","ticker":"SOXS","dayChange":0.3,"rsi_14":46.1,"weekRange":0.99},
-{"EMAs":"O O X X X X","ticker":"SQQQ","dayChange":1.05,"rsi_14":53.2,"weekRange":3.48},
-{"EMAs":"O O X X X X","ticker":"TECS","dayChange":2.37,"rsi_14":53.9,"weekRange":3.68},
-{"EMAs":"O O X X X X","ticker":"ERY","dayChange":1.78,"rsi_14":51.1,"weekRange":10.68},
-{"EMAs":"O X X X X X","ticker":"GE","dayChange":1.46,"rsi_14":58.5,"weekRange":92.07},
-{"EMAs":"O O X X X X","ticker":"GGLS","dayChange":0.58,"rsi_14":43.9,"weekRange":4.72},
-{"EMAs":"O O X X X X","ticker":"ABT","dayChange":2.47,"rsi_14":56.6,"weekRange":58.28},
-{"EMAs":"O X X X X X","ticker":"MMYT","dayChange":1.71,"rsi_14":64.7,"weekRange":27.19}
+{"EMAs":"O X X X X X","ticker":"BURL","dayChange":1.26,"rsi_14":51.3,"weekRange":58.82},
+{"EMAs":"O X X X X X","ticker":"PM","dayChange":3.1,"rsi_14":60.0,"weekRange":59.93},
+{"EMAs":"O X X X X X","ticker":"QID","dayChange":0.97,"rsi_14":54.4,"weekRange":5.49},
+{"EMAs":"O O X X X X","ticker":"SOXS","dayChange":1.52,"rsi_14":47.0,"weekRange":1.07},
+{"EMAs":"O X X X X X","ticker":"SQQQ","dayChange":1.55,"rsi_14":53.9,"weekRange":3.63},
+{"EMAs":"O O X X X X","ticker":"TECS","dayChange":3.05,"rsi_14":54.7,"weekRange":3.82},
+{"EMAs":"O O X X X X","ticker":"ERY","dayChange":1.32,"rsi_14":50.2,"weekRange":9.95},
+{"EMAs":"O O X X X X","ticker":"GGLS","dayChange":0.29,"rsi_14":43.1,"weekRange":4.51},
+{"EMAs":"O O X X X X","ticker":"ABT","dayChange":2.4,"rsi_14":56.4,"weekRange":57.98},
+{"EMAs":"O X X X X X","ticker":"MMYT","dayChange":2.41,"rsi_14":65.4,"weekRange":28.29}
 ]

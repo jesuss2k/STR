@@ -1,9 +1,8 @@
 [
-{"EMAs":"X X X O O X","ticker":"ON","dayChange":0.38,"rsi_14":60.5,"weekRange":61.03},
-{"EMAs":"X X X X O X","ticker":"RETL","dayChange":1.29,"rsi_14":66.4,"weekRange":81.58},
-{"EMAs":"X X X X O X","ticker":"ULCC","dayChange":0.61,"rsi_14":77.0,"weekRange":39.13},
-{"EMAs":"X X X X O X","ticker":"ULTA","dayChange":-1.07,"rsi_14":65.1,"weekRange":94.47},
-{"EMAs":"X X X O O X","ticker":"HPE","dayChange":0.67,"rsi_14":57.5,"weekRange":83.34},
-{"EMAs":"X X X O O X","ticker":"JBLU","dayChange":0.1,"rsi_14":63.8,"weekRange":32.29},
-{"EMAs":"X X X O O X","ticker":"APP","dayChange":1.92,"rsi_14":59.2,"weekRange":88.62}
+{"EMAs":"X X X X O X","ticker":"NOMD","dayChange":0.4,"rsi_14":58.2,"weekRange":13.92},
+{"EMAs":"X X X X O X","ticker":"UAL","dayChange":0.8,"rsi_14":61.7,"weekRange":87.03},
+{"EMAs":"X X X O O X","ticker":"ON","dayChange":0.24,"rsi_14":60.3,"weekRange":60.82},
+{"EMAs":"X X X X O X","ticker":"ULCC","dayChange":0.35,"rsi_14":76.9,"weekRange":38.93},
+{"EMAs":"X X X O O X","ticker":"HPE","dayChange":0.75,"rsi_14":57.6,"weekRange":83.49},
+{"EMAs":"X X X O O X","ticker":"JBLU","dayChange":-1.01,"rsi_14":61.1,"weekRange":31.19}
 ]
