@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"LRCX","dayChange":2.82,"rsi_14":58.4,"weekRange":95.9},
-{"EMAs":"X X X O O X","ticker":"IBM","dayChange":-0.03,"rsi_14":56.4,"weekRange":85.72},
-{"EMAs":"X X X O O X","ticker":"KLAC","dayChange":3.83,"rsi_14":59.3,"weekRange":93.89},
-{"EMAs":"X X X X O X","ticker":"PLTR","dayChange":1.09,"rsi_14":58.1,"weekRange":84.77}
+{"EMAs":"X X X O O X","ticker":"APP","dayChange":2.34,"rsi_14":59.7,"weekRange":89.13},
+{"EMAs":"X X X X O X","ticker":"STX","dayChange":1.25,"rsi_14":58.5,"weekRange":92.8}
 ]
