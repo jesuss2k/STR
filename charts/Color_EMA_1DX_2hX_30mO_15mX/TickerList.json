@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"APP","dayChange":2.61,"rsi_14":59.9,"weekRange":89.47}
+{"EMAs":"X X X X O X","ticker":"STX","dayChange":1.12,"rsi_14":58.3,"weekRange":92.64},
+{"EMAs":"X X X X O X","ticker":"MDB","dayChange":-0.26,"rsi_14":67.7,"weekRange":94.98},
+{"EMAs":"X X X O O X","ticker":"APP","dayChange":2.59,"rsi_14":59.9,"weekRange":89.44}
 ]
