@@ -53,7 +53,7 @@
 {"EMAs":"O O X X O O","Group":"O","ticker":"VST","dayChange":-1.09,"rsi_14":43.3,"weekRange":60.12},
 {"EMAs":"X X X X O O","Group":"O","ticker":"FICO","dayChange":-2.02,"rsi_14":56.6,"weekRange":55.33},
 {"EMAs":"X X X X O O","Group":"O","ticker":"OKTA","dayChange":-2.2,"rsi_14":57.9,"weekRange":25.04},
-{"EMAs":"X X X X X X","Group":"O","ticker":"PCAR","dayChange":1.25,"rsi_14":69.4,"weekRange":91.97},
+{"EMAs":"X X X X X X","Group":"O","ticker":"PCAR","dayChange":1.25,"rsi_14":69.4,"weekRange":91.98},
 {"EMAs":"O X X X O O","Group":"O","ticker":"ACIW","dayChange":-1.81,"rsi_14":47.3,"weekRange":35.16},
 {"EMAs":"O X X X O O","Group":"O","ticker":"WSM","dayChange":-1.15,"rsi_14":52.0,"weekRange":61.57},
 {"EMAs":"X O O O X X","Group":"X","ticker":"BIIB","dayChange":0.94,"rsi_14":57.1,"weekRange":87.45},
