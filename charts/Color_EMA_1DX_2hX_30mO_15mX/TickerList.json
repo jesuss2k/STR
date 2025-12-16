@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"STX","dayChange":2.47,"rsi_14":58.8,"weekRange":93.37},
-{"EMAs":"X X X O O X","ticker":"ROOT","dayChange":1.63,"rsi_14":52.8,"weekRange":12.72},
-{"EMAs":"X X X O O X","ticker":"HPE","dayChange":0.35,"rsi_14":58.2,"weekRange":84.08},
-{"EMAs":"X X X O O X","ticker":"JBLU","dayChange":0.51,"rsi_14":61.9,"weekRange":31.69}
+{"EMAs":"X X X O O X","ticker":"SHOP","dayChange":1.78,"rsi_14":54.1,"weekRange":82.65},
+{"EMAs":"X X X X O X","ticker":"FDX","dayChange":0.41,"rsi_14":66.9,"weekRange":87.26}
 ]
