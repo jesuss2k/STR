@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"FDX","dayChange":-0.03,"rsi_14":66.8,"weekRange":87.26},
-{"EMAs":"X X X X O X","ticker":"TMV","dayChange":0.82,"rsi_14":61.7,"weekRange":43.78},
-{"EMAs":"X X X O O X","ticker":"HUM","dayChange":1.93,"rsi_14":54.7,"weekRange":51.87}
+{"EMAs":"X X X O O X","ticker":"HUM","dayChange":1.71,"rsi_14":54.4,"weekRange":51.36},
+{"EMAs":"X X X X O X","ticker":"TMV","dayChange":0.85,"rsi_14":61.8,"weekRange":43.86}
 ]
