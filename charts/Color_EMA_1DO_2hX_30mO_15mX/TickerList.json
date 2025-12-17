@@ -1,3 +1,4 @@
 [
-{"EMAs":"O O X X O X","ticker":"NTNX","dayChange":1.07,"rsi_14":27.2,"weekRange":5.77}
+{"EMAs":"O X X X O X","ticker":"GE","dayChange":0.53,"rsi_14":55.2,"weekRange":89.6},
+{"EMAs":"O O X O O X","ticker":"UDOW","dayChange":1.42,"rsi_14":42.2,"weekRange":13.2}
 ]
