@@ -7,6 +7,8 @@
 {"EMAs":"O O O O O O","ticker":"OLLI","dayChange":-2.82,"rsi_14":33.9,"weekRange":31.85},
 {"EMAs":"O O O O O O","ticker":"PDD","dayChange":-1.25,"rsi_14":24.0,"weekRange":41.89},
 {"EMAs":"O O O O O O","ticker":"T","dayChange":-0.99,"rsi_14":32.5,"weekRange":31.99},
+{"EMAs":"O O O O O O","ticker":"UBER","dayChange":-1.15,"rsi_14":33.1,"weekRange":50.12},
+{"EMAs":"O O O O O X","ticker":"HOOD","dayChange":3.59,"rsi_14":44.2,"weekRange":72.25},
 {"EMAs":"O O O O O X","ticker":"NFLX","dayChange":0.85,"rsi_14":32.7,"weekRange":23.96},
 {"EMAs":"O O O O X X","ticker":"WIX","dayChange":4.3,"rsi_14":40.6,"weekRange":6.28},
 {"EMAs":"O X X X X O","ticker":"ABT","dayChange":-1.25,"rsi_14":51.7,"weekRange":52.68},
