@@ -1,6 +1,6 @@
 [
 {"EMAs":"X X X O O X","ticker":"STX","dayChange":0.89,"rsi_14":57.3,"weekRange":91.54},
-{"EMAs":"X X X O O X","ticker":"SHOP","dayChange":2.06,"rsi_14":54.5,"weekRange":83.04},
 {"EMAs":"X X X O O X","ticker":"WDC","dayChange":1.47,"rsi_14":59.2,"weekRange":91.12},
+{"EMAs":"X X X O O X","ticker":"SHOP","dayChange":2.06,"rsi_14":54.5,"weekRange":83.04},
 {"EMAs":"X X X X O X","ticker":"YOU","dayChange":0.93,"rsi_14":62.9,"weekRange":85.16}
 ]
