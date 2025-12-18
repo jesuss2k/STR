@@ -27,7 +27,7 @@
 {"EMAs":"O X X X O O","ticker":"AJG","dayChange":-0.43,"rsi_14":48.8,"weekRange":12.67},
 {"EMAs":"X X X X O O","ticker":"OKTA","dayChange":-2.4,"rsi_14":56.1,"weekRange":25.46},
 {"EMAs":"X X X X X X","ticker":"TEAM","dayChange":1.52,"rsi_14":58.7,"weekRange":11.96},
-{"EMAs":"X X X X X O","ticker":"META","dayChange":-1.18,"rsi_14":50.0,"weekRange":53.6},
+{"EMAs":"X X X X X O","ticker":"META","dayChange":-1.16,"rsi_14":50.1,"weekRange":53.63},
 {"EMAs":"X X X X X X","ticker":"ACN","dayChange":0.62,"rsi_14":65.3,"weekRange":26.24},
 {"EMAs":"X X X X O O","ticker":"COF","dayChange":-0.87,"rsi_14":70.1,"weekRange":94.76},
 {"EMAs":"X X X X X X","ticker":"DPZ","dayChange":1.04,"rsi_14":63.3,"weekRange":42.29},

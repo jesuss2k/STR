@@ -1,6 +1,6 @@
 [
 {"EMAs":"O X X X X X","ticker":"PFGC","dayChange":0.52,"rsi_14":49.2,"weekRange":65.0},
-{"EMAs":"X X X X X O","ticker":"META","dayChange":-1.18,"rsi_14":50.0,"weekRange":53.6},
+{"EMAs":"X X X X X O","ticker":"META","dayChange":-1.16,"rsi_14":50.1,"weekRange":53.63},
 {"EMAs":"X X X O O O","ticker":"JPM","dayChange":-0.18,"rsi_14":54.2,"weekRange":93.46},
 {"EMAs":"O X X O O O","ticker":"WSM","dayChange":0.1,"rsi_14":52.4,"weekRange":61.86},
 {"EMAs":"X X X X O O","ticker":"DE","dayChange":-0.91,"rsi_14":53.4,"weekRange":59.64},
