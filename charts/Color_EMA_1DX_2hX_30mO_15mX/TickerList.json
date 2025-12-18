@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"ERY","dayChange":2.13,"rsi_14":55.1,"weekRange":15.78},
-{"EMAs":"X X X X O X","ticker":"WMT","dayChange":0.22,"rsi_14":65.5,"weekRange":95.91},
-{"EMAs":"X X X O O X","ticker":"HUM","dayChange":1.21,"rsi_14":55.0,"weekRange":52.15}
+{"EMAs":"X X X X O X","ticker":"FLUT","dayChange":1.06,"rsi_14":54.4,"weekRange":24.69},
+{"EMAs":"X X X O O X","ticker":"FFIV","dayChange":0.93,"rsi_14":55.6,"weekRange":28.37}
 ]
