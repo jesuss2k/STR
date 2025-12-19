@@ -22,9 +22,9 @@
 {"EMAs":"X O O O O X","ticker":"CSCO","dayChange":1.25,"rsi_14":51.5,"weekRange":86.54},
 {"EMAs":"X X X O O O","ticker":"WMT","dayChange":-0.72,"rsi_14":61.7,"weekRange":93.04},
 {"EMAs":"X X X O O O","ticker":"TJX","dayChange":-0.5,"rsi_14":62.3,"weekRange":93.56},
-{"EMAs":"O O O O O X","ticker":"NVDA","dayChange":1.79,"rsi_14":41.4,"weekRange":69.59},
+{"EMAs":"O O O O O X","ticker":"NVDA","dayChange":1.87,"rsi_14":41.5,"weekRange":69.7},
 {"EMAs":"X O O O X X","ticker":"NU","dayChange":2.59,"rsi_14":47.5,"weekRange":82.22},
 {"EMAs":"X X X X X X","ticker":"TD","dayChange":1.5,"rsi_14":77.5,"weekRange":98.66},
-{"EMAs":"O O O O O X","ticker":"AVGO","dayChange":1.14,"rsi_14":36.8,"weekRange":69.31},
+{"EMAs":"O O O O O X","ticker":"AVGO","dayChange":1.18,"rsi_14":36.9,"weekRange":69.36},
 {"EMAs":"X X X X X X","ticker":"ADBE","dayChange":0.32,"rsi_14":63.2,"weekRange":28.7}
 ]
