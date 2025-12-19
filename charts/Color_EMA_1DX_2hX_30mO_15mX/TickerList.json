@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.54,"rsi_14":68.6,"weekRange":93.07},
-{"EMAs":"X X X O O X","ticker":"OPRA","dayChange":0.28,"rsi_14":50.7,"weekRange":14.86}
+{"EMAs":"X X X O O X","ticker":"DLTR","dayChange":0.74,"rsi_14":68.9,"weekRange":93.44},
+{"EMAs":"X X X O O X","ticker":"TYO","dayChange":0.82,"rsi_14":55.0,"weekRange":19.76},
+{"EMAs":"X X X O O X","ticker":"OPRA","dayChange":0.36,"rsi_14":50.9,"weekRange":14.96}
 ]
