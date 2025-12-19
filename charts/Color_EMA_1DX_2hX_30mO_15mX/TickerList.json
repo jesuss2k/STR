@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"FFIV","dayChange":1.18,"rsi_14":56.2,"weekRange":28.9}
+{"EMAs":"X X X O O X","ticker":"BAC","dayChange":1.03,"rsi_14":59.9,"weekRange":94.57},
+{"EMAs":"X X X X O X","ticker":"DAL","dayChange":0.9,"rsi_14":68.5,"weekRange":95.85},
+{"EMAs":"X X X X O X","ticker":"PM","dayChange":0.85,"rsi_14":59.3,"weekRange":60.27}
 ]
