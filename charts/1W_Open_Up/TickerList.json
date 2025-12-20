@@ -3,7 +3,7 @@
 {"EMAs":"O O X X X X","ticker":"NVDA","dayChange":3.93,"rsi_14":49.6,"weekRange":75.15},
 {"EMAs":"O X X X X X","ticker":"AJG","dayChange":0.3,"rsi_14":52.0,"weekRange":14.84},
 {"EMAs":"O X X X X X","ticker":"EBAY","dayChange":1.2,"rsi_14":52.8,"weekRange":61.15},
-{"EMAs":"X O O X X X","ticker":"UPRO","dayChange":2.55,"rsi_14":52.4,"weekRange":91.55},
+{"EMAs":"X O O X X X","ticker":"UPRO","dayChange":2.61,"rsi_14":52.5,"weekRange":91.64},
 {"EMAs":"X X X X X X","ticker":"INTU","dayChange":0.36,"rsi_14":54.9,"weekRange":49.33},
 {"EMAs":"X X O O X O","ticker":"QCOM","dayChange":0.61,"rsi_14":52.8,"weekRange":63.95},
 {"EMAs":"X X X O X X","ticker":"LMT","dayChange":0.85,"rsi_14":54.6,"weekRange":60.46},

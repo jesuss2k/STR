@@ -1,6 +1,6 @@
 [
 {"$ Prft":0.0,"% Pfrt":0.0,"EMAs":null,"Size":16337.0,"% Portfolio":19.7,"ticker":"CASH","dayChange":0,"rsi_14":0,"weekRange":0},
-{"$ Prft":236.0,"% Pfrt":11.3,"EMAs":"X O O X X X","Size":2315.0,"% Portfolio":2.8,"ticker":"UPRO","dayChange":2.55,"rsi_14":52.4,"weekRange":91.55},
+{"$ Prft":237.0,"% Pfrt":11.4,"EMAs":"X O O X X X","Size":2316.0,"% Portfolio":2.8,"ticker":"UPRO","dayChange":2.61,"rsi_14":52.5,"weekRange":91.64},
 {"$ Prft":-46.0,"% Pfrt":-2.2,"EMAs":"O O O X X X","Size":1998.0,"% Portfolio":2.4,"ticker":"MELI","dayChange":1.69,"rsi_14":45.4,"weekRange":35.19},
 {"$ Prft":-14.0,"% Pfrt":-0.7,"EMAs":"X X X X X O","Size":1976.0,"% Portfolio":2.4,"ticker":"META","dayChange":-0.85,"rsi_14":53.3,"weekRange":56.56},
 {"$ Prft":-66.0,"% Pfrt":-3.3,"EMAs":"O O X X X O","Size":1944.0,"% Portfolio":2.3,"ticker":"MSFT","dayChange":0.4,"rsi_14":48.6,"weekRange":66.99},
@@ -14,7 +14,7 @@
 {"$ Prft":40.0,"% Pfrt":3.3,"EMAs":"X X X X X X","Size":1269.0,"% Portfolio":1.5,"ticker":"JPM","dayChange":1.35,"rsi_14":56.0,"weekRange":95.3},
 {"$ Prft":-200.0,"% Pfrt":-13.7,"EMAs":"X X X X O O","Size":1257.0,"% Portfolio":1.5,"ticker":"LULU","dayChange":-2.63,"rsi_14":70.4,"weekRange":19.01},
 {"$ Prft":39.0,"% Pfrt":3.4,"EMAs":"O O O O O X","Size":1204.0,"% Portfolio":1.4,"ticker":"FTNT","dayChange":0.61,"rsi_14":44.1,"weekRange":22.64},
-{"$ Prft":-144.0,"% Pfrt":-11.1,"EMAs":"O O O X X X","Size":1154.0,"% Portfolio":1.4,"ticker":"ORCL","dayChange":6.87,"rsi_14":39.7,"weekRange":32.42},
+{"$ Prft":-146.0,"% Pfrt":-11.3,"EMAs":"O O O X X X","Size":1152.0,"% Portfolio":1.4,"ticker":"ORCL","dayChange":6.63,"rsi_14":39.4,"weekRange":32.23},
 {"$ Prft":-20.0,"% Pfrt":-1.8,"EMAs":"X X X X X X","Size":1089.0,"% Portfolio":1.3,"ticker":"ACN","dayChange":0.85,"rsi_14":62.0,"weekRange":25.36},
 {"$ Prft":305.0,"% Pfrt":39.3,"EMAs":"X X X X X O","Size":1080.0,"% Portfolio":1.3,"ticker":"EL","dayChange":0.06,"rsi_14":65.5,"weekRange":96.18},
 {"$ Prft":49.0,"% Pfrt":4.8,"EMAs":"X X X X X X","Size":1071.0,"% Portfolio":1.3,"ticker":"LLY","dayChange":1.38,"rsi_14":63.9,"weekRange":91.69},
@@ -74,7 +74,7 @@
 {"$ Prft":24.0,"% Pfrt":6.0,"EMAs":"O O O X X X","Size":427.0,"% Portfolio":0.5,"ticker":"AMD","dayChange":6.15,"rsi_14":47.5,"weekRange":71.85},
 {"$ Prft":-57.0,"% Pfrt":-12.4,"EMAs":"O O O O X X","Size":405.0,"% Portfolio":0.5,"ticker":"GPRO","dayChange":1.89,"rsi_14":44.8,"weekRange":46.08},
 {"$ Prft":-167.0,"% Pfrt":-29.3,"EMAs":"O X X X X X","Size":402.0,"% Portfolio":0.5,"ticker":"ELF","dayChange":4.12,"rsi_14":46.6,"weekRange":30.55},
-{"$ Prft":-37.0,"% Pfrt":-8.9,"EMAs":"O O O O O X","Size":379.0,"% Portfolio":0.5,"ticker":"DELL","dayChange":2.82,"rsi_14":41.4,"weekRange":59.08},
+{"$ Prft":-37.0,"% Pfrt":-8.9,"EMAs":"O O O O O X","Size":379.0,"% Portfolio":0.5,"ticker":"DELL","dayChange":2.83,"rsi_14":41.4,"weekRange":59.09},
 {"$ Prft":-19.0,"% Pfrt":-4.8,"EMAs":"O O O O X X","Size":374.0,"% Portfolio":0.5,"ticker":"PANW","dayChange":0.54,"rsi_14":40.5,"weekRange":53.78},
 {"$ Prft":30.0,"% Pfrt":8.9,"EMAs":"X X X X X X","Size":373.0,"% Portfolio":0.4,"ticker":"MGM","dayChange":1.44,"rsi_14":65.2,"weekRange":74.91},
 {"$ Prft":-10.0,"% Pfrt":-2.6,"EMAs":"O O X X X X","Size":362.0,"% Portfolio":0.4,"ticker":"NVDA","dayChange":3.93,"rsi_14":49.6,"weekRange":75.15},
@@ -82,6 +82,6 @@
 {"$ Prft":-18.0,"% Pfrt":-5.1,"EMAs":"O O X X X X","Size":329.0,"% Portfolio":0.4,"ticker":"ALAB","dayChange":12.7,"rsi_14":53.6,"weekRange":54.35},
 {"$ Prft":-125.0,"% Pfrt":-34.1,"EMAs":"X X X X X X","Size":242.0,"% Portfolio":0.3,"ticker":"ANF","dayChange":2.01,"rsi_14":79.4,"weekRange":56.0},
 {"$ Prft":-33.0,"% Pfrt":-12.2,"EMAs":"O X O O X X","Size":240.0,"% Portfolio":0.3,"ticker":"NVO","dayChange":1.01,"rsi_14":47.0,"weekRange":9.88},
-{"$ Prft":-30.0,"% Pfrt":-15.1,"EMAs":"O O X X X X","Size":166.0,"% Portfolio":0.2,"ticker":"CRWV","dayChange":22.56,"rsi_14":49.6,"weekRange":32.21},
+{"$ Prft":-29.0,"% Pfrt":-15.1,"EMAs":"O O X X X X","Size":166.0,"% Portfolio":0.2,"ticker":"CRWV","dayChange":22.64,"rsi_14":49.6,"weekRange":32.24},
 {"$ Prft":-744.0,"% Pfrt":-82.7,"EMAs":"O O O O O O","Size":155.0,"% Portfolio":0.2,"ticker":"NOW","dayChange":1.26,"rsi_14":9.4,"weekRange":0.4}
 ]

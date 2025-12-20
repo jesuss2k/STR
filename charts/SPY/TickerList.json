@@ -39,7 +39,7 @@
 {"ticker":"TXN","dayChange":0.06,"rsi_14":55.1,"weekRange":44.46},
 {"ticker":"PM","dayChange":-0.3,"rsi_14":55.7,"weekRange":57.7},
 {"ticker":"VZ","dayChange":-1.46,"rsi_14":41.8,"weekRange":22.88},
-{"ticker":"INTC","dayChange":1.6,"rsi_14":45.2,"weekRange":72.83},
+{"ticker":"INTC","dayChange":1.49,"rsi_14":45.1,"weekRange":72.68},
 {"ticker":"UNP","dayChange":-0.39,"rsi_14":0,"weekRange":34.36},
 {"ticker":"BMY","dayChange":1.08,"rsi_14":0,"weekRange":76.92},
 {"ticker":"MDT","dayChange":-0.98,"rsi_14":0,"weekRange":65.09},

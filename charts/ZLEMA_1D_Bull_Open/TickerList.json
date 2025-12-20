@@ -46,7 +46,7 @@
 {"EMAs":"X X X X X X","ticker":"SNPS","dayChange":1.22,"rsi_14":58.8,"weekRange":34.26},
 {"EMAs":"X X O O O O","ticker":"DECK","dayChange":-1.07,"rsi_14":58.7,"weekRange":14.17},
 {"EMAs":"X X X X X X","ticker":"CAKE","dayChange":0.7,"rsi_14":65.3,"weekRange":34.54},
-{"EMAs":"O O X X X X","ticker":"CRWV","dayChange":22.56,"rsi_14":49.6,"weekRange":32.21},
+{"EMAs":"O O X X X X","ticker":"CRWV","dayChange":22.64,"rsi_14":49.6,"weekRange":32.24},
 {"EMAs":"X X X X O O","ticker":"LULU","dayChange":-2.63,"rsi_14":70.4,"weekRange":19.01},
 {"EMAs":"X X X X X X","ticker":"RCL","dayChange":2.39,"rsi_14":63.9,"weekRange":63.99},
 {"EMAs":"X X X X X O","ticker":"ALK","dayChange":0.25,"rsi_14":67.2,"weekRange":35.53},
