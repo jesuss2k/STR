@@ -6,7 +6,6 @@
 {"EMAs":"O O O O O O","ticker":"AAPL","dayChange":-1.04,"rsi_14":43.8,"weekRange":85.1},
 {"EMAs":"O O O O X X","ticker":"DELL","dayChange":0.15,"rsi_14":41.6,"weekRange":59.28},
 {"EMAs":"X O O O O O","ticker":"FICO","dayChange":-0.33,"rsi_14":47.5,"weekRange":48.24},
-{"EMAs":"O O O O O O","ticker":"COST","dayChange":-0.68,"rsi_14":29.6,"weekRange":2.46},
 {"EMAs":"O O O O O O","ticker":"HPQ","dayChange":-0.39,"rsi_14":35.2,"weekRange":13.94},
 {"EMAs":"X O O O O O","ticker":"IOT","dayChange":0.47,"rsi_14":45.2,"weekRange":22.85},
 {"EMAs":"O O O O O O","ticker":"VST","dayChange":-0.9,"rsi_14":41.2,"weekRange":54.95},

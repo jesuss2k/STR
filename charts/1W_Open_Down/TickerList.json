@@ -6,7 +6,6 @@
 {"EMAs":"O O O O X O","ticker":"GPRO","dayChange":-1.23,"rsi_14":43.6,"weekRange":45.32},
 {"EMAs":"O O O O O O","ticker":"VST","dayChange":-0.9,"rsi_14":41.2,"weekRange":54.95},
 {"EMAs":"O O O O X X","ticker":"DELL","dayChange":0.15,"rsi_14":41.6,"weekRange":59.28},
-{"EMAs":"O O O O O O","ticker":"COST","dayChange":-0.68,"rsi_14":29.6,"weekRange":2.46},
 {"EMAs":"X O O O O O","ticker":"IOT","dayChange":0.47,"rsi_14":45.2,"weekRange":22.85},
 {"EMAs":"O O X X X X","ticker":"AMSC","dayChange":3.95,"rsi_14":42.5,"weekRange":31.64},
 {"EMAs":"O O O O O O","ticker":"TMUS","dayChange":-0.49,"rsi_14":34.1,"weekRange":2.12},
