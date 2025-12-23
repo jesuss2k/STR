@@ -1,14 +1,16 @@
 [
-{"EMAs":"O X X X X X","ticker":"BSX","dayChange":-0.32,"rsi_14":48.6,"weekRange":43.11},
-{"EMAs":"O O X X X X","ticker":"SNOW","dayChange":-0.83,"rsi_14":43.2,"weekRange":65.3},
-{"EMAs":"O X X X X X","ticker":"WIX","dayChange":-1.26,"rsi_14":45.7,"weekRange":8.32},
-{"EMAs":"O O X X X X","ticker":"VEEV","dayChange":0.33,"rsi_14":30.3,"weekRange":20.7},
-{"EMAs":"O O X X X X","ticker":"PHR","dayChange":1.52,"rsi_14":34.2,"weekRange":7.55},
-{"EMAs":"O O X X X X","ticker":"MRVL","dayChange":3.02,"rsi_14":50.3,"weekRange":50.1},
-{"EMAs":"O O X X X X","ticker":"EME","dayChange":0.5,"rsi_14":50.3,"weekRange":66.43},
-{"EMAs":"O O X X X X","ticker":"UDOW","dayChange":0.52,"rsi_14":44.5,"weekRange":13.67},
-{"EMAs":"O X X X X X","ticker":"CELH","dayChange":0.92,"rsi_14":51.8,"weekRange":51.86},
-{"EMAs":"O O X X X X","ticker":"QLD","dayChange":0.86,"rsi_14":41.0,"weekRange":9.98},
-{"EMAs":"O O X X X X","ticker":"TECL","dayChange":1.23,"rsi_14":49.6,"weekRange":73.1},
-{"EMAs":"O X X X X X","ticker":"TQQQ","dayChange":1.27,"rsi_14":54.2,"weekRange":86.7}
+{"EMAs":"O X X X X X","ticker":"BSX","dayChange":-0.35,"rsi_14":48.5,"weekRange":42.98},
+{"EMAs":"O O X X X X","ticker":"HLI","dayChange":-0.19,"rsi_14":48.5,"weekRange":54.2},
+{"EMAs":"O X X X X X","ticker":"WIX","dayChange":-1.63,"rsi_14":45.1,"weekRange":8.06},
+{"EMAs":"O O X X X X","ticker":"SNOW","dayChange":-0.77,"rsi_14":43.3,"weekRange":65.39},
+{"EMAs":"O O X X X X","ticker":"VEEV","dayChange":0.4,"rsi_14":30.6,"weekRange":20.85},
+{"EMAs":"O O X X X X","ticker":"PHR","dayChange":1.88,"rsi_14":34.8,"weekRange":7.9},
+{"EMAs":"O O X X X X","ticker":"MRVL","dayChange":3.4,"rsi_14":50.8,"weekRange":50.49},
+{"EMAs":"O O X X X X","ticker":"T","dayChange":0.66,"rsi_14":42.5,"weekRange":36.62},
+{"EMAs":"O O X X X X","ticker":"EME","dayChange":0.62,"rsi_14":50.5,"weekRange":66.59},
+{"EMAs":"O O X X X X","ticker":"UDOW","dayChange":0.39,"rsi_14":44.2,"weekRange":13.55},
+{"EMAs":"O X X X X X","ticker":"CELH","dayChange":0.56,"rsi_14":51.3,"weekRange":51.51},
+{"EMAs":"O O X X X X","ticker":"QLD","dayChange":0.96,"rsi_14":41.2,"weekRange":10.06},
+{"EMAs":"O X X X X X","ticker":"TQQQ","dayChange":1.42,"rsi_14":54.4,"weekRange":86.88},
+{"EMAs":"O O X X X X","ticker":"TECL","dayChange":1.5,"rsi_14":49.8,"weekRange":73.36}
 ]
