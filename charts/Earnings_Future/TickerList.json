@@ -27,7 +27,7 @@
 {"EMAs":"O O X X X X","ticker":"NVDA","dayChange":1.49,"rsi_14":52.4,"weekRange":77.3},
 {"EMAs":"X O O X X X","ticker":"NU","dayChange":1.71,"rsi_14":52.5,"weekRange":86.18},
 {"EMAs":"X X X X X O","ticker":"TD","dayChange":0.24,"rsi_14":78.6,"weekRange":98.17},
-{"EMAs":"O O O X X X","ticker":"AVGO","dayChange":0.33,"rsi_14":41.9,"weekRange":73.55},
+{"EMAs":"O O O X X X","ticker":"AVGO","dayChange":0.32,"rsi_14":41.9,"weekRange":73.54},
 {"EMAs":"X X X X X X","ticker":"ADBE","dayChange":0.47,"rsi_14":64.3,"weekRange":29.81},
 {"EMAs":"X X O O O O","ticker":"ACN","dayChange":-0.58,"rsi_14":59.7,"weekRange":24.43}
 ]
