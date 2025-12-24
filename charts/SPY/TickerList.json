@@ -1,6 +1,6 @@
 [
 {"ticker":"NVDA","dayChange":-0.32,"rsi_14":56.9,"weekRange":81.22},
-{"ticker":"AAPL","dayChange":0.54,"rsi_14":50.0,"weekRange":87.61},
+{"ticker":"AAPL","dayChange":0.53,"rsi_14":50.0,"weekRange":87.6},
 {"ticker":"MSFT","dayChange":0.24,"rsi_14":50.4,"weekRange":67.99},
 {"ticker":"AMZN","dayChange":0.1,"rsi_14":55.1,"weekRange":73.03},
 {"ticker":"META","dayChange":0.39,"rsi_14":56.8,"weekRange":59.33},
@@ -39,7 +39,7 @@
 {"ticker":"TXN","dayChange":0.03,"rsi_14":55.5,"weekRange":45.49},
 {"ticker":"PM","dayChange":0.36,"rsi_14":65.4,"weekRange":65.92},
 {"ticker":"VZ","dayChange":1.0,"rsi_14":47.7,"weekRange":27.99},
-{"ticker":"INTC","dayChange":-0.56,"rsi_14":42.7,"weekRange":70.13},
+{"ticker":"INTC","dayChange":-0.52,"rsi_14":42.7,"weekRange":70.18},
 {"ticker":"UNP","dayChange":-0.39,"rsi_14":0,"weekRange":33.14},
 {"ticker":"BMY","dayChange":1.08,"rsi_14":0,"weekRange":76.92},
 {"ticker":"MDT","dayChange":-0.98,"rsi_14":0,"weekRange":65.09},
