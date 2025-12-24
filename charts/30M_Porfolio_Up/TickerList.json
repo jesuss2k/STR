@@ -109,5 +109,8 @@
 {"Timestamp":"2025-12-24 13:30:00","ticker":"DKS","dayChange":1.11,"rsi_14":45.4,"weekRange":49.73},
 {"Timestamp":"2025-12-24 13:30:00","ticker":"UAL","dayChange":1.13,"rsi_14":65.4,"weekRange":97.65},
 {"Timestamp":"2025-12-24 13:30:00","ticker":"STX","dayChange":0.87,"rsi_14":53.9,"weekRange":90.37},
-{"Timestamp":"2025-12-24 13:30:00","ticker":"RXRX","dayChange":0.92,"rsi_14":46.8,"weekRange":7.12}
+{"Timestamp":"2025-12-24 13:30:00","ticker":"RXRX","dayChange":0.92,"rsi_14":46.8,"weekRange":7.12},
+{"Timestamp":"2025-12-24 14:00:00","ticker":"OSCR","dayChange":0.61,"rsi_14":41.8,"weekRange":29.6},
+{"Timestamp":"2025-12-24 14:00:00","ticker":"BSX","dayChange":0.04,"rsi_14":48.6,"weekRange":43.15},
+{"Timestamp":"2025-12-24 14:30:00","ticker":"QTUM","dayChange":0.04,"rsi_14":54.1,"weekRange":92.59}
 ]

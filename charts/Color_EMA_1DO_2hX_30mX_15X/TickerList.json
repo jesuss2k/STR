@@ -1,6 +1,5 @@
 [
-{"EMAs":"O O X X X X","ticker":"TTD","dayChange":1.82,"rsi_14":41.4,"weekRange":2.69},
-{"EMAs":"O O X X X X","ticker":"JD","dayChange":0.31,"rsi_14":41.4,"weekRange":5.26},
-{"EMAs":"O O X X X X","ticker":"AVGO","dayChange":0.26,"rsi_14":45.6,"weekRange":76.71},
-{"EMAs":"O O X X X X","ticker":"QLD","dayChange":0.51,"rsi_14":42.1,"weekRange":10.47}
+{"EMAs":"O O X X X X","ticker":"COST","dayChange":2.0,"rsi_14":44.0,"weekRange":11.87},
+{"EMAs":"O O X X X X","ticker":"T","dayChange":0.82,"rsi_14":46.5,"weekRange":39.0},
+{"EMAs":"O O X X X X","ticker":"AVGO","dayChange":0.26,"rsi_14":45.6,"weekRange":76.71}
 ]

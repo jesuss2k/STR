@@ -1,13 +1,8 @@
 [
-{"EMAs":"O X X X X X","ticker":"MSFT","dayChange":0.24,"rsi_14":50.4,"weekRange":67.99},
-{"EMAs":"X X X O X X","ticker":"WSM","dayChange":0.72,"rsi_14":56.1,"weekRange":66.07},
 {"EMAs":"O X X X X X","ticker":"AMZN","dayChange":0.1,"rsi_14":55.1,"weekRange":73.03},
-{"EMAs":"X X X X X X","ticker":"META","dayChange":0.39,"rsi_14":56.8,"weekRange":59.33},
-{"EMAs":"X X X X O O","ticker":"UPST","dayChange":-1.4,"rsi_14":56.2,"weekRange":25.87},
+{"EMAs":"X X X X X X","ticker":"MA","dayChange":0.54,"rsi_14":65.9,"weekRange":83.61},
 {"EMAs":"X X X X X X","ticker":"V","dayChange":0.5,"rsi_14":69.6,"weekRange":73.38},
 {"EMAs":"O X X X X X","ticker":"NVDA","dayChange":-0.32,"rsi_14":56.9,"weekRange":81.22},
-{"EMAs":"X X X X X X","ticker":"CRM","dayChange":0.69,"rsi_14":64.6,"weekRange":29.84},
-{"EMAs":"X X X X X X","ticker":"ALAB","dayChange":0.68,"rsi_14":55.4,"weekRange":56.93},
-{"EMAs":"X X X X X X","ticker":"NVO","dayChange":1.84,"rsi_14":62.8,"weekRange":18.69},
+{"EMAs":"X X X O O O","ticker":"AAL","dayChange":0.51,"rsi_14":62.3,"weekRange":67.74},
 {"EMAs":"X X X X O O","ticker":"LULU","dayChange":-1.07,"rsi_14":68.8,"weekRange":19.37}
 ]
