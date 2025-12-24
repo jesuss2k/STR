@@ -13,7 +13,7 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"GPRO","dayChange":-1.25,"rsi_14":42.4,"weekRange":44.57},
 {"EMAs":"O O O O O O","Group":"O","ticker":"HPQ","dayChange":-1.04,"rsi_14":33.6,"weekRange":12.23},
 {"EMAs":"O O O O O O","Group":"O","ticker":"IOT","dayChange":-3.18,"rsi_14":41.1,"weekRange":18.85},
-{"EMAs":"O O O O O O","Group":"O","ticker":"MARA","dayChange":-2.71,"rsi_14":31.8,"weekRange":1.77},
+{"EMAs":"O O O O O O","Group":"O","ticker":"MARA","dayChange":-2.67,"rsi_14":31.8,"weekRange":1.81},
 {"EMAs":"O O X X X X","Group":"O","ticker":"NET","dayChange":0.01,"rsi_14":48.6,"weekRange":66.05},
 {"EMAs":"O O X X X X","Group":"O","ticker":"SOFI","dayChange":-0.59,"rsi_14":48.8,"weekRange":77.04},
 {"EMAs":"O O O O X X","Group":"O","ticker":"AAPL","dayChange":0.51,"rsi_14":47.0,"weekRange":86.38},
