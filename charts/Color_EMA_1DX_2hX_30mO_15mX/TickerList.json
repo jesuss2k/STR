@@ -1,5 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"MMYT","dayChange":-0.89,"rsi_14":63.1,"weekRange":30.04},
-{"EMAs":"X X X X O X","ticker":"BIDU","dayChange":-0.47,"rsi_14":52.8,"weekRange":65.67},
-{"EMAs":"X X X X O X","ticker":"WDC","dayChange":0.84,"rsi_14":58.6,"weekRange":93.42}
+{"EMAs":"X X X X O X","ticker":"CSCO","dayChange":-0.05,"rsi_14":55.1,"weekRange":90.13},
+{"EMAs":"X X X O O X","ticker":"GCT","dayChange":0.99,"rsi_14":65.1,"weekRange":90.21},
+{"EMAs":"X X X X O X","ticker":"SHOP","dayChange":-0.01,"rsi_14":59.9,"weekRange":88.71}
 ]
