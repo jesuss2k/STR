@@ -1,6 +1,7 @@
 [
-{"EMAs":"X X X X O X","ticker":"CSCO","dayChange":0.03,"rsi_14":55.4,"weekRange":90.35},
-{"EMAs":"X X X O O X","ticker":"DAL","dayChange":0.74,"rsi_14":65.1,"weekRange":96.49},
-{"EMAs":"X X X O O X","ticker":"DG","dayChange":1.25,"rsi_14":71.2,"weekRange":96.49},
-{"EMAs":"X X X O O X","ticker":"MAMA","dayChange":2.37,"rsi_14":64.1,"weekRange":87.65}
+{"EMAs":"X X X O O X","ticker":"AEO","dayChange":0.19,"rsi_14":69.3,"weekRange":92.06},
+{"EMAs":"X X X X O X","ticker":"TNA","dayChange":0.71,"rsi_14":56.3,"weekRange":91.02},
+{"EMAs":"X X X O O X","ticker":"DAL","dayChange":0.65,"rsi_14":64.9,"weekRange":96.33},
+{"EMAs":"X X X O O X","ticker":"DG","dayChange":0.89,"rsi_14":70.8,"weekRange":95.82},
+{"EMAs":"X X X O O X","ticker":"MAMA","dayChange":1.41,"rsi_14":63.0,"weekRange":86.27}
 ]

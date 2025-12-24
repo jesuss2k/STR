@@ -1,3 +1,5 @@
 [
-{"EMAs":"O X X O O X","ticker":"PTC","dayChange":0.16,"rsi_14":46.8,"weekRange":49.74}
+{"EMAs":"O X X X O X","ticker":"BSX","dayChange":0.04,"rsi_14":48.6,"weekRange":43.15},
+{"EMAs":"O X X X O X","ticker":"ECL","dayChange":0.32,"rsi_14":52.9,"weekRange":68.24},
+{"EMAs":"O X X O O X","ticker":"PTC","dayChange":0.26,"rsi_14":47.1,"weekRange":49.92}
 ]
