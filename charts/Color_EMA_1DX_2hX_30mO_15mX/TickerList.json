@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"ECL","dayChange":-0.11,"rsi_14":52.4,"weekRange":67.79}
+{"EMAs":"X X X O O X","ticker":"DAL","dayChange":-0.16,"rsi_14":64.4,"weekRange":96.04},
+{"EMAs":"X X X X O X","ticker":"ECL","dayChange":0.06,"rsi_14":53.1,"weekRange":68.5}
 ]
