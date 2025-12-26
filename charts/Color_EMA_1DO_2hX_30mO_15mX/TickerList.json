@@ -1,5 +1,4 @@
 [
-{"EMAs":"O O X O O X","ticker":"SNOW","dayChange":0.5,"rsi_14":42.2,"weekRange":64.11},
-{"EMAs":"O X X X O X","ticker":"NTNX","dayChange":0.53,"rsi_14":46.2,"weekRange":16.53},
-{"EMAs":"O X X O O X","ticker":"PTC","dayChange":0.07,"rsi_14":47.4,"weekRange":50.08}
+{"EMAs":"O O X X O X","ticker":"SNOW","dayChange":0.5,"rsi_14":42.2,"weekRange":64.12},
+{"EMAs":"O X X O O X","ticker":"PTC","dayChange":-0.12,"rsi_14":46.7,"weekRange":49.67}
 ]
