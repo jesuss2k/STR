@@ -32,7 +32,7 @@
 {"ticker":"RSI","dayChange":0.27,"rsi_14":0,"weekRange":19.6},
 {"ticker":"ONC","dayChange":-4.04,"rsi_14":0,"weekRange":68.84},
 {"ticker":"MNDY","dayChange":-0.22,"rsi_14":38.6,"weekRange":2.27},
-{"ticker":"SNEX","dayChange":-0.57,"rsi_14":0,"weekRange":66.74},
+{"ticker":"SNEX","dayChange":-0.57,"rsi_14":0,"weekRange":65.51},
 {"ticker":"LPLA","dayChange":-1.96,"rsi_14":0,"weekRange":27.4},
 {"ticker":"TBBK","dayChange":0.94,"rsi_14":0,"weekRange":34.71},
 {"ticker":"SHOP","dayChange":0.81,"rsi_14":61.2,"weekRange":89.89},

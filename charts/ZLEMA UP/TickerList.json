@@ -114,7 +114,7 @@
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X O O O X","ticker":"OKTA","dayChange":0.25,"rsi_14":53.8,"weekRange":25.82},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X X X X X","ticker":"DASH","dayChange":0.81,"rsi_14":58.3,"weekRange":60.38},
 {"Marker Type":"X","Trend Change":0,"EMAs":"X X X X X X","ticker":"INTU","dayChange":0.25,"rsi_14":56.9,"weekRange":51.2},
-{"Marker Type":"X","Trend Change":1,"EMAs":"X X X O O O","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.34},
+{"Marker Type":"X","Trend Change":1,"EMAs":"X X X O O O","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.43},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X O O O O","ticker":"FAST","dayChange":-0.65,"rsi_14":49.9,"weekRange":40.82},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X X X X X","ticker":"CAKE","dayChange":1.74,"rsi_14":64.4,"weekRange":36.5},
 {"Marker Type":"X","Trend Change":0,"EMAs":"X X X X O O","ticker":"WBD","dayChange":-1.47,"rsi_14":65.8,"weekRange":94.66},

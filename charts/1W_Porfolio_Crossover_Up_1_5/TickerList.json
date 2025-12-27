@@ -71,7 +71,7 @@
 {"Date":"25-12-02","ticker":"MDB","dayChange":0.08,"rsi_14":68.1,"weekRange":98.39},
 {"Date":"25-12-02","ticker":"TSLA","dayChange":-2.1,"rsi_14":57.3,"weekRange":91.69},
 {"Date":"25-11-26","ticker":"APP","dayChange":-1.82,"rsi_14":60.4,"weekRange":94.24},
-{"Date":"25-11-26","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.34},
+{"Date":"25-11-26","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.43},
 {"Date":"25-11-25","ticker":"DLTR","dayChange":1.59,"rsi_14":58.7,"weekRange":87.93},
 {"Date":"25-11-25","ticker":"DIA","dayChange":0.0,"rsi_14":63.0,"weekRange":97.87},
 {"Date":"25-11-25","ticker":"RETL","dayChange":-0.4,"rsi_14":58.7,"weekRange":81.13},

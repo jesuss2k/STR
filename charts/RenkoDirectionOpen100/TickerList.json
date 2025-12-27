@@ -2,6 +2,7 @@
 {"EMAs":"O O O O O X","Group":"O","ticker":"NOW","dayChange":0.85,"rsi_14":10.2,"weekRange":0.26},
 {"EMAs":"O O O O O X","Group":"O","ticker":"PAYC","dayChange":0.01,"rsi_14":40.5,"weekRange":3.51},
 {"EMAs":"O O O O X X","Group":"O","ticker":"PFGC","dayChange":0.11,"rsi_14":42.3,"weekRange":57.47},
+{"EMAs":"O O O X X X","Group":"O","ticker":"NFLX","dayChange":0.89,"rsi_14":35.9,"weekRange":23.77},
 {"EMAs":"O O O O O O","Group":"O","ticker":"VST","dayChange":-0.18,"rsi_14":41.3,"weekRange":55.03},
 {"EMAs":"O O O O O O","Group":"O","ticker":"IOT","dayChange":-0.22,"rsi_14":38.9,"weekRange":16.66},
 {"EMAs":"O O O O X X","Group":"O","ticker":"HPQ","dayChange":0.43,"rsi_14":37.8,"weekRange":14.58},

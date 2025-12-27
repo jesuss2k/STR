@@ -45,7 +45,7 @@
 {"EMAs":"X X X X X O","ticker":"ISRG","dayChange":0.11,"rsi_14":61.0,"weekRange":80.01},
 {"EMAs":"X X X O O O","ticker":"PLTR","dayChange":-2.81,"rsi_14":55.5,"weekRange":86.95},
 {"EMAs":"X X X X X X","ticker":"OPRA","dayChange":-0.07,"rsi_14":55.3,"weekRange":19.11},
-{"EMAs":"X X X O O O","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.34},
+{"EMAs":"X X X O O O","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.43},
 {"EMAs":"X X X X X X","ticker":"FFIV","dayChange":0.31,"rsi_14":59.9,"weekRange":32.22},
 {"EMAs":"X X X X X O","ticker":"BAC","dayChange":-0.14,"rsi_14":67.2,"weekRange":98.4},
 {"EMAs":"X X X X X X","ticker":"TQQQ","dayChange":-0.09,"rsi_14":55.1,"weekRange":87.55},

@@ -115,7 +115,7 @@
 {"Timestamp":"2025-12-01 00:00:00","ticker":"ALK","dayChange":0.21,"rsi_14":60.9,"weekRange":34.26},
 {"Timestamp":"2025-11-28 00:00:00","ticker":"SNPS","dayChange":0.29,"rsi_14":62.3,"weekRange":38.95},
 {"Timestamp":"2025-11-26 00:00:00","ticker":"TXN","dayChange":-0.14,"rsi_14":54.9,"weekRange":45.18},
-{"Timestamp":"2025-11-26 00:00:00","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.34},
+{"Timestamp":"2025-11-26 00:00:00","ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.43},
 {"Timestamp":"2025-11-26 00:00:00","ticker":"DECK","dayChange":2.12,"rsi_14":63.9,"weekRange":16.67},
 {"Timestamp":"2025-11-26 00:00:00","ticker":"APP","dayChange":-1.82,"rsi_14":60.4,"weekRange":94.24},
 {"Timestamp":"2025-11-25 00:00:00","ticker":"ACN","dayChange":0.41,"rsi_14":59.8,"weekRange":24.68},

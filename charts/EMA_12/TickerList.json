@@ -43,7 +43,7 @@
 {"ticker":"WIX","dayChange":0.07,"rsi_14":46.5,"weekRange":8.57},
 {"ticker":"STX","dayChange":0.33,"rsi_14":54.3,"weekRange":90.76},
 {"ticker":"ACN","dayChange":0.41,"rsi_14":59.8,"weekRange":24.68},
-{"ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.34},
+{"ticker":"ON","dayChange":-0.27,"rsi_14":56.2,"weekRange":66.43},
 {"ticker":"EME","dayChange":0.16,"rsi_14":51.1,"weekRange":66.89},
 {"ticker":"META","dayChange":-0.64,"rsi_14":54.5,"weekRange":57.98},
 {"ticker":"QQQ","dayChange":-0.01,"rsi_14":56.6,"weekRange":94.41},

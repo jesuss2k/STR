@@ -26,6 +26,7 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"VST","dayChange":-0.18,"rsi_14":41.3,"weekRange":55.03},
 {"EMAs":"X X X O O O","Group":"O","ticker":"LULU","dayChange":-0.68,"rsi_14":66.7,"weekRange":18.83},
 {"EMAs":"X X X X X X","Group":"O","ticker":"TEAM","dayChange":1.26,"rsi_14":56.7,"weekRange":12.59},
+{"EMAs":"O O O X X X","Group":"O","ticker":"NFLX","dayChange":0.89,"rsi_14":35.9,"weekRange":23.77},
 {"EMAs":"O O O O O O","Group":"O","ticker":"AMSC","dayChange":-2.43,"rsi_14":38.9,"weekRange":29.38},
 {"EMAs":"O O O X X X","Group":"O","ticker":"GPRO","dayChange":1.27,"rsi_14":43.6,"weekRange":44.95},
 {"EMAs":"X X O O O X","Group":"O","ticker":"PCAR","dayChange":0.25,"rsi_14":62.5,"weekRange":88.18},
