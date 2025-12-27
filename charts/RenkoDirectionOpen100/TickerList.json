@@ -5,7 +5,7 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"VST","dayChange":-0.18,"rsi_14":41.3,"weekRange":55.03},
 {"EMAs":"O O O O O O","Group":"O","ticker":"IOT","dayChange":-0.22,"rsi_14":38.9,"weekRange":16.66},
 {"EMAs":"O O O O X X","Group":"O","ticker":"HPQ","dayChange":0.43,"rsi_14":37.8,"weekRange":14.58},
-{"EMAs":"O O X X X X","Group":"O","ticker":"ORCL","dayChange":0.27,"rsi_14":44.1,"weekRange":34.89},
+{"EMAs":"O O X X X X","Group":"O","ticker":"ORCL","dayChange":0.25,"rsi_14":44.1,"weekRange":34.88},
 {"EMAs":"O O X X X X","Group":"O","ticker":"TMUS","dayChange":0.99,"rsi_14":45.9,"weekRange":8.47},
 {"EMAs":"O O X X X O","Group":"O","ticker":"AAPL","dayChange":-0.15,"rsi_14":49.1,"weekRange":87.25},
 {"EMAs":"O O X X X X","Group":"O","ticker":"DELL","dayChange":0.67,"rsi_14":45.4,"weekRange":61.86},

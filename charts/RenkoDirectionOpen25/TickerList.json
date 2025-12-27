@@ -64,7 +64,7 @@
 {"EMAs":"O X X X X X","Group":"X","ticker":"MSFT","dayChange":-0.06,"rsi_14":50.1,"weekRange":67.84},
 {"EMAs":"O O O X X X","Group":"X","ticker":"NKE","dayChange":1.55,"rsi_14":42.8,"weekRange":28.68},
 {"EMAs":"X X X X X X","Group":"X","ticker":"MA","dayChange":0.03,"rsi_14":66.0,"weekRange":83.72},
-{"EMAs":"O O X X X X","Group":"X","ticker":"ORCL","dayChange":0.27,"rsi_14":44.1,"weekRange":34.89},
+{"EMAs":"O O X X X X","Group":"X","ticker":"ORCL","dayChange":0.25,"rsi_14":44.1,"weekRange":34.88},
 {"EMAs":"X X X X X X","Group":"X","ticker":"EBAY","dayChange":0.72,"rsi_14":54.9,"weekRange":62.44},
 {"EMAs":"X X X X X X","Group":"X","ticker":"DASH","dayChange":0.81,"rsi_14":58.3,"weekRange":60.38},
 {"EMAs":"X X X X X X","Group":"X","ticker":"SNPS","dayChange":0.29,"rsi_14":62.3,"weekRange":38.95},

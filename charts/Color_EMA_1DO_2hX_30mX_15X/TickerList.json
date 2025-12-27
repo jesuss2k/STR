@@ -24,6 +24,6 @@
 {"EMAs":"O O X X X X","ticker":"T","dayChange":-0.04,"rsi_14":46.3,"weekRange":38.88},
 {"EMAs":"O O X X X X","ticker":"AVGO","dayChange":0.55,"rsi_14":46.5,"weekRange":77.4},
 {"EMAs":"O O X X X X","ticker":"QLD","dayChange":-0.07,"rsi_14":42.0,"weekRange":10.42},
-{"EMAs":"O X X X X X","ticker":"TECL","dayChange":0.23,"rsi_14":51.1,"weekRange":74.39},
-{"EMAs":"O O X X X X","ticker":"XLK","dayChange":0.15,"rsi_14":27.9,"weekRange":7.42}
+{"EMAs":"O O X X X X","ticker":"XLK","dayChange":0.16,"rsi_14":27.9,"weekRange":7.43},
+{"EMAs":"O X X X X X","ticker":"TECL","dayChange":0.23,"rsi_14":51.1,"weekRange":74.39}
 ]

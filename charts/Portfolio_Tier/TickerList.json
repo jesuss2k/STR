@@ -3,7 +3,7 @@
 {"EMAs":"X X X O O O","ticker":"TSLA","dayChange":-2.1,"rsi_14":57.3,"weekRange":91.69},
 {"EMAs":"X X X X X O","ticker":"GOOG","dayChange":-0.22,"rsi_14":58.2,"weekRange":92.63},
 {"EMAs":"O O X X X X","ticker":"COST","dayChange":0.17,"rsi_14":44.8,"weekRange":12.51},
-{"EMAs":"X O X X X X","ticker":"ASML","dayChange":0.59,"rsi_14":52.2,"weekRange":87.6},
+{"EMAs":"X O X X X X","ticker":"ASML","dayChange":0.68,"rsi_14":52.4,"weekRange":87.75},
 {"EMAs":"O O O O O O","ticker":"ABT","dayChange":0.02,"rsi_14":46.3,"weekRange":46.03},
 {"EMAs":"O O O O O O","ticker":"HOOD","dayChange":-1.92,"rsi_14":44.1,"weekRange":71.23},
 {"EMAs":"O O O X X X","ticker":"UBER","dayChange":0.14,"rsi_14":38.4,"weekRange":50.61},
