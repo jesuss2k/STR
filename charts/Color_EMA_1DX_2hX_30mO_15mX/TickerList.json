@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"DAL","dayChange":-0.16,"rsi_14":64.4,"weekRange":96.04},
-{"EMAs":"X X X X O X","ticker":"ECL","dayChange":0.06,"rsi_14":53.1,"weekRange":68.5}
+{"EMAs":"X X X O O X","ticker":"GCT","dayChange":0.2,"rsi_14":62.9,"weekRange":89.05},
+{"EMAs":"X X X X O X","ticker":"WBD","dayChange":0.68,"rsi_14":66.8,"weekRange":95.53},
+{"EMAs":"X X X X O X","ticker":"ECL","dayChange":-0.27,"rsi_14":51.9,"weekRange":67.38}
 ]
