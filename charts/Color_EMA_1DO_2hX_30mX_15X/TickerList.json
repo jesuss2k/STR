@@ -1,14 +1,13 @@
 [
-{"EMAs":"O O X X X X","ticker":"MDLZ","dayChange":0.21,"rsi_14":44.8,"weekRange":9.0},
-{"EMAs":"O O X X X X","ticker":"SNOW","dayChange":-0.35,"rsi_14":42.4,"weekRange":64.14},
-{"EMAs":"O O X X X X","ticker":"TSLS","dayChange":1.67,"rsi_14":43.5,"weekRange":2.81},
-{"EMAs":"O O X X X X","ticker":"TZA","dayChange":1.91,"rsi_14":46.4,"weekRange":3.01},
-{"EMAs":"O X X X X X","ticker":"CELH","dayChange":2.06,"rsi_14":57.5,"weekRange":55.72},
-{"EMAs":"O O X X X X","ticker":"VZ","dayChange":-0.07,"rsi_14":49.2,"weekRange":29.35},
-{"EMAs":"O X X X X X","ticker":"ADSK","dayChange":0.0,"rsi_14":51.8,"weekRange":70.56},
-{"EMAs":"O O X X X X","ticker":"UBER","dayChange":0.09,"rsi_14":38.7,"weekRange":50.66},
-{"EMAs":"O O X X X X","ticker":"TTD","dayChange":0.2,"rsi_14":43.5,"weekRange":2.98},
-{"EMAs":"O O X X X X","ticker":"PHR","dayChange":0.5,"rsi_14":38.8,"weekRange":9.77},
-{"EMAs":"O O X X X X","ticker":"NRG","dayChange":0.55,"rsi_14":49.6,"weekRange":81.41},
-{"EMAs":"O O X X X X","ticker":"T","dayChange":0.91,"rsi_14":50.7,"weekRange":41.56}
+{"EMAs":"O O X X X X","ticker":"XLRE","dayChange":0.14,"rsi_14":46.7,"weekRange":59.43},
+{"EMAs":"O O X X X X","ticker":"MDLZ","dayChange":0.19,"rsi_14":44.7,"weekRange":8.94},
+{"EMAs":"O O X X X X","ticker":"TSLS","dayChange":2.44,"rsi_14":44.9,"weekRange":3.21},
+{"EMAs":"O O X X X X","ticker":"TZA","dayChange":2.2,"rsi_14":46.8,"weekRange":3.12},
+{"EMAs":"O X X X X X","ticker":"CELH","dayChange":2.39,"rsi_14":58.0,"weekRange":56.05},
+{"EMAs":"O O X X X X","ticker":"VZ","dayChange":-0.08,"rsi_14":49.1,"weekRange":29.28},
+{"EMAs":"O X X X X X","ticker":"ADSK","dayChange":-0.01,"rsi_14":51.8,"weekRange":70.52},
+{"EMAs":"O O X X X X","ticker":"TTD","dayChange":0.6,"rsi_14":44.7,"weekRange":3.14},
+{"EMAs":"O O X X X X","ticker":"PHR","dayChange":1.03,"rsi_14":39.9,"weekRange":10.29},
+{"EMAs":"O O X X X X","ticker":"NRG","dayChange":0.42,"rsi_14":49.3,"weekRange":81.19},
+{"EMAs":"O O X X X X","ticker":"T","dayChange":0.83,"rsi_14":50.4,"weekRange":41.32}
 ]
