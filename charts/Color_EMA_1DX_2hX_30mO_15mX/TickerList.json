@@ -1,9 +1,8 @@
 [
-{"EMAs":"X X X X O X","ticker":"HLT","dayChange":-0.38,"rsi_14":63.9,"weekRange":97.41},
-{"EMAs":"X X X X O X","ticker":"SMTC","dayChange":-0.41,"rsi_14":55.3,"weekRange":90.29},
-{"EMAs":"X X X X O X","ticker":"SOXX","dayChange":-0.24,"rsi_14":55.1,"weekRange":92.88},
-{"EMAs":"X X X X O X","ticker":"SOXL","dayChange":-0.88,"rsi_14":53.1,"weekRange":84.06},
-{"EMAs":"X X X O O X","ticker":"EXPE","dayChange":-0.26,"rsi_14":65.5,"weekRange":96.55},
-{"EMAs":"X X X X O X","ticker":"ECL","dayChange":-0.09,"rsi_14":52.7,"weekRange":68.15},
-{"EMAs":"X X X X O X","ticker":"GOOG","dayChange":-0.18,"rsi_14":57.5,"weekRange":92.32}
+{"EMAs":"X X X X O X","ticker":"FDX","dayChange":0.38,"rsi_14":70.9,"weekRange":97.08},
+{"EMAs":"X X X O O X","ticker":"HPE","dayChange":0.02,"rsi_14":56.8,"weekRange":85.46},
+{"EMAs":"X X X O O X","ticker":"CCL","dayChange":0.72,"rsi_14":64.7,"weekRange":89.06},
+{"EMAs":"X X X X O X","ticker":"HLT","dayChange":-0.18,"rsi_14":62.9,"weekRange":96.89},
+{"EMAs":"X X X X O X","ticker":"SOXX","dayChange":0.24,"rsi_14":55.7,"weekRange":93.32},
+{"EMAs":"X X X X O X","ticker":"SOXL","dayChange":0.74,"rsi_14":53.8,"weekRange":84.81}
 ]
