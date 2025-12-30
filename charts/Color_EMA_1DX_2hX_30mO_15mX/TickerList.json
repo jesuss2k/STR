@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"RYAAY","dayChange":0.23,"rsi_14":68.3,"weekRange":97.12}
+{"EMAs":"X X X O O X","ticker":"ECL","dayChange":-0.27,"rsi_14":51.4,"weekRange":67.05},
+{"EMAs":"X X X X O X","ticker":"ATXS","dayChange":-0.27,"rsi_14":60.5,"weekRange":96.56},
+{"EMAs":"X X X X O X","ticker":"RYAAY","dayChange":0.32,"rsi_14":68.5,"weekRange":97.29}
 ]
