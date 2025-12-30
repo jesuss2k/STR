@@ -1,6 +1,3 @@
 [
-{"EMAs":"O O X X O X","ticker":"JD","dayChange":-0.44,"rsi_14":43.7,"weekRange":5.81},
-{"EMAs":"O X X X O X","ticker":"NTNX","dayChange":-0.93,"rsi_14":46.7,"weekRange":16.73},
-{"EMAs":"O X X X O X","ticker":"WIX","dayChange":-0.49,"rsi_14":45.6,"weekRange":8.23},
-{"EMAs":"O O X X O X","ticker":"PSN","dayChange":0.24,"rsi_14":31.8,"weekRange":18.8}
+{"EMAs":"O X X X O X","ticker":"BSX","dayChange":0.2,"rsi_14":48.1,"weekRange":42.41}
 ]
