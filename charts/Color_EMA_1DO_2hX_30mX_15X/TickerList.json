@@ -3,9 +3,9 @@
 {"EMAs":"O O X X X X","ticker":"BP","dayChange":-0.06,"rsi_14":47.4,"weekRange":76.56},
 {"EMAs":"O O X X X X","ticker":"DUST","dayChange":2.34,"rsi_14":41.4,"weekRange":1.42},
 {"EMAs":"O X X X X X","ticker":"T","dayChange":0.12,"rsi_14":50.2,"weekRange":41.14},
-{"EMAs":"O O X X X X","ticker":"LNG","dayChange":0.49,"rsi_14":42.9,"weekRange":11.46},
 {"EMAs":"O O X X X X","ticker":"SDOW","dayChange":1.95,"rsi_14":46.4,"weekRange":3.09},
-{"EMAs":"O O X X X X","ticker":"TSLS","dayChange":0.8,"rsi_14":50.4,"weekRange":4.86},
+{"EMAs":"O O X X X X","ticker":"LNG","dayChange":0.49,"rsi_14":42.9,"weekRange":11.46},
 {"EMAs":"O X X X X X","ticker":"TZA","dayChange":2.18,"rsi_14":53.0,"weekRange":4.71},
+{"EMAs":"O O X X X X","ticker":"TSLS","dayChange":0.8,"rsi_14":50.4,"weekRange":4.86},
 {"EMAs":"O X X X X X","ticker":"VZ","dayChange":0.07,"rsi_14":52.4,"weekRange":32.19}
 ]
