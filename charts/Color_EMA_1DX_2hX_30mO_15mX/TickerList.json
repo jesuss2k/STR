@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"FFIV","dayChange":-0.09,"rsi_14":61.2,"weekRange":37.26},
-{"EMAs":"X X X X O X","ticker":"PINS","dayChange":1.27,"rsi_14":54.1,"weekRange":20.09},
-{"EMAs":"X X X X O X","ticker":"ISRG","dayChange":0.2,"rsi_14":60.4,"weekRange":84.42},
-{"EMAs":"X X X O O X","ticker":"BIDU","dayChange":1.61,"rsi_14":63.6,"weekRange":89.72}
+{"EMAs":"X X X O O X","ticker":"PATH","dayChange":4.9,"rsi_14":54.5,"weekRange":74.0},
+{"EMAs":"X X X X O X","ticker":"XYZ","dayChange":0.7,"rsi_14":62.3,"weekRange":51.56}
 ]
