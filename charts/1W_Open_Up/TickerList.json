@@ -21,7 +21,7 @@
 {"EMAs":"X X X X O O","ticker":"NVDA","dayChange":-0.55,"rsi_14":53.4,"weekRange":79.54},
 {"EMAs":"X X X O O O","ticker":"NVO","dayChange":-0.66,"rsi_14":54.9,"weekRange":15.38},
 {"EMAs":"O O X X X X","ticker":"NKE","dayChange":4.12,"rsi_14":51.7,"weekRange":37.9},
-{"EMAs":"X X O O O O","ticker":"CMG","dayChange":-0.11,"rsi_14":59.6,"weekRange":23.08},
+{"EMAs":"X X O O O O","ticker":"CMG","dayChange":-0.11,"rsi_14":59.6,"weekRange":24.31},
 {"EMAs":"X X O O O O","ticker":"COF","dayChange":-0.66,"rsi_14":61.5,"weekRange":93.07},
 {"EMAs":"X X X X O O","ticker":"LMT","dayChange":-0.89,"rsi_14":57.4,"weekRange":69.47},
 {"EMAs":"X X X O O O","ticker":"AFRM","dayChange":-1.87,"rsi_14":53.7,"weekRange":63.0},
@@ -39,5 +39,5 @@
 {"EMAs":"X X X O O O","ticker":"CAVA","dayChange":0.6,"rsi_14":60.1,"weekRange":15.12},
 {"EMAs":"X X X X O O","ticker":"DECK","dayChange":-1.29,"rsi_14":62.8,"weekRange":17.07},
 {"EMAs":"X X X X X X","ticker":"DAKT","dayChange":0.82,"rsi_14":58.0,"weekRange":67.42},
-{"EMAs":"X X X X O O","ticker":"ANF","dayChange":-1.32,"rsi_14":73.8,"weekRange":60.84}
+{"EMAs":"X X X X O O","ticker":"ANF","dayChange":-1.32,"rsi_14":73.8,"weekRange":73.29}
 ]
