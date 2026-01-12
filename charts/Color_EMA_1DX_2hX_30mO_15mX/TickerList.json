@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"GM","dayChange":-0.39,"rsi_14":58.9,"weekRange":93.97}
+{"EMAs":"X X X O O X","ticker":"LABU","dayChange":-1.44,"rsi_14":53.1,"weekRange":86.38},
+{"EMAs":"X X X X O X","ticker":"MSFD","dayChange":0.47,"rsi_14":55.7,"weekRange":25.04},
+{"EMAs":"X X X O O X","ticker":"GM","dayChange":0.04,"rsi_14":60.3,"weekRange":94.77}
 ]
