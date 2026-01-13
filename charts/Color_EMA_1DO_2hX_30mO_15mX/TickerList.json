@@ -1,5 +1,5 @@
 [
 {"EMAs":"O X X X O X","ticker":"DKS","dayChange":-0.28,"rsi_14":54.2,"weekRange":55.78},
-{"EMAs":"O X X X O X","ticker":"PHR","dayChange":-0.52,"rsi_14":44.6,"weekRange":9.97},
-{"EMAs":"O O X O O X","ticker":"NNOX","dayChange":1.01,"rsi_14":43.4,"weekRange":3.73}
+{"EMAs":"O O X O O X","ticker":"NNOX","dayChange":1.01,"rsi_14":43.4,"weekRange":3.73},
+{"EMAs":"O X X X O X","ticker":"PHR","dayChange":-0.52,"rsi_14":44.6,"weekRange":9.97}
 ]
