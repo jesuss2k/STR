@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"DKS","dayChange":-0.13,"rsi_14":53.9,"weekRange":55.46},
-{"EMAs":"X X X O O X","ticker":"ON","dayChange":2.07,"rsi_14":60.4,"weekRange":88.75}
+{"EMAs":"X X X O O X","ticker":"JBLU","dayChange":0.82,"rsi_14":54.6,"weekRange":31.99},
+{"EMAs":"X X X X O X","ticker":"DKS","dayChange":-0.05,"rsi_14":54.1,"weekRange":55.66},
+{"EMAs":"X X X O O X","ticker":"ON","dayChange":1.86,"rsi_14":60.2,"weekRange":88.37}
 ]
