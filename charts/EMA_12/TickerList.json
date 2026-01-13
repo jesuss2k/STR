@@ -106,7 +106,6 @@
 {"ticker":"AMZN","dayChange":-0.37,"rsi_14":67.5,"weekRange":87.52},
 {"ticker":"JD","dayChange":4.35,"rsi_14":62.4,"weekRange":13.82},
 {"ticker":"ORCL","dayChange":3.1,"rsi_14":53.3,"weekRange":37.83},
-{"ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.09},
 {"ticker":"PSN","dayChange":-1.14,"rsi_14":54.1,"weekRange":33.61},
 {"ticker":"GOOGL","dayChange":1.0,"rsi_14":71.2,"weekRange":98.87},
 {"ticker":"GOOG","dayChange":1.09,"rsi_14":70.8,"weekRange":99.11},

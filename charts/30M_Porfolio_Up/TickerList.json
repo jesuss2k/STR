@@ -1,10 +1,6 @@
 [
 {"Timestamp":"2024-12-06 11:00:00","ticker":"NMHI","dayChange":-8.33,"rsi_14":0,"weekRange":5.47},
-{"Timestamp":"2025-01-15 09:30:00","ticker":"SQ","dayChange":0.67,"rsi_14":0,"weekRange":81.69},
-{"Timestamp":"2025-05-16 11:30:00","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.09},
 {"Timestamp":"2025-07-17 15:30:00","ticker":"HES","dayChange":0.96,"rsi_14":0,"weekRange":65.95},
-{"Timestamp":"2025-11-24 12:00:00","ticker":"EA","dayChange":0.15,"rsi_14":0,"weekRange":99.73},
-{"Timestamp":"2025-12-09 13:30:00","ticker":"CTLP","dayChange":0.47,"rsi_14":0,"weekRange":83.45},
 {"Timestamp":"2026-01-02 09:30:00","ticker":"ULTA","dayChange":-0.7,"rsi_14":75.4,"weekRange":96.14},
 {"Timestamp":"2026-01-02 10:00:00","ticker":"DLTR","dayChange":3.67,"rsi_14":71.5,"weekRange":99.79},
 {"Timestamp":"2026-01-02 10:00:00","ticker":"CELH","dayChange":0.36,"rsi_14":73.6,"weekRange":70.09},

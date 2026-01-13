@@ -169,6 +169,5 @@
 {"Timestamp":"2025-11-13 00:00:00","ticker":"SDS","dayChange":-0.29,"rsi_14":47.4,"weekRange":83.7},
 {"Timestamp":"2025-10-23 00:00:00","ticker":"FDX","dayChange":-0.14,"rsi_14":78.1,"weekRange":94.45},
 {"Timestamp":"2025-10-14 00:00:00","ticker":"WBD","dayChange":-1.68,"rsi_14":57.3,"weekRange":92.88},
-{"Timestamp":"2025-07-01 00:00:00","ticker":"HES","dayChange":0.96,"rsi_14":0,"weekRange":65.95},
-{"Timestamp":"2025-04-21 00:00:00","ticker":"DFS","dayChange":-0.21,"rsi_14":0,"weekRange":89.09}
+{"Timestamp":"2025-07-01 00:00:00","ticker":"HES","dayChange":0.96,"rsi_14":0,"weekRange":65.95}
 ]
