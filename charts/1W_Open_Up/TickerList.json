@@ -19,7 +19,7 @@
 {"EMAs":"O X X X X O","ticker":"VST","dayChange":-0.67,"rsi_14":53.8,"weekRange":62.57},
 {"EMAs":"X X X X X O","ticker":"ROAD","dayChange":-1.32,"rsi_14":57.6,"weekRange":68.48},
 {"EMAs":"X X X X O O","ticker":"AMZN","dayChange":-1.57,"rsi_14":60.7,"weekRange":83.54},
-{"EMAs":"O O X X X X","ticker":"AMD","dayChange":6.42,"rsi_14":55.2,"weekRange":75.84},
+{"EMAs":"O O X X X X","ticker":"AMD","dayChange":6.39,"rsi_14":55.1,"weekRange":75.81},
 {"EMAs":"X X X X X X","ticker":"NKE","dayChange":1.01,"rsi_14":57.6,"weekRange":46.49},
 {"EMAs":"X X X X X X","ticker":"PM","dayChange":0.42,"rsi_14":65.3,"weekRange":70.02},
 {"EMAs":"X X X X X X","ticker":"LULU","dayChange":1.37,"rsi_14":59.3,"weekRange":19.94},
@@ -51,5 +51,5 @@
 {"EMAs":"X X X X X O","ticker":"NVO","dayChange":-0.37,"rsi_14":76.0,"weekRange":32.65},
 {"EMAs":"X X X X X X","ticker":"CAKE","dayChange":-0.28,"rsi_14":74.5,"weekRange":63.16},
 {"EMAs":"X X X X X O","ticker":"NBIS","dayChange":-1.77,"rsi_14":61.0,"weekRange":70.95},
-{"EMAs":"X X X X X O","ticker":"APLD","dayChange":-3.96,"rsi_14":66.5,"weekRange":90.5}
+{"EMAs":"X X X X X O","ticker":"APLD","dayChange":-3.93,"rsi_14":66.5,"weekRange":90.54}
 ]

@@ -15,7 +15,7 @@
 {"EMAs":"X O O O O X","ticker":"UPST","dayChange":4.09,"rsi_14":49.9,"weekRange":24.14},
 {"EMAs":"X X X X X X","ticker":"ILMN","dayChange":0.99,"rsi_14":64.3,"weekRange":92.8},
 {"EMAs":"O X X O O O","ticker":"IONQ","dayChange":-3.95,"rsi_14":49.0,"weekRange":46.52},
-{"EMAs":"O O X X X X","ticker":"AMD","dayChange":6.42,"rsi_14":55.2,"weekRange":75.84},
+{"EMAs":"O O X X X X","ticker":"AMD","dayChange":6.39,"rsi_14":55.1,"weekRange":75.81},
 {"EMAs":"X X O O O O","ticker":"MELI","dayChange":-3.55,"rsi_14":49.7,"weekRange":37.95},
 {"EMAs":"X X X X O X","ticker":"ICE","dayChange":0.26,"rsi_14":62.1,"weekRange":50.93},
 {"EMAs":"X X O O O O","ticker":"AJG","dayChange":-2.96,"rsi_14":48.4,"weekRange":17.98},
@@ -60,6 +60,6 @@
 {"EMAs":"O X X X X X","ticker":"MARA","dayChange":2.82,"rsi_14":51.6,"weekRange":13.79},
 {"EMAs":"X X X X X X","ticker":"ELF","dayChange":1.13,"rsi_14":62.4,"weekRange":37.56},
 {"EMAs":"X X X X X O","ticker":"CRWV","dayChange":-2.72,"rsi_14":57.0,"weekRange":35.16},
-{"EMAs":"X X X X X O","ticker":"APLD","dayChange":-3.96,"rsi_14":66.5,"weekRange":90.5},
+{"EMAs":"X X X X X O","ticker":"APLD","dayChange":-3.93,"rsi_14":66.5,"weekRange":90.54},
 {"EMAs":"O O O O O O","ticker":"NOW","dayChange":-3.12,"rsi_14":11.3,"weekRange":0.1}
 ]
