@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"IBM","dayChange":1.06,"rsi_14":53.4,"weekRange":83.22}
+{"EMAs":"X X X X O X","ticker":"EME","dayChange":-1.46,"rsi_14":58.3,"weekRange":74.24},
+{"EMAs":"X X X X O X","ticker":"HLT","dayChange":-0.16,"rsi_14":64.5,"weekRange":96.95}
 ]
