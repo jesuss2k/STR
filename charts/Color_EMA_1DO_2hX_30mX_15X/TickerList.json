@@ -1,8 +1,8 @@
 [
 {"EMAs":"O O X X X X","ticker":"AMZD","dayChange":-0.52,"rsi_14":45.4,"weekRange":11.55},
 {"EMAs":"O O X X X X","ticker":"MCD","dayChange":0.16,"rsi_14":50.4,"weekRange":64.45},
-{"EMAs":"O O X X X X","ticker":"NNOX","dayChange":1.66,"rsi_14":47.3,"weekRange":4.81},
 {"EMAs":"O X X X X X","ticker":"LNG","dayChange":1.51,"rsi_14":61.1,"weekRange":23.15},
+{"EMAs":"O O X X X X","ticker":"NNOX","dayChange":1.66,"rsi_14":47.3,"weekRange":4.81},
 {"EMAs":"O X X X X X","ticker":"AAP","dayChange":-0.37,"rsi_14":47.2,"weekRange":33.64},
 {"EMAs":"O O X X X X","ticker":"CSCO","dayChange":1.13,"rsi_14":46.1,"weekRange":80.61},
 {"EMAs":"O X X X X X","ticker":"UDOW","dayChange":1.7,"rsi_14":54.5,"weekRange":18.25},
