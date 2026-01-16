@@ -161,6 +161,7 @@
 {"ticker":"MNDY","EMAs":"O O O O O O"},
 {"ticker":"MRK","EMAs":"X X X X X X"},
 {"ticker":"MRNA","EMAs":"X X X X X O"},
+{"ticker":"MRSH","EMAs":"O O O O O O"},
 {"ticker":"MRVL","EMAs":"O O O O O O"},
 {"ticker":"MSFD","EMAs":"X X X X X X"},
 {"ticker":"MSFT","EMAs":"O O O O O O"},

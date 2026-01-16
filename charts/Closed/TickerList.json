@@ -1,5 +1,6 @@
 [
 {"EMAs":"O O O O O X","ticker":"GPRO","dayChange":0.72,"rsi_14":35.1,"weekRange":37.78},
+{"EMAs":"O O O O O O","ticker":"MRSH","dayChange":-0.55,"rsi_14":NaN,"weekRange":13.67},
 {"EMAs":"O O O O O O","ticker":"DOCU","dayChange":-3.52,"rsi_14":31.3,"weekRange":0.33},
 {"EMAs":"X O O O X X","ticker":"AAL","dayChange":3.76,"rsi_14":55.6,"weekRange":68.02},
 {"EMAs":"X X X X X X","ticker":"COST","dayChange":0.61,"rsi_14":73.1,"weekRange":48.12},
