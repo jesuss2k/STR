@@ -18,7 +18,7 @@
 {"EMAs":"X X X O O O","ticker":"CMG","dayChange":-2.4,"rsi_14":57.0,"weekRange":31.02},
 {"EMAs":"X X X X O O","ticker":"ICE","dayChange":-1.74,"rsi_14":63.6,"weekRange":60.16},
 {"EMAs":"X X X X X X","ticker":"PG","dayChange":1.71,"rsi_14":58.5,"weekRange":22.14},
-{"EMAs":"X X X X O O","ticker":"PM","dayChange":-3.71,"rsi_14":59.0,"weekRange":69.74},
+{"EMAs":"X X X X O O","ticker":"PM","dayChange":-3.71,"rsi_14":59.0,"weekRange":69.67},
 {"EMAs":"X X X X X X","ticker":"DXCM","dayChange":1.71,"rsi_14":61.6,"weekRange":42.46},
 {"EMAs":"X X X X X X","ticker":"GLD","dayChange":3.78,"rsi_14":73.5,"weekRange":99.51},
 {"EMAs":"X X X O O O","ticker":"IBKR","dayChange":-2.52,"rsi_14":59.0,"weekRange":90.35},

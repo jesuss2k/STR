@@ -1,4 +1,6 @@
 [
+{"EMAs":"O O O O O O","ticker":"IOT","dayChange":-8.31,"rsi_14":33.5,"weekRange":1.93},
+{"EMAs":"O O O O O O","ticker":"TEAM","dayChange":-0.41,"rsi_14":19.1,"weekRange":1.2},
 {"EMAs":"X O O O O X","ticker":"LLY","dayChange":0.28,"rsi_14":46.8,"weekRange":81.84},
 {"EMAs":"O O O O O O","ticker":"PAYC","dayChange":-0.63,"rsi_14":29.2,"weekRange":1.53},
 {"EMAs":"O O O O O O","ticker":"NOW","dayChange":-1.5,"rsi_14":10.2,"weekRange":0.03},
@@ -20,7 +22,6 @@
 {"EMAs":"X X X O O O","ticker":"TSM","dayChange":-4.45,"rsi_14":58.2,"weekRange":88.87},
 {"EMAs":"X O O O O O","ticker":"GM","dayChange":-3.72,"rsi_14":40.5,"weekRange":83.09},
 {"EMAs":"O O O O O O","ticker":"DOMO","dayChange":-7.64,"rsi_14":16.9,"weekRange":0.39},
-{"EMAs":"O O O O O O","ticker":"APP","dayChange":-0.57,"rsi_14":35.3,"weekRange":66.96},
 {"EMAs":"O O O O O O","ticker":"IBM","dayChange":-4.68,"rsi_14":42.6,"weekRange":69.61},
 {"EMAs":"O O O O O O","ticker":"SOUN","dayChange":-5.86,"rsi_14":40.4,"weekRange":25.11},
 {"EMAs":"X X X X O O","ticker":"ASML","dayChange":-2.39,"rsi_14":69.6,"weekRange":93.81},
@@ -43,7 +44,7 @@
 {"EMAs":"O O O O O O","ticker":"BBY","dayChange":-2.85,"rsi_14":37.8,"weekRange":29.54},
 {"EMAs":"X X X X O O","ticker":"KLAC","dayChange":-5.21,"rsi_14":64.3,"weekRange":90.76},
 {"EMAs":"X O O O O O","ticker":"DAL","dayChange":-4.22,"rsi_14":44.3,"weekRange":85.17},
-{"EMAs":"X X X X X X","ticker":"ASPN","dayChange":1.44,"rsi_14":57.4,"weekRange":7.23},
+{"EMAs":"X X X X X X","ticker":"ASPN","dayChange":1.44,"rsi_14":57.4,"weekRange":7.31},
 {"EMAs":"X X X O O O","ticker":"ULCC","dayChange":-6.83,"rsi_14":49.5,"weekRange":27.39},
 {"EMAs":"O O O O O O","ticker":"GTLB","dayChange":-3.22,"rsi_14":27.5,"weekRange":0.13},
 {"EMAs":"X X X X X O","ticker":"INTC","dayChange":3.41,"rsi_14":69.1,"weekRange":94.41},
@@ -87,7 +88,7 @@
 {"EMAs":"O O O X X O","ticker":"LUNA","dayChange":0.0,"rsi_14":45.8,"weekRange":60.78},
 {"EMAs":"O O O O O O","ticker":"PTC","dayChange":-3.38,"rsi_14":25.3,"weekRange":32.13},
 {"EMAs":"O O O O O O","ticker":"T","dayChange":-0.17,"rsi_14":35.3,"weekRange":18.4},
-{"EMAs":"X X X O O O","ticker":"DG","dayChange":-1.42,"rsi_14":63.9,"weekRange":90.52},
+{"EMAs":"X X X O O O","ticker":"DG","dayChange":-1.42,"rsi_14":63.9,"weekRange":90.5},
 {"EMAs":"O O O O O O","ticker":"YEXT","dayChange":-0.13,"rsi_14":30.5,"weekRange":56.64},
 {"EMAs":"X X O O O O","ticker":"WBD","dayChange":-1.19,"rsi_14":53.2,"weekRange":92.17}
 ]
