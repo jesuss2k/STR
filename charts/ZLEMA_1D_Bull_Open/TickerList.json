@@ -19,7 +19,7 @@
 {"EMAs":"X X X X X X","ticker":"PCAR","dayChange":3.25,"rsi_14":70.6,"weekRange":98.14},
 {"EMAs":"X X X X X X","ticker":"ICE","dayChange":0.56,"rsi_14":65.1,"weekRange":62.21},
 {"EMAs":"X X X X X X","ticker":"ILMN","dayChange":3.61,"rsi_14":65.7,"weekRange":99.25},
-{"EMAs":"X X X O O X","ticker":"PM","dayChange":0.97,"rsi_14":61.2,"weekRange":72.2},
+{"EMAs":"X X X O O X","ticker":"PM","dayChange":0.97,"rsi_14":61.2,"weekRange":72.03},
 {"EMAs":"X X O O O O","ticker":"NBIS","dayChange":-0.42,"rsi_14":51.9,"weekRange":65.61},
 {"EMAs":"X X X X X X","ticker":"TXN","dayChange":2.54,"rsi_14":64.2,"weekRange":66.63},
 {"EMAs":"X X O X X X","ticker":"OLLI","dayChange":2.14,"rsi_14":52.5,"weekRange":46.46},
