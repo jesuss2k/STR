@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O O X","ticker":"TYO","dayChange":0.34,"rsi_14":52.2,"weekRange":23.74}
+{"EMAs":"X X X O O X","ticker":"DRN","dayChange":1.1,"rsi_14":58.1,"weekRange":51.7},
+{"EMAs":"X X X X O X","ticker":"XLRE","dayChange":0.36,"rsi_14":58.4,"weekRange":71.47},
+{"EMAs":"X X X O O X","ticker":"QTUM","dayChange":1.52,"rsi_14":60.5,"weekRange":97.17},
+{"EMAs":"X X X X O X","ticker":"KLAC","dayChange":2.28,"rsi_14":66.7,"weekRange":94.04}
 ]
