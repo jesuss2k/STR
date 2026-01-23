@@ -16,5 +16,5 @@
 {"EMAs":"X O O O O O","ticker":"UAL","dayChange":-0.5,"rsi_14":48.1,"weekRange":86.89},
 {"EMAs":"X O O X X O","ticker":"DAL","dayChange":0.0,"rsi_14":49.1,"weekRange":89.04},
 {"EMAs":"X X X X O O","ticker":"KLAC","dayChange":-1.32,"rsi_14":64.0,"weekRange":92.1},
-{"EMAs":"X X X X X X","ticker":"BABA","dayChange":5.06,"rsi_14":65.9,"weekRange":85.64}
+{"EMAs":"X X X X X X","ticker":"BABA","dayChange":5.05,"rsi_14":65.9,"weekRange":85.62}
 ]
