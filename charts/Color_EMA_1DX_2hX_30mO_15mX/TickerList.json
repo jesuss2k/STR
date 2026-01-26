@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"DIA","dayChange":0.3,"rsi_14":55.5,"weekRange":96.99},
-{"EMAs":"X X X O O X","ticker":"LRCX","dayChange":1.93,"rsi_14":65.9,"weekRange":92.24},
-{"EMAs":"X X X X O X","ticker":"POWL","dayChange":1.16,"rsi_14":69.7,"weekRange":92.23}
+{"EMAs":"X X X X O X","ticker":"POWL","dayChange":1.03,"rsi_14":69.6,"weekRange":92.05},
+{"EMAs":"X X X X O X","ticker":"PFE","dayChange":0.78,"rsi_14":55.8,"weekRange":72.84}
 ]
