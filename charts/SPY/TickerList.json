@@ -59,7 +59,7 @@
 {"ticker":"ISRG","dayChange":0.92,"rsi_14":35.6,"weekRange":56.39},
 {"ticker":"SCHW","dayChange":-0.23,"rsi_14":0,"weekRange":59.38},
 {"ticker":"GEV","dayChange":0,"rsi_14":0,"weekRange":0},
-{"ticker":"ANET","dayChange":0.19,"rsi_14":0,"weekRange":15.84},
+{"ticker":"ANET","dayChange":5.41,"rsi_14":63.6,"weekRange":79.89},
 {"ticker":"APP","dayChange":2.1,"rsi_14":33.7,"weekRange":61.44},
 {"ticker":"NEE","dayChange":-0.38,"rsi_14":0,"weekRange":38.24},
 {"ticker":"TXN","dayChange":1.7,"rsi_14":65.1,"weekRange":69.29},

@@ -19,6 +19,7 @@
 {"ticker":"AMSC","EMAs":"X X X X O O"},
 {"ticker":"AMZD","EMAs":"O O O O O X"},
 {"ticker":"AMZN","EMAs":"X X X X X O"},
+{"ticker":"ANET","EMAs":"X X X X X X"},
 {"ticker":"ANF","EMAs":"O O O O O X"},
 {"ticker":"APLD","EMAs":"X X X X X O"},
 {"ticker":"APP","EMAs":"O O O O X O"},

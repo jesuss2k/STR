@@ -3,7 +3,7 @@
 {"$ Prft":21.0,"% Pfrt":2.0,"Size":1071.0,"EMAs":"O O O O X O","ticker":"APP","dayChange":2.1,"rsi_14":33.7,"weekRange":61.44},
 {"$ Prft":15.0,"% Pfrt":2.8,"Size":545.0,"EMAs":"O O X X X X","ticker":"ADSK","dayChange":0.87,"rsi_14":43.7,"weekRange":41.14},
 {"$ Prft":-4.0,"% Pfrt":-0.7,"Size":566.0,"EMAs":"O O X X X O","ticker":"PYPL","dayChange":-0.04,"rsi_14":40.8,"weekRange":4.41},
-{"$ Prft":-233.0,"% Pfrt":-31.9,"Size":499.0,"EMAs":"O O O O O O","ticker":"ANET","dayChange":0.19,"rsi_14":0,"weekRange":15.84},
+{"$ Prft":130.0,"% Pfrt":17.8,"Size":862.0,"EMAs":"X X X X X X","ticker":"ANET","dayChange":5.41,"rsi_14":63.6,"weekRange":79.89},
 {"$ Prft":6.0,"% Pfrt":1.4,"Size":468.0,"EMAs":"O O X X X X","ticker":"CRWD","dayChange":3.5,"rsi_14":49.6,"weekRange":63.34},
 {"$ Prft":56.0,"% Pfrt":13.7,"Size":465.0,"EMAs":"X X X X X X","ticker":"GLD","dayChange":1.46,"rsi_14":82.6,"weekRange":97.88},
 {"$ Prft":1.0,"% Pfrt":0.1,"Size":677.0,"EMAs":"X O O X O O","ticker":"ROAD","dayChange":1.61,"rsi_14":51.3,"weekRange":64.73},

@@ -56,6 +56,7 @@
 {"EMAs":"X X X X X X","ticker":"GLD","dayChange":1.46,"rsi_14":82.6,"weekRange":97.88},
 {"EMAs":"X X X X X X","ticker":"MELI","dayChange":3.52,"rsi_14":62.1,"weekRange":53.05},
 {"EMAs":"X X X X X O","ticker":"APLD","dayChange":-4.01,"rsi_14":59.3,"weekRange":85.82},
+{"EMAs":"X X X X X X","ticker":"ANET","dayChange":5.41,"rsi_14":63.6,"weekRange":79.89},
 {"EMAs":"X X X X O O","ticker":"AMD","dayChange":-3.22,"rsi_14":67.1,"weekRange":91.73},
 {"EMAs":"X X X X O O","ticker":"AMSC","dayChange":-5.2,"rsi_14":48.1,"weekRange":31.09},
 {"EMAs":"X X X O O O","ticker":"ELF","dayChange":-5.69,"rsi_14":55.9,"weekRange":38.78},
