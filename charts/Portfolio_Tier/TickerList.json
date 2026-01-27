@@ -15,6 +15,6 @@
 {"EMAs":"O O O O O X","ticker":"CCL","dayChange":0.42,"rsi_14":43.4,"weekRange":76.32},
 {"EMAs":"O O X X X X","ticker":"NOW","dayChange":2.43,"rsi_14":40.2,"weekRange":10.84},
 {"EMAs":"X X X X O O","ticker":"ALK","dayChange":-2.08,"rsi_14":51.8,"weekRange":30.11},
-{"EMAs":"X X X X O O","ticker":"BABA","dayChange":-1.07,"rsi_14":59.3,"weekRange":79.42},
+{"EMAs":"X X X X O O","ticker":"BABA","dayChange":-1.07,"rsi_14":59.3,"weekRange":79.41},
 {"EMAs":"X X X X X X","ticker":"KLAC","dayChange":2.0,"rsi_14":67.2,"weekRange":96.28}
 ]
