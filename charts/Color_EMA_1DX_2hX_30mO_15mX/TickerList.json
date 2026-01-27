@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X O O X","ticker":"BIDU","dayChange":2.18,"rsi_14":66.6,"weekRange":93.58},
-{"EMAs":"X X X X O X","ticker":"MRNA","dayChange":3.92,"rsi_14":72.9,"weekRange":83.81},
-{"EMAs":"X X X X O X","ticker":"BABA","dayChange":2.27,"rsi_14":62.2,"weekRange":83.05}
+{"EMAs":"X X X X O X","ticker":"LABU","dayChange":2.14,"rsi_14":57.7,"weekRange":90.83},
+{"EMAs":"X X X O O X","ticker":"BIDU","dayChange":1.18,"rsi_14":65.4,"weekRange":91.85}
 ]
