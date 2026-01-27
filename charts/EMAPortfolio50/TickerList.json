@@ -63,7 +63,7 @@
 {"Group":"12","ticker":"GOOG","dayChange":1.57,"rsi_14":61.9,"weekRange":96.17},
 {"Group":"12","ticker":"GOOGL","dayChange":1.63,"rsi_14":62.2,"weekRange":96.38},
 {"Group":"12","ticker":"ECL","dayChange":0.63,"rsi_14":69.4,"weekRange":96.32},
-{"Group":"12","ticker":"GDX","dayChange":0.43,"rsi_14":80.1,"weekRange":93.32},
+{"Group":"12","ticker":"GDX","dayChange":0.43,"rsi_14":80.1,"weekRange":93.28},
 {"Group":"12","ticker":"DDOG","dayChange":5.0,"rsi_14":53.4,"weekRange":45.82},
 {"Group":"12","ticker":"AMAT","dayChange":-0.91,"rsi_14":65.2,"weekRange":93.52},
 {"Group":"12","ticker":"MDB","dayChange":3.15,"rsi_14":52.5,"weekRange":88.99},
@@ -71,6 +71,6 @@
 {"Group":"12","ticker":"POWL","dayChange":1.31,"rsi_14":69.9,"weekRange":92.45},
 {"Group":"12","ticker":"MU","dayChange":-2.64,"rsi_14":72.9,"weekRange":93.35},
 {"Group":"12","ticker":"STX","dayChange":3.52,"rsi_14":69.2,"weekRange":96.04},
-{"Group":"12","ticker":"NUGT","dayChange":1.22,"rsi_14":80.8,"weekRange":90.3},
+{"Group":"12","ticker":"NUGT","dayChange":1.22,"rsi_14":80.8,"weekRange":90.28},
 {"Group":"12","ticker":"ASML","dayChange":1.75,"rsi_14":75.3,"weekRange":99.22}
 ]

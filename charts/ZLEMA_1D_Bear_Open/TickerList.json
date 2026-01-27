@@ -25,7 +25,6 @@
 {"EMAs":"O O O O O O","ticker":"SEZL","dayChange":-0.37,"rsi_14":45.4,"weekRange":26.25},
 {"EMAs":"X X O O O O","ticker":"ALAB","dayChange":-3.78,"rsi_14":46.5,"weekRange":53.82},
 {"EMAs":"O O O O O O","ticker":"SOFI","dayChange":-0.19,"rsi_14":43.7,"weekRange":71.28},
-{"EMAs":"X O O X X X","ticker":"DECK","dayChange":1.32,"rsi_14":50.3,"weekRange":15.43},
 {"EMAs":"X O O O O O","ticker":"NBIS","dayChange":-3.22,"rsi_14":44.8,"weekRange":59.57},
 {"EMAs":"X O O O O O","ticker":"ABNB","dayChange":0.94,"rsi_14":50.8,"weekRange":52.32},
 {"EMAs":"X O O O O O","ticker":"CAVA","dayChange":-5.68,"rsi_14":46.4,"weekRange":18.94},

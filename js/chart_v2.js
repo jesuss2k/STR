@@ -635,11 +635,13 @@ function plotEMAs_30m(chart, rawData) {
     const emaColors = {
         EMA_12: "lightgreen",
         EMA_25: "green",
-        EMA_38: "#ffcbfb",   // Light Pink
-        EMA_75: "#8c3caf",   // Purple
-        EMA_150: "#38ccdd",  // Cyan
-        EMA_300: "#ffff00",
-        ZLEMA: "#ff0000"    // Red (Dashed)        
+        EMA_50: "#ffcbfb",
+        EMA_100: "#8c3caf",
+        EMA_200: "#38ccdd",
+        EMA_400: "#ffff00",
+        EMA_800: "#ff8c00",
+        EMA_1600: "#f700ff",
+        ZLEMA: "#ff0000"    // Red (Dashed)      
     };
 
     Object.keys(emaColors).forEach(emaKey => {
