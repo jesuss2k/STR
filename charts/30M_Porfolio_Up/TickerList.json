@@ -77,6 +77,6 @@
 {"Timestamp":"2026-01-28 14:00:00","ticker":"JBLU","dayChange":6.55,"rsi_14":51.6,"weekRange":37.86},
 {"Timestamp":"2026-01-28 14:00:00","ticker":"GOOG","dayChange":0.38,"rsi_14":64.0,"weekRange":97.52},
 {"Timestamp":"2026-01-28 14:30:00","ticker":"BIIB","dayChange":0.41,"rsi_14":50.7,"weekRange":80.83},
-{"Timestamp":"2026-01-28 15:00:00","ticker":"DKS","dayChange":-0.06,"rsi_14":45.5,"weekRange":46.04},
+{"Timestamp":"2026-01-28 15:00:00","ticker":"DKS","dayChange":-0.06,"rsi_14":45.5,"weekRange":46.21},
 {"Timestamp":"2026-01-28 15:30:00","ticker":"HLT","dayChange":0.05,"rsi_14":54.4,"weekRange":90.96}
 ]

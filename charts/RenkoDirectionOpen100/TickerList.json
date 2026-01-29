@@ -17,7 +17,7 @@
 {"EMAs":"O O O X X O","Group":"O","ticker":"APP","dayChange":-0.22,"rsi_14":35.7,"weekRange":62.71},
 {"EMAs":"O O X X X O","Group":"O","ticker":"SE","dayChange":-0.44,"rsi_14":46.7,"weekRange":27.1},
 {"EMAs":"O O X X X X","Group":"O","ticker":"PGR","dayChange":2.24,"rsi_14":49.4,"weekRange":15.07},
-{"EMAs":"O O O X X O","Group":"O","ticker":"CRM","dayChange":-0.25,"rsi_14":34.9,"weekRange":6.37},
+{"EMAs":"O O O X X O","Group":"O","ticker":"CRM","dayChange":-0.25,"rsi_14":34.9,"weekRange":6.89},
 {"EMAs":"O O O O X X","Group":"O","ticker":"JPM","dayChange":0.15,"rsi_14":38.1,"weekRange":73.0},
 {"EMAs":"O O O O O X","Group":"O","ticker":"V","dayChange":0.53,"rsi_14":37.6,"weekRange":36.57},
 {"EMAs":"O O O O O X","Group":"O","ticker":"UNH","dayChange":4.0,"rsi_14":34.4,"weekRange":15.98},
@@ -29,7 +29,6 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"AFRM","dayChange":-4.99,"rsi_14":34.8,"weekRange":49.87},
 {"EMAs":"O O X X O O","Group":"O","ticker":"ACIW","dayChange":-2.68,"rsi_14":38.5,"weekRange":17.24},
 {"EMAs":"O O O O X X","Group":"O","ticker":"IBIT","dayChange":-0.24,"rsi_14":45.9,"weekRange":26.11},
-{"EMAs":"O O O O O O","Group":"O","ticker":"LULU","dayChange":-3.24,"rsi_14":34.4,"weekRange":7.99},
 {"EMAs":"O O O O O O","Group":"O","ticker":"MGM","dayChange":-2.18,"rsi_14":35.6,"weekRange":46.5},
 {"EMAs":"O O O O O O","Group":"O","ticker":"DASH","dayChange":-0.34,"rsi_14":38.0,"weekRange":39.4},
 {"EMAs":"O O O O O O","Group":"O","ticker":"ORCL","dayChange":-1.2,"rsi_14":35.6,"weekRange":23.78},
@@ -98,6 +97,6 @@
 {"EMAs":"X X X X X X","Group":"X","ticker":"SNPS","dayChange":1.72,"rsi_14":57.6,"weekRange":50.91},
 {"EMAs":"X X X X X X","Group":"X","ticker":"TXN","dayChange":9.94,"rsi_14":78.1,"weekRange":93.25},
 {"EMAs":"X X X X X X","Group":"X","ticker":"WM","dayChange":0.11,"rsi_14":71.9,"weekRange":77.35},
-{"EMAs":"X X X X X X","Group":"X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46},
+{"EMAs":"X X X X X X","Group":"X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45},
 {"EMAs":"X X X X O O","Group":"X","ticker":"ILMN","dayChange":-1.47,"rsi_14":58.8,"weekRange":93.47}
 ]

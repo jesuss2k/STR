@@ -24,7 +24,7 @@
 {"EMAs":"O X X X X X","Group":"3","ticker":"MSFT","dayChange":0.22,"rsi_14":56.1,"weekRange":64.96},
 {"EMAs":"X X X X X X","Group":"3","ticker":"VGT","dayChange":0.69,"rsi_14":59.8,"weekRange":91.06},
 {"EMAs":"X X X X X X","Group":"3","ticker":"TXN","dayChange":9.94,"rsi_14":78.1,"weekRange":93.25},
-{"EMAs":"X X X X X X","Group":"3","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46},
+{"EMAs":"X X X X X X","Group":"3","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45},
 {"EMAs":"X X X X X O","Group":"3","ticker":"MELI","dayChange":-1.15,"rsi_14":64.4,"weekRange":59.12},
 {"EMAs":"X X X O O X","Group":"3:6","ticker":"IBKR","dayChange":-0.04,"rsi_14":63.0,"weekRange":92.71},
 {"EMAs":"X X X X O O","Group":"3:6","ticker":"AR","dayChange":0.23,"rsi_14":54.4,"weekRange":35.94},

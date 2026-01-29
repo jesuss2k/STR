@@ -21,7 +21,7 @@
 {"EMAs":"O O X X X X","Blocks":2,"ticker":"BIIB","dayChange":0.41,"rsi_14":50.7,"weekRange":80.83},
 {"EMAs":"X X X X X X","Blocks":2,"ticker":"SMTC","dayChange":2.62,"rsi_14":59.7,"weekRange":96.27},
 {"EMAs":"O O X X X X","Blocks":2,"ticker":"TZA","dayChange":1.65,"rsi_14":41.5,"weekRange":2.78},
-{"EMAs":"O O O O O O","Blocks":2,"ticker":"NOW","dayChange":-1.65,"rsi_14":33.7,"weekRange":5.29},
+{"EMAs":"O O O O O O","Blocks":2,"ticker":"NOW","dayChange":-1.65,"rsi_14":33.7,"weekRange":6.66},
 {"EMAs":"X X X X X X","Blocks":2,"ticker":"GOOG","dayChange":0.38,"rsi_14":64.0,"weekRange":97.52},
 {"EMAs":"X X X X X X","Blocks":2,"ticker":"TSM","dayChange":1.17,"rsi_14":65.5,"weekRange":95.84},
 {"EMAs":"O O O O O O","Blocks":2,"ticker":"JD","dayChange":-0.92,"rsi_14":47.3,"weekRange":5.59},

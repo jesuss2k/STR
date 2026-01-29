@@ -121,7 +121,7 @@
 {"EMAs":"O O O O X O","ticker":"MARA","dayChange":-1.43,"rsi_14":47.3,"weekRange":9.79},
 {"EMAs":"X X X X X X","ticker":"POWL","dayChange":0.26,"rsi_14":74.6,"weekRange":96.45},
 {"EMAs":"X X O O O X","ticker":"AMSC","dayChange":-1.09,"rsi_14":49.2,"weekRange":31.57},
-{"EMAs":"X X X X X X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46},
+{"EMAs":"X X X X X X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45},
 {"EMAs":"X X X X X X","ticker":"TXN","dayChange":9.94,"rsi_14":78.1,"weekRange":93.25},
 {"EMAs":"O O X X X X","ticker":"LUNA","dayChange":4.0,"rsi_14":59.9,"weekRange":70.59},
 {"EMAs":"X X X X X X","ticker":"ANET","dayChange":2.36,"rsi_14":68.3,"weekRange":85.98},

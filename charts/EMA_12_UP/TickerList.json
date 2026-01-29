@@ -108,7 +108,7 @@
 {"Timestamp":"2026-01-06 00:00:00","ticker":"DE","dayChange":1.12,"rsi_14":64.6,"weekRange":93.22},
 {"Timestamp":"2026-01-06 00:00:00","ticker":"ECL","dayChange":-0.93,"rsi_14":63.8,"weekRange":92.89},
 {"Timestamp":"2026-01-05 00:00:00","ticker":"GDX","dayChange":2.63,"rsi_14":83.8,"weekRange":99.49},
-{"Timestamp":"2026-01-05 00:00:00","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46},
+{"Timestamp":"2026-01-05 00:00:00","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45},
 {"Timestamp":"2026-01-05 00:00:00","ticker":"COST","dayChange":-0.98,"rsi_14":62.4,"weekRange":49.84},
 {"Timestamp":"2026-01-05 00:00:00","ticker":"SBUX","dayChange":-0.59,"rsi_14":63.3,"weekRange":46.85},
 {"Timestamp":"2026-01-05 00:00:00","ticker":"NUGT","dayChange":5.1,"rsi_14":84.6,"weekRange":99.09},

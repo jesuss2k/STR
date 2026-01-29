@@ -45,7 +45,7 @@
 {"EMAs":"X X O O O O","ticker":"MRNA","dayChange":-0.33,"rsi_14":63.5,"weekRange":69.93},
 {"EMAs":"X X O O O O","ticker":"CELH","dayChange":-2.88,"rsi_14":59.5,"weekRange":71.89},
 {"EMAs":"X X O O O O","ticker":"WSM","dayChange":-1.21,"rsi_14":56.0,"weekRange":84.14},
-{"EMAs":"X O O O O O","ticker":"TGT","dayChange":-2.27,"rsi_14":46.4,"weekRange":31.12},
+{"EMAs":"X O O O O O","ticker":"TGT","dayChange":-2.27,"rsi_14":46.4,"weekRange":31.2},
 {"EMAs":"X X O O X X","ticker":"CAKE","dayChange":1.4,"rsi_14":57.4,"weekRange":56.24},
 {"EMAs":"X X X X X X","ticker":"ERX","dayChange":1.52,"rsi_14":72.8,"weekRange":98.9},
 {"EMAs":"X X X X X X","ticker":"LMT","dayChange":0.39,"rsi_14":74.1,"weekRange":98.92},
@@ -142,5 +142,5 @@
 {"EMAs":"X X O O O O","ticker":"WMT","dayChange":-0.32,"rsi_14":53.2,"weekRange":87.92},
 {"EMAs":"X X X X X X","ticker":"NUGT","dayChange":5.1,"rsi_14":84.6,"weekRange":99.09},
 {"EMAs":"X X X X X X","ticker":"GDX","dayChange":2.63,"rsi_14":83.8,"weekRange":99.49},
-{"EMAs":"X X X X X X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46}
+{"EMAs":"X X X X X X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45}
 ]

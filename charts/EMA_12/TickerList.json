@@ -116,7 +116,7 @@
 {"ticker":"AAP","dayChange":0.51,"rsi_14":67.1,"weekRange":50.35},
 {"ticker":"MIRM","dayChange":1.59,"rsi_14":78.9,"weekRange":98.99},
 {"ticker":"GDX","dayChange":2.63,"rsi_14":83.8,"weekRange":99.49},
-{"ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46},
+{"ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45},
 {"ticker":"TXN","dayChange":9.94,"rsi_14":78.1,"weekRange":93.25},
 {"ticker":"APLD","dayChange":-2.73,"rsi_14":64.6,"weekRange":94.74},
 {"ticker":"CRWV","dayChange":-2.61,"rsi_14":65.4,"weekRange":47.24},

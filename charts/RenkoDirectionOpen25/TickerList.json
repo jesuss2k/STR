@@ -19,7 +19,6 @@
 {"EMAs":"O O O O O O","Group":"O","ticker":"AJG","dayChange":0.02,"rsi_14":35.0,"weekRange":5.25},
 {"EMAs":"X O O O O O","Group":"O","ticker":"CTAS","dayChange":-1.07,"rsi_14":45.0,"weekRange":17.95},
 {"EMAs":"X O O O O O","Group":"O","ticker":"OMC","dayChange":-1.91,"rsi_14":42.8,"weekRange":39.09},
-{"EMAs":"O O O O O O","Group":"O","ticker":"LULU","dayChange":-3.24,"rsi_14":34.4,"weekRange":7.99},
 {"EMAs":"O X X X O O","Group":"O","ticker":"NET","dayChange":-10.23,"rsi_14":46.7,"weekRange":55.96},
 {"EMAs":"O O O O X X","Group":"O","ticker":"IONQ","dayChange":0.68,"rsi_14":44.7,"weekRange":41.82},
 {"EMAs":"O O O O X O","Group":"O","ticker":"ANF","dayChange":-1.19,"rsi_14":36.8,"weekRange":45.95},
@@ -71,7 +70,7 @@
 {"EMAs":"X X X X X X","Group":"X","ticker":"PFGC","dayChange":-0.05,"rsi_14":61.7,"weekRange":71.3},
 {"EMAs":"O O X X X X","Group":"X","ticker":"DELL","dayChange":2.32,"rsi_14":43.2,"weekRange":50.15},
 {"EMAs":"O O X X X X","Group":"X","ticker":"MRVL","dayChange":0.83,"rsi_14":49.4,"weekRange":48.89},
-{"EMAs":"O O O X X O","Group":"X","ticker":"CRM","dayChange":-0.25,"rsi_14":34.9,"weekRange":6.37},
+{"EMAs":"O O O X X O","Group":"X","ticker":"CRM","dayChange":-0.25,"rsi_14":34.9,"weekRange":6.89},
 {"EMAs":"X O O X X X","Group":"X","ticker":"NBIS","dayChange":2.62,"rsi_14":53.8,"weekRange":66.88},
 {"EMAs":"X X X X O O","Group":"X","ticker":"OKTA","dayChange":-0.79,"rsi_14":52.1,"weekRange":29.88},
 {"EMAs":"O O X X X O","Group":"X","ticker":"SE","dayChange":-0.44,"rsi_14":46.7,"weekRange":27.1},
@@ -99,5 +98,5 @@
 {"EMAs":"X X X X X X","Group":"X","ticker":"NU","dayChange":1.13,"rsi_14":71.7,"weekRange":99.74},
 {"EMAs":"X X X X X X","Group":"X","ticker":"TXN","dayChange":9.94,"rsi_14":78.1,"weekRange":93.25},
 {"EMAs":"X X X X X X","Group":"X","ticker":"LMT","dayChange":0.39,"rsi_14":74.1,"weekRange":98.92},
-{"EMAs":"X X X X X X","Group":"X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.46}
+{"EMAs":"X X X X X X","Group":"X","ticker":"GLD","dayChange":3.88,"rsi_14":88.1,"weekRange":99.45}
 ]
