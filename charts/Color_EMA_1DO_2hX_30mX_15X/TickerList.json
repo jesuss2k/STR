@@ -12,6 +12,6 @@
 {"EMAs":"O O X X X X","ticker":"LUNA","dayChange":4.0,"rsi_14":59.9,"weekRange":70.59},
 {"EMAs":"O O X X X X","ticker":"HPE","dayChange":0.51,"rsi_14":43.2,"weekRange":67.32},
 {"EMAs":"O X X X X X","ticker":"DDOG","dayChange":1.7,"rsi_14":57.5,"weekRange":49.08},
-{"EMAs":"O X X X X X","ticker":"XLK","dayChange":0.73,"rsi_14":48.9,"weekRange":8.94},
-{"EMAs":"O X X X X X","ticker":"QLD","dayChange":0.62,"rsi_14":55.7,"weekRange":12.35}
+{"EMAs":"O X X X X X","ticker":"XLK","dayChange":0.8,"rsi_14":49.2,"weekRange":8.99},
+{"EMAs":"O X X X X X","ticker":"QLD","dayChange":0.54,"rsi_14":55.5,"weekRange":12.28}
 ]
