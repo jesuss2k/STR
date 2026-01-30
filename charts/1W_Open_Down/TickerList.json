@@ -12,7 +12,7 @@
 {"EMAs":"O O O O O O","ticker":"GDDY","dayChange":-3.98,"rsi_14":21.9,"weekRange":0.82},
 {"EMAs":"O O O O O O","ticker":"ZS","dayChange":-6.23,"rsi_14":32.0,"weekRange":20.82},
 {"EMAs":"O O O O O O","ticker":"SOFI","dayChange":-0.98,"rsi_14":36.0,"weekRange":65.31},
-{"EMAs":"O O O O O O","ticker":"PYPL","dayChange":-1.79,"rsi_14":29.1,"weekRange":1.51},
+{"EMAs":"O O O O O O","ticker":"PYPL","dayChange":-1.79,"rsi_14":29.1,"weekRange":1.53},
 {"EMAs":"O O O O X X","ticker":"HPQ","dayChange":1.78,"rsi_14":29.0,"weekRange":2.78},
 {"EMAs":"O O O O O O","ticker":"ADBE","dayChange":-2.65,"rsi_14":30.5,"weekRange":3.89},
 {"EMAs":"O O O O O O","ticker":"MSFT","dayChange":-9.99,"rsi_14":33.6,"weekRange":42.11},
@@ -59,6 +59,6 @@
 {"EMAs":"O O O O O O","ticker":"VST","dayChange":-1.85,"rsi_14":48.0,"weekRange":55.73},
 {"EMAs":"O O X X X X","ticker":"MA","dayChange":4.29,"rsi_14":48.1,"weekRange":57.38},
 {"EMAs":"O O O O O O","ticker":"ABNB","dayChange":0.17,"rsi_14":47.0,"weekRange":49.79},
-{"EMAs":"X O O O O O","ticker":"CMG","dayChange":-0.15,"rsi_14":52.3,"weekRange":31.35},
+{"EMAs":"X O O O O O","ticker":"CMG","dayChange":-0.15,"rsi_14":52.3,"weekRange":31.76},
 {"EMAs":"O O X X X X","ticker":"AAPL","dayChange":0.72,"rsi_14":46.3,"weekRange":74.59}
 ]

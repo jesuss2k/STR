@@ -51,7 +51,7 @@
 {"EMAs":"X X X O O O","ticker":"MDLZ","dayChange":-0.73,"rsi_14":55.5,"weekRange":30.62},
 {"EMAs":"O O X X O O","ticker":"WIX","dayChange":-3.3,"rsi_14":45.1,"weekRange":8.71},
 {"EMAs":"X X O O O X","ticker":"BIDU","dayChange":-0.1,"rsi_14":65.0,"weekRange":91.4},
-{"EMAs":"X X X X X X","ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":37.83},
+{"EMAs":"X X X X X X","ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":38.0},
 {"EMAs":"X X O O O O","ticker":"CELH","dayChange":-1.0,"rsi_14":57.1,"weekRange":70.71},
 {"EMAs":"O O O O X X","ticker":"HUMA","dayChange":3.0,"rsi_14":44.5,"weekRange":3.05},
 {"EMAs":"X X X X X X","ticker":"MSFD","dayChange":10.21,"rsi_14":65.6,"weekRange":41.42},

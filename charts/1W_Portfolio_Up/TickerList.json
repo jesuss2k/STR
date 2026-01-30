@@ -44,7 +44,7 @@
 {"EMAs":"X X X X X X","ticker":"GOOG","dayChange":0.71,"rsi_14":65.9,"weekRange":98.18},
 {"EMAs":"X X X X X X","ticker":"GOOGL","dayChange":0.67,"rsi_14":66.1,"weekRange":98.0},
 {"EMAs":"X X X X X X","ticker":"NOMD","dayChange":2.2,"rsi_14":59.6,"weekRange":15.46},
-{"EMAs":"X X X X X X","ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":37.83},
+{"EMAs":"X X X X X X","ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":38.0},
 {"EMAs":"O X X X X X","ticker":"T","dayChange":4.4,"rsi_14":63.1,"weekRange":31.87},
 {"EMAs":"X X X X X X","ticker":"LNG","dayChange":2.38,"rsi_14":69.2,"weekRange":44.49},
 {"EMAs":"O O X X X X","ticker":"CCL","dayChange":8.46,"rsi_14":61.3,"weekRange":90.24},

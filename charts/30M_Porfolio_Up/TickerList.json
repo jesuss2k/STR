@@ -33,7 +33,7 @@
 {"Timestamp":"2026-01-27 10:00:00","ticker":"SDOW","dayChange":0.0,"rsi_14":47.4,"weekRange":2.45},
 {"Timestamp":"2026-01-27 10:00:00","ticker":"SOXL","dayChange":0.54,"rsi_14":73.6,"weekRange":97.67},
 {"Timestamp":"2026-01-27 11:00:00","ticker":"F","dayChange":1.3,"rsi_14":57.2,"weekRange":91.75},
-{"Timestamp":"2026-01-27 12:00:00","ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":37.83},
+{"Timestamp":"2026-01-27 12:00:00","ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":38.0},
 {"Timestamp":"2026-01-27 14:00:00","ticker":"TMV","dayChange":-0.08,"rsi_14":52.9,"weekRange":44.01},
 {"Timestamp":"2026-01-27 15:30:00","ticker":"CCL","dayChange":8.46,"rsi_14":61.3,"weekRange":90.24},
 {"Timestamp":"2026-01-28 09:30:00","ticker":"SHOP","dayChange":3.4,"rsi_14":39.3,"weekRange":65.69},
@@ -62,7 +62,7 @@
 {"Timestamp":"2026-01-29 10:30:00","ticker":"MRK","dayChange":1.35,"rsi_14":54.7,"weekRange":88.48},
 {"Timestamp":"2026-01-29 10:30:00","ticker":"BAC","dayChange":2.45,"rsi_14":46.9,"weekRange":81.74},
 {"Timestamp":"2026-01-29 10:30:00","ticker":"EXPE","dayChange":2.64,"rsi_14":45.7,"weekRange":82.15},
-{"Timestamp":"2026-01-29 11:00:00","ticker":"DUST","dayChange":7.75,"rsi_14":27.1,"weekRange":0.88},
+{"Timestamp":"2026-01-29 11:00:00","ticker":"DUST","dayChange":7.75,"rsi_14":27.1,"weekRange":0.9},
 {"Timestamp":"2026-01-29 11:30:00","ticker":"GRBK","dayChange":0.95,"rsi_14":53.9,"weekRange":71.2},
 {"Timestamp":"2026-01-29 11:30:00","ticker":"WMT","dayChange":0.72,"rsi_14":56.3,"weekRange":89.93},
 {"Timestamp":"2026-01-29 12:30:00","ticker":"HIMS","dayChange":4.19,"rsi_14":39.6,"weekRange":12.04},
@@ -80,6 +80,6 @@
 {"Timestamp":"2026-01-29 14:00:00","ticker":"GOOGL","dayChange":0.67,"rsi_14":66.1,"weekRange":98.0},
 {"Timestamp":"2026-01-29 15:30:00","ticker":"ROST","dayChange":0.25,"rsi_14":51.0,"weekRange":88.4},
 {"Timestamp":"2026-01-29 15:30:00","ticker":"BURL","dayChange":1.33,"rsi_14":48.5,"weekRange":77.87},
-{"Timestamp":"2026-01-29 15:30:00","ticker":"DECK","dayChange":2.34,"rsi_14":48.2,"weekRange":14.47},
+{"Timestamp":"2026-01-29 15:30:00","ticker":"DECK","dayChange":2.34,"rsi_14":48.2,"weekRange":17.53},
 {"Timestamp":"2026-01-29 15:30:00","ticker":"SMTC","dayChange":0.5,"rsi_14":60.5,"weekRange":96.95}
 ]

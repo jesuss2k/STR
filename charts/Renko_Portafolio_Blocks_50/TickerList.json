@@ -42,7 +42,7 @@
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"PFE","dayChange":0.93,"rsi_14":56.4,"weekRange":76.53},
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"FDX","dayChange":1.68,"rsi_14":68.5,"weekRange":100.0},
 {"EMAs":"O X X X O X","Blocks":4,"ticker":"QLD","dayChange":-1.13,"rsi_14":52.2,"weekRange":11.35},
-{"EMAs":"X X X X X X","Blocks":4,"ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":37.83},
+{"EMAs":"X X X X X X","Blocks":4,"ticker":"MTDR","dayChange":1.87,"rsi_14":60.8,"weekRange":38.0},
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"MCD","dayChange":0.87,"rsi_14":60.3,"weekRange":74.77},
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"MSFD","dayChange":10.21,"rsi_14":65.6,"weekRange":41.42},
 {"EMAs":"X X X O O X","Blocks":4,"ticker":"SPY","dayChange":-0.2,"rsi_14":56.7,"weekRange":98.24},
