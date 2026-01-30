@@ -1,6 +1,6 @@
 [
 {"ticker":"NVDA","dayChange":0.52,"rsi_14":59.8,"weekRange":84.33},
-{"ticker":"AAPL","dayChange":0.68,"rsi_14":46.1,"weekRange":74.5},
+{"ticker":"AAPL","dayChange":0.72,"rsi_14":46.3,"weekRange":74.59},
 {"ticker":"MSFT","dayChange":-9.99,"rsi_14":33.6,"weekRange":42.11},
 {"ticker":"AMZN","dayChange":-0.53,"rsi_14":56.3,"weekRange":82.65},
 {"ticker":"GOOGL","dayChange":0.67,"rsi_14":66.1,"weekRange":98.0},

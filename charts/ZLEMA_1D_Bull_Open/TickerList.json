@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"UPRO","dayChange":-0.62,"rsi_14":55.0,"weekRange":97.39},
-{"EMAs":"O O X X X X","ticker":"DELL","dayChange":0.98,"rsi_14":45.3,"weekRange":51.28},
+{"EMAs":"O O X X X X","ticker":"DELL","dayChange":1.0,"rsi_14":45.4,"weekRange":51.3},
 {"EMAs":"X O X X X O","ticker":"ROAD","dayChange":-0.5,"rsi_14":51.3,"weekRange":64.75},
 {"EMAs":"X O O O O O","ticker":"NBIS","dayChange":-5.5,"rsi_14":48.3,"weekRange":62.38},
 {"EMAs":"O O O O X X","ticker":"UBER","dayChange":2.41,"rsi_14":43.9,"weekRange":50.94},
@@ -36,7 +35,7 @@
 {"EMAs":"O X O O O O","ticker":"AMSC","dayChange":-1.16,"rsi_14":47.6,"weekRange":30.92},
 {"EMAs":"X X X X O O","ticker":"APLD","dayChange":-5.35,"rsi_14":59.0,"weekRange":89.22},
 {"EMAs":"X X X X X O","ticker":"ANET","dayChange":-1.33,"rsi_14":65.4,"weekRange":84.09},
-{"EMAs":"X X X X X X","ticker":"GLD","dayChange":0.3,"rsi_14":88.3,"weekRange":94.6},
+{"EMAs":"X X X X X X","ticker":"GLD","dayChange":0.27,"rsi_14":88.3,"weekRange":94.55},
 {"EMAs":"X X X X X X","ticker":"LMT","dayChange":4.23,"rsi_14":79.0,"weekRange":90.17},
 {"EMAs":"X X X X X X","ticker":"TXN","dayChange":1.3,"rsi_14":79.3,"weekRange":96.31},
 {"EMAs":"X X X X X X","ticker":"META","dayChange":10.4,"rsi_14":73.8,"weekRange":81.69},
