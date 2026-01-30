@@ -86,7 +86,7 @@
 {"$ Prft":75.0,"% Pfrt":14.0,"EMAs":"X X X X O O","ticker":"PCAR","dayChange":-1.39,"rsi_14":60.1,"weekRange":90.78},
 {"$ Prft":51.0,"% Pfrt":10.5,"EMAs":"X X X X O O","ticker":"PM","dayChange":-0.46,"rsi_14":67.9,"weekRange":83.56},
 {"$ Prft":136.0,"% Pfrt":18.6,"EMAs":"X X X X O O","ticker":"ANET","dayChange":-2.34,"rsi_14":60.6,"weekRange":80.81},
-{"$ Prft":237.0,"% Pfrt":9.8,"EMAs":"X X X X O X","ticker":"AMZN","dayChange":-0.12,"rsi_14":55.9,"weekRange":82.36},
+{"$ Prft":236.0,"% Pfrt":8.9,"EMAs":"X X X X O X","ticker":"AMZN","dayChange":-0.12,"rsi_14":55.9,"weekRange":82.36},
 {"$ Prft":111.0,"% Pfrt":20.9,"EMAs":"X X X X X O","ticker":"TXN","dayChange":-2.22,"rsi_14":72.0,"weekRange":90.38},
 {"$ Prft":2.0,"% Pfrt":0.3,"EMAs":"X X X X X O","ticker":"CMCSA","dayChange":-0.1,"rsi_14":54.5,"weekRange":28.3},
 {"$ Prft":-2.0,"% Pfrt":-0.3,"EMAs":"X X X X X O","ticker":"PFGC","dayChange":-1.89,"rsi_14":56.7,"weekRange":68.64},
