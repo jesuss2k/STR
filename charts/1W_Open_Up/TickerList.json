@@ -1,11 +1,11 @@
 [
-{"EMAs":"O O X X X X","ticker":"AAPL","dayChange":0.43,"rsi_14":48.3,"weekRange":75.53},
+{"EMAs":"O O X X X X","ticker":"AAPL","dayChange":0.46,"rsi_14":48.4,"weekRange":75.6},
 {"EMAs":"X X O O O O","ticker":"SBUX","dayChange":-2.06,"rsi_14":52.0,"weekRange":39.2},
 {"EMAs":"X X O O O O","ticker":"EBAY","dayChange":-3.38,"rsi_14":50.0,"weekRange":76.6},
 {"EMAs":"X X O O O O","ticker":"UPRO","dayChange":-0.94,"rsi_14":51.9,"weekRange":95.79},
 {"EMAs":"X X X O O O","ticker":"AMZN","dayChange":-1.01,"rsi_14":52.9,"weekRange":80.15},
 {"EMAs":"X X O O O X","ticker":"FAST","dayChange":0.09,"rsi_14":54.8,"weekRange":52.56},
-{"EMAs":"X X O O O O","ticker":"AMD","dayChange":-6.13,"rsi_14":53.0,"weekRange":84.07},
+{"EMAs":"X X O O O O","ticker":"AMD","dayChange":-6.13,"rsi_14":53.0,"weekRange":84.08},
 {"EMAs":"X X O O O X","ticker":"NVO","dayChange":0.17,"rsi_14":55.2,"weekRange":32.24},
 {"EMAs":"X X X O O O","ticker":"PFGC","dayChange":-2.76,"rsi_14":54.0,"weekRange":66.55},
 {"EMAs":"X X X X O X","ticker":"FTNT","dayChange":-0.31,"rsi_14":55.2,"weekRange":24.92},
