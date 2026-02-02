@@ -1,4 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"MCD","dayChange":-0.32,"rsi_14":58.4,"weekRange":72.43},
-{"EMAs":"X X X O O X","ticker":"ECL","dayChange":-0.48,"rsi_14":62.4,"weekRange":92.89}
+{"EMAs":"X X X O O X","ticker":"SPY","dayChange":0.12,"rsi_14":54.9,"weekRange":97.68},
+{"EMAs":"X X X X O X","ticker":"AAP","dayChange":2.06,"rsi_14":63.0,"weekRange":48.92}
 ]
