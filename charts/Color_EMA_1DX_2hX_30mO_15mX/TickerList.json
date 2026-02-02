@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"LRCX","dayChange":2.76,"rsi_14":66.1,"weekRange":93.88},
-{"EMAs":"X X X O O X","ticker":"SOXL","dayChange":7.45,"rsi_14":62.0,"weekRange":91.37},
-{"EMAs":"X X X X O X","ticker":"SOXX","dayChange":2.54,"rsi_14":63.9,"weekRange":95.96},
-{"EMAs":"X X X X O X","ticker":"FFIV","dayChange":1.13,"rsi_14":57.8,"weekRange":44.96}
+{"EMAs":"X X X O O X","ticker":"GM","dayChange":0.0,"rsi_14":55.9,"weekRange":92.76},
+{"EMAs":"X X X X O X","ticker":"LRCX","dayChange":2.48,"rsi_14":65.8,"weekRange":93.54},
+{"EMAs":"X X X O O X","ticker":"SOXL","dayChange":8.12,"rsi_14":62.4,"weekRange":92.02}
 ]
