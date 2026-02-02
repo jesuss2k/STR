@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"BP","dayChange":-0.29,"rsi_14":64.6,"weekRange":91.84},
-{"EMAs":"X X X O O X","ticker":"GM","dayChange":0.1,"rsi_14":56.1,"weekRange":92.93},
-{"EMAs":"X X X X O X","ticker":"LRCX","dayChange":2.71,"rsi_14":66.0,"weekRange":93.82}
+{"EMAs":"X X X O O X","ticker":"GM","dayChange":0.08,"rsi_14":56.0,"weekRange":92.9},
+{"EMAs":"X X X O O X","ticker":"SOXL","dayChange":5.75,"rsi_14":61.0,"weekRange":89.75}
 ]
