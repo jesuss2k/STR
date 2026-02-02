@@ -29,7 +29,6 @@
 {"EMAs":"X X X X X X","ticker":"PM","dayChange":0.37,"rsi_14":72.3,"weekRange":88.72},
 {"EMAs":"X X O O X X","ticker":"AMD","dayChange":4.14,"rsi_14":58.9,"weekRange":89.22},
 {"EMAs":"X X X X X X","ticker":"WSM","dayChange":4.36,"rsi_14":62.6,"weekRange":93.33},
-{"EMAs":"O O X X X X","ticker":"OPRA","dayChange":13.61,"rsi_14":52.6,"weekRange":16.85},
 {"EMAs":"X X X X O O","ticker":"META","dayChange":-0.73,"rsi_14":63.8,"weekRange":73.16},
 {"EMAs":"X X X X X X","ticker":"DAKT","dayChange":2.2,"rsi_14":75.7,"weekRange":94.94},
 {"EMAs":"X X X X X X","ticker":"LMT","dayChange":0.45,"rsi_14":81.2,"weekRange":96.36},

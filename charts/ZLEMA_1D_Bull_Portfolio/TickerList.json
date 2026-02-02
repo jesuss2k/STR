@@ -37,6 +37,7 @@
 {"EMAs":"X X X X X X","ticker":"ECL","dayChange":0.81,"rsi_14":66.5,"weekRange":97.28},
 {"EMAs":"X X X X X X","ticker":"FNGD","dayChange":-0.26,"rsi_14":57.9,"weekRange":6.65},
 {"EMAs":"X X X X X X","ticker":"SOXX","dayChange":1.95,"rsi_14":63.0,"weekRange":95.02},
+{"EMAs":"O O X X X X","ticker":"OPRA","dayChange":13.61,"rsi_14":52.6,"weekRange":16.85},
 {"EMAs":"X X X X X X","ticker":"MAMA","dayChange":2.25,"rsi_14":70.6,"weekRange":97.83},
 {"EMAs":"X X X X X X","ticker":"IBM","dayChange":2.86,"rsi_14":59.9,"weekRange":91.45},
 {"EMAs":"O O O X X X","ticker":"HNST","dayChange":2.02,"rsi_14":44.9,"weekRange":5.17},

@@ -50,6 +50,7 @@
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"SSO","dayChange":1.25,"rsi_14":57.0,"weekRange":98.86},
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"SMTC","dayChange":9.47,"rsi_14":66.3,"weekRange":97.9},
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"WMT","dayChange":3.9,"rsi_14":72.0,"weekRange":99.77},
+{"EMAs":"O O X X X X","Blocks":4,"ticker":"OPRA","dayChange":13.61,"rsi_14":52.6,"weekRange":16.85},
 {"EMAs":"X X X X X X","Blocks":4,"ticker":"SPY","dayChange":0.61,"rsi_14":58.3,"weekRange":99.23},
 {"EMAs":"X X X X X O","Blocks":4,"ticker":"BIIB","dayChange":-0.78,"rsi_14":55.2,"weekRange":85.39},
 {"EMAs":"X X X O O O","Blocks":5,"ticker":"MTDR","dayChange":-3.45,"rsi_14":53.2,"weekRange":33.64},

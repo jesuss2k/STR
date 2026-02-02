@@ -85,7 +85,6 @@
 {"EMAs":"X X X X X X","Group":"X","ticker":"PG","dayChange":0.88,"rsi_14":66.8,"weekRange":36.56},
 {"EMAs":"X X X X X X","Group":"X","ticker":"UPRO","dayChange":1.81,"rsi_14":56.5,"weekRange":98.61},
 {"EMAs":"X X X X O O","Group":"X","ticker":"FTNT","dayChange":-0.52,"rsi_14":53.5,"weekRange":23.97},
-{"EMAs":"O O X X X X","Group":"X","ticker":"OPRA","dayChange":13.61,"rsi_14":52.6,"weekRange":16.85},
 {"EMAs":"X X X X X X","Group":"X","ticker":"PM","dayChange":0.37,"rsi_14":72.3,"weekRange":88.72},
 {"EMAs":"O X X X X O","Group":"X","ticker":"TMUS","dayChange":-1.17,"rsi_14":52.4,"weekRange":14.23},
 {"EMAs":"X X X X O O","Group":"X","ticker":"DXCM","dayChange":-0.12,"rsi_14":61.3,"weekRange":48.13},

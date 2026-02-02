@@ -25,7 +25,6 @@
 {"EMAs":"X X X X X X","ticker":"CMCSA","dayChange":0.18,"rsi_14":59.1,"weekRange":33.17},
 {"EMAs":"X X X X O O","ticker":"DXCM","dayChange":-0.12,"rsi_14":61.3,"weekRange":48.13},
 {"EMAs":"X X O O O X","ticker":"APLD","dayChange":4.55,"rsi_14":52.8,"weekRange":82.42},
-{"EMAs":"O O X X X X","ticker":"OPRA","dayChange":13.61,"rsi_14":52.6,"weekRange":16.85},
 {"EMAs":"O X X X X O","ticker":"TMUS","dayChange":-1.17,"rsi_14":52.4,"weekRange":14.23},
 {"EMAs":"X X X O O O","ticker":"ANET","dayChange":-1.72,"rsi_14":54.2,"weekRange":75.7},
 {"EMAs":"X X X X X X","ticker":"DE","dayChange":0.7,"rsi_14":66.4,"weekRange":95.8},
