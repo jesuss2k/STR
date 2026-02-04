@@ -80,6 +80,7 @@
 {"EMAs":"X X X X X X","ticker":"SMTC","dayChange":-2.08,"rsi_14":62.2,"weekRange":93.52},
 {"EMAs":"X X X X X X","ticker":"MSFD","dayChange":0.07,"rsi_14":72.9,"weekRange":51.93},
 {"EMAs":"X X X X X X","ticker":"T","dayChange":1.51,"rsi_14":76.4,"weekRange":62.65},
+{"EMAs":"O O X X X X","ticker":"MGM","dayChange":11.88,"rsi_14":67.9,"weekRange":80.71},
 {"EMAs":"X X X X X X","ticker":"TECS","dayChange":6.09,"rsi_14":62.7,"weekRange":4.66},
 {"EMAs":"X X X X X X","ticker":"MIRM","dayChange":-1.33,"rsi_14":77.6,"weekRange":97.55},
 {"EMAs":"X X X X X X","ticker":"CAT","dayChange":1.21,"rsi_14":73.8,"weekRange":97.42},

@@ -1,4 +1,6 @@
 [
+{"EMAs":"O O O O X X","ticker":"HPQ","dayChange":6.16,"rsi_14":44.7,"weekRange":10.94},
+{"EMAs":"O O X X X X","ticker":"MGM","dayChange":11.88,"rsi_14":67.9,"weekRange":80.71},
 {"EMAs":"O O O O O O","ticker":"OPRA","dayChange":-4.09,"rsi_14":41.7,"weekRange":2.38},
 {"EMAs":"O O O O O O","ticker":"LULU","dayChange":1.25,"rsi_14":35.4,"weekRange":5.61},
 {"EMAs":"X X X X X O","ticker":"DECK","dayChange":-0.38,"rsi_14":61.1,"weekRange":34.43},
