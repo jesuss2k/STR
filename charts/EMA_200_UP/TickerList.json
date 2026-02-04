@@ -32,7 +32,7 @@
 {"EMAs":"X X O O O O","ticker":"PFE","dayChange":-3.34,"rsi_14":50.2,"weekRange":71.66},
 {"EMAs":"X O O O X X","ticker":"SBUX","dayChange":1.47,"rsi_14":55.2,"weekRange":41.8},
 {"EMAs":"X X X X X X","ticker":"BP","dayChange":2.97,"rsi_14":69.7,"weekRange":99.27},
-{"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"EMAs":"X X X X X X","ticker":"GRBK","dayChange":4.08,"rsi_14":60.8,"weekRange":80.15},
 {"EMAs":"X X X X X X","ticker":"TXN","dayChange":0.09,"rsi_14":78.4,"weekRange":95.93},
 {"EMAs":"X X X X X X","ticker":"DE","dayChange":2.4,"rsi_14":71.2,"weekRange":99.77},

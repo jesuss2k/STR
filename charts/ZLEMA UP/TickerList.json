@@ -73,7 +73,7 @@
 {"Marker Type":"X","Trend Change":0,"EMAs":"O O O O O O","ticker":"VST","dayChange":-0.82,"rsi_14":40.9,"weekRange":48.33},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X X X X X","ticker":"BP","dayChange":2.97,"rsi_14":69.7,"weekRange":99.27},
 {"Marker Type":"X","Trend Change":0,"EMAs":"O O O O O O","ticker":"JD","dayChange":-1.72,"rsi_14":37.5,"weekRange":1.81},
-{"Marker Type":"X","Trend Change":1,"EMAs":"O O O O O O","ticker":"SMCI","dayChange":-0.13,"rsi_14":43.3,"weekRange":5.94},
+{"Marker Type":"X","Trend Change":1,"EMAs":"O O O O O O","ticker":"SMCI","dayChange":-0.13,"rsi_14":43.3,"weekRange":5.33},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X O O O O","ticker":"AMD","dayChange":-1.69,"rsi_14":55.5,"weekRange":86.9},
 {"Marker Type":"X","Trend Change":0,"EMAs":"X X X X X O","ticker":"TYO","dayChange":-0.22,"rsi_14":61.5,"weekRange":37.36},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X O O O O O","ticker":"XLRE","dayChange":-0.37,"rsi_14":46.7,"weekRange":62.34},
@@ -88,7 +88,7 @@
 {"Marker Type":"X","Trend Change":0,"EMAs":"X X X X X X","ticker":"WDC","dayChange":7.4,"rsi_14":71.3,"weekRange":97.66},
 {"Marker Type":"X","Trend Change":0,"EMAs":"X X X X X X","ticker":"STX","dayChange":2.66,"rsi_14":72.7,"weekRange":96.22},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X X X X X","ticker":"MDLZ","dayChange":1.33,"rsi_14":65.5,"weekRange":41.45},
-{"Marker Type":"X","Trend Change":0,"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"Marker Type":"X","Trend Change":0,"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X O O O O O","ticker":"PSN","dayChange":0.0,"rsi_14":44.8,"weekRange":39.44},
 {"Marker Type":"X","Trend Change":0,"EMAs":"X X X X X X","ticker":"ERX","dayChange":6.73,"rsi_14":72.7,"weekRange":99.49},
 {"Marker Type":"X","Trend Change":1,"EMAs":"O O O O O O","ticker":"RXRX","dayChange":-1.91,"rsi_14":39.5,"weekRange":3.62},
@@ -137,7 +137,7 @@
 {"Marker Type":"X","Trend Change":1,"EMAs":"X O O O O O","ticker":"ON","dayChange":-3.41,"rsi_14":49.2,"weekRange":79.26},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X X X X X","ticker":"CAKE","dayChange":2.08,"rsi_14":62.8,"weekRange":63.42},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X O O O O","ticker":"DXCM","dayChange":-1.24,"rsi_14":54.8,"weekRange":44.76},
-{"Marker Type":"X","Trend Change":1,"EMAs":"X O O O O X","ticker":"CMG","dayChange":1.71,"rsi_14":52.8,"weekRange":32.0},
+{"Marker Type":"X","Trend Change":1,"EMAs":"X O O O O X","ticker":"CMG","dayChange":1.71,"rsi_14":52.8,"weekRange":32.11},
 {"Marker Type":"X","Trend Change":1,"EMAs":"X X X X X X","ticker":"TXN","dayChange":0.09,"rsi_14":78.4,"weekRange":95.93},
 {"Marker Type":"X","Trend Change":1,"EMAs":"O O O O O O","ticker":"FNGU","dayChange":-4.53,"rsi_14":33.6,"weekRange":0.12}
 ]

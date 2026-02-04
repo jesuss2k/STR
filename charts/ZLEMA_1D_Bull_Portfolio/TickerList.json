@@ -43,7 +43,7 @@
 {"EMAs":"O X X X X X","ticker":"SQQQ","dayChange":4.7,"rsi_14":53.8,"weekRange":2.75},
 {"EMAs":"O O X X X X","ticker":"SOXS","dayChange":6.49,"rsi_14":38.9,"weekRange":0.48},
 {"EMAs":"X X X X X O","ticker":"INTC","dayChange":0.9,"rsi_14":57.8,"weekRange":85.52},
-{"EMAs":"O O O O O O","ticker":"SMCI","dayChange":-0.13,"rsi_14":43.3,"weekRange":5.94},
+{"EMAs":"O O O O O O","ticker":"SMCI","dayChange":-0.13,"rsi_14":43.3,"weekRange":5.33},
 {"EMAs":"X X X X X X","ticker":"WMT","dayChange":2.94,"rsi_14":77.5,"weekRange":99.06},
 {"EMAs":"X X X X X X","ticker":"ALK","dayChange":4.75,"rsi_14":63.4,"weekRange":43.29},
 {"EMAs":"X X X X X X","ticker":"MDLZ","dayChange":1.33,"rsi_14":65.5,"weekRange":41.45},

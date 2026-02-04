@@ -13,7 +13,7 @@
 {"EMAs":"X X X X X O","ticker":"CMCSA","dayChange":0.57,"rsi_14":58.4,"weekRange":32.8},
 {"EMAs":"O X X X X X","ticker":"AAPL","dayChange":-0.2,"rsi_14":61.5,"weekRange":83.97},
 {"EMAs":"X X O O O O","ticker":"IBKR","dayChange":-0.45,"rsi_14":59.8,"weekRange":91.58},
-{"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"EMAs":"X X O O O O","ticker":"AMD","dayChange":-1.69,"rsi_14":55.5,"weekRange":86.9},
 {"EMAs":"X X X X X X","ticker":"CAKE","dayChange":2.08,"rsi_14":62.8,"weekRange":63.42},
 {"EMAs":"X X O O O O","ticker":"ANET","dayChange":0.74,"rsi_14":54.2,"weekRange":75.78},

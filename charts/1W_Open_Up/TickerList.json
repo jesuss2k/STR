@@ -14,7 +14,7 @@
 {"EMAs":"X X X X X X","ticker":"PFGC","dayChange":2.47,"rsi_14":57.9,"weekRange":70.58},
 {"EMAs":"X X X O O O","ticker":"META","dayChange":-2.08,"rsi_14":57.5,"weekRange":66.96},
 {"EMAs":"X X O O O O","ticker":"ANET","dayChange":0.74,"rsi_14":54.2,"weekRange":75.78},
-{"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"EMAs":"X X X X O O","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"EMAs":"X X O O O O","ticker":"AMD","dayChange":-1.69,"rsi_14":55.5,"weekRange":86.9},
 {"EMAs":"O X X X X X","ticker":"AAPL","dayChange":-0.2,"rsi_14":61.5,"weekRange":83.97},
 {"EMAs":"X X X O O O","ticker":"NU","dayChange":0.06,"rsi_14":58.0,"weekRange":91.37},

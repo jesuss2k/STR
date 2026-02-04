@@ -90,7 +90,7 @@
 {"Timestamp":"2026-01-23 00:00:00","ticker":"RCL","dayChange":-2.32,"rsi_14":61.6,"weekRange":80.14},
 {"Timestamp":"2026-01-22 00:00:00","ticker":"META","dayChange":-2.08,"rsi_14":57.5,"weekRange":66.96},
 {"Timestamp":"2026-01-21 00:00:00","ticker":"VNOM","dayChange":1.85,"rsi_14":66.0,"weekRange":41.4},
-{"Timestamp":"2026-01-21 00:00:00","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"Timestamp":"2026-01-21 00:00:00","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"Timestamp":"2026-01-21 00:00:00","ticker":"AAP","dayChange":4.09,"rsi_14":67.2,"weekRange":53.05},
 {"Timestamp":"2026-01-15 00:00:00","ticker":"TYO","dayChange":-0.22,"rsi_14":61.5,"weekRange":37.36},
 {"Timestamp":"2026-01-14 00:00:00","ticker":"EME","dayChange":1.76,"rsi_14":70.3,"weekRange":92.55},

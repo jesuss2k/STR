@@ -38,7 +38,7 @@
 {"ticker":"ASML","dayChange":-3.16,"rsi_14":61.6,"weekRange":89.33},
 {"ticker":"UAL","dayChange":3.27,"rsi_14":52.9,"weekRange":87.58},
 {"ticker":"GOOGL","dayChange":-1.16,"rsi_14":64.0,"weekRange":95.54},
-{"ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"ticker":"JPM","dayChange":2.18,"rsi_14":54.2,"weekRange":83.42},
 {"ticker":"QID","dayChange":3.23,"rsi_14":54.1,"weekRange":3.99},
 {"ticker":"LABU","dayChange":0.6,"rsi_14":53.9,"weekRange":87.4},

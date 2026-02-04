@@ -1,5 +1,5 @@
 [
-{"Timestamp":"2026-02-03 00:00:00","ticker":"CMG","dayChange":1.71,"rsi_14":52.8,"weekRange":32.0},
+{"Timestamp":"2026-02-03 00:00:00","ticker":"CMG","dayChange":1.71,"rsi_14":52.8,"weekRange":32.11},
 {"Timestamp":"2026-02-03 00:00:00","ticker":"GCT","dayChange":4.06,"rsi_14":56.2,"weekRange":92.04},
 {"Timestamp":"2026-02-03 00:00:00","ticker":"GDX","dayChange":4.28,"rsi_14":51.6,"weekRange":79.6},
 {"Timestamp":"2026-02-03 00:00:00","ticker":"SPXU","dayChange":2.63,"rsi_14":51.9,"weekRange":78.56},
@@ -91,7 +91,7 @@
 {"Timestamp":"2026-01-09 00:00:00","ticker":"EME","dayChange":1.76,"rsi_14":70.3,"weekRange":92.55},
 {"Timestamp":"2026-01-09 00:00:00","ticker":"MDLZ","dayChange":1.33,"rsi_14":65.5,"weekRange":41.45},
 {"Timestamp":"2026-01-09 00:00:00","ticker":"STX","dayChange":2.66,"rsi_14":72.7,"weekRange":96.22},
-{"Timestamp":"2026-01-08 00:00:00","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.93},
+{"Timestamp":"2026-01-08 00:00:00","ticker":"PM","dayChange":-1.63,"rsi_14":64.4,"weekRange":82.81},
 {"Timestamp":"2026-01-07 00:00:00","ticker":"EL","dayChange":-2.1,"rsi_14":58.0,"weekRange":92.68},
 {"Timestamp":"2026-01-07 00:00:00","ticker":"ERX","dayChange":6.73,"rsi_14":72.7,"weekRange":99.49},
 {"Timestamp":"2026-01-06 00:00:00","ticker":"MIRM","dayChange":1.59,"rsi_14":82.6,"weekRange":99.72},
