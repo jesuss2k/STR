@@ -1,6 +1,6 @@
 [
 {"Group":"100:200","ticker":"PLTR","dayChange":6.85,"rsi_14":40.3,"weekRange":64.89},
-{"Group":"50:100","ticker":"AAL","dayChange":2.26,"rsi_14":42.6,"weekRange":61.8},
+{"Group":"50:100","ticker":"AAL","dayChange":2.34,"rsi_14":42.7,"weekRange":61.91},
 {"Group":"25:50","ticker":"TJX","dayChange":1.27,"rsi_14":48.1,"weekRange":84.36},
 {"Group":"200","ticker":"DRV","dayChange":1.34,"rsi_14":53.0,"weekRange":16.75},
 {"Group":"200","ticker":"MDLZ","dayChange":1.33,"rsi_14":65.5,"weekRange":41.45},
@@ -50,7 +50,7 @@
 {"Group":"12","ticker":"TGT","dayChange":1.62,"rsi_14":64.8,"weekRange":51.97},
 {"Group":"12","ticker":"GOOGL","dayChange":-1.16,"rsi_14":64.0,"weekRange":95.54},
 {"Group":"12","ticker":"CSCO","dayChange":3.06,"rsi_14":74.1,"weekRange":99.55},
-{"Group":"12","ticker":"GOOG","dayChange":-1.21,"rsi_14":64.1,"weekRange":95.46},
+{"Group":"12","ticker":"GOOG","dayChange":-1.22,"rsi_14":64.1,"weekRange":95.45},
 {"Group":"12","ticker":"MRK","dayChange":2.18,"rsi_14":70.4,"weekRange":94.2},
 {"Group":"12","ticker":"HLT","dayChange":0.55,"rsi_14":63.8,"weekRange":98.48},
 {"Group":"12","ticker":"ERX","dayChange":6.73,"rsi_14":72.7,"weekRange":99.49},
