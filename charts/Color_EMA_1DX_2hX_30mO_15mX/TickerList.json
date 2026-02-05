@@ -1,5 +1,5 @@
 [
-{"EMAs":"X X X X O X","ticker":"ROST","dayChange":0.35,"rsi_14":56.8,"weekRange":93.12},
-{"EMAs":"X X X X O X","ticker":"INTC","dayChange":0.35,"rsi_14":56.7,"weekRange":84.22},
-{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":1.62,"rsi_14":56.5,"weekRange":89.59}
+{"EMAs":"X X X X O X","ticker":"ROST","dayChange":0.42,"rsi_14":57.1,"weekRange":93.32},
+{"EMAs":"X X X X O X","ticker":"INTC","dayChange":0.17,"rsi_14":56.6,"weekRange":83.99},
+{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":1.86,"rsi_14":56.7,"weekRange":89.88}
 ]
