@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X X O X","ticker":"MIRM","dayChange":-0.08,"rsi_14":77.0,"weekRange":97.3}
+{"EMAs":"X X X X O X","ticker":"DECK","dayChange":0.9,"rsi_14":61.1,"weekRange":34.8},
+{"EMAs":"X X X O O X","ticker":"FFIV","dayChange":0.23,"rsi_14":55.8,"weekRange":43.66},
+{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":2.53,"rsi_14":57.5,"weekRange":90.71},
+{"EMAs":"X X X X O X","ticker":"RCL","dayChange":-0.1,"rsi_14":62.1,"weekRange":81.14}
 ]
