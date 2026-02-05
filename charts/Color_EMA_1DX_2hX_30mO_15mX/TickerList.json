@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":0.19,"rsi_14":54.7,"weekRange":87.81}
+{"EMAs":"X X X X O X","ticker":"ROST","dayChange":0.35,"rsi_14":56.8,"weekRange":93.12},
+{"EMAs":"X X X X O X","ticker":"INTC","dayChange":0.35,"rsi_14":56.7,"weekRange":84.22},
+{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":1.62,"rsi_14":56.5,"weekRange":89.59}
 ]
