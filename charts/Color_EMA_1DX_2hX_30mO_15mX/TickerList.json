@@ -1,5 +1,8 @@
 [
-{"EMAs":"X X X X O X","ticker":"LNG","dayChange":-1.55,"rsi_14":59.0,"weekRange":40.42},
-{"EMAs":"X X X X O X","ticker":"INTC","dayChange":-0.74,"rsi_14":55.6,"weekRange":82.78},
-{"EMAs":"X X X O O X","ticker":"SMTC","dayChange":1.61,"rsi_14":56.4,"weekRange":89.57}
+{"EMAs":"X X X X O X","ticker":"BP","dayChange":1.91,"rsi_14":65.1,"weekRange":95.73},
+{"EMAs":"X X X X O X","ticker":"DG","dayChange":1.69,"rsi_14":56.6,"weekRange":91.27},
+{"EMAs":"X O X X O X","ticker":"XRT","dayChange":1.65,"rsi_14":52.6,"weekRange":90.27},
+{"EMAs":"X X X O O X","ticker":"STX","dayChange":2.67,"rsi_14":62.6,"weekRange":89.11},
+{"EMAs":"X X X O O X","ticker":"WDC","dayChange":2.94,"rsi_14":60.7,"weekRange":89.29},
+{"EMAs":"X X X X O X","ticker":"DECK","dayChange":3.27,"rsi_14":62.2,"weekRange":37.59}
 ]
