@@ -12,7 +12,7 @@
 {"EMAs":"X X X X X X","ticker":"SBUX","dayChange":-0.93,"rsi_14":61.2,"weekRange":49.02},
 {"EMAs":"X X O O O X","ticker":"LMT","dayChange":1.07,"rsi_14":64.3,"weekRange":84.18},
 {"EMAs":"X X X X X X","ticker":"AAPL","dayChange":-0.21,"rsi_14":67.1,"weekRange":89.36},
-{"EMAs":"X X X X X X","ticker":"PM","dayChange":0.89,"rsi_14":70.4,"weekRange":89.95},
+{"EMAs":"X X X X X X","ticker":"PM","dayChange":0.89,"rsi_14":70.4,"weekRange":89.48},
 {"EMAs":"X X X X X X","ticker":"CMCSA","dayChange":1.15,"rsi_14":65.8,"weekRange":41.72},
 {"EMAs":"X X X X X X","ticker":"TMUS","dayChange":0.03,"rsi_14":60.8,"weekRange":21.55},
 {"EMAs":"X X X X X X","ticker":"CAKE","dayChange":1.62,"rsi_14":70.3,"weekRange":74.53},
@@ -20,6 +20,5 @@
 {"EMAs":"X X X X O O","ticker":"DAKT","dayChange":-0.87,"rsi_14":71.8,"weekRange":92.26},
 {"EMAs":"X X X X X O","ticker":"FAST","dayChange":-1.97,"rsi_14":68.5,"weekRange":78.47},
 {"EMAs":"X X X X X X","ticker":"DE","dayChange":-0.27,"rsi_14":76.0,"weekRange":94.6},
-{"EMAs":"X X X X X X","ticker":"TXN","dayChange":0.48,"rsi_14":75.5,"weekRange":94.54},
-{"EMAs":"X X X X X X","ticker":"ROAD","dayChange":11.22,"rsi_14":66.9,"weekRange":84.82}
+{"EMAs":"X X X X X X","ticker":"TXN","dayChange":0.48,"rsi_14":75.5,"weekRange":94.54}
 ]
