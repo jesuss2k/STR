@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title"></title>
+    <link rel="stylesheet" href="../../css/chart_v2.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.6/dist/lightweight-charts.standalone.production.js"></script>
+    <script src="../../js/chart_v2.js"></script>
+    <script src="../../js/ticker_v2.js" defer></script>
+</head>
+<body>
+    <div id="chart-container">
+        <div id="plotly-div"></div> <!-- Main Chart -->
+        <div id="plotly-histogram"></div> <!-- Histogram (Bottom Pane) -->
+    </div>
+            
+    <div id="stock-logo">
+        <a id="summary-link" href="#" title="Summary">
+            <img id="stock-image" class="stock-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAJklEQVR42mNgGAWjYBSMglEwCpkYwcQIKJgBqBIEAagSQnABGgQB4OxaedL3mfAAAAAElFTkSuQmCC" alt="Index">
+        </a>
+    </div>
+
+    <div class="nav-arrow left">
+        <a id="prev-ticker" href="#" style="color: white; text-decoration: none;">&larr;</a>
+    </div>
+    <div class="nav-arrow right">
+        <a id="next-ticker" href="#" style="color: white; text-decoration: none;">&rarr;</a>
+    </div>
+
+    <div id="other-menus">
+        <a href="#" id="menu-caption">&#9650; Chart</a>
+        <div id="menu-options" style="display: none;">
+            <a href="#" id="chart-summary">.</a>
+            <a href="#" id="chart-ema1w">1W</a>
+            <a href="#" id="chart-ema1d">1D</a>
+            <a href="#" id="chart-ema2h">2H</a>
+            <a href="#" id="chart-renko1d">Rk 1D</a>
+            <a href="#" id="chart-renko1h">Rk 1h</a>
+            <a href="#" id="chart-ema30m">30m</a>
+            <a href="#" id="chart-ema30m-eth">ETH</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            initializeMenuLogic_v2();
+        });
+    </script>
+</body>
+</html>

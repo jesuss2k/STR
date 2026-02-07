@@ -1,0 +1,74 @@
+
+<html>
+<head>
+    <title>Trading Statistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indexpages.css">
+    <style>
+        table {
+            margin: 50px auto;
+            width: 80%;
+            font-size: 1.4em;
+            table-layout: auto;
+        }
+        td {
+            padding: 15px 20px;
+        }
+        td:first-child {
+            text-align: left;
+            width: 50%;
+        }
+        td:last-child {
+            text-align: right;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 300px;
+        }
+        @media only screen and (max-width: 600px) {
+            table {
+                width: 95%;
+                font-size: 1.8em;
+                margin: 30px auto;
+            }
+            td {
+                padding: 20px 15px;
+            }
+        }
+        .green { color: #00b300; font-weight: bold; }
+        .red { color: #e60000; font-weight: bold; }
+        .back-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            margin: 40px auto;
+            font-size: 1.8em;
+            font-weight: bold;
+            background-color: #333;
+            color: white;
+            border: 1px solid #555;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr><td>Date</td><td>2026-02-07</td></tr>
+        <tr><td>Time</td><td>01:46 - 07:46</td></tr>
+        <tr><td>Position</td><td>$75,678.63</td></tr>
+        <tr><td>Profit</td><td>$-3,520.39</td></tr>
+        <tr><td>% Profit</td><td class="red">-4.44%</td></tr>
+        <tr><td>Cash</td><td>$4,549.42</td></tr>
+        <tr><td>Total</td><td>$80,228.05</td></tr>
+        <tr><td>Profit Total</td><td>$-11,282.04</td></tr>
+        <tr><td>% Profit Total</td><td class="red">-12.33%</td></tr>
+    </table>
+    <button class="back-button" onclick="window.history.back();" title="Back">&lt;</button>
+</body>
+</html>
