@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X X O X","ticker":"T","dayChange":-0.07,"rsi_14":73.5,"weekRange":60.82}
+{"EMAs":"X X X O O X","ticker":"SQQQ","dayChange":0.18,"rsi_14":51.8,"weekRange":3.0},
+{"EMAs":"X X X O O X","ticker":"QID","dayChange":0.15,"rsi_14":52.1,"weekRange":4.4}
 ]
