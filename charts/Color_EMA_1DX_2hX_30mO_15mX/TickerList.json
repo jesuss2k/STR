@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"SQQQ","dayChange":0.5,"rsi_14":52.2,"weekRange":3.09},
-{"EMAs":"X X X O O X","ticker":"QID","dayChange":0.4,"rsi_14":52.6,"weekRange":4.56}
+{"EMAs":"X X X O O X","ticker":"MSFD","dayChange":0.08,"rsi_14":62.1,"weekRange":50.08},
+{"EMAs":"X X X O O X","ticker":"SQQQ","dayChange":1.42,"rsi_14":53.3,"weekRange":3.37},
+{"EMAs":"X X X O O X","ticker":"QID","dayChange":0.99,"rsi_14":53.7,"weekRange":4.94}
 ]
