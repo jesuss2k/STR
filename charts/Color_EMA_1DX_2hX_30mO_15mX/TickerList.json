@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O O X","ticker":"COST","dayChange":1.22,"rsi_14":59.5,"weekRange":59.35},
-{"EMAs":"X X X X O X","ticker":"ULTA","dayChange":1.66,"rsi_14":63.0,"weekRange":97.39}
+{"EMAs":"X X X X O X","ticker":"TGT","dayChange":0.66,"rsi_14":62.3,"weekRange":63.28},
+{"EMAs":"X X X X O X","ticker":"ROST","dayChange":0.12,"rsi_14":59.8,"weekRange":96.76},
+{"EMAs":"X X X O O X","ticker":"DG","dayChange":0.73,"rsi_14":56.2,"weekRange":91.23}
 ]
