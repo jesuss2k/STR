@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"FDX","dayChange":0.63,"rsi_14":81.1,"weekRange":93.89}
+{"EMAs":"X X X O","ticker":"TGT","dayChange":0.91,"rsi_14":60.3,"weekRange":62.72},
+{"EMAs":"O X X O","ticker":"MTDR","dayChange":1.64,"rsi_14":60.3,"weekRange":51.69}
 ]
