@@ -73,7 +73,6 @@
 {"EMAs":"O X X O","Group":"X","ticker":"CTAS","dayChange":-0.74,"rsi_14":53.0,"weekRange":29.17},
 {"EMAs":"O X X X","Group":"X","ticker":"TMUS","dayChange":0.49,"rsi_14":71.4,"weekRange":36.14},
 {"EMAs":"O X X O","Group":"X","ticker":"CMCSA","dayChange":-1.65,"rsi_14":60.5,"weekRange":45.36},
-{"EMAs":"O X X X","Group":"X","ticker":"CROX","dayChange":-2.49,"rsi_14":65.6,"weekRange":45.95},
 {"EMAs":"X X X O","Group":"X","ticker":"SBUX","dayChange":-1.93,"rsi_14":52.0,"weekRange":46.21},
 {"EMAs":"X X O O","Group":"X","ticker":"WSM","dayChange":0.15,"rsi_14":49.7,"weekRange":83.98},
 {"EMAs":"O X X X","Group":"X","ticker":"PG","dayChange":-0.57,"rsi_14":70.8,"weekRange":53.5},

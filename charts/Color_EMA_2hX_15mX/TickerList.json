@@ -19,6 +19,7 @@
 {"Timestamp":"2026-02-12 10:00:00","EMAs":"X X X X","ticker":"MCD","dayChange":-0.17,"rsi_14":70.8,"weekRange":92.05},
 {"Timestamp":"2026-02-12 09:30:00","EMAs":"X O X X","ticker":"AEO","dayChange":0.63,"rsi_14":52.3,"weekRange":80.38},
 {"Timestamp":"2026-02-12 09:30:00","EMAs":"X X X X","ticker":"COST","dayChange":1.2,"rsi_14":66.6,"weekRange":71.43},
+{"Timestamp":"2026-02-12 09:30:00","EMAs":"O X X X","ticker":"CROX","dayChange":-2.49,"rsi_14":65.6,"weekRange":45.95},
 {"Timestamp":"2026-02-12 09:30:00","EMAs":"O X X X","ticker":"QID","dayChange":0.09,"rsi_14":60.0,"weekRange":7.31},
 {"Timestamp":"2026-02-12 09:30:00","EMAs":"O X X X","ticker":"SQQQ","dayChange":-0.01,"rsi_14":59.6,"weekRange":5.0},
 {"Timestamp":"2026-02-12 09:30:00","EMAs":"O X X X","ticker":"TECS","dayChange":-0.35,"rsi_14":55.9,"weekRange":4.24},

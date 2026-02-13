@@ -86,6 +86,7 @@
 {"Group":"12","ticker":"FNGD","dayChange":0.36,"rsi_14":70.4,"weekRange":12.42},
 {"Group":"12","ticker":"MCD","dayChange":-0.17,"rsi_14":70.8,"weekRange":92.05},
 {"Group":"12","ticker":"ECL","dayChange":-0.14,"rsi_14":71.7,"weekRange":92.65},
+{"Group":"12","ticker":"CROX","dayChange":-2.49,"rsi_14":65.6,"weekRange":45.95},
 {"Group":"12","ticker":"BIIB","dayChange":0.56,"rsi_14":64.2,"weekRange":93.71},
 {"Group":"12","ticker":"GE","dayChange":2.69,"rsi_14":58.3,"weekRange":93.38},
 {"Group":"12","ticker":"LRCX","dayChange":2.94,"rsi_14":59.9,"weekRange":92.96},

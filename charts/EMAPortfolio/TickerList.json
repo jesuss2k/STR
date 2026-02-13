@@ -104,6 +104,7 @@
 {"EMAs":"X X X X","Group":"3","ticker":"MCD","dayChange":-0.17,"rsi_14":70.8,"weekRange":92.05},
 {"EMAs":"X X X X","Group":"3","ticker":"BIIB","dayChange":0.56,"rsi_14":64.2,"weekRange":93.71},
 {"EMAs":"X X O O","Group":"3","ticker":"ANET","dayChange":5.36,"rsi_14":55.2,"weekRange":78.6},
+{"EMAs":"O X X X","Group":"3","ticker":"CROX","dayChange":-2.49,"rsi_14":65.6,"weekRange":45.95},
 {"EMAs":"X X X X","Group":"3","ticker":"NRG","dayChange":2.74,"rsi_14":63.1,"weekRange":85.83},
 {"EMAs":"X X X X","Group":"3","ticker":"LRCX","dayChange":2.94,"rsi_14":59.9,"weekRange":92.96},
 {"EMAs":"X X X X","Group":"3","ticker":"GE","dayChange":2.69,"rsi_14":58.3,"weekRange":93.38},

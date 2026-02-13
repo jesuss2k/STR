@@ -66,6 +66,7 @@
 {"EMAs":"X X X X","Blocks":6,"ticker":"ON","dayChange":-0.88,"rsi_14":67.5,"weekRange":91.5},
 {"EMAs":"X X X X","Blocks":6,"ticker":"GRBK","dayChange":1.69,"rsi_14":71.4,"weekRange":97.27},
 {"EMAs":"O X X X","Blocks":6,"ticker":"KMB","dayChange":-0.06,"rsi_14":71.1,"weekRange":22.02},
+{"EMAs":"O X X X","Blocks":6,"ticker":"CROX","dayChange":-2.49,"rsi_14":65.6,"weekRange":45.95},
 {"EMAs":"X X X X","Blocks":6,"ticker":"CB","dayChange":-1.75,"rsi_14":63.6,"weekRange":87.7},
 {"EMAs":"X X X X","Blocks":7,"ticker":"KYMR","dayChange":1.36,"rsi_14":67.7,"weekRange":78.65},
 {"EMAs":"O X X O","Blocks":7,"ticker":"NOMD","dayChange":-0.23,"rsi_14":57.4,"weekRange":17.5},
