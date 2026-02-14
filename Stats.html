@@ -1,74 +1,153 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Trading Statistics</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STR</title>
     <link rel="stylesheet" href="css/indexpages.css">
-    <style>
-        table {
-            margin: 50px auto;
-            width: 80%;
-            font-size: 1.4em;
-            table-layout: auto;
-        }
-        td {
-            padding: 15px 20px;
-        }
-        td:first-child {
-            text-align: left;
-            width: 50%;
-        }
-        td:last-child {
-            text-align: right;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: 300px;
-        }
-        @media only screen and (max-width: 600px) {
-            table {
-                width: 95%;
-                font-size: 1.8em;
-                margin: 30px auto;
-            }
-            td {
-                padding: 20px 15px;
-            }
-        }
-        .green { color: #00b300; font-weight: bold; }
-        .red { color: #e60000; font-weight: bold; }
-        .back-button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 50px;
-            height: 50px;
-            margin: 40px auto;
-            font-size: 1.8em;
-            font-weight: bold;
-            background-color: #333;
-            color: white;
-            border: 1px solid #555;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-        .back-button:hover {
-            background-color: #444;
-        }
-    </style>
 </head>
 <body>
-    <table>
-        <tr><td>Date</td><td>2026-02-13</td></tr>
-        <tr><td>Time</td><td>23:42 - 05:42</td></tr>
-        <tr><td>Position</td><td>$72,568.79</td></tr>
-        <tr><td>Profit</td><td>$-4,468.71</td></tr>
-        <tr><td>% Profit</td><td class="red">-5.80%</td></tr>
-        <tr><td>Cash</td><td>$7,960.65</td></tr>
-        <tr><td>Total</td><td>$80,529.44</td></tr>
-        <tr><td>Profit Total</td><td>$-10,980.65</td></tr>
-        <tr><td>% Profit Total</td><td class="red">-12.00%</td></tr>
-    </table>
-    <button class="back-button" onclick="window.history.back();" title="Back">&lt;</button>
+    <!-- Home Header todo: poner la hora desde un JSON-->
+    <header></header>
+
+    <main>
+        <section>
+            <h2>Open</h2>
+            <ul>
+                <li><a href="stats/Open_Positions_Variation.html">Open Positions Variation</a></li>
+                <li><a href="stats/candlestick_chart_Open_ATR100.html">Candlestick ATR 100</a></li>
+                <li><a href="stats/candlestick_chart_Open_ATR50.html">Candlestick ATR 50</a></li>
+                <li><a href="stats/candlestick_chart_Open_Gurufocus.html">Candlestick GuruFocus</a></li>
+                <li><a href="charts/Open/index.html">Open</a></li>
+                <li><a href="charts/Open_Market_Value/index.html">Open Market Value</a></li>
+                <li><a href="charts/Open_Buy_Date/index.html">Open Buy Date</a></li>
+                <li><a href="charts/EMAOpen/index.html">EMA Levels</a></li>
+                <li><a href="charts/RenkoDirectionOpen25/index.html">Renko Direction 25</a></li>
+                <li><a href="charts/RenkoDirectionOpen50/index.html">Renko Direction 50</a></li>
+                <li><a href="charts/RenkoDirectionOpen100/index.html">Renko Direction 100</a></li>
+                <li><a href="charts/1W_Open_Down/index.html">1W Down EMA 5</a></li>
+                <li><a href="charts/1W_Open_Up/index.html">1W Up EMA 5</a></li>
+                <li><a href="charts/2h_Open_Crossover_Down_12_25/index.html">2h Crossover Down 12-25</a></li>
+                <li><a href="charts/ZLEMA_1D_Bull_Open/">ZLEMA 1D Bull</a></li>
+                <li><a href="charts/ZLEMA_1D_Bear_Open/">ZLEMA 1D Bear</a></li>
+
+            </ul>   
+        </section>
+
+        <section>
+            <h2>Closed</h2>
+            <ul>
+                <li><a href="stats/candlestick_chart_Closed.html">Candlestick Chart</a></li>
+                <li><a href="charts/Closed/index.html">Closed</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Portfolio</h2>
+            <ul>
+                <li><a href="charts/ZLEMA_1D_Bull_Portfolio/">ZLEMA 1D Bull</a></li>
+                <li><a href="charts/ZLEMA_1D_Bear_Portfolio/">ZLEMA 1D Bear</a></li>
+                <li><a href="stats/candlestick_chart_Portfolio_Gurufocus.html">Candlestick GuruFocus</a></li>
+                <li><a href="charts/2h_Porfolio_Crossover_Up_12_25/">2h Crossover Up 12-25</a></li>
+                <li><a href="charts/Portfolio_Tier/index.html">Tiers</a></li>
+                <li><a href="charts/Renko_Portafolio_Blocks_50/index.html">Renko Blocks Up 50</a></li>
+                <li><a href="charts/Renko_Portafolio_Blocks_100/index.html">Renko Blocks Up 100</a></li>
+                <li><a href="charts/RenkoDirectionPortfolio50/index.html">Renko Direction 50</a></li>
+                <li><a href="charts/RenkoDirectionPortfolio100/index.html">Renko Direction 100</a></li>
+                <li><a href="charts/EMAPortfolio/index.html">EMA Levels</a></li>
+                <li><a href="charts/EMAPortfolio25/index.html">EMA Levels Renko 25</a></li>
+                <li><a href="charts/EMAPortfolio50/index.html">EMA Levels Renko 50</a></li>
+                <li><a href="charts/1W_Portfolio_Up/index.html">1W Up EMA 5</a></li>
+                <li><a href="charts/30M_Porfolio_Up/index.html">30 Min ETH Portfolio Up</a></li>
+                <li><a href="charts/1W_Porfolio_Crossover_Up_1_5/index.html">1W Crossover Up 1-5</a></li>
+                <li><a href="charts/1W_Porfolio_Crossover_Up_5_10/index.html">1W Crossover Up 5-10</a></li>
+                <li><a href="charts/Portfolio/index.html">Portfolio</a></li>
+                <li><a href="charts/EMA_12_UP/index.html">EMA 12 UP</a></li>
+                <li><a href="charts/EMA_25_UP/index.html">EMA 25 UP</a></li>
+                <li><a href="charts/ZLEMA UP/index.html">ZLEMA UP</a></li>
+                <li><a href="charts/EMA_200_UP/index.html">EMA 200 UP</a></li>
+                <li><a href="charts/EMA_3_8_Trap/index.html">EMA 3-8 Trap</a></li>
+                <li><a href="charts/Portfolio/index.html">All</a></li>
+                <li><a href="charts/Portfolio_Relative_Strenght/index.html">Relative Strenght</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>FFTY</h2>
+            <ul>
+                <li><a href="charts/FFTY/index.html">FFTY</a></li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>Earnings</h2>
+            <ul>
+                <li><a href="charts/Earnings_Past/index.html">Past</a></li>
+                <li><a href="charts/Earnings_Future/index.html">Future</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>ZLEMA</h2>
+            <ul>
+                <li><a href="charts/ZLEMA_1D/index.html">ZLEMA 1D</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>EMA</h2>
+            <ul>
+                <li>
+                    <a href="charts/Color_EMA_1DO_2hX_30mX_15X/index.html">
+                        <span style="color: #7a3f3f;">1D</span>
+                        <span style="color: #106a5b;">2h</span>
+                        <span style="color: #106a5b;">30m</span>
+                        <span style="color: #106a5b;">15m</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="charts/Color_EMA_1DX_2hX_30mO_15mX/index.html">
+                        <span style="color: #106a5b">1D</span>
+                        <span style="color: #106a5b;">2h</span>
+                        <span style="color: #7a3f3f;">30m</span>
+                        <span style="color: #106a5b;">15m</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="charts/Color_EMA_1DO_2hX_30mO_15mX/index.html">
+                        <span style="color: #7a3f3f;">1D</span>
+                        <span style="color: #106a5b;">2h</span>
+                        <span style="color: #7a3f3f;">30m</span>
+                        <span style="color: #106a5b;">15m</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="charts/Color_EMA_2hX_15mX/index.html">
+                        <span style="color: #106a5b;">2h</span>
+                        <span style="color: #106a5b;">15m</span>
+                    </a>
+                </li>
+
+                <li><a href="charts/EMA_1d/index.html"><span style="color: #106a5b;">1d</span></a></li>
+                <li><a href="charts/EMA_30m/index.html"><span style="color: #106a5b;">30m</span></a></li>
+                <li><a href="charts/EMA_15m/index.html"><span style="color: #106a5b;">15m</span></a></li>
+                <li><a href="charts/EMA_12/index.html"><span style="color: #106a5b;">EMA 12</span></a></li>
+            </ul>
+        </section>
+                
+        <section>
+            <h2>Other</h2>
+            <ul>
+                <li><a href="charts/Index/index.html">Index</a></li>
+                <li><a href="charts/SPY/index.html">SPY</a></li>
+                <li><a href="Stats.html">Stats</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
 </body>
 </html>
