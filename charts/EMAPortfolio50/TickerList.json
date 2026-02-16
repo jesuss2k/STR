@@ -14,6 +14,7 @@
 {"Group":"12","ticker":"LUNA","dayChange":0.0,"rsi_14":65.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":83.66},
 {"Group":"12","ticker":"WBD","dayChange":-0.43,"rsi_14":53.1,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":91.06},
 {"Group":"12","ticker":"F","dayChange":0.86,"rsi_14":59.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":93.73},
+{"Group":"12","ticker":"NVDD","dayChange":2.23,"rsi_14":51.6,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":87.69},
 {"Group":"12","ticker":"NTNX","dayChange":1.53,"rsi_14":43.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.28},
 {"Group":"12","ticker":"PFE","dayChange":0.4,"rsi_14":62.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.88},
 {"Group":"12","ticker":"QID","dayChange":-0.33,"rsi_14":59.0,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":7.03},
