@@ -1,4 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"DECK","dayChange":-0.25,"rsi_14":62.2,"EMAs.":"X X X O","weekRange":47.39},
-{"EMAs":"X X X O","ticker":"SMTC","dayChange":0.68,"rsi_14":59.6,"EMAs.":"X X X O","weekRange":92.13}
+{"EMAs":"X X X O","ticker":"DECK","dayChange":-0.25,"rsi_14":62.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":47.39},
+{"EMAs":"X X X O","ticker":"SMTC","dayChange":0.68,"rsi_14":59.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":92.13}
 ]
