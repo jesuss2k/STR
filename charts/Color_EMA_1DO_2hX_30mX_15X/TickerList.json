@@ -1,13 +1,10 @@
 [
-{"EMAs":"X X X X","ticker":"WBD","dayChange":2.93,"rsi_14":62.2,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":94.71},
-{"EMAs":"O O X X","ticker":"TZA","dayChange":0.65,"rsi_14":47.2,"EMAs.":"O O X X","ZLEMAs":"O X O","weekRange":2.83},
-{"EMAs":"O O X X","ticker":"HUMA","dayChange":12.86,"rsi_14":55.3,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":8.22},
-{"EMAs":"X O X X","ticker":"EL","dayChange":1.39,"rsi_14":50.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":83.76},
-{"EMAs":"O O X X","ticker":"ABT","dayChange":0.0,"rsi_14":45.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":20.61},
-{"EMAs":"O O X X","ticker":"LABD","dayChange":-2.38,"rsi_14":50.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":30.85},
-{"EMAs":"O O X X","ticker":"SPOT","dayChange":2.52,"rsi_14":45.0,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":17.07},
-{"EMAs":"O O X X","ticker":"YEXT","dayChange":-0.83,"rsi_14":33.3,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":18.93},
-{"EMAs":"O O X X","ticker":"SDOW","dayChange":-0.34,"rsi_14":46.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":3.42},
-{"EMAs":"X O X X","ticker":"NVDD","dayChange":-0.59,"rsi_14":50.5,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":87.11},
-{"EMAs":"O O X X","ticker":"UNH","dayChange":-0.07,"rsi_14":44.8,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":15.71}
+{"EMAs":"X X X X","ticker":"WBD","dayChange":3.55,"rsi_14":63.7,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":95.48},
+{"EMAs":"O O X X","ticker":"TZA","dayChange":1.23,"rsi_14":47.9,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":3.01},
+{"EMAs":"O O X X","ticker":"HUMA","dayChange":14.21,"rsi_14":56.0,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":8.66},
+{"EMAs":"X O X X","ticker":"EL","dayChange":1.49,"rsi_14":50.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":83.91},
+{"EMAs":"O O X X","ticker":"SPOT","dayChange":1.71,"rsi_14":44.1,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":16.1},
+{"EMAs":"O O X X","ticker":"DAVE","dayChange":0.24,"rsi_14":46.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":50.79},
+{"EMAs":"O O X X","ticker":"SDOW","dayChange":0.27,"rsi_14":47.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":3.79},
+{"EMAs":"O O X X","ticker":"UNH","dayChange":-0.91,"rsi_14":43.6,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":15.04}
 ]
