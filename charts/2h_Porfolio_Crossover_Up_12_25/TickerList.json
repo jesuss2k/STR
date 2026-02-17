@@ -1,3 +1,4 @@
 [
-{"ticker":"COIN","dayChange":3.34,"rsi_14":39.9,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":9.97}
+{"ticker":"UAL","dayChange":4.85,"rsi_14":55.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":93.13},
+{"ticker":"INSM","dayChange":2.21,"rsi_14":41.6,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":60.14}
 ]
