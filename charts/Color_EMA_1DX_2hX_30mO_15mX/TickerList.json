@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"EME","dayChange":1.28,"rsi_14":64.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.85},
-{"EMAs":"X X X O","ticker":"VZ","dayChange":1.68,"rsi_14":73.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":96.51}
+{"EMAs":"O X X O","ticker":"PSTG","dayChange":0.62,"rsi_14":52.2,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":58.32},
+{"EMAs":"O X X O","ticker":"TMF","dayChange":0.44,"rsi_14":63.1,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":44.38},
+{"EMAs":"O X X O","ticker":"FNGD","dayChange":0.54,"rsi_14":64.7,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":11.67}
 ]
