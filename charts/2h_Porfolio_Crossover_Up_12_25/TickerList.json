@@ -1,3 +1,5 @@
 [
-{"ticker":"NOMD","dayChange":3.51,"rsi_14":60.4,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":19.96}
+{"ticker":"RETL","dayChange":5.47,"rsi_14":55.7,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":87.87},
+{"ticker":"TNA","dayChange":1.82,"rsi_14":55.7,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":89.54},
+{"ticker":"NNOX","dayChange":3.35,"rsi_14":44.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":7.77}
 ]

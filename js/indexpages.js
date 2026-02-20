@@ -143,15 +143,16 @@ function populateTickerTable() {
       }
 
       headerRow.appendChild(createHeaderCell("Ticker", 0));
-      headerRow.appendChild(createHeaderCell("% Day", 1));
+      headerRow.appendChild(createHeaderCell("Chart", 1));   // NEW
+      headerRow.appendChild(createHeaderCell("% Day", 2));   // shifted
 
       // dynamic extra columns (2 .. 2 + extraColumns.length - 1)
       extraColumns.forEach((col, index) => {
-        headerRow.appendChild(createHeaderCell(col, 2 + index));
+        headerRow.appendChild(createHeaderCell(col, 3 + index));
       });
 
       // compute the next indices once
-      const rsiColIndex = 2 + extraColumns.length;
+      const rsiColIndex = 3 + extraColumns.length;
       const week52ColIndex = rsiColIndex + 1;
       const tvColIndex = week52ColIndex + 1;
 
@@ -207,6 +208,26 @@ function populateTickerTable() {
         tdTicker.appendChild(tickerDiv);
         tr.appendChild(tdTicker);
 
+        const tdChart = document.createElement("td");
+        const chartImg = document.createElement("img");
+        chartImg.src = `../../sparklines/${ticker}.png`;
+        chartImg.style.width = "64px";
+        chartImg.style.height = "32px";
+        chartImg.style.objectFit = "contain";
+        chartImg.loading = "lazy";
+
+        // Optional: click opens detail page
+        chartImg.style.cursor = "pointer";
+        chartImg.onclick = () => {
+            window.location.href = detailUrl;
+        };
+
+        tdChart.appendChild(chartImg);
+        tr.appendChild(tdChart);
+
+        //
+        // DAY CHANGE (now column 3)
+        //
         const tdChange = document.createElement("td");
         tdChange.textContent = item.dayChange;
         tdChange.className = dayChangeClass;
