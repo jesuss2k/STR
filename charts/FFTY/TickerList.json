@@ -1,6 +1,6 @@
 [
 {"ticker":"ROOT","dayChange":0.29,"rsi_14":43.5,"EMAs.":0,"ZLEMAs":"O X X","weekRange":4.94},
-{"ticker":"DUOL","dayChange":0.34,"rsi_14":26.6,"EMAs.":"O O O O","ZLEMAs":"O X X","weekRange":0.99},
+{"ticker":"DUOL","dayChange":0.34,"rsi_14":26.6,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":0.99},
 {"ticker":"RDDT","dayChange":2.46,"rsi_14":36.6,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":34.44},
 {"ticker":"HOOD","dayChange":1.91,"rsi_14":34.7,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":38.19},
 {"ticker":"MIRM","dayChange":0.56,"rsi_14":71.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.11},
