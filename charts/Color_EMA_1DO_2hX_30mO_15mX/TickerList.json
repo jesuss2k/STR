@@ -1,4 +1,4 @@
 [
-{"EMAs":"O O X O","ticker":"OSCR","dayChange":0.22,"rsi_14":43.9,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":20.08},
-{"EMAs":"O O X O","ticker":"NTNX","dayChange":0.24,"rsi_14":43.0,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":12.36}
+{"EMAs":"X O X O","ticker":"GM","dayChange":0.44,"rsi_14":49.7,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":87.42},
+{"EMAs":"O O X O","ticker":"UNH","dayChange":-0.06,"rsi_14":43.6,"EMAs.":"O O X O","ZLEMAs":"X O X","weekRange":14.83}
 ]

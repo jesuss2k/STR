@@ -190,6 +190,7 @@
 {"ticker":"EBAY","companyName":"eBay","industry":"Retail - Discretionary","logoUrl":"https://s3-symbol-logo.tradingview.com/ebay.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=NASDAQ%3AEBAY"},
 {"ticker":"ECL","companyName":"Ecolab","industry":"Materials","logoUrl":"https://s3-symbol-logo.tradingview.com/ecolab.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=NYSE%3AECL"},
 {"ticker":"ED","companyName":"Consolidated Edison","industry":"Utilities","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=ED"},
+{"ticker":"EEM","companyName":"iShares MSCI Emerging Markets ETF","industry":"Exchange Traded Fund","logoUrl":"https://s3-symbol-logo.tradingview.com/ishares.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=AMEX%3AEEM"},
 {"ticker":"EFX","companyName":"Equifax","industry":"Industrials","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=EFX"},
 {"ticker":"EG","companyName":"Enagas","industry":"Energy","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=EG"},
 {"ticker":"EIX","companyName":"Edison International","industry":"Utilities","logoUrl":"https://s3-symbol-logo.tradingview.com/edison-international.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=NYSE%3AEIX"},
