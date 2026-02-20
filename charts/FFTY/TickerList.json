@@ -10,6 +10,6 @@
 {"ticker":"TKO","dayChange":-2.16,"rsi_14":52.4,"EMAs.":"X X X O","ZLEMAs":"O X ","weekRange":88.91},
 {"ticker":"AMSC","dayChange":-2.88,"rsi_14":54.8,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":35.04},
 {"ticker":"IBKR","dayChange":-1.21,"rsi_14":50.9,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":88.81},
-{"ticker":"IOT","dayChange":-0.48,"rsi_14":39.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":9.76},
+{"ticker":"IOT","dayChange":-0.48,"rsi_14":39.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":10.67},
 {"ticker":"MNDY","dayChange":-1.3,"rsi_14":22.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":2.95}
 ]

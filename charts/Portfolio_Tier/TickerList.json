@@ -5,7 +5,7 @@
 {"ticker":"LLY","dayChange":0.26,"rsi_14":46.6,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":78.3},
 {"ticker":"ASML","dayChange":-0.67,"rsi_14":62.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":96.22},
 {"ticker":"COST","dayChange":-0.83,"rsi_14":55.9,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":64.46},
-{"ticker":"ALK","dayChange":-6.64,"rsi_14":45.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":36.85},
+{"ticker":"ALK","dayChange":-6.64,"rsi_14":45.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":38.04},
 {"ticker":"AMSC","dayChange":-2.88,"rsi_14":54.8,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":35.04},
 {"ticker":"BABA","dayChange":-0.96,"rsi_14":40.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":60.39},
 {"ticker":"CCL","dayChange":-3.04,"rsi_14":51.0,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":86.92},
