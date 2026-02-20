@@ -48,7 +48,6 @@
 {"ticker":"V","dayChange":-0.43,"rsi_14":40.4,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":26.05},
 {"ticker":"MELI","dayChange":-0.62,"rsi_14":42.3,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":29.59},
 {"ticker":"UPRO","dayChange":-0.76,"rsi_14":45.1,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":89.66},
-{"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":11.55},
 {"ticker":"VGT","dayChange":-0.43,"rsi_14":45.2,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":79.68},
 {"ticker":"FTNT","dayChange":1.21,"rsi_14":49.8,"EMAs.":"O X O O","ZLEMAs":"X X O","weekRange":25.98},
 {"ticker":"MRVL","dayChange":0.66,"rsi_14":47.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":51.9},

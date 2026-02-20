@@ -16,6 +16,7 @@
 {"ticker":"KLAC","dayChange":-0.7,"rsi_14":53.3,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":80.43},
 {"ticker":"LULU","dayChange":0.41,"rsi_14":49.4,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":11.07},
 {"ticker":"MC","dayChange":0,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":0},
+{"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":11.55},
 {"ticker":"NOW","dayChange":-0.41,"rsi_14":36.4,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":8.26},
 {"ticker":"PFGC","dayChange":-0.83,"rsi_14":56.9,"EMAs.":"X X X O","ZLEMAs":"O X X","weekRange":72.38},
 {"ticker":"PLTR","dayChange":-0.36,"rsi_14":37.1,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":48.64},

@@ -55,6 +55,5 @@
 {"ticker":"OLLI","dayChange":-1.14,"rsi_14":43.8,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":31.21},
 {"ticker":"AAPL","dayChange":-1.43,"rsi_14":45.3,"EMAs.":"X X O O","ZLEMAs":"O O O","weekRange":76.52},
 {"ticker":"SBUX","dayChange":0.04,"rsi_14":53.9,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":48.38},
-{"ticker":"MRVL","dayChange":0.66,"rsi_14":47.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":51.9},
-{"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":11.55}
+{"ticker":"MRVL","dayChange":0.66,"rsi_14":47.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":51.9}
 ]

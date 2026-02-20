@@ -121,5 +121,6 @@
 {"ticker":"PTC","dayChange":-0.71,"rsi_14":43.5,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":24.35},
 {"ticker":"ANET","dayChange":-1.66,"rsi_14":49.9,"EMAs.":"X X O O","ZLEMAs":"O X O","weekRange":73.74},
 {"ticker":"HLT","dayChange":-1.0,"rsi_14":56.8,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":84.67},
+{"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":11.55},
 {"ticker":"ASML","dayChange":-0.67,"rsi_14":62.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":96.22}
 ]

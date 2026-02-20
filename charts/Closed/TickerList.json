@@ -29,6 +29,7 @@
 {"ticker":"PAYC","dayChange":-2.82,"rsi_14":31.9,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":9.71},
 {"ticker":"NOW","dayChange":-0.41,"rsi_14":36.4,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":8.26},
 {"ticker":"GPRO","dayChange":-2.91,"rsi_14":23.2,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":15.44},
+{"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":11.55},
 {"ticker":"MRSH","dayChange":0.43,"rsi_14":43.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":37.04},
 {"ticker":"DOCU","dayChange":-1.56,"rsi_14":26.7,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":4.87},
 {"ticker":"COST","dayChange":-0.83,"rsi_14":55.9,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":64.46},
