@@ -1,5 +1,5 @@
 [
-{"ticker":"RETL","dayChange":5.47,"rsi_14":55.7,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":87.87},
-{"ticker":"TNA","dayChange":1.82,"rsi_14":55.7,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":89.54},
-{"ticker":"NNOX","dayChange":3.35,"rsi_14":44.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":7.77}
+{"ticker":"RETL","dayChange":-1.72,"rsi_14":47.0,"EMAs.":"X O O O","ZLEMAs":"X O X","weekRange":77.96},
+{"ticker":"TNA","dayChange":-0.02,"rsi_14":53.2,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":87.16},
+{"ticker":"NNOX","dayChange":3.97,"rsi_14":44.9,"EMAs.":0,"ZLEMAs":"O O X","weekRange":8.09}
 ]
