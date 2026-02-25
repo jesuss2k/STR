@@ -1,5 +1,4 @@
 [
-{"EMAs":"O X X O","ticker":"HUMA","dayChange":-1.75,"rsi_14":53.1,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":7.84},
-{"EMAs":"O X X O","ticker":"ASPN","dayChange":0.56,"rsi_14":53.3,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":10.95},
-{"EMAs":"X X X O","ticker":"DLTR","dayChange":1.0,"rsi_14":57.3,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":86.74}
+{"EMAs":"X X X O","ticker":"BURL","dayChange":1.01,"rsi_14":55.6,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":82.37},
+{"EMAs":"X X X O","ticker":"DLTR","dayChange":-0.31,"rsi_14":56.6,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":86.23}
 ]
