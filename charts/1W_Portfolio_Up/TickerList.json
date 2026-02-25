@@ -60,7 +60,7 @@
 {"ticker":"LUNA","dayChange":0.0,"rsi_14":62.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":83.66},
 {"ticker":"MRK","dayChange":0.09,"rsi_14":73.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.23},
 {"ticker":"ECL","dayChange":0.81,"rsi_14":73.6,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":98.73},
-{"ticker":"MTDR","dayChange":-1.23,"rsi_14":62.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":81.16},
+{"ticker":"MTDR","dayChange":-1.23,"rsi_14":62.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":82.25},
 {"ticker":"LRCX","dayChange":0.82,"rsi_14":61.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":96.1},
 {"ticker":"EME","dayChange":0.02,"rsi_14":65.7,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":94.51},
 {"ticker":"ON","dayChange":0.81,"rsi_14":62.4,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":91.27},

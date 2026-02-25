@@ -1,7 +1,7 @@
 [
 {"ticker":"GLD","dayChange":-1.39,"rsi_14":58.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":85.88},
 {"ticker":"NKE","dayChange":1.59,"rsi_14":51.2,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":39.16},
-{"ticker":"DXCM","dayChange":-0.23,"rsi_14":58.4,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":50.26},
+{"ticker":"DXCM","dayChange":-0.23,"rsi_14":58.4,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":51.93},
 {"ticker":"CTAS","dayChange":0.11,"rsi_14":58.5,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":37.18},
 {"ticker":"NFLX","dayChange":2.66,"rsi_14":39.2,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":5.13},
 {"ticker":"PM","dayChange":-0.12,"rsi_14":66.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":91.86},

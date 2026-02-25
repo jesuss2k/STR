@@ -85,7 +85,7 @@
 {"Blocks":8,"ticker":"XLRE","dayChange":0.28,"rsi_14":67.5,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.14},
 {"Blocks":9,"ticker":"TMF","dayChange":0.35,"rsi_14":63.2,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":45.58},
 {"Blocks":9,"ticker":"MCD","dayChange":-0.45,"rsi_14":67.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.38},
-{"Blocks":10,"ticker":"MTDR","dayChange":-1.23,"rsi_14":62.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":81.16},
+{"Blocks":10,"ticker":"MTDR","dayChange":-1.23,"rsi_14":62.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":82.25},
 {"Blocks":10,"ticker":"MAMA","dayChange":8.29,"rsi_14":74.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.66},
 {"Blocks":11,"ticker":"TYD","dayChange":-0.27,"rsi_14":65.9,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":73.72},
 {"Blocks":12,"ticker":"TSM","dayChange":4.25,"rsi_14":71.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.65},
