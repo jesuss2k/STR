@@ -1,3 +1,4 @@
 [
-{"EMAs":"O O X O","ticker":"GLBE","dayChange":1.76,"rsi_14":49.2,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":45.1}
+{"EMAs":"X O X O","ticker":"GOOG","dayChange":0.1,"rsi_14":42.7,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":81.24},
+{"EMAs":"X O X O","ticker":"GOOGL","dayChange":0.12,"rsi_14":43.3,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":81.9}
 ]

@@ -1,3 +1,7 @@
 [
-{"ticker":"TNA","dayChange":1.57,"rsi_14":52.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":86.95}
+{"ticker":"OPRA","dayChange":1.66,"rsi_14":46.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":8.93},
+{"ticker":"JD","dayChange":-0.09,"rsi_14":41.8,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":3.95},
+{"ticker":"PAYC","dayChange":3.03,"rsi_14":40.7,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":11.09},
+{"ticker":"PINS","dayChange":2.86,"rsi_14":35.7,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":13.78},
+{"ticker":"UAL","dayChange":0.02,"rsi_14":51.8,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":90.18}
 ]
