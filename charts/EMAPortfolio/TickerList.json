@@ -67,7 +67,6 @@
 {"EMAs":"O O X X","Group":"3","ticker":"SOUN","dayChange":5.38,"rsi_14":50.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":14.63},
 {"EMAs":"X X X X","Group":"3","ticker":"MAMA","dayChange":-0.23,"rsi_14":73.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":97.45},
 {"EMAs":"X X X X","Group":"3","ticker":"ON","dayChange":0.74,"rsi_14":63.4,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":92.49},
-{"EMAs":"O O X X","Group":"3","ticker":"ABT","dayChange":0.46,"rsi_14":53.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":27.37},
 {"EMAs":"X X X X","Group":"3","ticker":"FDX","dayChange":-0.07,"rsi_14":80.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.29},
 {"EMAs":"X X X O","Group":"3","ticker":"BURL","dayChange":1.01,"rsi_14":55.6,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":82.37},
 {"EMAs":"X X X X","Group":"3","ticker":"ROAD","dayChange":-2.02,"rsi_14":64.6,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":92.45},

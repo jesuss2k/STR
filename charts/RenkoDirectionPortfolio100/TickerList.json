@@ -1,6 +1,5 @@
 [
 {"Dir":"X","ticker":"AAP","dayChange":-3.43,"rsi_14":48.5,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":56.06},
-{"Dir":"X","ticker":"ABT","dayChange":0.46,"rsi_14":53.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":27.37},
 {"Dir":"X","ticker":"AMAT","dayChange":4.18,"rsi_14":73.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.83},
 {"Dir":"X","ticker":"AMSC","dayChange":2.91,"rsi_14":56.5,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":36.65},
 {"Dir":"X","ticker":"AMZD","dayChange":-1.04,"rsi_14":55.9,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":30.77},

@@ -33,7 +33,6 @@
 {"ticker":"AMZD","dayChange":-1.04,"rsi_14":55.9,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":30.77},
 {"ticker":"TGT","dayChange":-0.54,"rsi_14":57.6,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":70.77},
 {"ticker":"TYD","dayChange":-0.38,"rsi_14":62.6,"EMAs.":0,"ZLEMAs":"X X O","weekRange":71.15},
-{"ticker":"ABT","dayChange":0.46,"rsi_14":53.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":27.37},
 {"ticker":"DKS","dayChange":-1.29,"rsi_14":53.6,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":61.15},
 {"ticker":"XLRE","dayChange":-0.7,"rsi_14":62.6,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":93.42},
 {"ticker":"GGLS","dayChange":-0.46,"rsi_14":54.8,"EMAs.":"O X O O","ZLEMAs":"X X O","weekRange":7.15},

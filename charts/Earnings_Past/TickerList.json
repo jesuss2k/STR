@@ -166,7 +166,7 @@
 {"ticker":"NOW","dayChange":1.95,"rsi_14":37.0,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":5.71},
 {"ticker":"OPRA","dayChange":0.61,"rsi_14":45.0,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":7.54},
 {"ticker":"MMYT","dayChange":-0.11,"rsi_14":35.8,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":5.22},
-{"ticker":"EA","dayChange":0.26,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":94.95},
+{"ticker":"EA","dayChange":0.12,"rsi_14":0,"EMAs.":"X O X X","ZLEMAs":"O O ","weekRange":95.27},
 {"ticker":"PG","dayChange":-1.63,"rsi_14":64.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":58.92},
 {"ticker":"LRCX","dayChange":3.99,"rsi_14":66.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.66},
 {"ticker":"BSX","dayChange":-1.2,"rsi_14":29.6,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":4.24},

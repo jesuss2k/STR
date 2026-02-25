@@ -28,7 +28,8 @@
 {"Date":"26-02-10","ticker":"VST","dayChange":-0.43,"rsi_14":56.6,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":62.15},
 {"Date":"26-02-09","ticker":"NBIS","dayChange":0.34,"rsi_14":56.2,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":68.91},
 {"Date":"26-02-06","ticker":"LMT","dayChange":-4.35,"rsi_14":56.3,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":86.81},
-{"Date":"26-02-06","ticker":"EEM","dayChange":1.57,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":99.11},
+{"Date":"26-02-06","ticker":"ABT","dayChange":0.46,"rsi_14":53.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":27.37},
+{"Date":"26-02-06","ticker":"EEM","dayChange":0.77,"rsi_14":0,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":98.75},
 {"Date":"26-01-29","ticker":"TMUS","dayChange":-0.38,"rsi_14":69.0,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":41.81},
 {"Date":"26-01-27","ticker":"DAKT","dayChange":-0.51,"rsi_14":73.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.14},
 {"Date":"26-01-06","ticker":"DE","dayChange":-1.2,"rsi_14":69.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":86.14}

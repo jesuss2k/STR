@@ -14,6 +14,7 @@
 {"ticker":"ORCL","dayChange":4.79,"rsi_14":43.5,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":15.11},
 {"ticker":"AAPL","dayChange":0.56,"rsi_14":58.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":87.47},
 {"ticker":"PG","dayChange":-1.63,"rsi_14":64.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":58.92},
+{"ticker":"ABT","dayChange":0.46,"rsi_14":53.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":27.37},
 {"ticker":"DPZ","dayChange":-1.4,"rsi_14":57.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":29.05},
 {"ticker":"NVDA","dayChange":1.69,"rsi_14":61.5,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":87.19},
 {"ticker":"DAKT","dayChange":-0.51,"rsi_14":73.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.14},
