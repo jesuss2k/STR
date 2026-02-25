@@ -1,6 +1,4 @@
 [
-{"ticker":"RDDT","dayChange":4.18,"rsi_14":38.2,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":33.6},
-{"ticker":"SSO","dayChange":1.1,"rsi_14":52.4,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":95.13},
-{"ticker":"BURL","dayChange":1.01,"rsi_14":55.6,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":82.37},
-{"ticker":"AMSC","dayChange":2.91,"rsi_14":56.5,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":36.65}
+{"ticker":"YEXT","dayChange":2.49,"rsi_14":36.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":19.63},
+{"ticker":"INTC","dayChange":1.34,"rsi_14":52.0,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":78.72}
 ]
