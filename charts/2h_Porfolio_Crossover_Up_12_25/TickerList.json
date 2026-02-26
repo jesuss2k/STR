@@ -1,5 +1,4 @@
 [
-{"ticker":"DOCU","dayChange":4.16,"rsi_14":37.6,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":8.99},
-{"ticker":"HLT","dayChange":0.84,"rsi_14":58.9,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":87.04},
-{"ticker":"VEEV","dayChange":2.21,"rsi_14":38.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":8.59}
+{"ticker":"HPQ","dayChange":3.32,"rsi_14":43.5,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":7.68},
+{"ticker":"OSCR","dayChange":3.67,"rsi_14":45.9,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":17.66}
 ]
