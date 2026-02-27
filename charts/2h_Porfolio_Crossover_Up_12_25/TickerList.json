@@ -1,3 +1,4 @@
 [
-{"ticker":"TZA","dayChange":5.21,"rsi_14":51.0,"EMAs.":"O O O X","ZLEMAs":"X X X","weekRange":3.23}
+{"ticker":"SDS","dayChange":1.6,"rsi_14":54.5,"EMAs.":"X X O X","ZLEMAs":"O O X","weekRange":87.86},
+{"ticker":"SPXU","dayChange":2.35,"rsi_14":54.0,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":81.36}
 ]
