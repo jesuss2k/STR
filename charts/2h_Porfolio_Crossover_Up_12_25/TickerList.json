@@ -1,3 +1,5 @@
 [
-{"ticker":"WMT","dayChange":2.4,"rsi_14":55.8,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":86.72}
+{"ticker":"CSCO","dayChange":1.74,"rsi_14":51.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":75.81},
+{"ticker":"MSFD","dayChange":2.34,"rsi_14":62.0,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":60.43},
+{"ticker":"PFGC","dayChange":1.08,"rsi_14":54.0,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":70.51}
 ]
