@@ -1,4 +1,6 @@
 [
-{"EMAs":"O O X O","ticker":"EVER","dayChange":0.63,"rsi_14":34.9,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":12.24},
-{"EMAs":"O O X O","ticker":"RDDT","dayChange":0.64,"rsi_14":38.6,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":32.97}
+{"EMAs":"O O X O","ticker":"RXRX","dayChange":-0.68,"rsi_14":43.3,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":13.54},
+{"EMAs":"O O X O","ticker":"GLBE","dayChange":-0.43,"rsi_14":48.7,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":48.02},
+{"EMAs":"O O X O","ticker":"EVER","dayChange":1.08,"rsi_14":35.6,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":12.67},
+{"EMAs":"O O X O","ticker":"RDDT","dayChange":0.53,"rsi_14":38.5,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":32.89}
 ]
