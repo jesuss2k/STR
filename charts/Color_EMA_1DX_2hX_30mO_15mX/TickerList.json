@@ -1,4 +1,6 @@
 [
-{"EMAs":"X X X O","ticker":"MGM","dayChange":-2.22,"rsi_14":51.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":72.27},
+{"EMAs":"X X X O","ticker":"AMAT","dayChange":-0.03,"rsi_14":61.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.27},
+{"EMAs":"X X X O","ticker":"FDX","dayChange":0.0,"rsi_14":76.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":97.04},
+{"EMAs":"O X X O","ticker":"SMCI","dayChange":-1.73,"rsi_14":50.7,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":12.17},
 {"EMAs":"X X X O","ticker":"KYMR","dayChange":-1.31,"rsi_14":63.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":84.62}
 ]
