@@ -1,3 +1,5 @@
 [
-{"EMAs":"O O X O","ticker":"PHR","dayChange":-0.16,"rsi_14":38.3,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":4.38}
+{"EMAs":"O O X O","ticker":"GPRO","dayChange":3.37,"rsi_14":43.0,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":19.79},
+{"EMAs":"O O X O","ticker":"HOOD","dayChange":-2.02,"rsi_14":40.6,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":38.27},
+{"EMAs":"O O X O","ticker":"SOUN","dayChange":-0.41,"rsi_14":48.3,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":13.19}
 ]

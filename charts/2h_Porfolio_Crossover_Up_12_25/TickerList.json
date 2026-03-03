@@ -1,3 +1,4 @@
 [
-{"ticker":"BBY","dayChange":6.45,"rsi_14":50.4,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":35.25}
+{"ticker":"GPN","dayChange":1.14,"rsi_14":56.2,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":35.95},
+{"ticker":"DG","dayChange":1.19,"rsi_14":59.1,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":95.69}
 ]
