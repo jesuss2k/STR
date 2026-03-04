@@ -1,15 +1,15 @@
 [
 {"ticker":"ROOT","dayChange":-3.57,"rsi_14":30.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":0.87},
-{"ticker":"DUOL","dayChange":0.43,"rsi_14":30.6,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":2.04},
-{"ticker":"RDDT","dayChange":-0.94,"rsi_14":38.2,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":32.47},
+{"ticker":"DUOL","dayChange":0.78,"rsi_14":31.1,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":2.12},
+{"ticker":"RDDT","dayChange":-0.97,"rsi_14":38.2,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":32.45},
 {"ticker":"HOOD","dayChange":-3.44,"rsi_14":39.6,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":37.37},
 {"ticker":"MIRM","dayChange":-2.54,"rsi_14":33.7,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":70.33},
-{"ticker":"PLTR","dayChange":1.42,"rsi_14":53.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":57.37},
-{"ticker":"DAVE","dayChange":4.42,"rsi_14":63.5,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":64.41},
-{"ticker":"HIMS","dayChange":-4.58,"rsi_14":29.1,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":3.5},
-{"ticker":"TKO","dayChange":-2.13,"rsi_14":58.6,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":92.79},
+{"ticker":"PLTR","dayChange":1.41,"rsi_14":53.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":57.36},
+{"ticker":"DAVE","dayChange":4.9,"rsi_14":63.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":64.84},
+{"ticker":"HIMS","dayChange":-4.0,"rsi_14":29.3,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":3.67},
+{"ticker":"TKO","dayChange":-2.23,"rsi_14":58.4,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":92.54},
 {"ticker":"AMSC","dayChange":-5.82,"rsi_14":45.7,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":30.28},
-{"ticker":"IBKR","dayChange":-3.21,"rsi_14":41.5,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":78.84},
+{"ticker":"IBKR","dayChange":-3.17,"rsi_14":41.6,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":78.9},
 {"ticker":"IOT","dayChange":-0.58,"rsi_14":51.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":22.22},
 {"ticker":"MNDY","dayChange":3.63,"rsi_14":30.7,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":1.97}
 ]
