@@ -1,5 +1,4 @@
 [
-{"ticker":"SMCI","dayChange":6.01,"rsi_14":53.0,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":14.17},
-{"ticker":"QLD","dayChange":3.61,"rsi_14":50.5,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":82.9},
-{"ticker":"MNDY","dayChange":3.5,"rsi_14":34.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":3.0}
+{"ticker":"HUMA","dayChange":11.68,"rsi_14":56.1,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":12.7},
+{"ticker":"TQQQ","dayChange":5.22,"rsi_14":49.7,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":76.68}
 ]
