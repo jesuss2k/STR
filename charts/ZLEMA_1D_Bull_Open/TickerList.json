@@ -31,7 +31,7 @@
 {"ticker":"ABNB","dayChange":1.88,"rsi_14":60.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":81.05},
 {"ticker":"ACIW","dayChange":2.49,"rsi_14":53.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":22.56},
 {"ticker":"ORCL","dayChange":2.25,"rsi_14":45.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":14.77},
-{"ticker":"ADBE","dayChange":0.79,"rsi_14":49.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.8},
+{"ticker":"ADBE","dayChange":0.79,"rsi_14":49.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.85},
 {"ticker":"IBIT","dayChange":7.08,"rsi_14":50.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":16.81},
 {"ticker":"TMUS","dayChange":0.54,"rsi_14":62.8,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":42.03},
 {"ticker":"NET","dayChange":3.9,"rsi_14":53.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":56.55},
