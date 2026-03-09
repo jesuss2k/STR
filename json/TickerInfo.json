@@ -295,6 +295,7 @@
 {"ticker":"IDXX","companyName":"IDEXX Laboratories","industry":"Diagnostics & Research","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=IDXX"},
 {"ticker":"IEX","companyName":"IDEX","industry":"Machinery","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=IEX"},
 {"ticker":"IFF","companyName":"International Flavors & Fragrances","industry":"Specialty Chemicals","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=IFF"},
+{"ticker":"IGV","companyName":"iShares Expanded Tech-Software Sector ETF","industry":"ETF","logoUrl":"https://s3-symbol-logo.tradingview.com/ishares.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=CBOE%3AIGV"},
 {"ticker":"ILMN","companyName":"Illumina","industry":"Medical Diagnostics & Screening","logoUrl":"https://s3-symbol-logo.tradingview.com/illumina.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=ILMN"},
 {"ticker":"INCY","companyName":"Incyte","industry":"Healthcare","logoUrl":"https://s3-symbol-logo.tradingview.com/source/NYSE.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=INCY"},
 {"ticker":"INSM","companyName":"Insmed","industry":"Biotechnology","logoUrl":"https://s3-symbol-logo.tradingview.com/insmed.svg","tradingViewUrl":"https://www.tradingview.com/chart/?symbol=NASDAQ%3AINSM"},
