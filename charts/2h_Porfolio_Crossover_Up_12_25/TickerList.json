@@ -1,3 +1,4 @@
 [
-{"ticker":"COST","dayChange":0.37,"rsi_14":55.7,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":70.72}
+{"ticker":"COST","dayChange":0.72,"rsi_14":56.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":72.3},
+{"ticker":"HOOD","dayChange":2.95,"rsi_14":45.2,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":40.02}
 ]
