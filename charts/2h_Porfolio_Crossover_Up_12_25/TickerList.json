@@ -1,3 +1,7 @@
 [
-{"ticker":"BIDU","dayChange":3.82,"rsi_14":42.9,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":57.9}
+{"ticker":"WDC","dayChange":6.51,"rsi_14":55.1,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":89.05},
+{"ticker":"TJX","dayChange":2.22,"rsi_14":60.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":97.96},
+{"ticker":"QQQ","dayChange":0.7,"rsi_14":51.7,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":89.35},
+{"ticker":"MAMA","dayChange":1.57,"rsi_14":60.2,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":91.65},
+{"ticker":"PFE","dayChange":1.4,"rsi_14":54.6,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":89.25}
 ]
