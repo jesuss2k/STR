@@ -1,6 +1,6 @@
 [
-{"EMAs":"X O X X","ticker":"ANET","dayChange":3.13,"rsi_14":52.3,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":73.57},
-{"EMAs":"O O X X","ticker":"FNGU","dayChange":3.49,"rsi_14":54.5,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":23.66},
+{"EMAs":"X O X X","ticker":"ANET","dayChange":3.22,"rsi_14":52.4,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":73.68},
+{"EMAs":"O O X X","ticker":"FNGU","dayChange":3.36,"rsi_14":54.4,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":23.52},
 {"EMAs":"O O X X","ticker":"NNOX","dayChange":0.37,"rsi_14":56.4,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":14.6},
 {"EMAs":"O O X X","ticker":"VEEV","dayChange":0.04,"rsi_14":55.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":19.27},
 {"EMAs":"O O X X","ticker":"PAYC","dayChange":0.17,"rsi_14":58.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":20.48},
@@ -8,8 +8,8 @@
 {"EMAs":"O O X X","ticker":"MNDY","dayChange":3.0,"rsi_14":42.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":4.99},
 {"EMAs":"O O X X","ticker":"TTWO","dayChange":1.48,"rsi_14":51.1,"EMAs.":"O O X X","ZLEMAs":"O X O","weekRange":34.2},
 {"EMAs":"O O X X","ticker":"HIMS","dayChange":40.79,"rsi_14":59.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":14.85},
-{"EMAs":"O O X X","ticker":"PATH","dayChange":0.89,"rsi_14":51.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":24.71},
 {"EMAs":"O O X X","ticker":"DOCU","dayChange":0.0,"rsi_14":51.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":15.65},
-{"EMAs":"O O X X","ticker":"JD","dayChange":1.65,"rsi_14":51.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.97},
-{"EMAs":"O O X X","ticker":"DDOG","dayChange":2.22,"rsi_14":57.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":39.08}
+{"EMAs":"O O X X","ticker":"PATH","dayChange":0.93,"rsi_14":51.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":24.76},
+{"EMAs":"O O X X","ticker":"JD","dayChange":1.63,"rsi_14":51.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.94},
+{"EMAs":"O O X X","ticker":"DDOG","dayChange":2.23,"rsi_14":57.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":39.09}
 ]
