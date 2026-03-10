@@ -1,6 +1,3 @@
 [
-{"ticker":"BURL","dayChange":3.73,"rsi_14":54.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":83.72},
-{"ticker":"BIIB","dayChange":1.12,"rsi_14":53.1,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":86.93},
-{"ticker":"YOU","dayChange":0.41,"rsi_14":70.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":85.29},
-{"ticker":"MU","dayChange":6.26,"rsi_14":54.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":89.39}
+{"ticker":"ERY","dayChange":2.42,"rsi_14":37.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":4.98}
 ]
