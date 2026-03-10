@@ -19,7 +19,6 @@
 {"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":11.55},
 {"ticker":"NOW","dayChange":-1.94,"rsi_14":58.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":21.09},
 {"ticker":"PFGC","dayChange":0.58,"rsi_14":37.2,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":48.15},
-{"ticker":"PLTR","dayChange":-0.46,"rsi_14":60.1,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":63.87},
 {"ticker":"SQ","dayChange":0,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":0},
 {"ticker":"T","dayChange":-3.88,"rsi_14":50.0,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":66.96},
 {"ticker":"UAL","dayChange":2.66,"rsi_14":36.4,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":63.26}

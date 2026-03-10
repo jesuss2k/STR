@@ -4,7 +4,6 @@
 {"ticker":"RDDT","dayChange":-0.38,"rsi_14":34.8,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":29.09},
 {"ticker":"HOOD","dayChange":2.93,"rsi_14":45.2,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":40.01},
 {"ticker":"MIRM","dayChange":2.87,"rsi_14":40.4,"EMAs.":"X O O O","ZLEMAs":"O O X","weekRange":71.69},
-{"ticker":"PLTR","dayChange":-0.46,"rsi_14":60.1,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":63.87},
 {"ticker":"DAVE","dayChange":1.88,"rsi_14":68.6,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":70.57},
 {"ticker":"HIMS","dayChange":40.79,"rsi_14":59.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":14.85},
 {"ticker":"TKO","dayChange":0.69,"rsi_14":44.3,"EMAs.":"X X O O","ZLEMAs":"O O ","weekRange":75.64},
