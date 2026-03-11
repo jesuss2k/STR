@@ -1,3 +1,5 @@
 [
-{"EMAs":"O X X O","ticker":"OPRA","dayChange":0.13,"rsi_14":59.2,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":36.15}
+{"EMAs":"O X X O","ticker":"TZA","dayChange":1.07,"rsi_14":59.9,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":6.33},
+{"EMAs":"X X X O","ticker":"DUST","dayChange":5.63,"rsi_14":74.3,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":90.57},
+{"EMAs":"O X X O","ticker":"SDOW","dayChange":0.55,"rsi_14":64.4,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":10.79}
 ]
