@@ -28,7 +28,7 @@
 {"Group":"200","ticker":"JD","dayChange":0.95,"rsi_14":53.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":15.17},
 {"Group":"200","ticker":"TECS","dayChange":0.16,"rsi_14":51.0,"EMAs.":"O X O O","ZLEMAs":"X X O","weekRange":3.93},
 {"Group":"200","ticker":"DOMO","dayChange":2.58,"rsi_14":45.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":6.18},
-{"Group":"200","ticker":"HPQ","dayChange":-0.74,"rsi_14":44.1,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":9.98},
+{"Group":"200","ticker":"HPQ","dayChange":-0.74,"rsi_14":44.1,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":10.26},
 {"Group":"200","ticker":"ERY","dayChange":2.42,"rsi_14":37.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":4.98},
 {"Group":"200","ticker":"BBY","dayChange":-1.76,"rsi_14":47.3,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":32.7},
 {"Group":"200","ticker":"PHR","dayChange":-2.57,"rsi_14":34.8,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":2.19},

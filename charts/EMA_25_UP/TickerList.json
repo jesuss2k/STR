@@ -37,7 +37,7 @@
 {"Timestamp":"2026-03-09","ticker":"ACIW","dayChange":-1.31,"rsi_14":51.5,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":20.66},
 {"Timestamp":"2026-03-09","ticker":"FNGU","dayChange":-0.73,"rsi_14":53.3,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":22.67},
 {"Timestamp":"2026-03-09","ticker":"CAKE","dayChange":-0.75,"rsi_14":51.9,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":73.42},
-{"Timestamp":"2026-03-09","ticker":"MAMA","dayChange":-2.53,"rsi_14":52.8,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":86.09},
+{"Timestamp":"2026-03-09","ticker":"MAMA","dayChange":-2.53,"rsi_14":52.8,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":85.63},
 {"Timestamp":"2026-03-09","ticker":"ANET","dayChange":1.79,"rsi_14":54.3,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":76.0},
 {"Timestamp":"2026-03-06","ticker":"HUMA","dayChange":3.33,"rsi_14":58.7,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":14.52},
 {"Timestamp":"2026-03-06","ticker":"DOCU","dayChange":-0.1,"rsi_14":50.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":15.56},

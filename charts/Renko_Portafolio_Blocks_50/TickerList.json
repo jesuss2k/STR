@@ -4,7 +4,7 @@
 {"Blocks":1,"ticker":"BABA","dayChange":3.17,"rsi_14":33.9,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":42.42},
 {"Blocks":1,"ticker":"ERY","dayChange":2.42,"rsi_14":37.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":4.98},
 {"Blocks":1,"ticker":"FLUT","dayChange":-1.97,"rsi_14":25.9,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":3.41},
-{"Blocks":1,"ticker":"HPQ","dayChange":-0.74,"rsi_14":44.1,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":9.98},
+{"Blocks":1,"ticker":"HPQ","dayChange":-0.74,"rsi_14":44.1,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":10.26},
 {"Blocks":1,"ticker":"LRCX","dayChange":1.93,"rsi_14":45.2,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":79.31},
 {"Blocks":1,"ticker":"LUNA","dayChange":-2.78,"rsi_14":46.9,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":77.12},
 {"Blocks":1,"ticker":"KLAC","dayChange":1.67,"rsi_14":49.7,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":78.95},

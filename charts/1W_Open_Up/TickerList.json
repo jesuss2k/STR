@@ -6,6 +6,7 @@
 {"ticker":"META","dayChange":1.03,"rsi_14":49.6,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":55.07},
 {"ticker":"INTU","dayChange":-4.16,"rsi_14":51.7,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":22.58},
 {"ticker":"FAST","dayChange":-1.07,"rsi_14":53.6,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":71.75},
+{"ticker":"NOW","dayChange":-4.36,"rsi_14":51.6,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":16.4},
 {"ticker":"EBAY","dayChange":-2.21,"rsi_14":54.4,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":75.75},
 {"ticker":"ACIW","dayChange":-1.31,"rsi_14":51.5,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":20.66},
 {"ticker":"PDD","dayChange":2.16,"rsi_14":52.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":33.94},

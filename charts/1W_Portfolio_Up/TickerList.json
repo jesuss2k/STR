@@ -19,7 +19,6 @@
 {"ticker":"BOX","dayChange":-2.4,"rsi_14":50.7,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":18.73},
 {"ticker":"TJX","dayChange":0.88,"rsi_14":56.0,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":93.77},
 {"ticker":"PINS","dayChange":-1.42,"rsi_14":48.9,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":21.2},
-{"ticker":"NOW","dayChange":-4.36,"rsi_14":51.6,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":16.4},
 {"ticker":"TYO","dayChange":0.95,"rsi_14":54.7,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":29.85},
 {"ticker":"DOCU","dayChange":-0.1,"rsi_14":50.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":15.56},
 {"ticker":"CAKE","dayChange":-0.75,"rsi_14":51.9,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":73.42},

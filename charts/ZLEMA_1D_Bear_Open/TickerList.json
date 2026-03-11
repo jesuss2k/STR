@@ -14,7 +14,7 @@
 {"ticker":"CMG","dayChange":-1.62,"rsi_14":35.5,"EMAs.":"O O O O","ZLEMAs":"X O O","weekRange":17.34},
 {"ticker":"COF","dayChange":-0.46,"rsi_14":32.3,"EMAs.":"O O O X","ZLEMAs":"O O O","weekRange":35.78},
 {"ticker":"PCAR","dayChange":-1.37,"rsi_14":40.5,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":72.78},
-{"ticker":"ACN","dayChange":-3.69,"rsi_14":34.8,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":8.85},
+{"ticker":"ACN","dayChange":-3.69,"rsi_14":34.8,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":9.13},
 {"ticker":"PM","dayChange":-0.22,"rsi_14":40.9,"EMAs.":"X O O X","ZLEMAs":"O O O","weekRange":62.53},
 {"ticker":"ANF","dayChange":0.65,"rsi_14":36.2,"EMAs.":"X O O X","ZLEMAs":"O O O","weekRange":31.65},
 {"ticker":"DXCM","dayChange":-1.38,"rsi_14":38.3,"EMAs.":"O O O O","ZLEMAs":"X O O","weekRange":38.14},
@@ -25,7 +25,7 @@
 {"ticker":"JPM","dayChange":-0.41,"rsi_14":35.6,"EMAs.":"X O O X","ZLEMAs":"O O O","weekRange":64.08},
 {"ticker":"FICO","dayChange":-10.83,"rsi_14":36.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":8.99},
 {"ticker":"ELF","dayChange":4.33,"rsi_14":44.9,"EMAs.":"O O O X","ZLEMAs":"O O O","weekRange":30.6},
-{"ticker":"PG","dayChange":0.51,"rsi_14":47.3,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":47.93},
+{"ticker":"PG","dayChange":0.51,"rsi_14":47.3,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":49.46},
 {"ticker":"AJG","dayChange":-2.78,"rsi_14":35.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":10.7},
 {"ticker":"ICE","dayChange":-3.4,"rsi_14":45.7,"EMAs.":"O X O O","ZLEMAs":"O O O","weekRange":36.81},
 {"ticker":"TSLA","dayChange":0.14,"rsi_14":42.6,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":65.0},
@@ -44,5 +44,5 @@
 {"ticker":"SNPS","dayChange":-1.05,"rsi_14":46.4,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":23.4},
 {"ticker":"MA","dayChange":-0.58,"rsi_14":42.6,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":36.08},
 {"ticker":"VGT","dayChange":0.02,"rsi_14":47.8,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":78.93},
-{"ticker":"OLLI","dayChange":0.37,"rsi_14":45.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":21.54}
+{"ticker":"OLLI","dayChange":0.37,"rsi_14":45.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":19.47}
 ]
