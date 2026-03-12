@@ -1,6 +1,6 @@
 [
-{"EMAs":"O O X X","ticker":"ASPN","dayChange":9.66,"rsi_14":56.7,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":17.05},
-{"EMAs":"O O X X","ticker":"DRV","dayChange":0.61,"rsi_14":57.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.1},
-{"EMAs":"O O X X","ticker":"LABD","dayChange":8.16,"rsi_14":54.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":31.12},
-{"EMAs":"O O X X","ticker":"JD","dayChange":0.41,"rsi_14":57.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":17.5}
+{"EMAs":"O O X X","ticker":"ASPN","dayChange":11.2,"rsi_14":57.8,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":17.71},
+{"EMAs":"O O X X","ticker":"DRV","dayChange":0.17,"rsi_14":57.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":12.61},
+{"EMAs":"O O X X","ticker":"LABD","dayChange":8.22,"rsi_14":54.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":31.14},
+{"EMAs":"O O X X","ticker":"JD","dayChange":0.07,"rsi_14":57.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":17.05}
 ]
