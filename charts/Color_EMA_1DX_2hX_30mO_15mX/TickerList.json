@@ -1,6 +1,6 @@
 [
 {"EMAs":"X X X O","ticker":"VZ","dayChange":-0.06,"rsi_14":68.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":98.21},
 {"EMAs":"O X X O","ticker":"WIX","dayChange":-0.2,"rsi_14":63.1,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":22.66},
-{"EMAs":"O X X O","ticker":"COIN","dayChange":1.11,"rsi_14":54.8,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":19.44},
+{"EMAs":"O X X O","ticker":"COIN","dayChange":1.07,"rsi_14":54.7,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":19.41},
 {"EMAs":"X X X O","ticker":"LNG","dayChange":1.86,"rsi_14":69.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":87.79}
 ]
