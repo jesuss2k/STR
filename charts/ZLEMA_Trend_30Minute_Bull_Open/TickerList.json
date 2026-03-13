@@ -3,14 +3,14 @@
 {"Timestamp":"2026-03-12","ticker":"DPZ","dayChange":0.68,"rsi_14":47.0,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":19.69},
 {"Timestamp":"2026-03-12","ticker":"PGR","dayChange":1.97,"rsi_14":45.9,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":7.64},
 {"Timestamp":"2026-03-12","ticker":"PM","dayChange":3.09,"rsi_14":42.8,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":60.76},
-{"Timestamp":"2026-03-12","ticker":"PANW","dayChange":1.94,"rsi_14":58.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":33.98},
-{"Timestamp":"2026-03-12","ticker":"FTNT","dayChange":1.1,"rsi_14":57.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":36.42},
 {"Timestamp":"2026-03-12","ticker":"LMT","dayChange":0.52,"rsi_14":54.7,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":86.1},
-{"Timestamp":"2026-03-12","ticker":"PLTR","dayChange":1.26,"rsi_14":56.3,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":61.8},
-{"Timestamp":"2026-03-12","ticker":"WM","dayChange":0.89,"rsi_14":55.1,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":82.38},
-{"Timestamp":"2026-03-12","ticker":"ICE","dayChange":1.01,"rsi_14":44.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":33.43},
+{"Timestamp":"2026-03-12","ticker":"PANW","dayChange":1.93,"rsi_14":58.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":33.97},
+{"Timestamp":"2026-03-12","ticker":"FTNT","dayChange":1.1,"rsi_14":57.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":36.42},
 {"Timestamp":"2026-03-12","ticker":"CRM","dayChange":2.65,"rsi_14":49.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":20.34},
+{"Timestamp":"2026-03-12","ticker":"WM","dayChange":0.89,"rsi_14":55.1,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":82.38},
+{"Timestamp":"2026-03-12","ticker":"PLTR","dayChange":1.25,"rsi_14":56.2,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":61.8},
+{"Timestamp":"2026-03-12","ticker":"ICE","dayChange":1.01,"rsi_14":44.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":33.43},
 {"Timestamp":"2026-03-11","ticker":"AR","dayChange":1.71,"rsi_14":67.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":75.43},
 {"Timestamp":"2026-03-11","ticker":"DELL","dayChange":1.72,"rsi_14":66.2,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":82.16},
-{"Timestamp":"2026-02-20","ticker":"EEM","dayChange":-2.94,"rsi_14":38.2,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":68.1}
+{"Timestamp":"2026-02-20","ticker":"EEM","dayChange":-3.2,"rsi_14":37.7,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":67.55}
 ]
