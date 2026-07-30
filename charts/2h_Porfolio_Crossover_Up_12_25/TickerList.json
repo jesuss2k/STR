@@ -1,3 +1,4 @@
 [
-{"ticker":"TMV","dayChange":4.82,"rsi_14":65.8,"EMAs.":0,"ZLEMAs":0,"weekRange":94.5}
+{"ticker":"XLE","dayChange":0.53,"rsi_14":60.7,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":78.98},
+{"ticker":"GPRO","dayChange":2.88,"rsi_14":46.2,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":5.08}
 ]
