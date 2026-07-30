@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GuruFocus_Open</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        #chart {
+            height: 100%;
+            width: 100%;
+        }
+        .overlay-arrow {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            color: #CCCCCC;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            padding: 10px;
+            z-index: 1000;
+        }
+        .overlay-arrow:hover {
+            color: #AAAAAA;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .overlay-time {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 20px;
+            color: #CCCCCC;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 8px 12px;
+            z-index: 1000;
+        }
+        .toggle-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #666666;
+            font-size: 14px;
+            font-weight: normal;
+            border: 2px solid #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.2s ease;
+        }
+
+        .toggle-button:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+            border-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay-arrow" onclick="window.history.back()">&#8592;</div>
+    <div class="overlay-time">10-24</div>
+    <div class="toggle-button" onclick="toggleATR()" id="toggleBtn">
+        ATR
+    </div>    
+    <div id="chart"></div>
+    <script>
+        var data = [{"Ticker": "AES", "TradeDate": "2026-05-17T08:37:14.567000", "OpenPercentage": 0, "HighPercentage": 16.13, "LowPercentage": -35.28, "ClosePercentage": -2.55, "HighValue": 17.28, "LowValue": 9.63, "LastRenkoDirection": "X"}, {"Ticker": "ADSK", "TradeDate": "2026-05-17T06:07:27.893000", "OpenPercentage": 0, "HighPercentage": -1.51, "LowPercentage": -34.16, "ClosePercentage": -27.55, "HighValue": 326.79, "LowValue": 218.45, "LastRenkoDirection": "X"}, {"Ticker": "ADP", "TradeDate": "2026-05-17T05:41:56.930000", "OpenPercentage": 0, "HighPercentage": 8.48, "LowPercentage": -37.33, "ClosePercentage": -26.93, "HighValue": 326.81, "LowValue": 188.79, "LastRenkoDirection": "X"}, {"Ticker": "ACN", "TradeDate": "2026-05-17T05:28:39.563000", "OpenPercentage": 0, "HighPercentage": -10.11, "LowPercentage": -55.29, "ClosePercentage": -51.61, "HighValue": 320.92, "LowValue": 159.64, "LastRenkoDirection": "O"}, {"Ticker": "MELI", "TradeDate": "2026-05-09T00:00:00", "OpenPercentage": 0, "HighPercentage": -23.08, "LowPercentage": -54.48, "ClosePercentage": -53.72, "HighValue": 2613.63, "LowValue": 1546.81, "LastRenkoDirection": "O"}, {"Ticker": "ADBE", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 65.65, "LowPercentage": -11.27, "ClosePercentage": -1.41, "HighValue": 420.68, "LowValue": 225.35, "LastRenkoDirection": "X"}, {"Ticker": "AMZN", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 20.57, "LowPercentage": -12.84, "ClosePercentage": 16.95, "HighValue": 274.99, "LowValue": 198.79, "LastRenkoDirection": "X"}, {"Ticker": "NOW", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": -5.93, "LowPercentage": -62.63, "ClosePercentage": -54.16, "HighValue": 208.938, "LowValue": 83.0, "LastRenkoDirection": "X"}, {"Ticker": "MSFT", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": -0.86, "LowPercentage": -34.75, "ClosePercentage": -22.86, "HighValue": 542.07, "LowValue": 356.77, "LastRenkoDirection": "O"}, {"Ticker": "AJG", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 10.86, "LowPercentage": -38.97, "ClosePercentage": -34.23, "HighValue": 348.77, "LowValue": 192.0, "LastRenkoDirection": "X"}, {"Ticker": "ABNB", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": -16.35, "LowPercentage": -35.29, "ClosePercentage": -20.78, "HighValue": 144.18, "LowValue": 111.54, "LastRenkoDirection": "O"}, {"Ticker": "SNPS", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": -1.97, "LowPercentage": -42.21, "ClosePercentage": -24.67, "HighValue": 645.35, "LowValue": 380.47, "LastRenkoDirection": "X"}, {"Ticker": "META", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 0.96, "LowPercentage": -32.81, "ClosePercentage": -22.07, "HighValue": 790.0, "LowValue": 525.72, "LastRenkoDirection": "O"}, {"Ticker": "ABT", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 8.79, "LowPercentage": -34.95, "ClosePercentage": -31.28, "HighValue": 138.08, "LowValue": 82.56, "LastRenkoDirection": "X"}, {"Ticker": "AAPL", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 16.27, "LowPercentage": -24.38, "ClosePercentage": 15.36, "HighValue": 300.23, "LowValue": 195.27, "LastRenkoDirection": "X"}, {"Ticker": "TMUS", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 16.62, "LowPercentage": -17.72, "ClosePercentage": -15.11, "HighValue": 259.01, "LowValue": 182.75, "LastRenkoDirection": "O"}, {"Ticker": "V", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": -5.75, "LowPercentage": -25.39, "ClosePercentage": -17.01, "HighValue": 373.31, "LowValue": 295.52, "LastRenkoDirection": "X"}, {"Ticker": "ALK", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 2.78, "LowPercentage": -44.97, "ClosePercentage": -38.52, "HighValue": 63.86, "LowValue": 34.19, "LastRenkoDirection": "O"}, {"Ticker": "AMD", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 114.0, "LowPercentage": -48.55, "ClosePercentage": 95.62, "HighValue": 458.79, "LowValue": 110.31, "LastRenkoDirection": "X"}, {"Ticker": "AAL", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 9.2, "LowPercentage": -31.63, "ClosePercentage": -14.2, "HighValue": 16.26, "LowValue": 10.18, "LastRenkoDirection": "O"}, {"Ticker": "MRVL", "TradeDate": "2026-05-05T00:00:00", "OpenPercentage": 0, "HighPercentage": 79.56, "LowPercentage": -40.88, "ClosePercentage": 68.53, "HighValue": 182.58, "LowValue": 60.11, "LastRenkoDirection": "X"}, {"Ticker": "ACIW", "TradeDate": "2025-07-11T00:00:00", "OpenPercentage": 0, "HighPercentage": 49.11, "LowPercentage": 6.98, "ClosePercentage": 19.13, "HighValue": 53.62, "LowValue": 38.47, "LastRenkoDirection": "O"}, {"Ticker": "ANF", "TradeDate": "2025-05-16T00:00:00", "OpenPercentage": 0, "HighPercentage": 82.42, "LowPercentage": -7.83, "ClosePercentage": 2.26, "HighValue": 129.85, "LowValue": 65.61, "LastRenkoDirection": "O"}, {"Ticker": "AVGO", "TradeDate": "2025-05-16T00:00:00", "OpenPercentage": 0, "HighPercentage": 249.59, "LowPercentage": 81.81, "ClosePercentage": 230.43, "HighValue": 439.79, "LowValue": 228.72, "LastRenkoDirection": "X"}, {"Ticker": "MDB", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 13.43, "LowPercentage": -52.37, "ClosePercentage": -14.55, "HighValue": 440.6, "LowValue": 185.01, "LastRenkoDirection": "X"}, {"Ticker": "PCAR", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 33.33, "LowPercentage": -6.58, "ClosePercentage": 13.48, "HighValue": 129.48, "LowValue": 90.72, "LastRenkoDirection": "O"}, {"Ticker": "DELL", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 271.5, "LowPercentage": 54.16, "ClosePercentage": 238.93, "HighValue": 260.46, "LowValue": 108.08, "LastRenkoDirection": "X"}, {"Ticker": "CRWD", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 71.57, "LowPercentage": -1.06, "ClosePercentage": 71.57, "HighValue": 607.365, "LowValue": 350.25, "LastRenkoDirection": "X"}, {"Ticker": "NKE", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": -23.68, "LowPercentage": -59.66, "ClosePercentage": -59.43, "HighValue": 79.24, "LowValue": 41.88, "LastRenkoDirection": "O"}, {"Ticker": "PG", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 4.84, "LowPercentage": -14.81, "ClosePercentage": -11.28, "HighValue": 169.89, "LowValue": 138.04, "LastRenkoDirection": "O"}, {"Ticker": "IONQ", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 139.12, "LowPercentage": -22.55, "ClosePercentage": 43.61, "HighValue": 82.09, "LowValue": 26.59, "LastRenkoDirection": "X"}, {"Ticker": "UBER", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 59.98, "LowPercentage": 10.56, "ClosePercentage": 20.71, "HighValue": 100.1, "LowValue": 69.18, "LastRenkoDirection": "X"}, {"Ticker": "ELF", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": -18.76, "LowPercentage": -70.23, "ClosePercentage": -68.06, "HighValue": 146.67, "LowValue": 53.74, "LastRenkoDirection": "O"}, {"Ticker": "ORCL", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 174.45, "LowPercentage": 14.09, "ClosePercentage": 55.3, "HighValue": 328.33, "LowValue": 136.48, "LastRenkoDirection": "X"}, {"Ticker": "NVDA", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 36.43, "LowPercentage": -24.02, "ClosePercentage": 30.04, "HighValue": 235.74, "LowValue": 131.29, "LastRenkoDirection": "X"}, {"Ticker": "VST", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 342.84, "LowPercentage": 177.87, "ClosePercentage": 177.87, "HighValue": 217.92, "LowValue": 136.74, "LastRenkoDirection": "O"}, {"Ticker": "SHOP", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 105.03, "LowPercentage": 9.27, "ClosePercentage": 16.05, "HighValue": 179.01, "LowValue": 95.4, "LastRenkoDirection": "O"}, {"Ticker": "PANW", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 60.97, "LowPercentage": -6.7, "ClosePercentage": 60.97, "HighValue": 244.4198, "LowValue": 141.67, "LastRenkoDirection": "X"}, {"Ticker": "INTU", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 26.47, "LowPercentage": -45.03, "ClosePercentage": -36.82, "HighValue": 807.39, "LowValue": 350.94, "LastRenkoDirection": "O"}, {"Ticker": "NU", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 1.13, "LowPercentage": -35.85, "ClosePercentage": -33.73, "HighValue": 18.76, "LowValue": 11.9, "LastRenkoDirection": "O"}, {"Ticker": "LMT", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 26.85, "LowPercentage": -23.01, "ClosePercentage": -2.94, "HighValue": 676.7, "LowValue": 410.74, "LastRenkoDirection": "O"}, {"Ticker": "FICO", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 99.41, "LowPercentage": -16.62, "ClosePercentage": 4.49, "HighValue": 2206.01, "LowValue": 922.37, "LastRenkoDirection": "X"}, {"Ticker": "QCOM", "TradeDate": "2025-03-23T00:00:00", "OpenPercentage": 0, "HighPercentage": 52.81, "LowPercentage": -20.18, "ClosePercentage": 27.68, "HighValue": 237.53, "LowValue": 124.07, "LastRenkoDirection": "X"}, {"Ticker": "PDD", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": -33.28, "LowPercentage": -54.13, "ClosePercentage": -54.13, "HighValue": 138.13, "LowValue": 94.97, "LastRenkoDirection": "O"}, {"Ticker": "FTNT", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 45.98, "LowPercentage": -12.83, "ClosePercentage": 45.98, "HighValue": 124.58, "LowValue": 74.39, "LastRenkoDirection": "X"}, {"Ticker": "NET", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 138.81, "LowPercentage": 45.56, "ClosePercentage": 85.0, "HighValue": 256.79, "LowValue": 156.52, "LastRenkoDirection": "O"}, {"Ticker": "JPM", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 69.94, "LowPercentage": 32.39, "ClosePercentage": 52.58, "HighValue": 334.61, "LowValue": 260.67, "LastRenkoDirection": "O"}, {"Ticker": "OKTA", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 34.47, "LowPercentage": -33.07, "ClosePercentage": -8.28, "HighValue": 126.44, "LowValue": 62.93, "LastRenkoDirection": "X"}, {"Ticker": "NFLX", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": -75.6, "LowPercentage": -86.18, "ClosePercentage": -83.85, "HighValue": 133.913, "LowValue": 75.86, "LastRenkoDirection": "O"}, {"Ticker": "PFGC", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 60.88, "LowPercentage": 19.9, "ClosePercentage": 42.85, "HighValue": 108.72, "LowValue": 81.03, "LastRenkoDirection": "X"}, {"Ticker": "OLLI", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 62.31, "LowPercentage": -14.44, "ClosePercentage": -6.92, "HighValue": 140.8, "LowValue": 74.22, "LastRenkoDirection": "O"}, {"Ticker": "TSLA", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 89.13, "LowPercentage": 9.91, "ClosePercentage": 60.34, "HighValue": 489.88, "LowValue": 284.7, "LastRenkoDirection": "X"}, {"Ticker": "GDDY", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 73.9, "LowPercentage": -27.54, "ClosePercentage": -17.85, "HighValue": 189.88, "LowValue": 79.12, "LastRenkoDirection": "X"}, {"Ticker": "PLTR", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 921.09, "LowPercentage": 490.98, "ClosePercentage": 563.03, "HighValue": 207.18, "LowValue": 119.91, "LastRenkoDirection": "O"}, {"Ticker": "RCL", "TradeDate": "2025-03-22T00:00:00", "OpenPercentage": 0, "HighPercentage": 127.26, "LowPercentage": 47.69, "ClosePercentage": 62.57, "HighValue": 365.84, "LowValue": 237.75, "LastRenkoDirection": "O"}];
+        var optionalHoverColumns = ["HighValue", "LowValue"];
+
+        var colorGreen = '#089981';
+        var colorLightGreen = '#66CDAA';
+        var colorRed = '#f23645';
+        var colorLightRed = '#FF7F7F';
+
+        var xValues = [];
+        var openValues = [];
+        var highValues = [];
+        var lowValues = [];
+        var closeValues = [];
+        var textValues = [];
+        var customData = [];
+
+        data.forEach(function(item) {
+            xValues.push(item.Ticker);
+            openValues.push(item.OpenPercentage);
+            highValues.push(item.HighPercentage);
+            lowValues.push(item.LowPercentage);
+            closeValues.push(item.ClosePercentage);
+            textValues.push(buildHoverText(item));
+            customData.push(item.Ticker);
+        });
+
+        function formatPercentage(value) {
+            return Number(value).toFixed(2);
+        }
+
+        function buildHoverText(item) {
+            var text =
+                item.Ticker + '<br>' +
+                'Open: ' + formatPercentage(item.OpenPercentage) + '%<br>' +
+                'High: ' + formatPercentage(item.HighPercentage) + '%<br>' +
+                'Low: ' + formatPercentage(item.LowPercentage) + '%<br>' +
+                'Close: ' + formatPercentage(item.ClosePercentage) + '%<br>';
+
+            optionalHoverColumns.forEach(function(column) {
+                text += column + ': ' + item[column] + '<br>';
+            });
+            return text;
+        }
+
+        function createColorTrace(color) {
+            var open = [];
+            var high = [];
+            var low = [];
+            var close = [];
+            var text = [];
+            var custom = [];
+
+            for (var i = 0; i < data.length; i++) {
+                var item = data[i];
+                var itemColor;
+
+                var closeVal = item.ClosePercentage;
+                var openVal = item.OpenPercentage;
+                var direction = item.LastRenkoDirection;
+
+                if (closeVal > openVal && direction === 'X') {
+                    itemColor = colorGreen;
+                } else if (closeVal > openVal && direction === 'O') {
+                    itemColor = colorLightGreen;
+                } else if (closeVal < openVal && direction === 'O') {
+                    itemColor = colorRed;
+                } else if (closeVal < openVal && direction === 'X') {
+                    itemColor = colorLightRed;
+                } else {
+                    itemColor = '#ffffff';
+                }
+
+                if (itemColor === color) {
+                    open.push(openValues[i]);
+                    high.push(highValues[i]);
+                    low.push(lowValues[i]);
+                    close.push(closeValues[i]);
+                    text.push(textValues[i]);
+                    custom.push(customData[i]);
+                } else {
+                    open.push(null);
+                    high.push(null);
+                    low.push(null);
+                    close.push(null);
+                    text.push(null);
+                    custom.push(null);
+                }
+            }
+
+            return {
+                x: xValues,
+                open: open,
+                high: high,
+                low: low,
+                close: close,
+                text: text,
+                customdata: custom,
+                type: 'candlestick',
+                xaxis: 'x',
+                yaxis: 'y',
+                hoverinfo: 'text',
+                increasing: {
+                    line: { color: color },
+                    fillcolor: color
+                },
+                decreasing: {
+                    line: { color: color },
+                    fillcolor: color
+                },
+                showlegend: false
+            };
+        }
+
+        var traceGreen = createColorTrace(colorGreen);
+        var traceLightGreen = createColorTrace(colorLightGreen);
+        var traceRed = createColorTrace(colorRed);
+        var traceLightRed = createColorTrace(colorLightRed);
+
+        var traces = [traceGreen, traceLightGreen, traceRed, traceLightRed];
+
+        var layout = {
+            autosize: true,
+            paper_bgcolor: '#1a1a1a',
+            plot_bgcolor: '#1a1a1a',
+            font: {
+                color: '#ffffff'
+            },
+            margin: {
+                l: 50,
+                r: 50,
+                b: 50,
+                t: 20
+            },
+            xaxis: {
+                title: '',
+                type: 'category',
+                tickangle: -45,
+                tickfont: {
+                    color: '#ffffff'
+                },
+                gridcolor: '#444444',
+                showgrid: false
+            },
+            yaxis: {
+                title: '',
+                automargin: true,
+                tickfont: {
+                    color: '#ffffff'
+                },
+                gridcolor: '#444444'
+            }
+        };
+
+        var config = {
+            responsive: true
+        };
+
+        Plotly.newPlot('chart', traces, layout, config);
+
+        // Redirect to ticker detail on click
+        var chartDiv = document.getElementById('chart');
+        chartDiv.on('plotly_click', function(data) {
+            if (data && data.points && data.points.length > 0) {
+                var ticker = data.points[0].customdata;
+                if (ticker) {
+                    window.open('../charts/Open/ticker_v2.html?ticker=' + ticker, '_blank');
+                }
+            }
+        });
+
+        function toggleATR() {
+            var currentUrl = window.location.pathname;
+            
+            if (currentUrl.includes("ATR50")) {
+                var newUrl = currentUrl.replace("ATR50", "ATR100");
+                window.location.href = newUrl;
+            } else if (currentUrl.includes("ATR100")) {
+                var newUrl = currentUrl.replace("ATR100", "ATR50");
+                window.location.href = newUrl;
+            }
+        }
+
+        // Show current ATR on button
+        document.addEventListener("DOMContentLoaded", function() {
+            var btn = document.getElementById("toggleBtn");
+            var currentUrl = window.location.pathname;
+
+            if (currentUrl.includes("ATR50")) {
+                btn.innerHTML = "50";
+            } else if (currentUrl.includes("ATR100")) {
+                btn.innerHTML = "100";
+            }
+        });
+
+        document.addEventListener("keydown", function(event) {
+            if (event.target.tagName === "INPUT" || event.target.tagName === "TEXTAREA") {
+                return;
+            }
+
+            if (event.key === "1" || event.code === "Numpad1") {
+                toggleATR();
+            }
+        });
+    </script>
+</body>
+</html>

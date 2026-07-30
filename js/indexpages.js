@@ -4,7 +4,25 @@ function saveSortedTickers() {
     const table = document.getElementById("sortableTable");
     const tickers = Array.from(table.rows)
         .slice(1) // Exclude the header row
-        .map(row => row.cells[0].innerText.trim()); // Get ticker values
+        .map(row => {
+            // Prefer explicit data-ticker attribute to avoid emoji/display decorations.
+            const rawTicker = row.dataset.ticker;
+            if (rawTicker) return rawTicker.trim();
+
+            // Fallback: parse ticker from first cell's link query parameter.
+            const anchor = row.querySelector("td:nth-child(1) a");
+            if (anchor) {
+                try {
+                    const url = new URL(anchor.href, window.location.origin);
+                    const q = url.searchParams.get("ticker");
+                    if (q) return q.trim();
+                } catch (e) {
+                    // ignore parse error and fallback to visible text
+                }
+            }
+
+            return row.cells[0].innerText.trim();
+        });
 
     // Store sorted tickers in localStorage
     localStorage.setItem("sortedTickers", JSON.stringify(tickers));
@@ -143,15 +161,16 @@ function populateTickerTable() {
       }
 
       headerRow.appendChild(createHeaderCell("Ticker", 0));
-      headerRow.appendChild(createHeaderCell("% Day", 1));
+      headerRow.appendChild(createHeaderCell("Chart", 1));   // NEW
+      headerRow.appendChild(createHeaderCell("% Day", 2));   // shifted
 
       // dynamic extra columns (2 .. 2 + extraColumns.length - 1)
       extraColumns.forEach((col, index) => {
-        headerRow.appendChild(createHeaderCell(col, 2 + index));
+        headerRow.appendChild(createHeaderCell(col, 3 + index));
       });
 
       // compute the next indices once
-      const rsiColIndex = 2 + extraColumns.length;
+      const rsiColIndex = 3 + extraColumns.length;
       const week52ColIndex = rsiColIndex + 1;
       const tvColIndex = week52ColIndex + 1;
 
@@ -189,6 +208,8 @@ function populateTickerTable() {
         const dayChangeClass = getDayChangeClass(item.dayChange);
 
         const tr = document.createElement("tr");
+        // Keep canonical ticker for navigation (no emoji disclaimer text).
+        tr.dataset.ticker = ticker;
 
         const tdTicker = document.createElement("td");
         const tickerDiv = document.createElement("div");
@@ -201,12 +222,36 @@ function populateTickerTable() {
 
         const tickerLink = document.createElement("a");
         tickerLink.href = detailUrl;
-        tickerLink.textContent = ticker;
+        let displayTicker = ticker;
+        if (ticker.endsWith('_MC')) {
+            displayTicker = '\uD83C\uDDEA\uD83C\uDDF8' + ' ' + ticker.replace('_MC', '');
+        }
+        tickerLink.textContent = displayTicker;
         tickerDiv.appendChild(logoImg);
         tickerDiv.appendChild(tickerLink);
         tdTicker.appendChild(tickerDiv);
         tr.appendChild(tdTicker);
 
+        const tdChart = document.createElement("td");
+        const chartImg = document.createElement("img");
+        chartImg.src = `../../sparklines/${ticker}.png`;
+        chartImg.style.width = "64px";
+        chartImg.style.height = "32px";
+        chartImg.style.objectFit = "contain";
+        chartImg.loading = "lazy";
+
+        // Optional: click opens detail page
+        chartImg.style.cursor = "pointer";
+        chartImg.onclick = () => {
+            window.location.href = detailUrl;
+        };
+
+        tdChart.appendChild(chartImg);
+        tr.appendChild(tdChart);
+
+        //
+        // DAY CHANGE (now column 3)
+        //
         const tdChange = document.createElement("td");
         tdChange.textContent = item.dayChange;
         tdChange.className = dayChangeClass;
@@ -215,7 +260,7 @@ function populateTickerTable() {
         extraColumns.forEach(col => {
           const tdExtra = document.createElement("td");
         
-          if (col === "EMAs" && item[col]) {
+          if (col.includes("EMA") && item[col]) {
             // Format EMAs column with specific colors
             const emsFormatted = item[col].split(" ").map(char => {
               const span = document.createElement("span");

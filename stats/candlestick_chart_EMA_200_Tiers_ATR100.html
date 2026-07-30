@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EMA 200 Tiers</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        #chart {
+            height: 100%;
+            width: 100%;
+        }
+        .overlay-arrow {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            color: #CCCCCC;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            padding: 10px;
+            z-index: 1000;
+        }
+        .overlay-arrow:hover {
+            color: #AAAAAA;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .overlay-time {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 20px;
+            color: #CCCCCC;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 8px 12px;
+            z-index: 1000;
+        }
+        .toggle-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #666666;
+            font-size: 14px;
+            font-weight: normal;
+            border: 2px solid #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.2s ease;
+        }
+
+        .toggle-button:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+            border-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay-arrow" onclick="window.history.back()">&#8592;</div>
+    <div class="overlay-time">10-24</div>
+    <div class="toggle-button" onclick="toggleATR()" id="toggleBtn">
+        ATR
+    </div>    
+    <div id="chart"></div>
+    <script>
+        var data = [{"Ticker": "GOOG", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 35.7, "LowPercentage": -43.99, "ClosePercentage": 35.7, "LastRenkoDirection": "X"}, {"Ticker": "LLY", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 18.85, "LowPercentage": -33.01, "ClosePercentage": 6.5, "LastRenkoDirection": "X"}, {"Ticker": "COST", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 9.87, "LowPercentage": -12.2, "ClosePercentage": 9.87, "LastRenkoDirection": "X"}, {"Ticker": "ASML", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 31.2, "LowPercentage": -43.17, "ClosePercentage": 21.8, "LastRenkoDirection": "X"}, {"Ticker": "AMSC", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 72.64, "LowPercentage": -37.37, "ClosePercentage": 33.21, "LastRenkoDirection": "X"}, {"Ticker": "BABA", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 34.52, "LowPercentage": -26.23, "ClosePercentage": -4.26, "LastRenkoDirection": "O"}, {"Ticker": "UAL", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 20.99, "LowPercentage": -24.51, "ClosePercentage": -1.73, "LastRenkoDirection": "X"}, {"Ticker": "LULU", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 80.87, "LowPercentage": -35.71, "ClosePercentage": -34.9, "LastRenkoDirection": "O"}, {"Ticker": "MMC", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 17.52, "LowPercentage": -11.64, "ClosePercentage": -8.58, "LastRenkoDirection": "X"}, {"Ticker": "T", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 12.62, "LowPercentage": -12.55, "ClosePercentage": -8.96, "LastRenkoDirection": "O"}, {"Ticker": "HOOD", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 70.07, "LowPercentage": -29.53, "ClosePercentage": -12.03, "LastRenkoDirection": "O"}, {"Ticker": "IBKR", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 28.14, "LowPercentage": -26.65, "ClosePercentage": 26.82, "LastRenkoDirection": "X"}, {"Ticker": "CCL", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 24.12, "LowPercentage": -19.52, "ClosePercentage": -8.29, "LastRenkoDirection": "O"}, {"Ticker": "DAL", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 17.12, "LowPercentage": -26.88, "ClosePercentage": 12.2, "LastRenkoDirection": "X"}, {"Ticker": "KLAC", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 41.57, "LowPercentage": -44.62, "ClosePercentage": 28.23, "LastRenkoDirection": "O"}, {"Ticker": "EA", "TradeDate": "2025-05-18", "OpenPercentage": 0, "HighPercentage": 6.51, "LowPercentage": -25.71, "ClosePercentage": 4.36, "LastRenkoDirection": "O"}];
+        var optionalHoverColumns = [];
+
+        var colorGreen = '#089981';
+        var colorLightGreen = '#66CDAA';
+        var colorRed = '#f23645';
+        var colorLightRed = '#FF7F7F';
+
+        var xValues = [];
+        var openValues = [];
+        var highValues = [];
+        var lowValues = [];
+        var closeValues = [];
+        var textValues = [];
+        var customData = [];
+
+        data.forEach(function(item) {
+            xValues.push(item.Ticker);
+            openValues.push(item.OpenPercentage);
+            highValues.push(item.HighPercentage);
+            lowValues.push(item.LowPercentage);
+            closeValues.push(item.ClosePercentage);
+            textValues.push(buildHoverText(item));
+            customData.push(item.Ticker);
+        });
+
+        function formatPercentage(value) {
+            return Number(value).toFixed(2);
+        }
+
+        function buildHoverText(item) {
+            var text =
+                item.Ticker + '<br>' +
+                'Open: ' + formatPercentage(item.OpenPercentage) + '%<br>' +
+                'High: ' + formatPercentage(item.HighPercentage) + '%<br>' +
+                'Low: ' + formatPercentage(item.LowPercentage) + '%<br>' +
+                'Close: ' + formatPercentage(item.ClosePercentage) + '%<br>';
+
+            optionalHoverColumns.forEach(function(column) {
+                text += column + ': ' + item[column] + '<br>';
+            });
+            return text;
+        }
+
+        function createColorTrace(color) {
+            var open = [];
+            var high = [];
+            var low = [];
+            var close = [];
+            var text = [];
+            var custom = [];
+
+            for (var i = 0; i < data.length; i++) {
+                var item = data[i];
+                var itemColor;
+
+                var closeVal = item.ClosePercentage;
+                var openVal = item.OpenPercentage;
+                var direction = item.LastRenkoDirection;
+
+                if (closeVal > openVal && direction === 'X') {
+                    itemColor = colorGreen;
+                } else if (closeVal > openVal && direction === 'O') {
+                    itemColor = colorLightGreen;
+                } else if (closeVal < openVal && direction === 'O') {
+                    itemColor = colorRed;
+                } else if (closeVal < openVal && direction === 'X') {
+                    itemColor = colorLightRed;
+                } else {
+                    itemColor = '#ffffff';
+                }
+
+                if (itemColor === color) {
+                    open.push(openValues[i]);
+                    high.push(highValues[i]);
+                    low.push(lowValues[i]);
+                    close.push(closeValues[i]);
+                    text.push(textValues[i]);
+                    custom.push(customData[i]);
+                } else {
+                    open.push(null);
+                    high.push(null);
+                    low.push(null);
+                    close.push(null);
+                    text.push(null);
+                    custom.push(null);
+                }
+            }
+
+            return {
+                x: xValues,
+                open: open,
+                high: high,
+                low: low,
+                close: close,
+                text: text,
+                customdata: custom,
+                type: 'candlestick',
+                xaxis: 'x',
+                yaxis: 'y',
+                hoverinfo: 'text',
+                increasing: {
+                    line: { color: color },
+                    fillcolor: color
+                },
+                decreasing: {
+                    line: { color: color },
+                    fillcolor: color
+                },
+                showlegend: false
+            };
+        }
+
+        var traceGreen = createColorTrace(colorGreen);
+        var traceLightGreen = createColorTrace(colorLightGreen);
+        var traceRed = createColorTrace(colorRed);
+        var traceLightRed = createColorTrace(colorLightRed);
+
+        var traces = [traceGreen, traceLightGreen, traceRed, traceLightRed];
+
+        var layout = {
+            autosize: true,
+            paper_bgcolor: '#1a1a1a',
+            plot_bgcolor: '#1a1a1a',
+            font: {
+                color: '#ffffff'
+            },
+            margin: {
+                l: 50,
+                r: 50,
+                b: 50,
+                t: 20
+            },
+            xaxis: {
+                title: '',
+                type: 'category',
+                tickangle: -45,
+                tickfont: {
+                    color: '#ffffff'
+                },
+                gridcolor: '#444444',
+                showgrid: false
+            },
+            yaxis: {
+                title: '',
+                automargin: true,
+                tickfont: {
+                    color: '#ffffff'
+                },
+                gridcolor: '#444444'
+            }
+        };
+
+        var config = {
+            responsive: true
+        };
+
+        Plotly.newPlot('chart', traces, layout, config);
+
+        // Redirect to ticker detail on click
+        var chartDiv = document.getElementById('chart');
+        chartDiv.on('plotly_click', function(data) {
+            if (data && data.points && data.points.length > 0) {
+                var ticker = data.points[0].customdata;
+                if (ticker) {
+                    window.open('../charts/Open/ticker_v2.html?ticker=' + ticker, '_blank');
+                }
+            }
+        });
+
+        function toggleATR() {
+            var currentUrl = window.location.pathname;
+            
+            if (currentUrl.includes("ATR50")) {
+                var newUrl = currentUrl.replace("ATR50", "ATR100");
+                window.location.href = newUrl;
+            } else if (currentUrl.includes("ATR100")) {
+                var newUrl = currentUrl.replace("ATR100", "ATR50");
+                window.location.href = newUrl;
+            }
+        }
+
+        // Show current ATR on button
+        document.addEventListener("DOMContentLoaded", function() {
+            var btn = document.getElementById("toggleBtn");
+            var currentUrl = window.location.pathname;
+
+            if (currentUrl.includes("ATR50")) {
+                btn.innerHTML = "50";
+            } else if (currentUrl.includes("ATR100")) {
+                btn.innerHTML = "100";
+            }
+        });
+
+        document.addEventListener("keydown", function(event) {
+            if (event.target.tagName === "INPUT" || event.target.tagName === "TEXTAREA") {
+                return;
+            }
+
+            if (event.key === "1" || event.code === "Numpad1") {
+                toggleATR();
+            }
+        });
+    </script>
+</body>
+</html>
