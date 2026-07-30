@@ -1,3 +1,4 @@
 [
-{"EMAs":"X O X O","ticker":"MGM","dayChange":-0.02,"rsi_14":50.1,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":75.9}
+{"EMAs":"O O X O","ticker":"BSX","dayChange":-0.64,"rsi_14":52.9,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":5.27},
+{"EMAs":"O O X O","ticker":"LULU","dayChange":-0.22,"rsi_14":52.5,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":11.79}
 ]

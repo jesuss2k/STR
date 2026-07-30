@@ -1,5 +1,5 @@
 [
-{"Company Name":"Dia Sa","Market Value":7809.0,"ticker":"DIA","dayChange":1.0,"rsi_14":50.8,"EMAs.":"X X O O","ZLEMAs":"X O X","weekRange":87.94},
+{"Company Name":"Dia Sa","Market Value":7821.0,"ticker":"DIA","dayChange":1.17,"rsi_14":51.6,"EMAs.":"X X O O","ZLEMAs":"X O X","weekRange":88.79},
 {"Company Name":"Amundi Ibex 35 Di","Market Value":4599.0,"ticker":"LYXIB_MC","dayChange":1.78,"rsi_14":59.2,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":92.05},
 {"Company Name":"Repsol Sa","Market Value":3710.0,"ticker":"REP_MC","dayChange":0.84,"rsi_14":69.8,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":98.14},
 {"Company Name":"Banco Santander","Market Value":1715.0,"ticker":"SAN_MC","dayChange":2.48,"rsi_14":57.2,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":93.63},
