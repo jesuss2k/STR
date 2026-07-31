@@ -1,5 +1,5 @@
 [
-{"Company Name":"Dia Sa","Market Value":7851.0,"ticker":"DIA","dayChange":0.37,"rsi_14":53.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":90.81},
+{"Company Name":"Dia Sa","Market Value":7865.0,"ticker":"DIA","dayChange":0.54,"rsi_14":54.4,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":91.73},
 {"Company Name":"Amundi Ibex 35 Di","Market Value":4604.0,"ticker":"LYXIB_MC","dayChange":0.1,"rsi_14":59.6,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":92.34},
 {"Company Name":"Repsol Sa","Market Value":3693.0,"ticker":"REP_MC","dayChange":-0.45,"rsi_14":68.4,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":97.28},
 {"Company Name":"Banco Santander","Market Value":1725.0,"ticker":"SAN_MC","dayChange":0.57,"rsi_14":58.4,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":94.92},
@@ -23,11 +23,11 @@
 {"Company Name":"Acciona Energias","Market Value":543.0,"ticker":"ANE_MC","dayChange":-3.64,"rsi_14":46.7,"EMAs.":"X O X O","ZLEMAs":"O O ","weekRange":42.16},
 {"Company Name":"Telefonica","Market Value":538.0,"ticker":"TEF_MC","dayChange":-0.5,"rsi_14":45.8,"EMAs.":"O O O O","ZLEMAs":"X X ","weekRange":21.0},
 {"Company Name":"Cellnex Telecom S","Market Value":537.0,"ticker":"CLNX_MC","dayChange":-0.37,"rsi_14":56.1,"EMAs.":"O O X O","ZLEMAs":"O X ","weekRange":33.56},
-{"Company Name":"Aena Sme Sa","Market Value":534.0,"ticker":"AENA_MC","dayChange":-0.3,"rsi_14":52.7,"EMAs.":"X X X O","ZLEMAs":"O O ","weekRange":68.41},
+{"Company Name":"Aena Sme Sa","Market Value":534.0,"ticker":"AENA_MC","dayChange":-0.3,"rsi_14":52.7,"EMAs.":"X X X X","ZLEMAs":"O O ","weekRange":68.41},
 {"Company Name":"Amadeus It Group","Market Value":533.0,"ticker":"AMS_MC","dayChange":0.6,"rsi_14":60.3,"EMAs.":"O X X X","ZLEMAs":"X X ","weekRange":26.34},
 {"Company Name":"Cie Automotive","Market Value":529.0,"ticker":"CIE_MC","dayChange":0.38,"rsi_14":49.9,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":17.61},
 {"Company Name":"Ebro Foods Sa","Market Value":458.0,"ticker":"EBRO_MC","dayChange":0.22,"rsi_14":57.3,"EMAs.":"O X X X","ZLEMAs":"O X ","weekRange":49.24},
-{"Company Name":"Tubacex","Market Value":455.0,"ticker":"TUB_MC","dayChange":-0.33,"rsi_14":38.8,"EMAs.":"O O O X","ZLEMAs":"X O ","weekRange":27.06},
+{"Company Name":"Tubacex","Market Value":455.0,"ticker":"TUB_MC","dayChange":-0.33,"rsi_14":38.8,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":27.06},
 {"Company Name":"Making Science Gr","Market Value":393.0,"ticker":"MAKS_MC","dayChange":-3.68,"rsi_14":33.6,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":9.37},
 {"Company Name":"Grifols","Market Value":199.0,"ticker":"GRF_MC","dayChange":-4.05,"rsi_14":61.3,"EMAs.":"O X X O","ZLEMAs":"X X ","weekRange":31.63}
 ]
