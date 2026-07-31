@@ -1,6 +1,6 @@
 [
 {"ticker":"GOOG","dayChange":-0.62,"rsi_14":42.7,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":67.19},
-{"ticker":"LLY","dayChange":-4.47,"rsi_14":47.0,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":85.06},
+{"ticker":"LLY","dayChange":-4.55,"rsi_14":46.9,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":84.9},
 {"ticker":"ASML","dayChange":6.5,"rsi_14":44.0,"EMAs.":"X O O X","ZLEMAs":"O O O","weekRange":73.53},
 {"ticker":"COST","dayChange":-2.04,"rsi_14":52.2,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":43.62},
 {"ticker":"CCL","dayChange":-0.14,"rsi_14":54.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":40.83},
