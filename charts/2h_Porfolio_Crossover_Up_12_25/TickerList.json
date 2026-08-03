@@ -1,3 +1,4 @@
 [
-{"ticker":"VNOM","dayChange":2.65,"rsi_14":55.1,"EMAs.":0,"ZLEMAs":0,"weekRange":59.33}
+{"ticker":"NUGT","dayChange":3.16,"rsi_14":47.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":15.48},
+{"ticker":"TNA","dayChange":4.8,"rsi_14":53.0,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":86.31}
 ]
