@@ -1,4 +1,4 @@
 [
-{"ticker":"ASPN","dayChange":2.16,"rsi_14":43.8,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":32.49},
-{"ticker":"SEZL","dayChange":5.39,"rsi_14":51.5,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":77.69}
+{"ticker":"ASPN","dayChange":2.16,"rsi_14":43.8,"EMAs.":0,"ZLEMAs":0,"weekRange":32.49},
+{"ticker":"SEZL","dayChange":5.39,"rsi_14":51.5,"EMAs.":0,"ZLEMAs":0,"weekRange":77.69}
 ]
