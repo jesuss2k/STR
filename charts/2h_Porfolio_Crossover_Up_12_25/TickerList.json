@@ -1,4 +1,5 @@
 [
-{"ticker":"DE","dayChange":2.58,"rsi_14":55.9,"EMAs.":"X X O X","ZLEMAs":"X X X","weekRange":77.81},
-{"ticker":"ASML","dayChange":3.49,"rsi_14":48.5,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":77.2}
+{"ticker":"FDX","dayChange":1.59,"rsi_14":47.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":49.43},
+{"ticker":"MU","dayChange":8.0,"rsi_14":49.0,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":68.72},
+{"ticker":"BIIB","dayChange":2.79,"rsi_14":53.9,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":86.78}
 ]
