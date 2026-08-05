@@ -1,4 +1,6 @@
 [
+{"ticker":"PATH","dayChange":-1.74,"rsi_14":68.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":43.75},
+{"ticker":"NET","dayChange":-1.35,"rsi_14":67.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.7},
 {"ticker":"MRVL","dayChange":-0.24,"rsi_14":52.0,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":58.35},
 {"ticker":"AMD","dayChange":-5.67,"rsi_14":47.6,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":78.06},
 {"ticker":"DELL","dayChange":2.39,"rsi_14":62.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.07},

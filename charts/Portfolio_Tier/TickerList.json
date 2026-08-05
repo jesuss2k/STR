@@ -13,5 +13,6 @@
 {"ticker":"IBKR","dayChange":1.59,"rsi_14":48.5,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":79.94},
 {"ticker":"KLAC","dayChange":1.53,"rsi_14":45.6,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":51.4},
 {"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":21.51},
+{"ticker":"NET","dayChange":-1.35,"rsi_14":67.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.7},
 {"ticker":"UAL","dayChange":1.17,"rsi_14":65.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":91.5}
 ]
