@@ -1,3 +1,4 @@
 [
-{"ticker":"HNST","dayChange":6.14,"rsi_14":56.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":67.16}
+{"ticker":"GRBK","dayChange":0.87,"rsi_14":50.7,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":53.83},
+{"ticker":"TYD","dayChange":-0.09,"rsi_14":47.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":13.42}
 ]
