@@ -411,6 +411,7 @@
 {"ticker":"VGT","positionStatus":"Open","price":94.5463,"quantity":8,"leverage":0},
 {"ticker":"VIS_MC","positionStatus":"Open","price":53.6,"quantity":10,"leverage":0},
 {"ticker":"VIS_MC","positionStatus":"Open","price":57.1,"quantity":10,"leverage":0},
+{"ticker":"VST","positionStatus":"Open","price":145.1913,"quantity":8,"leverage":0},
 {"ticker":"VST","positionStatus":"Open","price":145.828,"quantity":3,"leverage":0},
 {"ticker":"VST","positionStatus":"Open","price":150.62,"quantity":3,"leverage":0},
 {"ticker":"VZ","positionStatus":"Closed","price":42.76,"quantity":12,"leverage":0},
