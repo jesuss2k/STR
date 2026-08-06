@@ -19,7 +19,7 @@
 {"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"OMC","dayChange":-0.12,"rsi_14":54.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":72.95},
 {"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"KMB","dayChange":0.72,"rsi_14":57.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":44.29},
 {"Timestamp":"2026-08-04","EMAs":"O X X X","ticker":"EL","dayChange":-0.01,"rsi_14":60.4,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":37.43},
-{"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"TJX","dayChange":1.53,"rsi_14":58.1,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":75.73},
+{"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"TJX","dayChange":1.5,"rsi_14":58.0,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":75.63},
 {"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"ECL","dayChange":0.82,"rsi_14":62.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":64.0},
 {"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"AAP","dayChange":1.27,"rsi_14":57.3,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":79.39},
 {"Timestamp":"2026-08-04","EMAs":"X X X X","ticker":"HPQ","dayChange":-1.04,"rsi_14":65.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":90.65},
@@ -41,8 +41,8 @@
 {"Timestamp":"2026-08-03","EMAs":"O O X X","ticker":"HUMA","dayChange":2.33,"rsi_14":50.9,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":8.24},
 {"Timestamp":"2026-08-03","EMAs":"O X X X","ticker":"CPB","dayChange":1.27,"rsi_14":57.6,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":23.91},
 {"Timestamp":"2026-08-03","EMAs":"O O X X","ticker":"RYAAY","dayChange":1.66,"rsi_14":51.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":38.15},
-{"Timestamp":"2026-07-31","EMAs":"O X X X","ticker":"DIS","dayChange":3.63,"rsi_14":60.4,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":34.63},
-{"Timestamp":"2026-07-31","EMAs":"X X X X","ticker":"PAYC","dayChange":-0.34,"rsi_14":70.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":48.46},
+{"Timestamp":"2026-07-31","EMAs":"O X X X","ticker":"DIS","dayChange":3.65,"rsi_14":60.5,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":34.7},
+{"Timestamp":"2026-07-31","EMAs":"X X X X","ticker":"PAYC","dayChange":-0.29,"rsi_14":70.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":48.52},
 {"Timestamp":"2026-07-31","EMAs":"X X X X","ticker":"EXPE","dayChange":2.44,"rsi_14":74.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.96},
 {"Timestamp":"2026-07-31","EMAs":"X X X X","ticker":"CCL","dayChange":0.27,"rsi_14":64.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":58.79},
 {"Timestamp":"2026-07-31","EMAs":"X O X X","ticker":"TECL","dayChange":-1.63,"rsi_14":55.4,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":64.84},
@@ -54,5 +54,5 @@
 {"Timestamp":"2026-07-30","EMAs":"X X X X","ticker":"DIA","dayChange":0.44,"rsi_14":68.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":96.38},
 {"Timestamp":"2026-07-30","EMAs":"X X X X","ticker":"UDOW","dayChange":1.27,"rsi_14":67.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":43.79},
 {"Timestamp":"2026-07-30","EMAs":"X X X X","ticker":"ANET","dayChange":3.57,"rsi_14":65.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.48},
-{"Timestamp":"2026-07-30","EMAs":"X O X X","ticker":"XLK","dayChange":-0.54,"rsi_14":57.3,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":82.19}
+{"Timestamp":"2026-07-30","EMAs":"X O X X","ticker":"XLK","dayChange":-0.53,"rsi_14":57.3,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":82.21}
 ]
