@@ -1,3 +1,5 @@
 [
-{"EMAs":"O O X O","ticker":"GPRO","dayChange":3.22,"rsi_14":50.1,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":6.3}
+{"EMAs":"O O X O","ticker":"RXRX","dayChange":0.63,"rsi_14":49.8,"EMAs.":"O O X O","ZLEMAs":"X X X","weekRange":9.52},
+{"EMAs":"X O X O","ticker":"AMD","dayChange":2.89,"rsi_14":48.9,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":79.62},
+{"EMAs":"O O X O","ticker":"GPRO","dayChange":1.75,"rsi_14":48.7,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":5.87}
 ]
