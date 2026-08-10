@@ -509,9 +509,9 @@ function plotEMAs_1W(chart, rawData) {
         EMA_10: "#e67e22",
         EMA_20: "#ff0000",
         EMA_40: "#ffffff",
-        EMA_100: "#ab47bc",
-        EMA_200: "#4caf50",
-        EMA_400: "#f48fb1",
+        EMA_80: "#ab47bc",
+        EMA_160: "#4caf50",
+        EMA_320: "#f48fb1",
         ZLEMA: "#ff0000"
     };
 
