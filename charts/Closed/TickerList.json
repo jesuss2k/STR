@@ -1,4 +1,5 @@
 [
+{"ticker":"OKTA","dayChange":3.35,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":90.8},
 {"ticker":"PATH","dayChange":7.5,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":54.98},
 {"ticker":"NET","dayChange":5.57,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":85.26},
 {"ticker":"MRVL","dayChange":3.89,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":58.59},
@@ -92,10 +93,10 @@
 {"ticker":"RYAAY","dayChange":-0.59,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":33.41},
 {"ticker":"TTWO","dayChange":6.04,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":75.18},
 {"ticker":"TGT","dayChange":1.78,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":99.44},
-{"ticker":"EXC","dayChange":1.17,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":40.52},
+{"ticker":"EXC","dayChange":0.64,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":37.55},
 {"ticker":"LUNA","dayChange":0.0,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":56.6},
 {"ticker":"PTC","dayChange":0.03,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":35.93},
-{"ticker":"GILD","dayChange":1.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.81},
-{"ticker":"KHC","dayChange":1.3,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":60.16},
+{"ticker":"GILD","dayChange":1.8,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.69},
+{"ticker":"KHC","dayChange":1.44,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":60.65},
 {"ticker":"WBD","dayChange":1.44,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":83.26}
 ]
