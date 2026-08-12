@@ -12,6 +12,7 @@
 {"Date":"26-08-07","ticker":"MA","dayChange":-0.31,"rsi_14":58.1,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":70.62},
 {"Date":"26-08-07","ticker":"PG","dayChange":-0.84,"rsi_14":44.9,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":25.62},
 {"Date":"26-08-07","ticker":"NBIS","dayChange":4.95,"rsi_14":47.5,"EMAs.":"X O O X","ZLEMAs":"O O O","weekRange":55.17},
+{"Date":"26-08-07","ticker":"GPRO","dayChange":-11.45,"rsi_14":35.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":1.24},
 {"Date":"26-08-07","ticker":"V","dayChange":0.42,"rsi_14":55.4,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":86.08},
 {"Date":"26-08-07","ticker":"DPZ","dayChange":2.73,"rsi_14":60.4,"EMAs.":"O X O X","ZLEMAs":"X X O","weekRange":40.29},
 {"Date":"26-08-06","ticker":"NU","dayChange":-1.52,"rsi_14":45.3,"EMAs.":"O X O O","ZLEMAs":"O O O","weekRange":31.49},

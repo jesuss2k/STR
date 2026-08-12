@@ -17,6 +17,7 @@
 {"ticker":"PGR","dayChange":-0.75,"rsi_14":47.8,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":35.22},
 {"ticker":"TXN","dayChange":0.29,"rsi_14":47.3,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":70.88},
 {"ticker":"DG","dayChange":-1.92,"rsi_14":45.4,"EMAs.":"O X O O","ZLEMAs":"O O O","weekRange":39.54},
+{"ticker":"GPRO","dayChange":-11.45,"rsi_14":35.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":1.24},
 {"ticker":"ALK","dayChange":2.41,"rsi_14":50.3,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":46.79},
 {"ticker":"WM","dayChange":0.11,"rsi_14":45.4,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":60.61},
 {"ticker":"NU","dayChange":-1.52,"rsi_14":45.3,"EMAs.":"O X O O","ZLEMAs":"O O O","weekRange":31.49},

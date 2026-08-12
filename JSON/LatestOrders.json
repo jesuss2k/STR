@@ -175,6 +175,7 @@
 {"ticker":"GOOG","positionStatus":"Closed","price":163.9934,"quantity":3,"leverage":0},
 {"ticker":"GOOGL","positionStatus":"Closed","price":188.6412,"quantity":3,"leverage":0},
 {"ticker":"GPRO","positionStatus":"Closed","price":1.395,"quantity":250,"leverage":0},
+{"ticker":"GPRO","positionStatus":"Open","price":0.625,"quantity":1500,"leverage":0},
 {"ticker":"GRF_MC","positionStatus":"Open","price":9.42,"quantity":30,"leverage":0},
 {"ticker":"GRF_MC","positionStatus":"Open","price":11.54,"quantity":20,"leverage":0},
 {"ticker":"GRTS","positionStatus":"Closed","price":2.0401,"quantity":180,"leverage":0},

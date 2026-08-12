@@ -1,6 +1,7 @@
 [
 {"ticker":"APP","dayChange":-5.99,"rsi_14":28.4,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":0.13},
 {"ticker":"TTD","dayChange":1.27,"rsi_14":28.5,"EMAs.":"O O O O","ZLEMAs":"X O O","weekRange":1.68},
+{"ticker":"GPRO","dayChange":-11.45,"rsi_14":35.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":1.24},
 {"ticker":"TREE","dayChange":-2.35,"rsi_14":30.8,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":3.68},
 {"ticker":"FICO","dayChange":-1.1,"rsi_14":37.4,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":14.91},
 {"ticker":"CAVA","dayChange":-1.25,"rsi_14":35.4,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":31.42},
