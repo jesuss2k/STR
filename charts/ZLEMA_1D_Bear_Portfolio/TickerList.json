@@ -73,7 +73,7 @@
 {"ticker":"KMB","dayChange":1.62,"rsi_14":53.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":41.78},
 {"ticker":"GOOG","dayChange":0.46,"rsi_14":46.5,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":70.76},
 {"ticker":"XRT","dayChange":0.57,"rsi_14":50.0,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":74.02},
-{"ticker":"LLY","dayChange":-0.92,"rsi_14":55.7,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":93.19},
+{"ticker":"LLY","dayChange":-0.92,"rsi_14":55.7,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":92.83},
 {"ticker":"ARM","dayChange":2.49,"rsi_14":49.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":50.65},
 {"ticker":"DLTR","dayChange":0.72,"rsi_14":58.0,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":77.69},
 {"ticker":"GOOGL","dayChange":0.82,"rsi_14":47.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":70.64},

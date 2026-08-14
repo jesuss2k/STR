@@ -25,7 +25,7 @@
 {"ticker":"BIDU","dayChange":-0.15,"rsi_14":38.3,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":24.68},
 {"ticker":"HD","dayChange":-0.5,"rsi_14":49.8,"EMAs.":"O X O O","ZLEMAs":"X O O","weekRange":38.21},
 {"ticker":"PM","dayChange":1.46,"rsi_14":51.6,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":71.29},
-{"ticker":"CTAS","dayChange":-1.38,"rsi_14":52.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":61.12},
+{"ticker":"CTAS","dayChange":-1.38,"rsi_14":52.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":65.68},
 {"ticker":"META","dayChange":2.78,"rsi_14":49.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":27.07},
 {"ticker":"PCAR","dayChange":-0.26,"rsi_14":52.5,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":81.87},
 {"ticker":"NU","dayChange":2.73,"rsi_14":50.3,"EMAs.":"O X O X","ZLEMAs":"O O X","weekRange":35.09},

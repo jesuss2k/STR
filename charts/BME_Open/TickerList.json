@@ -27,6 +27,6 @@
 {"Company Name":"Cie Automotive","Market Value":516.0,"ticker":"CIE_MC","dayChange":0.78,"rsi_14":43.7,"EMAs.":"O O O X","ZLEMAs":"O X ","weekRange":9.43},
 {"Company Name":"Grifols","Market Value":508.0,"ticker":"GRF_MC","dayChange":0.74,"rsi_14":61.3,"EMAs.":"O X X X","ZLEMAs":"X X ","weekRange":38.71},
 {"Company Name":"Tubacex","Market Value":467.0,"ticker":"TUB_MC","dayChange":1.14,"rsi_14":50.2,"EMAs.":"O O X X","ZLEMAs":"O O ","weekRange":34.4},
-{"Company Name":"Ebro Foods Sa","Market Value":455.0,"ticker":"EBRO_MC","dayChange":0.55,"rsi_14":49.7,"EMAs.":"O X O X","ZLEMAs":"O O ","weekRange":42.52},
+{"Company Name":"Ebro Foods Sa","Market Value":455.0,"ticker":"EBRO_MC","dayChange":0.55,"rsi_14":49.7,"EMAs.":"O X O X","ZLEMAs":"O O ","weekRange":41.6},
 {"Company Name":"Making Science Gr","Market Value":387.0,"ticker":"MAKS_MC","dayChange":-0.77,"rsi_14":30.9,"EMAs.":"O O O O","ZLEMAs":"O X ","weekRange":6.25}
 ]
