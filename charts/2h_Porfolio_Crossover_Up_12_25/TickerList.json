@@ -1,7 +1,3 @@
 [
-{"ticker":"XYZ","dayChange":6.14,"rsi_14":58.5,"EMAs.":0,"ZLEMAs":0,"weekRange":90.5},
-{"ticker":"UPST","dayChange":6.43,"rsi_14":54.6,"EMAs.":0,"ZLEMAs":0,"weekRange":13.22},
-{"ticker":"AFRM","dayChange":6.7,"rsi_14":54.8,"EMAs.":0,"ZLEMAs":0,"weekRange":62.56},
-{"ticker":"WDC","dayChange":7.31,"rsi_14":47.2,"EMAs.":0,"ZLEMAs":0,"weekRange":56.99},
-{"ticker":"XLRE","dayChange":1.42,"rsi_14":52.3,"EMAs.":0,"ZLEMAs":0,"weekRange":80.16}
+{"ticker":"POWL","dayChange":4.09,"rsi_14":44.4,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":53.66}
 ]

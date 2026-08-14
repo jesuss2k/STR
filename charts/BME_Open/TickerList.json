@@ -23,10 +23,10 @@
 {"Company Name":"Cellnex Telecom S","Market Value":553.0,"ticker":"CLNX_MC","dayChange":0.8,"rsi_14":60.1,"EMAs.":"O X X X","ZLEMAs":"X X ","weekRange":42.32},
 {"Company Name":"Telefonica","Market Value":552.0,"ticker":"TEF_MC","dayChange":0.38,"rsi_14":53.7,"EMAs.":"O X X X","ZLEMAs":"X X ","weekRange":26.98},
 {"Company Name":"Acciona Energias","Market Value":529.0,"ticker":"ANE_MC","dayChange":0.09,"rsi_14":46.4,"EMAs.":"O O X X","ZLEMAs":"O O ","weekRange":33.01},
-{"Company Name":"Aena Sme Sa","Market Value":528.0,"ticker":"AENA_MC","dayChange":-1.71,"rsi_14":46.4,"EMAs.":"X X X O","ZLEMAs":"O O ","weekRange":64.06},
+{"Company Name":"Aena Sme Sa","Market Value":528.0,"ticker":"AENA_MC","dayChange":-1.71,"rsi_14":46.4,"EMAs.":"X X O O","ZLEMAs":"O O ","weekRange":64.06},
 {"Company Name":"Cie Automotive","Market Value":524.0,"ticker":"CIE_MC","dayChange":1.55,"rsi_14":50.4,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":14.47},
 {"Company Name":"Grifols","Market Value":493.0,"ticker":"GRF_MC","dayChange":-2.86,"rsi_14":51.9,"EMAs.":"O X O O","ZLEMAs":"X X ","weekRange":32.18},
-{"Company Name":"Tubacex","Market Value":463.0,"ticker":"TUB_MC","dayChange":-0.96,"rsi_14":47.0,"EMAs.":"O O X X","ZLEMAs":"O O ","weekRange":31.65},
+{"Company Name":"Tubacex","Market Value":463.0,"ticker":"TUB_MC","dayChange":-0.96,"rsi_14":47.0,"EMAs.":"O O X O","ZLEMAs":"O O ","weekRange":31.65},
 {"Company Name":"Ebro Foods Sa","Market Value":453.0,"ticker":"EBRO_MC","dayChange":-0.44,"rsi_14":46.3,"EMAs.":"O X O O","ZLEMAs":"O O ","weekRange":38.4},
 {"Company Name":"Making Science Gr","Market Value":390.0,"ticker":"MAKS_MC","dayChange":0.78,"rsi_14":36.2,"EMAs.":"O O O X","ZLEMAs":"O X ","weekRange":7.81}
 ]
