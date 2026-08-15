@@ -133,5 +133,5 @@
 {"Date":"25-06-09","ticker":"VSAT","dayChange":-0.04,"rsi_14":56.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":84.95},
 {"Date":"25-05-16","ticker":"MU","dayChange":2.3,"rsi_14":56.3,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":75.18},
 {"Date":"25-05-15","ticker":"CSCO","dayChange":-1.58,"rsi_14":41.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":71.08},
-{"Date":"25-05-09","ticker":"STX","dayChange":5.65,"rsi_14":62.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.72}
+{"Date":"25-05-09","ticker":"STX","dayChange":5.65,"rsi_14":62.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.71}
 ]

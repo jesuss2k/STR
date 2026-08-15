@@ -29,5 +29,5 @@
 {"ticker":"HD","dayChange":-0.83,"rsi_14":47.8,"EMAs.":"O X O O","ZLEMAs":"X O O","weekRange":36.15},
 {"ticker":"IBM","dayChange":-1.19,"rsi_14":47.7,"EMAs.":"O O X O","ZLEMAs":"O O O","weekRange":26.36},
 {"ticker":"RCL","dayChange":-1.57,"rsi_14":48.2,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":54.24},
-{"ticker":"META","dayChange":-0.86,"rsi_14":47.6,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":25.21}
+{"ticker":"META","dayChange":-0.86,"rsi_14":47.6,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":25.72}
 ]

@@ -69,5 +69,5 @@
 {"Group":"12","ticker":"DELL","dayChange":-0.75,"rsi_14":61.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.26},
 {"Group":"12","ticker":"MU","dayChange":2.3,"rsi_14":56.3,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":75.18},
 {"Group":"12","ticker":"ASML","dayChange":-0.21,"rsi_14":59.5,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":87.86},
-{"Group":"12","ticker":"STX","dayChange":5.65,"rsi_14":62.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.72}
+{"Group":"12","ticker":"STX","dayChange":5.65,"rsi_14":62.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.71}
 ]
