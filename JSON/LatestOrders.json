@@ -293,7 +293,7 @@
 {"ticker":"ORCL","positionStatus":"Open","price":150.0,"quantity":3,"leverage":0},
 {"ticker":"ORCL","positionStatus":"Open","price":185.34,"quantity":2,"leverage":0},
 {"ticker":"PANW","positionStatus":"Closed","price":316.15,"quantity":1,"leverage":0},
-{"ticker":"PANW","positionStatus":"Open","price":392.74,"quantity":1,"leverage":0},
+{"ticker":"PANW","positionStatus":"Open","price":196.37,"quantity":2,"leverage":0},
 {"ticker":"PATH","positionStatus":"Closed","price":14.0,"quantity":10,"leverage":0},
 {"ticker":"PAYC","positionStatus":"Closed","price":150.11,"quantity":4,"leverage":0},
 {"ticker":"PCAR","positionStatus":"Closed","price":114.4373,"quantity":1,"leverage":0},
