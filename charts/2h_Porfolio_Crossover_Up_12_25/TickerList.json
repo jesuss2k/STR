@@ -1,4 +1,4 @@
 [
-{"ticker":"PSN","dayChange":0.65,"rsi_14":44.1,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":21.86},
-{"ticker":"PINS","dayChange":3.17,"rsi_14":55.3,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":41.33}
+{"ticker":"PSN","dayChange":0.65,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":21.86},
+{"ticker":"PINS","dayChange":3.17,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":41.33}
 ]
