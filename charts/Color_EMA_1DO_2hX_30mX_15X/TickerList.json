@@ -1,13 +1,8 @@
 [
-{"EMAs":"X O X X","ticker":"AAP","dayChange":0.3,"rsi_14":50.7,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":68.92},
-{"EMAs":"X O X X","ticker":"ACMR","dayChange":6.49,"rsi_14":51.7,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":59.68},
-{"EMAs":"X O X X","ticker":"CAT","dayChange":2.93,"rsi_14":52.3,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":71.29},
-{"EMAs":"X O X X","ticker":"SOXL","dayChange":4.54,"rsi_14":51.4,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":45.94},
-{"EMAs":"O O X X","ticker":"SDOW","dayChange":1.47,"rsi_14":44.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":8.38},
-{"EMAs":"O O X X","ticker":"APLD","dayChange":-0.06,"rsi_14":52.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":47.97},
-{"EMAs":"O O X X","ticker":"MSFD","dayChange":2.98,"rsi_14":34.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":12.8},
-{"EMAs":"X O X X","ticker":"POWL","dayChange":2.46,"rsi_14":47.9,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":56.2},
-{"EMAs":"O O X X","ticker":"VNOM","dayChange":1.8,"rsi_14":51.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":49.59},
-{"EMAs":"X O X X","ticker":"WDC","dayChange":5.35,"rsi_14":54.2,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":63.69},
-{"EMAs":"O O X X","ticker":"AMZD","dayChange":0.48,"rsi_14":44.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":18.29}
+{"EMAs":"X O X X","ticker":"HLT","dayChange":0.8,"rsi_14":54.6,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":71.97},
+{"EMAs":"X X X X","ticker":"AAP","dayChange":3.63,"rsi_14":55.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":76.46},
+{"EMAs":"O O X X","ticker":"SDOW","dayChange":0.4,"rsi_14":45.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":8.84},
+{"EMAs":"O O X X","ticker":"MSFD","dayChange":0.09,"rsi_14":34.7,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":12.99},
+{"EMAs":"O O X X","ticker":"VNOM","dayChange":0.77,"rsi_14":52.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":51.65},
+{"EMAs":"O O X X","ticker":"AMZD","dayChange":1.13,"rsi_14":46.8,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":20.6}
 ]
