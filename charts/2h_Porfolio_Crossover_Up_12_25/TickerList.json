@@ -1,3 +1,5 @@
 [
-{"ticker":"HOOD","dayChange":7.51,"rsi_14":52.7,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":38.61}
+{"ticker":"TMF","dayChange":4.18,"rsi_14":47.8,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":13.05},
+{"ticker":"ULTA","dayChange":2.81,"rsi_14":56.8,"EMAs.":"O X O X","ZLEMAs":"O X X","weekRange":32.3},
+{"ticker":"HUMA","dayChange":23.54,"rsi_14":53.1,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":9.51}
 ]
