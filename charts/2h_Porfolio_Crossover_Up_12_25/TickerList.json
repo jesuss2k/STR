@@ -1,3 +1,4 @@
 [
-{"ticker":"QID","dayChange":3.51,"rsi_14":47.1,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":6.75}
+{"ticker":"ECL","dayChange":1.67,"rsi_14":59.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":62.79},
+{"ticker":"EL","dayChange":17.29,"rsi_14":73.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":58.86}
 ]
