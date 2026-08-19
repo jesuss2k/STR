@@ -1,5 +1,3 @@
 [
-{"ticker":"TMF","dayChange":4.18,"rsi_14":47.8,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":13.05},
-{"ticker":"ULTA","dayChange":2.81,"rsi_14":56.8,"EMAs.":"O X O X","ZLEMAs":"O X X","weekRange":32.3},
-{"ticker":"HUMA","dayChange":23.54,"rsi_14":53.1,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":9.51}
+{"ticker":"TZA","dayChange":-1.39,"rsi_14":53.8,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":85.74}
 ]
