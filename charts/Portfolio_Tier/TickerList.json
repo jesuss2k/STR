@@ -1,19 +1,19 @@
 [
 {"ticker":"AAPL","dayChange":1.45,"rsi_14":47.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":71.4},
 {"ticker":"GOOG","dayChange":-0.05,"rsi_14":45.0,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":69.47},
-{"ticker":"LLY","dayChange":3.68,"rsi_14":58.0,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":95.96},
+{"ticker":"LLY","dayChange":3.6,"rsi_14":57.9,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":95.8},
 {"ticker":"AMD","dayChange":-4.27,"rsi_14":47.5,"EMAs.":"X O X O","ZLEMAs":"X O O","weekRange":76.96},
 {"ticker":"ASML","dayChange":-4.26,"rsi_14":53.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":84.66},
 {"ticker":"COST","dayChange":0.82,"rsi_14":55.1,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":46.46},
 {"ticker":"CCL","dayChange":-1.66,"rsi_14":45.8,"EMAs.":"O X O O","ZLEMAs":"O O O","weekRange":36.11},
 {"ticker":"DAL","dayChange":-2.16,"rsi_14":43.5,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":75.45},
-{"ticker":"DELL","dayChange":-2.34,"rsi_14":56.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.76},
+{"ticker":"DELL","dayChange":-2.33,"rsi_14":56.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.77},
 {"ticker":"FTNT","dayChange":1.39,"rsi_14":49.7,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":85.71},
 {"ticker":"HOOD","dayChange":-4.9,"rsi_14":43.7,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":31.01},
 {"ticker":"IBKR","dayChange":-4.0,"rsi_14":49.6,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":81.28},
 {"ticker":"KLAC","dayChange":-5.33,"rsi_14":44.6,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":49.77},
 {"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":21.51},
-{"ticker":"NET","dayChange":-1.8,"rsi_14":56.3,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":82.27},
+{"ticker":"NET","dayChange":-1.84,"rsi_14":56.3,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":82.2},
 {"ticker":"OKTA","dayChange":0.47,"rsi_14":51.2,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":86.14},
 {"ticker":"UAL","dayChange":-2.9,"rsi_14":42.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":62.96}
 ]

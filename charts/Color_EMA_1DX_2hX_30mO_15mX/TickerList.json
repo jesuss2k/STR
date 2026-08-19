@@ -1,5 +1,5 @@
 [
 {"EMAs":"X X X O","ticker":"BAC","dayChange":0.53,"rsi_14":64.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.79},
-{"EMAs":"X X X O","ticker":"TGT","dayChange":1.07,"rsi_14":64.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.74},
-{"EMAs":"O X X O","ticker":"CPB","dayChange":0.79,"rsi_14":53.2,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":22.61}
+{"EMAs":"O X X O","ticker":"CPB","dayChange":0.79,"rsi_14":53.2,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":22.61},
+{"EMAs":"X X X O","ticker":"TGT","dayChange":0.97,"rsi_14":63.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.54}
 ]
