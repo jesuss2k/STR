@@ -1,19 +1,19 @@
 [
 {"ticker":"AAPL","dayChange":-0.63,"rsi_14":47.3,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":70.62},
 {"ticker":"GOOG","dayChange":1.05,"rsi_14":46.0,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":69.0},
-{"ticker":"LLY","dayChange":0.83,"rsi_14":59.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":93.67},
+{"ticker":"LLY","dayChange":0.88,"rsi_14":59.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":93.78},
 {"ticker":"AMD","dayChange":0.81,"rsi_14":45.8,"EMAs.":"X O O X","ZLEMAs":"X O O","weekRange":74.4},
 {"ticker":"ASML","dayChange":0.77,"rsi_14":50.5,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":81.6},
 {"ticker":"COST","dayChange":1.52,"rsi_14":49.0,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":41.07},
 {"ticker":"CCL","dayChange":1.42,"rsi_14":38.0,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":21.55},
 {"ticker":"DAL","dayChange":1.67,"rsi_14":39.0,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":67.36},
-{"ticker":"DELL","dayChange":1.66,"rsi_14":50.1,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":82.16},
+{"ticker":"DELL","dayChange":1.68,"rsi_14":50.1,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":82.19},
 {"ticker":"FTNT","dayChange":1.8,"rsi_14":45.8,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":81.14},
 {"ticker":"HOOD","dayChange":13.7,"rsi_14":62.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":49.38},
 {"ticker":"IBKR","dayChange":4.47,"rsi_14":56.3,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":89.79},
 {"ticker":"KLAC","dayChange":-1.01,"rsi_14":39.8,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":44.95},
 {"ticker":"MMC","dayChange":-1.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":22.16},
-{"ticker":"NET","dayChange":5.07,"rsi_14":52.2,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":77.41},
+{"ticker":"NET","dayChange":5.1,"rsi_14":52.2,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":77.46},
 {"ticker":"OKTA","dayChange":0.73,"rsi_14":42.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":76.83},
 {"ticker":"UAL","dayChange":1.31,"rsi_14":37.8,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":52.7}
 ]
