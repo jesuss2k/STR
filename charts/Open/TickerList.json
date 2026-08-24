@@ -69,7 +69,7 @@
 {"$ Prft":85.0,"% Pfrt":7.7,"ticker":"NU","dayChange":1.37,"rsi_14":56.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":46.02},
 {"$ Prft":104.0,"% Pfrt":11.1,"ticker":"NVDA","dayChange":-2.33,"rsi_14":45.8,"EMAs.":"X X O O","ZLEMAs":"O O O","weekRange":62.98},
 {"$ Prft":-40.0,"% Pfrt":-14.5,"ticker":"NVO","dayChange":0.14,"rsi_14":48.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":40.24},
-{"$ Prft":-228.0,"% Pfrt":-33.3,"ticker":"OLLI","dayChange":-0.1,"rsi_14":52.4,"EMAs.":"O X O X","ZLEMAs":"O X O","weekRange":19.66},
+{"$ Prft":-235.0,"% Pfrt":-10.6,"ticker":"OLLI","dayChange":-0.1,"rsi_14":52.4,"EMAs.":"O X O X","ZLEMAs":"O X O","weekRange":19.66},
 {"$ Prft":79.0,"% Pfrt":4.5,"ticker":"ORCL","dayChange":-2.31,"rsi_14":49.6,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":12.36},
 {"$ Prft":1011.0,"% Pfrt":257.4,"ticker":"PANW","dayChange":-1.94,"rsi_14":48.5,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":81.51},
 {"$ Prft":115.0,"% Pfrt":21.7,"ticker":"PCAR","dayChange":-0.97,"rsi_14":50.4,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":79.81},

@@ -277,6 +277,7 @@
 {"ticker":"NVO","positionStatus":"Open","price":54.76,"quantity":5,"leverage":0},
 {"ticker":"OKTA","positionStatus":"Closed","price":148.0,"quantity":6,"leverage":0},
 {"ticker":"OLLI","positionStatus":"Closed","price":108.62,"quantity":5,"leverage":0},
+{"ticker":"OLLI","positionStatus":"Open","price":76.36,"quantity":20,"leverage":0},
 {"ticker":"OLLI","positionStatus":"Open","price":114.0,"quantity":6,"leverage":0},
 {"ticker":"ON","positionStatus":"Closed","price":73.432,"quantity":2,"leverage":0},
 {"ticker":"OPRA","positionStatus":"Closed","price":14.575,"quantity":40,"leverage":0},
