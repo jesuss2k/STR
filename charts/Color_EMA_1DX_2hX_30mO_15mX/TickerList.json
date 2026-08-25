@@ -1,6 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"KYMR","dayChange":1.04,"rsi_14":61.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":90.02},
-{"EMAs":"X X X O","ticker":"VEEV","dayChange":0.23,"rsi_14":69.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":61.81},
-{"EMAs":"X X X O","ticker":"TEAM","dayChange":-0.28,"rsi_14":76.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":90.1},
-{"EMAs":"X X X O","ticker":"BIIB","dayChange":0.62,"rsi_14":59.9,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":95.55}
+{"EMAs":"O X X O","ticker":"RXRX","dayChange":5.85,"rsi_14":55.3,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":15.19},
+{"EMAs":"X X X O","ticker":"LLY","dayChange":0.75,"rsi_14":59.1,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":93.73},
+{"EMAs":"X X X O","ticker":"KYMR","dayChange":1.8,"rsi_14":64.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":92.44}
 ]
