@@ -1,6 +1,8 @@
 [
 {"Company Name":"Amundi Ibex 35 Di","Market Value":4692.0,"ticker":"LYXIB_MC","dayChange":0.26,"rsi_14":59.5,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":96.43},
 {"Company Name":"Acciona","Market Value":2534.0,"ticker":"ANA_MC","dayChange":0.67,"rsi_14":34.2,"EMAs.":"X O O X","ZLEMAs":"O O ","weekRange":39.16},
+{"Company Name":"Accion Ibex 35","Market Value":2022.0,"ticker":"BBVAI_MC","dayChange":0.6,"rsi_14":52.3,"EMAs.":"X X X X","ZLEMAs":"O O ","weekRange":92.03},
+{"Company Name":"Iberdrola Sa","Market Value":2009.0,"ticker":"IBE_MC","dayChange":0.3,"rsi_14":33.1,"EMAs.":"X O O X","ZLEMAs":"O O ","weekRange":70.52},
 {"Company Name":"Caixabank S.a.","Market Value":1599.0,"ticker":"CABK_MC","dayChange":0.45,"rsi_14":62.9,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":97.15},
 {"Company Name":"Inditex","Market Value":1581.0,"ticker":"ITX_MC","dayChange":0.21,"rsi_14":57.8,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":95.16},
 {"Company Name":"Endesa","Market Value":1512.0,"ticker":"ELE_MC","dayChange":0.17,"rsi_14":59.8,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":96.1},
