@@ -1,3 +1,4 @@
 [
-{"ticker":"FDX","dayChange":0.2,"rsi_14":60.3,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":58.9}
+{"ticker":"SMCI","dayChange":8.98,"rsi_14":61.8,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":47.96},
+{"ticker":"MMYT","dayChange":1.59,"rsi_14":59.8,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":40.38}
 ]
