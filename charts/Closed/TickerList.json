@@ -95,10 +95,10 @@
 {"ticker":"RYAAY","dayChange":0.92,"rsi_14":44.2,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":18.82},
 {"ticker":"TTWO","dayChange":0.55,"rsi_14":44.5,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":60.22},
 {"ticker":"TGT","dayChange":-3.78,"rsi_14":66.4,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":91.66},
-{"ticker":"EXC","dayChange":-0.43,"rsi_14":38.6,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":19.45},
+{"ticker":"EXC","dayChange":-0.46,"rsi_14":38.6,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":19.27},
 {"ticker":"LUNA","dayChange":-0.37,"rsi_14":61.6,"EMAs.":0,"ZLEMAs":"X X X","weekRange":64.57},
 {"ticker":"PTC","dayChange":-2.14,"rsi_14":61.3,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":38.95},
-{"ticker":"GILD","dayChange":0.72,"rsi_14":68.9,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":80.55},
-{"ticker":"KHC","dayChange":-1.03,"rsi_14":50.2,"EMAs.":"X X X O","ZLEMAs":"X O ","weekRange":61.94},
+{"ticker":"GILD","dayChange":0.84,"rsi_14":68.9,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":80.92},
+{"ticker":"KHC","dayChange":-1.4,"rsi_14":50.2,"EMAs.":"X X X O","ZLEMAs":"X O ","weekRange":60.61},
 {"ticker":"WBD","dayChange":0.64,"rsi_14":72.0,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":94.05}
 ]
