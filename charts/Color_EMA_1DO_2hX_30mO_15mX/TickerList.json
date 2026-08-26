@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"HIMS","dayChange":3.35,"rsi_14":53.3,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":35.65}
+{"EMAs":"O O X O","ticker":"HLI","dayChange":0.02,"rsi_14":47.3,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":16.41},
+{"EMAs":"X O X O","ticker":"AAPL","dayChange":0.96,"rsi_14":50.9,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":73.28}
 ]
