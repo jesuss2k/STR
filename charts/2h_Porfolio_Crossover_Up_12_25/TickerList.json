@@ -1,4 +1,5 @@
 [
-{"ticker":"IOT","dayChange":2.45,"rsi_14":56.2,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":69.41},
-{"ticker":"FFIV","dayChange":4.99,"rsi_14":51.9,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":84.3}
+{"ticker":"HPQ","dayChange":3.39,"rsi_14":61.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":88.59},
+{"ticker":"ACIW","dayChange":1.22,"rsi_14":47.6,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":65.08},
+{"ticker":"MAMA","dayChange":0.72,"rsi_14":44.8,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":67.65}
 ]
