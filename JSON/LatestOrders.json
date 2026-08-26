@@ -119,6 +119,7 @@
 {"ticker":"DG","positionStatus":"Open","price":117.0,"quantity":10,"leverage":0},
 {"ticker":"DIA_MC","positionStatus":"Open","price":41.35,"quantity":15,"leverage":0},
 {"ticker":"DIS","positionStatus":"Closed","price":111.4335,"quantity":5,"leverage":0},
+{"ticker":"DKS","positionStatus":"Open","price":126.2799,"quantity":8,"leverage":0},
 {"ticker":"DLTR","positionStatus":"Closed","price":85.05,"quantity":5,"leverage":0},
 {"ticker":"DOCU","positionStatus":"Closed","price":60.3535,"quantity":13,"leverage":0},
 {"ticker":"DOCU","positionStatus":"Open","price":42.0,"quantity":38,"leverage":0},
