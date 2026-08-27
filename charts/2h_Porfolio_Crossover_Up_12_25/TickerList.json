@@ -1,5 +1,5 @@
 [
-{"ticker":"ACIW","dayChange":1.22,"rsi_14":47.6,"EMAs.":0,"ZLEMAs":0,"weekRange":65.08},
-{"ticker":"MAMA","dayChange":0.72,"rsi_14":44.8,"EMAs.":0,"ZLEMAs":0,"weekRange":67.65},
-{"ticker":"HPQ","dayChange":3.39,"rsi_14":61.1,"EMAs.":0,"ZLEMAs":0,"weekRange":88.59}
+{"ticker":"PTC","dayChange":3.22,"rsi_14":66.8,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":43.97},
+{"ticker":"TSM","dayChange":1.39,"rsi_14":53.3,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":78.1},
+{"ticker":"GM","dayChange":0.17,"rsi_14":53.6,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":85.68}
 ]
