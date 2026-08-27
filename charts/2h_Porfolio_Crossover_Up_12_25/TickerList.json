@@ -1,3 +1,4 @@
 [
-{"ticker":"TQQQ","dayChange":2.82,"rsi_14":51.6,"EMAs.":"X O O X","ZLEMAs":"X X X","weekRange":69.2}
+{"ticker":"LRCX","dayChange":1.82,"rsi_14":50.4,"EMAs.":"X O O X","ZLEMAs":"O X X","weekRange":65.18},
+{"ticker":"HIMS","dayChange":6.13,"rsi_14":52.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":34.76}
 ]
