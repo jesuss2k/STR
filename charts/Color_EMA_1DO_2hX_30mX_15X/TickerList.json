@@ -1,9 +1,3 @@
 [
-{"EMAs":"X X X X","ticker":"AAPL","dayChange":1.89,"rsi_14":58.0,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":79.73},
-{"EMAs":"O O X X","ticker":"HLI","dayChange":1.22,"rsi_14":52.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":19.78},
-{"EMAs":"O X X X","ticker":"DRV","dayChange":1.2,"rsi_14":56.6,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":20.54},
-{"EMAs":"X O X X","ticker":"DAVE","dayChange":1.6,"rsi_14":56.5,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":74.42},
-{"EMAs":"X O X X","ticker":"ACIW","dayChange":-0.01,"rsi_14":53.5,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":70.21},
-{"EMAs":"X O X X","ticker":"SEZL","dayChange":-0.04,"rsi_14":42.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":52.15},
-{"EMAs":"X O X X","ticker":"TD","dayChange":-0.32,"rsi_14":51.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":90.97}
+{"EMAs":"X O X X","ticker":"TD","dayChange":-0.07,"rsi_14":52.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":91.54}
 ]
