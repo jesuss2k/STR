@@ -1,5 +1,4 @@
 [
-{"ticker":"FLUT","dayChange":0.46,"rsi_14":52.6,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":5.94},
-{"ticker":"CPB","dayChange":1.54,"rsi_14":57.7,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":28.69},
-{"ticker":"TMV","dayChange":2.18,"rsi_14":55.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":86.28}
+{"ticker":"SPXU","dayChange":1.43,"rsi_14":47.9,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":44.56},
+{"ticker":"ULTA","dayChange":3.29,"rsi_14":54.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":33.5}
 ]
