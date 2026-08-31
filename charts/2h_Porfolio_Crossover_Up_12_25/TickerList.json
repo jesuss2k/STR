@@ -1,4 +1,5 @@
 [
-{"ticker":"GM","dayChange":0.99,"rsi_14":55.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":87.39},
-{"ticker":"LABD","dayChange":3.33,"rsi_14":44.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":4.43}
+{"ticker":"FLUT","dayChange":0.46,"rsi_14":52.6,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":5.94},
+{"ticker":"CPB","dayChange":1.54,"rsi_14":57.7,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":28.69},
+{"ticker":"TMV","dayChange":2.18,"rsi_14":55.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":86.28}
 ]
