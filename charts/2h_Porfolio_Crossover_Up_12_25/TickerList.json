@@ -1,3 +1,4 @@
 [
-{"ticker":"GOOGL","dayChange":1.74,"rsi_14":49.3,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":69.36}
+{"ticker":"GM","dayChange":0.99,"rsi_14":55.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":87.39},
+{"ticker":"LABD","dayChange":3.33,"rsi_14":44.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":4.43}
 ]
