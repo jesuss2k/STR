@@ -1,3 +1,4 @@
 [
-{"ticker":"DUST","dayChange":3.28,"rsi_14":35.5,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":3.28}
+{"ticker":"QID","dayChange":2.53,"rsi_14":53.1,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":10.39},
+{"ticker":"SQQQ","dayChange":3.71,"rsi_14":52.4,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":7.12}
 ]
