@@ -1,6 +1,6 @@
 [
 {"EMAs":"X X X O","ticker":"QQQ","dayChange":0.05,"rsi_14":52.1,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":83.48},
-{"EMAs":"X X X O","ticker":"QLD","dayChange":0.1,"rsi_14":51.1,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":75.49},
+{"EMAs":"X X X O","ticker":"QLD","dayChange":0.08,"rsi_14":51.0,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":75.45},
 {"EMAs":"X X X O","ticker":"TECL","dayChange":1.3,"rsi_14":52.3,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":64.06},
 {"EMAs":"X X X O","ticker":"ANET","dayChange":0.16,"rsi_14":54.8,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":80.87}
 ]
