@@ -85,6 +85,7 @@
 {"Dir":"X","ticker":"WBD","dayChange":0.25,"rsi_14":59.8,"EMAs.":"X X O O","ZLEMAs":"O X O","weekRange":91.32},
 {"Dir":"X","ticker":"WIX","dayChange":-1.91,"rsi_14":68.2,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":30.86},
 {"Dir":"X","ticker":"XLE","dayChange":0.48,"rsi_14":71.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.84},
+{"Dir":"X","ticker":"YEXT","dayChange":0.31,"rsi_14":62.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":55.49},
 {"Dir":"O","ticker":"AAP","dayChange":0.09,"rsi_14":31.4,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":17.97},
 {"Dir":"O","ticker":"ACIW","dayChange":2.4,"rsi_14":46.1,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":62.56},
 {"Dir":"O","ticker":"ACMR","dayChange":-0.2,"rsi_14":37.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":43.33},

@@ -17,7 +17,6 @@
 {"ticker":"EEM","dayChange":0.57,"rsi_14":55.0,"EMAs.":"X X X X","ZLEMAs":"O X O","weekRange":79.95},
 {"ticker":"MNDY","dayChange":-2.14,"rsi_14":54.4,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":22.62},
 {"ticker":"PGR","dayChange":0.38,"rsi_14":57.0,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":53.08},
-{"ticker":"YEXT","dayChange":0.31,"rsi_14":62.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":55.49},
 {"ticker":"ADBE","dayChange":-2.2,"rsi_14":58.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":49.61},
 {"ticker":"NVDA","dayChange":3.21,"rsi_14":56.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":83.26},
 {"ticker":"META","dayChange":2.47,"rsi_14":55.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":26.83},

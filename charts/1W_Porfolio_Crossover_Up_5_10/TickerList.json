@@ -51,6 +51,7 @@
 {"Date":"26-07-02","ticker":"VEEV","dayChange":0.53,"rsi_14":72.4,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":81.67},
 {"Date":"26-07-02","ticker":"GPN","dayChange":3.05,"rsi_14":60.2,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":91.16},
 {"Date":"26-06-30","ticker":"PBF","dayChange":0.65,"rsi_14":61.2,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":95.3},
+{"Date":"26-06-30","ticker":"YEXT","dayChange":0.31,"rsi_14":62.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":55.49},
 {"Date":"26-06-26","ticker":"CPB","dayChange":0.3,"rsi_14":58.1,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":28.9},
 {"Date":"26-06-26","ticker":"MMYT","dayChange":2.76,"rsi_14":47.6,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":35.44},
 {"Date":"26-06-24","ticker":"EXPE","dayChange":1.26,"rsi_14":48.2,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":78.34},

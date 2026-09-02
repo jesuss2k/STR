@@ -38,7 +38,6 @@
 {"ticker":"ACN","dayChange":-0.22,"rsi_14":63.6,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":40.2},
 {"ticker":"NFLX","dayChange":2.38,"rsi_14":63.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":28.64},
 {"ticker":"MELI","dayChange":2.19,"rsi_14":62.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":48.56},
-{"ticker":"YEXT","dayChange":0.31,"rsi_14":62.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":55.49},
 {"ticker":"DG","dayChange":-0.11,"rsi_14":62.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":56.78},
 {"ticker":"NOW","dayChange":-4.32,"rsi_14":59.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":48.89},
 {"ticker":"AR","dayChange":-0.55,"rsi_14":67.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":63.0},

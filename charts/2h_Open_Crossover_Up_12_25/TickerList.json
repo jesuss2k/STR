@@ -35,7 +35,6 @@
 {"Date":"26-08-10","ticker":"AR","dayChange":-0.55,"rsi_14":67.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":63.0},
 {"Date":"26-08-07","ticker":"T","dayChange":-0.15,"rsi_14":67.1,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":61.31},
 {"Date":"26-08-04","ticker":"TSLA","dayChange":0.28,"rsi_14":53.5,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":29.65},
-{"Date":"26-07-27","ticker":"YEXT","dayChange":0.31,"rsi_14":62.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":55.49},
 {"Date":"26-07-27","ticker":"CRM","dayChange":-0.46,"rsi_14":80.0,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":90.08},
 {"Date":"26-07-27","ticker":"NFLX","dayChange":2.38,"rsi_14":63.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":28.64},
 {"Date":"26-07-20","ticker":"ELF","dayChange":1.72,"rsi_14":67.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":57.3}
