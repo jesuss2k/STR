@@ -23,7 +23,7 @@
 {"$ Prft":-33.0,"% Prft":-5.27,"Size":589.0,"ticker":"DIA_MC","dayChange":1.68,"rsi_14":49.5,"EMAs.":"X O X X","ZLEMAs":"O O ","weekRange":77.22},
 {"$ Prft":-3.0,"% Prft":-0.48,"Size":584.0,"ticker":"HBX_MC","dayChange":-1.81,"rsi_14":31.0,"EMAs.":"X O O O","ZLEMAs":"X O ","weekRange":52.33},
 {"$ Prft":32.0,"% Prft":5.99,"Size":565.0,"ticker":"AMS_MC","dayChange":0.71,"rsi_14":52.2,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":43.69},
-{"$ Prft":7.0,"% Prft":1.33,"Size":548.0,"ticker":"TEF_MC","dayChange":0.58,"rsi_14":51.1,"EMAs.":"O O O X","ZLEMAs":"X X ","weekRange":30.01},
+{"$ Prft":7.0,"% Prft":1.33,"Size":548.0,"ticker":"TEF_MC","dayChange":0.58,"rsi_14":51.1,"EMAs.":"O O X X","ZLEMAs":"X X ","weekRange":30.01},
 {"$ Prft":-16.0,"% Prft":-2.96,"Size":528.0,"ticker":"ANE_MC","dayChange":-1.22,"rsi_14":46.2,"EMAs.":"O O O O","ZLEMAs":"O X ","weekRange":32.68},
 {"$ Prft":-19.0,"% Prft":-3.43,"Size":523.0,"ticker":"COL_MC","dayChange":0.1,"rsi_14":29.5,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":38.55},
 {"$ Prft":42.0,"% Prft":8.83,"Size":514.0,"ticker":"AENA_MC","dayChange":-1.23,"rsi_14":37.3,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":53.91},
@@ -31,6 +31,6 @@
 {"$ Prft":-78.0,"% Prft":-13.38,"Size":506.0,"ticker":"CIE_MC","dayChange":0.2,"rsi_14":40.0,"EMAs.":"O O O X","ZLEMAs":"O O ","weekRange":4.94},
 {"$ Prft":-19.0,"% Prft":-3.77,"Size":495.0,"ticker":"GRF_MC","dayChange":-0.28,"rsi_14":50.5,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":33.03},
 {"$ Prft":1.0,"% Prft":0.13,"Size":464.0,"ticker":"EBRO_MC","dayChange":0.98,"rsi_14":61.1,"EMAs.":"X X X X","ZLEMAs":"O X ","weekRange":50.89},
-{"$ Prft":-85.0,"% Prft":-16.62,"Size":425.0,"ticker":"TUB_MC","dayChange":0.18,"rsi_14":29.6,"EMAs.":"O O O X","ZLEMAs":"O O ","weekRange":8.72},
-{"$ Prft":-112.0,"% Prft":-22.44,"Size":387.0,"ticker":"MAKS_MC","dayChange":0.0,"rsi_14":43.4,"EMAs.":0,"ZLEMAs":0,"weekRange":6.35}
+{"$ Prft":-85.0,"% Prft":-16.62,"Size":425.0,"ticker":"TUB_MC","dayChange":0.18,"rsi_14":29.6,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":8.72},
+{"$ Prft":-112.0,"% Prft":-22.44,"Size":387.0,"ticker":"MAKS_MC","dayChange":0.0,"rsi_14":43.4,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":6.35}
 ]
