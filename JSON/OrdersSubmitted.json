@@ -246,13 +246,5 @@
 {"ticker":"DDOG","price":100.0,"buySell":"Buy","filled":0,"remain":10,"orderType":"Limit"},
 {"ticker":"CROX","price":74.0,"buySell":"Buy","filled":0,"remain":15,"orderType":"Limit"},
 {"ticker":"OPRA","price":12.0,"buySell":"Buy","filled":0,"remain":100,"orderType":"Limit"},
-{"ticker":"REP_MC","price":22.0,"buySell":"BUY","filled":0,"remain":100,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"REP_MC","price":23.0,"buySell":"BUY","filled":0,"remain":100,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"SAN_MC","price":11.1,"buySell":"BUY","filled":0,"remain":150,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"CLNX_MC","price":32.0,"buySell":"SELL","filled":0,"remain":20,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"SAN_MC","price":11.0,"buySell":"BUY","filled":0,"remain":150,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"REP_MC","price":20.0,"buySell":"BUY","filled":0,"remain":50,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"BBVAI_MC","price":19.7,"buySell":"BUY","filled":0,"remain":100,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"BBVAI_MC","price":18.6,"buySell":"BUY","filled":0,"remain":120,"orderType":"Orden est\u00e1ndar"},
-{"ticker":"BBVAI_MC","price":18.7,"buySell":"BUY","filled":0,"remain":100,"orderType":"Orden est\u00e1ndar"}
+{"ticker":"BBVAI_MC","price":19.4,"buySell":"BUY","filled":0,"remain":250,"orderType":"Orden est\u00e1ndar"}
 ]
