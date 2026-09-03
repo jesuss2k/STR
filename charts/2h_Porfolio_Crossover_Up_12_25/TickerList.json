@@ -1,6 +1,3 @@
 [
-{"ticker":"OSCR","dayChange":4.06,"rsi_14":55.5,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":91.3},
-{"ticker":"DIA","dayChange":1.13,"rsi_14":56.5,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":89.48},
-{"ticker":"ASTS","dayChange":-1.27,"rsi_14":46.3,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":26.11},
-{"ticker":"YOU","dayChange":0.67,"rsi_14":39.3,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":37.57}
+{"ticker":"XLK","dayChange":1.36,"rsi_14":53.5,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":82.47}
 ]
