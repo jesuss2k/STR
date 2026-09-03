@@ -1,3 +1,5 @@
 [
-{"ticker":"XLK","dayChange":1.36,"rsi_14":53.5,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":82.47}
+{"ticker":"GM","dayChange":2.73,"rsi_14":55.8,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":87.58},
+{"ticker":"QLD","dayChange":2.54,"rsi_14":52.2,"EMAs.":"X O O X","ZLEMAs":"X X X","weekRange":76.15},
+{"ticker":"TQQQ","dayChange":3.8,"rsi_14":51.6,"EMAs.":"X O O X","ZLEMAs":"X X X","weekRange":68.79}
 ]
