@@ -1,4 +1,4 @@
 [
-{"EMAs":"O X X O","ticker":"DRV","dayChange":1.77,"rsi_14":59.3,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":26.28},
-{"EMAs":"X X X O","ticker":"MRNA","dayChange":-2.14,"rsi_14":63.3,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":79.94}
+{"EMAs":"X X X O","ticker":"TMV","dayChange":-0.36,"rsi_14":53.2,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":84.1},
+{"EMAs":"X X X O","ticker":"MRNA","dayChange":-1.81,"rsi_14":63.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":80.25}
 ]
