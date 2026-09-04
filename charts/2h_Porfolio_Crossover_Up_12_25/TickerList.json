@@ -1,7 +1,4 @@
 [
-{"ticker":"SEZL","dayChange":1.2,"rsi_14":43.6,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":50.24},
-{"ticker":"SMCI","dayChange":2.35,"rsi_14":58.5,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":46.79},
-{"ticker":"VSAT","dayChange":2.57,"rsi_14":46.2,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":68.16},
-{"ticker":"TECL","dayChange":3.85,"rsi_14":51.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":62.99},
-{"ticker":"TQQQ","dayChange":3.49,"rsi_14":51.2,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":68.37}
+{"ticker":"ON","dayChange":1.55,"rsi_14":42.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":33.46},
+{"ticker":"NTNX","dayChange":-0.43,"rsi_14":61.0,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":69.78}
 ]
