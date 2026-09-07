@@ -39,7 +39,7 @@
 {"ticker":"GPN","dayChange":0.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":90.38},
 {"ticker":"HSIC","dayChange":-1.16,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":92.16},
 {"ticker":"MELI","dayChange":-0.64,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":45.88},
-{"ticker":"NTGY_MC","dayChange":-0.67,"rsi_14":54.0,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":91.29},
+{"ticker":"NTGY_MC","dayChange":-0.67,"rsi_14":54.0,"EMAs.":"X X X O","ZLEMAs":"X O ","weekRange":91.29},
 {"ticker":"NTRS","dayChange":-0.43,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":87.74},
 {"ticker":"SII","dayChange":-1.11,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":60.58},
 {"ticker":"SMCI","dayChange":4.54,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":51.17},

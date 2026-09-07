@@ -120,7 +120,7 @@
 {"Setup_1D_100":"ADD_PULLBACK","Setup_1D_50":"BULLISH_CONTINUATION","Setup_1D_25":"ADD_PULLBACK","ticker":"KDP","dayChange":-0.88,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":86.25},
 {"Setup_1D_100":"ADD_PULLBACK","Setup_1D_50":"BULLISH_CONTINUATION","Setup_1D_25":"BULLISH_CONTINUATION","ticker":"KYMR","dayChange":0.09,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":85.59},
 {"Setup_1D_100":"ADD_PULLBACK","Setup_1D_50":"BULLISH_CONTINUATION","Setup_1D_25":"ADD_PULLBACK","ticker":"MTCH","dayChange":-1.34,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":89.02},
-{"Setup_1D_100":"ADD_PULLBACK","Setup_1D_50":"BULLISH_CONTINUATION","Setup_1D_25":"ADD_PULLBACK","ticker":"NTGY_MC","dayChange":-0.67,"rsi_14":54.0,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":91.29},
+{"Setup_1D_100":"ADD_PULLBACK","Setup_1D_50":"BULLISH_CONTINUATION","Setup_1D_25":"ADD_PULLBACK","ticker":"NTGY_MC","dayChange":-0.67,"rsi_14":54.0,"EMAs.":"X X X O","ZLEMAs":"X O ","weekRange":91.29},
 {"Setup_1D_100":"NO_SETUP","Setup_1D_50":"NO_SETUP","Setup_1D_25":"ADD_PULLBACK","ticker":"NUGT","dayChange":-4.34,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":41.91},
 {"Setup_1D_100":"BULLISH_CONTINUATION","Setup_1D_50":"ADD_PULLBACK","Setup_1D_25":"NO_SETUP","ticker":"QLD","dayChange":0.33,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":76.43},
 {"Setup_1D_100":"NO_SETUP","Setup_1D_50":"BULLISH_CONTINUATION","Setup_1D_25":"ADD_PULLBACK","ticker":"TEAM","dayChange":-2.62,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":93.67},
