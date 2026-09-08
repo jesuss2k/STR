@@ -1,5 +1,4 @@
 [
-{"ticker":"EME","dayChange":0.98,"rsi_14":47.1,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":50.8},
-{"ticker":"COHR","dayChange":6.7,"rsi_14":51.4,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":59.58},
-{"ticker":"LRCX","dayChange":2.21,"rsi_14":51.7,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":62.86}
+{"ticker":"ACMR","dayChange":5.45,"rsi_14":50.2,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":51.67},
+{"ticker":"MRVL","dayChange":2.45,"rsi_14":53.2,"EMAs.":"X X O X","ZLEMAs":"X X X","weekRange":61.9}
 ]
