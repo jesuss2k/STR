@@ -1,5 +1,5 @@
 [
-{"ticker":"AMD","dayChange":4.69,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":75.39},
-{"ticker":"STX","dayChange":6.34,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":69.13},
-{"ticker":"SOXL","dayChange":9.87,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":32.93}
+{"ticker":"EME","dayChange":0.98,"rsi_14":47.1,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":50.8},
+{"ticker":"COHR","dayChange":6.7,"rsi_14":51.4,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":59.58},
+{"ticker":"LRCX","dayChange":2.21,"rsi_14":51.7,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":62.86}
 ]
