@@ -3,6 +3,7 @@
 {"ticker":"FICO","dayChange":-3.27,"rsi_14":28.4,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":2.81},
 {"ticker":"BURL","dayChange":-3.32,"rsi_14":21.8,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":11.62},
 {"ticker":"ADSK","dayChange":-3.08,"rsi_14":32.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":18.17},
+{"ticker":"LULU","dayChange":1.58,"rsi_14":34.0,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":3.29},
 {"ticker":"MDB","dayChange":-2.5,"rsi_14":40.4,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":55.87},
 {"ticker":"AXON","dayChange":-1.32,"rsi_14":39.8,"EMAs.":"X O O O","ZLEMAs":"X O O","weekRange":37.48},
 {"ticker":"TREE","dayChange":-1.68,"rsi_14":31.3,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":1.6},

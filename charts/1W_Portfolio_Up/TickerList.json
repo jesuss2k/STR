@@ -7,6 +7,7 @@
 {"ticker":"CRWD","dayChange":-2.04,"rsi_14":51.1,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":83.05},
 {"ticker":"BAC","dayChange":-0.23,"rsi_14":51.8,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":85.92},
 {"ticker":"PAYC","dayChange":-5.02,"rsi_14":54.2,"EMAs.":0,"ZLEMAs":"X O O","weekRange":82.19},
+{"ticker":"DUOL","dayChange":-6.19,"rsi_14":51.1,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":21.5},
 {"ticker":"WBD","dayChange":-0.39,"rsi_14":54.6,"EMAs.":"X X O O","ZLEMAs":"O X O","weekRange":89.67},
 {"ticker":"WDC","dayChange":2.16,"rsi_14":50.5,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":54.43},
 {"ticker":"KLAC","dayChange":2.13,"rsi_14":50.4,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":45.54},

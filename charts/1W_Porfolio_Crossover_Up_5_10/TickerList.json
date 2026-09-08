@@ -67,6 +67,7 @@
 {"Date":"26-06-09","ticker":"DLTR","dayChange":-5.27,"rsi_14":42.7,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":68.95},
 {"Date":"26-06-05","ticker":"CDW","dayChange":-5.15,"rsi_14":51.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":63.7},
 {"Date":"26-06-02","ticker":"BAC","dayChange":-0.23,"rsi_14":51.8,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":85.92},
+{"Date":"26-06-01","ticker":"DUOL","dayChange":-6.19,"rsi_14":51.1,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":21.5},
 {"Date":"26-06-01","ticker":"HOOD","dayChange":-0.7,"rsi_14":65.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":63.92},
 {"Date":"26-05-29","ticker":"BBY","dayChange":-1.98,"rsi_14":56.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":92.3},
 {"Date":"26-05-29","ticker":"IOT","dayChange":-1.0,"rsi_14":52.7,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":68.16},

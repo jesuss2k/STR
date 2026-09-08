@@ -1,7 +1,6 @@
 [
 {"ticker":"SPY","dayChange":-0.38,"rsi_14":52.6,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":91.95},
 {"ticker":"ICE","dayChange":-1.84,"rsi_14":53.5,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":66.61},
-{"ticker":"DUOL","dayChange":-6.19,"rsi_14":51.1,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":21.5},
 {"ticker":"MELI","dayChange":-2.49,"rsi_14":52.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":41.21},
 {"ticker":"AES","dayChange":0.17,"rsi_14":60.2,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":46.71},
 {"ticker":"DG","dayChange":-4.64,"rsi_14":52.8,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":50.57},
