@@ -60,7 +60,6 @@
 {"ticker":"META","price":509.0,"buySell":"Buy","filled":0,"remain":2,"orderType":"Limit"},
 {"ticker":"QQQ","price":640.0,"buySell":"Buy","filled":0,"remain":6,"orderType":"Limit"},
 {"ticker":"NEE","price":70.0,"buySell":"Buy","filled":0,"remain":30,"orderType":"Limit"},
-{"ticker":"ON","price":71.0,"buySell":"Buy","filled":0,"remain":30,"orderType":"Limit"},
 {"ticker":"DAL","price":60.0,"buySell":"Buy","filled":0,"remain":30,"orderType":"Limit"},
 {"ticker":"DAL","price":68.0,"buySell":"Buy","filled":0,"remain":30,"orderType":"Limit"},
 {"ticker":"CAT","price":663.0,"buySell":"Buy","filled":0,"remain":3,"orderType":"Limit"},
