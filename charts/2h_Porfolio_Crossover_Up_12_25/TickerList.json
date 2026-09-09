@@ -1,3 +1,4 @@
 [
-{"ticker":"POWL","dayChange":0.18,"rsi_14":39.6,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":38.44}
+{"ticker":"FFIV","dayChange":4.19,"rsi_14":54.2,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":86.24},
+{"ticker":"FNGD","dayChange":-0.41,"rsi_14":43.4,"EMAs.":"O O O X","ZLEMAs":"X X X","weekRange":2.72}
 ]
