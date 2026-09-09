@@ -490,6 +490,16 @@ document.addEventListener("DOMContentLoaded", async function () {
                 return;
             }
 
+            const menuShortcut = {
+                i: 'chart-summary',
+                o: 'chart-line'
+            }[event.key.toLowerCase()];
+            if (menuShortcut && !event.ctrlKey && !event.altKey && !event.metaKey) {
+                event.preventDefault();
+                document.getElementById(menuShortcut)?.click();
+                return;
+            }
+
             const currentIndex = findTickerIndex_v2(sortedTickers, ticker);
             if (currentIndex === -1) return;
 
