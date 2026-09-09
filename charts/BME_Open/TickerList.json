@@ -14,10 +14,10 @@
 {"$ Prft":-34.0,"% Prft":-3.39,"Size":968.0,"ticker":"IAG_MC","dayChange":-2.2,"rsi_14":37.8,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":53.74},
 {"$ Prft":131.0,"% Prft":21.71,"Size":734.0,"ticker":"SAB_MC","dayChange":-0.65,"rsi_14":59.6,"EMAs.":"X X X O","ZLEMAs":"X O ","weekRange":91.99},
 {"$ Prft":104.0,"% Prft":17.43,"Size":698.0,"ticker":"LOG_MC","dayChange":-1.58,"rsi_14":38.6,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":70.82},
-{"$ Prft":49.0,"% Prft":8.11,"Size":656.0,"ticker":"MAP_MC","dayChange":-1.49,"rsi_14":42.4,"EMAs.":"X X O O","ZLEMAs":"O O ","weekRange":77.55},
+{"$ Prft":49.0,"% Prft":8.11,"Size":656.0,"ticker":"MAP_MC","dayChange":-1.49,"rsi_14":42.4,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":77.55},
 {"$ Prft":8.0,"% Prft":1.29,"Size":647.0,"ticker":"MRL_MC","dayChange":-1.52,"rsi_14":20.2,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":27.25},
 {"$ Prft":3.0,"% Prft":0.4,"Size":624.0,"ticker":"DIA_MC","dayChange":1.84,"rsi_14":66.6,"EMAs.":"X X X X","ZLEMAs":"O X ","weekRange":88.18},
-{"$ Prft":81.0,"% Prft":15.01,"Size":620.0,"ticker":"ENO_MC","dayChange":-1.9,"rsi_14":37.9,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":40.0},
+{"$ Prft":81.0,"% Prft":15.01,"Size":620.0,"ticker":"ENO_MC","dayChange":-1.9,"rsi_14":37.9,"EMAs.":"O O O O","ZLEMAs":"O X ","weekRange":40.0},
 {"$ Prft":76.0,"% Prft":14.95,"Size":586.0,"ticker":"NTGY_MC","dayChange":-0.41,"rsi_14":49.0,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":86.76},
 {"$ Prft":-51.0,"% Prft":-8.16,"Size":577.0,"ticker":"ROVI_MC","dayChange":-1.62,"rsi_14":37.5,"EMAs.":"O X O O","ZLEMAs":"O O ","weekRange":13.69},
 {"$ Prft":-10.0,"% Prft":-1.7,"Size":577.0,"ticker":"HBX_MC","dayChange":-1.16,"rsi_14":31.6,"EMAs.":"X O O O","ZLEMAs":"X O ","weekRange":49.53},
@@ -32,5 +32,5 @@
 {"$ Prft":25.0,"% Prft":5.35,"Size":497.0,"ticker":"AENA_MC","dayChange":-2.74,"rsi_14":30.6,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":42.03},
 {"$ Prft":-5.0,"% Prft":-1.06,"Size":458.0,"ticker":"EBRO_MC","dayChange":-0.33,"rsi_14":51.3,"EMAs.":"X X O O","ZLEMAs":"O X ","weekRange":41.07},
 {"$ Prft":-83.0,"% Prft":-16.18,"Size":428.0,"ticker":"TUB_MC","dayChange":-1.72,"rsi_14":37.1,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":10.28},
-{"$ Prft":-118.0,"% Prft":-23.64,"Size":381.0,"ticker":"MAKS_MC","dayChange":0.0,"rsi_14":36.0,"EMAs.":"O O O X","ZLEMAs":"O X ","weekRange":3.17}
+{"$ Prft":-118.0,"% Prft":-23.64,"Size":381.0,"ticker":"MAKS_MC","dayChange":0.0,"rsi_14":36.0,"EMAs.":"O O O O","ZLEMAs":"O X ","weekRange":3.17}
 ]
