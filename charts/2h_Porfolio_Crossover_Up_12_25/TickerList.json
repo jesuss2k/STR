@@ -1,3 +1,4 @@
 [
-{"ticker":"MRNA","dayChange":8.23,"rsi_14":62.6,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":81.35}
+{"ticker":"POWL","dayChange":2.92,"rsi_14":41.0,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":38.08},
+{"ticker":"DAL","dayChange":2.47,"rsi_14":44.1,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":61.85}
 ]
