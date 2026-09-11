@@ -1,3 +1,4 @@
 [
-{"ticker":"DOCU","dayChange":1.72,"rsi_14":59.2,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":54.64}
+{"ticker":"BAC","dayChange":0.66,"rsi_14":54.9,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":88.23},
+{"ticker":"FTNT","dayChange":-0.08,"rsi_14":50.2,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":84.88}
 ]
