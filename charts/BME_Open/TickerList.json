@@ -19,7 +19,7 @@
 {"$ Prft":18.0,"% Prft":2.78,"Size":656.0,"ticker":"MRL_MC","dayChange":2.18,"rsi_14":31.9,"EMAs.":"O O O X","ZLEMAs":"O O ","weekRange":31.87},
 {"$ Prft":93.0,"% Prft":17.24,"Size":632.0,"ticker":"ENO_MC","dayChange":2.93,"rsi_14":45.2,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":43.2},
 {"$ Prft":4.0,"% Prft":0.65,"Size":626.0,"ticker":"DIA_MC","dayChange":0.97,"rsi_14":65.7,"EMAs.":"X X X X","ZLEMAs":"O X ","weekRange":88.67},
-{"$ Prft":125.0,"% Prft":26.79,"Size":593.0,"ticker":"IDR_MC","dayChange":2.7,"rsi_14":49.7,"EMAs.":"X O O X","ZLEMAs":"X O ","weekRange":79.23},
+{"$ Prft":125.0,"% Prft":26.79,"Size":593.0,"ticker":"IDR_MC","dayChange":2.7,"rsi_14":49.7,"EMAs.":"X O O X","ZLEMAs":"X O ","weekRange":78.92},
 {"$ Prft":80.0,"% Prft":15.74,"Size":590.0,"ticker":"NTGY_MC","dayChange":-0.14,"rsi_14":52.6,"EMAs.":"X X O X","ZLEMAs":"X O ","weekRange":90.24},
 {"$ Prft":-55.0,"% Prft":-8.71,"Size":574.0,"ticker":"ROVI_MC","dayChange":-0.09,"rsi_14":35.3,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":12.65},
 {"$ Prft":-13.0,"% Prft":-2.18,"Size":574.0,"ticker":"HBX_MC","dayChange":0.07,"rsi_14":30.7,"EMAs.":"X O O O","ZLEMAs":"X O ","weekRange":48.45},
@@ -32,6 +32,6 @@
 {"$ Prft":21.0,"% Prft":4.5,"Size":493.0,"ticker":"AENA_MC","dayChange":0.57,"rsi_14":30.6,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":39.13},
 {"$ Prft":-23.0,"% Prft":-4.51,"Size":491.0,"ticker":"GRF_MC","dayChange":0.04,"rsi_14":47.4,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":31.32},
 {"$ Prft":-6.0,"% Prft":-1.39,"Size":457.0,"ticker":"EBRO_MC","dayChange":0.0,"rsi_14":49.2,"EMAs.":"X X O O","ZLEMAs":"O O ","weekRange":38.39},
-{"$ Prft":-96.0,"% Prft":-18.82,"Size":414.0,"ticker":"TUB_MC","dayChange":-2.3,"rsi_14":29.8,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":1.87},
+{"$ Prft":-96.0,"% Prft":-18.82,"Size":414.0,"ticker":"TUB_MC","dayChange":-2.3,"rsi_14":29.8,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":1.9},
 {"$ Prft":-118.0,"% Prft":-23.64,"Size":381.0,"ticker":"MAKS_MC","dayChange":0.0,"rsi_14":36.0,"EMAs.":"O O O O","ZLEMAs":"O X ","weekRange":3.17}
 ]
