@@ -576,13 +576,13 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
         lineWidth: 2,
         lineStyle: LightweightCharts.LineStyle.Dashed,
         lastValueVisible: false,
-        priceLineVisible: false
+        priceLineVisible: true
     });
     zlemaSeries.setData(zlemaData);
 
     const yellowSeries = chart.addLineSeries({
         color: '#ffff00',
-        lineWidth: 2,
+        lineWidth: 1,
         lineStyle: LightweightCharts.LineStyle.Solid,
         lastValueVisible: false,
         priceLineVisible: false
