@@ -1,3 +1,5 @@
 [
-{"ticker":"YEXT","dayChange":2.58,"rsi_14":59.2,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":57.24}
+{"ticker":"DUOL","dayChange":7.15,"rsi_14":57.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":24.92},
+{"ticker":"TEAM","dayChange":6.81,"rsi_14":67.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":95.33},
+{"ticker":"FAST","dayChange":0.19,"rsi_14":49.2,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":74.9}
 ]

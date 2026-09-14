@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"GPRO","dayChange":1.51,"rsi_14":63.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":33.5}
+{"EMAs":"O X X O","ticker":"SDOW","dayChange":0.58,"rsi_14":56.3,"EMAs.":"O X X O","ZLEMAs":"O X X","weekRange":17.08},
+{"EMAs":"O X X O","ticker":"MARA","dayChange":-0.96,"rsi_14":55.1,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":31.0}
 ]
