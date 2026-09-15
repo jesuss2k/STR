@@ -1,5 +1,5 @@
 [
 {"ticker":"BIIB","dayChange":0.1,"rsi_14":53.4,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":90.66},
-{"ticker":"TD","dayChange":-0.03,"rsi_14":51.4,"EMAs.":"X X X X","ZLEMAs":"O O O","weekRange":90.69},
-{"ticker":"OPRA","dayChange":0.71,"rsi_14":45.3,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":71.87}
+{"ticker":"OPRA","dayChange":0.71,"rsi_14":45.3,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":71.87},
+{"ticker":"TD","dayChange":-0.03,"rsi_14":51.4,"EMAs.":"X X X X","ZLEMAs":"O O O","weekRange":90.63}
 ]

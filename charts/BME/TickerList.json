@@ -6,7 +6,7 @@
 {"ticker":"AMS_MC","dayChange":1.55,"rsi_14":45.9,"EMAs.":"X O O X","ZLEMAs":"X O ","weekRange":38.16},
 {"ticker":"ANA_MC","dayChange":-5.67,"rsi_14":34.1,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":26.96},
 {"ticker":"ANE_MC","dayChange":-3.93,"rsi_14":39.3,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":22.88},
-{"ticker":"ART_MC","dayChange":-2.99,"rsi_14":47.7,"EMAs.":"X O X O","ZLEMAs":"O X ","weekRange":45.63},
+{"ticker":"ART_MC","dayChange":-2.99,"rsi_14":47.7,"EMAs.":"X O X O","ZLEMAs":"O X ","weekRange":45.1},
 {"ticker":"BBVA_MC","dayChange":-1.3,"rsi_14":55.3,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":95.94},
 {"ticker":"BBVAI_MC","dayChange":-1.43,"rsi_14":39.1,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":79.74},
 {"ticker":"BKT_MC","dayChange":-1.98,"rsi_14":50.9,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":91.03},
@@ -50,7 +50,7 @@
 {"ticker":"SCYR_MC","dayChange":-1.94,"rsi_14":34.7,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":46.0},
 {"ticker":"SLR_MC","dayChange":-8.37,"rsi_14":45.9,"EMAs.":"O X X O","ZLEMAs":"O X ","weekRange":42.6},
 {"ticker":"TEF_MC","dayChange":0.57,"rsi_14":53.7,"EMAs.":"O O X X","ZLEMAs":"X X ","weekRange":31.38},
-{"ticker":"TUB_MC","dayChange":-2.9,"rsi_14":24.9,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":3.46},
+{"ticker":"TUB_MC","dayChange":-2.9,"rsi_14":24.9,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":3.49},
 {"ticker":"UNI_MC","dayChange":-0.38,"rsi_14":61.2,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":97.39},
 {"ticker":"VIS_MC","dayChange":1.3,"rsi_14":35.2,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":45.52},
 {"ticker":"VYT_MC","dayChange":0.0,"rsi_14":46.6,"EMAs.":"X O O O","ZLEMAs":"O X ","weekRange":73.11}
