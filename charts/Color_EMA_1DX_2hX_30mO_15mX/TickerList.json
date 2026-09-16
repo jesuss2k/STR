@@ -1,5 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"HPE","dayChange":2.31,"rsi_14":54.6,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":84.06},
-{"EMAs":"X X X O","ticker":"INTC","dayChange":4.26,"rsi_14":55.0,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":65.17},
-{"EMAs":"X X X O","ticker":"SMTC","dayChange":7.21,"rsi_14":59.3,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":87.02}
+{"EMAs":"X X X O","ticker":"DIS","dayChange":1.12,"rsi_14":55.3,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":61.94},
+{"EMAs":"X X X O","ticker":"HPE","dayChange":2.27,"rsi_14":54.6,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":84.01}
 ]
