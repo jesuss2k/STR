@@ -1,5 +1,3 @@
 [
-{"EMAs":"O O X O","ticker":"FNGD","dayChange":1.12,"rsi_14":45.2,"EMAs.":"O O X O","ZLEMAs":"X X X","weekRange":3.06},
-{"EMAs":"O O X O","ticker":"SPXU","dayChange":1.62,"rsi_14":54.0,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":46.32},
-{"EMAs":"O X X O","ticker":"SDS","dayChange":1.05,"rsi_14":54.3,"EMAs.":"O X X O","ZLEMAs":"O X X","weekRange":62.83}
+{"EMAs":"X O X O","ticker":"CSCO","dayChange":0.56,"rsi_14":47.9,"EMAs.":"X O X O","ZLEMAs":"O O X","weekRange":69.24}
 ]
