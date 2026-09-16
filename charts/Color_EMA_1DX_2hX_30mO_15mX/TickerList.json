@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"YEXT","dayChange":0.55,"rsi_14":55.6,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":54.81}
+{"EMAs":"X X X O","ticker":"OSCR","dayChange":0.71,"rsi_14":55.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":92.39},
+{"EMAs":"X X X O","ticker":"SOXS","dayChange":-1.36,"rsi_14":54.5,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":68.06},
+{"EMAs":"X X X O","ticker":"AES","dayChange":0.1,"rsi_14":58.4,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":46.71}
 ]
