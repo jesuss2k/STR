@@ -308,6 +308,18 @@ document.addEventListener("DOMContentLoaded", async function () {
         optionsPanel.className = 'chart-options-panel';
         optionsPanel.innerHTML = `
             <label class="chart-option-row">
+                <input type="checkbox" id="fit-to-screen-enabled">
+                <span>Fit to screen</span>
+            </label>
+            <label class="chart-option-row" title="Fit visible prices to 80% of the chart height when opening.">
+                <input type="checkbox" id="vertical-fit-enabled">
+                <span>Vertical fit</span>
+            </label>
+            <label class="chart-option-row" title="Show or hide the histogram (H).">
+                <input type="checkbox" id="histogram-visible" aria-keyshortcuts="H">
+                <span>Show histogram</span>
+            </label>
+            <label class="chart-option-row">
                 <input type="checkbox" id="auto-navigation-enabled">
                 <span>Auto Navigation</span>
             </label>
@@ -333,6 +345,9 @@ document.addEventListener("DOMContentLoaded", async function () {
         autoNavigationElements = {
             optionsToggle,
             optionsPanel,
+            fitToScreenInput: document.getElementById('fit-to-screen-enabled'),
+            verticalFitInput: document.getElementById('vertical-fit-enabled'),
+            histogramInput: document.getElementById('histogram-visible'),
             enabledInput: document.getElementById('auto-navigation-enabled'),
             secondsInput: document.getElementById('auto-navigation-seconds'),
             overlayInput: document.getElementById('overlay-mode'),
@@ -340,6 +355,9 @@ document.addEventListener("DOMContentLoaded", async function () {
             progressFill: document.getElementById('auto-navigation-progress-fill')
         };
 
+        autoNavigationElements.fitToScreenInput.checked = isFitToScreenEnabled_v2();
+        autoNavigationElements.verticalFitInput.checked = isVerticalFitEnabled_v2();
+        autoNavigationElements.histogramInput.checked = isHistogramVisible_v2();
         autoNavigationElements.secondsInput.value = String(getAutoNavigationSeconds_v2());
         autoNavigationElements.overlayInput.value = localStorage.getItem('overlayMode_v2') || 'PNL';
 
@@ -358,6 +376,18 @@ document.addEventListener("DOMContentLoaded", async function () {
                 }, 0);
             });
         }
+
+        autoNavigationElements.fitToScreenInput.addEventListener('change', (event) => {
+            localStorage.setItem('fitToScreenEnabled_v2', String(event.target.checked));
+        });
+
+        autoNavigationElements.verticalFitInput.addEventListener('change', (event) => {
+            localStorage.setItem('verticalFitEnabled_v2', String(event.target.checked));
+        });
+
+        autoNavigationElements.histogramInput.addEventListener('change', (event) => {
+            setHistogramVisible_v2(event.target.checked);
+        });
 
         autoNavigationElements.enabledInput.addEventListener('change', (event) => {
             setAutoNavigationEnabled_v2(event.target.checked);
@@ -492,10 +522,12 @@ document.addEventListener("DOMContentLoaded", async function () {
 
             const menuShortcut = {
                 i: 'chart-summary',
-                o: 'chart-line'
+                o: 'chart-line',
+                h: 'histogram-visible'
             }[event.key.toLowerCase()];
             if (menuShortcut && !event.ctrlKey && !event.altKey && !event.metaKey) {
                 event.preventDefault();
+                if (menuShortcut === 'histogram-visible' && event.repeat) return;
                 document.getElementById(menuShortcut)?.click();
                 return;
             }

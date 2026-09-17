@@ -1,6 +1,7 @@
 let mainChart_v2 = null;
 let histogramChart_v2 = null;
 let resizeTimer_v2 = null;
+const priceSeriesByChart_v2 = new WeakMap();
 
 // Function to load an image into the plotly-div container
 function loadImage_v2(imagePath) {
@@ -10,6 +11,7 @@ function loadImage_v2(imagePath) {
     const histogramContainer = document.getElementById('plotly-histogram');
 
     clearContainers(container, histogramContainer);
+    adjustViewportHeight_v2();
 
     container.innerHTML = '';
 
@@ -35,12 +37,14 @@ function adjustViewportHeight_v2() {
 
     const plotlyDiv = document.getElementById('plotly-div');
     const histogramDiv = document.getElementById('plotly-histogram');
+    const showHistogram = isHistogramVisible_v2();
 
     if (plotlyDiv) {
-        plotlyDiv.style.height = `calc(84 * var(--vh))`;
+        plotlyDiv.style.height = `calc(${showHistogram ? 84 : 100} * var(--vh))`;
     }
 
     if (histogramDiv) {
+        histogramDiv.style.display = showHistogram ? 'block' : 'none';
         histogramDiv.style.height = `calc(16 * var(--vh))`;
     }
 }
@@ -330,7 +334,7 @@ function createMainChart(container) {
 function createHistogramChart(histogramContainer, width) {
     return LightweightCharts.createChart(histogramContainer, {
         width: width,
-        height: histogramContainer.clientHeight,
+        height: histogramContainer.clientHeight || Math.round(window.innerHeight * 0.16),
         layout: {
             background: { type: 'solid', color: 'black' },
             textColor: 'gray'
@@ -362,6 +366,17 @@ function createHistogramChart(histogramContainer, width) {
 
 // ============================ Data Processing & Plotting ============================
 
+function addPriceSeries_v2(chart, type, options) {
+    const series = type === 'Candlestick'
+        ? chart.addCandlestickSeries(options)
+        : chart.addLineSeries(options);
+    if (!priceSeriesByChart_v2.has(chart)) {
+        priceSeriesByChart_v2.set(chart, []);
+    }
+    priceSeriesByChart_v2.get(chart).push(series);
+    return series;
+}
+
 function prepareCandleData(rawData) {
     return rawData.map(entry => ({
         time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
@@ -380,7 +395,7 @@ function prepareLineData(rawData) {
 }
 
 function plotLine(chart, lineData) {
-    const lineSeries = chart.addLineSeries({
+    const lineSeries = addPriceSeries_v2(chart, 'Line', {
         color: "blue",
         lineWidth: 2,
         priceLineVisible: true,
@@ -392,7 +407,7 @@ function plotLine(chart, lineData) {
 }
 
 function plotCloseLine(chart, lineData) {
-    const lineSeries = chart.addLineSeries({
+    const lineSeries = addPriceSeries_v2(chart, 'Line', {
         color: "dodgerblue",
         lineWidth: 2,
         lastValueVisible: false,
@@ -409,7 +424,7 @@ function plotCloseLine(chart, lineData) {
 }
 
 function plotCandlesticks(chart, candleData) {
-    const candleSeries = chart.addCandlestickSeries({
+    const candleSeries = addPriceSeries_v2(chart, 'Candlestick', {
         priceFormat: {
             type: 'price',
             precision: 0,
@@ -433,7 +448,7 @@ async function plotOrders(chart, candleData, ticker) {
 
         filteredOrders.forEach(order => {
             const color = order.positionStatus === "Closed" ? "#FFD700" : "#1E90FF";
-            chart.addLineSeries({
+            addPriceSeries_v2(chart, 'Line', {
                 color: color,
                 lineWidth: 1,
                 lastValueVisible: false,
@@ -461,7 +476,7 @@ async function plotSubmittedOrders(chart, candleData, ticker) {
                 ? LightweightCharts.LineStyle.Dashed
                 : LightweightCharts.LineStyle.Dotted;
 
-            chart.addLineSeries({
+            addPriceSeries_v2(chart, 'Line', {
                 color: "#f48fb1",
                 lineWidth: 2,
                 lastValueVisible: false,
@@ -485,7 +500,7 @@ async function plotGuruFocus(chart, candleData, ticker) {
         console.log(`📊 Found ${filteredOrders.length} GuruFocus for ${ticker}:`, filteredOrders);
 
         filteredOrders.forEach(GuruFocus => {
-            chart.addLineSeries({
+            addPriceSeries_v2(chart, 'Line', {
                 lineWidth: 9,
                 color: "rgba(245, 245, 220, 0.4)",
                 priceLineVisible: false,
@@ -526,7 +541,7 @@ function plotEMAs_1W(chart, rawData) {
             value: entry[emaKey]
         }));
 
-        const emaSeries = chart.addLineSeries({
+        const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
             lineWidth: emaKey === "ZLEMA" ? 1 : 1,
             priceLineVisible: false,
@@ -571,7 +586,7 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
         value: entry[yellowKey]
     }));
 
-    const zlemaSeries = chart.addLineSeries({
+    const zlemaSeries = addPriceSeries_v2(chart, 'Line', {
         color: '#ff0000',
         lineWidth: 2,
         lineStyle: LightweightCharts.LineStyle.Dashed,
@@ -580,7 +595,7 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
     });
     zlemaSeries.setData(zlemaData);
 
-    const yellowSeries = chart.addLineSeries({
+    const yellowSeries = addPriceSeries_v2(chart, 'Line', {
         color: '#ffff00',
         lineWidth: 1,
         lineStyle: LightweightCharts.LineStyle.Solid,
@@ -691,7 +706,7 @@ function plotEMAs_1D(chart, rawData) {
             value: entry[emaKey]
         }));
 
-        const emaSeries = chart.addLineSeries({
+        const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
             lineWidth: 1,
             priceLineVisible: false,
@@ -768,7 +783,7 @@ function plotEMAs_2H(chart, rawData) {
             value: entry[emaKey]
         }));
 
-        const emaSeries = chart.addLineSeries({
+        const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
             lineWidth: 1,
             priceLineVisible: false,
@@ -846,7 +861,7 @@ function plotEMAs_30m(chart, rawData) {
             value: entry[emaKey]
         }));
 
-        const emaSeries = chart.addLineSeries({
+        const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
             lineWidth: 1,
             priceLineVisible: false,
@@ -900,17 +915,88 @@ function plotHistogram_30m(histogramChart, rawData) {
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
 }
 
+function isFitToScreenEnabled_v2() {
+    return localStorage.getItem('fitToScreenEnabled_v2') !== 'false';
+}
+
+function isVerticalFitEnabled_v2() {
+    return localStorage.getItem('verticalFitEnabled_v2') !== 'false';
+}
+
+function isHistogramVisible_v2() {
+    return localStorage.getItem('histogramVisible_v2') !== 'false';
+}
+
+function setHistogramVisible_v2(visible) {
+    localStorage.setItem('histogramVisible_v2', String(visible));
+    const checkbox = document.getElementById('histogram-visible');
+    if (checkbox) checkbox.checked = visible;
+    resizeActiveCharts_v2();
+}
+
+async function fitInitialPriceRange_v2(chart, candleData) {
+    const visibleRange = chart.timeScale().getVisibleRange();
+    const logicalRange = chart.timeScale().getVisibleLogicalRange();
+    const series = priceSeriesByChart_v2.get(chart) || [];
+    if (!visibleRange || series.length === 0) return;
+
+    let minValue = Infinity;
+    let maxValue = -Infinity;
+    for (const candle of candleData) {
+        if (candle.time < visibleRange.from || candle.time > visibleRange.to) continue;
+        if (!Number.isFinite(candle.low) || !Number.isFinite(candle.high)) continue;
+        minValue = Math.min(minValue, candle.low);
+        maxValue = Math.max(maxValue, candle.high);
+    }
+    if (!Number.isFinite(minValue) || !Number.isFinite(maxValue)) return;
+
+    // A flat price has no range to stretch; give it a small, finite scale.
+    if (minValue === maxValue) {
+        const padding = Math.max(Math.abs(minValue) * 0.001, 0.01);
+        minValue -= padding;
+        maxValue += padding;
+    }
+
+    const priceScale = chart.priceScale('right');
+    const originalProviders = series.map(item => item.options().autoscaleInfoProvider);
+    let fitting = true;
+    try {
+        // Use the same candle-only bounds for every price series temporarily,
+        // so EMAs and reference lines cannot expand the opening range.
+        series.forEach((item, index) => item.applyOptions({
+            autoscaleInfoProvider: original => fitting
+                ? { priceRange: { minValue, maxValue } }
+                : originalProviders[index] ? originalProviders[index](original) : original()
+        }));
+        priceScale.applyOptions({
+            autoScale: true,
+            scaleMargins: { top: 0.1, bottom: 0.1 }
+        });
+        await new Promise(resolve => requestAnimationFrame(resolve));
+        // Different price labels can change the axis width. Keep the opening
+        // horizontal view while the new vertical scale settles.
+        if (logicalRange) {
+            chart.timeScale().setVisibleLogicalRange(logicalRange);
+            await new Promise(resolve => requestAnimationFrame(resolve));
+        }
+        // Materialize the calculated scale before freezing it for free manual
+        // zoom/pan. There is no public price-range setter in library v4.1.
+        series[0].priceToCoordinate(minValue);
+        priceScale.applyOptions({ autoScale: false });
+    } finally {
+        // Resume normal providers without applying series options again:
+        // v4.1 would schedule another autoscale even with autoScale disabled.
+        fitting = false;
+    }
+}
+
 function resizeActiveCharts_v2() {
     const container = document.getElementById('plotly-div');
     const histogramContainer = document.getElementById('plotly-histogram');
 
     if (!container || !histogramContainer) return;
 
-    // Update viewport unit first
-    const vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-    container.style.height = `calc(84 * var(--vh))`;
-    histogramContainer.style.height = `calc(16 * var(--vh))`;
+    adjustViewportHeight_v2();
 
     const selectedChart = localStorage.getItem('selectedChart') || '1W';
 
@@ -936,8 +1022,10 @@ function resizeActiveCharts_v2() {
 
     if (histogramChart_v2) {
         histogramChart_v2.applyOptions({
-            width: histogramContainer.clientWidth,
-            height: histogramContainer.clientHeight
+            // Keep its time scale sized while hidden, so showing the pane
+            // again does not require reloading data or resetting the view.
+            width: histogramContainer.clientWidth || container.clientWidth,
+            height: histogramContainer.clientHeight || Math.round(window.innerHeight * 0.16)
         });
     }
 }
@@ -985,6 +1073,7 @@ async function loadTradingViewChart_v2(ticker = null) {
     const histogramContainer = document.getElementById('plotly-histogram');
 
     clearContainers(container, histogramContainer);
+    adjustViewportHeight_v2();
 
     container.style.display = 'block';
     container.style.alignItems = '';
@@ -993,102 +1082,143 @@ async function loadTradingViewChart_v2(ticker = null) {
     if (!isLibraryLoaded()) return;
 
     const chart = createMainChart(container);
-    const histogramChart = createHistogramChart(histogramContainer, histogramContainer.clientWidth);
+    const histogramChart = createHistogramChart(
+        histogramContainer, histogramContainer.clientWidth || container.clientWidth
+    );
 
     mainChart_v2 = chart;
     histogramChart_v2 = histogramChart;
 
-    let jsonPath;
-    const selectedChart = localStorage.getItem('selectedChart') || '1W';
-
-    if (selectedChart === '1W') {
-        jsonPath = `../../charts/JSON/1W/${ticker}.json`;
-    } else if (selectedChart === '1D') {
-        jsonPath = `../../charts/JSON/1D/${ticker}.json`;
-    } else if (selectedChart === '30M') {
-        jsonPath = `../../charts/JSON/30M/${ticker}.json`;
-    } else {
-        jsonPath = `../../charts/JSON/2H/${ticker}.json`;
+    const verticalFit = isVerticalFitEnabled_v2();
+    const chartElements = [container.firstElementChild, histogramContainer.firstElementChild];
+    if (verticalFit) {
+        // Keep layout and canvas rendering active without showing intermediate
+        // scales. Retain these specific elements so an older load cannot reveal
+        // a newer chart if the user switches views while data is loading.
+        chartElements.forEach(element => { element.style.visibility = 'hidden'; });
     }
 
-    console.log(jsonPath);
-
-    let rawData;
     try {
-        rawData = await fetchJSONData(jsonPath);
-    } catch (error) {
-        console.error("❌ Error loading candlestick JSON:", error);
-        return;
+        let jsonPath;
+        const selectedChart = localStorage.getItem('selectedChart') || '1W';
+
+        if (selectedChart === '1W') {
+            jsonPath = `../../charts/JSON/1W/${ticker}.json`;
+        } else if (selectedChart === '1D') {
+            jsonPath = `../../charts/JSON/1D/${ticker}.json`;
+        } else if (selectedChart === '30M') {
+            jsonPath = `../../charts/JSON/30M/${ticker}.json`;
+        } else {
+            jsonPath = `../../charts/JSON/2H/${ticker}.json`;
+        }
+
+        console.log(jsonPath);
+
+        let rawData;
+        try {
+            rawData = await fetchJSONData(jsonPath);
+        } catch (error) {
+            console.error("❌ Error loading candlestick JSON:", error);
+            return;
+        }
+
+        const candleData = prepareCandleData(rawData);
+
+        const renderMode = getRenderMode_v2();
+        if (renderMode === 'LINE') {
+            const lineData = prepareLineData(rawData);
+            plotCloseLine(chart, lineData);
+            console.log(`✅ Rendered LINE for ${ticker}`);
+        } else {
+            plotCandlesticks(chart, candleData);
+            console.log(`✅ Rendered CANDLES for ${ticker}`);
+        }
+
+        if (selectedChart === '1W') {
+            await plotOrders(chart, candleData, ticker);
+            await plotSubmittedOrders(chart, candleData, ticker);
+            await plotGuruFocus(chart, candleData, ticker);
+            if (renderMode === 'ZLEMA') {
+                plotZlemaOverlay_v2(chart, rawData, selectedChart);
+            } else {
+                plotEMAs_1W(chart, rawData);
+            }
+            if (renderMode === 'ZLEMA') {
+                plotHistogram_ZLEMA_v2(histogramChart, rawData);
+            } else {
+                plotHistogram_1W(histogramChart, rawData);
+            }
+        } else if (selectedChart === '1D') {
+            await plotOrders(chart, candleData, ticker);
+            await plotSubmittedOrders(chart, candleData, ticker);
+            await plotGuruFocus(chart, candleData, ticker);
+            if (renderMode === 'ZLEMA') {
+                plotZlemaOverlay_v2(chart, rawData, selectedChart);
+            } else {
+                plotEMAs_1D(chart, rawData);
+            }
+            if (renderMode === 'ZLEMA') {
+                plotHistogram_ZLEMA_v2(histogramChart, rawData);
+            } else {
+                plotHistogram_1D(histogramChart, rawData);
+            }
+        } else if (selectedChart === '2H') {
+            await plotOrders(chart, candleData, ticker);
+            await plotSubmittedOrders(chart, candleData, ticker);
+            if (renderMode === 'ZLEMA') {
+                plotZlemaOverlay_v2(chart, rawData, selectedChart);
+            } else {
+                plotEMAs_2H(chart, rawData);
+            }
+            if (renderMode === 'ZLEMA') {
+                plotHistogram_ZLEMA_v2(histogramChart, rawData);
+            } else {
+                plotHistogram_2H(histogramChart, rawData);
+            }
+        } else if (selectedChart === '30M') {
+            if (renderMode === 'ZLEMA') {
+                plotZlemaOverlay_v2(chart, rawData, selectedChart);
+            } else {
+                plotEMAs_30m(chart, rawData);
+            }
+            if (renderMode === 'ZLEMA') {
+                plotHistogram_ZLEMA_v2(histogramChart, rawData);
+            } else {
+                plotHistogram_30m(histogramChart, rawData);
+            }
+        }
+
+        resizeActiveCharts_v2();
+
+        // Fit once after loading all series and sizing both panes. Manual zoom and
+        // pan remain available; resizing does not reapply this initial view.
+        if (isFitToScreenEnabled_v2() && rawData.length > 0) {
+            for (const pane of [chart, histogramChart]) {
+                const timeScale = pane.timeScale();
+                // Allow dense histories to fit even on narrow screens.
+                timeScale.applyOptions({
+                    minBarSpacing: Math.min(0.5, timeScale.width() / (rawData.length + 1))
+                });
+                timeScale.fitContent();
+            }
+        }
+
+        syncCharts(chart, histogramChart);
+
+        if (verticalFit) {
+            // fitContent and canvas sizing settle during rendering. Wait for that
+            // opening view, and ignore a chart superseded by navigation or Renko.
+            await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+            if (chart !== mainChart_v2 || getSelectedChart_v2().startsWith('Rk ')) return;
+            await fitInitialPriceRange_v2(chart, candleData);
+        }
+    } finally {
+        if (verticalFit) {
+            // Reveal both panes together after the final fitted frame is drawn.
+            await new Promise(resolve => requestAnimationFrame(resolve));
+            chartElements.forEach(element => { element.style.visibility = ''; });
+        }
     }
-
-    const candleData = prepareCandleData(rawData);
-
-    const renderMode = getRenderMode_v2();
-    if (renderMode === 'LINE') {
-        const lineData = prepareLineData(rawData);
-        plotCloseLine(chart, lineData);
-        console.log(`✅ Rendered LINE for ${ticker}`);
-    } else {
-        plotCandlesticks(chart, candleData);
-        console.log(`✅ Rendered CANDLES for ${ticker}`);
-    }
-
-    if (selectedChart === '1W') {
-        await plotOrders(chart, candleData, ticker);
-        await plotSubmittedOrders(chart, candleData, ticker);
-        await plotGuruFocus(chart, candleData, ticker);
-        if (renderMode === 'ZLEMA') {
-            plotZlemaOverlay_v2(chart, rawData, selectedChart);
-        } else {
-            plotEMAs_1W(chart, rawData);
-        }
-        if (renderMode === 'ZLEMA') {
-            plotHistogram_ZLEMA_v2(histogramChart, rawData);
-        } else {
-            plotHistogram_1W(histogramChart, rawData);
-        }
-    } else if (selectedChart === '1D') {
-        await plotOrders(chart, candleData, ticker);
-        await plotSubmittedOrders(chart, candleData, ticker);
-        await plotGuruFocus(chart, candleData, ticker);
-        if (renderMode === 'ZLEMA') {
-            plotZlemaOverlay_v2(chart, rawData, selectedChart);
-        } else {
-            plotEMAs_1D(chart, rawData);
-        }
-        if (renderMode === 'ZLEMA') {
-            plotHistogram_ZLEMA_v2(histogramChart, rawData);
-        } else {
-            plotHistogram_1D(histogramChart, rawData);
-        }
-    } else if (selectedChart === '2H') {
-        await plotOrders(chart, candleData, ticker);
-        await plotSubmittedOrders(chart, candleData, ticker);
-        if (renderMode === 'ZLEMA') {
-            plotZlemaOverlay_v2(chart, rawData, selectedChart);
-        } else {
-            plotEMAs_2H(chart, rawData);
-        }
-        if (renderMode === 'ZLEMA') {
-            plotHistogram_ZLEMA_v2(histogramChart, rawData);
-        } else {
-            plotHistogram_2H(histogramChart, rawData);
-        }
-    } else if (selectedChart === '30M') {
-        if (renderMode === 'ZLEMA') {
-            plotZlemaOverlay_v2(chart, rawData, selectedChart);
-        } else {
-            plotEMAs_30m(chart, rawData);
-        }
-        if (renderMode === 'ZLEMA') {
-            plotHistogram_ZLEMA_v2(histogramChart, rawData);
-        } else {
-            plotHistogram_30m(histogramChart, rawData);
-        }
-    }
-
-    syncCharts(chart, histogramChart);
-    resizeActiveCharts_v2();
 }
 
 function loadChart_v2(chartType, chartPath, ticker = '') {
