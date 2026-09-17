@@ -56,7 +56,7 @@
 {"Price":340.0,"BuySell":"Buy","Qtty":6,"OrderType":"Limit","Value":2040.0,"%toExec":-18,"ticker":"AMAT","dayChange":-0.1,"rsi_14":32.9,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":41.58},
 {"Price":68.0,"BuySell":"Buy","Qtty":30,"OrderType":"Limit","Value":2040.0,"%toExec":-14,"ticker":"DAL","dayChange":1.86,"rsi_14":43.5,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":59.75},
 {"Price":120.0,"BuySell":"Buy","Qtty":17,"OrderType":"Limit","Value":2040.0,"%toExec":-33,"ticker":"POWL","dayChange":0.91,"rsi_14":42.6,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":36.92},
-{"Price":68.0,"BuySell":"Buy","Qtty":30,"OrderType":"Limit","Value":2040.0,"%toExec":-23,"ticker":"KO","dayChange":0.26,"rsi_14":49.8,"EMAs.":"X X O O","ZLEMAs":"O O ","weekRange":83.82},
+{"Price":68.0,"BuySell":"Buy","Qtty":30,"OrderType":"Limit","Value":2040.0,"%toExec":-23,"ticker":"KO","dayChange":0.26,"rsi_14":49.8,"EMAs.":"X X O O","ZLEMAs":"X O ","weekRange":83.82},
 {"Price":135.0,"BuySell":"Buy","Qtty":15,"OrderType":"Limit","Value":2025.0,"%toExec":-20,"ticker":"KLAC","dayChange":0.5,"rsi_14":37.8,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":33.49},
 {"Price":201.0,"BuySell":"Buy","Qtty":10,"OrderType":"Limit","Value":2010.0,"%toExec":-20,"ticker":"RCL","dayChange":-0.71,"rsi_14":25.6,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":16.1},
 {"Price":501.0,"BuySell":"Buy","Qtty":4,"OrderType":"Limit","Value":2004.0,"%toExec":-49,"ticker":"MU","dayChange":5.25,"rsi_14":53.5,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":74.57},
