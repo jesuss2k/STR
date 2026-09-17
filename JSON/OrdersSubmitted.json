@@ -242,6 +242,5 @@
 {"ticker":"JBLU","price":4.0,"buySell":"Buy","filled":0,"remain":200,"orderType":"Limit"},
 {"ticker":"DDOG","price":100.0,"buySell":"Buy","filled":0,"remain":10,"orderType":"Limit"},
 {"ticker":"CROX","price":74.0,"buySell":"Buy","filled":0,"remain":15,"orderType":"Limit"},
-{"ticker":"OPRA","price":12.0,"buySell":"Buy","filled":0,"remain":100,"orderType":"Limit"},
-{"ticker":"BBVAI_MC","price":19.4,"buySell":"BUY","filled":0,"remain":250,"orderType":"Orden est\u00e1ndar"}
+{"ticker":"OPRA","price":12.0,"buySell":"Buy","filled":0,"remain":100,"orderType":"Limit"}
 ]
