@@ -1,3 +1,5 @@
 [
-{"EMAs":"O O X O","ticker":"DUST","dayChange":2.43,"weekChange":4.25,"monthChange":5.8,"rsi_14":45.2,"EMAs.":"O O X O","ZLEMAs":"X X X","weekRange":5.58}
+{"EMAs":"O O X O","ticker":"RGTI","dayChange":-1.44,"weekChange":3.21,"monthChange":0.64,"rsi_14":49.1,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":7.08},
+{"EMAs":"X O X O","ticker":"ASPN","dayChange":-1.17,"weekChange":3.26,"monthChange":2.84,"rsi_14":49.7,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":39.3},
+{"EMAs":"X O X O","ticker":"CB","dayChange":-0.37,"weekChange":0.71,"monthChange":0.6,"rsi_14":47.7,"EMAs.":"X O X O","ZLEMAs":"O O X","weekRange":74.88}
 ]
