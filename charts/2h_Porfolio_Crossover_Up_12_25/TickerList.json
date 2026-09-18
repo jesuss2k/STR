@@ -1,4 +1,5 @@
 [
-{"ticker":"FNGU","dayChange":4.52,"rsi_14":55.2,"EMAs.":"O X O X","ZLEMAs":"X O X","weekRange":82.96},
-{"ticker":"TECL","dayChange":6.77,"rsi_14":54.4,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":65.82}
+{"ticker":"HUMA","dayChange":2.97,"rsi_14":46.2,"EMAs.":"O O O X","ZLEMAs":"X X X","weekRange":3.27},
+{"ticker":"APLD","dayChange":1.27,"rsi_14":49.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":24.31},
+{"ticker":"QTUM","dayChange":-0.29,"rsi_14":48.0,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":67.03}
 ]
