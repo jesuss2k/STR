@@ -1,4 +1,3 @@
 [
-{"EMAs":"X O X O","ticker":"CB","dayChange":-0.26,"rsi_14":48.3,"EMAs.":"X O X O","ZLEMAs":"O O X","weekRange":75.26},
-{"EMAs":"O O X O","ticker":"DUST","dayChange":3.16,"rsi_14":45.8,"EMAs.":"O O X O","ZLEMAs":"X X X","weekRange":5.81}
+{"EMAs":"O O X O","ticker":"DUST","dayChange":2.43,"weekChange":4.25,"monthChange":5.8,"rsi_14":45.2,"EMAs.":"O O X O","ZLEMAs":"X X X","weekRange":5.58}
 ]
