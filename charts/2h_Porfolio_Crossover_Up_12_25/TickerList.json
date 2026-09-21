@@ -1,4 +1,5 @@
 [
-{"ticker":"JBLU","dayChange":2.75,"weekChange":2.75,"monthChange":-2.39,"rsi_14":41.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":22.55},
-{"ticker":"LRCX","dayChange":3.37,"weekChange":3.37,"monthChange":-1.22,"rsi_14":49.7,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":55.12}
+{"ticker":"EME","dayChange":1.47,"weekChange":1.47,"monthChange":3.62,"rsi_14":49.9,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":50.69},
+{"ticker":"PTC","dayChange":-0.4,"weekChange":-0.4,"monthChange":-13.1,"rsi_14":44.5,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":27.12},
+{"ticker":"TGT","dayChange":0.13,"weekChange":0.13,"monthChange":-1.55,"rsi_14":52.1,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":85.84}
 ]
