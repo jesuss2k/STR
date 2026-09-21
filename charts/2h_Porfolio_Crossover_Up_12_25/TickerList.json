@@ -1,5 +1,4 @@
 [
-{"ticker":"ASML","dayChange":0.68,"weekChange":0.68,"monthChange":-0.27,"rsi_14":49.8,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":71.01},
-{"ticker":"RYAAY","dayChange":0.68,"weekChange":0.68,"monthChange":-2.7,"rsi_14":43.8,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":9.73},
-{"ticker":"TMF","dayChange":1.45,"weekChange":1.45,"monthChange":-2.78,"rsi_14":46.1,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":7.66}
+{"ticker":"JBLU","dayChange":2.75,"weekChange":2.75,"monthChange":-2.39,"rsi_14":41.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":22.55},
+{"ticker":"LRCX","dayChange":3.37,"weekChange":3.37,"monthChange":-1.22,"rsi_14":49.7,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":55.12}
 ]
