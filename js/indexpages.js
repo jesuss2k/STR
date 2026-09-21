@@ -44,6 +44,10 @@ function parseSortableNumber(raw) {
 }
 
 function getComparableValue(cell) {
+  if (cell.dataset?.sortMissing === "true") {
+    return { type: "missing" };
+  }
+
   // 1) 52-week bar: read inline width from the .current-price element if present
   const bar = cell.querySelector?.(".current-price");
   if (bar && bar.style && bar.style.width) {
@@ -98,6 +102,12 @@ function sortTable(columnIndex) {
     const av = getComparableValue(aCell);
     const bv = getComparableValue(bCell);
 
+    // Keep unavailable change values last in either sort direction.
+    if (av.type === "missing" || bv.type === "missing") {
+      if (av.type === bv.type) return 0;
+      return av.type === "missing" ? 1 : -1;
+    }
+
     let cmp = 0;
 
     if (av.type === "number" && bv.type === "number") {
@@ -133,8 +143,13 @@ function populateTickerTable() {
         infoMap[item.ticker] = item;
       });
 
-      // Define keys that are always present.
-      const alwaysKeys = ["ticker", "dayChange", "rsi_14", "weekRange"];
+      const changeColumns = [
+        { key: "dayChange", title: "% Day" },
+        { key: "weekChange", title: "% Week" },
+        { key: "monthChange", title: "% Month" }
+      ];
+      // Fixed columns must not also appear as dynamic extra columns.
+      const alwaysKeys = ["ticker", ...changeColumns.map(col => col.key), "rsi_14", "weekRange"];
       const extraColumnsSet = new Set();
       listData.forEach(item => {
         Object.keys(item).forEach(key => {
@@ -161,16 +176,18 @@ function populateTickerTable() {
       }
 
       headerRow.appendChild(createHeaderCell("Ticker", 0));
-      headerRow.appendChild(createHeaderCell("Chart", 1));   // NEW
-      headerRow.appendChild(createHeaderCell("% Day", 2));   // shifted
+      headerRow.appendChild(createHeaderCell("Chart", 1));
+      changeColumns.forEach((col, index) => {
+        headerRow.appendChild(createHeaderCell(col.title, 2 + index));
+      });
 
-      // dynamic extra columns (2 .. 2 + extraColumns.length - 1)
+      const extraColStartIndex = 2 + changeColumns.length;
       extraColumns.forEach((col, index) => {
-        headerRow.appendChild(createHeaderCell(col, 3 + index));
+        headerRow.appendChild(createHeaderCell(col, extraColStartIndex + index));
       });
 
       // compute the next indices once
-      const rsiColIndex = 3 + extraColumns.length;
+      const rsiColIndex = extraColStartIndex + extraColumns.length;
       const week52ColIndex = rsiColIndex + 1;
       const tvColIndex = week52ColIndex + 1;
 
@@ -181,8 +198,7 @@ function populateTickerTable() {
       headerRow.appendChild(createHeaderCell("52-Week", week52ColIndex));
       headerRow.appendChild(createHeaderCell("", tvColIndex)); // TradingView
 
-      function getDayChangeClass(dayChangeStr) {
-        const value = parseFloat(dayChangeStr);
+      function getChangeClass(value) {
         if (value > 2) return "light-green";
         else if (value >= 0 && value <= 2) return "green";
         else if (value < 0 && value >= -2) return "orange";
@@ -205,7 +221,6 @@ function populateTickerTable() {
         };
         
         const detailUrl = "ticker_v2.html?ticker=" + ticker;
-        const dayChangeClass = getDayChangeClass(item.dayChange);
 
         const tr = document.createElement("tr");
         // Keep canonical ticker for navigation (no emoji disclaimer text).
@@ -249,13 +264,19 @@ function populateTickerTable() {
         tdChart.appendChild(chartImg);
         tr.appendChild(tdChart);
 
-        //
-        // DAY CHANGE (now column 3)
-        //
-        const tdChange = document.createElement("td");
-        tdChange.textContent = item.dayChange;
-        tdChange.className = dayChangeClass;
-        tr.appendChild(tdChange);
+        changeColumns.forEach(({ key }) => {
+          const tdChange = document.createElement("td");
+          const value = parseSortableNumber(item[key]);
+          if (Number.isFinite(value)) {
+            tdChange.textContent = item[key];
+            tdChange.dataset.sort = value;
+            tdChange.className = getChangeClass(value);
+          } else {
+            tdChange.textContent = "\u2014";
+            tdChange.dataset.sortMissing = "true";
+          }
+          tr.appendChild(tdChange);
+        });
 
         extraColumns.forEach(col => {
           const tdExtra = document.createElement("td");

@@ -9,17 +9,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         return;
     }
 
-    function normalizeChartType_v2(chartType) {
-        switch (chartType) {
-            case 'Rk 1h':
-                return 'Rk 1H';
-            case 'Rk 30m':
-                return 'Rk 30M';
-            default:
-                return chartType || '2H';
-        }
-    }
-
     function normalizeTicker_v2(ticker) {
         if (!ticker) return '';
 
@@ -69,18 +58,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         return idx;
     }
 
-    const chartOrder = [
-        '1W',       // 1
-        '1D',       // 2
-        '2H',       // 3
-        '30M',      // 4
-        'Rk 1D',    // 5
-        'Rk 1D50',  // 6 -> ½D
-        'Rk 1D25',  // 7 -> ¼D
-        'Rk 2H',    // 8
-        'Rk 1H',    // 9
-        'Rk 30M'    // 0
-    ];
+    const chartOrder = CHART_ORDER_v2;
 
     const autoNavigationPairs = {
         '1W': 'Rk 1D50',
@@ -103,9 +81,9 @@ document.addEventListener("DOMContentLoaded", async function () {
     let autoNavigationElements = {};
 
     function getCurrentChartIndex_v2() {
-        const selectedChart = normalizeChartType_v2(localStorage.getItem('selectedChart'));
+        const selectedChart = getSelectedChart_v2();
         const idx = chartOrder.indexOf(selectedChart);
-        return idx >= 0 ? idx : 2; // default = 2H
+        return idx >= 0 ? idx : chartOrder.indexOf(DEFAULT_CHART_TYPE_v2);
     }
 
     function loadChartByIndex_v2(indexToLoad) {
@@ -136,16 +114,17 @@ document.addEventListener("DOMContentLoaded", async function () {
         const selectedChart = normalizeChartType_v2(chartType);
         if (autoNavigationPairs[selectedChart]) return selectedChart;
         if (autoNavigationReversePairs[selectedChart]) return autoNavigationReversePairs[selectedChart];
-        return '1W';
+        return DEFAULT_CHART_TYPE_v2;
     }
 
     function getAutoNavigationBaseChart_v2() {
-        const savedBaseChart = localStorage.getItem(autoNavigationKeys.baseChart);
-        return autoNavigationPairs[savedBaseChart] ? savedBaseChart : '1W';
+        const savedBaseChart = normalizeChartType_v2(localStorage.getItem(autoNavigationKeys.baseChart));
+        return autoNavigationPairs[savedBaseChart] ? savedBaseChart : DEFAULT_CHART_TYPE_v2;
     }
 
     function setAutoNavigationBaseChart_v2(baseChart) {
-        const normalizedBaseChart = autoNavigationPairs[baseChart] ? baseChart : '1W';
+        baseChart = normalizeChartType_v2(baseChart);
+        const normalizedBaseChart = autoNavigationPairs[baseChart] ? baseChart : DEFAULT_CHART_TYPE_v2;
         localStorage.setItem(autoNavigationKeys.baseChart, normalizedBaseChart);
         return normalizedBaseChart;
     }
@@ -233,10 +212,10 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         if (!isAutoNavigationEnabled_v2()) return;
 
-        const selectedChart = normalizeChartType_v2(localStorage.getItem('selectedChart'));
+        const selectedChart = getSelectedChart_v2();
         if (!autoNavigationPairs[selectedChart] && !autoNavigationReversePairs[selectedChart]) {
-            setAutoNavigationBaseChart_v2('1W');
-            loadChart_v2('1W', '', ticker);
+            setAutoNavigationBaseChart_v2(DEFAULT_CHART_TYPE_v2);
+            loadChart_v2(DEFAULT_CHART_TYPE_v2, '', ticker);
         }
 
         localStorage.setItem(autoNavigationKeys.startedAt, String(Date.now()));
@@ -244,7 +223,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         autoNavigationProgressId = setInterval(updateAutoNavigationProgress_v2, 100);
 
         autoNavigationTimerId = setTimeout(async () => {
-            const selectedChart = normalizeChartType_v2(localStorage.getItem('selectedChart'));
+            const selectedChart = getSelectedChart_v2();
             let baseChart = getAutoNavigationBaseChart_v2();
             if (autoNavigationPairs[selectedChart]) {
                 baseChart = selectedChart;
@@ -279,7 +258,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             return;
         }
 
-        const selectedChart = normalizeChartType_v2(localStorage.getItem('selectedChart'));
+        const selectedChart = getSelectedChart_v2();
         const baseChart = setAutoNavigationBaseChart_v2(inferAutoNavigationBaseChart_v2(selectedChart));
 
         if (!autoNavigationPairs[selectedChart] && !autoNavigationReversePairs[selectedChart]) {
@@ -409,37 +388,49 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     window.autoNavigationResetTimer_v2 = resetAutoNavigationTimer_v2;
 
-    try {
-        const response = await fetch("../../JSON/TickerInfo.json");
-        const tickerInfo = await response.json();
-        const stockData = tickerInfo.find(item => item.ticker === ticker);
+    // Company metadata only decorates the page; never wait for it to load charts.
+    async function loadTickerLogo_v2() {
+        const stockImage = document.getElementById("stock-image");
+        if (!stockImage) return;
 
-        if (!stockData) {
-            console.error("Ticker not found in TickerInfo.json:", ticker);
-            return;
+        const fallbackSrc = stockImage.src;
+        stockImage.alt = ticker;
+        stockImage.onerror = () => {
+            stockImage.onerror = null;
+            stockImage.src = fallbackSrc;
+            stockImage.alt = ticker;
+        };
+
+        try {
+            const response = await fetch("../../JSON/TickerInfo.json");
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const tickerInfo = await response.json();
+            const stockData = tickerInfo.find(item => item?.ticker === ticker);
+            const logoUrl = stockData?.logoUrl;
+
+            if (typeof logoUrl === 'string' && logoUrl.trim()) {
+                stockImage.src = logoUrl.trim();
+                stockImage.alt = `${ticker} Logo`;
+            }
+        } catch (error) {
+            console.warn("Unable to load optional ticker metadata:", error);
         }
+    }
 
-        document.title = `${ticker} - 1D`;
+    loadTickerLogo_v2();
+
+    try {
+        document.title = `${ticker} - ${getSelectedChart_v2()}`;
 
         const summaryLinkTop = document.getElementById("summary-link");
         if (summaryLinkTop) {
             summaryLinkTop.href = "index.html";
         }
 
-        const stockImage = document.getElementById("stock-image");
-        if (stockImage) {
-            stockImage.src = stockData.logoUrl;
-            stockImage.alt = `${ticker} Logo`;
-        }
-
-        const lastSelectedChart = normalizeChartType_v2(localStorage.getItem('selectedChart'));
+        const lastSelectedChart = getSelectedChart_v2();
         console.log(`LastSelectedChart=${lastSelectedChart}`);
 
-        if (!lastSelectedChart) {
-            loadChart_v2('2H', '2H', ticker);
-        } else {
-            loadChart_v2(lastSelectedChart, lastSelectedChart, ticker);
-        }
+        loadChart_v2(lastSelectedChart, lastSelectedChart, ticker);
 
         const chartSummary = document.getElementById("chart-summary");
         if (chartSummary) {
@@ -634,6 +625,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         });
 
     } catch (error) {
-        console.error("Error fetching ticker data:", error);
+        console.error("Error initializing ticker page:", error);
     }
 });

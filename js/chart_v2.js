@@ -2,6 +2,18 @@ let mainChart_v2 = null;
 let histogramChart_v2 = null;
 let resizeTimer_v2 = null;
 const priceSeriesByChart_v2 = new WeakMap();
+const DEFAULT_CHART_TYPE_v2 = '1W';
+const CHART_ORDER_v2 = Object.freeze([
+    '1W', '1D', '2H', '30M',
+    'Rk 1D', 'Rk 1D50', 'Rk 1D25', 'Rk 2H', 'Rk 1H', 'Rk 30M'
+]);
+
+function normalizeChartType_v2(chartType) {
+    // Preserve names saved by older versions before validating the selection.
+    if (chartType === 'Rk 1h') chartType = 'Rk 1H';
+    if (chartType === 'Rk 30m') chartType = 'Rk 30M';
+    return CHART_ORDER_v2.includes(chartType) ? chartType : DEFAULT_CHART_TYPE_v2;
+}
 
 // Function to load an image into the plotly-div container
 function loadImage_v2(imagePath) {
@@ -157,11 +169,11 @@ async function fetchJSONData(url) {
 // ============================ Menu Helpers ============================
 
 function getSelectedChart_v2() {
-    return localStorage.getItem('selectedChart') || '1W';
+    return normalizeChartType_v2(localStorage.getItem('selectedChart'));
 }
 
 function getChartLabel_v2(chartType) {
-    switch (chartType) {
+    switch (normalizeChartType_v2(chartType)) {
         case '1W': return '1W';
         case '1D': return '1D';
         case '2H': return '2h';
@@ -172,7 +184,7 @@ function getChartLabel_v2(chartType) {
         case 'Rk 2H': return '2h';
         case 'Rk 1H': return '1h';
         case 'Rk 30M': return '30m';
-        default: return chartType || '1W';
+        default: return DEFAULT_CHART_TYPE_v2;
     }
 }
 
@@ -205,7 +217,7 @@ function updateActiveMenuLinks_v2(selectedChart) {
         'Rk 30M': 'chart-rk-30m'
     };
 
-    const id = chartMap[selectedChart];
+    const id = chartMap[normalizeChartType_v2(selectedChart)];
     if (id) {
         const el = document.getElementById(id);
         if (el) el.classList.add('active');
@@ -998,7 +1010,7 @@ function resizeActiveCharts_v2() {
 
     adjustViewportHeight_v2();
 
-    const selectedChart = localStorage.getItem('selectedChart') || '1W';
+    const selectedChart = getSelectedChart_v2();
 
     // Renko is just an image: flex centering is enough
     if (selectedChart.startsWith('Rk ')) {
@@ -1100,7 +1112,7 @@ async function loadTradingViewChart_v2(ticker = null) {
 
     try {
         let jsonPath;
-        const selectedChart = localStorage.getItem('selectedChart') || '1W';
+        const selectedChart = getSelectedChart_v2();
 
         if (selectedChart === '1W') {
             jsonPath = `../../charts/JSON/1W/${ticker}.json`;
@@ -1108,8 +1120,10 @@ async function loadTradingViewChart_v2(ticker = null) {
             jsonPath = `../../charts/JSON/1D/${ticker}.json`;
         } else if (selectedChart === '30M') {
             jsonPath = `../../charts/JSON/30M/${ticker}.json`;
-        } else {
+        } else if (selectedChart === '2H') {
             jsonPath = `../../charts/JSON/2H/${ticker}.json`;
+        } else {
+            jsonPath = `../../charts/JSON/${DEFAULT_CHART_TYPE_v2}/${ticker}.json`;
         }
 
         console.log(jsonPath);
@@ -1236,6 +1250,7 @@ function loadChart_v2(chartType, chartPath, ticker = '') {
 
     updateLineMenuLabel_v2();
 
+    chartType = normalizeChartType_v2(chartType);
     localStorage.setItem('selectedChart', chartType);
 
     if (chartType === 'Rk 1D') {
@@ -1272,16 +1287,18 @@ function getPnlBaseChart_v2(selectedChart) {
         '1D': '1D',
         '2H': '2H',
         '30M': '30M',
+        'Rk 1D': '1D',
+        'Rk 2H': '1D',
         'Rk 1D50': '1W',
         'Rk 1D25': '1D',
         'Rk 1H': '2H',
         'Rk 30M': '30M'
     };
-    return chartMap[selectedChart] || '1D';
+    return chartMap[normalizeChartType_v2(selectedChart)] || DEFAULT_CHART_TYPE_v2;
 }
 
 function getPnlJsonPath_v2(ticker) {
-    const selectedChart = localStorage.getItem('selectedChart') || '1W';
+    const selectedChart = getSelectedChart_v2();
     const baseChart = getPnlBaseChart_v2(selectedChart);
     return `../../charts/JSON/${baseChart}/${ticker}.json`;
 }
@@ -1463,35 +1480,14 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     updateOverlay_v2(ticker);
 
-    try {
-        const response = await fetch("../../JSON/TickerInfo.json");
-        const tickerInfo = await response.json();
-        const normalizedTicker = (ticker || '').trim().toUpperCase();
-        const stockData = tickerInfo.find(item => {
-            const itemTicker = (item.ticker || '').trim().toUpperCase();
-            if (itemTicker === normalizedTicker) return true;
-            if (normalizedTicker.endsWith('.MC') && itemTicker === normalizedTicker.slice(0, -3)) return true;
-            if (itemTicker.endsWith('.MC') && itemTicker.slice(0, -3) === normalizedTicker) return true;
-            return false;
-        });
-
-        if (!stockData) {
-            console.error("⚠ Ticker not found in TickerInfo.json:", ticker);
+    const summaryLink = document.getElementById("chart-summary");
+    if (summaryLink) {
+        let displayTicker = ticker;
+        if (ticker.endsWith('_MC')) {
+            displayTicker = '\uD83C\uDDEA\uD83C\uDDF8' + ' ' + ticker.replace('_MC', '');
         }
-
-        const summaryLink = document.getElementById("chart-summary");
-        if (summaryLink) {
-            let displayTicker = ticker;
-            if (ticker.endsWith('_MC')) {
-                displayTicker = '\uD83C\uDDEA\uD83C\uDDF8' + ' ' + ticker.replace('_MC', '');
-            }
-            summaryLink.textContent = displayTicker;
-            summaryLink.href = `../../summaries/${ticker}.html`;
-        }
-
-        console.log(`✅ Summary link updated for "${ticker}".`);
-    } catch (error) {
-        console.error("❌ Error fetching ticker data:", error);
+        summaryLink.textContent = displayTicker;
+        summaryLink.href = `../../summaries/${ticker}.html`;
     }
 
     // Add keyboard shortcut for mode toggle
