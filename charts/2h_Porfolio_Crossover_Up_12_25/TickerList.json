@@ -1,6 +1,5 @@
 [
-{"ticker":"IBKR","dayChange":1.19,"weekChange":1.19,"monthChange":-5.67,"rsi_14":51.4,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":82.46},
-{"ticker":"OKLO","dayChange":5.72,"weekChange":5.72,"monthChange":-0.97,"rsi_14":49.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":3.63},
-{"ticker":"SSO","dayChange":1.59,"weekChange":1.59,"monthChange":0.28,"rsi_14":54.6,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":90.44},
-{"ticker":"ULTA","dayChange":1.34,"weekChange":1.34,"monthChange":2.08,"rsi_14":55.0,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":38.56}
+{"ticker":"ASML","dayChange":0.68,"weekChange":0.68,"monthChange":-0.27,"rsi_14":49.8,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":71.01},
+{"ticker":"RYAAY","dayChange":0.68,"weekChange":0.68,"monthChange":-2.7,"rsi_14":43.8,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":9.73},
+{"ticker":"TMF","dayChange":1.45,"weekChange":1.45,"monthChange":-2.78,"rsi_14":46.1,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":7.66}
 ]
