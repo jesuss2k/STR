@@ -1,4 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"PAYC","dayChange":-0.18,"weekChange":-0.2,"monthChange":-5.55,"rsi_14":57.8,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":86.33},
-{"EMAs":"X X X O","ticker":"WIX","dayChange":-2.66,"weekChange":3.59,"monthChange":-7.86,"rsi_14":55.2,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":28.22}
+{"EMAs":"O X X O","ticker":"SDOW","dayChange":1.01,"weekChange":-1.23,"monthChange":7.61,"rsi_14":58.4,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":21.83},
+{"EMAs":"X X X O","ticker":"PAYC","dayChange":-0.72,"weekChange":-0.74,"monthChange":-6.06,"rsi_14":56.2,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":85.46}
 ]
