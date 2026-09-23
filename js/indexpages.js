@@ -306,7 +306,7 @@ function populateTickerTable() {
               tdExtra.textContent = item[col] !== undefined ? item[col] : "";
             }
           } 
-          else if (col === "% Pfrt") {
+          else if (col === "% Prft" || col === "% Pfrt") {
             // Parse numeric value and apply color logic
             let value = parseFloat(item[col]);
         
