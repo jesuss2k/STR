@@ -321,7 +321,6 @@
 {"ticker":"RCL","positionStatus":"Open","price":232.5,"quantity":10,"leverage":0},
 {"ticker":"RCL","positionStatus":"Open","price":301.3515,"quantity":1,"leverage":0},
 {"ticker":"RDDT","positionStatus":"Open","price":140.0,"quantity":14,"leverage":0},
-{"ticker":"REP_MC","positionStatus":"Open","price":26.56,"quantity":40,"leverage":0},
 {"ticker":"ROAD","positionStatus":"Closed","price":127.95,"quantity":6,"leverage":0},
 {"ticker":"ROAD","positionStatus":"Open","price":100.0,"quantity":15,"leverage":0},
 {"ticker":"ROOT","positionStatus":"Closed","price":77.12,"quantity":6,"leverage":0},
