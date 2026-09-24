@@ -1,10 +1,9 @@
 [
-{"EMAs":"X O X X","ticker":"LNG","dayChange":1.87,"weekChange":3.87,"monthChange":-4.44,"rsi_14":54.1,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":80.68},
-{"EMAs":"O O X X","ticker":"HLT","dayChange":1.18,"weekChange":1.68,"monthChange":-1.71,"rsi_14":47.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":54.87},
-{"EMAs":"X O X X","ticker":"LLY","dayChange":3.17,"weekChange":2.99,"monthChange":2.65,"rsi_14":56.6,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":81.88},
-{"EMAs":"O O X X","ticker":"DUST","dayChange":4.01,"weekChange":6.45,"monthChange":10.95,"rsi_14":50.3,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":7.84},
-{"EMAs":"X O X X","ticker":"ECL","dayChange":0.39,"weekChange":3.1,"monthChange":-1.91,"rsi_14":51.7,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":52.41},
-{"EMAs":"X O X X","ticker":"ROST","dayChange":0.69,"weekChange":3.96,"monthChange":3.08,"rsi_14":54.9,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":80.45},
-{"EMAs":"X O X X","ticker":"CAKE","dayChange":0.99,"weekChange":9.25,"monthChange":-3.7,"rsi_14":54.1,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":82.73},
-{"EMAs":"O O X X","ticker":"TJX","dayChange":0.05,"weekChange":3.47,"monthChange":-1.68,"rsi_14":44.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":18.81}
+{"EMAs":"O O X X","ticker":"RKLB","dayChange":1.67,"weekChange":10.71,"monthChange":11.84,"rsi_14":55.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":29.9},
+{"EMAs":"X O X X","ticker":"LNG","dayChange":1.9,"weekChange":3.91,"monthChange":-4.41,"rsi_14":54.2,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":80.76},
+{"EMAs":"O O X X","ticker":"HLT","dayChange":0.53,"weekChange":1.02,"monthChange":-2.35,"rsi_14":44.9,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":52.93},
+{"EMAs":"X O X X","ticker":"LLY","dayChange":3.45,"weekChange":3.27,"monthChange":2.93,"rsi_14":57.3,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":82.43},
+{"EMAs":"O X X X","ticker":"LABD","dayChange":2.38,"weekChange":2.66,"monthChange":13.33,"rsi_14":54.2,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":4.21},
+{"EMAs":"O O X X","ticker":"DUST","dayChange":4.41,"weekChange":6.86,"monthChange":11.38,"rsi_14":50.6,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":7.98},
+{"EMAs":"X O X X","ticker":"CAKE","dayChange":0.48,"weekChange":8.7,"monthChange":-4.18,"rsi_14":53.3,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":82.03}
 ]
