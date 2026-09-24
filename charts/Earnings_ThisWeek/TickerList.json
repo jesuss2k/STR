@@ -47,7 +47,7 @@
 {"EarningsDate":"2026-08-26","Priority":1,"ticker":"CRWD","dayChange":4.97,"weekChange":10.45,"monthChange":13.63,"rsi_14":68.9,"EMAs.":0,"ZLEMAs":0,"weekRange":99.61},
 {"EarningsDate":"2026-08-26","Priority":1,"ticker":"NVDA","dayChange":-1.47,"weekChange":1.46,"monthChange":2.14,"rsi_14":55.7,"EMAs.":0,"ZLEMAs":0,"weekRange":84.74},
 {"EarningsDate":"2026-08-26","Priority":1,"ticker":"SNOW","dayChange":-0.53,"weekChange":0.72,"monthChange":1.02,"rsi_14":54.4,"EMAs.":0,"ZLEMAs":0,"weekRange":81.32},
-{"EarningsDate":"2026-08-26","Priority":2,"ticker":"NTAP","dayChange":1.77,"weekChange":0.0,"monthChange":5.96,"rsi_14":55.3,"EMAs.":0,"ZLEMAs":0,"weekRange":88.97},
+{"EarningsDate":"2026-08-26","Priority":2,"ticker":"NTAP","dayChange":-0.15,"weekChange":2.81,"monthChange":9.27,"rsi_14":55.3,"EMAs.":0,"ZLEMAs":0,"weekRange":0},
 {"EarningsDate":"2026-08-26","Priority":2,"ticker":"OKTA","dayChange":4.45,"weekChange":12.61,"monthChange":18.68,"rsi_14":71.3,"EMAs.":0,"ZLEMAs":0,"weekRange":98.73},
 {"EarningsDate":"2026-08-26","Priority":2,"ticker":"VEEV","dayChange":3.77,"weekChange":4.05,"monthChange":-5.23,"rsi_14":61.3,"EMAs.":0,"ZLEMAs":0,"weekRange":75.53},
 {"EarningsDate":"2026-08-27","Priority":1,"ticker":"AFRM","dayChange":-5.13,"weekChange":-4.38,"monthChange":-8.54,"rsi_14":40.0,"EMAs.":0,"ZLEMAs":0,"weekRange":53.77},
