@@ -19,7 +19,7 @@
 {"ticker":"VGT","dayChange":-0.64,"weekChange":2.69,"monthChange":4.24,"rsi_14":64.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":97.66},
 {"ticker":"IGV","dayChange":1.26,"weekChange":3.59,"monthChange":-1.71,"rsi_14":59.0,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":77.96},
 {"ticker":"SHOP","dayChange":-3.66,"weekChange":10.77,"monthChange":-3.41,"rsi_14":54.1,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":54.81},
-{"ticker":"NOW","dayChange":2.76,"weekChange":3.92,"monthChange":-4.87,"rsi_14":57.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":52.46},
+{"ticker":"NOW","dayChange":2.76,"weekChange":3.92,"monthChange":-4.87,"rsi_14":57.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":53.29},
 {"ticker":"TSLA","dayChange":0.32,"weekChange":4.35,"monthChange":3.31,"rsi_14":60.6,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":41.07},
 {"ticker":"IONQ","dayChange":4.42,"weekChange":8.71,"monthChange":8.22,"rsi_14":57.2,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":28.34},
 {"ticker":"COIN","dayChange":-1.46,"weekChange":2.0,"monthChange":5.32,"rsi_14":58.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":22.44},

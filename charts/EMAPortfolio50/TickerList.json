@@ -44,7 +44,7 @@
 {"Group":"12","ticker":"PTC","dayChange":0.29,"weekChange":3.32,"monthChange":-9.85,"rsi_14":50.9,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":32.45},
 {"Group":"12","ticker":"RKLB","dayChange":-2.32,"weekChange":8.89,"monthChange":10.0,"rsi_14":53.9,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":28.86},
 {"Group":"12","ticker":"QTUM","dayChange":-1.28,"weekChange":3.15,"monthChange":3.05,"rsi_14":57.0,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":75.55},
-{"Group":"12","ticker":"ROST","dayChange":0.63,"weekChange":3.25,"monthChange":2.38,"rsi_14":52.8,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":79.26},
+{"Group":"12","ticker":"ROST","dayChange":0.63,"weekChange":3.25,"monthChange":2.38,"rsi_14":52.8,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":78.98},
 {"Group":"12","ticker":"AAPL","dayChange":-0.8,"weekChange":0.26,"monthChange":6.37,"rsi_14":62.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.84},
 {"Group":"12","ticker":"PSTG","dayChange":4.48,"weekChange":11.26,"monthChange":14.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":25.15},
 {"Group":"12","ticker":"ANET","dayChange":-0.84,"weekChange":2.05,"monthChange":3.98,"rsi_14":57.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":88.62},
