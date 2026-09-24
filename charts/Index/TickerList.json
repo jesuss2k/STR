@@ -1,7 +1,7 @@
 [
-{"ticker":"IBIT","dayChange":-0.31,"weekChange":3.72,"monthChange":6.85,"rsi_14":65.4,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":38.2},
-{"ticker":"IWM","dayChange":-0.98,"weekChange":-1.74,"monthChange":-5.03,"rsi_14":31.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":65.89},
-{"ticker":"QQQ","dayChange":-0.76,"weekChange":1.96,"monthChange":2.63,"rsi_14":59.2,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":93.23},
-{"ticker":"SOXX","dayChange":-1.69,"weekChange":4.34,"monthChange":8.83,"rsi_14":58.4,"EMAs.":"X X X O","ZLEMAs":"O X X","weekRange":74.77},
-{"ticker":"SPY","dayChange":-0.51,"weekChange":0.29,"monthChange":-0.41,"rsi_14":49.7,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":89.69}
+{"ticker":"IBIT","dayChange":-0.06,"weekChange":3.98,"monthChange":7.12,"rsi_14":66.0,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":38.51},
+{"ticker":"IWM","dayChange":-0.23,"weekChange":-1.0,"monthChange":-4.31,"rsi_14":33.6,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":68.65},
+{"ticker":"QQQ","dayChange":0.06,"weekChange":2.8,"monthChange":3.48,"rsi_14":63.4,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":96.38},
+{"ticker":"SOXX","dayChange":-0.09,"weekChange":6.03,"monthChange":10.6,"rsi_14":61.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":77.06},
+{"ticker":"SPY","dayChange":0.03,"weekChange":0.83,"monthChange":0.13,"rsi_14":53.2,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":92.46}
 ]
