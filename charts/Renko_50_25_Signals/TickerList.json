@@ -14,7 +14,7 @@
 {"ticker":"NTAP","dayChange":0.46,"weekChange":0.0,"monthChange":6.45,"rsi_14":58.4,"EMAs.":0,"ZLEMAs":0,"weekRange":89.75},
 {"ticker":"PM","dayChange":0.35,"weekChange":1.53,"monthChange":2.24,"rsi_14":53.8,"EMAs.":0,"ZLEMAs":0,"weekRange":75.23},
 {"ticker":"RVTY","dayChange":6.03,"weekChange":0.0,"monthChange":17.11,"rsi_14":73.3,"EMAs.":0,"ZLEMAs":0,"weekRange":97.78},
-{"ticker":"SAB_MC","dayChange":0.78,"weekChange":2.69,"monthChange":2.86,"rsi_14":57.5,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":98.34},
+{"ticker":"SAB_MC","dayChange":0.89,"weekChange":2.8,"monthChange":2.97,"rsi_14":57.5,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":98.76},
 {"ticker":"SWKS","dayChange":-3.98,"weekChange":0.0,"monthChange":31.04,"rsi_14":62.3,"EMAs.":0,"ZLEMAs":0,"weekRange":87.79},
 {"ticker":"WAT","dayChange":2.31,"weekChange":0.0,"monthChange":3.78,"rsi_14":63.8,"EMAs.":0,"ZLEMAs":0,"weekRange":96.07},
 {"ticker":"YEXT","dayChange":0.47,"weekChange":5.37,"monthChange":-4.43,"rsi_14":56.0,"EMAs.":0,"ZLEMAs":0,"weekRange":55.59},
