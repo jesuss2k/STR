@@ -1,7 +1,7 @@
 [
 {"Date":"26-09-24","ticker":"PM","dayChange":0.35,"weekChange":1.53,"monthChange":2.24,"rsi_14":53.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":75.23},
 {"Date":"26-09-24","ticker":"CAVA","dayChange":0.77,"weekChange":3.62,"monthChange":-18.62,"rsi_14":37.1,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":18.24},
-{"Date":"26-09-24","ticker":"GDDY","dayChange":4.6,"weekChange":3.44,"monthChange":2.99,"rsi_14":53.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":40.73},
+{"Date":"26-09-24","ticker":"GDDY","dayChange":4.6,"weekChange":3.44,"monthChange":2.99,"rsi_14":53.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":41.21},
 {"Date":"26-09-23","ticker":"NOW","dayChange":-2.13,"weekChange":1.71,"monthChange":-6.9,"rsi_14":54.2,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":50.61},
 {"Date":"26-09-23","ticker":"ICE","dayChange":0.37,"weekChange":0.94,"monthChange":-2.35,"rsi_14":52.2,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":64.76},
 {"Date":"26-09-22","ticker":"DKS","dayChange":0.67,"weekChange":9.99,"monthChange":-1.37,"rsi_14":39.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":10.54},
@@ -33,7 +33,7 @@
 {"Date":"26-09-16","ticker":"MDB","dayChange":-1.62,"weekChange":9.87,"monthChange":-7.05,"rsi_14":57.1,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":79.92},
 {"Date":"26-09-14","ticker":"PANW","dayChange":-0.86,"weekChange":7.24,"monthChange":2.04,"rsi_14":61.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":96.54},
 {"Date":"26-09-14","ticker":"ZS","dayChange":0.09,"weekChange":8.78,"monthChange":13.94,"rsi_14":70.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":44.98},
-{"Date":"26-09-14","ticker":"OLLI","dayChange":2.22,"weekChange":11.34,"monthChange":11.96,"rsi_14":66.1,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":31.73},
+{"Date":"26-09-14","ticker":"OLLI","dayChange":2.22,"weekChange":11.34,"monthChange":11.96,"rsi_14":66.1,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":32.41},
 {"Date":"26-09-14","ticker":"IGV","dayChange":-0.88,"weekChange":2.68,"monthChange":-2.57,"rsi_14":56.6,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":75.79},
 {"Date":"26-09-14","ticker":"PG","dayChange":-1.14,"weekChange":-0.46,"monthChange":0.41,"rsi_14":48.9,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":27.3},
 {"Date":"26-08-26","ticker":"QCOM","dayChange":-1.51,"weekChange":9.31,"monthChange":13.95,"rsi_14":63.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":52.4},

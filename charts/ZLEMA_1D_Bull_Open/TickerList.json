@@ -1,7 +1,7 @@
 [
 {"ticker":"PM","dayChange":0.35,"weekChange":1.53,"monthChange":2.24,"rsi_14":53.8,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":75.23},
 {"ticker":"PG","dayChange":-1.14,"weekChange":-0.46,"monthChange":0.41,"rsi_14":48.9,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":27.3},
-{"ticker":"GDDY","dayChange":4.6,"weekChange":3.44,"monthChange":2.99,"rsi_14":53.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":40.73},
+{"ticker":"GDDY","dayChange":4.6,"weekChange":3.44,"monthChange":2.99,"rsi_14":53.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":41.21},
 {"ticker":"RDDT","dayChange":0.49,"weekChange":1.25,"monthChange":3.33,"rsi_14":47.0,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":23.2},
 {"ticker":"AAL","dayChange":0.0,"weekChange":3.01,"monthChange":-0.6,"rsi_14":46.9,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":37.47},
 {"ticker":"VGT","dayChange":-0.33,"weekChange":2.35,"monthChange":3.9,"rsi_14":62.8,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":96.71},
@@ -20,7 +20,7 @@
 {"ticker":"AMSC","dayChange":-2.03,"weekChange":0.76,"monthChange":5.96,"rsi_14":52.0,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":12.17},
 {"ticker":"COIN","dayChange":0.55,"weekChange":2.55,"monthChange":5.9,"rsi_14":59.3,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":22.85},
 {"ticker":"ZS","dayChange":0.09,"weekChange":8.78,"monthChange":13.94,"rsi_14":70.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":44.98},
-{"ticker":"OLLI","dayChange":2.22,"weekChange":11.34,"monthChange":11.96,"rsi_14":66.1,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":31.73},
+{"ticker":"OLLI","dayChange":2.22,"weekChange":11.34,"monthChange":11.96,"rsi_14":66.1,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":32.41},
 {"ticker":"APP","dayChange":-0.88,"weekChange":1.43,"monthChange":0.13,"rsi_14":43.2,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":3.34},
 {"ticker":"QCOM","dayChange":-1.51,"weekChange":9.31,"monthChange":13.95,"rsi_14":63.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":52.4},
 {"ticker":"IONQ","dayChange":5.74,"weekChange":14.95,"monthChange":14.42,"rsi_14":62.3,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":32.49},
