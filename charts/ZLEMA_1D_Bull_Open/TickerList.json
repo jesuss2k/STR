@@ -17,7 +17,7 @@
 {"ticker":"SNPS","dayChange":0.2,"weekChange":10.6,"monthChange":-3.15,"rsi_14":59.8,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":35.73},
 {"ticker":"COIN","dayChange":-2.06,"weekChange":0.44,"monthChange":3.72,"rsi_14":56.9,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":21.29},
 {"ticker":"AMSC","dayChange":-1.35,"weekChange":-0.6,"monthChange":4.53,"rsi_14":49.9,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":11.27},
-{"ticker":"OLLI","dayChange":-0.23,"weekChange":11.09,"monthChange":11.71,"rsi_14":65.5,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":32.16},
+{"ticker":"OLLI","dayChange":-0.23,"weekChange":11.09,"monthChange":11.71,"rsi_14":65.5,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":32.79},
 {"ticker":"APP","dayChange":-0.55,"weekChange":0.87,"monthChange":-0.42,"rsi_14":42.6,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":2.96},
 {"ticker":"ON","dayChange":5.54,"weekChange":10.32,"monthChange":4.2,"rsi_14":54.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":36.12},
 {"ticker":"IONQ","dayChange":1.11,"weekChange":16.23,"monthChange":15.7,"rsi_14":63.3,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":33.34},

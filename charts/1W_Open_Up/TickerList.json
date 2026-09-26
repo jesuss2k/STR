@@ -29,7 +29,7 @@
 {"ticker":"ZS","dayChange":-10.06,"weekChange":-2.16,"monthChange":2.48,"rsi_14":53.6,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":35.27},
 {"ticker":"IBIT","dayChange":-0.5,"weekChange":3.37,"monthChange":6.49,"rsi_14":64.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":37.79},
 {"ticker":"PLTR","dayChange":-1.52,"weekChange":6.77,"monthChange":1.77,"rsi_14":63.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.35},
-{"ticker":"OLLI","dayChange":-0.23,"weekChange":11.09,"monthChange":11.71,"rsi_14":65.5,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":32.16},
+{"ticker":"OLLI","dayChange":-0.23,"weekChange":11.09,"monthChange":11.71,"rsi_14":65.5,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":32.79},
 {"ticker":"IONQ","dayChange":1.11,"weekChange":16.23,"monthChange":15.7,"rsi_14":63.3,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":33.34},
 {"ticker":"QCOM","dayChange":3.97,"weekChange":13.65,"monthChange":18.47,"rsi_14":67.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":57.99},
 {"ticker":"META","dayChange":-3.33,"weekChange":12.9,"monthChange":31.33,"rsi_14":71.3,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":89.15},
