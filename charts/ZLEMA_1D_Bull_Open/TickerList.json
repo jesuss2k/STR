@@ -1,8 +1,8 @@
 [
 {"ticker":"NVDA","dayChange":0.22,"weekChange":1.26,"monthChange":1.94,"rsi_14":55.2,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":84.13},
 {"ticker":"EEM","dayChange":1.09,"weekChange":1.42,"monthChange":1.43,"rsi_14":54.2,"EMAs.":"X X X X","ZLEMAs":"O O X","weekRange":81.82},
+{"ticker":"PG","dayChange":0.38,"weekChange":-0.11,"monthChange":0.76,"rsi_14":50.6,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":29.06},
 {"ticker":"PLTR","dayChange":-1.52,"weekChange":6.77,"monthChange":1.77,"rsi_14":63.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.35},
-{"ticker":"PG","dayChange":0.4,"weekChange":-0.08,"monthChange":0.79,"rsi_14":50.8,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":29.19},
 {"ticker":"ALK","dayChange":2.27,"weekChange":0.99,"monthChange":-0.94,"rsi_14":46.3,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":28.66},
 {"ticker":"EBAY","dayChange":0.06,"weekChange":-3.52,"monthChange":4.19,"rsi_14":50.6,"EMAs.":"X X O O","ZLEMAs":"O X O","weekRange":72.36},
 {"ticker":"VGT","dayChange":0.78,"weekChange":3.16,"monthChange":4.71,"rsi_14":65.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.97},
