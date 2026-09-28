@@ -1,6 +1,3 @@
 [
-{"EMAs":"X X X O","ticker":"GLBE","dayChange":-0.56,"weekChange":-0.56,"monthChange":6.95,"rsi_14":54.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":76.41},
-{"EMAs":"X X X O","ticker":"FAST","dayChange":0.34,"weekChange":0.34,"monthChange":2.62,"rsi_14":57.2,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":83.4},
-{"EMAs":"X X X O","ticker":"OKTA","dayChange":3.57,"weekChange":3.57,"monthChange":16.83,"rsi_14":65.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":93.1},
-{"EMAs":"X X X O","ticker":"FTNT","dayChange":1.65,"weekChange":1.65,"monthChange":3.16,"rsi_14":60.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":95.33}
+{"EMAs":"X X X O","ticker":"FAST","dayChange":0.12,"weekChange":0.12,"monthChange":2.39,"rsi_14":56.4,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":82.61}
 ]
