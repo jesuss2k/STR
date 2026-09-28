@@ -281,7 +281,7 @@ function populateTickerTable() {
         extraColumns.forEach(col => {
           const tdExtra = document.createElement("td");
         
-          if (col.includes("EMA") && item[col]) {
+          if (["EMAs.", "ZLEMAs"].includes(col) && item[col]) {
             // Format EMAs column with specific colors
             const emsFormatted = item[col].split(" ").map(char => {
               const span = document.createElement("span");
