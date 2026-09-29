@@ -1,7 +1,3 @@
 [
-{"EMAs":"X X X O","ticker":"INTC","dayChange":2.22,"weekChange":-3.57,"monthChange":32.51,"rsi_14":60.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":78.31},
-{"EMAs":"X X X O","ticker":"QQQ","dayChange":0.31,"weekChange":-0.76,"monthChange":3.08,"rsi_14":59.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.9},
-{"EMAs":"O X X O","ticker":"LABD","dayChange":2.92,"weekChange":-0.4,"monthChange":11.3,"rsi_14":52.6,"EMAs.":"O X X O","ZLEMAs":"O X X","weekRange":4.36},
-{"EMAs":"X X X O","ticker":"QTUM","dayChange":0.6,"weekChange":-0.94,"monthChange":2.93,"rsi_14":55.5,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":75.31},
-{"EMAs":"X X X O","ticker":"AMD","dayChange":1.46,"weekChange":-2.21,"monthChange":31.02,"rsi_14":67.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":95.36}
+{"EMAs":"X X X O","ticker":"AMD","dayChange":0.87,"weekChange":-2.77,"monthChange":30.26,"rsi_14":66.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.61}
 ]
