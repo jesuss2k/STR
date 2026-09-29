@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"MRK","dayChange":-0.02,"weekChange":-0.08,"monthChange":0.61,"rsi_14":56.5,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":89.48}
+{"EMAs":"X X X O","ticker":"QLD","dayChange":0.56,"weekChange":-1.59,"monthChange":5.72,"rsi_14":58.8,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":87.03},
+{"EMAs":"X X X O","ticker":"QQQ","dayChange":0.29,"weekChange":-0.79,"monthChange":3.05,"rsi_14":59.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.82},
+{"EMAs":"X X X O","ticker":"TQQQ","dayChange":0.82,"weekChange":-2.42,"monthChange":8.0,"rsi_14":58.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":79.48}
 ]
