@@ -21,8 +21,8 @@
 {"ticker":"DKS","dayChange":-1.66,"weekChange":-1.66,"monthChange":-0.7,"rsi_14":41.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":11.28},
 {"ticker":"ON","dayChange":-2.01,"weekChange":-2.01,"monthChange":2.11,"rsi_14":52.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":34.41},
 {"ticker":"META","dayChange":-4.79,"weekChange":-4.79,"monthChange":25.03,"rsi_14":60.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":75.27},
-{"ticker":"APP","dayChange":-0.81,"weekChange":-0.81,"monthChange":-1.22,"rsi_14":41.6,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":2.4},
-{"ticker":"OLLI","dayChange":1.52,"weekChange":1.52,"monthChange":13.4,"rsi_14":67.4,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":34.55},
+{"ticker":"APP","dayChange":-0.81,"weekChange":-0.81,"monthChange":-1.22,"rsi_14":41.6,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":2.44},
+{"ticker":"OLLI","dayChange":1.52,"weekChange":1.52,"monthChange":13.4,"rsi_14":67.4,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":34.58},
 {"ticker":"IONQ","dayChange":-1.98,"weekChange":-1.98,"monthChange":13.41,"rsi_14":60.3,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":31.81},
 {"ticker":"ALAB","dayChange":-3.65,"weekChange":-3.65,"monthChange":18.29,"rsi_14":59.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":63.1}
 ]

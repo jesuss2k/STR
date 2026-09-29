@@ -24,5 +24,5 @@
 {"ticker":"ZS","dayChange":3.28,"weekChange":3.28,"monthChange":5.84,"rsi_14":56.9,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":38.12},
 {"ticker":"ALAB","dayChange":-3.65,"weekChange":-3.65,"monthChange":18.29,"rsi_14":59.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":63.1},
 {"ticker":"PANW","dayChange":4.63,"weekChange":4.63,"monthChange":2.61,"rsi_14":59.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":97.38},
-{"ticker":"OLLI","dayChange":1.52,"weekChange":1.52,"monthChange":13.4,"rsi_14":67.4,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":34.55}
+{"ticker":"OLLI","dayChange":1.52,"weekChange":1.52,"monthChange":13.4,"rsi_14":67.4,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":34.58}
 ]
