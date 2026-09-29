@@ -1,5 +1,8 @@
 [
-{"EMAs":"X X X O","ticker":"QLD","dayChange":0.56,"weekChange":-1.59,"monthChange":5.72,"rsi_14":58.8,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":87.03},
-{"EMAs":"X X X O","ticker":"QQQ","dayChange":0.29,"weekChange":-0.79,"monthChange":3.05,"rsi_14":59.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.82},
-{"EMAs":"X X X O","ticker":"TQQQ","dayChange":0.82,"weekChange":-2.42,"monthChange":8.0,"rsi_14":58.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":79.48}
+{"EMAs":"X X X O","ticker":"VEEV","dayChange":-0.5,"weekChange":-0.76,"monthChange":-2.5,"rsi_14":64.7,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":80.34},
+{"EMAs":"X X X O","ticker":"YEXT","dayChange":0.78,"weekChange":0.15,"monthChange":-4.28,"rsi_14":56.1,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":55.77},
+{"EMAs":"X X X O","ticker":"TQQQ","dayChange":0.55,"weekChange":-2.69,"monthChange":7.7,"rsi_14":57.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":79.06},
+{"EMAs":"X X X O","ticker":"QLD","dayChange":0.35,"weekChange":-1.81,"monthChange":5.5,"rsi_14":58.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":86.57},
+{"EMAs":"X X X O","ticker":"QQQ","dayChange":0.19,"weekChange":-0.88,"monthChange":2.95,"rsi_14":59.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.45},
+{"EMAs":"X X X O","ticker":"FTNT","dayChange":-0.21,"weekChange":1.44,"monthChange":2.94,"rsi_14":59.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.98}
 ]
