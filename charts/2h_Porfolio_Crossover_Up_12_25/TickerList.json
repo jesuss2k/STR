@@ -1,3 +1,4 @@
 [
-{"ticker":"HIMS","dayChange":4.69,"weekChange":2.12,"monthChange":1.57,"rsi_14":54.0,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":31.62}
+{"ticker":"ASPN","dayChange":4.98,"weekChange":4.98,"monthChange":11.16,"rsi_14":57.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":45.12},
+{"ticker":"INTC","dayChange":2.43,"weekChange":-3.46,"monthChange":32.66,"rsi_14":60.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":78.44}
 ]
