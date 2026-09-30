@@ -1,4 +1,5 @@
 [
-{"ticker":"ASPN","dayChange":4.98,"weekChange":4.98,"monthChange":11.16,"rsi_14":57.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":45.12},
-{"ticker":"INTC","dayChange":2.43,"weekChange":-3.46,"monthChange":32.66,"rsi_14":60.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":78.44}
+{"ticker":"FROG","dayChange":5.52,"weekChange":6.92,"monthChange":-4.71,"rsi_14":56.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":85.49},
+{"ticker":"GOOG","dayChange":3.32,"weekChange":2.18,"monthChange":3.91,"rsi_14":55.9,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":66.65},
+{"ticker":"GOOGL","dayChange":3.23,"weekChange":2.33,"monthChange":3.71,"rsi_14":55.9,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":67.2}
 ]
