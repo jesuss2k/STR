@@ -1,5 +1,3 @@
 [
-{"ticker":"FROG","dayChange":5.52,"weekChange":6.92,"monthChange":-4.71,"rsi_14":56.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":85.49},
-{"ticker":"GOOG","dayChange":3.32,"weekChange":2.18,"monthChange":3.91,"rsi_14":55.9,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":66.65},
-{"ticker":"GOOGL","dayChange":3.23,"weekChange":2.33,"monthChange":3.71,"rsi_14":55.9,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":67.2}
+{"ticker":"BOX","dayChange":2.32,"weekChange":6.75,"monthChange":-6.34,"rsi_14":51.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":81.13}
 ]
