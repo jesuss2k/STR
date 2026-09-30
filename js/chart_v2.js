@@ -399,6 +399,29 @@ function prepareCandleData(rawData) {
     }));
 }
 
+function prepareHeikinAshiData(rawData) {
+    let previousOpen = null;
+    let previousClose = null;
+
+    return rawData.map(entry => {
+        const close = (entry.Open + entry.High + entry.Low + entry.Close) / 4;
+        const open = previousOpen === null
+            ? (entry.Open + entry.Close) / 2
+            : (previousOpen + previousClose) / 2;
+        const candle = {
+            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+            open,
+            high: Math.max(entry.High, open, close),
+            low: Math.min(entry.Low, open, close),
+            close
+        };
+
+        previousOpen = open;
+        previousClose = close;
+        return candle;
+    });
+}
+
 function prepareLineData(rawData) {
     return rawData.map(entry => ({
         time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
@@ -422,6 +445,7 @@ function plotCloseLine(chart, lineData) {
     const lineSeries = addPriceSeries_v2(chart, 'Line', {
         color: "dodgerblue",
         lineWidth: 2,
+        pointMarkersVisible: true,
         lastValueVisible: false,
         priceLineVisible: false,
         priceFormat: {
@@ -1139,13 +1163,17 @@ async function loadTradingViewChart_v2(ticker = null) {
         const candleData = prepareCandleData(rawData);
 
         const renderMode = getRenderMode_v2();
+        let displayCandleData = candleData;
         if (renderMode === 'LINE') {
             const lineData = prepareLineData(rawData);
             plotCloseLine(chart, lineData);
             console.log(`✅ Rendered LINE for ${ticker}`);
         } else {
-            plotCandlesticks(chart, candleData);
-            console.log(`✅ Rendered CANDLES for ${ticker}`);
+            if (renderMode === 'HEIKIN_ASHI') {
+                displayCandleData = prepareHeikinAshiData(rawData);
+            }
+            plotCandlesticks(chart, displayCandleData);
+            console.log(`✅ Rendered ${renderMode === 'HEIKIN_ASHI' ? 'HEIKIN ASHI' : 'CANDLES'} for ${ticker}`);
         }
 
         if (selectedChart === '1W') {
@@ -1224,7 +1252,7 @@ async function loadTradingViewChart_v2(ticker = null) {
             // opening view, and ignore a chart superseded by navigation or Renko.
             await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
             if (chart !== mainChart_v2 || getSelectedChart_v2().startsWith('Rk ')) return;
-            await fitInitialPriceRange_v2(chart, candleData);
+            await fitInitialPriceRange_v2(chart, displayCandleData);
         }
     } finally {
         if (verticalFit) {
@@ -1504,18 +1532,21 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 });
 
-// ---------- Render mode (CANDLES -> LINE -> ZLEMA -> CANDLES) ----------
+// ---------- Render mode (CANDLES -> LINE -> ZLEMA -> HEIKIN_ASHI -> CANDLES) ----------
 function getRenderMode_v2() {
     return localStorage.getItem('chartRenderMode_v2') || 'CANDLES';
 }
 
 function setRenderMode_v2(mode) {
-    const normalized = mode === 'LINE' ? 'LINE' : mode === 'ZLEMA' ? 'ZLEMA' : 'CANDLES';
+    const normalized = mode === 'LINE' ? 'LINE'
+        : mode === 'ZLEMA' ? 'ZLEMA'
+        : mode === 'HEIKIN_ASHI' ? 'HEIKIN_ASHI'
+        : 'CANDLES';
     localStorage.setItem('chartRenderMode_v2', normalized);
 }
 
 function toggleRenderMode_v2() {
-    const modes = ['CANDLES', 'LINE', 'ZLEMA'];
+    const modes = ['CANDLES', 'LINE', 'ZLEMA', 'HEIKIN_ASHI'];
     const current = getRenderMode_v2();
     const idx = modes.indexOf(current);
     const next = modes[(idx + 1) % modes.length] || 'CANDLES';
@@ -1534,6 +1565,8 @@ function updateLineMenuLabel_v2(mode = getRenderMode_v2()) {
         lineBtn.textContent = 'Line';
     } else if (mode === 'ZLEMA') {
         lineBtn.textContent = 'Zlema';
+    } else if (mode === 'HEIKIN_ASHI') {
+        lineBtn.textContent = 'H-Ashi';
     } else {
         lineBtn.textContent = 'Cndl';
     }
