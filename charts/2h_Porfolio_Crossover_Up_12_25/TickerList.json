@@ -1,5 +1,3 @@
 [
-{"ticker":"FNGD","dayChange":1.58,"weekChange":4.77,"monthChange":0.79,"rsi_14":43.5,"EMAs.":"O O O X","ZLEMAs":"X X X","weekRange":2.59},
-{"ticker":"GGLS","dayChange":2.17,"weekChange":2.07,"monthChange":0.36,"rsi_14":55.7,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":91.52},
-{"ticker":"PATH","dayChange":3.31,"weekChange":6.46,"monthChange":1.99,"rsi_14":44.3,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":38.2}
+{"ticker":"IOT","dayChange":3.89,"weekChange":4.36,"monthChange":3.0,"rsi_14":52.5,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":67.39}
 ]
