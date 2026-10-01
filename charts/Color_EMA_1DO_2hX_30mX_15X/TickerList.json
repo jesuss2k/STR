@@ -1,9 +1,10 @@
 [
-{"EMAs":"O O X X","ticker":"TJX","dayChange":0.22,"weekChange":1.95,"monthChange":-0.48,"rsi_14":48.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":20.79},
-{"EMAs":"O O X X","ticker":"SPXU","dayChange":1.21,"weekChange":4.85,"monthChange":0.92,"rsi_14":53.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":45.43},
-{"EMAs":"O O X X","ticker":"SDS","dayChange":0.81,"weekChange":3.19,"monthChange":0.62,"rsi_14":52.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":61.86},
-{"EMAs":"O O X X","ticker":"PTC","dayChange":5.1,"weekChange":6.76,"monthChange":4.59,"rsi_14":59.7,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":39.63},
-{"EMAs":"X O X X","ticker":"CSCO","dayChange":0.34,"weekChange":1.22,"monthChange":0.24,"rsi_14":45.9,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":64.81},
-{"EMAs":"X O X X","ticker":"BOX","dayChange":-0.1,"weekChange":6.55,"monthChange":0.99,"rsi_14":51.4,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":80.7},
-{"EMAs":"O O X X","ticker":"YOU","dayChange":-0.79,"weekChange":5.1,"monthChange":-0.54,"rsi_14":46.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":30.74}
+{"EMAs":"O O X X","ticker":"POWL","dayChange":2.68,"weekChange":-0.06,"monthChange":-0.28,"rsi_14":50.8,"EMAs.":"O O X X","ZLEMAs":"O X O","weekRange":41.13},
+{"EMAs":"O O X X","ticker":"TJX","dayChange":0.77,"weekChange":2.52,"monthChange":-0.48,"rsi_14":50.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":22.35},
+{"EMAs":"X X X X","ticker":"COHR","dayChange":10.92,"weekChange":7.92,"monthChange":3.04,"rsi_14":56.6,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":63.61},
+{"EMAs":"O O X X","ticker":"SPXU","dayChange":0.78,"weekChange":4.41,"monthChange":0.92,"rsi_14":52.3,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":45.13},
+{"EMAs":"O O X X","ticker":"SDS","dayChange":0.51,"weekChange":2.89,"monthChange":0.62,"rsi_14":51.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":61.62},
+{"EMAs":"O O X X","ticker":"PTC","dayChange":3.33,"weekChange":4.96,"monthChange":4.59,"rsi_14":57.2,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":37.09},
+{"EMAs":"X O X X","ticker":"CSCO","dayChange":0.56,"weekChange":1.43,"monthChange":0.24,"rsi_14":46.6,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":65.17},
+{"EMAs":"X O X X","ticker":"BOX","dayChange":0.09,"weekChange":6.75,"monthChange":0.99,"rsi_14":51.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":81.13}
 ]

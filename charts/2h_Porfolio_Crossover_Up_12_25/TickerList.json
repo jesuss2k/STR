@@ -1,3 +1,4 @@
 [
-{"ticker":"SDS","dayChange":0.62,"weekChange":3.0,"monthChange":0.62,"rsi_14":52.0,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":61.71}
+{"ticker":"OSCR","dayChange":-1.52,"weekChange":2.6,"monthChange":-1.91,"rsi_14":47.1,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":82.72},
+{"ticker":"POWL","dayChange":2.68,"weekChange":-0.06,"monthChange":-0.28,"rsi_14":50.8,"EMAs.":"O O X X","ZLEMAs":"O X O","weekRange":41.13}
 ]
