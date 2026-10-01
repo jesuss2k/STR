@@ -1653,6 +1653,7 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
     const trendlineSeries = chart.addLineSeries({
         color: '#26a69a',
         lineWidth: 2,
+        lineStyle: LightweightCharts.LineStyle.Dotted,
         priceLineVisible: false,
         lastValueVisible: false,
         crosshairMarkerVisible: false,
