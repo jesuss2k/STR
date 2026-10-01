@@ -616,6 +616,55 @@ async function plotGuruFocus(chart, candleData, ticker) {
     }
 }
 
+async function loadRenkoReferenceLevels_v2(ticker) {
+    const loadRows = async (path) => {
+        try {
+            const rows = await fetchJSONData(path);
+            return Array.isArray(rows) ? rows.filter(row => row.ticker === ticker) : [];
+        } catch (error) {
+            console.error(`Unable to load Renko reference levels from ${path}:`, error);
+            return [];
+        }
+    };
+
+    const [orders, submittedOrders, guruFocus] = await Promise.all([
+        loadRows('../../JSON/LatestOrders.json'),
+        loadRows('../../JSON/OrdersSubmitted.json'),
+        loadRows('../../JSON/GuruFocus.json')
+    ]);
+    return { orders, submittedOrders, guruFocus };
+}
+
+function plotRenkoReferenceLevels_v2(series, levels) {
+    const addPriceLine = (price, color, lineWidth, lineStyle) => {
+        if (!Number.isFinite(price)) return;
+        series.createPriceLine({
+            price,
+            color,
+            lineWidth,
+            lineStyle,
+            axisLabelVisible: false,
+            title: ''
+        });
+    };
+
+    levels.orders.forEach(order => {
+        const color = order.positionStatus === 'Closed' ? '#FFD700' : '#1E90FF';
+        addPriceLine(order.price, color, 1, LightweightCharts.LineStyle.Dotted);
+    });
+
+    levels.submittedOrders.forEach(order => {
+        const lineStyle = order.buySell === 'Sell'
+            ? LightweightCharts.LineStyle.Dashed
+            : LightweightCharts.LineStyle.Dotted;
+        addPriceLine(order.price, '#f48fb1', 2, lineStyle);
+    });
+
+    levels.guruFocus.forEach(value => {
+        addPriceLine(value.GFValue, 'rgba(245, 245, 220, 0.3)', 10, LightweightCharts.LineStyle.Solid);
+    });
+}
+
 function plotEMAs_1W(chart, rawData) {
     const emaColors = {
         EMA_5: "#ffff00",
@@ -1289,6 +1338,7 @@ async function loadTradingViewChart_v2(ticker = null) {
         } else if (selectedChart === '2H') {
             await plotOrders(chart, candleData, ticker);
             await plotSubmittedOrders(chart, candleData, ticker);
+            await plotGuruFocus(chart, candleData, ticker);
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1300,6 +1350,9 @@ async function loadTradingViewChart_v2(ticker = null) {
                 plotHistogram_2H(histogramChart, rawData);
             }
         } else if (selectedChart === '30M') {
+            await plotOrders(chart, candleData, ticker);
+            await plotSubmittedOrders(chart, candleData, ticker);
+            await plotGuruFocus(chart, candleData, ticker);
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1435,6 +1488,61 @@ function buildRenkoEma_v2(bricks, period) {
     return values;
 }
 
+function buildRenkoTrendline_v2(bricks, direction, swingStrength = 2) {
+    if (bricks.length < (swingStrength * 2) + 2) return null;
+
+    const pivotValues = [];
+    const field = direction === 'up' ? 'low' : 'high';
+    for (let index = swingStrength; index < bricks.length - swingStrength; index += 1) {
+        const value = bricks[index][field];
+        const left = bricks.slice(index - swingStrength, index).map(brick => brick[field]);
+        const right = bricks.slice(index + 1, index + swingStrength + 1).map(brick => brick[field]);
+        const isPivot = direction === 'up'
+            ? left.every(item => item >= value) && right.every(item => item >= value) &&
+                left.some(item => item > value) && right.some(item => item > value)
+            : left.every(item => item <= value) && right.every(item => item <= value) &&
+                left.some(item => item < value) && right.some(item => item < value);
+
+        if (isPivot) pivotValues.push({ index, value });
+    }
+
+    const candidates = pivotValues.slice(-30);
+    const tolerance = Math.abs(bricks[0].high - bricks[0].low) * 0.1;
+    for (let second = candidates.length - 1; second > 0; second -= 1) {
+        for (let first = second - 1; first >= 0; first -= 1) {
+            const start = candidates[first];
+            const end = candidates[second];
+            const slope = (end.value - start.value) / (end.index - start.index);
+            if ((direction === 'up' && slope <= 0) || (direction === 'down' && slope >= 0)) continue;
+
+            let unbroken = true;
+            for (let index = start.index + 1; index < bricks.length; index += 1) {
+                const lineValue = start.value + slope * (index - start.index);
+                const brickValue = bricks[index][field];
+                if ((direction === 'up' && brickValue < lineValue - tolerance) ||
+                    (direction === 'down' && brickValue > lineValue + tolerance)) {
+                    unbroken = false;
+                    break;
+                }
+            }
+            if (!unbroken) continue;
+
+            const lastIndex = bricks.length - 1;
+            return {
+                direction,
+                data: [
+                    { time: bricks[start.index].time, value: start.value },
+                    {
+                        time: bricks[lastIndex].time,
+                        value: start.value + slope * (lastIndex - start.index)
+                    }
+                ]
+            };
+        }
+    }
+    return null;
+}
+
 function isValidRenkoOhlcRow_v2(row) {
     if (!row || !Number.isFinite(row.High) || !Number.isFinite(row.Low) || !Number.isFinite(row.Close) ||
         typeof row.Timestamp !== 'string') return false;
@@ -1542,6 +1650,14 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
         crosshairMarkerVisible: false,
         priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
     });
+    const trendlineSeries = chart.addLineSeries({
+        color: '#26a69a',
+        lineWidth: 2,
+        priceLineVisible: false,
+        lastValueVisible: false,
+        crosshairMarkerVisible: false,
+        priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
+    });
     let lastClosePriceLine = null;
     let sourceRows = [];
     let atr = null;
@@ -1582,6 +1698,13 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
         ema25Series.setData(firstVisibleTime === undefined
             ? []
             : buildRenkoEma_v2(allBricks, 25).filter(point => point.time >= firstVisibleTime));
+        const uptrend = buildRenkoTrendline_v2(bricks, 'up');
+        const downtrend = buildRenkoTrendline_v2(bricks, 'down');
+        const activeTrendline = !uptrend ? downtrend
+            : !downtrend ? uptrend
+                : uptrend.data[0].time >= downtrend.data[0].time ? uptrend : downtrend;
+        trendlineSeries.applyOptions({ color: activeTrendline?.direction === 'down' ? '#ef5350' : '#26a69a' });
+        trendlineSeries.setData(activeTrendline?.data || []);
         if (lastClosePriceLine) renkoSeries.removePriceLine(lastClosePriceLine);
         lastClosePriceLine = bricks.length ? renkoSeries.createPriceLine({
             price: bricks[bricks.length - 1].close,
@@ -1620,6 +1743,9 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
         if (atr === null) throw new Error('Not enough data for ATR(14)');
         status.textContent = '';
         render();
+        const referenceLevels = await loadRenkoReferenceLevels_v2(ticker);
+        if (loadId !== renkoLoadId_v2 || getSelectedChart_v2() !== chartType || mainChart_v2 !== chart) return;
+        plotRenkoReferenceLevels_v2(renkoSeries, referenceLevels);
     } catch (error) {
         if (loadId === renkoLoadId_v2 && getSelectedChart_v2() === chartType) {
             status.textContent = `Renko data unavailable for ${ticker}.`;
