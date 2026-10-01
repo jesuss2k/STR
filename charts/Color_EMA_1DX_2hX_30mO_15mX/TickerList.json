@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"NET","dayChange":0.96,"weekChange":0.46,"monthChange":0.3,"rsi_14":61.3,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.95}
+{"EMAs":"X X X O","ticker":"GPRO","dayChange":3.1,"weekChange":3.1,"monthChange":1.94,"rsi_14":57.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":35.18},
+{"EMAs":"X X X O","ticker":"ROST","dayChange":0.4,"weekChange":-0.76,"monthChange":-0.65,"rsi_14":52.1,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":79.3},
+{"EMAs":"X X X O","ticker":"ANET","dayChange":0.2,"weekChange":-1.24,"monthChange":-1.0,"rsi_14":56.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":89.14}
 ]
