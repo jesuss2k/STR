@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const autoNavigationPairs = {
         '1W': 'Rk 1D50',
         '1D': 'Rk 1D25',
-        '2H': 'Rk 1H',
+        '2H': 'Rk 2H50',
         '30M': 'Rk 30M'
     };
     const autoNavigationReversePairs = Object.fromEntries(
@@ -589,7 +589,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                     break;
                 case "t":
                 case "T":
-                    loadChart_v2('Rk 1H', '', ticker);
+                    loadChart_v2('Rk 2H50', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
                 case "y":

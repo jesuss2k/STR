@@ -5,14 +5,64 @@ const priceSeriesByChart_v2 = new WeakMap();
 const DEFAULT_CHART_TYPE_v2 = '1W';
 const CHART_ORDER_v2 = Object.freeze([
     '1W', '1D', '2H', '30M',
-    'Rk 1D', 'Rk 1D50', 'Rk 1D25', 'Rk 2H', 'Rk 1H', 'Rk 30M'
+    'Rk 1D', 'Rk 1D50', 'Rk 1D25', 'Rk 2H', 'Rk 2H50', 'Rk 30M'
 ]);
 
 function normalizeChartType_v2(chartType) {
     // Preserve names saved by older versions before validating the selection.
-    if (chartType === 'Rk 1h') chartType = 'Rk 1H';
+    if (chartType === 'Rk 1h' || chartType === 'Rk 1H') chartType = 'Rk 2H50';
     if (chartType === 'Rk 30m') chartType = 'Rk 30M';
     return CHART_ORDER_v2.includes(chartType) ? chartType : DEFAULT_CHART_TYPE_v2;
+}
+
+const RENKO_CHART_CONFIGS_v2 = Object.freeze({
+    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 0.5, factorKey: 'dailyRenkoAtrFactor_v2' },
+    'Rk 1D50': { dataFolder: '1D_OHLC', defaultFactor: 0.5, factorKey: 'renkoAtrFactor_1D50_v2', lookbackYears: 3 },
+    'Rk 1D25': { dataFolder: '1D_OHLC', defaultFactor: 0.25, factorKey: 'renkoAtrFactor_1D25_v2', lookbackYears: 1 },
+    'Rk 2H': { dataFolder: '2H', defaultFactor: 1, factorKey: 'renkoAtrFactor_2H_v3' },
+    'Rk 2H50': { dataFolder: '2H', defaultFactor: 0.5, factorKey: 'renkoAtrFactor_2H50_v2' },
+    'Rk 30M': { dataFolder: '30M', defaultFactor: 1, factorKey: 'renkoAtrFactor_30M_v3' }
+});
+const RENKO_FIRST_TIME_v2 = 946684800;
+const RENKO_SECONDS_PER_BRICK_v2 = 86400;
+const RENKO_AXIS_DATE_FORMAT_v2 = new Intl.DateTimeFormat(undefined, {
+    month: 'short', day: 'numeric', timeZone: 'UTC'
+});
+const RENKO_CROSSHAIR_DATE_FORMAT_v2 = new Intl.DateTimeFormat(undefined, {
+    year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC'
+});
+const RENKO_INTRADAY_CROSSHAIR_FORMAT_v2 = new Intl.DateTimeFormat(undefined, {
+    year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'UTC'
+});
+let renkoLoadId_v2 = 0;
+let renkoBrickTimestamps_v2 = [];
+
+function isCalculatedRenkoChart_v2(chartType) {
+    return Object.prototype.hasOwnProperty.call(RENKO_CHART_CONFIGS_v2, chartType);
+}
+
+function getRenkoSourceDate_v2(time) {
+    const brickIndex = Math.round((Number(time) - RENKO_FIRST_TIME_v2) / RENKO_SECONDS_PER_BRICK_v2);
+    const sourceTimestamp = renkoBrickTimestamps_v2[brickIndex];
+    if (!sourceTimestamp) return null;
+    const isoTimestamp = sourceTimestamp.length > 10
+        ? `${sourceTimestamp.replace(' ', 'T')}Z`
+        : `${sourceTimestamp}T00:00:00Z`;
+    return { sourceTimestamp, date: new Date(isoTimestamp) };
+}
+
+function formatRenkoAxisDate_v2(time) {
+    const source = getRenkoSourceDate_v2(time);
+    return source ? RENKO_AXIS_DATE_FORMAT_v2.format(source.date) : '';
+}
+
+function formatRenkoCrosshairDate_v2(time) {
+    const source = getRenkoSourceDate_v2(time);
+    if (!source) return '';
+    const formatter = source.sourceTimestamp.length > 10
+        ? RENKO_INTRADAY_CROSSHAIR_FORMAT_v2
+        : RENKO_CROSSHAIR_DATE_FORMAT_v2;
+    return formatter.format(source.date);
 }
 
 // Function to load an image into the plotly-div container
@@ -44,12 +94,13 @@ function loadImage_v2(imagePath) {
 
 // Adjust viewport height for responsiveness
 function adjustViewportHeight_v2() {
-    const vh = window.innerHeight * 0.01;
+    const viewportHeight = window.visualViewport?.height || window.innerHeight;
+    const vh = viewportHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 
     const plotlyDiv = document.getElementById('plotly-div');
     const histogramDiv = document.getElementById('plotly-histogram');
-    const showHistogram = isHistogramVisible_v2();
+    const showHistogram = isHistogramVisible_v2() && !isCalculatedRenkoChart_v2(getSelectedChart_v2());
 
     if (plotlyDiv) {
         plotlyDiv.style.height = `calc(${showHistogram ? 84 : 100} * var(--vh))`;
@@ -146,6 +197,15 @@ function validateTicker(ticker) {
 }
 
 function clearContainers(container, histogramContainer) {
+    if (mainChart_v2) {
+        mainChart_v2.remove();
+        mainChart_v2 = null;
+    }
+    if (histogramChart_v2) {
+        histogramChart_v2.remove();
+        histogramChart_v2 = null;
+    }
+    container.classList.remove('daily-renko-active');
     container.innerHTML = '';
     histogramContainer.innerHTML = '';
 }
@@ -182,7 +242,7 @@ function getChartLabel_v2(chartType) {
         case 'Rk 1D50': return '½D';
         case 'Rk 1D25': return '¼D';
         case 'Rk 2H': return '2h';
-        case 'Rk 1H': return '1h';
+        case 'Rk 2H50': return '½2h';
         case 'Rk 30M': return '30m';
         default: return DEFAULT_CHART_TYPE_v2;
     }
@@ -213,7 +273,7 @@ function updateActiveMenuLinks_v2(selectedChart) {
         'Rk 1D50': 'chart-rk-1d50',
         'Rk 1D25': 'chart-rk-1d25',
         'Rk 2H': 'chart-rk-2h',
-        'Rk 1H': 'chart-rk-1h',
+        'Rk 2H50': 'chart-rk-1h',
         'Rk 30M': 'chart-rk-30m'
     };
 
@@ -295,7 +355,9 @@ function bindMenuActions_v2(ticker) {
     bind('chart-rk-1d50', 'Rk 1D50');
     bind('chart-rk-1d25', 'Rk 1D25');    
     bind('chart-rk-2h', 'Rk 2H');
-    bind('chart-rk-1h', 'Rk 1H');
+    const halfTwoHourRenko = document.getElementById('chart-rk-1h');
+    if (halfTwoHourRenko) halfTwoHourRenko.textContent = '½2h';
+    bind('chart-rk-1h', 'Rk 2H50');
     bind('chart-rk-30m', 'Rk 30M');
 
     const lineBtn = document.getElementById('chart-line');
@@ -1036,9 +1098,25 @@ function resizeActiveCharts_v2() {
 
     const selectedChart = getSelectedChart_v2();
 
-    // Renko is just an image: flex centering is enough
+    if (isCalculatedRenkoChart_v2(selectedChart)) {
+        container.style.display = 'flex';
+        container.style.flexDirection = 'column';
+        container.style.alignItems = 'stretch';
+        container.style.justifyContent = 'flex-start';
+        const chartHost = container.querySelector('#daily-renko-chart');
+        if (mainChart_v2 && chartHost) {
+            mainChart_v2.applyOptions({
+                width: chartHost.clientWidth,
+                height: chartHost.clientHeight
+            });
+        }
+        return;
+    }
+
+    // Image-based Renko modes remain centered until their data feeds are migrated.
     if (selectedChart.startsWith('Rk ')) {
         container.style.display = 'flex';
+        container.style.flexDirection = 'row';
         container.style.alignItems = 'center';
         container.style.justifyContent = 'center';
         return;
@@ -1046,6 +1124,7 @@ function resizeActiveCharts_v2() {
 
     // Normal charts
     container.style.display = 'block';
+    container.style.flexDirection = '';
     container.style.alignItems = '';
     container.style.justifyContent = '';
 
@@ -1071,10 +1150,13 @@ window.addEventListener('orientationchange', () => {
     resizeTimer_v2 = setTimeout(resizeActiveCharts_v2, 250);
 });
 
-window.addEventListener('resize', () => {
+const scheduleActiveChartResize_v2 = () => {
     clearTimeout(resizeTimer_v2);
     resizeTimer_v2 = setTimeout(resizeActiveCharts_v2, 120);
-});
+};
+
+window.addEventListener('resize', scheduleActiveChartResize_v2);
+window.visualViewport?.addEventListener('resize', scheduleActiveChartResize_v2);
 
 // ============================ Chart Synchronization ============================
 
@@ -1263,6 +1345,289 @@ async function loadTradingViewChart_v2(ticker = null) {
     }
 }
 
+function calculateRenkoAtr_v2(rows, period) {
+    if (rows.length < period) return null;
+
+    const trueRanges = rows.map((row, index) => {
+        if (index === 0) return row.High - row.Low;
+        const previousClose = rows[index - 1].Close;
+        return Math.max(
+            row.High - row.Low,
+            Math.abs(row.High - previousClose),
+            Math.abs(row.Low - previousClose)
+        );
+    });
+
+    let atr = trueRanges.slice(0, period).reduce((sum, range) => sum + range, 0) / period;
+    for (let index = period; index < trueRanges.length; index += 1) {
+        atr = ((atr * (period - 1)) + trueRanges[index]) / period;
+    }
+    return atr;
+}
+
+function buildRenkoBricks_v2(rows, boxSize) {
+    let close = rows[0].Close;
+    let direction = 0;
+    const bricks = [];
+    const brickTimestamps = [];
+
+    for (const row of rows.slice(1)) {
+        let addedBrick = true;
+        while (addedBrick) {
+            addedBrick = false;
+            let open;
+            let nextClose;
+
+            if (direction === 0) {
+                if (row.Close >= close + boxSize) {
+                    open = close;
+                    nextClose = close + boxSize;
+                    direction = 1;
+                } else if (row.Close <= close - boxSize) {
+                    open = close;
+                    nextClose = close - boxSize;
+                    direction = -1;
+                }
+            } else if (direction > 0 && row.Close >= close + boxSize) {
+                open = close;
+                nextClose = close + boxSize;
+            } else if (direction > 0 && row.Close <= close - (2 * boxSize)) {
+                open = close - boxSize;
+                nextClose = close - (2 * boxSize);
+                direction = -1;
+            } else if (direction < 0 && row.Close <= close - boxSize) {
+                open = close;
+                nextClose = close - boxSize;
+            } else if (direction < 0 && row.Close >= close + (2 * boxSize)) {
+                open = close + boxSize;
+                nextClose = close + (2 * boxSize);
+                direction = 1;
+            }
+
+            if (nextClose !== undefined) {
+                close = nextClose;
+                const time = RENKO_FIRST_TIME_v2 + (bricks.length * RENKO_SECONDS_PER_BRICK_v2);
+                bricks.push({
+                    time,
+                    open: Number(open.toFixed(2)),
+                    high: Number(Math.max(open, close).toFixed(2)),
+                    low: Number(Math.min(open, close).toFixed(2)),
+                    close: Number(close.toFixed(2))
+                });
+                brickTimestamps.push(row.Timestamp);
+                addedBrick = true;
+            }
+        }
+    }
+    return { bricks, brickTimestamps };
+}
+
+function buildRenkoEma_v2(bricks, period) {
+    if (bricks.length < period) return [];
+
+    const alpha = 2 / (period + 1);
+    let ema = bricks.slice(0, period).reduce((sum, brick) => sum + brick.close, 0) / period;
+    const values = [{ time: bricks[period - 1].time, value: ema }];
+    for (let index = period; index < bricks.length; index += 1) {
+        ema = (bricks[index].close * alpha) + (ema * (1 - alpha));
+        values.push({ time: bricks[index].time, value: ema });
+    }
+    return values;
+}
+
+function isValidRenkoOhlcRow_v2(row) {
+    if (!row || !Number.isFinite(row.High) || !Number.isFinite(row.Low) || !Number.isFinite(row.Close) ||
+        typeof row.Timestamp !== 'string') return false;
+    const isoTimestamp = row.Timestamp.length > 10
+        ? `${row.Timestamp.replace(' ', 'T')}Z`
+        : `${row.Timestamp}T00:00:00Z`;
+    return Number.isFinite(Date.parse(isoTimestamp));
+}
+
+async function loadAtrRenkoChart_v2(ticker, chartType) {
+    if (!validateTicker(ticker)) return;
+
+    const config = RENKO_CHART_CONFIGS_v2[chartType];
+    if (!config) return;
+
+    const loadId = ++renkoLoadId_v2;
+    const container = document.getElementById('plotly-div');
+    const histogramContainer = document.getElementById('plotly-histogram');
+    clearContainers(container, histogramContainer);
+    adjustViewportHeight_v2();
+
+    container.classList.add('daily-renko-active');
+    const toolbar = document.createElement('div');
+    toolbar.id = 'daily-renko-toolbar';
+    toolbar.innerHTML = `
+        <div id="daily-renko-factor-control">
+            <input id="daily-renko-factor" type="range" min="0.10" max="1.00" step="0.05" aria-label="Daily Renko ATR factor">
+            <output id="daily-renko-factor-value" for="daily-renko-factor" hidden></output>
+        </div>
+        <span id="daily-renko-status" role="status" aria-live="polite"></span>
+    `;
+    const chartHost = document.createElement('div');
+    chartHost.id = 'daily-renko-chart';
+    container.append(toolbar, chartHost);
+
+    const factorInput = toolbar.querySelector('#daily-renko-factor');
+    const factorOutput = toolbar.querySelector('#daily-renko-factor-value');
+    const status = toolbar.querySelector('#daily-renko-status');
+    const savedFactor = Number(localStorage.getItem(config.factorKey));
+    factorInput.value = Number.isFinite(savedFactor) && savedFactor >= 0.1 && savedFactor <= 1
+        ? String(savedFactor)
+        : String(config.defaultFactor);
+
+    if (!isLibraryLoaded()) {
+        status.textContent = 'Chart library unavailable.';
+        return;
+    }
+
+    const chart = LightweightCharts.createChart(chartHost, {
+        width: chartHost.clientWidth,
+        height: chartHost.clientHeight,
+        layout: {
+            background: { type: 'solid', color: 'black' },
+            textColor: '#aab2b8',
+            fontFamily: 'IBM Plex Mono, Consolas, monospace',
+            fontSize: 11
+        },
+        grid: {
+            vertLines: { color: 'rgba(120, 130, 140, 0.10)' },
+            horzLines: { color: 'rgba(120, 130, 140, 0.16)' }
+        },
+        rightPriceScale: {
+            borderVisible: false,
+            scaleMargins: { top: 0.02, bottom: 0.12 }
+        },
+        timeScale: {
+            borderColor: '#333333',
+            timeVisible: false,
+            tickMarkFormatter: (time) => formatRenkoAxisDate_v2(time)
+        },
+        crosshair: {
+            vertLine: { color: '#77877d', labelBackgroundColor: '#303a35' },
+            horzLine: { color: '#77877d', labelBackgroundColor: '#303a35' }
+        },
+        localization: {
+            priceFormatter: (price) => price < 100 ? price.toFixed(1) : price.toFixed(0),
+            timeFormatter: (time) => formatRenkoCrosshairDate_v2(time)
+        }
+    });
+    mainChart_v2 = chart;
+
+    const renkoSeries = chart.addCandlestickSeries({
+        upColor: '#68d6ae',
+        downColor: '#f27d72',
+        borderUpColor: '#68d6ae',
+        borderDownColor: '#f27d72',
+        wickVisible: false,
+        priceLineVisible: false,
+        lastValueVisible: false,
+        priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
+    });
+    const ema12Series = chart.addLineSeries({
+        color: '#d8e479',
+        lineWidth: 2,
+        priceLineVisible: false,
+        lastValueVisible: false,
+        crosshairMarkerVisible: false,
+        priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
+    });
+    const ema25Series = chart.addLineSeries({
+        color: '#f2a65a',
+        lineWidth: 2,
+        priceLineVisible: false,
+        lastValueVisible: false,
+        crosshairMarkerVisible: false,
+        priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
+    });
+    let lastClosePriceLine = null;
+    let sourceRows = [];
+    let atr = null;
+    let factorHideTimer = null;
+
+    const hideFactorValue = () => {
+        clearTimeout(factorHideTimer);
+        factorHideTimer = setTimeout(() => {
+            factorOutput.hidden = true;
+        }, 650);
+    };
+
+    const showFactorValue = () => {
+        factorOutput.hidden = false;
+        clearTimeout(factorHideTimer);
+    };
+
+    const render = () => {
+        const factor = Number(factorInput.value);
+        const boxSize = atr * factor;
+        const result = buildRenkoBricks_v2(sourceRows, boxSize);
+        const allBricks = result.bricks;
+        renkoBrickTimestamps_v2 = result.brickTimestamps;
+        let firstVisibleIndex = 0;
+        if (config.lookbackYears && allBricks.length) {
+            const lastDate = new Date(`${sourceRows[sourceRows.length - 1].Timestamp.slice(0, 10)}T00:00:00Z`);
+            lastDate.setUTCFullYear(lastDate.getUTCFullYear() - config.lookbackYears);
+            const cutoffDate = lastDate.toISOString().slice(0, 10);
+            const cutoffIndex = result.brickTimestamps.findIndex(timestamp => timestamp.slice(0, 10) >= cutoffDate);
+            firstVisibleIndex = cutoffIndex < 0 ? allBricks.length : cutoffIndex;
+        }
+        const bricks = allBricks.slice(firstVisibleIndex);
+        const firstVisibleTime = bricks[0]?.time;
+        renkoSeries.setData(bricks);
+        ema12Series.setData(firstVisibleTime === undefined
+            ? []
+            : buildRenkoEma_v2(allBricks, 12).filter(point => point.time >= firstVisibleTime));
+        ema25Series.setData(firstVisibleTime === undefined
+            ? []
+            : buildRenkoEma_v2(allBricks, 25).filter(point => point.time >= firstVisibleTime));
+        if (lastClosePriceLine) renkoSeries.removePriceLine(lastClosePriceLine);
+        lastClosePriceLine = bricks.length ? renkoSeries.createPriceLine({
+            price: bricks[bricks.length - 1].close,
+            color: '#e7ece8',
+            lineWidth: 1,
+            lineStyle: LightweightCharts.LineStyle.Dashed,
+            axisLabelVisible: false
+        }) : null;
+        factorOutput.value = `${factor.toFixed(2)}x`;
+        factorOutput.textContent = factorOutput.value;
+        localStorage.setItem(config.factorKey, String(factor));
+        chart.timeScale().fitContent();
+        resizeActiveCharts_v2();
+    };
+
+    factorInput.addEventListener('input', () => {
+        render();
+        showFactorValue();
+        hideFactorValue();
+    });
+    factorInput.addEventListener('pointerdown', showFactorValue);
+    factorInput.addEventListener('pointerup', hideFactorValue);
+    factorInput.addEventListener('pointercancel', hideFactorValue);
+    factorInput.addEventListener('keydown', showFactorValue);
+    factorInput.addEventListener('keyup', hideFactorValue);
+    factorInput.addEventListener('blur', hideFactorValue);
+    try {
+        status.textContent = 'Loading Renko data...';
+        const rows = await fetchJSONData(`../../charts/JSON/${config.dataFolder}/${encodeURIComponent(ticker)}.json`);
+        if (loadId !== renkoLoadId_v2 || getSelectedChart_v2() !== chartType) return;
+        if (!Array.isArray(rows) || rows.length < 14 || rows.some(row => !isValidRenkoOhlcRow_v2(row))) {
+            throw new Error(`Invalid ${config.dataFolder} OHLC data`);
+        }
+        sourceRows = rows;
+        atr = calculateRenkoAtr_v2(sourceRows, 14);
+        if (atr === null) throw new Error('Not enough data for ATR(14)');
+        status.textContent = '';
+        render();
+    } catch (error) {
+        if (loadId === renkoLoadId_v2 && getSelectedChart_v2() === chartType) {
+            status.textContent = `Renko data unavailable for ${ticker}.`;
+            console.error('Unable to load Renko data:', error);
+        }
+    }
+}
+
 function loadChart_v2(chartType, chartPath, ticker = '') {
     console.log("loadChart_v2 chartType = " + chartType);
 
@@ -1281,18 +1646,8 @@ function loadChart_v2(chartType, chartPath, ticker = '') {
     chartType = normalizeChartType_v2(chartType);
     localStorage.setItem('selectedChart', chartType);
 
-    if (chartType === 'Rk 1D') {
-        loadImage_v2(`../../charts/Renko1D/${ticker}.png`);
-    } else if (chartType === 'Rk 1D50') {
-        loadImage_v2(`../../charts/Renko1D50/${ticker}.png`);
-    } else if (chartType === 'Rk 1D25') {
-        loadImage_v2(`../../charts/Renko1D25/${ticker}.png`);
-    } else if (chartType === 'Rk 2H') {
-        loadImage_v2(`../../charts/Renko2H/${ticker}.png`);
-    } else if (chartType === 'Rk 1H') {
-        loadImage_v2(`../../charts/Renko1h/${ticker}.png`);
-    } else if (chartType === 'Rk 30M') {
-        loadImage_v2(`../../charts/Renko30M/${ticker}.png`);
+    if (isCalculatedRenkoChart_v2(chartType)) {
+        loadAtrRenkoChart_v2(ticker, chartType);
     } else {
         loadTradingViewChart_v2(ticker);
     }
@@ -1319,7 +1674,7 @@ function getPnlBaseChart_v2(selectedChart) {
         'Rk 2H': '1D',
         'Rk 1D50': '1W',
         'Rk 1D25': '1D',
-        'Rk 1H': '2H',
+        'Rk 2H50': '2H',
         'Rk 30M': '30M'
     };
     return chartMap[normalizeChartType_v2(selectedChart)] || DEFAULT_CHART_TYPE_v2;
