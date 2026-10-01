@@ -1,6 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"MRNA","dayChange":2.23,"weekChange":-1.01,"monthChange":2.23,"rsi_14":69.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":93.55},
-{"EMAs":"O X X O","ticker":"AMZD","dayChange":0.72,"weekChange":0.9,"monthChange":0.72,"rsi_14":55.3,"EMAs.":"O X X O","ZLEMAs":"X X X","weekRange":28.42},
-{"EMAs":"X X X O","ticker":"CAKE","dayChange":0.99,"weekChange":1.71,"monthChange":0.99,"rsi_14":54.8,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":83.84},
-{"EMAs":"X X X O","ticker":"AMD","dayChange":-0.69,"weekChange":-3.66,"monthChange":-0.69,"rsi_14":64.8,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":93.39}
+{"EMAs":"X X X O","ticker":"ANET","dayChange":0.57,"weekChange":-0.87,"monthChange":-1.0,"rsi_14":57.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":89.91},
+{"EMAs":"X X X O","ticker":"AMD","dayChange":-0.65,"weekChange":-3.62,"monthChange":-0.69,"rsi_14":64.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":93.45}
 ]
