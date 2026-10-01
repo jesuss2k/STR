@@ -1517,10 +1517,10 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
     mainChart_v2 = chart;
 
     const renkoSeries = chart.addCandlestickSeries({
-        upColor: '#68d6ae',
-        downColor: '#f27d72',
-        borderUpColor: '#68d6ae',
-        borderDownColor: '#f27d72',
+        upColor: '#26a69a',
+        downColor: '#ef5350',
+        borderUpColor: '#26a69a',
+        borderDownColor: '#ef5350',
         wickVisible: false,
         priceLineVisible: false,
         lastValueVisible: false,
