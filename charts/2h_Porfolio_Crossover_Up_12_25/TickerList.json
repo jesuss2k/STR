@@ -1,3 +1,5 @@
 [
-{"ticker":"TEAM","dayChange":0.62,"weekChange":1.78,"monthChange":6.58,"rsi_14":58.5,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":93.81}
+{"ticker":"FNGU","dayChange":3.05,"weekChange":-0.76,"monthChange":2.6,"rsi_14":60.2,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":94.29},
+{"ticker":"AFRM","dayChange":1.63,"weekChange":0.08,"monthChange":3.39,"rsi_14":50.0,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":60.99},
+{"ticker":"LABD","dayChange":-0.68,"weekChange":-0.14,"monthChange":5.4,"rsi_14":53.1,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":5.01}
 ]
