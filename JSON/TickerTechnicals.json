@@ -426,6 +426,7 @@
 {"ticker":"LIN","EMAs":"O O X X"},
 {"ticker":"LITE","EMAs":"X X X X"},
 {"ticker":"LLY","EMAs":"X O O O"},
+{"ticker":"LLYC_MC","EMAs":"O X O O"},
 {"ticker":"LMT","EMAs":"O O O O"},
 {"ticker":"LNG","EMAs":"X O O O"},
 {"ticker":"LNT","EMAs":"O O O X"},

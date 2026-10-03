@@ -32,7 +32,7 @@
 {"ticker":"IDR_MC","dayChange":0.13,"weekChange":-3.63,"monthChange":2.59,"rsi_14":47.3,"EMAs.":"X O O X","ZLEMAs":"O O ","weekRange":75.96},
 {"ticker":"ITX_MC","dayChange":0.34,"weekChange":-0.04,"monthChange":-1.26,"rsi_14":42.4,"EMAs.":"X O X O","ZLEMAs":"O O ","weekRange":53.71},
 {"ticker":"IZER_MC","dayChange":1.87,"weekChange":-6.14,"monthChange":-1.29,"rsi_14":32.9,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":8.97},
-{"ticker":"LLYC_MC","dayChange":0.0,"weekChange":-8.73,"monthChange":17.83,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":33.86},
+{"ticker":"LLYC_MC","dayChange":0.0,"weekChange":-8.73,"monthChange":0.0,"rsi_14":0,"EMAs.":"O X O O","ZLEMAs":"X X ","weekRange":33.86},
 {"ticker":"LOG_MC","dayChange":1.35,"weekChange":-1.93,"monthChange":-0.06,"rsi_14":41.6,"EMAs.":"X O O X","ZLEMAs":"O O ","weekRange":67.5},
 {"ticker":"LYXIB_MC","dayChange":0.45,"weekChange":-3.09,"monthChange":-1.87,"rsi_14":34.9,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":75.0},
 {"ticker":"MAKS_MC","dayChange":0.0,"weekChange":-8.0,"monthChange":-4.96,"rsi_14":19.8,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":3.95},
