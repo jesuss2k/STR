@@ -112,7 +112,7 @@
 {"ticker":"PSTG","dayChange":4.48,"weekChange":11.26,"monthChange":14.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":25.15},
 {"ticker":"DDOG","dayChange":0.27,"weekChange":3.39,"monthChange":1.23,"rsi_14":70.6,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":92.04},
 {"ticker":"DTST","dayChange":-1.78,"weekChange":6.07,"monthChange":-3.49,"rsi_14":59.7,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":23.75},
-{"ticker":"AMD","dayChange":2.95,"weekChange":0.52,"monthChange":3.62,"rsi_14":70.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.61},
+{"ticker":"AMD","dayChange":2.95,"weekChange":0.52,"monthChange":3.62,"rsi_14":70.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.47},
 {"ticker":"RXRX","dayChange":1.23,"weekChange":10.16,"monthChange":-0.24,"rsi_14":61.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":30.61},
 {"ticker":"ACMR","dayChange":-0.24,"weekChange":7.87,"monthChange":3.04,"rsi_14":60.5,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":55.63},
 {"ticker":"CCL","dayChange":2.75,"weekChange":15.78,"monthChange":4.97,"rsi_14":63.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":34.26},

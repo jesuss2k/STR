@@ -2,7 +2,7 @@
 {"ticker":"AAPL","dayChange":1.02,"weekChange":-2.16,"monthChange":0.2,"rsi_14":54.7,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":88.57},
 {"ticker":"GOOG","dayChange":1.62,"weekChange":-0.21,"monthChange":-0.11,"rsi_14":50.0,"EMAs.":"X O O X","ZLEMAs":"O X X","weekRange":61.78},
 {"ticker":"LLY","dayChange":-0.61,"weekChange":-3.43,"monthChange":-1.23,"rsi_14":43.0,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":70.56},
-{"ticker":"AMD","dayChange":2.95,"weekChange":0.52,"monthChange":3.62,"rsi_14":70.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.61},
+{"ticker":"AMD","dayChange":2.95,"weekChange":0.52,"monthChange":3.62,"rsi_14":70.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.47},
 {"ticker":"ASML","dayChange":3.25,"weekChange":7.07,"monthChange":3.07,"rsi_14":64.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":87.54},
 {"ticker":"COST","dayChange":0.62,"weekChange":-0.23,"monthChange":1.13,"rsi_14":51.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":30.34},
 {"ticker":"DAL","dayChange":-0.05,"weekChange":-1.0,"monthChange":0.75,"rsi_14":55.0,"EMAs.":"X X X X","ZLEMAs":"O X O","weekRange":71.49},

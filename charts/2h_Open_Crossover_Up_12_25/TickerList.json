@@ -25,7 +25,7 @@
 {"Date":"26-09-30","ticker":"DXYZ","dayChange":4.99,"weekChange":7.12,"monthChange":6.32,"rsi_14":58.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":24.62},
 {"Date":"26-09-30","ticker":"IGV","dayChange":0.18,"weekChange":2.28,"monthChange":1.83,"rsi_14":59.1,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":78.71},
 {"Date":"26-09-30","ticker":"CAVA","dayChange":0.02,"weekChange":5.49,"monthChange":0.57,"rsi_14":43.1,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":19.86},
-{"Date":"26-09-30","ticker":"PGR","dayChange":-0.31,"weekChange":2.34,"monthChange":1.45,"rsi_14":46.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":36.22},
+{"Date":"26-09-30","ticker":"PGR","dayChange":-0.31,"weekChange":2.34,"monthChange":1.45,"rsi_14":46.9,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":37.4},
 {"Date":"26-09-29","ticker":"RCL","dayChange":2.94,"weekChange":14.52,"monthChange":4.54,"rsi_14":60.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":41.52},
 {"Date":"26-09-28","ticker":"CCL","dayChange":2.75,"weekChange":15.78,"monthChange":4.97,"rsi_14":63.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":34.26},
 {"Date":"26-09-22","ticker":"DKS","dayChange":2.43,"weekChange":-0.26,"monthChange":1.33,"rsi_14":44.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":12.82},

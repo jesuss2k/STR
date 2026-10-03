@@ -12,7 +12,7 @@
 {"Group":"200","ticker":"EVER","dayChange":-2.4,"weekChange":4.61,"monthChange":-2.79,"rsi_14":36.9,"EMAs.":"X O O O","ZLEMAs":"O O X","weekRange":37.85},
 {"Group":"200","ticker":"PHR","dayChange":-2.8,"weekChange":-0.79,"monthChange":-2.52,"rsi_14":41.8,"EMAs.":"O O X O","ZLEMAs":"X O X","weekRange":13.96},
 {"Group":"200","ticker":"PTC","dayChange":-1.67,"weekChange":4.28,"monthChange":2.66,"rsi_14":55.2,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":36.14},
-{"Group":"200","ticker":"CDW","dayChange":-1.87,"weekChange":-1.58,"monthChange":4.0,"rsi_14":41.4,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":55.35},
+{"Group":"200","ticker":"CDW","dayChange":-1.87,"weekChange":-1.58,"monthChange":4.0,"rsi_14":41.4,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":56.18},
 {"Group":"200","ticker":"LIF","dayChange":6.95,"weekChange":4.87,"monthChange":7.01,"rsi_14":51.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":8.06},
 {"Group":"200","ticker":"DUOL","dayChange":-1.57,"weekChange":0.53,"monthChange":1.31,"rsi_14":49.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":21.27},
 {"Group":"200","ticker":"TJX","dayChange":-0.64,"weekChange":2.06,"monthChange":0.32,"rsi_14":48.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":21.09},
@@ -69,7 +69,7 @@
 {"Group":"12","ticker":"SOXX","dayChange":2.18,"weekChange":2.83,"monthChange":3.56,"rsi_14":66.6,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":83.05},
 {"Group":"12","ticker":"LRCX","dayChange":2.17,"weekChange":10.24,"monthChange":5.78,"rsi_14":67.6,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":70.4},
 {"Group":"12","ticker":"COHR","dayChange":5.59,"weekChange":13.93,"monthChange":17.11,"rsi_14":60.7,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":68.97},
-{"Group":"12","ticker":"AMD","dayChange":2.95,"weekChange":0.52,"monthChange":3.62,"rsi_14":70.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.61},
+{"Group":"12","ticker":"AMD","dayChange":2.95,"weekChange":0.52,"monthChange":3.62,"rsi_14":70.1,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.47},
 {"Group":"12","ticker":"AMAT","dayChange":2.03,"weekChange":11.35,"monthChange":5.6,"rsi_14":69.2,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":62.77},
 {"Group":"12","ticker":"ASML","dayChange":3.25,"weekChange":7.07,"monthChange":3.07,"rsi_14":64.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":87.54}
 ]
