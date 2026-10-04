@@ -651,7 +651,7 @@
 {"ticker":"UNI_MC","dayChange":-1.88,"weekChange":-8.05,"monthChange":-5.77,"rsi_14":32.3,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":75.62},
 {"ticker":"BBVA_MC","dayChange":-0.34,"weekChange":-5.83,"monthChange":-4.35,"rsi_14":35.1,"EMAs.":"X O O O","ZLEMAs":"X O ","weekRange":81.92},
 {"ticker":"BBVAI_MC","dayChange":0.2,"weekChange":-3.1,"monthChange":-1.83,"rsi_14":34.1,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":69.46},
-{"ticker":"LYXIB_MC","dayChange":0.45,"weekChange":-3.09,"monthChange":-1.87,"rsi_14":34.9,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":75.0},
+{"ticker":"LYXIB_MC","dayChange":0.41,"weekChange":-3.13,"monthChange":-1.91,"rsi_14":34.9,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":74.87},
 {"ticker":"ERO","dayChange":6.04,"weekChange":0.11,"monthChange":3.33,"rsi_14":57.7,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":86.57},
 {"ticker":"HLI","dayChange":-1.57,"weekChange":-2.09,"monthChange":0.02,"rsi_14":40.7,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":14.82},
 {"ticker":"GH","dayChange":1.75,"weekChange":0.31,"monthChange":-0.31,"rsi_14":58.5,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":95.34},
