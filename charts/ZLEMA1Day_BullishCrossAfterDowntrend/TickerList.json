@@ -634,7 +634,7 @@
 {"ticker":"AFL","dayChange":0.32,"weekChange":-1.92,"monthChange":-0.21,"rsi_14":31.5,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":24.66},
 {"ticker":"RF","dayChange":0.52,"weekChange":-1.88,"monthChange":0.82,"rsi_14":28.5,"EMAs.":"X O O X","ZLEMAs":"O O ","weekRange":45.04},
 {"ticker":"USB","dayChange":0.26,"weekChange":-3.07,"monthChange":-0.43,"rsi_14":31.4,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":59.32},
-{"ticker":"LYXIB_MC","dayChange":0.41,"weekChange":-3.13,"monthChange":-1.91,"rsi_14":34.9,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":74.87},
+{"ticker":"LYXIB_MC","dayChange":0.41,"weekChange":-3.13,"monthChange":-1.91,"rsi_14":34.7,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":74.87},
 {"ticker":"BKT_MC","dayChange":0.51,"weekChange":-5.08,"monthChange":-2.83,"rsi_14":35.7,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":73.95},
 {"ticker":"AAP","dayChange":-0.15,"weekChange":-7.31,"monthChange":-0.59,"rsi_14":32.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":2.89},
 {"ticker":"BBVAI_MC","dayChange":0.2,"weekChange":-3.1,"monthChange":-1.83,"rsi_14":34.1,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":69.46},

@@ -52,6 +52,6 @@
 {"Stage":"Downtrend","Sub Stage":"Extended downside","Trend":"-","Sub #":9,"ATR Dist":-2.67,"ZLEMA Slope":-0.66,"ticker":"AMS_MC","dayChange":1.34,"weekChange":-1.27,"monthChange":1.89,"rsi_14":41.3,"EMAs.":"X O O X","ZLEMAs":"X O ","weekRange":28.54},
 {"Stage":"Downtrend","Sub Stage":"Extended downside","Trend":"-","Sub #":9,"ATR Dist":-3.43,"ZLEMA Slope":-0.91,"ticker":"CLNX_MC","dayChange":2.07,"weekChange":-5.67,"monthChange":0.4,"rsi_14":29.4,"EMAs.":"O O O X","ZLEMAs":"O O ","weekRange":7.27},
 {"Stage":"Downtrend","Sub Stage":"Extended downside","Trend":"-","Sub #":9,"ATR Dist":-3.09,"ZLEMA Slope":-0.7,"ticker":"ENC_MC","dayChange":-0.18,"weekChange":-8.26,"monthChange":-2.8,"rsi_14":19.8,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":11.8},
-{"Stage":"Downtrend","Sub Stage":"Extended downside","Trend":"-","Sub #":9,"ATR Dist":-2.02,"ZLEMA Slope":-0.53,"ticker":"LYXIB_MC","dayChange":0.41,"weekChange":-3.13,"monthChange":-1.91,"rsi_14":34.9,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":74.87},
+{"Stage":"Downtrend","Sub Stage":"Extended downside","Trend":"-","Sub #":9,"ATR Dist":-2.02,"ZLEMA Slope":-0.53,"ticker":"LYXIB_MC","dayChange":0.41,"weekChange":-3.13,"monthChange":-1.91,"rsi_14":34.7,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":74.87},
 {"Stage":"Downtrend","Sub Stage":"Extended downside","Trend":"-","Sub #":9,"ATR Dist":-2.47,"ZLEMA Slope":-0.7,"ticker":"TEF_MC","dayChange":1.07,"weekChange":-3.89,"monthChange":-0.72,"rsi_14":33.2,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":5.59}
 ]
