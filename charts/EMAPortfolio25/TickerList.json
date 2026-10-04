@@ -75,7 +75,7 @@
 {"Group":"12","ticker":"LIF","dayChange":6.95,"weekChange":4.87,"monthChange":7.01,"rsi_14":51.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":8.06},
 {"Group":"12","ticker":"TEAM","dayChange":-1.06,"weekChange":0.08,"monthChange":4.8,"rsi_14":56.0,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":91.59},
 {"Group":"12","ticker":"DUST","dayChange":-2.37,"weekChange":10.89,"monthChange":0.08,"rsi_14":55.7,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":11.03},
-{"Group":"12","ticker":"FROG","dayChange":-2.14,"weekChange":7.09,"monthChange":-1.59,"rsi_14":55.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":85.69},
+{"Group":"12","ticker":"HUM","dayChange":2.29,"weekChange":-2.4,"monthChange":1.78,"rsi_14":50.7,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":84.75},
 {"Group":"12","ticker":"SMCI","dayChange":4.22,"weekChange":0.99,"monthChange":6.38,"rsi_14":63.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":61.6},
 {"Group":"12","ticker":"NTNX","dayChange":1.08,"weekChange":6.26,"monthChange":2.67,"rsi_14":68.3,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":87.22},
 {"Group":"12","ticker":"TMV","dayChange":1.01,"weekChange":6.41,"monthChange":0.48,"rsi_14":75.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":93.51},
