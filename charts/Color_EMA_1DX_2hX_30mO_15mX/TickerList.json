@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"ILMN","dayChange":2.75,"weekChange":1.13,"monthChange":-0.23,"rsi_14":70.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":96.29}
+{"EMAs":"O O X O","ticker":"HIMS","dayChange":1.76,"weekChange":1.76,"monthChange":-0.94,"rsi_14":51.8,"EMAs.":"O O X O","ZLEMAs":"X X X","weekRange":30.59},
+{"EMAs":"X X X O","ticker":"MRNA","dayChange":0.11,"weekChange":0.11,"monthChange":-1.22,"rsi_14":66.3,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":89.99}
 ]
