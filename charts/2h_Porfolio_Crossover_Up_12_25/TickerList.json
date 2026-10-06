@@ -1,5 +1,4 @@
 [
-{"ticker":"DE","dayChange":-0.12,"weekChange":-0.12,"monthChange":2.17,"rsi_14":55.6,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":87.83},
-{"ticker":"UPST","dayChange":6.78,"weekChange":6.78,"monthChange":5.94,"rsi_14":43.3,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":5.51},
-{"ticker":"ECL","dayChange":1.89,"weekChange":1.89,"monthChange":1.57,"rsi_14":53.5,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":54.05}
+{"ticker":"ULTA","dayChange":1.31,"weekChange":1.13,"monthChange":0.67,"rsi_14":54.3,"EMAs.":"X X O X","ZLEMAs":"X O X","weekRange":39.15},
+{"ticker":"CB","dayChange":1.51,"weekChange":1.38,"monthChange":3.14,"rsi_14":48.6,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":69.74}
 ]
