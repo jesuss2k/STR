@@ -216,6 +216,7 @@
 {"ticker":"JPM","positionStatus":"Open","price":307.15,"quantity":2,"leverage":0},
 {"ticker":"JWN","positionStatus":"Closed","price":15.5519,"quantity":31,"leverage":0},
 {"ticker":"KHC","positionStatus":"Closed","price":36.715,"quantity":14,"leverage":0},
+{"ticker":"KHC","positionStatus":"Open","price":22.0,"quantity":71,"leverage":0},
 {"ticker":"KYMR","positionStatus":"Closed","price":46.27,"quantity":10,"leverage":0},
 {"ticker":"LIF","positionStatus":"Closed","price":54.3,"quantity":10,"leverage":0},
 {"ticker":"LLY","positionStatus":"Closed","price":1047.7,"quantity":1,"leverage":0},
