@@ -4,7 +4,7 @@
 {"ticker":"PM","dayChange":0.46,"weekChange":1.57,"monthChange":-0.22,"rsi_14":51.0,"EMAs.":0,"ZLEMAs":0,"weekRange":73.56},
 {"ticker":"A","dayChange":-1.14,"weekChange":0.92,"monthChange":-1.73,"rsi_14":61.3,"EMAs.":0,"ZLEMAs":0,"weekRange":88.76},
 {"ticker":"CAF_MC","dayChange":-1.02,"weekChange":0.65,"monthChange":1.04,"rsi_14":63.4,"EMAs.":"X X X O","ZLEMAs":"X O ","weekRange":92.62},
-{"ticker":"DIA_MC","dayChange":-0.55,"weekChange":2.61,"monthChange":-4.44,"rsi_14":59.2,"EMAs.":"X X O X","ZLEMAs":"X X ","weekRange":83.59},
+{"ticker":"DIA_MC","dayChange":0.77,"weekChange":3.98,"monthChange":-3.17,"rsi_14":59.2,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":86.21},
 {"ticker":"ETN","dayChange":2.89,"weekChange":2.06,"monthChange":3.58,"rsi_14":59.4,"EMAs.":0,"ZLEMAs":0,"weekRange":80.18},
 {"ticker":"IBIT","dayChange":-0.14,"weekChange":1.59,"monthChange":2.43,"rsi_14":66.3,"EMAs.":0,"ZLEMAs":0,"weekRange":41.46},
 {"ticker":"META","dayChange":-0.41,"weekChange":1.48,"monthChange":1.89,"rsi_14":63.0,"EMAs.":0,"ZLEMAs":0,"weekRange":84.23},
