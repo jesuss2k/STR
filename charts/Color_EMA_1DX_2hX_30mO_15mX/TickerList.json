@@ -1,4 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"DDOG","dayChange":2.15,"weekChange":-0.01,"monthChange":1.22,"rsi_14":66.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":92.02},
-{"EMAs":"X X X O","ticker":"SMTC","dayChange":0.75,"weekChange":0.18,"monthChange":9.46,"rsi_14":64.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":95.23}
+{"EMAs":"X X X O","ticker":"DDOG","dayChange":2.51,"weekChange":0.34,"monthChange":1.57,"rsi_14":67.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":92.52},
+{"EMAs":"X X X O","ticker":"ASML","dayChange":1.11,"weekChange":-2.27,"monthChange":0.74,"rsi_14":57.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":83.56},
+{"EMAs":"X X X O","ticker":"KLAC","dayChange":2.35,"weekChange":-2.62,"monthChange":3.35,"rsi_14":59.6,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":49.39}
 ]
