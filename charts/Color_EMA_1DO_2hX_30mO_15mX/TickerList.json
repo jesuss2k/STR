@@ -1,3 +1,4 @@
 [
-{"EMAs":"X O X O","ticker":"DAVE","dayChange":1.1,"weekChange":0.59,"monthChange":8.43,"rsi_14":50.2,"EMAs.":"X O X O","ZLEMAs":"O O X","weekRange":64.18}
+{"EMAs":"O O X O","ticker":"FDX","dayChange":0.12,"weekChange":-0.34,"monthChange":1.5,"rsi_14":38.3,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":34.22},
+{"EMAs":"X O X O","ticker":"DAVE","dayChange":0.23,"weekChange":-0.27,"monthChange":7.5,"rsi_14":49.2,"EMAs.":"X O X O","ZLEMAs":"O O X","weekRange":63.2}
 ]

@@ -1,4 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"ECL","dayChange":0.49,"weekChange":2.1,"monthChange":1.77,"rsi_14":53.8,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":54.9},
-{"EMAs":"X X X O","ticker":"ASML","dayChange":0.83,"weekChange":-2.54,"monthChange":0.45,"rsi_14":57.3,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":83.08}
+{"EMAs":"X X X O","ticker":"CAKE","dayChange":0.48,"weekChange":-1.96,"monthChange":2.15,"rsi_14":55.0,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":85.46},
+{"EMAs":"O X X O","ticker":"AEO","dayChange":0.96,"weekChange":0.68,"monthChange":0.28,"rsi_14":59.4,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":26.21}
 ]
