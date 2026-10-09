@@ -1,3 +1,5 @@
 [
-{"ticker":"GLBE","dayChange":3.05,"weekChange":2.14,"monthChange":1.06,"rsi_14":54.5,"EMAs.":0,"ZLEMAs":0,"weekRange":77.6}
+{"ticker":"XYZ","dayChange":1.91,"weekChange":3.14,"monthChange":4.26,"rsi_14":49.2,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":73.51},
+{"ticker":"FAST","dayChange":0.36,"weekChange":-0.16,"monthChange":2.3,"rsi_14":55.2,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":83.9},
+{"ticker":"LLY","dayChange":0.14,"weekChange":2.49,"monthChange":1.22,"rsi_14":52.0,"EMAs.":"X X X O","ZLEMAs":"O X X","weekRange":76.14}
 ]
