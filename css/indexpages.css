@@ -105,12 +105,18 @@ th, td {
 }
 
 #table-filter-panel {
+    position: fixed;
+    top: 0;
+    right: 8px;
+    z-index: 30;
+    width: 32px;
+    height: 32px;
     margin: 0;
     color: #e8e8e8;
 }
 
 .table-filter-disclosure {
-    position: relative;
+    position: static;
 }
 
 .table-filter-disclosure summary {
@@ -118,16 +124,20 @@ th, td {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
-    min-height: 44px;
+    width: 32px;
+    height: 32px;
+    min-height: 32px;
     margin-left: auto;
     box-sizing: border-box;
     border: 0;
     background: transparent;
     cursor: pointer;
-    color: #c5edff;
+    color: #a9b4bb;
     list-style: none;
+}
+
+.table-filter-disclosure summary.has-active-filters {
+    color: #F08080;
 }
 
 .table-filter-disclosure summary:focus-visible,
@@ -147,8 +157,8 @@ th, td {
 }
 
 .table-filter-icon {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     background: currentColor;
     clip-path: polygon(0 12%, 100% 12%, 61% 52%, 61% 83%, 39% 100%, 39% 52%);
 }
@@ -165,29 +175,9 @@ th, td {
     border: 0;
 }
 
-.table-filter-active-count {
-    position: absolute;
-    top: -3px;
-    right: -3px;
-    display: grid;
-    place-items: center;
-    min-width: 16px;
-    height: 16px;
-    padding: 0 2px;
-    border-radius: 9px;
-    background: #34708d;
-    color: white;
-    font-size: 10px;
-    line-height: 1;
-}
-
-.table-filter-active-count[hidden] {
-    display: none;
-}
-
 .table-filter-popover {
-    position: absolute;
-    top: calc(100% + 4px);
+    position: fixed;
+    top: 36px;
     right: 0;
     z-index: 20;
     width: min(420px, calc(100vw - 24px));
@@ -294,6 +284,10 @@ th, td {
 
 #sortableTable tbody tr[hidden] {
     display: none;
+}
+
+#sortableTable {
+    margin-top: 32px;
 }
 
 @media (max-width: 600px) {

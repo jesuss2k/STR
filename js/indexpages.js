@@ -124,10 +124,7 @@ function initializeTableFilters() {
   const hiddenLabel = document.createElement("span");
   hiddenLabel.className = "table-filter-visually-hidden";
   hiddenLabel.textContent = "Filters";
-  const activeFilterCount = document.createElement("span");
-  activeFilterCount.className = "table-filter-active-count";
-  activeFilterCount.hidden = true;
-  summary.append(filterIcon, hiddenLabel, activeFilterCount);
+  summary.append(filterIcon, hiddenLabel);
   disclosure.appendChild(summary);
 
   const popover = document.createElement("div");
@@ -299,8 +296,7 @@ function initializeTableFilters() {
       });
       chips.appendChild(chip);
     });
-    activeFilterCount.textContent = filters.size ? String(filters.size) : "";
-    activeFilterCount.hidden = filters.size === 0;
+    summary.classList.toggle("has-active-filters", filters.size > 0);
     activeFilters.hidden = filters.size === 0;
     clearButton.hidden = filters.size === 0;
   }
