@@ -89,6 +89,14 @@ a:hover {
     color: #DC484C;
 }
 
+.light-blue {
+    color: #87CEFA;
+}
+
+.light-red {
+    color: #F08080;
+}
+
 /* Table headers and cells remain consistent */
 th, td {
     padding: 10px;

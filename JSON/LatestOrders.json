@@ -47,6 +47,7 @@
 {"ticker":"ANET","positionStatus":"Closed","price":130.08,"quantity":6,"leverage":0},
 {"ticker":"ANF","positionStatus":"Open","price":183.8032,"quantity":2,"leverage":0},
 {"ticker":"APLD","positionStatus":"Closed","price":30.16,"quantity":10,"leverage":0},
+{"ticker":"APLD","positionStatus":"Open","price":23.0,"quantity":50,"leverage":0},
 {"ticker":"APP","positionStatus":"Closed","price":549.4767,"quantity":2,"leverage":0},
 {"ticker":"APP","positionStatus":"Open","price":380.0,"quantity":2,"leverage":0},
 {"ticker":"APP","positionStatus":"Open","price":525.0,"quantity":2,"leverage":0},

@@ -327,6 +327,12 @@ function populateTickerTable() {
               tdExtra.textContent = item[col] !== undefined ? item[col] : "";
             }
           } 
+          else if (col === "Action") {
+            const action = String(item[col] ?? "").trim().toLowerCase();
+            tdExtra.textContent = item[col] ?? "";
+            if (action === "buy") tdExtra.className = "light-blue";
+            else if (action === "sell") tdExtra.className = "light-red";
+          }
           else {
             tdExtra.textContent = item[col] !== undefined ? item[col] : "";
           }

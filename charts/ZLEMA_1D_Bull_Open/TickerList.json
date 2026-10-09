@@ -23,7 +23,7 @@
 {"ticker":"APP","dayChange":-0.42,"weekChange":4.44,"monthChange":-3.55,"rsi_14":36.5,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":2.82},
 {"ticker":"TMUS","dayChange":2.18,"weekChange":4.69,"monthChange":5.05,"rsi_14":51.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":14.96},
 {"ticker":"DAKT","dayChange":0.45,"weekChange":-0.39,"monthChange":2.88,"rsi_14":46.4,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":9.74},
-{"ticker":"PGR","dayChange":2.15,"weekChange":4.0,"monthChange":5.51,"rsi_14":58.8,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":52.32},
+{"ticker":"PGR","dayChange":2.15,"weekChange":4.0,"monthChange":5.51,"rsi_14":58.8,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":54.07},
 {"ticker":"PANW","dayChange":-1.74,"weekChange":-1.18,"monthChange":0.3,"rsi_14":56.8,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.45},
 {"ticker":"ULCC","dayChange":-2.31,"weekChange":-4.2,"monthChange":-0.67,"rsi_14":47.6,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":54.04},
 {"ticker":"TSLA","dayChange":-0.74,"weekChange":1.19,"monthChange":5.69,"rsi_14":55.8,"EMAs.":"O X X O","ZLEMAs":"O X X","weekRange":38.53},
