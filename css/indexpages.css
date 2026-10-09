@@ -104,6 +104,220 @@ th, td {
     border-bottom: 1px solid #444;
 }
 
+#table-filter-panel {
+    margin: 0;
+    color: #e8e8e8;
+}
+
+.table-filter-disclosure {
+    position: relative;
+}
+
+.table-filter-disclosure summary {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    margin-left: auto;
+    box-sizing: border-box;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color: #c5edff;
+    list-style: none;
+}
+
+.table-filter-disclosure summary:focus-visible,
+.table-filter-popover button:focus-visible,
+.table-filter-popover input:focus-visible,
+.table-filter-popover select:focus-visible {
+    outline: 2px solid #87CEFA;
+    outline-offset: 2px;
+}
+
+.table-filter-disclosure summary::-webkit-details-marker {
+    display: none;
+}
+
+.table-filter-disclosure summary::marker {
+    content: "";
+}
+
+.table-filter-icon {
+    width: 14px;
+    height: 14px;
+    background: currentColor;
+    clip-path: polygon(0 12%, 100% 12%, 61% 52%, 61% 83%, 39% 100%, 39% 52%);
+}
+
+.table-filter-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.table-filter-active-count {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    display: grid;
+    place-items: center;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 2px;
+    border-radius: 9px;
+    background: #34708d;
+    color: white;
+    font-size: 10px;
+    line-height: 1;
+}
+
+.table-filter-active-count[hidden] {
+    display: none;
+}
+
+.table-filter-popover {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    z-index: 20;
+    width: min(420px, calc(100vw - 24px));
+    max-height: min(70vh, 520px);
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #121212;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 55%);
+}
+
+.table-filter-disclosure:not([open]) .table-filter-popover {
+    display: none;
+}
+
+.table-filter-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 145px), 1fr));
+    align-items: end;
+    gap: 8px;
+    padding: 0;
+}
+
+.table-filter-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+    color: #c8c8c8;
+    font-size: 12px;
+}
+
+.table-filter-field[hidden] {
+    display: none;
+}
+
+.table-filter-field input,
+.table-filter-field select,
+.table-filter-controls button,
+.table-filter-clear {
+    width: 100%;
+    min-height: 44px;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 3px;
+    background: #242424;
+    color: #f2f2f2;
+    font: inherit;
+}
+
+.table-filter-controls button,
+.table-filter-clear,
+.table-filter-chip {
+    cursor: pointer;
+}
+
+.table-filter-controls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.table-filter-active {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.table-filter-active[hidden] {
+    display: none;
+}
+
+.table-filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0;
+    gap: 6px;
+}
+
+.table-filter-chip {
+    min-height: 44px;
+    max-width: 100%;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 3px;
+    background: #163746;
+    color: #c5edff;
+    text-align: left;
+    white-space: normal;
+}
+
+.table-filter-chip::after {
+    content: " \00D7";
+    margin-left: 4px;
+}
+
+.table-filter-clear {
+    width: auto;
+}
+
+#sortableTable tbody tr[hidden] {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .table-filter-controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .table-filter-controls > button {
+        grid-column: 1 / -1;
+    }
+
+    .table-filter-field input,
+    .table-filter-field select {
+        font-size: 16px;
+    }
+
+    #sortableTable {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
 /* New column will inherit the same styles as others */
 
 /* Container for 52-week range */

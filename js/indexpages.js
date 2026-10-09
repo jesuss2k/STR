@@ -73,6 +73,273 @@ function getComparableValue(cell) {
   return { type: "text", value: text };
 }
 
+function initializeTableFilters() {
+  const table = document.getElementById("sortableTable");
+  if (!table || !table.tBodies[0]) return;
+
+  const existingPanel = document.getElementById("table-filter-panel");
+  if (existingPanel) existingPanel.remove();
+
+  const rows = Array.from(table.tBodies[0].rows);
+  const columns = Array.from(table.tHead.rows[0].cells)
+    .map((header, index) => ({ index, title: header.textContent.trim() }))
+    .filter(column => column.title && column.title !== "Chart")
+    .map(column => {
+      const values = rows.map(row => getComparableValue(row.cells[column.index]));
+      const numericHint = /^(%|\$)/.test(column.title) ||
+        column.title === "RSI (14)" || column.title === "52-Week";
+      const populatedValues = values.filter(value =>
+        value.type !== "missing" && String(value.value ?? "").trim() !== "" && value.value !== "—"
+      );
+      const numeric = numericHint || (
+        populatedValues.length > 0 && populatedValues.every(value => value.type === "number")
+      );
+      const choices = Array.from(new Set(rows
+        .map(row => (row.cells[column.index].innerText || "").trim())
+        .filter(value => value && value !== "—")))
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
+
+      return {
+        ...column,
+        type: numeric ? "number" : choices.length <= 20 ? "choice" : "text",
+        choices
+      };
+    });
+
+  if (!columns.length) return;
+
+  const filters = new Map();
+  const panel = document.createElement("section");
+  panel.id = "table-filter-panel";
+  panel.setAttribute("aria-label", "Table filters");
+
+  const disclosure = document.createElement("details");
+  disclosure.className = "table-filter-disclosure";
+  const summary = document.createElement("summary");
+  summary.setAttribute("aria-label", "Toggle table filters");
+  summary.title = "Filters";
+  const filterIcon = document.createElement("span");
+  filterIcon.className = "table-filter-icon";
+  filterIcon.setAttribute("aria-hidden", "true");
+  const hiddenLabel = document.createElement("span");
+  hiddenLabel.className = "table-filter-visually-hidden";
+  hiddenLabel.textContent = "Filters";
+  const activeFilterCount = document.createElement("span");
+  activeFilterCount.className = "table-filter-active-count";
+  activeFilterCount.hidden = true;
+  summary.append(filterIcon, hiddenLabel, activeFilterCount);
+  disclosure.appendChild(summary);
+
+  const popover = document.createElement("div");
+  popover.className = "table-filter-popover";
+
+  const form = document.createElement("form");
+  form.className = "table-filter-controls";
+
+  function createField(labelText, control) {
+    const label = document.createElement("label");
+    label.className = "table-filter-field";
+    const caption = document.createElement("span");
+    caption.textContent = labelText;
+    label.append(caption, control);
+    return label;
+  }
+
+  const columnSelect = document.createElement("select");
+  columnSelect.setAttribute("aria-label", "Filter column");
+  const operatorSelect = document.createElement("select");
+  operatorSelect.setAttribute("aria-label", "Filter operator");
+  let valueInput = document.createElement("input");
+  valueInput.setAttribute("aria-label", "Filter value");
+  const upperInput = document.createElement("input");
+  upperInput.setAttribute("aria-label", "Filter maximum value");
+  upperInput.type = "number";
+  upperInput.step = "any";
+  upperInput.required = true;
+  const upperField = createField("Maximum", upperInput);
+  upperField.hidden = true;
+
+  const addButton = document.createElement("button");
+  addButton.type = "submit";
+  addButton.textContent = "Add filter";
+
+  const chips = document.createElement("div");
+  chips.className = "table-filter-chips";
+  chips.setAttribute("aria-label", "Active filters");
+
+  const activeFilters = document.createElement("div");
+  activeFilters.className = "table-filter-active";
+
+  const clearButton = document.createElement("button");
+  clearButton.type = "button";
+  clearButton.className = "table-filter-clear";
+  clearButton.textContent = "Clear all";
+  clearButton.hidden = true;
+  activeFilters.append(chips, clearButton);
+
+  const columnField = createField("Column", columnSelect);
+  const operatorField = createField("Condition", operatorSelect);
+  const valueField = createField("Value", valueInput);
+  form.append(columnField, operatorField, valueField, upperField, addButton);
+  popover.append(activeFilters, form);
+  disclosure.appendChild(popover);
+  panel.appendChild(disclosure);
+  table.parentElement.insertBefore(panel, table);
+
+  function refreshColumnOptions() {
+    const previousIndex = columnSelect.value;
+    columnSelect.replaceChildren();
+    columns.filter(column => !filters.has(column.index)).forEach(column => {
+      const option = document.createElement("option");
+      option.value = String(column.index);
+      option.textContent = column.title;
+      columnSelect.appendChild(option);
+    });
+
+    if (Array.from(columnSelect.options).some(option => option.value === previousIndex)) {
+      columnSelect.value = previousIndex;
+    }
+    addButton.disabled = columnSelect.options.length === 0;
+    updateFilterInputs();
+  }
+
+  function updateFilterInputs() {
+    const column = columns.find(candidate => candidate.index === Number(columnSelect.value));
+    operatorSelect.replaceChildren();
+    upperField.hidden = true;
+    upperInput.value = "";
+
+    if (!column) return;
+
+    valueInput = document.createElement(column.type === "choice" ? "select" : "input");
+    valueInput.setAttribute("aria-label", "Filter value");
+    valueInput.required = true;
+
+    const operators = column.type === "number"
+      ? [["gt", "greater than"], ["gte", "at least"], ["lt", "less than"], ["lte", "at most"], ["eq", "equals"], ["between", "between"]]
+      : column.type === "choice" ? [["eq", "is"]] : [["contains", "contains"]];
+    operators.forEach(([value, label]) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = label;
+      operatorSelect.appendChild(option);
+    });
+
+    if (column.type === "choice") {
+      column.choices.forEach(choice => {
+        const option = document.createElement("option");
+        option.value = choice;
+        option.textContent = choice;
+        valueInput.appendChild(option);
+      });
+    } else {
+      valueInput.type = column.type === "number" ? "number" : "search";
+      if (column.type === "number") valueInput.step = "any";
+      valueInput.required = true;
+    }
+
+    valueField.replaceChildren();
+    const caption = document.createElement("span");
+    caption.textContent = column.type === "number" ? "Value" : column.type === "choice" ? "Value" : "Text";
+    valueField.append(caption, valueInput);
+    updateUpperField();
+  }
+
+  function updateUpperField() {
+    const between = operatorSelect.value === "between";
+    upperField.hidden = !between;
+    upperInput.required = between;
+  }
+
+  function formatFilter(filter) {
+    const operatorLabels = { gt: ">", gte: ">=", lt: "<", lte: "<=", eq: "=", between: "between", contains: "contains" };
+    const value = filter.operator === "between"
+      ? `${filter.value} and ${filter.upper}`
+      : `${operatorLabels[filter.operator]} ${filter.value}`;
+    return `${filter.title} ${value}`;
+  }
+
+  function applyFilters() {
+    rows.forEach(row => {
+      const matches = Array.from(filters.values()).every(filter => {
+        const cell = row.cells[filter.index];
+        if (!cell) return false;
+
+        if (filter.type === "number") {
+          const comparable = getComparableValue(cell);
+          if (comparable.type !== "number") return false;
+          const value = comparable.value;
+          if (filter.operator === "gt") return value > filter.value;
+          if (filter.operator === "gte") return value >= filter.value;
+          if (filter.operator === "lt") return value < filter.value;
+          if (filter.operator === "lte") return value <= filter.value;
+          if (filter.operator === "between") return value >= filter.value && value <= filter.upper;
+          return value === filter.value;
+        }
+
+        const text = (cell.innerText || "").trim().toLocaleLowerCase();
+        const target = filter.value.toLocaleLowerCase();
+        return filter.operator === "contains" ? text.includes(target) : text === target;
+      });
+
+      row.hidden = !matches;
+    });
+
+    chips.replaceChildren();
+    filters.forEach((filter, index) => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "table-filter-chip";
+      chip.setAttribute("aria-label", `Remove filter: ${formatFilter(filter)}`);
+      chip.textContent = formatFilter(filter);
+      chip.addEventListener("click", () => {
+        filters.delete(index);
+        refreshColumnOptions();
+        applyFilters();
+      });
+      chips.appendChild(chip);
+    });
+    activeFilterCount.textContent = filters.size ? String(filters.size) : "";
+    activeFilterCount.hidden = filters.size === 0;
+    activeFilters.hidden = filters.size === 0;
+    clearButton.hidden = filters.size === 0;
+  }
+
+  columnSelect.addEventListener("change", updateFilterInputs);
+  operatorSelect.addEventListener("change", updateUpperField);
+  form.addEventListener("submit", event => {
+    event.preventDefault();
+    const index = Number(columnSelect.value);
+    const column = columns.find(candidate => candidate.index === index);
+    if (!column || filters.has(index) || !valueInput.value.trim()) return;
+
+    const value = column.type === "number" ? Number(valueInput.value) : valueInput.value.trim();
+    if (column.type === "number" && !Number.isFinite(value)) return;
+    const upper = Number(upperInput.value);
+    if (operatorSelect.value === "between" && (!Number.isFinite(upper) || upper < value)) return;
+
+    filters.set(index, {
+      index,
+      title: column.title,
+      type: column.type,
+      operator: operatorSelect.value,
+      value,
+      upper
+    });
+    refreshColumnOptions();
+    applyFilters();
+  });
+  clearButton.addEventListener("click", () => {
+    filters.clear();
+    rows.forEach(row => { row.hidden = false; });
+    refreshColumnOptions();
+    applyFilters();
+  });
+
+  refreshColumnOptions();
+  applyFilters();
+}
+
 function sortTable(columnIndex) {
   const table = document.getElementById("sortableTable");
   const headers = table.querySelectorAll("th");
@@ -379,6 +646,7 @@ function populateTickerTable() {
       });
 
       saveSortedTickers();
+      initializeTableFilters();
     }).catch(error => {
       console.error("Error loading JSON data:", error);
     });
