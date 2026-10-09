@@ -1,5 +1,3 @@
 [
-{"ticker":"CRWD","dayChange":2.42,"weekChange":-0.24,"monthChange":1.75,"rsi_14":62.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.25},
-{"ticker":"KYMR","dayChange":4.09,"weekChange":5.94,"monthChange":1.77,"rsi_14":51.4,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":78.23},
-{"ticker":"DIA","dayChange":0.58,"weekChange":0.69,"monthChange":1.2,"rsi_14":46.0,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":66.65}
+{"ticker":"XLRE","dayChange":1.62,"weekChange":1.72,"monthChange":1.47,"rsi_14":42.6,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":26.52}
 ]

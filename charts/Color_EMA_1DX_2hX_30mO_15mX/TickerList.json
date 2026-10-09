@@ -1,7 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"CAKE","dayChange":-0.17,"weekChange":-2.66,"monthChange":1.42,"rsi_14":53.4,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":84.44},
-{"EMAs":"X X X O","ticker":"FNGU","dayChange":1.58,"weekChange":4.88,"monthChange":5.82,"rsi_14":61.5,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":95.49},
-{"EMAs":"X X X O","ticker":"CRWD","dayChange":2.42,"weekChange":-0.24,"monthChange":1.75,"rsi_14":62.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.25},
-{"EMAs":"X X X O","ticker":"EME","dayChange":0.75,"weekChange":-0.32,"monthChange":3.92,"rsi_14":53.6,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":56.63},
-{"EMAs":"X X X O","ticker":"ASPN","dayChange":-0.44,"weekChange":-1.49,"monthChange":2.28,"rsi_14":56.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":46.89}
+{"EMAs":"X X X O","ticker":"TQQQ","dayChange":1.12,"weekChange":0.15,"monthChange":3.97,"rsi_14":59.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":86.29},
+{"EMAs":"X X X O","ticker":"QLD","dayChange":0.78,"weekChange":0.17,"monthChange":2.77,"rsi_14":59.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":92.63},
+{"EMAs":"X X X O","ticker":"QQQ","dayChange":0.42,"weekChange":0.15,"monthChange":1.48,"rsi_14":60.6,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.15}
 ]
