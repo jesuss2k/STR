@@ -164,7 +164,7 @@
 {"ticker":"SDS","dayChange":-1.11,"weekChange":-2.09,"monthChange":-3.76,"rsi_14":39.2,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":58.14},
 {"ticker":"SPXU","dayChange":-1.65,"weekChange":-3.18,"monthChange":-5.66,"rsi_14":39.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":40.71},
 {"ticker":"IBM","dayChange":0.23,"weekChange":2.02,"monthChange":3.27,"rsi_14":48.3,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":20.96},
-{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":0,"weekRange":99.81},
+{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.81},
 {"ticker":"NNOX","dayChange":-5.03,"weekChange":-15.4,"monthChange":-22.46,"rsi_14":30.0,"EMAs.":"O O O O","ZLEMAs":"O X O","weekRange":0.15},
 {"ticker":"GPN","dayChange":-0.69,"weekChange":4.87,"monthChange":0.65,"rsi_14":43.5,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":60.6},
 {"ticker":"NRG","dayChange":1.55,"weekChange":13.38,"monthChange":12.88,"rsi_14":53.6,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":15.13},

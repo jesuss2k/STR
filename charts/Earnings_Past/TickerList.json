@@ -19,7 +19,7 @@
 {"ticker":"DAKT","dayChange":0.67,"weekChange":0.28,"monthChange":3.57,"rsi_14":48.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":10.78},
 {"ticker":"CRM","dayChange":0.58,"weekChange":-2.37,"monthChange":-0.19,"rsi_14":48.0,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":67.44},
 {"ticker":"AVGO","dayChange":0.39,"weekChange":1.8,"monthChange":2.95,"rsi_14":50.1,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":34.91},
-{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":0,"weekRange":99.81},
+{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.81},
 {"ticker":"MDB","dayChange":3.93,"weekChange":7.81,"monthChange":10.71,"rsi_14":52.5,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":66.14},
 {"ticker":"GTLB","dayChange":2.86,"weekChange":10.67,"monthChange":16.59,"rsi_14":73.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.75},
 {"ticker":"PANW","dayChange":5.09,"weekChange":3.85,"monthChange":5.4,"rsi_14":63.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":95.37},

@@ -177,7 +177,7 @@
 {"ticker":"PLTR","dayChange":5.17,"weekChange":10.75,"monthChange":11.76,"rsi_14":76.3,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.49},
 {"ticker":"SNPS","dayChange":2.46,"weekChange":4.1,"monthChange":17.26,"rsi_14":74.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":83.33},
 {"ticker":"AFRM","dayChange":4.6,"weekChange":14.03,"monthChange":16.57,"rsi_14":66.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":79.85},
-{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":0,"weekRange":99.81},
+{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.81},
 {"ticker":"SHOP","dayChange":3.82,"weekChange":12.85,"monthChange":15.21,"rsi_14":72.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":87.14},
 {"ticker":"NU","dayChange":4.81,"weekChange":20.03,"monthChange":27.33,"rsi_14":66.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":63.24},
 {"ticker":"OKTA","dayChange":5.41,"weekChange":9.76,"monthChange":11.01,"rsi_14":76.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.5},

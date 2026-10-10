@@ -168,7 +168,7 @@
 {"Timestamp":"2026-09-14","ticker":"FTNT","dayChange":2.99,"weekChange":7.63,"monthChange":8.94,"rsi_14":72.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.84},
 {"Timestamp":"2026-09-09","ticker":"FFIV","dayChange":3.94,"weekChange":5.68,"monthChange":7.78,"rsi_14":70.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":98.98},
 {"Timestamp":"2026-09-09","ticker":"NET","dayChange":5.57,"weekChange":3.4,"monthChange":3.93,"rsi_14":61.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":95.55},
-{"Timestamp":"2026-09-08","ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":0,"weekRange":99.81},
+{"Timestamp":"2026-09-08","ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.81},
 {"Timestamp":"2026-09-03","ticker":"SMTC","dayChange":-0.1,"weekChange":-3.89,"monthChange":5.02,"rsi_14":59.0,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":89.63},
 {"Timestamp":"2026-09-01","ticker":"META","dayChange":-0.31,"weekChange":-1.29,"monthChange":-0.9,"rsi_14":56.8,"EMAs.":"X X O O","ZLEMAs":"X X O","weekRange":76.44},
 {"Timestamp":"2026-08-31","ticker":"AES","dayChange":0.07,"weekChange":0.2,"monthChange":0.27,"rsi_14":69.9,"EMAs.":"X X X X","ZLEMAs":"O X O","weekRange":38.96},

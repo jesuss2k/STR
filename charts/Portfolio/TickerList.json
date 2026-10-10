@@ -127,7 +127,7 @@
 {"ticker":"HLT","dayChange":1.01,"weekChange":2.25,"monthChange":2.65,"rsi_14":60.7,"EMAs.":"X X X X","ZLEMAs":"O X X","weekRange":69.9},
 {"ticker":"HNST","dayChange":2.01,"weekChange":-1.74,"monthChange":-1.17,"rsi_14":45.7,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":76.14},
 {"ticker":"HOOD","dayChange":1.88,"weekChange":-3.3,"monthChange":-3.09,"rsi_14":45.8,"EMAs.":"X O O X","ZLEMAs":"X O O","weekRange":52.33},
-{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":0,"weekRange":99.81},
+{"ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.81},
 {"ticker":"HPQ","dayChange":-6.91,"weekChange":-5.98,"monthChange":-3.45,"rsi_14":42.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":67.72},
 {"ticker":"HUM","dayChange":11.56,"weekChange":11.2,"monthChange":13.18,"rsi_14":66.2,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":91.61},
 {"ticker":"HUMA","dayChange":-9.35,"weekChange":-22.28,"monthChange":-21.71,"rsi_14":23.0,"EMAs.":"O O O O","ZLEMAs":"X O O","weekRange":0.95},

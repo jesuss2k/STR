@@ -82,7 +82,7 @@
 {"Date":"26-04-15","ticker":"XLK","dayChange":0.51,"weekChange":-0.52,"monthChange":1.55,"rsi_14":61.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.16},
 {"Date":"26-04-13","ticker":"ANET","dayChange":2.73,"weekChange":4.53,"monthChange":6.46,"rsi_14":64.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.35},
 {"Date":"26-03-26","ticker":"TGTX","dayChange":3.81,"weekChange":1.99,"monthChange":-0.74,"rsi_14":52.5,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":87.92},
-{"Date":"26-03-25","ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":0,"weekRange":99.81},
+{"Date":"26-03-25","ticker":"HPE","dayChange":3.46,"weekChange":5.96,"monthChange":14.98,"rsi_14":71.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.81},
 {"Date":"26-03-13","ticker":"TYO","dayChange":0.13,"weekChange":-0.97,"monthChange":-1.15,"rsi_14":53.4,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":89.02},
 {"Date":"26-03-12","ticker":"NET","dayChange":5.57,"weekChange":3.4,"monthChange":3.93,"rsi_14":61.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":95.55},
 {"Date":"26-03-10","ticker":"HNST","dayChange":2.01,"weekChange":-1.74,"monthChange":-1.17,"rsi_14":45.7,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":76.14},
