@@ -86,5 +86,6 @@
 {"ticker":"AVGO","dayChange":0.39,"weekChange":1.8,"monthChange":2.95,"rsi_14":50.1,"EMAs.":"O O X O","ZLEMAs":"O X O","weekRange":34.91},
 {"ticker":"ADBE","dayChange":0.51,"weekChange":1.93,"monthChange":0.97,"rsi_14":46.8,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":30.04},
 {"ticker":"COST","dayChange":-0.11,"weekChange":2.85,"monthChange":4.02,"rsi_14":62.4,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":40.75},
+{"ticker":"ORCL","dayChange":4.21,"weekChange":-0.63,"monthChange":2.99,"rsi_14":48.2,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":12.93},
 {"ticker":"ACN","dayChange":0.34,"weekChange":5.11,"monthChange":14.01,"rsi_14":63.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":52.57}
 ]
