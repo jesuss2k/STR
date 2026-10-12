@@ -1,3 +1,4 @@
 [
-{"ticker":"TGTX","dayChange":3.81,"weekChange":1.99,"monthChange":-0.74,"rsi_14":52.5,"EMAs.":0,"ZLEMAs":0,"weekRange":87.92}
+{"ticker":"SQQQ","dayChange":1.85,"weekChange":1.85,"monthChange":-2.47,"rsi_14":41.5,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":3.61},
+{"ticker":"QID","dayChange":1.25,"weekChange":1.25,"monthChange":-1.59,"rsi_14":41.6,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":4.61}
 ]
