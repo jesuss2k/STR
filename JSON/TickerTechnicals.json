@@ -1,8 +1,8 @@
 [
 {"ticker":"ACS_MC","EMAs":"O O O X"},
-{"ticker":"ACX_MC","EMAs":"X O O X"},
+{"ticker":"ACX_MC","EMAs":"X O O O"},
 {"ticker":"AENA_MC","EMAs":"O O O X"},
-{"ticker":"AMP_MC","EMAs":"X X O X"},
+{"ticker":"AMP_MC","EMAs":"X X O O"},
 {"ticker":"AMS_MC","EMAs":"O O O X"},
 {"ticker":"ANA_MC","EMAs":"O O X X"},
 {"ticker":"ANE_MC","EMAs":"O O O X"},
@@ -46,11 +46,11 @@
 {"ticker":"ROVI_MC","EMAs":"O O X X"},
 {"ticker":"SAB_MC","EMAs":"X O O O"},
 {"ticker":"SAN_MC","EMAs":"X O O X"},
-{"ticker":"SCYR_MC","EMAs":"O O O O"},
+{"ticker":"SCYR_MC","EMAs":"O O O X"},
 {"ticker":"SLR_MC","EMAs":"O O O X"},
 {"ticker":"TEF_MC","EMAs":"O O O O"},
 {"ticker":"TUB_MC","EMAs":"O X O O"},
-{"ticker":"UNI_MC","EMAs":"X O O O"},
+{"ticker":"UNI_MC","EMAs":"X O O X"},
 {"ticker":"VIS_MC","EMAs":"O O X O"},
-{"ticker":"VYT_MC","EMAs":"X O O X"}
+{"ticker":"VYT_MC","EMAs":"X O O O"}
 ]
