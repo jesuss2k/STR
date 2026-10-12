@@ -1,3 +1,4 @@
 [
-{"ticker":"ILMN","dayChange":-1.58,"weekChange":-1.58,"monthChange":0.03,"rsi_14":60.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":83.93}
+{"ticker":"OPRA","dayChange":0.06,"weekChange":0.06,"monthChange":-0.17,"rsi_14":45.0,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":64.83},
+{"ticker":"GIS","dayChange":1.04,"weekChange":1.04,"monthChange":1.45,"rsi_14":37.4,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":7.83}
 ]
