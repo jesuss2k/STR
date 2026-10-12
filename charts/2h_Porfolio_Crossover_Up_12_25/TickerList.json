@@ -1,4 +1,3 @@
 [
-{"ticker":"SQQQ","dayChange":1.5,"weekChange":1.5,"monthChange":-2.8,"rsi_14":40.9,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":3.42},
-{"ticker":"QID","dayChange":1.09,"weekChange":1.09,"monthChange":-1.75,"rsi_14":41.1,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":4.45}
+{"ticker":"BAC","dayChange":0.14,"weekChange":0.14,"monthChange":-0.06,"rsi_14":32.6,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":43.33}
 ]
