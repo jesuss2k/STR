@@ -1,6 +1,8 @@
 let mainChart_v2 = null;
 let histogramChart_v2 = null;
 let resizeTimer_v2 = null;
+let chartLoadId_v2 = 0;
+let chartLoadController_v2 = null;
 const priceSeriesByChart_v2 = new WeakMap();
 const DEFAULT_CHART_TYPE_v2 = '1W';
 const CHART_ORDER_v2 = Object.freeze([
@@ -34,8 +36,18 @@ const RENKO_CROSSHAIR_DATE_FORMAT_v2 = new Intl.DateTimeFormat(undefined, {
 const RENKO_INTRADAY_CROSSHAIR_FORMAT_v2 = new Intl.DateTimeFormat(undefined, {
     year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'UTC'
 });
-let renkoLoadId_v2 = 0;
 let renkoBrickTimestamps_v2 = [];
+
+function beginChartLoad_v2() {
+    chartLoadController_v2?.abort();
+    chartLoadController_v2 = new AbortController();
+    chartLoadId_v2 += 1;
+    return { loadId: chartLoadId_v2, signal: chartLoadController_v2.signal };
+}
+
+function isCurrentChartLoad_v2(loadId) {
+    return loadId === chartLoadId_v2;
+}
 
 function isCalculatedRenkoChart_v2(chartType) {
     return Object.prototype.hasOwnProperty.call(RENKO_CHART_CONFIGS_v2, chartType);
@@ -69,6 +81,7 @@ function formatRenkoCrosshairDate_v2(time) {
 function loadImage_v2(imagePath) {
     console.log('Reached loadImage_v2 with path:', imagePath);
 
+    beginChartLoad_v2();
     const container = document.getElementById('plotly-div');
     const histogramContainer = document.getElementById('plotly-histogram');
 
@@ -218,8 +231,8 @@ function isLibraryLoaded() {
     return true;
 }
 
-async function fetchJSONData(url) {
-    const response = await fetch(url);
+async function fetchJSONData(url, signal) {
+    const response = await fetch(url, signal ? { signal } : undefined);
     if (!response.ok) {
         throw new Error(`Failed to load JSON from ${url}: ${response.statusText}`);
     }
@@ -536,93 +549,13 @@ function plotCandlesticks(chart, candleData) {
     return candleSeries;
 }
 
-async function plotOrders(chart, candleData, ticker) {
-    try {
-        const ordersData = await fetchJSONData("../../JSON/LatestOrders.json");
-        console.log(`📄 Loaded ${ordersData.length} orders from LatestOrders.json`);
-
-        const filteredOrders = ordersData.filter(order => order.ticker === ticker);
-        console.log(`📊 Found ${filteredOrders.length} orders for ${ticker}:`, filteredOrders);
-
-        filteredOrders.forEach(order => {
-            const color = order.positionStatus === "Closed" ? "#FFD700" : "#1E90FF";
-            addPriceSeries_v2(chart, 'Line', {
-                color: color,
-                lineWidth: 1,
-                lastValueVisible: false,
-                lineStyle: LightweightCharts.LineStyle.Dotted
-            }).setData([
-                { time: candleData[0].time, value: order.price },
-                { time: candleData[candleData.length - 1].time, value: order.price }
-            ]);
-
-            console.log(`✅ Plotted ${order.positionStatus} order at ${order.price} (${color})`);
-        });
-    } catch (error) {
-        console.error("❌ Error loading Orders JSON:", error);
-    }
-}
-
-async function plotSubmittedOrders(chart, candleData, ticker) {
-    try {
-        const ordersData = await fetchJSONData("../../JSON/OrdersSubmitted.json");
-
-        const filteredOrders = ordersData.filter(order => order.ticker === ticker);
-
-        filteredOrders.forEach(order => {
-            const lineStyle = order.buySell === "Sell"
-                ? LightweightCharts.LineStyle.Dashed
-                : LightweightCharts.LineStyle.Dotted;
-
-            addPriceSeries_v2(chart, 'Line', {
-                color: "#f48fb1",
-                lineWidth: 2,
-                lastValueVisible: false,
-                lineStyle: lineStyle
-            }).setData([
-                { time: candleData[0].time, value: order.price },
-                { time: candleData[candleData.length - 1].time, value: order.price }
-            ]);
-        });
-    } catch (error) {
-        console.error("Error loading OrdersSubmitted JSON:", error);
-    }
-}
-
-async function plotGuruFocus(chart, candleData, ticker) {
-    try {
-        const GuruFocusData = await fetchJSONData("../../JSON/GuruFocus.json");
-        console.log(`📄 Loaded ${GuruFocusData.length} GuruFocus from GuruFocus.json`);
-
-        const filteredOrders = GuruFocusData.filter(GuruFocus => GuruFocus.ticker === ticker);
-        console.log(`📊 Found ${filteredOrders.length} GuruFocus for ${ticker}:`, filteredOrders);
-
-        filteredOrders.forEach(GuruFocus => {
-            addPriceSeries_v2(chart, 'Line', {
-                lineWidth: 9,
-                color: "rgba(245, 245, 220, 0.4)",
-                priceLineVisible: false,
-                lastValueVisible: false,
-                lineStyle: LightweightCharts.LineStyle.Solid
-            }).setData([
-                { time: candleData[0].time, value: GuruFocus.GFValue },
-                { time: candleData[candleData.length - 1].time, value: GuruFocus.GFValue }
-            ]);
-
-            console.log(`✅ Plotted GuruFocus at ${GuruFocus.GFValue}`);
-        });
-    } catch (error) {
-        console.error("❌ Error loading GuruFocus JSON:", error);
-    }
-}
-
-async function loadRenkoReferenceLevels_v2(ticker) {
+async function loadReferenceLevels_v2(ticker, signal) {
     const loadRows = async (path) => {
         try {
-            const rows = await fetchJSONData(path);
+            const rows = await fetchJSONData(path, signal);
             return Array.isArray(rows) ? rows.filter(row => row.ticker === ticker) : [];
         } catch (error) {
-            console.error(`Unable to load Renko reference levels from ${path}:`, error);
+            if (!signal?.aborted) console.error(`Unable to load reference levels from ${path}:`, error);
             return [];
         }
     };
@@ -633,6 +566,50 @@ async function loadRenkoReferenceLevels_v2(ticker) {
         loadRows('../../JSON/GuruFocus.json')
     ]);
     return { orders, submittedOrders, guruFocus };
+}
+
+function plotReferenceLevels_v2(chart, candleData, levels) {
+    if (candleData.length === 0) return;
+    const firstTime = candleData[0].time;
+    const lastTime = candleData[candleData.length - 1].time;
+    const addLine = (price, options) => {
+        if (!Number.isFinite(price)) return;
+        addPriceSeries_v2(chart, 'Line', options).setData([
+            { time: firstTime, value: price },
+            { time: lastTime, value: price }
+        ]);
+    };
+
+    levels.orders.forEach(order => {
+        const color = order.positionStatus === 'Closed' ? '#FFD700' : '#1E90FF';
+        addLine(order.price, {
+            color,
+            lineWidth: 1,
+            lastValueVisible: false,
+            lineStyle: LightweightCharts.LineStyle.Dotted
+        });
+    });
+
+    levels.submittedOrders.forEach(order => {
+        addLine(order.price, {
+            color: '#f48fb1',
+            lineWidth: 2,
+            lastValueVisible: false,
+            lineStyle: order.buySell === 'Sell'
+                ? LightweightCharts.LineStyle.Dashed
+                : LightweightCharts.LineStyle.Dotted
+        });
+    });
+
+    levels.guruFocus.forEach(value => {
+        addLine(value.GFValue, {
+            lineWidth: 9,
+            color: 'rgba(245, 245, 220, 0.4)',
+            priceLineVisible: false,
+            lastValueVisible: false,
+            lineStyle: LightweightCharts.LineStyle.Solid
+        });
+    });
 }
 
 function plotRenkoReferenceLevels_v2(series, levels) {
@@ -1081,7 +1058,7 @@ function setHistogramVisible_v2(visible) {
     resizeActiveCharts_v2();
 }
 
-async function fitInitialPriceRange_v2(chart, candleData) {
+async function fitInitialPriceRange_v2(chart, candleData, isCurrent = () => true) {
     const visibleRange = chart.timeScale().getVisibleRange();
     const logicalRange = chart.timeScale().getVisibleLogicalRange();
     const series = priceSeriesByChart_v2.get(chart) || [];
@@ -1120,11 +1097,13 @@ async function fitInitialPriceRange_v2(chart, candleData) {
             scaleMargins: { top: 0.1, bottom: 0.1 }
         });
         await new Promise(resolve => requestAnimationFrame(resolve));
+        if (!isCurrent()) return;
         // Different price labels can change the axis width. Keep the opening
         // horizontal view while the new vertical scale settles.
         if (logicalRange) {
             chart.timeScale().setVisibleLogicalRange(logicalRange);
             await new Promise(resolve => requestAnimationFrame(resolve));
+            if (!isCurrent()) return;
         }
         // Materialize the calculated scale before freezing it for free manual
         // zoom/pan. There is no public price-range setter in library v4.1.
@@ -1236,6 +1215,7 @@ async function loadTradingViewChart_v2(ticker = null) {
 
     if (!validateTicker(ticker)) return;
 
+    const { loadId, signal } = beginChartLoad_v2();
     const container = document.getElementById('plotly-div');
     const histogramContainer = document.getElementById('plotly-histogram');
 
@@ -1268,6 +1248,7 @@ async function loadTradingViewChart_v2(ticker = null) {
     try {
         let jsonPath;
         const selectedChart = getSelectedChart_v2();
+        const referenceLevelsPromise = loadReferenceLevels_v2(ticker, signal);
 
         if (selectedChart === '1W') {
             jsonPath = `../../charts/JSON/1W/${ticker}.json`;
@@ -1285,11 +1266,14 @@ async function loadTradingViewChart_v2(ticker = null) {
 
         let rawData;
         try {
-            rawData = await fetchJSONData(jsonPath);
+            rawData = await fetchJSONData(jsonPath, signal);
         } catch (error) {
-            console.error("❌ Error loading candlestick JSON:", error);
+            if (isCurrentChartLoad_v2(loadId) && !signal.aborted) {
+                console.error("❌ Error loading candlestick JSON:", error);
+            }
             return;
         }
+        if (!isCurrentChartLoad_v2(loadId)) return;
 
         const candleData = prepareCandleData(rawData);
 
@@ -1307,10 +1291,11 @@ async function loadTradingViewChart_v2(ticker = null) {
             console.log(`✅ Rendered ${renderMode === 'HEIKIN_ASHI' ? 'HEIKIN ASHI' : 'CANDLES'} for ${ticker}`);
         }
 
+        const referenceLevels = await referenceLevelsPromise;
+        if (!isCurrentChartLoad_v2(loadId)) return;
+        plotReferenceLevels_v2(chart, candleData, referenceLevels);
+
         if (selectedChart === '1W') {
-            await plotOrders(chart, candleData, ticker);
-            await plotSubmittedOrders(chart, candleData, ticker);
-            await plotGuruFocus(chart, candleData, ticker);
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1322,9 +1307,6 @@ async function loadTradingViewChart_v2(ticker = null) {
                 plotHistogram_1W(histogramChart, rawData);
             }
         } else if (selectedChart === '1D') {
-            await plotOrders(chart, candleData, ticker);
-            await plotSubmittedOrders(chart, candleData, ticker);
-            await plotGuruFocus(chart, candleData, ticker);
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1336,9 +1318,6 @@ async function loadTradingViewChart_v2(ticker = null) {
                 plotHistogram_1D(histogramChart, rawData);
             }
         } else if (selectedChart === '2H') {
-            await plotOrders(chart, candleData, ticker);
-            await plotSubmittedOrders(chart, candleData, ticker);
-            await plotGuruFocus(chart, candleData, ticker);
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1350,9 +1329,6 @@ async function loadTradingViewChart_v2(ticker = null) {
                 plotHistogram_2H(histogramChart, rawData);
             }
         } else if (selectedChart === '30M') {
-            await plotOrders(chart, candleData, ticker);
-            await plotSubmittedOrders(chart, candleData, ticker);
-            await plotGuruFocus(chart, candleData, ticker);
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1386,11 +1362,16 @@ async function loadTradingViewChart_v2(ticker = null) {
             // fitContent and canvas sizing settle during rendering. Wait for that
             // opening view, and ignore a chart superseded by navigation or Renko.
             await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
-            if (chart !== mainChart_v2 || getSelectedChart_v2().startsWith('Rk ')) return;
-            await fitInitialPriceRange_v2(chart, displayCandleData);
+            if (!isCurrentChartLoad_v2(loadId) || chart !== mainChart_v2 ||
+                getSelectedChart_v2().startsWith('Rk ')) return;
+            await fitInitialPriceRange_v2(
+                chart,
+                displayCandleData,
+                () => isCurrentChartLoad_v2(loadId) && chart === mainChart_v2
+            );
         }
     } finally {
-        if (verticalFit) {
+        if (verticalFit && isCurrentChartLoad_v2(loadId)) {
             // Reveal both panes together after the final fitted frame is drawn.
             await new Promise(resolve => requestAnimationFrame(resolve));
             chartElements.forEach(element => { element.style.visibility = ''; });
@@ -1558,7 +1539,7 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
     const config = RENKO_CHART_CONFIGS_v2[chartType];
     if (!config) return;
 
-    const loadId = ++renkoLoadId_v2;
+    const { loadId, signal } = beginChartLoad_v2();
     const container = document.getElementById('plotly-div');
     const histogramContainer = document.getElementById('plotly-histogram');
     clearContainers(container, histogramContainer);
@@ -1734,8 +1715,11 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
     factorInput.addEventListener('blur', hideFactorValue);
     try {
         status.textContent = 'Loading Renko data...';
-        const rows = await fetchJSONData(`../../charts/JSON/${config.dataFolder}/${encodeURIComponent(ticker)}.json`);
-        if (loadId !== renkoLoadId_v2 || getSelectedChart_v2() !== chartType) return;
+        const rows = await fetchJSONData(
+            `../../charts/JSON/${config.dataFolder}/${encodeURIComponent(ticker)}.json`,
+            signal
+        );
+        if (!isCurrentChartLoad_v2(loadId) || getSelectedChart_v2() !== chartType) return;
         if (!Array.isArray(rows) || rows.length < 14 || rows.some(row => !isValidRenkoOhlcRow_v2(row))) {
             throw new Error(`Invalid ${config.dataFolder} OHLC data`);
         }
@@ -1744,11 +1728,11 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
         if (atr === null) throw new Error('Not enough data for ATR(14)');
         status.textContent = '';
         render();
-        const referenceLevels = await loadRenkoReferenceLevels_v2(ticker);
-        if (loadId !== renkoLoadId_v2 || getSelectedChart_v2() !== chartType || mainChart_v2 !== chart) return;
+        const referenceLevels = await loadReferenceLevels_v2(ticker, signal);
+        if (!isCurrentChartLoad_v2(loadId) || getSelectedChart_v2() !== chartType || mainChart_v2 !== chart) return;
         plotRenkoReferenceLevels_v2(renkoSeries, referenceLevels);
     } catch (error) {
-        if (loadId === renkoLoadId_v2 && getSelectedChart_v2() === chartType) {
+        if (isCurrentChartLoad_v2(loadId) && !signal.aborted && getSelectedChart_v2() === chartType) {
             status.textContent = `Renko data unavailable for ${ticker}.`;
             console.error('Unable to load Renko data:', error);
         }
