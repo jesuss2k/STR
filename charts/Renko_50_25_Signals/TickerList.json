@@ -3,7 +3,7 @@
 {"ticker":"EMR","dayChange":1.74,"weekChange":0.14,"monthChange":4.34,"rsi_14":61.0,"EMAs.":0,"ZLEMAs":0,"weekRange":89.66},
 {"ticker":"EXPD","dayChange":-0.24,"weekChange":0.4,"monthChange":4.66,"rsi_14":57.3,"EMAs.":0,"ZLEMAs":0,"weekRange":96.99},
 {"ticker":"FNGU","dayChange":2.31,"weekChange":5.62,"monthChange":6.57,"rsi_14":62.4,"EMAs.":0,"ZLEMAs":0,"weekRange":96.57},
-{"ticker":"GRF_MC","dayChange":1.47,"weekChange":1.47,"monthChange":4.97,"rsi_14":54.7,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":42.22},
+{"ticker":"GRF_MC","dayChange":1.19,"weekChange":1.19,"monthChange":4.69,"rsi_14":54.7,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":41.51},
 {"ticker":"IOT","dayChange":0.8,"weekChange":1.05,"monthChange":8.97,"rsi_14":57.1,"EMAs.":0,"ZLEMAs":0,"weekRange":75.43},
 {"ticker":"KEYS","dayChange":2.16,"weekChange":-0.49,"monthChange":5.14,"rsi_14":66.6,"EMAs.":0,"ZLEMAs":0,"weekRange":96.87},
 {"ticker":"SPY","dayChange":0.6,"weekChange":1.16,"monthChange":2.09,"rsi_14":59.9,"EMAs.":0,"ZLEMAs":0,"weekRange":98.0},
