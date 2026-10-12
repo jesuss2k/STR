@@ -1,4 +1,4 @@
 [
-{"ticker":"SQQQ","dayChange":1.85,"weekChange":1.85,"monthChange":-2.47,"rsi_14":41.5,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":3.61},
-{"ticker":"QID","dayChange":1.25,"weekChange":1.25,"monthChange":-1.59,"rsi_14":41.6,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":4.61}
+{"ticker":"SQQQ","dayChange":1.5,"weekChange":1.5,"monthChange":-2.8,"rsi_14":40.9,"EMAs.":"O O O X","ZLEMAs":"X O X","weekRange":3.42},
+{"ticker":"QID","dayChange":1.09,"weekChange":1.09,"monthChange":-1.75,"rsi_14":41.1,"EMAs.":"O O X X","ZLEMAs":"X O X","weekRange":4.45}
 ]
