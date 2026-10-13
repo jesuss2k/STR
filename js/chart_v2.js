@@ -549,7 +549,37 @@ function plotCandlesticks(chart, candleData) {
     return candleSeries;
 }
 
-async function loadReferenceLevels_v2(ticker, signal) {
+function parseOhlcTimestamp_v2(timestamp) {
+    if (typeof timestamp !== 'string') return null;
+    const isoTimestamp = timestamp.length > 10
+        ? `${timestamp.replace(' ', 'T')}Z`
+        : `${timestamp}T00:00:00Z`;
+    const parsedTimestamp = Date.parse(isoTimestamp);
+    return Number.isFinite(parsedTimestamp) ? parsedTimestamp : null;
+}
+
+function calculateFiveYearDrawdownLevel_v2(rows) {
+    const validRows = rows
+        .filter(row => row && Number.isFinite(row.Close))
+        .map(row => ({ close: row.Close, timestamp: parseOhlcTimestamp_v2(row.Timestamp) }))
+        .filter(row => row.timestamp !== null);
+    if (validRows.length === 0) return null;
+
+    const latestTimestamp = validRows.reduce(
+        (latest, row) => Math.max(latest, row.timestamp),
+        -Infinity
+    );
+    const cutoffDate = new Date(latestTimestamp);
+    cutoffDate.setUTCFullYear(cutoffDate.getUTCFullYear() - 5);
+    const cutoffTimestamp = cutoffDate.getTime();
+    const highestClose = validRows.reduce((highest, row) =>
+        row.timestamp >= cutoffTimestamp ? Math.max(highest, row.close) : highest,
+    -Infinity);
+
+    return Number.isFinite(highestClose) ? highestClose * 0.65 : null;
+}
+
+async function loadReferenceLevels_v2(ticker, signal, dailyRows = null) {
     const loadRows = async (path) => {
         try {
             const rows = await fetchJSONData(path, signal);
@@ -560,12 +590,30 @@ async function loadReferenceLevels_v2(ticker, signal) {
         }
     };
 
-    const [orders, submittedOrders, guruFocus] = await Promise.all([
+    const loadDrawdownLevel = async () => {
+        if (dailyRows) return calculateFiveYearDrawdownLevel_v2(dailyRows);
+        try {
+            const rows = await fetchJSONData(
+                `../../charts/JSON/1D_OHLC/${encodeURIComponent(ticker)}.json`,
+                signal
+            );
+            if (!Array.isArray(rows)) {
+                throw new Error('1D_OHLC data is not an array');
+            }
+            return calculateFiveYearDrawdownLevel_v2(rows);
+        } catch (error) {
+            if (!signal?.aborted) console.error('Unable to calculate five-year drawdown level:', error);
+            return null;
+        }
+    };
+
+    const [orders, submittedOrders, guruFocus, fiveYearDrawdownLevel] = await Promise.all([
         loadRows('../../JSON/LatestOrders.json'),
         loadRows('../../JSON/OrdersSubmitted.json'),
-        loadRows('../../JSON/GuruFocus.json')
+        loadRows('../../JSON/GuruFocus.json'),
+        loadDrawdownLevel()
     ]);
-    return { orders, submittedOrders, guruFocus };
+    return { orders, submittedOrders, guruFocus, fiveYearDrawdownLevel };
 }
 
 function plotReferenceLevels_v2(chart, candleData, levels) {
@@ -610,6 +658,14 @@ function plotReferenceLevels_v2(chart, candleData, levels) {
             lineStyle: LightweightCharts.LineStyle.Solid
         });
     });
+
+    addLine(levels.fiveYearDrawdownLevel, {
+        color: '#AF69EE',
+        lineWidth: 3,
+        lastValueVisible: false,
+        priceLineVisible: false,
+        lineStyle: LightweightCharts.LineStyle.Solid
+    });
 }
 
 function plotRenkoReferenceLevels_v2(series, levels) {
@@ -640,6 +696,13 @@ function plotRenkoReferenceLevels_v2(series, levels) {
     levels.guruFocus.forEach(value => {
         addPriceLine(value.GFValue, 'rgba(245, 245, 220, 0.3)', 10, LightweightCharts.LineStyle.Solid);
     });
+
+    addPriceLine(
+        levels.fiveYearDrawdownLevel,
+        '#AF69EE',
+        3,
+        LightweightCharts.LineStyle.Solid
+    );
 }
 
 function plotEMAs_1W(chart, rawData) {
@@ -1527,10 +1590,7 @@ function buildRenkoTrendline_v2(bricks, direction, swingStrength = 2) {
 function isValidRenkoOhlcRow_v2(row) {
     if (!row || !Number.isFinite(row.High) || !Number.isFinite(row.Low) || !Number.isFinite(row.Close) ||
         typeof row.Timestamp !== 'string') return false;
-    const isoTimestamp = row.Timestamp.length > 10
-        ? `${row.Timestamp.replace(' ', 'T')}Z`
-        : `${row.Timestamp}T00:00:00Z`;
-    return Number.isFinite(Date.parse(isoTimestamp));
+    return parseOhlcTimestamp_v2(row.Timestamp) !== null;
 }
 
 async function loadAtrRenkoChart_v2(ticker, chartType) {
@@ -1728,7 +1788,11 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
         if (atr === null) throw new Error('Not enough data for ATR(14)');
         status.textContent = '';
         render();
-        const referenceLevels = await loadReferenceLevels_v2(ticker, signal);
+        const referenceLevels = await loadReferenceLevels_v2(
+            ticker,
+            signal,
+            config.dataFolder === '1D_OHLC' ? sourceRows : null
+        );
         if (!isCurrentChartLoad_v2(loadId) || getSelectedChart_v2() !== chartType || mainChart_v2 !== chart) return;
         plotRenkoReferenceLevels_v2(renkoSeries, referenceLevels);
     } catch (error) {
