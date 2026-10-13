@@ -22,7 +22,7 @@
 {"ticker":"SEI","dayChange":3.77,"weekChange":3.77,"monthChange":11.38,"rsi_14":63.9,"EMAs.":0,"ZLEMAs":0,"weekRange":85.51},
 {"ticker":"UHS","dayChange":0.83,"weekChange":0.83,"monthChange":2.62,"rsi_14":57.0,"EMAs.":0,"ZLEMAs":0,"weekRange":36.47},
 {"ticker":"AMGN","dayChange":0.65,"weekChange":0.65,"monthChange":-0.93,"rsi_14":55.3,"EMAs.":0,"ZLEMAs":0,"weekRange":81.48},
-{"ticker":"GRF_MC","dayChange":-1.52,"weekChange":-0.12,"monthChange":3.33,"rsi_14":58.1,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":38.06},
+{"ticker":"GRF_MC","dayChange":-1.36,"weekChange":0.04,"monthChange":3.5,"rsi_14":58.1,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":38.48},
 {"ticker":"IT","dayChange":1.54,"weekChange":1.54,"monthChange":4.05,"rsi_14":57.4,"EMAs.":0,"ZLEMAs":0,"weekRange":51.04},
 {"ticker":"META","dayChange":3.38,"weekChange":3.38,"monthChange":2.45,"rsi_14":62.3,"EMAs.":0,"ZLEMAs":0,"weekRange":85.8},
 {"ticker":"TEL","dayChange":-0.46,"weekChange":-0.46,"monthChange":2.94,"rsi_14":54.2,"EMAs.":0,"ZLEMAs":0,"weekRange":43.36},

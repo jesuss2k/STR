@@ -660,8 +660,8 @@ function plotReferenceLevels_v2(chart, candleData, levels) {
     });
 
     addLine(levels.fiveYearDrawdownLevel, {
-        color: '#AF69EE',
-        lineWidth: 3,
+        color: 'rgba(255, 111, 255, 0.3)',
+        lineWidth: 9,
         lastValueVisible: false,
         priceLineVisible: false,
         lineStyle: LightweightCharts.LineStyle.Solid
@@ -699,8 +699,8 @@ function plotRenkoReferenceLevels_v2(series, levels) {
 
     addPriceLine(
         levels.fiveYearDrawdownLevel,
-        '#AF69EE',
-        3,
+        'rgba(255, 111, 255, 0.3)',
+        10,
         LightweightCharts.LineStyle.Solid
     );
 }
