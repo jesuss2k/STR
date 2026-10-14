@@ -18,12 +18,12 @@ function normalizeChartType_v2(chartType) {
 }
 
 const RENKO_CHART_CONFIGS_v2 = Object.freeze({
-    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 0.5, factorKey: 'dailyRenkoAtrFactor_v2' },
-    'Rk 1D50': { dataFolder: '1D_OHLC', defaultFactor: 0.5, factorKey: 'renkoAtrFactor_1D50_v2', lookbackYears: 3 },
-    'Rk 1D25': { dataFolder: '1D_OHLC', defaultFactor: 0.25, factorKey: 'renkoAtrFactor_1D25_v2', lookbackYears: 1 },
-    'Rk 2H': { dataFolder: '2H', defaultFactor: 1, factorKey: 'renkoAtrFactor_2H_v3' },
-    'Rk 2H50': { dataFolder: '2H', defaultFactor: 0.5, factorKey: 'renkoAtrFactor_2H50_v2' },
-    'Rk 30M': { dataFolder: '30M', defaultFactor: 1, factorKey: 'renkoAtrFactor_30M_v3' }
+    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 0.5 },
+    'Rk 1D50': { dataFolder: '1D_OHLC', defaultFactor: 0.5, lookbackYears: 3 },
+    'Rk 1D25': { dataFolder: '1D_OHLC', defaultFactor: 0.25, lookbackYears: 1 },
+    'Rk 2H': { dataFolder: '2H', defaultFactor: 1 },
+    'Rk 2H50': { dataFolder: '2H', defaultFactor: 0.5 },
+    'Rk 30M': { dataFolder: '30M', defaultFactor: 1 }
 });
 const RENKO_FIRST_TIME_v2 = 946684800;
 const RENKO_SECONDS_PER_BRICK_v2 = 86400;
@@ -1622,10 +1622,7 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
     const factorInput = toolbar.querySelector('#daily-renko-factor');
     const factorOutput = toolbar.querySelector('#daily-renko-factor-value');
     const status = toolbar.querySelector('#daily-renko-status');
-    const savedFactor = Number(localStorage.getItem(config.factorKey));
-    factorInput.value = Number.isFinite(savedFactor) && savedFactor >= 0.1 && savedFactor <= 1
-        ? String(savedFactor)
-        : String(config.defaultFactor);
+    factorInput.value = String(config.defaultFactor);
 
     if (!isLibraryLoaded()) {
         status.textContent = 'Chart library unavailable.';
@@ -1757,7 +1754,6 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
         }) : null;
         factorOutput.value = `${factor.toFixed(2)}x`;
         factorOutput.textContent = factorOutput.value;
-        localStorage.setItem(config.factorKey, String(factor));
         chart.timeScale().fitContent();
         resizeActiveCharts_v2();
     };
