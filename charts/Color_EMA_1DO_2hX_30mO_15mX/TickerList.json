@@ -1,3 +1,4 @@
 [
-{"EMAs":"O O X O","ticker":"MAMA","dayChange":-0.23,"weekChange":-2.51,"monthChange":2.48,"rsi_14":41.8,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":29.82}
+{"EMAs":"X O O O","ticker":"MRK","dayChange":2.18,"weekChange":-0.36,"monthChange":-0.17,"rsi_14":50.7,"EMAs.":"X O O O","ZLEMAs":"X O X","weekRange":84.18},
+{"EMAs":"X O X O","ticker":"TGTX","dayChange":1.79,"weekChange":-0.11,"monthChange":-0.84,"rsi_14":52.2,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":87.74}
 ]
