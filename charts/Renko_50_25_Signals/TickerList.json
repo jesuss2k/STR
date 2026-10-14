@@ -23,7 +23,7 @@
 {"ticker":"A","dayChange":0.16,"weekChange":0.62,"monthChange":-0.41,"rsi_14":64.4,"EMAs.":0,"ZLEMAs":0,"weekRange":92.07},
 {"ticker":"AEO","dayChange":-1.6,"weekChange":-2.15,"monthChange":0.0,"rsi_14":57.0,"EMAs.":0,"ZLEMAs":0,"weekRange":25.63},
 {"ticker":"CEG","dayChange":0.65,"weekChange":-0.76,"monthChange":16.44,"rsi_14":60.8,"EMAs.":0,"ZLEMAs":0,"weekRange":36.49},
-{"ticker":"ELE_MC","dayChange":-0.02,"weekChange":2.09,"monthChange":3.67,"rsi_14":58.4,"EMAs.":"X X X X","ZLEMAs":"O X ","weekRange":94.67},
+{"ticker":"ELE_MC","dayChange":0.3,"weekChange":2.42,"monthChange":4.0,"rsi_14":58.4,"EMAs.":"X X X X","ZLEMAs":"O X ","weekRange":95.6},
 {"ticker":"EXPD","dayChange":0.89,"weekChange":0.98,"monthChange":5.68,"rsi_14":60.5,"EMAs.":0,"ZLEMAs":0,"weekRange":99.03},
 {"ticker":"NOW","dayChange":-1.22,"weekChange":-1.6,"monthChange":3.43,"rsi_14":54.0,"EMAs.":0,"ZLEMAs":0,"weekRange":51.35},
 {"ticker":"SDOW","dayChange":1.05,"weekChange":0.0,"monthChange":-3.91,"rsi_14":51.5,"EMAs.":0,"ZLEMAs":0,"weekRange":22.7},
