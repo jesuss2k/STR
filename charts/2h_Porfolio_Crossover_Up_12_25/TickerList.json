@@ -1,5 +1,3 @@
 [
-{"ticker":"AEO","dayChange":2.73,"weekChange":-0.5,"monthChange":1.69,"rsi_14":59.4,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":27.72},
-{"ticker":"TTWO","dayChange":4.04,"weekChange":-1.91,"monthChange":0.89,"rsi_14":49.8,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":27.74},
-{"ticker":"GE","dayChange":1.02,"weekChange":0.63,"monthChange":-0.69,"rsi_14":42.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":34.38}
+{"ticker":"GGLS","dayChange":-0.42,"weekChange":0.73,"monthChange":-1.26,"rsi_14":47.7,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":88.16}
 ]
