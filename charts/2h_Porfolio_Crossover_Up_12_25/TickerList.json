@@ -1,3 +1,4 @@
 [
-{"ticker":"MAMA","dayChange":1.62,"weekChange":-2.66,"monthChange":2.33,"rsi_14":42.7,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":29.6}
+{"ticker":"VZ","dayChange":0.74,"weekChange":7.44,"monthChange":-2.44,"rsi_14":42.6,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":83.13},
+{"ticker":"GPN","dayChange":4.1,"weekChange":2.45,"monthChange":3.11,"rsi_14":50.8,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":66.39}
 ]
