@@ -1,6 +1,7 @@
 [
 {"ticker":"APLD","dayChange":0.32,"weekChange":-13.89,"monthChange":-16.33,"rsi_14":31.4,"EMAs.":0,"ZLEMAs":0,"weekRange":6.27},
 {"ticker":"CRWV","dayChange":5.94,"weekChange":-15.1,"monthChange":-20.01,"rsi_14":34.9,"EMAs.":0,"ZLEMAs":0,"weekRange":12.37},
+{"ticker":"OKLO","dayChange":3.34,"weekChange":-13.52,"monthChange":-18.94,"rsi_14":32.2,"EMAs.":0,"ZLEMAs":0,"weekRange":1.73},
 {"ticker":"NBIS","dayChange":1.29,"weekChange":-14.77,"monthChange":-20.12,"rsi_14":36.5,"EMAs.":0,"ZLEMAs":0,"weekRange":50.76},
 {"ticker":"SOUN","dayChange":7.95,"weekChange":-9.28,"monthChange":-18.77,"rsi_14":31.2,"EMAs.":0,"ZLEMAs":0,"weekRange":3.15},
 {"ticker":"IONQ","dayChange":9.33,"weekChange":-13.89,"monthChange":-21.68,"rsi_14":36.7,"EMAs.":0,"ZLEMAs":0,"weekRange":17.71},

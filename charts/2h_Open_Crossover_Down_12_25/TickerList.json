@@ -33,6 +33,7 @@
 {"Date":"26-10-08","ticker":"ORCL","dayChange":2.98,"weekChange":-4.92,"monthChange":-2.08,"rsi_14":44.0,"EMAs.":0,"ZLEMAs":0,"weekRange":10.51},
 {"Date":"26-10-07","ticker":"IBIT","dayChange":0.76,"weekChange":0.09,"monthChange":-1.58,"rsi_14":52.8,"EMAs.":0,"ZLEMAs":0,"weekRange":41.5},
 {"Date":"26-10-07","ticker":"ROAD","dayChange":2.96,"weekChange":-4.12,"monthChange":-7.55,"rsi_14":34.0,"EMAs.":0,"ZLEMAs":0,"weekRange":5.44},
+{"Date":"26-10-07","ticker":"OKLO","dayChange":3.34,"weekChange":-13.52,"monthChange":-18.94,"rsi_14":32.2,"EMAs.":0,"ZLEMAs":0,"weekRange":1.73},
 {"Date":"26-10-07","ticker":"ALK","dayChange":2.16,"weekChange":-7.27,"monthChange":-5.68,"rsi_14":34.0,"EMAs.":0,"ZLEMAs":0,"weekRange":12.57},
 {"Date":"26-10-06","ticker":"BA","dayChange":2.2,"weekChange":-0.86,"monthChange":1.44,"rsi_14":41.3,"EMAs.":0,"ZLEMAs":0,"weekRange":15.42},
 {"Date":"26-10-05","ticker":"IONQ","dayChange":9.33,"weekChange":-13.89,"monthChange":-21.68,"rsi_14":36.7,"EMAs.":0,"ZLEMAs":0,"weekRange":17.71},

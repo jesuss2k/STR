@@ -283,6 +283,7 @@
 {"ticker":"NVDA","positionStatus":"Open","price":190.1493,"quantity":2,"leverage":0},
 {"ticker":"NVDA","positionStatus":"Open","price":192.0,"quantity":1,"leverage":0},
 {"ticker":"NVO","positionStatus":"Open","price":54.76,"quantity":5,"leverage":0},
+{"ticker":"OKLO","positionStatus":"Open","price":30.0,"quantity":65,"leverage":0},
 {"ticker":"OKTA","positionStatus":"Closed","price":148.0,"quantity":6,"leverage":0},
 {"ticker":"OLLI","positionStatus":"Closed","price":108.62,"quantity":5,"leverage":0},
 {"ticker":"OLLI","positionStatus":"Open","price":76.36,"quantity":20,"leverage":0},
