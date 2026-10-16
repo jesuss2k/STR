@@ -18,7 +18,7 @@ function normalizeChartType_v2(chartType) {
 }
 
 const RENKO_CHART_CONFIGS_v2 = Object.freeze({
-    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 0.5 },
+    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 1 },
     'Rk 1D50': { dataFolder: '1D_OHLC', defaultFactor: 0.5, lookbackYears: 3 },
     'Rk 1D25': { dataFolder: '1D_OHLC', defaultFactor: 0.25, lookbackYears: 1 },
     'Rk 2H': { dataFolder: '2H', defaultFactor: 1 },
@@ -262,10 +262,12 @@ function getChartLabel_v2(chartType) {
 }
 
 function updateMenuCaption_v2(ticker) {
+    const selectedChart = getSelectedChart_v2();
+    if (ticker) document.title = `${ticker} - ${selectedChart}`;
+
     const menuCaption = document.getElementById("menu-caption");
     if (!menuCaption) return;
 
-    const selectedChart = getSelectedChart_v2();
     menuCaption.textContent = getChartLabel_v2(selectedChart);
 }
 
@@ -2046,6 +2048,24 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Add keyboard shortcut for mode toggle
     document.addEventListener('keydown', function(event) {
+        if ((event.key === '[' || event.key === ']') &&
+            isCalculatedRenkoChart_v2(getSelectedChart_v2())) {
+            const factorInput = document.getElementById('daily-renko-factor');
+            if (!factorInput) return;
+
+            event.preventDefault();
+            const step = Number(factorInput.step) || 0.05;
+            const direction = event.key === ']' ? 1 : -1;
+            const nextFactor = Number(factorInput.value) + (direction * step);
+            const boundedFactor = Math.min(
+                Number(factorInput.max),
+                Math.max(Number(factorInput.min), nextFactor)
+            );
+            factorInput.value = String(Math.round(boundedFactor * 100) / 100);
+            factorInput.dispatchEvent(new Event('input', { bubbles: true }));
+            return;
+        }
+
         if (event.key === 'm' || event.key === 'M') {
             console.log('Keyboard shortcut: toggle mode');
             const newMode = toggleRenderMode_v2();
