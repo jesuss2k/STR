@@ -29,7 +29,7 @@
 {"EMAs":"O O O O","Group":"80:160","ticker":"MIRM","dayChange":-2.73,"weekChange":-6.82,"monthChange":-6.25,"rsi_14":36.2,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":25.32},
 {"EMAs":"X O O O","Group":"80:160","ticker":"SOXL","dayChange":-12.74,"weekChange":-32.98,"monthChange":-36.65,"rsi_14":30.0,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":23.93},
 {"EMAs":"O O O O","Group":"80:160","ticker":"POWL","dayChange":-3.33,"weekChange":-13.96,"monthChange":-10.48,"rsi_14":33.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":30.82},
-{"EMAs":"O O O O","Group":"160:320","ticker":"RGTI","dayChange":-6.57,"weekChange":-15.89,"monthChange":-25.03,"rsi_14":29.2,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":1.86},
+{"EMAs":"O O O O","Group":"160:320","ticker":"RGTI","dayChange":-6.57,"weekChange":-15.89,"monthChange":-25.03,"rsi_14":29.2,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":1.88},
 {"EMAs":"O O O O","Group":"160:320","ticker":"ASTS","dayChange":-8.55,"weekChange":-20.22,"monthChange":-30.92,"rsi_14":29.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":0.84},
 {"EMAs":"O O O O","Group":"160:320","ticker":"GRBK","dayChange":-1.31,"weekChange":-2.69,"monthChange":-7.47,"rsi_14":34.2,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":8.52},
 {"EMAs":"O O O O","Group":"160:320","ticker":"INSM","dayChange":-2.96,"weekChange":-4.3,"monthChange":-15.66,"rsi_14":29.1,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":4.81},

@@ -16,7 +16,7 @@
 {"Date":"26-10-15","ticker":"SBUX","dayChange":0.66,"weekChange":7.46,"monthChange":3.79,"rsi_14":54.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":60.06},
 {"Date":"26-10-15","ticker":"WDAY","dayChange":-2.96,"weekChange":2.26,"monthChange":0.18,"rsi_14":52.1,"EMAs.":"X X X O","ZLEMAs":"X O X","weekRange":58.71},
 {"Date":"26-10-15","ticker":"CELH","dayChange":0.11,"weekChange":-1.36,"monthChange":3.07,"rsi_14":49.8,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":10.92},
-{"Date":"26-10-15","ticker":"PCAR","dayChange":0.01,"weekChange":2.57,"monthChange":0.92,"rsi_14":41.8,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":38.28},
+{"Date":"26-10-15","ticker":"PCAR","dayChange":0.01,"weekChange":2.57,"monthChange":0.92,"rsi_14":41.8,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":37.37},
 {"Date":"26-10-15","ticker":"CMCSA","dayChange":0.6,"weekChange":6.0,"monthChange":0.64,"rsi_14":44.8,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":11.47},
 {"Date":"26-10-15","ticker":"RDDT","dayChange":-2.08,"weekChange":-2.41,"monthChange":9.55,"rsi_14":51.9,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":25.5},
 {"Date":"26-10-14","ticker":"LMT","dayChange":3.65,"weekChange":8.34,"monthChange":8.41,"rsi_14":64.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":45.08},
@@ -67,5 +67,5 @@
 {"Date":"26-09-30","ticker":"PINS","dayChange":-3.57,"weekChange":2.34,"monthChange":15.93,"rsi_14":59.4,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":37.35},
 {"Date":"26-09-28","ticker":"CCL","dayChange":-2.12,"weekChange":-1.71,"monthChange":5.54,"rsi_14":56.5,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":35.37},
 {"Date":"26-09-22","ticker":"SHOP","dayChange":-4.84,"weekChange":-0.78,"monthChange":14.31,"rsi_14":61.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":85.63},
-{"Date":"26-09-22","ticker":"ELF","dayChange":-2.21,"weekChange":3.95,"monthChange":12.45,"rsi_14":66.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":71.49}
+{"Date":"26-09-22","ticker":"ELF","dayChange":-2.21,"weekChange":3.95,"monthChange":12.45,"rsi_14":66.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":72.96}
 ]
