@@ -1,5 +1,4 @@
 [
-{"Group":"12:25 ","ticker":"AFRM","dayChange":-2.52,"weekChange":-8.29,"monthChange":6.9,"rsi_14":50.3,"EMAs.":"X X O X","ZLEMAs":"X X O","weekRange":66.02},
 {"Group":"100:200","ticker":"EVER","dayChange":0.97,"weekChange":10.05,"monthChange":8.62,"rsi_14":54.8,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":53.27},
 {"Group":"100:200","ticker":"OPRA","dayChange":-1.54,"weekChange":1.76,"monthChange":1.53,"rsi_14":50.0,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":68.14},
 {"Group":"100:200","ticker":"GDX","dayChange":0.79,"weekChange":-1.76,"monthChange":-0.1,"rsi_14":46.2,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":39.92},
