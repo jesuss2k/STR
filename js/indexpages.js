@@ -7,6 +7,63 @@ function applySavedSiteTheme() {
 
 applySavedSiteTheme();
 
+function applySparklineTheme(image) {
+  const originalSrc = image.dataset.originalSrc;
+  if (!originalSrc) return;
+
+  if (document.documentElement.dataset.theme !== "light") {
+    image.dataset.themeProcessed = "dark";
+    if (image.src !== originalSrc) image.src = originalSrc;
+    return;
+  }
+
+  if (image.dataset.themeProcessed === "light") return;
+  image.dataset.themeProcessed = "light";
+
+  const sourceImage = new Image();
+  sourceImage.onload = () => {
+    try {
+      const canvas = document.createElement("canvas");
+      canvas.width = sourceImage.naturalWidth;
+      canvas.height = sourceImage.naturalHeight;
+      const context = canvas.getContext("2d", { willReadFrequently: true });
+      if (!context) throw new Error("Unable to create a canvas context for sparkline conversion.");
+
+      context.drawImage(sourceImage, 0, 0);
+      const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+      for (let index = 0; index < imageData.data.length; index += 4) {
+        if (imageData.data[index] <= 12 &&
+            imageData.data[index + 1] <= 12 &&
+            imageData.data[index + 2] <= 12) {
+          imageData.data[index] = 255;
+          imageData.data[index + 1] = 255;
+          imageData.data[index + 2] = 255;
+        }
+      }
+
+      context.putImageData(imageData, 0, 0);
+      image.src = canvas.toDataURL("image/png");
+    } catch (error) {
+      image.dataset.themeProcessed = "error";
+      console.error("Unable to convert sparkline background for Light Mode:", error);
+    }
+  };
+  sourceImage.onerror = () => {
+    image.dataset.themeProcessed = "error";
+    console.error(`Unable to load sparkline image for Light Mode: ${originalSrc}`);
+  };
+  sourceImage.src = originalSrc;
+}
+
+window.addEventListener("storage", event => {
+  if (event.key !== "siteTheme") return;
+
+  document.documentElement.dataset.theme = event.newValue === "light" ? "light" : "dark";
+  document.querySelectorAll("img.sparkline").forEach(image => {
+    if (image.complete && image.naturalWidth > 0) applySparklineTheme(image);
+  });
+});
+
 function saveSortedTickers() {
     const table = document.getElementById("sortableTable");
     const tickers = Array.from(table.rows)
@@ -519,11 +576,14 @@ function populateTickerTable() {
 
         const tdChart = document.createElement("td");
         const chartImg = document.createElement("img");
-        chartImg.src = `../../sparklines/${ticker}.png`;
+        chartImg.className = "sparkline";
+        chartImg.dataset.originalSrc = `../../sparklines/${ticker}.png`;
         chartImg.style.width = "64px";
         chartImg.style.height = "32px";
         chartImg.style.objectFit = "contain";
         chartImg.loading = "lazy";
+        chartImg.addEventListener("load", () => applySparklineTheme(chartImg));
+        chartImg.src = chartImg.dataset.originalSrc;
 
         // Optional: click opens detail page
         chartImg.style.cursor = "pointer";

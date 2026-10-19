@@ -569,6 +569,10 @@ html[data-theme="light"] #daily-renko-status {
     color: #58616b;
 }
 
+html[data-theme="light"] #ema-overlay {
+    background: transparent;
+}
+
 html[data-theme="light"] .nav-arrow {
     color: #252a30;
     background-color: rgba(255, 255, 255, 0.78);
