@@ -1,4 +1,4 @@
 [
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.5,"ZLEMA Slope":0.74,"ticker":"IGV","dayChange":-4.8,"weekChange":-7.39,"monthChange":-2.01,"rsi_14":43.3,"EMAs.":0,"ZLEMAs":0,"weekRange":69.38},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.32,"ZLEMA Slope":0.59,"ticker":"PLTR","dayChange":-7.22,"weekChange":-11.01,"monthChange":-0.55,"rsi_14":46.3,"EMAs.":0,"ZLEMAs":0,"weekRange":74.75}
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.5,"ZLEMA Slope":0.74,"ticker":"IGV","dayChange":0.84,"weekChange":0.84,"monthChange":-1.18,"rsi_14":45.4,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":71.39},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.32,"ZLEMA Slope":0.59,"ticker":"PLTR","dayChange":2.53,"weekChange":2.53,"monthChange":1.97,"rsi_14":50.8,"EMAs.":"X X O O","ZLEMAs":"X O O","weekRange":79.16}
 ]
