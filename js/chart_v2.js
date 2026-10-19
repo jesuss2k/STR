@@ -19,11 +19,11 @@ function getSiteTheme_v2() {
 }
 
 function getYellowThemeColor_v2() {
-    return getSiteTheme_v2() === 'light' ? '#805B00' : '#ffff00';
+    return getSiteTheme_v2() === 'light' ? 'gold' : '#ffff00';
 }
 
 function getClosedOrderThemeColor_v2() {
-    return getSiteTheme_v2() === 'light' ? '#805B00' : '#FFD700';
+    return getSiteTheme_v2() === 'light' ? 'gold' : '#FFD700';
 }
 
 function getChartThemeOptions_v2() {
@@ -690,7 +690,7 @@ function plotReferenceLevels_v2(chart, candleData, levels) {
         const color = isClosedOrder ? getClosedOrderThemeColor_v2() : '#1E90FF';
         addLine(order.price, {
             color,
-            lineWidth: 1,
+            lineWidth: isClosedOrder ? 2 : 1,
             lastValueVisible: false,
             lineStyle: LightweightCharts.LineStyle.Dotted
         }, isClosedOrder ? 'closedOrder' : null);
@@ -743,7 +743,7 @@ function plotRenkoReferenceLevels_v2(series, levels) {
     levels.orders.forEach(order => {
         const isClosedOrder = order.positionStatus === 'Closed';
         const color = isClosedOrder ? getClosedOrderThemeColor_v2() : '#1E90FF';
-        addPriceLine(order.price, color, 1, LightweightCharts.LineStyle.Dotted, isClosedOrder);
+        addPriceLine(order.price, color, isClosedOrder ? 2 : 1, LightweightCharts.LineStyle.Dotted, isClosedOrder);
     });
 
     levels.submittedOrders.forEach(order => {
@@ -790,7 +790,7 @@ function plotEMAs_1W(chart, rawData) {
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
-            lineWidth: emaKey === "ZLEMA" ? 1 : 1,
+            lineWidth: emaKey === "EMA_5" ? 2 : 1,
             priceLineVisible: false,
             lastValueVisible: false,
             crosshairMarkerVisible: false,
@@ -845,7 +845,7 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
 
     const yellowSeries = addPriceSeries_v2(chart, 'Line', {
         color: getYellowThemeColor_v2(),
-        lineWidth: 1,
+        lineWidth: 2,
         lineStyle: LightweightCharts.LineStyle.Solid,
         lastValueVisible: false,
         priceLineVisible: false
@@ -957,7 +957,7 @@ function plotEMAs_1D(chart, rawData) {
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
-            lineWidth: 1,
+            lineWidth: emaKey === 'EMA_25' ? 2 : 1,
             priceLineVisible: false,
             lastValueVisible: false,
             crosshairMarkerVisible: false,
@@ -1035,7 +1035,7 @@ function plotEMAs_2H(chart, rawData) {
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
-            lineWidth: 1,
+            lineWidth: emaKey === 'EMA_100' ? 2 : 1,
             priceLineVisible: false,
             lastValueVisible: false,
             crosshairMarkerVisible: false,
@@ -1114,7 +1114,7 @@ function plotEMAs_30m(chart, rawData) {
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
-            lineWidth: 1,
+            lineWidth: emaKey === 'EMA_400' ? 2 : 1,
             priceLineVisible: false,
             lastValueVisible: false,
             crosshairMarkerVisible: false,
