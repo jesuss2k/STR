@@ -1,3 +1,6 @@
+document.documentElement.dataset.theme =
+    localStorage.getItem('siteTheme') === 'light' ? 'light' : 'dark';
+
 function showTab(tabName) {
     const contents = document.querySelectorAll('.content');
     contents.forEach(content => content.classList.add('hidden'));

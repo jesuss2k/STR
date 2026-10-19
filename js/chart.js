@@ -1,3 +1,6 @@
+document.documentElement.dataset.theme =
+    localStorage.getItem('siteTheme') === 'light' ? 'light' : 'dark';
+
 // Function to load an image into the plotly-div container
 function loadImage(imagePath) {
     console.log('Reached loadImage with path:', imagePath); // For debugging
@@ -44,7 +47,13 @@ function loadPlot(jsonPath) {
         .then(response => response.json())
         .then(data => {
             const config = { displayModeBar: false };
-            Plotly.newPlot('plotly-div', data.data, data.layout, config);
+            const layout = { ...data.layout };
+            if (document.documentElement.dataset.theme === 'light') {
+                layout.paper_bgcolor = '#ffffff';
+                layout.plot_bgcolor = '#ffffff';
+                layout.font = { ...layout.font, color: '#333a42' };
+            }
+            Plotly.newPlot('plotly-div', data.data, layout, config);
         })
         .catch(error => console.error('Error loading plot:', error));
 }
@@ -215,4 +224,3 @@ function getCurrentChartDirectory() {
 function setCurrentChartDirectory(chartPath) {
     localStorage.setItem('CurrentChartDirectory', chartPath.substring(0, chartPath.lastIndexOf('/')));
 }
-

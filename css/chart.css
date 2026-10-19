@@ -189,3 +189,31 @@ a:hover {
     color: red;
 }
 
+html[data-theme="light"],
+html[data-theme="light"] body,
+html[data-theme="light"] #plotly-div {
+    background-color: #fff;
+    color: #252a30;
+}
+
+html[data-theme="light"] .nav-arrow {
+    color: #252a30;
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+html[data-theme="light"] #home-link,
+html[data-theme="light"] #other-menus,
+html[data-theme="light"] #menu-options {
+    background: #f1f3f5;
+    color: #49515a;
+}
+
+html[data-theme="light"] #menu-options a,
+html[data-theme="light"] a {
+    color: #49515a;
+}
+
+html[data-theme="light"] #menu-options a:hover {
+    background-color: #e2e6ea;
+    color: #171b20;
+}

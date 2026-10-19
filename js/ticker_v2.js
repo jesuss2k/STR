@@ -313,6 +313,13 @@ document.addEventListener("DOMContentLoaded", async function () {
                     <option value="EMAS">EMAs</option>
                 </select>
             </label>
+            <label class="chart-option-row">
+                <span>Theme</span>
+                <select id="theme-mode" aria-label="Color theme">
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                </select>
+            </label>
         `;
         menuWrapper.appendChild(optionsPanel);
 
@@ -330,6 +337,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             enabledInput: document.getElementById('auto-navigation-enabled'),
             secondsInput: document.getElementById('auto-navigation-seconds'),
             overlayInput: document.getElementById('overlay-mode'),
+            themeInput: document.getElementById('theme-mode'),
             progress,
             progressFill: document.getElementById('auto-navigation-progress-fill')
         };
@@ -339,6 +347,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         autoNavigationElements.histogramInput.checked = isHistogramVisible_v2();
         autoNavigationElements.secondsInput.value = String(getAutoNavigationSeconds_v2());
         autoNavigationElements.overlayInput.value = localStorage.getItem('overlayMode_v2') || 'PNL';
+        autoNavigationElements.themeInput.value = getSiteTheme_v2();
 
         optionsToggle.addEventListener('click', (event) => {
             event.preventDefault();
@@ -381,6 +390,10 @@ document.addEventListener("DOMContentLoaded", async function () {
             if (window.updateOverlay_v2) {
                 window.updateOverlay_v2(ticker);
             }
+        });
+
+        autoNavigationElements.themeInput.addEventListener('change', (event) => {
+            setSiteTheme_v2(event.target.value);
         });
 
         updateAutoNavigationUi_v2();
@@ -508,6 +521,14 @@ document.addEventListener("DOMContentLoaded", async function () {
             const tag = document.activeElement?.tagName;
             const isEditable = document.activeElement?.isContentEditable;
             if (isEditable || tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') {
+                return;
+            }
+
+            if (event.key.toLowerCase() === 'l' && !event.ctrlKey && !event.altKey && !event.metaKey) {
+                event.preventDefault();
+                const nextTheme = getSiteTheme_v2() === 'light' ? 'dark' : 'light';
+                setSiteTheme_v2(nextTheme);
+                autoNavigationElements.themeInput.value = nextTheme;
                 return;
             }
 

@@ -4,11 +4,73 @@ let resizeTimer_v2 = null;
 let chartLoadId_v2 = 0;
 let chartLoadController_v2 = null;
 const priceSeriesByChart_v2 = new WeakMap();
+const yellowThemeSeries_v2 = new Set();
+const closedOrderThemeSeries_v2 = new Set();
+const closedOrderThemePriceLines_v2 = new Set();
+const SITE_THEME_KEY_v2 = 'siteTheme';
 const DEFAULT_CHART_TYPE_v2 = '1W';
 const CHART_ORDER_v2 = Object.freeze([
     '1W', '1D', '2H', '30M',
     'Rk 1D', 'Rk 1D50', 'Rk 1D25', 'Rk 2H', 'Rk 2H50', 'Rk 30M'
 ]);
+
+function getSiteTheme_v2() {
+    return localStorage.getItem(SITE_THEME_KEY_v2) === 'light' ? 'light' : 'dark';
+}
+
+function getYellowThemeColor_v2() {
+    return getSiteTheme_v2() === 'light' ? '#805B00' : '#ffff00';
+}
+
+function getClosedOrderThemeColor_v2() {
+    return getSiteTheme_v2() === 'light' ? '#805B00' : '#FFD700';
+}
+
+function getChartThemeOptions_v2() {
+    const isLight = getSiteTheme_v2() === 'light';
+    return {
+        layout: {
+            background: { type: 'solid', color: isLight ? '#ffffff' : '#000000' },
+            textColor: isLight ? '#555b62' : '#808080'
+        },
+        grid: {
+            vertLines: { color: isLight ? 'rgba(0, 0, 0, 0.08)' : 'rgba(34, 34, 34, 0.5)' },
+            horzLines: { color: isLight ? 'rgba(0, 0, 0, 0.08)' : 'rgba(34, 34, 34, 0.5)' }
+        },
+        timeScale: { borderColor: isLight ? '#d8dde3' : '#333333' },
+        crosshair: {
+            vertLine: { color: isLight ? '#89939e' : '#77877d', labelBackgroundColor: isLight ? '#58616b' : '#303a35' },
+            horzLine: { color: isLight ? '#89939e' : '#77877d', labelBackgroundColor: isLight ? '#58616b' : '#303a35' }
+        }
+    };
+}
+
+function applySiteTheme_v2(theme = getSiteTheme_v2()) {
+    const normalizedTheme = theme === 'light' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = normalizedTheme;
+
+    const chartOptions = getChartThemeOptions_v2();
+    [mainChart_v2, histogramChart_v2].forEach(chart => {
+        if (chart) chart.applyOptions(chartOptions);
+    });
+    yellowThemeSeries_v2.forEach(series => {
+        series.applyOptions({ color: getYellowThemeColor_v2() });
+    });
+    closedOrderThemeSeries_v2.forEach(series => {
+        series.applyOptions({ color: getClosedOrderThemeColor_v2() });
+    });
+    closedOrderThemePriceLines_v2.forEach(priceLine => {
+        priceLine.applyOptions({ color: getClosedOrderThemeColor_v2() });
+    });
+}
+
+function setSiteTheme_v2(theme) {
+    const normalizedTheme = theme === 'light' ? 'light' : 'dark';
+    localStorage.setItem(SITE_THEME_KEY_v2, normalizedTheme);
+    applySiteTheme_v2(normalizedTheme);
+}
+
+applySiteTheme_v2();
 
 function normalizeChartType_v2(chartType) {
     // Preserve names saved by older versions before validating the selection.
@@ -210,6 +272,9 @@ function validateTicker(ticker) {
 }
 
 function clearContainers(container, histogramContainer) {
+    yellowThemeSeries_v2.clear();
+    closedOrderThemeSeries_v2.clear();
+    closedOrderThemePriceLines_v2.clear();
     if (mainChart_v2) {
         mainChart_v2.remove();
         mainChart_v2 = null;
@@ -391,15 +456,8 @@ function createMainChart(container) {
     return LightweightCharts.createChart(container, {
         width: container.clientWidth,
         height: container.clientHeight,
-        layout: {
-            background: { type: 'solid', color: 'black' },
-            textColor: 'gray'
-        },
-        grid: {
-            vertLines: { color: 'rgba(34, 34, 34, 0.5)' },
-            horzLines: { color: 'rgba(34, 34, 34, 0.5)' }
-        },
-        timeScale: {},
+        ...getChartThemeOptions_v2(),
+        timeScale: { borderColor: getChartThemeOptions_v2().timeScale.borderColor },
         priceScale: {
             scaleMargins: {
                 top: 0.1,
@@ -415,6 +473,7 @@ function createMainChart(container) {
             borderVisible: false,
         },
         crosshair: {
+            ...getChartThemeOptions_v2().crosshair,
             mode: 0,
         }
     });
@@ -424,15 +483,9 @@ function createHistogramChart(histogramContainer, width) {
     return LightweightCharts.createChart(histogramContainer, {
         width: width,
         height: histogramContainer.clientHeight || Math.round(window.innerHeight * 0.16),
-        layout: {
-            background: { type: 'solid', color: 'black' },
-            textColor: 'gray'
-        },
-        grid: {
-            vertLines: { color: 'rgba(34, 34, 34, 0.5)' },
-            horzLines: { color: 'rgba(34, 34, 34, 0.5)' }
-        },
+        ...getChartThemeOptions_v2(),
         timeScale: {
+            borderColor: getChartThemeOptions_v2().timeScale.borderColor,
             visible: false
         },
         priceScale: {
@@ -622,22 +675,25 @@ function plotReferenceLevels_v2(chart, candleData, levels) {
     if (candleData.length === 0) return;
     const firstTime = candleData[0].time;
     const lastTime = candleData[candleData.length - 1].time;
-    const addLine = (price, options) => {
+    const addLine = (price, options, themeRole = null) => {
         if (!Number.isFinite(price)) return;
-        addPriceSeries_v2(chart, 'Line', options).setData([
+        const series = addPriceSeries_v2(chart, 'Line', options);
+        if (themeRole === 'closedOrder') closedOrderThemeSeries_v2.add(series);
+        series.setData([
             { time: firstTime, value: price },
             { time: lastTime, value: price }
         ]);
     };
 
     levels.orders.forEach(order => {
-        const color = order.positionStatus === 'Closed' ? '#FFD700' : '#1E90FF';
+        const isClosedOrder = order.positionStatus === 'Closed';
+        const color = isClosedOrder ? getClosedOrderThemeColor_v2() : '#1E90FF';
         addLine(order.price, {
             color,
             lineWidth: 1,
             lastValueVisible: false,
             lineStyle: LightweightCharts.LineStyle.Dotted
-        });
+        }, isClosedOrder ? 'closedOrder' : null);
     });
 
     levels.submittedOrders.forEach(order => {
@@ -671,9 +727,9 @@ function plotReferenceLevels_v2(chart, candleData, levels) {
 }
 
 function plotRenkoReferenceLevels_v2(series, levels) {
-    const addPriceLine = (price, color, lineWidth, lineStyle) => {
+    const addPriceLine = (price, color, lineWidth, lineStyle, isClosedOrder = false) => {
         if (!Number.isFinite(price)) return;
-        series.createPriceLine({
+        const priceLine = series.createPriceLine({
             price,
             color,
             lineWidth,
@@ -681,11 +737,13 @@ function plotRenkoReferenceLevels_v2(series, levels) {
             axisLabelVisible: false,
             title: ''
         });
+        if (isClosedOrder) closedOrderThemePriceLines_v2.add(priceLine);
     };
 
     levels.orders.forEach(order => {
-        const color = order.positionStatus === 'Closed' ? '#FFD700' : '#1E90FF';
-        addPriceLine(order.price, color, 1, LightweightCharts.LineStyle.Dotted);
+        const isClosedOrder = order.positionStatus === 'Closed';
+        const color = isClosedOrder ? getClosedOrderThemeColor_v2() : '#1E90FF';
+        addPriceLine(order.price, color, 1, LightweightCharts.LineStyle.Dotted, isClosedOrder);
     });
 
     levels.submittedOrders.forEach(order => {
@@ -709,7 +767,7 @@ function plotRenkoReferenceLevels_v2(series, levels) {
 
 function plotEMAs_1W(chart, rawData) {
     const emaColors = {
-        EMA_5: "#ffff00",
+        EMA_5: getYellowThemeColor_v2(),
         EMA_10: "#e67e22",
         EMA_20: "#ff0000",
         EMA_40: "#ffffff",
@@ -739,6 +797,7 @@ function plotEMAs_1W(chart, rawData) {
             pointMarkersVisible: false,
             lineStyle: emaKey === "ZLEMA" ? 3 : 0
         });
+        if (emaKey === 'EMA_5') yellowThemeSeries_v2.add(emaSeries);
 
         emaSeries.setData(emaData);
 
@@ -785,12 +844,13 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
     zlemaSeries.setData(zlemaData);
 
     const yellowSeries = addPriceSeries_v2(chart, 'Line', {
-        color: '#ffff00',
+        color: getYellowThemeColor_v2(),
         lineWidth: 1,
         lineStyle: LightweightCharts.LineStyle.Solid,
         lastValueVisible: false,
         priceLineVisible: false
     });
+    yellowThemeSeries_v2.add(yellowSeries);
     yellowSeries.setData(emaYellowData);
 
     console.log(`✅ ZLEMA overlay plotted for ${selectedChart}: ZLEMA + ${yellowKey}`);
@@ -877,7 +937,7 @@ function plotHistogram_ZLEMA_v2(histogramChart, rawData) {
 function plotEMAs_1D(chart, rawData) {
     const emaColors = {
         EMA_12: "#38ccdd",
-        EMA_25: "#ffff00",
+        EMA_25: getYellowThemeColor_v2(),
         EMA_50: "#e67e22",
         EMA_100: "#ff0000",
         EMA_200: "#ffffff",
@@ -904,6 +964,7 @@ function plotEMAs_1D(chart, rawData) {
             pointMarkersVisible: false,
             lineStyle: emaKey === "ZLEMA" ? 3 : 0
         });
+        if (emaKey === 'EMA_25') yellowThemeSeries_v2.add(emaSeries);
 
         emaSeries.setData(emaData);
         console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]} ${emaKey === "ZLEMA" ? "(Dashed)" : ""}`);
@@ -954,7 +1015,7 @@ function plotEMAs_2H(chart, rawData) {
         EMA_12: "#ffcbfb",
         EMA_25: "#8c3caf",
         EMA_50: "#38ccdd",
-        EMA_100: "#ffff00",
+        EMA_100: getYellowThemeColor_v2(),
         EMA_200: "#e67e22",
         EMA_400: "#ff0000",
         EMA_800: "#ffffff",
@@ -981,6 +1042,7 @@ function plotEMAs_2H(chart, rawData) {
             pointMarkersVisible: false,
             lineStyle: emaKey === "ZLEMA" ? 3 : 0
         });
+        if (emaKey === 'EMA_100') yellowThemeSeries_v2.add(emaSeries);
 
         emaSeries.setData(emaData);
         console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]} ${emaKey === "ZLEMA" ? "(Dashed)" : ""}`);
@@ -1033,7 +1095,7 @@ function plotEMAs_30m(chart, rawData) {
         EMA_50: "#ffcbfb",
         EMA_100: "#8c3caf",
         EMA_200: "#38ccdd",
-        EMA_400: "#ffff00",
+        EMA_400: getYellowThemeColor_v2(),
         EMA_800: "#ff8c00",
         EMA_1600: "#f700ff",
         ZLEMA: "#ff0000"
@@ -1059,6 +1121,7 @@ function plotEMAs_30m(chart, rawData) {
             pointMarkersVisible: false,
             lineStyle: emaKey === "ZLEMA" ? 3 : 0
         });
+        if (emaKey === 'EMA_400') yellowThemeSeries_v2.add(emaSeries);
 
         emaSeries.setData(emaData);
         console.log(`✅ Plotted ${emaKey} with color ${emaColors[emaKey]} ${emaKey === "ZLEMA" ? "(Dashed)" : ""}`);
@@ -1634,28 +1697,20 @@ async function loadAtrRenkoChart_v2(ticker, chartType) {
     const chart = LightweightCharts.createChart(chartHost, {
         width: chartHost.clientWidth,
         height: chartHost.clientHeight,
+        ...getChartThemeOptions_v2(),
         layout: {
-            background: { type: 'solid', color: 'black' },
-            textColor: '#aab2b8',
+            ...getChartThemeOptions_v2().layout,
             fontFamily: 'IBM Plex Mono, Consolas, monospace',
             fontSize: 11
-        },
-        grid: {
-            vertLines: { color: 'rgba(120, 130, 140, 0.10)' },
-            horzLines: { color: 'rgba(120, 130, 140, 0.16)' }
         },
         rightPriceScale: {
             borderVisible: false,
             scaleMargins: { top: 0.02, bottom: 0.12 }
         },
         timeScale: {
-            borderColor: '#333333',
+            borderColor: getChartThemeOptions_v2().timeScale.borderColor,
             timeVisible: false,
             tickMarkFormatter: (time) => formatRenkoAxisDate_v2(time)
-        },
-        crosshair: {
-            vertLine: { color: '#77877d', labelBackgroundColor: '#303a35' },
-            horzLine: { color: '#77877d', labelBackgroundColor: '#303a35' }
         },
         localization: {
             priceFormatter: (price) => price < 100 ? price.toFixed(1) : price.toFixed(0),

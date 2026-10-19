@@ -1,5 +1,12 @@
 const sortStates = {}; // Store sort state for each column
 
+function applySavedSiteTheme() {
+  const theme = localStorage.getItem("siteTheme") === "light" ? "light" : "dark";
+  document.documentElement.dataset.theme = theme;
+}
+
+applySavedSiteTheme();
+
 function saveSortedTickers() {
     const table = document.getElementById("sortableTable");
     const tickers = Array.from(table.rows)
