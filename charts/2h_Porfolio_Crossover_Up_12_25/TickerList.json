@@ -1,3 +1,4 @@
 [
-{"ticker":"LIF","dayChange":2.37,"weekChange":5.61,"monthChange":7.7,"rsi_14":53.5,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":10.08}
+{"ticker":"GTLB","dayChange":3.17,"weekChange":4.21,"monthChange":16.36,"rsi_14":61.1,"EMAs.":"X X X X","ZLEMAs":"X O O","weekRange":92.57},
+{"ticker":"MIRM","dayChange":3.36,"weekChange":6.06,"monthChange":-0.56,"rsi_14":46.9,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":32.6}
 ]
