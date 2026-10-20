@@ -298,6 +298,14 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <input type="checkbox" id="histogram-visible" aria-keyshortcuts="H">
                 <span>Show histogram</span>
             </label>
+            <label class="chart-option-row" title="Select the histogram indicator. Press G to cycle modes.">
+                <span>Histogram</span>
+                <select id="histogram-mode" aria-label="Histogram indicator" aria-keyshortcuts="G">
+                    <option value="EMA_DIFF">EMA Diff</option>
+                    <option value="MACD">MACD</option>
+                    <option value="RSI">RSI (14)</option>
+                </select>
+            </label>
             <label class="chart-option-row">
                 <input type="checkbox" id="auto-navigation-enabled">
                 <span>Auto Navigation</span>
@@ -334,6 +342,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             fitToScreenInput: document.getElementById('fit-to-screen-enabled'),
             verticalFitInput: document.getElementById('vertical-fit-enabled'),
             histogramInput: document.getElementById('histogram-visible'),
+            histogramModeInput: document.getElementById('histogram-mode'),
             enabledInput: document.getElementById('auto-navigation-enabled'),
             secondsInput: document.getElementById('auto-navigation-seconds'),
             overlayInput: document.getElementById('overlay-mode'),
@@ -345,6 +354,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         autoNavigationElements.fitToScreenInput.checked = isFitToScreenEnabled_v2();
         autoNavigationElements.verticalFitInput.checked = isVerticalFitEnabled_v2();
         autoNavigationElements.histogramInput.checked = isHistogramVisible_v2();
+        autoNavigationElements.histogramModeInput.value = getHistogramMode_v2();
         autoNavigationElements.secondsInput.value = String(getAutoNavigationSeconds_v2());
         autoNavigationElements.overlayInput.value = localStorage.getItem('overlayMode_v2') || 'PNL';
         autoNavigationElements.themeInput.value = getSiteTheme_v2();
@@ -375,6 +385,10 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         autoNavigationElements.histogramInput.addEventListener('change', (event) => {
             setHistogramVisible_v2(event.target.checked);
+        });
+
+        autoNavigationElements.histogramModeInput.addEventListener('change', (event) => {
+            setHistogramMode_v2(event.target.value);
         });
 
         autoNavigationElements.enabledInput.addEventListener('change', (event) => {
@@ -529,6 +543,14 @@ document.addEventListener("DOMContentLoaded", async function () {
                 const nextTheme = getSiteTheme_v2() === 'light' ? 'dark' : 'light';
                 setSiteTheme_v2(nextTheme);
                 autoNavigationElements.themeInput.value = nextTheme;
+                return;
+            }
+
+            if (event.key.toLowerCase() === 'g' && !event.ctrlKey && !event.altKey && !event.metaKey) {
+                event.preventDefault();
+                if (event.repeat) return;
+                toggleHistogramMode_v2();
+                autoNavigationElements.histogramModeInput.value = getHistogramMode_v2();
                 return;
             }
 

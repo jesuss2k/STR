@@ -451,6 +451,10 @@ a:hover {
     width: 70px;
 }
 
+#histogram-mode {
+    width: 90px;
+}
+
 #auto-navigation-progress {
     position: fixed;
     right: 10px;

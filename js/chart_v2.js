@@ -1,5 +1,9 @@
 let mainChart_v2 = null;
 let histogramChart_v2 = null;
+let histogramSeries_v2 = null;
+let histogramRawData_v2 = null;
+let histogramChartType_v2 = null;
+let histogramRenderMode_v2 = null;
 let resizeTimer_v2 = null;
 let chartLoadId_v2 = 0;
 let chartLoadController_v2 = null;
@@ -275,6 +279,10 @@ function clearContainers(container, histogramContainer) {
     yellowThemeSeries_v2.clear();
     closedOrderThemeSeries_v2.clear();
     closedOrderThemePriceLines_v2.clear();
+    histogramSeries_v2 = null;
+    histogramRawData_v2 = null;
+    histogramChartType_v2 = null;
+    histogramRenderMode_v2 = null;
     if (mainChart_v2) {
         mainChart_v2.remove();
         mainChart_v2 = null;
@@ -881,7 +889,7 @@ function plotHistogram_1W(histogramChart, rawData) {
         };
     });
 
-    const histogramSeries = histogramChart.addHistogramSeries({
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
         priceLineVisible: true,
         lastValueVisible: false,
         priceFormat: {
@@ -891,7 +899,7 @@ function plotHistogram_1W(histogramChart, rawData) {
         }
     });
 
-    histogramSeries.setData(histogramData);
+    histogramSeries_v2.setData(histogramData);
     console.log("✅ Histogram (EMA_5 - EMA_10) added with trend-based colors.");
 }
 
@@ -920,7 +928,7 @@ function plotHistogram_ZLEMA_v2(histogramChart, rawData) {
         };
     });
 
-    const histogramSeries = histogramChart.addHistogramSeries({
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
         priceLineVisible: true,
         lastValueVisible: false,
         priceFormat: {
@@ -930,7 +938,7 @@ function plotHistogram_ZLEMA_v2(histogramChart, rawData) {
         }
     });
 
-    histogramSeries.setData(histogramData);
+    histogramSeries_v2.setData(histogramData);
     console.log("Histogram (Close - ZLEMA) added with trend-based colors.");
 }
 
@@ -996,7 +1004,7 @@ function plotHistogram_1D(histogramChart, rawData) {
         };
     });
 
-    const histogramSeries = histogramChart.addHistogramSeries({
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
         priceLineVisible: true,
         lastValueVisible: false,
         priceFormat: {
@@ -1006,7 +1014,7 @@ function plotHistogram_1D(histogramChart, rawData) {
         }
     });
 
-    histogramSeries.setData(histogramData);
+    histogramSeries_v2.setData(histogramData);
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
 }
 
@@ -1074,7 +1082,7 @@ function plotHistogram_2H(histogramChart, rawData) {
         };
     });
 
-    const histogramSeries = histogramChart.addHistogramSeries({
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
         priceLineVisible: true,
         lastValueVisible: false,
         priceFormat: {
@@ -1084,7 +1092,7 @@ function plotHistogram_2H(histogramChart, rawData) {
         }
     });
 
-    histogramSeries.setData(histogramData);
+    histogramSeries_v2.setData(histogramData);
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
 }
 
@@ -1153,7 +1161,7 @@ function plotHistogram_30m(histogramChart, rawData) {
         };
     });
 
-    const histogramSeries = histogramChart.addHistogramSeries({
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
         priceLineVisible: true,
         lastValueVisible: false,
         priceFormat: {
@@ -1163,8 +1171,248 @@ function plotHistogram_30m(histogramChart, rawData) {
         }
     });
 
-    histogramSeries.setData(histogramData);
+    histogramSeries_v2.setData(histogramData);
     console.log("✅ Histogram (EMA_12 - EMA_25) added with trend-based colors.");
+}
+
+function calculateEmaValues_v2(values, period) {
+    const emaValues = new Array(values.length).fill(null);
+    const multiplier = 2 / (period + 1);
+    let seedCount = 0;
+    let seedTotal = 0;
+    let previousEma = null;
+
+    values.forEach((value, index) => {
+        if (!Number.isFinite(value)) {
+            seedCount = 0;
+            seedTotal = 0;
+            previousEma = null;
+            return;
+        }
+
+        if (previousEma === null) {
+            seedTotal += value;
+            seedCount += 1;
+            if (seedCount === period) {
+                previousEma = seedTotal / period;
+                emaValues[index] = previousEma;
+            }
+            return;
+        }
+
+        previousEma = (value - previousEma) * multiplier + previousEma;
+        emaValues[index] = previousEma;
+    });
+
+    return emaValues;
+}
+
+function plotHistogramMacd_v2(histogramChart, rawData) {
+    if (!rawData.length || rawData.some(entry => !Number.isFinite(Number(entry.Close)))) {
+        console.error('MACD histogram not plotted: closing prices are missing or invalid.');
+        return;
+    }
+
+    const closes = rawData.map(entry => Number(entry.Close));
+    const fastEma = calculateEmaValues_v2(closes, 12);
+    const slowEma = calculateEmaValues_v2(closes, 26);
+    const macdLine = fastEma.map((value, index) =>
+        value === null || slowEma[index] === null ? null : value - slowEma[index]
+    );
+    const signalLine = calculateEmaValues_v2(macdLine, 9);
+    let previousHistogram = null;
+    const histogramData = rawData.flatMap((entry, index) => {
+        const value = macdLine[index] === null || signalLine[index] === null
+            ? null
+            : macdLine[index] - signalLine[index];
+        if (value === null) return [];
+
+        const color = value >= 0
+            ? (previousHistogram === null || value >= previousHistogram ? '#26a69a' : '#b2dfdb')
+            : (previousHistogram === null || value <= previousHistogram ? '#ff5252' : '#ffcdd2');
+        previousHistogram = value;
+
+        return [{
+            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+            value,
+            color
+        }];
+    });
+
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
+        priceLineVisible: true,
+        lastValueVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 0,
+            minMove: 1
+        }
+    });
+    histogramSeries_v2.setData(histogramData);
+}
+
+function calculateRsiValues_v2(closes, period = 14) {
+    const rsiValues = new Array(closes.length).fill(null);
+    if (closes.length <= period) return rsiValues;
+
+    let averageGain = 0;
+    let averageLoss = 0;
+    for (let index = 1; index <= period; index += 1) {
+        const change = closes[index] - closes[index - 1];
+        averageGain += Math.max(change, 0);
+        averageLoss += Math.max(-change, 0);
+    }
+    averageGain /= period;
+    averageLoss /= period;
+
+    const calculateRsi = () => {
+        if (averageGain === 0 && averageLoss === 0) return 50;
+        if (averageLoss === 0) return 100;
+        if (averageGain === 0) return 0;
+        const relativeStrength = averageGain / averageLoss;
+        return 100 - (100 / (1 + relativeStrength));
+    };
+
+    rsiValues[period] = calculateRsi();
+    for (let index = period + 1; index < closes.length; index += 1) {
+        const change = closes[index] - closes[index - 1];
+        averageGain = ((averageGain * (period - 1)) + Math.max(change, 0)) / period;
+        averageLoss = ((averageLoss * (period - 1)) + Math.max(-change, 0)) / period;
+        rsiValues[index] = calculateRsi();
+    }
+
+    return rsiValues;
+}
+
+function plotHistogramRsi_v2(histogramChart, rawData) {
+    if (!rawData.length || rawData.some(entry =>
+        entry.Close === null || entry.Close === undefined || !Number.isFinite(Number(entry.Close))
+    )) {
+        console.error('RSI not plotted: closing prices are missing or invalid.');
+        return;
+    }
+
+    const rsiValues = calculateRsiValues_v2(rawData.map(entry => Number(entry.Close)));
+    const rsiData = rawData.flatMap((entry, index) =>
+        rsiValues[index] === null
+            ? []
+            : [{
+                time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+                value: rsiValues[index]
+            }]
+    );
+    if (!rsiData.length) {
+        console.error('RSI not plotted: at least 15 closing prices are required.');
+        return;
+    }
+
+    histogramSeries_v2 = histogramChart.addLineSeries({
+        color: '#8054bd',
+        lineWidth: 2,
+        priceLineVisible: false,
+        lastValueVisible: false,
+        crosshairMarkerVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 0,
+            minMove: 1
+        },
+        autoscaleInfoProvider: () => ({
+            priceRange: { minValue: 0, maxValue: 100 }
+        })
+    });
+    histogramSeries_v2.setData(rsiData);
+
+    histogramSeries_v2.createPriceLine({
+        price: 70,
+        color: '#7b7e87',
+        lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.Dashed,
+        axisLabelVisible: false,
+        title: ''
+    });
+    histogramSeries_v2.createPriceLine({
+        price: 50,
+        color: 'rgba(123, 126, 135, 0.45)',
+        lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.Dotted,
+        axisLabelVisible: false,
+        title: ''
+    });
+    histogramSeries_v2.createPriceLine({
+        price: 30,
+        color: '#7b7e87',
+        lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.Dashed,
+        axisLabelVisible: false,
+        title: ''
+    });
+}
+
+function getHistogramMode_v2() {
+    const mode = localStorage.getItem('histogramMode_v2');
+    return mode === 'MACD' || mode === 'RSI' ? mode : 'EMA_DIFF';
+}
+
+function plotSelectedHistogram_v2(histogramChart, rawData, chartType, renderMode) {
+    if (histogramSeries_v2) histogramChart.removeSeries(histogramSeries_v2);
+    histogramSeries_v2 = null;
+    const mode = getHistogramMode_v2();
+    histogramChart.priceScale('right').applyOptions({
+        scaleMargins: mode === 'RSI'
+            ? { top: 0, bottom: 0 }
+            : { top: 0.02, bottom: 0.02 }
+    });
+
+    if (mode === 'MACD') {
+        plotHistogramMacd_v2(histogramChart, rawData);
+        return;
+    }
+    if (mode === 'RSI') {
+        plotHistogramRsi_v2(histogramChart, rawData);
+        return;
+    }
+
+    if (renderMode === 'ZLEMA') {
+        plotHistogram_ZLEMA_v2(histogramChart, rawData);
+        return;
+    }
+
+    const plotByChart = {
+        '1W': plotHistogram_1W,
+        '1D': plotHistogram_1D,
+        '2H': plotHistogram_2H,
+        '30M': plotHistogram_30m
+    };
+    const plotHistogram = plotByChart[chartType];
+    if (plotHistogram) plotHistogram(histogramChart, rawData);
+}
+
+function setHistogramMode_v2(mode) {
+    if (!['EMA_DIFF', 'MACD', 'RSI'].includes(mode)) {
+        throw new Error(`Unsupported histogram mode: ${mode}`);
+    }
+
+    localStorage.setItem('histogramMode_v2', mode);
+    const modeSelect = document.getElementById('histogram-mode');
+    if (modeSelect) modeSelect.value = mode;
+
+    if (histogramChart_v2 && histogramRawData_v2 && histogramChartType_v2) {
+        if (histogramSeries_v2) histogramChart_v2.removeSeries(histogramSeries_v2);
+        histogramSeries_v2 = null;
+        plotSelectedHistogram_v2(
+            histogramChart_v2,
+            histogramRawData_v2,
+            histogramChartType_v2,
+            histogramRenderMode_v2
+        );
+    }
+}
+
+function toggleHistogramMode_v2() {
+    const modes = ['EMA_DIFF', 'MACD', 'RSI'];
+    const currentIndex = modes.indexOf(getHistogramMode_v2());
+    setHistogramMode_v2(modes[(currentIndex + 1) % modes.length]);
 }
 
 function isFitToScreenEnabled_v2() {
@@ -1318,6 +1566,7 @@ window.visualViewport?.addEventListener('resize', scheduleActiveChartResize_v2);
 
 function syncCharts(sourceChart, targetChart) {
     sourceChart.timeScale().subscribeVisibleTimeRangeChange((range) => {
+        if (!range) return;
         targetChart.timeScale().setVisibleRange(range);
     });
 
@@ -1328,6 +1577,7 @@ function syncCharts(sourceChart, targetChart) {
     });
 
     targetChart.timeScale().subscribeVisibleTimeRangeChange((range) => {
+        if (!range) return;
         sourceChart.timeScale().setVisibleRange(range);
     });
 
@@ -1406,6 +1656,9 @@ async function loadTradingViewChart_v2(ticker = null) {
         const candleData = prepareCandleData(rawData);
 
         const renderMode = getRenderMode_v2();
+        histogramRawData_v2 = rawData;
+        histogramChartType_v2 = selectedChart;
+        histogramRenderMode_v2 = renderMode;
         let displayCandleData = candleData;
         if (renderMode === 'LINE') {
             const lineData = prepareLineData(rawData);
@@ -1429,21 +1682,11 @@ async function loadTradingViewChart_v2(ticker = null) {
             } else {
                 plotEMAs_1W(chart, rawData);
             }
-            if (renderMode === 'ZLEMA') {
-                plotHistogram_ZLEMA_v2(histogramChart, rawData);
-            } else {
-                plotHistogram_1W(histogramChart, rawData);
-            }
         } else if (selectedChart === '1D') {
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
                 plotEMAs_1D(chart, rawData);
-            }
-            if (renderMode === 'ZLEMA') {
-                plotHistogram_ZLEMA_v2(histogramChart, rawData);
-            } else {
-                plotHistogram_1D(histogramChart, rawData);
             }
         } else if (selectedChart === '2H') {
             if (renderMode === 'ZLEMA') {
@@ -1451,23 +1694,14 @@ async function loadTradingViewChart_v2(ticker = null) {
             } else {
                 plotEMAs_2H(chart, rawData);
             }
-            if (renderMode === 'ZLEMA') {
-                plotHistogram_ZLEMA_v2(histogramChart, rawData);
-            } else {
-                plotHistogram_2H(histogramChart, rawData);
-            }
         } else if (selectedChart === '30M') {
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
                 plotEMAs_30m(chart, rawData);
             }
-            if (renderMode === 'ZLEMA') {
-                plotHistogram_ZLEMA_v2(histogramChart, rawData);
-            } else {
-                plotHistogram_30m(histogramChart, rawData);
-            }
         }
+        plotSelectedHistogram_v2(histogramChart, rawData, selectedChart, renderMode);
 
         resizeActiveCharts_v2();
 
