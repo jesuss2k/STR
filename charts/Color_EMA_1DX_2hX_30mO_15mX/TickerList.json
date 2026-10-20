@@ -1,3 +1,5 @@
 [
-{"EMAs":"X X X O","ticker":"ECL","dayChange":0.06,"weekChange":-0.96,"monthChange":4.2,"rsi_14":58.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":64.97}
+{"EMAs":"X X X O","ticker":"CROX","dayChange":0.57,"weekChange":-1.85,"monthChange":3.03,"rsi_14":51.6,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":70.0},
+{"EMAs":"X X X O","ticker":"BP","dayChange":-0.07,"weekChange":-1.6,"monthChange":12.31,"rsi_14":67.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":94.99},
+{"EMAs":"X X X O","ticker":"ECL","dayChange":0.01,"weekChange":-1.02,"monthChange":4.14,"rsi_14":57.8,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":64.74}
 ]
