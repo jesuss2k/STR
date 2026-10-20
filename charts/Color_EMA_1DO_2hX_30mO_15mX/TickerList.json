@@ -1,3 +1,4 @@
 [
-{"EMAs":"X O X O","ticker":"WIX","dayChange":1.44,"weekChange":1.44,"monthChange":5.49,"rsi_14":51.1,"EMAs.":"X O X O","ZLEMAs":"X O X","weekRange":33.22}
+{"EMAs":"O O X O","ticker":"SPXU","dayChange":-0.96,"weekChange":-2.21,"monthChange":-2.01,"rsi_14":50.3,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":43.22},
+{"EMAs":"O O X O","ticker":"SDS","dayChange":-0.57,"weekChange":-1.41,"monthChange":-1.19,"rsi_14":50.4,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":60.23}
 ]
