@@ -1,3 +1,4 @@
 [
-{"ticker":"WDC","dayChange":4.25,"weekChange":14.4,"monthChange":-16.43,"rsi_14":43.0,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":38.47}
+{"ticker":"DUST","dayChange":1.13,"weekChange":4.85,"monthChange":3.58,"rsi_14":55.0,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":12.45},
+{"ticker":"DDOG","dayChange":6.77,"weekChange":10.79,"monthChange":-0.03,"rsi_14":55.6,"EMAs.":"X X O X","ZLEMAs":"X X X","weekRange":86.73}
 ]
