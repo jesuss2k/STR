@@ -46,7 +46,7 @@
 {"ticker":"BEKE","dayChange":0.84,"weekChange":-0.06,"monthChange":7.18,"rsi_14":61.9,"EMAs.":0,"ZLEMAs":0,"weekRange":70.02},
 {"ticker":"DVN","dayChange":-1.06,"weekChange":-0.69,"monthChange":9.43,"rsi_14":58.2,"EMAs.":0,"ZLEMAs":0,"weekRange":88.94},
 {"ticker":"ERX","dayChange":0.59,"weekChange":-0.85,"monthChange":21.41,"rsi_14":66.9,"EMAs.":0,"ZLEMAs":0,"weekRange":97.5},
-{"ticker":"GRF_MC","dayChange":-0.34,"weekChange":-0.59,"monthChange":5.97,"rsi_14":59.1,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":51.65},
+{"ticker":"GRF_MC","dayChange":-0.15,"weekChange":-0.39,"monthChange":6.18,"rsi_14":59.1,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":52.26},
 {"ticker":"IOT","dayChange":5.19,"weekChange":7.13,"monthChange":11.17,"rsi_14":57.1,"EMAs.":0,"ZLEMAs":0,"weekRange":78.91},
 {"ticker":"NDAQ","dayChange":1.72,"weekChange":0.88,"monthChange":3.03,"rsi_14":55.9,"EMAs.":0,"ZLEMAs":0,"weekRange":72.32},
 {"ticker":"ONON","dayChange":0.03,"weekChange":1.93,"monthChange":19.62,"rsi_14":73.6,"EMAs.":0,"ZLEMAs":0,"weekRange":36.64},
