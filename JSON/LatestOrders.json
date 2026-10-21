@@ -250,6 +250,7 @@
 {"ticker":"META","positionStatus":"Open","price":661.1,"quantity":2,"leverage":0},
 {"ticker":"META","positionStatus":"Open","price":668.4,"quantity":1,"leverage":0},
 {"ticker":"MGM","positionStatus":"Closed","price":38.1875,"quantity":10,"leverage":0},
+{"ticker":"MGM","positionStatus":"Open","price":28.0,"quantity":70,"leverage":0},
 {"ticker":"MLCO","positionStatus":"Closed","price":8.4613,"quantity":55,"leverage":0},
 {"ticker":"MNDY","positionStatus":"Closed","price":150.75,"quantity":3,"leverage":0},
 {"ticker":"MNDY","positionStatus":"Open","price":70.0,"quantity":14,"leverage":0},
