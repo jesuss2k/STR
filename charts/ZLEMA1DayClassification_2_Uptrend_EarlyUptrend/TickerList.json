@@ -1,6 +1,7 @@
 [
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":0.97,"ZLEMA Slope":0.5,"ticker":"COTY","dayChange":-6.42,"weekChange":-5.83,"monthChange":15.46,"rsi_14":58.1,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":49.21},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":2.0,"ZLEMA Slope":0.61,"ticker":"ERX","dayChange":0.43,"weekChange":-0.42,"monthChange":21.94,"rsi_14":67.4,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":97.59},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.83,"ZLEMA Slope":0.66,"ticker":"KO","dayChange":-0.8,"weekChange":-1.24,"monthChange":7.74,"rsi_14":66.6,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":94.93},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.77,"ZLEMA Slope":0.57,"ticker":"XLE","dayChange":0.29,"weekChange":-0.1,"monthChange":10.85,"rsi_14":67.4,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":98.15}
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.22,"ZLEMA Slope":0.52,"ticker":"COTY","dayChange":-5.28,"weekChange":-4.69,"monthChange":16.86,"rsi_14":58.1,"EMAs.":0,"ZLEMAs":0,"weekRange":50.72},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.51,"ZLEMA Slope":0.54,"ticker":"ELV","dayChange":-1.37,"weekChange":1.37,"monthChange":11.65,"rsi_14":73.2,"EMAs.":0,"ZLEMAs":0,"weekRange":90.58},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.72,"ZLEMA Slope":0.59,"ticker":"ERX","dayChange":0.43,"weekChange":-0.42,"monthChange":21.94,"rsi_14":67.4,"EMAs.":0,"ZLEMAs":0,"weekRange":97.59},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.79,"ZLEMA Slope":0.66,"ticker":"KO","dayChange":-0.87,"weekChange":-1.3,"monthChange":7.67,"rsi_14":66.6,"EMAs.":0,"ZLEMAs":0,"weekRange":94.71},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.57,"ZLEMA Slope":0.55,"ticker":"XLE","dayChange":0.29,"weekChange":-0.1,"monthChange":10.85,"rsi_14":67.4,"EMAs.":0,"ZLEMAs":0,"weekRange":98.15}
 ]
