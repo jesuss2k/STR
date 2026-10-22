@@ -69,8 +69,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     const autoNavigationReversePairs = Object.fromEntries(
         Object.entries(autoNavigationPairs).map(([baseChart, renkoChart]) => [renkoChart, baseChart])
     );
+    const autoNavigationModes = Object.freeze({
+        OFF: 'off',
+        CANDLES: 'candles',
+        RENKO: 'renko',
+        CANDLES_AND_RENKO: 'candles-renko'
+    });
     const autoNavigationKeys = {
-        enabled: 'autoNavigationEnabled_v2',
+        mode: 'autoNavigationMode_v2',
         seconds: 'autoNavigationSeconds_v2',
         baseChart: 'autoNavigationBaseChart_v2',
         startedAt: 'autoNavigationLastStartedAt_v2'
@@ -106,8 +112,11 @@ document.addEventListener("DOMContentLoaded", async function () {
         resetAutoNavigationTimer_v2();
     }
 
-    function isAutoNavigationEnabled_v2() {
-        return localStorage.getItem(autoNavigationKeys.enabled) === 'true';
+    function getAutoNavigationMode_v2() {
+        const savedMode = localStorage.getItem(autoNavigationKeys.mode);
+        return Object.values(autoNavigationModes).includes(savedMode)
+            ? savedMode
+            : autoNavigationModes.OFF;
     }
 
     function inferAutoNavigationBaseChart_v2(chartType) {
@@ -130,10 +139,11 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     function updateAutoNavigationUi_v2() {
-        const enabled = isAutoNavigationEnabled_v2();
+        const mode = getAutoNavigationMode_v2();
+        const enabled = mode !== autoNavigationModes.OFF;
 
-        if (autoNavigationElements.enabledInput) {
-            autoNavigationElements.enabledInput.checked = enabled;
+        if (autoNavigationElements.modeInput) {
+            autoNavigationElements.modeInput.value = mode;
         }
 
         if (autoNavigationElements.progress) {
@@ -178,14 +188,18 @@ document.addEventListener("DOMContentLoaded", async function () {
         const nextIndex = currentIndex === -1 ? 0 : (currentIndex + 1) % tickers.length;
         const nextTicker = tickers[nextIndex];
         const baseChart = getAutoNavigationBaseChart_v2();
+        const mode = getAutoNavigationMode_v2();
+        const nextChart = mode === autoNavigationModes.RENKO
+            ? autoNavigationPairs[baseChart]
+            : baseChart;
 
-        localStorage.setItem('selectedChart', baseChart);
+        localStorage.setItem('selectedChart', nextChart);
         localStorage.setItem(autoNavigationKeys.startedAt, String(Date.now()));
         window.location.href = `ticker_v2.html?ticker=${encodeURIComponent(nextTicker)}`;
     }
 
     function updateAutoNavigationProgress_v2() {
-        if (!isAutoNavigationEnabled_v2() || !autoNavigationElements.progressFill) return;
+        if (getAutoNavigationMode_v2() === autoNavigationModes.OFF || !autoNavigationElements.progressFill) return;
 
         const startedAt = parseInt(localStorage.getItem(autoNavigationKeys.startedAt), 10) || Date.now();
         const durationMs = getAutoNavigationSeconds_v2() * 1000;
@@ -210,12 +224,27 @@ document.addEventListener("DOMContentLoaded", async function () {
         clearAutoNavigationTimers_v2();
         updateAutoNavigationUi_v2();
 
-        if (!isAutoNavigationEnabled_v2()) return;
+        const mode = getAutoNavigationMode_v2();
+        if (mode === autoNavigationModes.OFF) return;
 
         const selectedChart = getSelectedChart_v2();
-        if (!autoNavigationPairs[selectedChart] && !autoNavigationReversePairs[selectedChart]) {
-            setAutoNavigationBaseChart_v2(DEFAULT_CHART_TYPE_v2);
-            loadChart_v2(DEFAULT_CHART_TYPE_v2, '', ticker);
+        const hasSelectedPair = autoNavigationPairs[selectedChart] || autoNavigationReversePairs[selectedChart];
+        const baseChart = setAutoNavigationBaseChart_v2(
+            hasSelectedPair ? inferAutoNavigationBaseChart_v2(selectedChart) : getAutoNavigationBaseChart_v2()
+        );
+        const renkoChart = autoNavigationPairs[baseChart];
+        let chartToShow = selectedChart;
+
+        if (mode === autoNavigationModes.CANDLES) {
+            chartToShow = baseChart;
+        } else if (mode === autoNavigationModes.RENKO) {
+            chartToShow = renkoChart;
+        } else if (selectedChart !== baseChart && selectedChart !== renkoChart) {
+            chartToShow = baseChart;
+        }
+
+        if (selectedChart !== chartToShow) {
+            loadChart_v2(chartToShow, '', ticker);
         }
 
         localStorage.setItem(autoNavigationKeys.startedAt, String(Date.now()));
@@ -223,17 +252,10 @@ document.addEventListener("DOMContentLoaded", async function () {
         autoNavigationProgressId = setInterval(updateAutoNavigationProgress_v2, 100);
 
         autoNavigationTimerId = setTimeout(async () => {
-            const selectedChart = getSelectedChart_v2();
-            let baseChart = getAutoNavigationBaseChart_v2();
-            if (autoNavigationPairs[selectedChart]) {
-                baseChart = selectedChart;
-            } else if (autoNavigationReversePairs[selectedChart]) {
-                baseChart = autoNavigationReversePairs[selectedChart];
-            }
-            const renkoChart = autoNavigationPairs[baseChart];
-            setAutoNavigationBaseChart_v2(baseChart);
+            const currentChart = getSelectedChart_v2();
 
-            if (selectedChart === renkoChart) {
+            if (mode !== autoNavigationModes.CANDLES_AND_RENKO ||
+                currentChart === renkoChart) {
                 await navigateToNextAutoTicker_v2();
                 return;
             }
@@ -244,14 +266,17 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     function resetAutoNavigationTimer_v2() {
-        if (!isAutoNavigationEnabled_v2()) return;
+        if (getAutoNavigationMode_v2() === autoNavigationModes.OFF) return;
         scheduleAutoNavigation_v2();
     }
 
-    function setAutoNavigationEnabled_v2(enabled) {
-        localStorage.setItem(autoNavigationKeys.enabled, enabled ? 'true' : 'false');
+    function setAutoNavigationMode_v2(mode) {
+        const normalizedMode = Object.values(autoNavigationModes).includes(mode)
+            ? mode
+            : autoNavigationModes.OFF;
+        localStorage.setItem(autoNavigationKeys.mode, normalizedMode);
 
-        if (!enabled) {
+        if (normalizedMode === autoNavigationModes.OFF) {
             clearAutoNavigationTimers_v2();
             localStorage.removeItem(autoNavigationKeys.startedAt);
             updateAutoNavigationUi_v2();
@@ -260,11 +285,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         const selectedChart = getSelectedChart_v2();
         const baseChart = setAutoNavigationBaseChart_v2(inferAutoNavigationBaseChart_v2(selectedChart));
-
-        if (!autoNavigationPairs[selectedChart] && !autoNavigationReversePairs[selectedChart]) {
+        if (normalizedMode === autoNavigationModes.CANDLES) {
             loadChart_v2(baseChart, '', ticker);
+        } else if (normalizedMode === autoNavigationModes.RENKO) {
+            loadChart_v2(autoNavigationPairs[baseChart], '', ticker);
         }
-
         scheduleAutoNavigation_v2();
     }
 
@@ -306,9 +331,14 @@ document.addEventListener("DOMContentLoaded", async function () {
                     <option value="RSI">RSI (14)</option>
                 </select>
             </label>
-            <label class="chart-option-row">
-                <input type="checkbox" id="auto-navigation-enabled">
+            <label class="chart-option-row chart-option-row-stacked">
                 <span>Auto Navigation</span>
+                <select id="auto-navigation-mode" aria-label="Auto Navigation mode">
+                    <option value="off">Off</option>
+                    <option value="candles">Candles</option>
+                    <option value="renko">Renko</option>
+                    <option value="candles-renko">Candles + Renko</option>
+                </select>
             </label>
             <label class="chart-option-row">
                 <span>Seconds</span>
@@ -343,7 +373,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             verticalFitInput: document.getElementById('vertical-fit-enabled'),
             histogramInput: document.getElementById('histogram-visible'),
             histogramModeInput: document.getElementById('histogram-mode'),
-            enabledInput: document.getElementById('auto-navigation-enabled'),
+            modeInput: document.getElementById('auto-navigation-mode'),
             secondsInput: document.getElementById('auto-navigation-seconds'),
             overlayInput: document.getElementById('overlay-mode'),
             themeInput: document.getElementById('theme-mode'),
@@ -391,8 +421,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             setHistogramMode_v2(event.target.value);
         });
 
-        autoNavigationElements.enabledInput.addEventListener('change', (event) => {
-            setAutoNavigationEnabled_v2(event.target.checked);
+        autoNavigationElements.modeInput.addEventListener('change', (event) => {
+            setAutoNavigationMode_v2(event.target.value);
         });
 
         autoNavigationElements.secondsInput.addEventListener('change', (event) => {

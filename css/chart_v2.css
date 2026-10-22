@@ -432,6 +432,12 @@ a:hover {
     white-space: nowrap;
 }
 
+.chart-option-row-stacked {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+}
+
 .chart-option-row input[type="checkbox"] {
     margin: 0;
 }
@@ -453,6 +459,11 @@ a:hover {
 
 #histogram-mode {
     width: 90px;
+}
+
+#auto-navigation-mode {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #auto-navigation-progress {
