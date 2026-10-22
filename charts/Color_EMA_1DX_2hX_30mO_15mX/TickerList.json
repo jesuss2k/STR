@@ -1,3 +1,4 @@
 [
-{"EMAs":"X X X O","ticker":"LNG","dayChange":0.15,"weekChange":-1.65,"monthChange":5.8,"rsi_14":56.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":85.84}
+{"EMAs":"X X X O","ticker":"XLE","dayChange":-0.89,"weekChange":-1.0,"monthChange":9.85,"rsi_14":63.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":95.21},
+{"EMAs":"O X X O","ticker":"VNOM","dayChange":-0.33,"weekChange":1.13,"monthChange":14.14,"rsi_14":64.3,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":65.07}
 ]
