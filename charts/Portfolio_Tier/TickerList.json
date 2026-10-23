@@ -1,7 +1,7 @@
 [
 {"ticker":"AAPL","dayChange":1.23,"weekChange":1.39,"monthChange":4.56,"rsi_14":64.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":99.87},
-{"ticker":"GOOG","dayChange":-3.08,"weekChange":-4.79,"monthChange":-5.86,"rsi_14":32.8,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":44.82},
-{"ticker":"LLY","dayChange":2.83,"weekChange":3.95,"monthChange":12.93,"rsi_14":70.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":97.18},
+{"ticker":"GOOG","dayChange":-3.08,"weekChange":-4.79,"monthChange":-5.86,"rsi_14":32.8,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":43.58},
+{"ticker":"LLY","dayChange":2.83,"weekChange":3.95,"monthChange":12.93,"rsi_14":70.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":97.16},
 {"ticker":"AMD","dayChange":-8.1,"weekChange":-3.94,"monthChange":-16.97,"rsi_14":36.5,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":67.98},
 {"ticker":"ASML","dayChange":-6.93,"weekChange":-4.93,"monthChange":-13.86,"rsi_14":33.6,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":58.3},
 {"ticker":"COST","dayChange":1.99,"weekChange":2.94,"monthChange":11.85,"rsi_14":78.7,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":68.99},
@@ -10,8 +10,7 @@
 {"ticker":"FTNT","dayChange":-0.61,"weekChange":2.28,"monthChange":-3.23,"rsi_14":45.5,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":80.46},
 {"ticker":"HOOD","dayChange":-5.25,"weekChange":-2.32,"monthChange":-14.15,"rsi_14":37.8,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":38.03},
 {"ticker":"IBKR","dayChange":-3.57,"weekChange":-0.5,"monthChange":-3.68,"rsi_14":40.4,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":58.62},
-{"ticker":"KLAC","dayChange":-9.55,"weekChange":-10.81,"monthChange":-24.16,"rsi_14":24.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":20.3},
-{"ticker":"MMC","dayChange":-1.58,"weekChange":-1.78,"monthChange":-1.52,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":55.56},
+{"ticker":"MMC","dayChange":-1.58,"weekChange":-1.78,"monthChange":-1.52,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":58.49},
 {"ticker":"NET","dayChange":-1.08,"weekChange":2.57,"monthChange":-12.49,"rsi_14":41.3,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":68.59},
 {"ticker":"OKTA","dayChange":-3.5,"weekChange":7.51,"monthChange":-3.72,"rsi_14":50.3,"EMAs.":"X X O X","ZLEMAs":"X O O","weekRange":80.46},
 {"ticker":"UAL","dayChange":0.32,"weekChange":6.14,"monthChange":-8.07,"rsi_14":43.3,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":32.07}
