@@ -1,3 +1,4 @@
 [
-{"ticker":"DE","dayChange":0.14,"weekChange":0.42,"monthChange":-4.02,"rsi_14":45.9,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":71.25}
+{"ticker":"AEO","dayChange":3.91,"weekChange":3.91,"monthChange":4.67,"rsi_14":62.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":31.41},
+{"ticker":"FTNT","dayChange":-0.38,"weekChange":-0.38,"monthChange":0.31,"rsi_14":52.4,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":85.58}
 ]
