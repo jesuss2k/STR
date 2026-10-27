@@ -1,3 +1,6 @@
 [
-{"EMAs":"X X X O","ticker":"PTC","dayChange":-0.12,"weekChange":0.11,"monthChange":38.28,"rsi_14":77.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":89.62}
+{"EMAs":"X X X O","ticker":"DLTR","dayChange":-0.38,"weekChange":-0.69,"monthChange":9.14,"rsi_14":55.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":68.23},
+{"EMAs":"X X X O","ticker":"DIA","dayChange":0.08,"weekChange":0.39,"monthChange":2.92,"rsi_14":54.7,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":75.74},
+{"EMAs":"X X X O","ticker":"UDOW","dayChange":0.24,"weekChange":1.06,"monthChange":7.96,"rsi_14":53.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":30.39},
+{"EMAs":"X X X O","ticker":"AAPL","dayChange":0.81,"weekChange":-0.29,"monthChange":4.11,"rsi_14":60.7,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":95.37}
 ]

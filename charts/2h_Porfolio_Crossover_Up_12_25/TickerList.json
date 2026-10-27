@@ -1,4 +1,6 @@
 [
-{"ticker":"RXRX","dayChange":2.7,"weekChange":2.7,"monthChange":-7.99,"rsi_14":50.0,"EMAs.":0,"ZLEMAs":0,"weekRange":29.6},
-{"ticker":"ILMN","dayChange":0.6,"weekChange":0.6,"monthChange":-0.96,"rsi_14":55.5,"EMAs.":0,"ZLEMAs":0,"weekRange":82.21}
+{"ticker":"WDC","dayChange":7.94,"weekChange":11.86,"monthChange":-15.41,"rsi_14":47.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":38.73},
+{"ticker":"LABU","dayChange":6.33,"weekChange":8.21,"monthChange":-10.59,"rsi_14":49.8,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":55.24},
+{"ticker":"HPE","dayChange":3.53,"weekChange":7.23,"monthChange":-4.85,"rsi_14":49.9,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":76.23},
+{"ticker":"TSM","dayChange":2.5,"weekChange":3.94,"monthChange":-4.64,"rsi_14":49.8,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":76.22}
 ]
