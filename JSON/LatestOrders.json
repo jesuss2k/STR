@@ -240,6 +240,7 @@
 {"ticker":"MAKS_MC","positionStatus":"Open","price":8.35,"quantity":10,"leverage":0},
 {"ticker":"MAP_MC","positionStatus":"Open","price":4.03,"quantity":150,"leverage":0},
 {"ticker":"MARA","positionStatus":"Closed","price":8.025,"quantity":50,"leverage":0},
+{"ticker":"MARA","positionStatus":"Open","price":6.9755,"quantity":150,"leverage":0},
 {"ticker":"MBUU","positionStatus":"Closed","price":36.8104,"quantity":5,"leverage":0},
 {"ticker":"MCD","positionStatus":"Open","price":265.0,"quantity":7,"leverage":0},
 {"ticker":"MDB","positionStatus":"Closed","price":287.5923,"quantity":4,"leverage":0},
