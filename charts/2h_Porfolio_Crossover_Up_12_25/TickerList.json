@@ -1,4 +1,5 @@
 [
-{"ticker":"AMD","dayChange":5.1,"weekChange":8.04,"monthChange":-8.73,"rsi_14":49.4,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":78.7},
-{"ticker":"QTUM","dayChange":2.47,"weekChange":4.2,"monthChange":-6.4,"rsi_14":45.3,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":60.89}
+{"ticker":"TECL","dayChange":4.59,"weekChange":9.83,"monthChange":-11.94,"rsi_14":46.8,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":64.84},
+{"ticker":"GM","dayChange":5.88,"weekChange":6.43,"monthChange":4.94,"rsi_14":49.9,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":55.98},
+{"ticker":"ANET","dayChange":5.73,"weekChange":8.72,"monthChange":-7.95,"rsi_14":46.7,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":70.83}
 ]
