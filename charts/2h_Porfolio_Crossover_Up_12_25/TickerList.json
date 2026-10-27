@@ -1,4 +1,4 @@
 [
-{"ticker":"RXRX","dayChange":2.7,"weekChange":2.7,"monthChange":-7.99,"rsi_14":50.0,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":29.6},
-{"ticker":"ILMN","dayChange":0.6,"weekChange":0.6,"monthChange":-0.96,"rsi_14":55.5,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":82.21}
+{"ticker":"RXRX","dayChange":2.7,"weekChange":2.7,"monthChange":-7.99,"rsi_14":50.0,"EMAs.":0,"ZLEMAs":0,"weekRange":29.6},
+{"ticker":"ILMN","dayChange":0.6,"weekChange":0.6,"monthChange":-0.96,"rsi_14":55.5,"EMAs.":0,"ZLEMAs":0,"weekRange":82.21}
 ]
