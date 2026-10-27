@@ -1,5 +1,4 @@
 [
-{"ticker":"TECL","dayChange":4.59,"weekChange":9.83,"monthChange":-11.94,"rsi_14":46.8,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":64.84},
-{"ticker":"GM","dayChange":5.88,"weekChange":6.43,"monthChange":4.94,"rsi_14":49.9,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":55.98},
-{"ticker":"ANET","dayChange":5.73,"weekChange":8.72,"monthChange":-7.95,"rsi_14":46.7,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":70.83}
+{"ticker":"OPRA","dayChange":2.49,"weekChange":4.5,"monthChange":2.89,"rsi_14":53.8,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":70.78},
+{"ticker":"RGTI","dayChange":8.61,"weekChange":7.86,"monthChange":-21.06,"rsi_14":41.3,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":3.94}
 ]
