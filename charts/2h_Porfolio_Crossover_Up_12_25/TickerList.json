@@ -1,3 +1,6 @@
 [
-{"ticker":"COHR","dayChange":0.21,"weekChange":12.9,"monthChange":-17.9,"rsi_14":40.9,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":35.58}
+{"ticker":"DRV","dayChange":2.94,"weekChange":3.81,"monthChange":-7.66,"rsi_14":50.5,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":45.65},
+{"ticker":"STX","dayChange":2.37,"weekChange":8.44,"monthChange":-25.88,"rsi_14":41.2,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":49.66},
+{"ticker":"INSM","dayChange":1.81,"weekChange":3.52,"monthChange":-15.3,"rsi_14":37.4,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":5.14},
+{"ticker":"POWL","dayChange":3.46,"weekChange":10.6,"monthChange":-9.5,"rsi_14":44.2,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":31.59}
 ]
