@@ -1,5 +1,3 @@
 [
-{"ticker":"BAC","dayChange":2.08,"weekChange":2.67,"monthChange":-4.63,"rsi_14":40.2,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":30.32},
-{"ticker":"DRN","dayChange":5.26,"weekChange":1.83,"monthChange":13.26,"rsi_14":55.8,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":34.85},
-{"ticker":"GPN","dayChange":2.54,"weekChange":3.44,"monthChange":4.9,"rsi_14":55.0,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":70.59}
+{"ticker":"MRNA","dayChange":3.16,"weekChange":10.41,"monthChange":14.72,"rsi_14":57.2,"EMAs.":"X X X X","ZLEMAs":"X O X","weekRange":85.55}
 ]
