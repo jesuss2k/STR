@@ -127,7 +127,6 @@
 {"Dir":"O","ticker":"GDX","dayChange":0.9,"weekChange":4.66,"monthChange":-4.4,"rsi_14":43.7,"EMAs.":0,"ZLEMAs":0,"weekRange":32.14},
 {"Dir":"O","ticker":"GE","dayChange":1.17,"weekChange":5.42,"monthChange":-3.57,"rsi_14":44.2,"EMAs.":0,"ZLEMAs":0,"weekRange":26.87},
 {"Dir":"O","ticker":"GM","dayChange":2.41,"weekChange":8.64,"monthChange":7.12,"rsi_14":53.6,"EMAs.":0,"ZLEMAs":0,"weekRange":62.67},
-{"Dir":"O","ticker":"GOOG","dayChange":1.6,"weekChange":1.45,"monthChange":-5.53,"rsi_14":38.5,"EMAs.":0,"ZLEMAs":0,"weekRange":37.94},
 {"Dir":"O","ticker":"GOOGL","dayChange":1.34,"weekChange":1.46,"monthChange":-5.58,"rsi_14":38.7,"EMAs.":0,"ZLEMAs":0,"weekRange":39.29},
 {"Dir":"O","ticker":"GPRO","dayChange":0.98,"weekChange":1.98,"monthChange":-20.16,"rsi_14":39.6,"EMAs.":0,"ZLEMAs":0,"weekRange":31.08},
 {"Dir":"O","ticker":"HIMS","dayChange":5.01,"weekChange":5.81,"monthChange":-1.58,"rsi_14":52.0,"EMAs.":0,"ZLEMAs":0,"weekRange":45.03},

@@ -35,6 +35,7 @@
 {"ticker":"BIDU","dayChange":1.57,"weekChange":2.98,"monthChange":-8.48,"rsi_14":36.6,"EMAs.":0,"ZLEMAs":0,"weekRange":3.13},
 {"ticker":"ROAD","dayChange":0.31,"weekChange":1.59,"monthChange":-6.3,"rsi_14":40.5,"EMAs.":0,"ZLEMAs":0,"weekRange":7.02},
 {"ticker":"CMCSA","dayChange":-1.24,"weekChange":-4.94,"monthChange":-0.87,"rsi_14":42.1,"EMAs.":0,"ZLEMAs":0,"weekRange":8.81},
+{"ticker":"GOOG","dayChange":1.6,"weekChange":1.45,"monthChange":-5.53,"rsi_14":38.5,"EMAs.":0,"ZLEMAs":0,"weekRange":37.94},
 {"ticker":"NVO","dayChange":-0.98,"weekChange":-1.95,"monthChange":1.0,"rsi_14":40.7,"EMAs.":0,"ZLEMAs":0,"weekRange":10.92},
 {"ticker":"F","dayChange":1.88,"weekChange":2.84,"monthChange":-1.08,"rsi_14":41.6,"EMAs.":0,"ZLEMAs":0,"weekRange":12.29},
 {"ticker":"PDD","dayChange":-1.19,"weekChange":-1.99,"monthChange":-0.61,"rsi_14":40.8,"EMAs.":0,"ZLEMAs":0,"weekRange":8.22},

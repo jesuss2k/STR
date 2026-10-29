@@ -81,7 +81,6 @@
 {"ticker":"TJX","dayChange":-1.29,"weekChange":-4.6,"monthChange":4.6,"rsi_14":45.4,"EMAs.":0,"ZLEMAs":0,"weekRange":33.06},
 {"ticker":"ECL","dayChange":0.39,"weekChange":1.34,"monthChange":6.49,"rsi_14":63.2,"EMAs.":0,"ZLEMAs":0,"weekRange":74.5},
 {"ticker":"SMCI","dayChange":2.05,"weekChange":8.71,"monthChange":-12.81,"rsi_14":47.1,"EMAs.":0,"ZLEMAs":0,"weekRange":48.7},
-{"ticker":"GOOG","dayChange":1.6,"weekChange":1.45,"monthChange":-5.53,"rsi_14":38.5,"EMAs.":0,"ZLEMAs":0,"weekRange":37.94},
 {"ticker":"MTDR","dayChange":0.96,"weekChange":-0.2,"monthChange":16.01,"rsi_14":62.9,"EMAs.":0,"ZLEMAs":0,"weekRange":76.43},
 {"ticker":"SPXU","dayChange":-1.0,"weekChange":-4.74,"monthChange":-3.07,"rsi_14":46.9,"EMAs.":0,"ZLEMAs":0,"weekRange":42.26},
 {"ticker":"KYMR","dayChange":4.2,"weekChange":10.61,"monthChange":9.59,"rsi_14":65.2,"EMAs.":0,"ZLEMAs":0,"weekRange":89.86},

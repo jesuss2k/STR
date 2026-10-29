@@ -22,6 +22,7 @@
 {"ticker":"NVDA","dayChange":-1.17,"weekChange":2.1,"monthChange":-5.69,"rsi_14":43.9,"EMAs.":0,"ZLEMAs":0,"weekRange":64.61},
 {"ticker":"IBIT","dayChange":0.94,"weekChange":0.37,"monthChange":-2.56,"rsi_14":49.9,"EMAs.":0,"ZLEMAs":0,"weekRange":44.02},
 {"ticker":"TMUS","dayChange":0.85,"weekChange":1.05,"monthChange":-9.2,"rsi_14":37.6,"EMAs.":0,"ZLEMAs":0,"weekRange":5.35},
+{"ticker":"GOOG","dayChange":1.6,"weekChange":1.45,"monthChange":-5.53,"rsi_14":38.5,"EMAs.":0,"ZLEMAs":0,"weekRange":37.94},
 {"ticker":"UBER","dayChange":-0.78,"weekChange":-2.14,"monthChange":-4.73,"rsi_14":34.9,"EMAs.":0,"ZLEMAs":0,"weekRange":1.63},
 {"ticker":"PCAR","dayChange":-1.26,"weekChange":-4.24,"monthChange":-6.73,"rsi_14":26.0,"EMAs.":0,"ZLEMAs":0,"weekRange":18.86},
 {"ticker":"CMG","dayChange":2.75,"weekChange":4.47,"monthChange":-10.02,"rsi_14":38.0,"EMAs.":0,"ZLEMAs":0,"weekRange":10.21},

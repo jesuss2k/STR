@@ -16,7 +16,6 @@
 {"ticker":"OHLA_MC","dayChange":-0.28,"weekChange":6.67,"monthChange":-0.85,"rsi_14":51.4,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":14.08},
 {"ticker":"RED_MC","dayChange":0.39,"weekChange":3.44,"monthChange":4.14,"rsi_14":65.6,"EMAs.":"O X X X","ZLEMAs":"X X ","weekRange":50.21},
 {"ticker":"REP_MC","dayChange":1.75,"weekChange":-1.43,"monthChange":-2.97,"rsi_14":45.3,"EMAs.":"X O O X","ZLEMAs":"X O ","weekRange":84.18},
-{"ticker":"SAN_MC","dayChange":-2.44,"weekChange":-9.83,"monthChange":-15.82,"rsi_14":27.4,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":39.27},
 {"ticker":"SCYR_MC","dayChange":0.25,"weekChange":2.73,"monthChange":2.37,"rsi_14":51.6,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":36.19},
 {"ticker":"UNI_MC","dayChange":-0.87,"weekChange":2.97,"monthChange":-9.84,"rsi_14":42.6,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":64.92},
 {"ticker":"VYT_MC","dayChange":-0.99,"weekChange":-0.66,"monthChange":-5.06,"rsi_14":45.0,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":60.56}
