@@ -7,7 +7,7 @@
 {"ticker":"GOOG","dayChange":-12.34,"weekChange":-11.07,"monthChange":-17.19,"rsi_14":22.0,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":8.08},
 {"ticker":"AVGO","dayChange":-1.93,"weekChange":7.26,"monthChange":-1.76,"rsi_14":49.1,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":26.85},
 {"ticker":"TSLA","dayChange":0.21,"weekChange":8.82,"monthChange":14.16,"rsi_14":63.9,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":53.45},
-{"ticker":"META","dayChange":3.46,"weekChange":-1.39,"monthChange":-12.61,"rsi_14":37.9,"EMAs.":"X O O X","ZLEMAs":"X O O","weekRange":43.71},
+{"ticker":"META","dayChange":3.46,"weekChange":-1.39,"monthChange":-12.61,"rsi_14":37.9,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":43.71},
 {"ticker":"MU","dayChange":-4.1,"weekChange":7.45,"monthChange":-11.47,"rsi_14":48.1,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":70.63},
 {"ticker":"BRK.B","dayChange":0.57,"weekChange":0.22,"monthChange":9.13,"rsi_14":67.4,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":92.36},
 {"ticker":"LLY","dayChange":6.35,"weekChange":7.59,"monthChange":18.41,"rsi_14":74.1,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":93.58},

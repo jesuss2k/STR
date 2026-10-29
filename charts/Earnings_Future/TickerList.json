@@ -8,7 +8,7 @@
 {"ticker":"MTDR","dayChange":-0.64,"weekChange":-0.84,"monthChange":15.27,"rsi_14":61.1,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":75.14},
 {"ticker":"DUOL","dayChange":-0.52,"weekChange":-5.97,"monthChange":-5.54,"rsi_14":41.5,"EMAs.":0,"ZLEMAs":"X O O","weekRange":24.27},
 {"ticker":"XYZ","dayChange":2.87,"weekChange":1.19,"monthChange":5.22,"rsi_14":51.5,"EMAs.":"X O O X","ZLEMAs":"X X X","weekRange":75.33},
-{"ticker":"YOU","dayChange":1.76,"weekChange":1.98,"monthChange":10.32,"rsi_14":63.4,"EMAs.":"O X X X","ZLEMAs":"O X O","weekRange":41.32},
+{"ticker":"YOU","dayChange":1.76,"weekChange":1.98,"monthChange":10.32,"rsi_14":63.4,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":41.32},
 {"ticker":"HOOD","dayChange":-0.07,"weekChange":-3.9,"monthChange":-18.79,"rsi_14":34.4,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":32.03},
 {"ticker":"EXPE","dayChange":2.37,"weekChange":-2.4,"monthChange":7.1,"rsi_14":50.3,"EMAs.":"X X O X","ZLEMAs":"X X O","weekRange":61.74},
 {"ticker":"FLUT","dayChange":-0.13,"weekChange":-2.07,"monthChange":5.22,"rsi_14":44.2,"EMAs.":"O O X X","ZLEMAs":"X X X","weekRange":3.59},

@@ -21,7 +21,7 @@
 {"ticker":"COIN","dayChange":-0.97,"weekChange":-2.25,"monthChange":-13.77,"rsi_14":40.3,"EMAs.":"O O O X","ZLEMAs":"X O O","weekRange":9.73},
 {"ticker":"APLD","dayChange":-2.75,"weekChange":8.66,"monthChange":-18.63,"rsi_14":42.2,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":7.01},
 {"ticker":"PCAR","dayChange":-0.02,"weekChange":-4.27,"monthChange":-6.75,"rsi_14":25.9,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":18.81},
-{"ticker":"META","dayChange":3.46,"weekChange":-1.39,"monthChange":-12.61,"rsi_14":37.9,"EMAs.":"X O O X","ZLEMAs":"X O O","weekRange":43.71},
+{"ticker":"META","dayChange":3.46,"weekChange":-1.39,"monthChange":-12.61,"rsi_14":37.9,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":43.71},
 {"ticker":"APP","dayChange":-0.91,"weekChange":-1.01,"monthChange":-11.3,"rsi_14":35.2,"EMAs.":"O O O O","ZLEMAs":"O X X","weekRange":1.15},
 {"ticker":"BABA","dayChange":-1.48,"weekChange":-0.17,"monthChange":-7.5,"rsi_14":31.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":8.39},
 {"ticker":"BURL","dayChange":4.69,"weekChange":-1.06,"monthChange":-8.3,"rsi_14":40.4,"EMAs.":"O O O X","ZLEMAs":"O X X","weekRange":11.98},

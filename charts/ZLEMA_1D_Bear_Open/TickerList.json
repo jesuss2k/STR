@@ -4,7 +4,7 @@
 {"ticker":"ACMR","dayChange":-5.55,"weekChange":-0.93,"monthChange":-38.11,"rsi_14":31.2,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":21.9},
 {"ticker":"GOOG","dayChange":-12.34,"weekChange":-11.07,"monthChange":-17.19,"rsi_14":22.0,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":8.08},
 {"ticker":"NU","dayChange":0.29,"weekChange":-20.81,"monthChange":-5.17,"rsi_14":32.6,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":10.35},
-{"ticker":"META","dayChange":3.46,"weekChange":-1.39,"monthChange":-12.61,"rsi_14":37.9,"EMAs.":"X O O X","ZLEMAs":"X O O","weekRange":43.71},
+{"ticker":"META","dayChange":3.46,"weekChange":-1.39,"monthChange":-12.61,"rsi_14":37.9,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":43.71},
 {"ticker":"RDDT","dayChange":-4.73,"weekChange":-11.04,"monthChange":-9.91,"rsi_14":30.2,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":6.28},
 {"ticker":"NBIS","dayChange":-3.56,"weekChange":10.77,"monthChange":-25.45,"rsi_14":42.3,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":45.21},
 {"ticker":"SE","dayChange":2.19,"weekChange":2.95,"monthChange":-21.09,"rsi_14":26.1,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":6.0},
