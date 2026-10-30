@@ -1,4 +1,4 @@
 [
-{"ticker":"MRK","dayChange":3.84,"weekChange":0.74,"monthChange":0.71,"rsi_14":52.5,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":85.88},
-{"ticker":"QID","dayChange":2.92,"weekChange":-3.16,"monthChange":6.9,"rsi_14":54.8,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":13.86}
+{"ticker":"MRK","dayChange":3.84,"weekChange":0.74,"monthChange":0.71,"rsi_14":52.5,"EMAs.":0,"ZLEMAs":0,"weekRange":85.88},
+{"ticker":"QID","dayChange":2.92,"weekChange":-3.16,"monthChange":6.9,"rsi_14":54.8,"EMAs.":0,"ZLEMAs":0,"weekRange":13.86}
 ]
