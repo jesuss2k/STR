@@ -1,6 +1,6 @@
 [
 {"ticker":"ALL","dayChange":2.29,"weekChange":1.08,"monthChange":15.35,"rsi_14":61.6,"EMAs.":0,"ZLEMAs":0,"weekRange":76.09},
-{"ticker":"AMS_MC","dayChange":-1.15,"weekChange":-0.11,"monthChange":9.11,"rsi_14":62.6,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":46.34},
+{"ticker":"AMS_MC","dayChange":-2.34,"weekChange":-1.31,"monthChange":7.8,"rsi_14":62.6,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":43.29},
 {"ticker":"BBY","dayChange":3.54,"weekChange":0.52,"monthChange":13.77,"rsi_14":65.8,"EMAs.":0,"ZLEMAs":0,"weekRange":99.58},
 {"ticker":"COR","dayChange":1.91,"weekChange":-0.14,"monthChange":10.08,"rsi_14":51.5,"EMAs.":0,"ZLEMAs":0,"weekRange":64.58},
 {"ticker":"DG","dayChange":3.11,"weekChange":-1.96,"monthChange":8.79,"rsi_14":52.9,"EMAs.":0,"ZLEMAs":0,"weekRange":55.42},
