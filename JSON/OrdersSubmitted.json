@@ -60,7 +60,6 @@
 {"ticker":"AMAT","price":320.0,"buySell":"Buy","filled":0,"remain":6,"orderType":"Limit"},
 {"ticker":"CRDO","price":100.0,"buySell":"Buy","filled":0,"remain":20,"orderType":"Limit"},
 {"ticker":"AEO","price":14.0,"buySell":"Buy","filled":0,"remain":150,"orderType":"Limit"},
-{"ticker":"INTC","price":70.0,"buySell":"Buy","filled":0,"remain":30,"orderType":"Limit"},
 {"ticker":"WYNN","price":50.0,"buySell":"Buy","filled":0,"remain":15,"orderType":"Limit"},
 {"ticker":"BIDU","price":50.0,"buySell":"Buy","filled":0,"remain":20,"orderType":"Limit"},
 {"ticker":"CVNA","price":50.0,"buySell":"Buy","filled":0,"remain":40,"orderType":"Limit"},
