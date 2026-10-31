@@ -288,6 +288,21 @@ th, td {
 
 #sortableTable {
     margin-top: 32px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#sortableTable th:first-child,
+#sortableTable td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: #000;
+}
+
+#sortableTable th:first-child {
+    z-index: 2;
 }
 
 @media (max-width: 600px) {
@@ -303,12 +318,6 @@ th, td {
     .table-filter-field input,
     .table-filter-field select {
         font-size: 16px;
-    }
-
-    #sortableTable {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
     }
 }
 
@@ -393,6 +402,11 @@ html[data-theme="light"] table {
 html[data-theme="light"] th,
 html[data-theme="light"] td {
     border-bottom-color: #d8dde3;
+}
+
+html[data-theme="light"] #sortableTable th:first-child,
+html[data-theme="light"] #sortableTable td:first-child {
+    background-color: #fff;
 }
 
 html[data-theme="light"] a {

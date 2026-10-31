@@ -2337,6 +2337,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Add keyboard shortcut for mode toggle
     document.addEventListener('keydown', function(event) {
+        const activeElement = document.activeElement;
+        const activeTag = activeElement?.tagName;
         if ((event.key === '[' || event.key === ']') &&
             isCalculatedRenkoChart_v2(getSelectedChart_v2())) {
             const factorInput = document.getElementById('daily-renko-factor');
@@ -2352,6 +2354,23 @@ document.addEventListener("DOMContentLoaded", async function () {
             );
             factorInput.value = String(Math.round(boundedFactor * 100) / 100);
             factorInput.dispatchEvent(new Event('input', { bubbles: true }));
+            return;
+        }
+
+        if (event.key === '/' &&
+            !event.ctrlKey && !event.altKey && !event.metaKey &&
+            !activeElement?.isContentEditable &&
+            activeTag !== 'INPUT' && activeTag !== 'TEXTAREA' && activeTag !== 'SELECT') {
+            event.preventDefault();
+            if (event.repeat) return;
+
+            const newMode = getRenderMode_v2() === 'LINE' ? 'CANDLES' : 'LINE';
+            setRenderMode_v2(newMode);
+            loadTradingViewChart_v2(ticker);
+            updateLineMenuLabel_v2(newMode);
+            updateMenuCaption_v2(ticker);
+            updateActiveMenuLinks_v2(getSelectedChart_v2());
+            updateOverlay_v2(ticker);
             return;
         }
 
