@@ -76,5 +76,6 @@
 {"ticker":"JPM","dayChange":-1.9,"weekChange":1.65,"monthChange":1.88,"rsi_14":49.0,"EMAs.":"X O X O","ZLEMAs":"O X O","weekRange":66.29},
 {"ticker":"BAC","dayChange":-2.21,"weekChange":-1.09,"monthChange":-8.12,"rsi_14":27.7,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":20.38},
 {"ticker":"ISRG","dayChange":-3.73,"weekChange":-4.48,"monthChange":6.24,"rsi_14":54.2,"EMAs.":"O X O O","ZLEMAs":"X X O","weekRange":37.57},
+{"ticker":"GM","dayChange":1.96,"weekChange":15.12,"monthChange":13.51,"rsi_14":62.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.27},
 {"ticker":"CAT","dayChange":-3.81,"weekChange":-9.35,"monthChange":-23.19,"rsi_14":23.6,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":15.97}
 ]
