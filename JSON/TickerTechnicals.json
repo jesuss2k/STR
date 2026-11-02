@@ -1,5 +1,5 @@
 [
-{"ticker":"ACS_MC","EMAs":"O O X X"},
+{"ticker":"ACS_MC","EMAs":"O O X O"},
 {"ticker":"ACX_MC","EMAs":"X O O O"},
 {"ticker":"AENA_MC","EMAs":"X X X X"},
 {"ticker":"AMP_MC","EMAs":"X X X X"},
@@ -50,7 +50,7 @@
 {"ticker":"SCYR_MC","EMAs":"O O X X"},
 {"ticker":"SLR_MC","EMAs":"O O O O"},
 {"ticker":"TEF_MC","EMAs":"O O X X"},
-{"ticker":"TUB_MC","EMAs":"O O O X"},
+{"ticker":"TUB_MC","EMAs":"O O O O"},
 {"ticker":"UNI_MC","EMAs":"X O X X"},
 {"ticker":"VIS_MC","EMAs":"O O X X"},
 {"ticker":"VYT_MC","EMAs":"O O O O"}
