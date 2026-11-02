@@ -1,4 +1,4 @@
 [
-{"EMAs":"O O X O","ticker":"TNA","dayChange":2.82,"weekChange":2.82,"monthChange":2.82,"rsi_14":52.3,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":55.64},
-{"EMAs":"X O X O","ticker":"IWM","dayChange":1.07,"weekChange":1.07,"monthChange":1.07,"rsi_14":54.1,"EMAs.":"X O X O","ZLEMAs":"O X X","weekRange":70.02}
+{"EMAs":"O O X O","ticker":"TNA","dayChange":3.17,"weekChange":3.17,"monthChange":3.17,"rsi_14":52.7,"EMAs.":"O O X O","ZLEMAs":"O X X","weekRange":56.14},
+{"EMAs":"O O O O","ticker":"EME","dayChange":1.28,"weekChange":1.28,"monthChange":1.28,"rsi_14":41.4,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":31.86}
 ]
