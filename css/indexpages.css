@@ -288,9 +288,16 @@ th, td {
 
 #sortableTable {
     margin-top: 32px;
-    display: block;
-    overflow-x: auto;
+    width: max-content;
+    min-width: 100%;
     white-space: nowrap;
+}
+
+#sortableTable th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #000;
 }
 
 #sortableTable th:first-child,
@@ -302,7 +309,7 @@ th, td {
 }
 
 #sortableTable th:first-child {
-    z-index: 2;
+    z-index: 3;
 }
 
 @media (max-width: 600px) {
@@ -406,6 +413,10 @@ html[data-theme="light"] td {
 
 html[data-theme="light"] #sortableTable th:first-child,
 html[data-theme="light"] #sortableTable td:first-child {
+    background-color: #fff;
+}
+
+html[data-theme="light"] #sortableTable th {
     background-color: #fff;
 }
 
