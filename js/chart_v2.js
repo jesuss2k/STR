@@ -2362,7 +2362,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             return;
         }
 
-        if (event.key === '/' &&
+        if ((event.key === '/' || event.key === '1') &&
             !event.ctrlKey && !event.altKey && !event.metaKey &&
             !activeElement?.isContentEditable &&
             activeTag !== 'INPUT' && activeTag !== 'TEXTAREA' && activeTag !== 'SELECT') {

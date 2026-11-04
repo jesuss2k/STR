@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", async function () {
         <dl>
             <dt>I</dt><dd>Open or close this help</dd>
             <dt>Q</dt><dd>Open or close the current ticker summary window</dd>
-            <dt>Left Arrow</dt><dd>Previous ticker</dd>
-            <dt>Right Arrow</dt><dd>Next ticker</dd>
+            <dt>Left Arrow / 4</dt><dd>Previous ticker</dd>
+            <dt>Right Arrow / 6</dt><dd>Next ticker</dd>
             <dt>A / S / D / F</dt><dd>Switch to 1W / 1D / 2h / 30m chart</dd>
             <dt>Z / X / C / V / B / N</dt><dd>Switch to the corresponding Renko chart</dd>
-            <dt>,</dt><dd>Previous chart type</dd>
-            <dt>.</dt><dd>Next chart type</dd>
+            <dt>, / Up Arrow / 2</dt><dd>Previous chart type</dd>
+            <dt>. / Down Arrow / 8</dt><dd>Next chart type</dd>
             <dt>O</dt><dd>Activate the chart render-mode menu</dd>
             <dt>/</dt><dd>Toggle between Candles and Line</dd>
             <dt>M</dt><dd>Cycle Candles, Line, ZLEMA, and Heikin Ashi</dd>
@@ -717,6 +717,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             switch (event.key.length === 1 ? event.key.toLowerCase() : event.key) {
                 // Ticker navigation
                 case "ArrowLeft":
+                case "4":
                     if (currentIndex > 0) {
                         const newTicker = sortedTickers[currentIndex - 1];
                         console.log(`🔄 Navigating to: ${newTicker}`);
@@ -726,6 +727,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                     break;
 
                 case "ArrowRight":
+                case "6":
                     if (currentIndex < sortedTickers.length - 1) {
                         const newTicker = sortedTickers[currentIndex + 1];
                         console.log(`🔄 Navigating to: ${newTicker}`);
@@ -779,6 +781,8 @@ document.addEventListener("DOMContentLoaded", async function () {
                 // Circular backward
                 case ",":
                 case "<":
+                case "ArrowUp":
+                case "2":
                 {
                     const currentIndex = getCurrentChartIndex_v2();
                     const prevIndex = (currentIndex - 1 + chartOrder.length) % chartOrder.length;
@@ -790,6 +794,8 @@ document.addEventListener("DOMContentLoaded", async function () {
                 // Circular forward
                 case ".":
                 case ">":
+                case "ArrowDown":
+                case "8":
                 {
                     const currentIndex = getCurrentChartIndex_v2();
                     const nextIndex = (currentIndex + 1) % chartOrder.length;
