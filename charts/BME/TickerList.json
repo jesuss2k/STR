@@ -1,7 +1,7 @@
 [
 {"ticker":"ACS_MC","dayChange":-5.09,"weekChange":-3.36,"monthChange":-3.36,"rsi_14":39.6,"EMAs.":"O O O O","ZLEMAs":"O X ","weekRange":23.26},
-{"ticker":"ACX_MC","dayChange":1.54,"weekChange":-1.56,"monthChange":-1.56,"rsi_14":37.0,"EMAs.":"X O O X","ZLEMAs":"O O ","weekRange":63.1},
-{"ticker":"AMP_MC","dayChange":-1.84,"weekChange":3.0,"monthChange":3.0,"rsi_14":61.0,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":87.15},
+{"ticker":"ACX_MC","dayChange":1.54,"weekChange":-1.56,"monthChange":-1.56,"rsi_14":37.0,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":63.1},
+{"ticker":"AMP_MC","dayChange":-1.84,"weekChange":3.0,"monthChange":3.0,"rsi_14":61.0,"EMAs.":"X X X X","ZLEMAs":"X O ","weekRange":87.15},
 {"ticker":"ART_MC","dayChange":-1.02,"weekChange":-5.23,"monthChange":-5.23,"rsi_14":34.7,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":38.41},
 {"ticker":"CAF_MC","dayChange":-1.06,"weekChange":-1.19,"monthChange":-1.19,"rsi_14":42.8,"EMAs.":"X O O O","ZLEMAs":"X O ","weekRange":76.85},
 {"ticker":"CLR_MC","dayChange":-0.77,"weekChange":0.0,"monthChange":0.0,"rsi_14":43.0,"EMAs.":"X O O O","ZLEMAs":"X O ","weekRange":76.91},
