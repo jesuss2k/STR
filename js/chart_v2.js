@@ -2339,6 +2339,11 @@ document.addEventListener("DOMContentLoaded", async function () {
     document.addEventListener('keydown', function(event) {
         const activeElement = document.activeElement;
         const activeTag = activeElement?.tagName;
+        const shortcutHelp = document.getElementById('shortcut-help');
+        if (shortcutHelp?.open && event.key !== 'i' && event.key !== 'I' && event.key !== 'Escape') {
+            return;
+        }
+
         if ((event.key === '[' || event.key === ']') &&
             isCalculatedRenkoChart_v2(getSelectedChart_v2())) {
             const factorInput = document.getElementById('daily-renko-factor');

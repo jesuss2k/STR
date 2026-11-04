@@ -9,6 +9,94 @@ document.addEventListener("DOMContentLoaded", async function () {
         return;
     }
 
+    const shortcutHelp = document.createElement('dialog');
+    shortcutHelp.id = 'shortcut-help';
+    shortcutHelp.className = 'shortcut-help';
+    shortcutHelp.setAttribute('aria-labelledby', 'shortcut-help-title');
+    shortcutHelp.innerHTML = `
+        <div class="shortcut-help-header">
+            <h2 id="shortcut-help-title">Keyboard shortcuts</h2>
+            <button type="button" class="shortcut-help-close" aria-label="Close keyboard shortcuts">×</button>
+        </div>
+        <dl>
+            <dt>I</dt><dd>Open or close this help</dd>
+            <dt>Q</dt><dd>Open or close the current ticker summary window</dd>
+            <dt>Left Arrow</dt><dd>Previous ticker</dd>
+            <dt>Right Arrow</dt><dd>Next ticker</dd>
+            <dt>A / S / D / F</dt><dd>Switch to 1W / 1D / 2h / 30m chart</dd>
+            <dt>Z / X / C / V / B / N</dt><dd>Switch to the corresponding Renko chart</dd>
+            <dt>,</dt><dd>Previous chart type</dd>
+            <dt>.</dt><dd>Next chart type</dd>
+            <dt>O</dt><dd>Activate the chart render-mode menu</dd>
+            <dt>/</dt><dd>Toggle between Candles and Line</dd>
+            <dt>M</dt><dd>Cycle Candles, Line, ZLEMA, and Heikin Ashi</dd>
+            <dt>G</dt><dd>Toggle histogram mode</dd>
+            <dt>H</dt><dd>Toggle histogram visibility</dd>
+            <dt>L</dt><dd>Toggle light/dark theme</dd>
+            <dt>[ / ]</dt><dd>Decrease/increase calculated Renko factor</dd>
+        </dl>
+    `;
+    document.body.appendChild(shortcutHelp);
+    const summaryDialog = document.createElement('dialog');
+    summaryDialog.id = 'ticker-summary-dialog';
+    summaryDialog.className = 'ticker-summary-dialog';
+    summaryDialog.setAttribute('aria-label', 'Ticker summary');
+    summaryDialog.innerHTML = `
+        <button type="button" class="ticker-summary-close" aria-label="Close ticker summary">×</button>
+        <iframe></iframe>
+    `;
+    document.body.appendChild(summaryDialog);
+    const summaryFrame = summaryDialog.querySelector('iframe');
+    summaryFrame.title = `${ticker} summary`;
+    const closeSummary = () => summaryDialog.close();
+    const toggleSummary = () => {
+        if (summaryDialog.open) {
+            closeSummary();
+            return;
+        }
+
+        const summaryLink = document.getElementById('chart-summary');
+        if (!summaryLink?.href) {
+            console.error('Unable to open ticker summary: summary link is unavailable.');
+            return;
+        }
+        summaryFrame.src = summaryLink.href;
+        summaryDialog.showModal();
+    };
+
+    summaryDialog.querySelector('.ticker-summary-close').addEventListener('click', closeSummary);
+    summaryDialog.addEventListener('click', event => {
+        if (event.target === summaryDialog) closeSummary();
+    });
+    summaryDialog.addEventListener('close', () => {
+        summaryFrame.src = 'about:blank';
+    });
+    summaryFrame.addEventListener('load', () => {
+        const frameDocument = summaryFrame.contentDocument;
+        if (!frameDocument) return;
+        frameDocument.addEventListener('click', event => {
+            if (event.target.closest('.close-button')) {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+                closeSummary();
+            }
+        }, true);
+        frameDocument.addEventListener('keydown', event => {
+            if (event.key.toLowerCase() === 'q' &&
+                !event.ctrlKey && !event.altKey && !event.metaKey) {
+                event.preventDefault();
+                closeSummary();
+            }
+        });
+    });
+
+    shortcutHelp.querySelector('.shortcut-help-close').addEventListener('click', () => {
+        shortcutHelp.close();
+    });
+    shortcutHelp.addEventListener('click', event => {
+        if (event.target === shortcutHelp) shortcutHelp.close();
+    });
+
     function normalizeTicker_v2(ticker) {
         if (!ticker) return '';
 
@@ -568,6 +656,34 @@ document.addEventListener("DOMContentLoaded", async function () {
                 return;
             }
 
+            if (!event.ctrlKey && !event.altKey && !event.metaKey &&
+                event.key.toLowerCase() === 'i') {
+                event.preventDefault();
+                if (event.repeat) return;
+                if (shortcutHelp.open) {
+                    shortcutHelp.close();
+                } else {
+                    shortcutHelp.showModal();
+                }
+                return;
+            }
+
+            if (shortcutHelp.open) {
+                if (event.key === 'Escape') {
+                    event.preventDefault();
+                    shortcutHelp.close();
+                }
+                return;
+            }
+
+            if (event.key.toLowerCase() === 'q' &&
+                !event.ctrlKey && !event.altKey && !event.metaKey) {
+                event.preventDefault();
+                if (event.repeat) return;
+                toggleSummary();
+                return;
+            }
+
             if (event.key.toLowerCase() === 'l' && !event.ctrlKey && !event.altKey && !event.metaKey) {
                 event.preventDefault();
                 const nextTheme = getSiteTheme_v2() === 'light' ? 'dark' : 'light';
@@ -585,13 +701,12 @@ document.addEventListener("DOMContentLoaded", async function () {
             }
 
             const menuShortcut = {
-                i: 'chart-summary',
                 o: 'chart-line',
                 h: 'histogram-visible'
             }[event.key.toLowerCase()];
             if (menuShortcut && !event.ctrlKey && !event.altKey && !event.metaKey) {
                 event.preventDefault();
-                if (menuShortcut === 'histogram-visible' && event.repeat) return;
+                if (event.repeat) return;
                 document.getElementById(menuShortcut)?.click();
                 return;
             }
@@ -599,11 +714,9 @@ document.addEventListener("DOMContentLoaded", async function () {
             const currentIndex = findTickerIndex_v2(sortedTickers, ticker);
             if (currentIndex === -1) return;
 
-            switch (event.key) {
+            switch (event.key.length === 1 ? event.key.toLowerCase() : event.key) {
                 // Ticker navigation
                 case "ArrowLeft":
-                case "a":
-                case "A":
                     if (currentIndex > 0) {
                         const newTicker = sortedTickers[currentIndex - 1];
                         console.log(`🔄 Navigating to: ${newTicker}`);
@@ -613,8 +726,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                     break;
 
                 case "ArrowRight":
-                case "d":
-                case "D":
                     if (currentIndex < sortedTickers.length - 1) {
                         const newTicker = sortedTickers[currentIndex + 1];
                         console.log(`🔄 Navigating to: ${newTicker}`);
@@ -624,49 +735,43 @@ document.addEventListener("DOMContentLoaded", async function () {
                     break;
 
                 // Direct chart shortcuts
-                case "1":
+                case "a":
                     loadChart_v2('1W', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "2":
+                case "s":
                     loadChart_v2('1D', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "3":
+                case "d":
                     loadChart_v2('2H', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "4":
+                case "f":
                     loadChart_v2('30M', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "q":
-                case "Q":
+                case "z":
                     loadChart_v2('Rk 1D', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "w":
-                case "W":
+                case "x":
                     loadChart_v2('Rk 1D50', '', ticker); // ½D
                     resetAutoNavigationTimer_v2();
                     break;
-                case "e":
-                case "E":
+                case "c":
                     loadChart_v2('Rk 1D25', '', ticker); // ¼D
                     resetAutoNavigationTimer_v2();
                     break;
-                case "r":
-                case "R":
+                case "v":
                     loadChart_v2('Rk 2H', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "t":
-                case "T":
+                case "b":
                     loadChart_v2('Rk 2H50', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
-                case "y":
-                case "Y":
+                case "n":
                     loadChart_v2('Rk 30M', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
@@ -674,8 +779,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 // Circular backward
                 case ",":
                 case "<":
-                case "z":
-                case "Z": {
+                {
                     const currentIndex = getCurrentChartIndex_v2();
                     const prevIndex = (currentIndex - 1 + chartOrder.length) % chartOrder.length;
                     loadChartByIndex_v2(prevIndex);
@@ -686,8 +790,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 // Circular forward
                 case ".":
                 case ">":
-                case "x":
-                case "X": {
+                {
                     const currentIndex = getCurrentChartIndex_v2();
                     const nextIndex = (currentIndex + 1) % chartOrder.length;
                     loadChartByIndex_v2(nextIndex);

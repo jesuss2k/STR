@@ -6,6 +6,60 @@
     <title>STR</title>
     <link rel="stylesheet" href="css/indexpages.css">
     <script src="js/site-theme.js"></script>
+    <style>
+        #key-trace {
+            position: fixed;
+            right: 12px;
+            bottom: 12px;
+            z-index: 100;
+            width: min(320px, calc(100vw - 24px));
+            box-sizing: border-box;
+            padding: 12px 16px;
+            border: 1px solid #555;
+            border-radius: 6px;
+            background: #171717;
+            color: #f2f2f2;
+            box-shadow: 0 4px 16px rgb(0 0 0 / 45%);
+            font: 14px/1.5 Arial, sans-serif;
+        }
+
+        #key-trace[hidden] {
+            display: none;
+        }
+
+        #key-trace h2 {
+            margin: 0 0 6px;
+            font-size: 16px;
+        }
+
+        #key-trace dl {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 2px 12px;
+            margin: 0;
+        }
+
+        #key-trace dt {
+            color: #aaa;
+        }
+
+        #key-trace dd {
+            margin: 0;
+            overflow-wrap: anywhere;
+            font-family: Consolas, monospace;
+        }
+
+        html[data-theme="light"] #key-trace {
+            border-color: #c8cfd6;
+            background: #fff;
+            color: #252a30;
+            box-shadow: 0 4px 16px rgb(0 0 0 / 18%);
+        }
+
+        html[data-theme="light"] #key-trace dt {
+            color: #59636e;
+        }
+    </style>
 </head>
 <body>
     <!-- Home Header todo: poner la hora desde un JSON-->
@@ -244,5 +298,52 @@
     <footer>
         <p>&copy; 2025</p>
     </footer>
+    <aside id="key-trace" aria-label="Keyboard key trace" aria-live="polite" hidden>
+        <h2>Key pressed</h2>
+        <dl>
+            <dt>Key</dt>
+            <dd id="key-trace-key"></dd>
+            <dt>Physical code</dt>
+            <dd id="key-trace-code"></dd>
+            <dt>Modifiers</dt>
+            <dd id="key-trace-modifiers"></dd>
+            <dt>Numeric code</dt>
+            <dd id="key-trace-numeric"></dd>
+            <dt>Location</dt>
+            <dd id="key-trace-location"></dd>
+        </dl>
+    </aside>
+    <script>
+        (() => {
+            const trace = document.getElementById('key-trace');
+            const locationNames = ['Standard', 'Left', 'Right', 'Numpad'];
+            let hideTimer;
+
+            document.addEventListener('keydown', event => {
+                const modifiers = [
+                    event.ctrlKey && 'Ctrl',
+                    event.altKey && 'Alt',
+                    event.shiftKey && 'Shift',
+                    event.metaKey && 'Meta'
+                ].filter(Boolean);
+
+                document.getElementById('key-trace-key').textContent =
+                    event.key === ' ' ? 'Space' : event.key;
+                document.getElementById('key-trace-code').textContent = event.code || 'Unavailable';
+                document.getElementById('key-trace-modifiers').textContent =
+                    modifiers.length ? modifiers.join(' + ') : 'None';
+                document.getElementById('key-trace-numeric').textContent =
+                    String(event.keyCode || 'Unavailable');
+                document.getElementById('key-trace-location').textContent =
+                    locationNames[event.location] || String(event.location);
+
+                trace.hidden = false;
+                window.clearTimeout(hideTimer);
+                hideTimer = window.setTimeout(() => {
+                    trace.hidden = true;
+                }, 5000);
+            });
+        })();
+    </script>
 </body>
 </html>
