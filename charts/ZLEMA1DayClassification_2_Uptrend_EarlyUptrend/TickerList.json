@@ -1,6 +1,7 @@
 [
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.4,"ZLEMA Slope":0.71,"ticker":"CAVA","dayChange":-8.31,"weekChange":-3.25,"monthChange":-3.25,"rsi_14":50.6,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":24.23},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.42,"ZLEMA Slope":0.79,"ticker":"HII","dayChange":-5.5,"weekChange":-9.34,"monthChange":-9.34,"rsi_14":50.7,"EMAs.":"O X O O","ZLEMAs":"O X ","weekRange":15.6},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":0.94,"ZLEMA Slope":0.79,"ticker":"KNSA","dayChange":-7.65,"weekChange":-3.76,"monthChange":-3.76,"rsi_14":55.0,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":84.2},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.59,"ZLEMA Slope":0.55,"ticker":"KYMR","dayChange":-7.34,"weekChange":-0.3,"monthChange":-0.3,"rsi_14":59.7,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":85.54}
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.45,"ZLEMA Slope":0.71,"ticker":"CAVA","dayChange":-6.91,"weekChange":-1.77,"monthChange":-1.77,"rsi_14":52.3,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":25.8},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.66,"ZLEMA Slope":0.8,"ticker":"HII","dayChange":-4.76,"weekChange":-8.64,"monthChange":-8.64,"rsi_14":52.0,"EMAs.":"O X O O","ZLEMAs":"O X ","weekRange":16.69},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":0.61,"ZLEMA Slope":0.76,"ticker":"J","dayChange":-6.88,"weekChange":-3.58,"monthChange":-3.58,"rsi_14":52.4,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":77.08},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.11,"ZLEMA Slope":0.8,"ticker":"KNSA","dayChange":-7.01,"weekChange":-3.1,"monthChange":-3.1,"rsi_14":55.8,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":85.2},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.64,"ZLEMA Slope":0.55,"ticker":"KYMR","dayChange":-7.22,"weekChange":-0.17,"monthChange":-0.17,"rsi_14":59.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":85.74}
 ]
