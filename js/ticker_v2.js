@@ -25,10 +25,11 @@ document.addEventListener("DOMContentLoaded", async function () {
             <dt>Right Arrow / 6</dt><dd>Next ticker</dd>
             <dt>A / S / D / F</dt><dd>Switch to 1W / 1D / 2h / 30m chart</dd>
             <dt>Z / X / C / V / B / N</dt><dd>Switch to the corresponding Renko chart</dd>
+            <dt>9</dt><dd>Toggle between the matching Standard and Renko charts</dd>
             <dt>, / Up Arrow / 2</dt><dd>Previous chart type</dd>
             <dt>. / Down Arrow / 8</dt><dd>Next chart type</dd>
             <dt>O</dt><dd>Activate the chart render-mode menu</dd>
-            <dt>/</dt><dd>Toggle between Candles and Line</dd>
+            <dt>/ / 5</dt><dd>Toggle between Candles and Line</dd>
             <dt>M</dt><dd>Cycle Candles, Line, ZLEMA, and Heikin Ashi</dd>
             <dt>G</dt><dd>Toggle histogram mode</dd>
             <dt>H</dt><dd>Toggle histogram visibility</dd>
@@ -149,7 +150,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const chartOrder = CHART_ORDER_v2;
 
     const autoNavigationPairs = {
-        '1W': 'Rk 1D50',
+        '1W': 'Rk 1D',
         '1D': 'Rk 1D25',
         '2H': 'Rk 2H50',
         '30M': 'Rk 30M'
@@ -777,6 +778,21 @@ document.addEventListener("DOMContentLoaded", async function () {
                     loadChart_v2('Rk 30M', '', ticker);
                     resetAutoNavigationTimer_v2();
                     break;
+                case "9": {
+                    if (event.repeat) break;
+
+                    const selectedChart = getSelectedChart_v2();
+                    const nextChart = autoNavigationPairs[selectedChart] ||
+                        autoNavigationReversePairs[selectedChart] ||
+                        ({ 'Rk 1D': '1W', 'Rk 2H': '2H' })[selectedChart];
+                    if (nextChart) {
+                        loadChart_v2(nextChart, '', ticker);
+                        resetAutoNavigationTimer_v2();
+                    } else {
+                        console.error(`Unable to toggle Standard/Renko chart for ${selectedChart}.`);
+                    }
+                    break;
+                }
 
                 // Circular backward
                 case ",":
