@@ -54,6 +54,7 @@
 {"ticker":"APP","positionStatus":"Open","price":525.0,"quantity":2,"leverage":0},
 {"ticker":"AR","positionStatus":"Closed","price":26.6003,"quantity":17,"leverage":0},
 {"ticker":"AR","positionStatus":"Open","price":30.73,"quantity":20,"leverage":0},
+{"ticker":"ARM","positionStatus":"Open","price":190.0,"quantity":11,"leverage":0},
 {"ticker":"ASML","positionStatus":"Closed","price":1005.685,"quantity":1,"leverage":0},
 {"ticker":"ASPN","positionStatus":"Closed","price":6.003,"quantity":30,"leverage":0},
 {"ticker":"ATXS","positionStatus":"Closed","price":12.2201,"quantity":100,"leverage":0},

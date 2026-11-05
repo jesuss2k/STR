@@ -8,6 +8,7 @@
 {"ticker":"ACMR","dayChange":-1.99,"weekChange":-2.29,"monthChange":-2.29,"rsi_14":28.0,"EMAs.":0,"ZLEMAs":0,"weekRange":16.18},
 {"ticker":"NBIS","dayChange":-6.67,"weekChange":-8.19,"monthChange":-8.19,"rsi_14":34.6,"EMAs.":0,"ZLEMAs":0,"weekRange":30.04},
 {"ticker":"APLD","dayChange":-6.74,"weekChange":-6.76,"monthChange":-6.76,"rsi_14":36.5,"EMAs.":0,"ZLEMAs":0,"weekRange":1.59},
+{"ticker":"ARM","dayChange":-5.28,"weekChange":-6.88,"monthChange":-6.88,"rsi_14":32.6,"EMAs.":0,"ZLEMAs":0,"weekRange":26.02},
 {"ticker":"NOW","dayChange":-0.32,"weekChange":3.51,"monthChange":3.51,"rsi_14":30.7,"EMAs.":0,"ZLEMAs":0,"weekRange":29.16},
 {"ticker":"CAT","dayChange":-5.23,"weekChange":-5.05,"monthChange":-5.05,"rsi_14":22.7,"EMAs.":0,"ZLEMAs":0,"weekRange":10.11},
 {"ticker":"MARA","dayChange":-4.05,"weekChange":1.48,"monthChange":1.48,"rsi_14":34.1,"EMAs.":0,"ZLEMAs":0,"weekRange":4.68},

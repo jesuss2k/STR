@@ -109,7 +109,6 @@
 {"Dir":"O","ticker":"AMD","dayChange":1.01,"weekChange":-3.17,"monthChange":-3.17,"rsi_14":39.5,"EMAs.":0,"ZLEMAs":0,"weekRange":63.91},
 {"Dir":"O","ticker":"AMZD","dayChange":-5.9,"weekChange":-9.97,"monthChange":-9.97,"rsi_14":39.6,"EMAs.":0,"ZLEMAs":0,"weekRange":11.88},
 {"Dir":"O","ticker":"ANET","dayChange":5.04,"weekChange":5.7,"monthChange":5.7,"rsi_14":45.1,"EMAs.":0,"ZLEMAs":0,"weekRange":62.16},
-{"Dir":"O","ticker":"ARM","dayChange":-5.28,"weekChange":-6.88,"monthChange":-6.88,"rsi_14":32.6,"EMAs.":0,"ZLEMAs":0,"weekRange":26.02},
 {"Dir":"O","ticker":"ASML","dayChange":-3.6,"weekChange":-4.44,"monthChange":-4.44,"rsi_14":34.7,"EMAs.":0,"ZLEMAs":0,"weekRange":52.21},
 {"Dir":"O","ticker":"ASPN","dayChange":-3.23,"weekChange":-4.95,"monthChange":-4.95,"rsi_14":39.5,"EMAs.":0,"ZLEMAs":0,"weekRange":43.1},
 {"Dir":"O","ticker":"ASTS","dayChange":-4.12,"weekChange":-13.06,"monthChange":-13.06,"rsi_14":30.5,"EMAs.":0,"ZLEMAs":0,"weekRange":0.76},
