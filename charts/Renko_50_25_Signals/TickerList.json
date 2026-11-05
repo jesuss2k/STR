@@ -1,7 +1,7 @@
 [
 {"ticker":"CSX","dayChange":2.71,"weekChange":0.2,"monthChange":0.2,"rsi_14":62.7,"EMAs.":0,"ZLEMAs":0,"weekRange":92.46},
 {"ticker":"DGX","dayChange":3.49,"weekChange":1.53,"monthChange":1.53,"rsi_14":66.2,"EMAs.":0,"ZLEMAs":0,"weekRange":98.47},
-{"ticker":"HBX_MC","dayChange":0.06,"weekChange":3.44,"monthChange":3.44,"rsi_14":67.2,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":77.95},
+{"ticker":"HBX_MC","dayChange":0.0,"weekChange":3.37,"monthChange":3.37,"rsi_14":67.2,"EMAs.":"X X X X","ZLEMAs":"X X ","weekRange":77.8},
 {"ticker":"IQV","dayChange":0.46,"weekChange":-1.32,"monthChange":-1.32,"rsi_14":49.4,"EMAs.":0,"ZLEMAs":0,"weekRange":84.07},
 {"ticker":"KNSA","dayChange":3.03,"weekChange":4.21,"monthChange":4.21,"rsi_14":65.4,"EMAs.":0,"ZLEMAs":0,"weekRange":96.16},
 {"ticker":"MRK","dayChange":3.92,"weekChange":0.55,"monthChange":0.55,"rsi_14":56.7,"EMAs.":0,"ZLEMAs":0,"weekRange":90.93},
