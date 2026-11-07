@@ -1,3 +1,6 @@
 [
+{"Stage":"Base","Sub Stage":"Base","Trend":"-","Sub #":1,"ATR Dist":1.31,"ZLEMA Slope":0.31,"ticker":"FIVE","dayChange":0.01,"weekChange":-0.26,"monthChange":-0.26,"rsi_14":56.7,"EMAs.":"X X X O","ZLEMAs":"O X ","weekRange":80.51},
+{"Stage":"Base","Sub Stage":"Base","Trend":"-","Sub #":1,"ATR Dist":2.68,"ZLEMA Slope":0.04,"ticker":"INSM","dayChange":0.01,"weekChange":1.63,"monthChange":1.63,"rsi_14":60.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":19.64},
+{"Stage":"Base","Sub Stage":"Base","Trend":"-","Sub #":1,"ATR Dist":1.05,"ZLEMA Slope":-0.36,"ticker":"KC","dayChange":0.59,"weekChange":10.3,"monthChange":10.3,"rsi_14":49.1,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":9.13},
 {"Stage":"Base","Sub Stage":"Base","Trend":"Choppy","Sub #":1,"ATR Dist":1.32,"ZLEMA Slope":0.09,"ticker":"NTRS","dayChange":0.02,"weekChange":2.15,"monthChange":2.15,"rsi_14":52.6,"EMAs.":"X X X O","ZLEMAs":"O X ","weekRange":69.05}
 ]

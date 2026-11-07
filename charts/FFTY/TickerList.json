@@ -16,7 +16,7 @@
 {"Rank":15,"WeightPct":3.03,"ticker":"ANET","dayChange":7.31,"weekChange":1.15,"monthChange":1.15,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":54.7},
 {"Rank":16,"WeightPct":2.94,"ticker":"NTAP","dayChange":-0.11,"weekChange":-15.06,"monthChange":-15.06,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":51.3},
 {"Rank":17,"WeightPct":2.85,"ticker":"ZETA","dayChange":0,"weekChange":0,"monthChange":0,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":0},
-{"Rank":18,"WeightPct":2.85,"ticker":"FIVE","dayChange":-0.4,"weekChange":-0.27,"monthChange":-0.27,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":80.49},
+{"Rank":18,"WeightPct":2.85,"ticker":"FIVE","dayChange":0.01,"weekChange":-0.26,"monthChange":-0.26,"rsi_14":56.7,"EMAs.":"X X X O","ZLEMAs":"O X ","weekRange":80.51},
 {"Rank":19,"WeightPct":2.76,"ticker":"OSCR","dayChange":-7.63,"weekChange":0.92,"monthChange":0.92,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":71.77},
 {"Rank":20,"WeightPct":2.71,"ticker":"SLDE","dayChange":-1.85,"weekChange":-6.46,"monthChange":-6.46,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":77.16},
 {"Rank":21,"WeightPct":2.36,"ticker":"AMD","dayChange":11.04,"weekChange":-11.05,"monthChange":-11.05,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":55.46},

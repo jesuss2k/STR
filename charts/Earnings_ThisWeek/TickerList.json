@@ -23,7 +23,7 @@
 {"EarningsDate":"2026-08-19","Priority":1,"ticker":"VIK","dayChange":1.53,"weekChange":0.01,"monthChange":0.01,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":57.68},
 {"EarningsDate":"2026-08-19","Priority":2,"ticker":"BULL","dayChange":2.29,"weekChange":-4.84,"monthChange":-4.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":7.16},
 {"EarningsDate":"2026-08-19","Priority":2,"ticker":"COTY","dayChange":3.58,"weekChange":19.12,"monthChange":19.12,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":97.81},
-{"EarningsDate":"2026-08-19","Priority":2,"ticker":"KC","dayChange":4.28,"weekChange":9.65,"monthChange":9.65,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":8.68},
+{"EarningsDate":"2026-08-19","Priority":2,"ticker":"KC","dayChange":0.59,"weekChange":10.3,"monthChange":10.3,"rsi_14":49.1,"EMAs.":"O O X X","ZLEMAs":"O X ","weekRange":9.13},
 {"EarningsDate":"2026-08-19","Priority":2,"ticker":"NDSN","dayChange":-0.2,"weekChange":-3.97,"monthChange":-3.97,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":74.74},
 {"EarningsDate":"2026-08-19","Priority":2,"ticker":"WB","dayChange":1.08,"weekChange":5.15,"monthChange":5.15,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":8.39},
 {"EarningsDate":"2026-08-19","Priority":2,"ticker":"YMM","dayChange":2.58,"weekChange":9.44,"monthChange":9.44,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":30.26},
