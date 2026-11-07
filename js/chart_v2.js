@@ -458,6 +458,76 @@ function bindMenuActions_v2(ticker) {
     }
 }
 
+function initChartRenderModeGesture_v2(ticker) {
+    const chartContainer = document.getElementById('plotly-div');
+    if (!chartContainer) return;
+
+    let touchStart = null;
+    let previousTap = null;
+    let lastTouchToggleAt = 0;
+    const maxTapDistance = 32;
+
+    chartContainer.addEventListener('touchstart', event => {
+        if (event.touches.length !== 1) {
+            touchStart = null;
+            previousTap = null;
+            return;
+        }
+
+        const touch = event.touches[0];
+        touchStart = { x: touch.clientX, y: touch.clientY };
+    }, { passive: true });
+
+    chartContainer.addEventListener('touchmove', event => {
+        if (!touchStart || event.touches.length !== 1) {
+            touchStart = null;
+            previousTap = null;
+            return;
+        }
+
+        const touch = event.touches[0];
+        if (Math.hypot(touch.clientX - touchStart.x, touch.clientY - touchStart.y) > maxTapDistance) {
+            touchStart = null;
+            previousTap = null;
+        }
+    }, { passive: true });
+
+    chartContainer.addEventListener('touchend', event => {
+        if (!touchStart || event.changedTouches.length !== 1) {
+            touchStart = null;
+            return;
+        }
+
+        const touch = event.changedTouches[0];
+        const tap = { x: touch.clientX, y: touch.clientY, time: Date.now() };
+        const isDoubleTap = previousTap &&
+            tap.time - previousTap.time <= 350 &&
+            Math.hypot(tap.x - previousTap.x, tap.y - previousTap.y) <= maxTapDistance;
+        touchStart = null;
+
+        if (isDoubleTap) {
+            event.preventDefault();
+            previousTap = null;
+            lastTouchToggleAt = tap.time;
+            toggleCandlesLine_v2(ticker);
+        } else {
+            previousTap = tap;
+        }
+    }, { passive: false });
+
+    chartContainer.addEventListener('touchcancel', () => {
+        touchStart = null;
+        previousTap = null;
+    }, { passive: true });
+
+    chartContainer.addEventListener('dblclick', event => {
+        if (Date.now() - lastTouchToggleAt < 500) return;
+        if (!(event.target instanceof Element) ||
+            event.target.closest('a, button, input, select, textarea')) return;
+        toggleCandlesLine_v2(ticker);
+    });
+}
+
 // ============================ Chart Creation Functions ============================
 
 function createMainChart(container) {
@@ -2280,6 +2350,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     initializeMenuLogic_v2();
     bindMenuActions_v2(ticker);
+    initChartRenderModeGesture_v2(ticker);
     updateMenuCaption_v2(ticker);
     updateActiveMenuLinks_v2(getSelectedChart_v2());
 
@@ -2369,13 +2440,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             event.preventDefault();
             if (event.repeat) return;
 
-            const newMode = getRenderMode_v2() === 'LINE' ? 'CANDLES' : 'LINE';
-            setRenderMode_v2(newMode);
-            loadTradingViewChart_v2(ticker);
-            updateLineMenuLabel_v2(newMode);
-            updateMenuCaption_v2(ticker);
-            updateActiveMenuLinks_v2(getSelectedChart_v2());
-            updateOverlay_v2(ticker);
+            toggleCandlesLine_v2(ticker);
             return;
         }
 
@@ -2402,6 +2467,18 @@ function setRenderMode_v2(mode) {
         : mode === 'HEIKIN_ASHI' ? 'HEIKIN_ASHI'
         : 'CANDLES';
     localStorage.setItem('chartRenderMode_v2', normalized);
+}
+
+function toggleCandlesLine_v2(ticker) {
+    if (getSelectedChart_v2().startsWith('Rk ')) return;
+
+    const newMode = getRenderMode_v2() === 'LINE' ? 'CANDLES' : 'LINE';
+    setRenderMode_v2(newMode);
+    loadTradingViewChart_v2(ticker);
+    updateLineMenuLabel_v2(newMode);
+    updateMenuCaption_v2(ticker);
+    updateActiveMenuLinks_v2(getSelectedChart_v2());
+    updateOverlay_v2(ticker);
 }
 
 function toggleRenderMode_v2() {
