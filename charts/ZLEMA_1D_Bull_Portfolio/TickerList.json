@@ -68,7 +68,7 @@
 {"ticker":"GPN","dayChange":2.55,"weekChange":0.58,"monthChange":0.58,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":90.24},
 {"ticker":"SPXU","dayChange":-0.74,"weekChange":7.56,"monthChange":7.56,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":20.82},
 {"ticker":"PSTG","dayChange":4.48,"weekChange":11.26,"monthChange":14.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":27.75},
-{"ticker":"INSM","dayChange":5.19,"weekChange":1.62,"monthChange":1.62,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":19.63},
+{"ticker":"INSM","dayChange":0.01,"weekChange":1.63,"monthChange":1.63,"rsi_14":60.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":19.64},
 {"ticker":"DRN","dayChange":-2.04,"weekChange":5.22,"monthChange":5.22,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.81},
 {"ticker":"NVDD","dayChange":0.23,"weekChange":8.83,"monthChange":8.83,"rsi_14":68.6,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":49.9},
 {"ticker":"CPB","dayChange":-1.28,"weekChange":7.98,"monthChange":7.98,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":33.71},

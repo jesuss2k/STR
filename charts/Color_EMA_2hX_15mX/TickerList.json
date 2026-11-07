@@ -1,3 +1,4 @@
 [
-{"Timestamp":"2026-11-06","EMAs":"O X X X","ticker":"NVDD","dayChange":0.23,"weekChange":8.83,"monthChange":8.83,"rsi_14":68.6,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":49.9}
+{"Timestamp":"2026-11-06","EMAs":"O X X X","ticker":"NVDD","dayChange":0.23,"weekChange":8.83,"monthChange":8.83,"rsi_14":68.6,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":49.9},
+{"Timestamp":"2026-11-05","EMAs":"O X X X","ticker":"INSM","dayChange":0.01,"weekChange":1.63,"monthChange":1.63,"rsi_14":60.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":19.64}
 ]

@@ -8,7 +8,7 @@
 {"ticker":"DELL","dayChange":3.67,"weekChange":-22.57,"monthChange":-22.57,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":44.99},
 {"ticker":"FTNT","dayChange":-3.0,"weekChange":-12.67,"monthChange":-12.67,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":36.65},
 {"ticker":"HOOD","dayChange":3.21,"weekChange":-4.8,"monthChange":-4.8,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":22.82},
-{"ticker":"IBKR","dayChange":4.25,"weekChange":-1.4,"monthChange":-1.4,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":42.39},
+{"ticker":"IBKR","dayChange":-0.03,"weekChange":-1.43,"monthChange":-1.43,"rsi_14":39.2,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":42.34},
 {"ticker":"MMC","dayChange":-1.58,"weekChange":-1.78,"monthChange":-1.52,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.04},
 {"ticker":"NET","dayChange":9.91,"weekChange":-4.26,"monthChange":-4.26,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":51.97},
 {"ticker":"OKTA","dayChange":-1.44,"weekChange":-18.99,"monthChange":-18.99,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":61.52},

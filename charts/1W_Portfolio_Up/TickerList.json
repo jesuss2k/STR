@@ -56,7 +56,7 @@
 {"ticker":"OMC","dayChange":-0.83,"weekChange":6.29,"monthChange":6.29,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":86.25},
 {"ticker":"PHR","dayChange":-0.71,"weekChange":1.45,"monthChange":1.45,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":31.22},
 {"ticker":"YEXT","dayChange":-1.05,"weekChange":5.29,"monthChange":5.29,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":74.67},
-{"ticker":"INSM","dayChange":5.19,"weekChange":1.62,"monthChange":1.62,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":19.63},
+{"ticker":"INSM","dayChange":0.01,"weekChange":1.63,"monthChange":1.63,"rsi_14":60.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":19.64},
 {"ticker":"HLT","dayChange":0.22,"weekChange":3.79,"monthChange":3.79,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":90.72},
 {"ticker":"LIF","dayChange":1.07,"weekChange":6.59,"monthChange":6.59,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":17.57},
 {"ticker":"UAL","dayChange":2.04,"weekChange":8.15,"monthChange":8.15,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":51.91},

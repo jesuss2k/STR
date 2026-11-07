@@ -1,4 +1,8 @@
 [
+{"ticker":"FIVE","EMAs":"X X X O"},
+{"ticker":"IBKR","EMAs":"O O O X"},
+{"ticker":"INSM","EMAs":"O X X X"},
+{"ticker":"KC","EMAs":"O O X X"},
 {"ticker":"LULU","EMAs":"O X X X"},
 {"ticker":"MELI","EMAs":"O O O O"},
 {"ticker":"META","EMAs":"X O O O"},

@@ -34,7 +34,7 @@
 {"Timestamp":"2026-11-04","ticker":"BBY","dayChange":0.23,"weekChange":4.16,"monthChange":4.16,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":91.93},
 {"Timestamp":"2026-11-04","ticker":"GDX","dayChange":2.16,"weekChange":13.63,"monthChange":13.63,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":37.65},
 {"Timestamp":"2026-11-04","ticker":"TSLS","dayChange":-4.3,"weekChange":10.1,"monthChange":10.1,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":39.82},
-{"Timestamp":"2026-11-04","ticker":"INSM","dayChange":5.19,"weekChange":1.62,"monthChange":1.62,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":19.63},
+{"Timestamp":"2026-11-04","ticker":"INSM","dayChange":0.01,"weekChange":1.63,"monthChange":1.63,"rsi_14":60.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":19.64},
 {"Timestamp":"2026-11-04","ticker":"GRBK","dayChange":-1.64,"weekChange":6.51,"monthChange":6.51,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":23.69},
 {"Timestamp":"2026-11-04","ticker":"PFGC","dayChange":-1.99,"weekChange":8.53,"monthChange":8.53,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":72.79},
 {"Timestamp":"2026-11-04","ticker":"DUOL","dayChange":2.17,"weekChange":21.91,"monthChange":21.91,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":57.8},

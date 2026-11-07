@@ -1,5 +1,5 @@
 [
-{"Rank":1,"WeightPct":3.85,"ticker":"NTRA","dayChange":-14.59,"weekChange":-25.01,"monthChange":-25.01,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.57},
+{"Rank":1,"WeightPct":3.85,"ticker":"NTRA","dayChange":0.02,"weekChange":-25.0,"monthChange":-25.0,"rsi_14":28.6,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":50.6},
 {"Rank":2,"WeightPct":3.62,"ticker":"RBRK","dayChange":0.01,"weekChange":-14.82,"monthChange":-14.82,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":65.01},
 {"Rank":3,"WeightPct":3.62,"ticker":"WT","dayChange":2.47,"weekChange":-5.94,"monthChange":-5.94,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":57.75},
 {"Rank":4,"WeightPct":3.54,"ticker":"TGTX","dayChange":3.18,"weekChange":-2.21,"monthChange":-2.21,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":89.75},

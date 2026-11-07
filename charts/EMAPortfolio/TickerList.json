@@ -1,4 +1,6 @@
 [
+{"EMAs":"O O O X","Group":"40:80 ","ticker":"IBKR","dayChange":-0.03,"weekChange":-1.43,"monthChange":-1.43,"rsi_14":39.2,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":42.34},
 {"EMAs":"X O O O","Group":"40:80 ","ticker":"MU","dayChange":0.0,"weekChange":-22.01,"monthChange":-22.01,"rsi_14":31.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":46.82},
+{"EMAs":"O X X X","Group":"80:160","ticker":"INSM","dayChange":0.01,"weekChange":1.63,"monthChange":1.63,"rsi_14":60.9,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":19.64},
 {"EMAs":"O O O O","Group":"160:320","ticker":"OPRA","dayChange":-0.61,"weekChange":-5.06,"monthChange":-5.06,"rsi_14":32.3,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":32.19}
 ]

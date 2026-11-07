@@ -47,7 +47,7 @@
 {"Size":"","ticker":"MTZ","dayChange":9.54,"weekChange":-6.43,"monthChange":-6.43,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":9.05},
 {"Size":"","ticker":"MU","dayChange":0.0,"weekChange":-22.01,"monthChange":-22.01,"rsi_14":31.3,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":46.82},
 {"Size":"","ticker":"NEM","dayChange":1.0,"weekChange":13.41,"monthChange":13.41,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":73.34},
-{"Size":"","ticker":"NTRA","dayChange":-14.59,"weekChange":-25.01,"monthChange":-25.01,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.57},
+{"Size":"","ticker":"NTRA","dayChange":0.02,"weekChange":-25.0,"monthChange":-25.0,"rsi_14":28.6,"EMAs.":"X O O O","ZLEMAs":"O O ","weekRange":50.6},
 {"Size":"","ticker":"NVT","dayChange":7.97,"weekChange":-15.69,"monthChange":-15.69,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":14.22},
 {"Size":"","ticker":"OKTA","dayChange":-1.44,"weekChange":-18.99,"monthChange":-18.99,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":61.52}
 ]

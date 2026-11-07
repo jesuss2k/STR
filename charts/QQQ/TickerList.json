@@ -93,7 +93,7 @@
 {"Rank":92,"WeightPct":0.15,"ticker":"PAYX","dayChange":-2.04,"weekChange":4.41,"monthChange":4.41,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":74.32},
 {"Rank":93,"WeightPct":0.15,"ticker":"WDAY","dayChange":-3.63,"weekChange":-2.49,"monthChange":-2.49,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":65.28},
 {"Rank":94,"WeightPct":0.15,"ticker":"TRI","dayChange":-4.69,"weekChange":-4.8,"monthChange":-4.8,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":53.38},
-{"Rank":95,"WeightPct":0.15,"ticker":"ODFL","dayChange":-3.31,"weekChange":-4.43,"monthChange":-4.43,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":30.88},
+{"Rank":95,"WeightPct":0.15,"ticker":"ODFL","dayChange":-0.03,"weekChange":-4.46,"monthChange":-4.46,"rsi_14":33.0,"EMAs.":"O O O O","ZLEMAs":"O O ","weekRange":30.84},
 {"Rank":96,"WeightPct":0.14,"ticker":"AXON","dayChange":-18.18,"weekChange":-26.83,"monthChange":-26.83,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":1.68},
 {"Rank":97,"WeightPct":0.14,"ticker":"ROP","dayChange":-2.92,"weekChange":2.14,"monthChange":2.14,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":84.78},
 {"Rank":98,"WeightPct":0.13,"ticker":"DXCM","dayChange":-5.98,"weekChange":-3.5,"monthChange":-3.5,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":65.67},
