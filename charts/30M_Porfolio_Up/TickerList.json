@@ -1,5 +1,5 @@
 [
-{"Timestamp":"2026-01-22","ticker":"ATXS","dayChange":0.64,"weekChange":0.88,"monthChange":-3.9,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":34.86},
+{"Timestamp":"2026-01-22","ticker":"ATXS","dayChange":0.64,"weekChange":0.88,"monthChange":-3.9,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":32.38},
 {"Timestamp":"2026-04-13","ticker":"PSTG","dayChange":4.48,"weekChange":11.26,"monthChange":14.84,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":27.75},
 {"Timestamp":"2026-09-30","ticker":"WBD","dayChange":0.03,"weekChange":0.03,"monthChange":0.0,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":99.56},
 {"Timestamp":"2026-10-27","ticker":"MRNA","dayChange":5.27,"weekChange":14.64,"monthChange":14.64,"rsi_14":63.7,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":94.57},
@@ -43,7 +43,7 @@
 {"Timestamp":"2026-11-06","ticker":"NET","dayChange":9.86,"weekChange":-4.3,"monthChange":-4.3,"rsi_14":39.3,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":51.91},
 {"Timestamp":"2026-11-06","ticker":"GPN","dayChange":2.55,"weekChange":0.58,"monthChange":0.58,"rsi_14":66.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":90.24},
 {"Timestamp":"2026-11-06","ticker":"MAMA","dayChange":3.16,"weekChange":5.68,"monthChange":5.68,"rsi_14":52.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":31.49},
-{"Timestamp":"2026-11-06","ticker":"KYMR","dayChange":2.82,"weekChange":4.03,"monthChange":4.03,"rsi_14":65.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":92.28},
+{"Timestamp":"2026-11-06","ticker":"KYMR","dayChange":2.82,"weekChange":4.03,"monthChange":4.03,"rsi_14":65.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":92.08},
 {"Timestamp":"2026-11-06","ticker":"ACIW","dayChange":0.84,"weekChange":6.53,"monthChange":6.53,"rsi_14":77.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":87.7},
 {"Timestamp":"2026-11-06","ticker":"RGTI","dayChange":19.29,"weekChange":4.44,"monthChange":4.44,"rsi_14":45.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":10.03},
 {"Timestamp":"2026-11-06","ticker":"LIF","dayChange":1.07,"weekChange":6.59,"monthChange":6.59,"rsi_14":60.7,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":17.57},

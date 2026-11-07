@@ -39,7 +39,7 @@
 {"Group":"200","ticker":"ASML","dayChange":5.02,"weekChange":-9.01,"monthChange":-9.01,"rsi_14":34.6,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":45.42},
 {"Group":"12","ticker":"HUMA","dayChange":13.32,"weekChange":9.0,"monthChange":9.0,"rsi_14":49.7,"EMAs.":"O O O X","ZLEMAs":"X X X","weekRange":9.36},
 {"Group":"12","ticker":"HNST","dayChange":5.18,"weekChange":11.99,"monthChange":11.99,"rsi_14":46.4,"EMAs.":"X O X X","ZLEMAs":"X O X","weekRange":65.99},
-{"Group":"12","ticker":"MRK","dayChange":-0.14,"weekChange":-1.87,"monthChange":-1.87,"rsi_14":51.3,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":85.78},
+{"Group":"12","ticker":"MRK","dayChange":-0.14,"weekChange":-1.87,"monthChange":-1.87,"rsi_14":51.3,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":85.67},
 {"Group":"12","ticker":"RGTI","dayChange":19.29,"weekChange":4.44,"monthChange":4.44,"rsi_14":45.5,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":10.03},
 {"Group":"12","ticker":"MAMA","dayChange":3.16,"weekChange":5.68,"monthChange":5.68,"rsi_14":52.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":31.49},
 {"Group":"12","ticker":"TYD","dayChange":-0.55,"weekChange":1.21,"monthChange":1.21,"rsi_14":63.6,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":30.83},

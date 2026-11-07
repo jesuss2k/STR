@@ -1,7 +1,6 @@
 [
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.49,"ZLEMA Slope":0.64,"ticker":"CAVA","dayChange":-1.43,"weekChange":0.7,"monthChange":0.7,"rsi_14":55.3,"EMAs.":"O X X O","ZLEMAs":"O X O","weekRange":28.42},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.87,"ZLEMA Slope":0.66,"ticker":"FDX","dayChange":-2.73,"weekChange":-1.64,"monthChange":-1.64,"rsi_14":52.0,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":33.99},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.75,"ZLEMA Slope":0.56,"ticker":"GM","dayChange":-3.55,"weekChange":-1.42,"monthChange":-1.42,"rsi_14":53.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":71.7},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":0.52,"ZLEMA Slope":0.55,"ticker":"J","dayChange":0.9,"weekChange":-3.72,"monthChange":-3.72,"rsi_14":52.0,"EMAs.":"X X O O","ZLEMAs":"X X ","weekRange":76.68},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"Choppy","Sub #":2,"ATR Dist":1.99,"ZLEMA Slope":0.61,"ticker":"REG","dayChange":-1.72,"weekChange":0.51,"monthChange":0.51,"rsi_14":54.1,"EMAs.":"O X X O","ZLEMAs":"O X ","weekRange":48.29}
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.83,"ZLEMA Slope":0.66,"ticker":"FDX","dayChange":-2.73,"weekChange":-1.64,"monthChange":-1.64,"rsi_14":52.0,"EMAs.":"O X O O","ZLEMAs":"O X O","weekRange":33.99},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.39,"ZLEMA Slope":0.54,"ticker":"GM","dayChange":-3.55,"weekChange":-1.42,"monthChange":-1.42,"rsi_14":53.9,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":71.7},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":0.53,"ZLEMA Slope":0.55,"ticker":"J","dayChange":0.92,"weekChange":-3.7,"monthChange":-3.7,"rsi_14":52.0,"EMAs.":"X X O O","ZLEMAs":"X X ","weekRange":76.74},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"Choppy","Sub #":2,"ATR Dist":1.88,"ZLEMA Slope":0.61,"ticker":"REG","dayChange":-1.89,"weekChange":0.34,"monthChange":0.34,"rsi_14":54.1,"EMAs.":"O X X O","ZLEMAs":"O X ","weekRange":47.52}
 ]

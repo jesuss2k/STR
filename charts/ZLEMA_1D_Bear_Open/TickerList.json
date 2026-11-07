@@ -47,7 +47,7 @@
 {"ticker":"EEM","dayChange":2.2,"weekChange":-2.8,"monthChange":-2.8,"rsi_14":34.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":36.22},
 {"ticker":"TSLA","dayChange":4.23,"weekChange":-10.4,"monthChange":-10.4,"rsi_14":42.4,"EMAs.":"O X O O","ZLEMAs":"O O O","weekRange":30.2},
 {"ticker":"SE","dayChange":0.13,"weekChange":2.01,"monthChange":2.01,"rsi_14":33.5,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":4.8},
-{"ticker":"MNDY","dayChange":-6.61,"weekChange":-8.33,"monthChange":-8.33,"rsi_14":42.6,"EMAs.":"O X O O","ZLEMAs":"X O O","weekRange":22.62},
+{"ticker":"MNDY","dayChange":-6.61,"weekChange":-8.33,"monthChange":-8.33,"rsi_14":42.6,"EMAs.":"O X O O","ZLEMAs":"X O O","weekRange":26.84},
 {"ticker":"SOUN","dayChange":-3.52,"weekChange":-2.61,"monthChange":-2.61,"rsi_14":30.8,"EMAs.":"O O O O","ZLEMAs":"O O X","weekRange":2.07},
 {"ticker":"TXN","dayChange":-0.28,"weekChange":-7.8,"monthChange":-7.8,"rsi_14":42.5,"EMAs.":"X X O O","ZLEMAs":"O O O","weekRange":68.74},
 {"ticker":"AR","dayChange":-0.82,"weekChange":-14.26,"monthChange":-14.26,"rsi_14":39.3,"EMAs.":"X X O O","ZLEMAs":"O O O","weekRange":33.77},

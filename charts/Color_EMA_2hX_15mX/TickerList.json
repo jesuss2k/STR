@@ -12,7 +12,7 @@
 {"Timestamp":"2026-11-06","EMAs":"O O X X","ticker":"MAMA","dayChange":3.16,"weekChange":5.68,"monthChange":5.68,"rsi_14":52.7,"EMAs.":"O O X X","ZLEMAs":"O X X","weekRange":31.49},
 {"Timestamp":"2026-11-06","EMAs":"X X X X","ticker":"HLT","dayChange":0.22,"weekChange":3.79,"monthChange":3.79,"rsi_14":67.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":90.72},
 {"Timestamp":"2026-11-06","EMAs":"O X X X","ticker":"LIF","dayChange":1.07,"weekChange":6.59,"monthChange":6.59,"rsi_14":60.7,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":17.57},
-{"Timestamp":"2026-11-06","EMAs":"X X X X","ticker":"KYMR","dayChange":2.82,"weekChange":4.03,"monthChange":4.03,"rsi_14":65.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":92.28},
+{"Timestamp":"2026-11-06","EMAs":"X X X X","ticker":"KYMR","dayChange":2.82,"weekChange":4.03,"monthChange":4.03,"rsi_14":65.4,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":92.08},
 {"Timestamp":"2026-11-06","EMAs":"X X X X","ticker":"DE","dayChange":1.26,"weekChange":-0.57,"monthChange":-0.57,"rsi_14":55.9,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":81.32},
 {"Timestamp":"2026-11-06","EMAs":"X X X X","ticker":"GPN","dayChange":2.55,"weekChange":0.58,"monthChange":0.58,"rsi_14":66.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":90.24},
 {"Timestamp":"2026-11-06","EMAs":"O X X X","ticker":"GE","dayChange":2.7,"weekChange":7.1,"monthChange":7.1,"rsi_14":56.7,"EMAs.":"O X X X","ZLEMAs":"O X X","weekRange":45.3},
