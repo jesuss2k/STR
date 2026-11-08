@@ -3,7 +3,7 @@
 {"EMAs":"X O O O","Group":"O","ticker":"MRVL","dayChange":-0.02,"weekChange":-28.12,"monthChange":-28.12,"rsi_14":26.2,"EMAs.":"X O O O","ZLEMAs":"O O O","weekRange":27.19},
 {"EMAs":"O O O O","Group":"O","ticker":"NBIS","dayChange":-0.04,"weekChange":-16.02,"monthChange":-16.02,"rsi_14":34.0,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":24.71},
 {"EMAs":"O O O O","Group":"O","ticker":"ON","dayChange":-0.08,"weekChange":-11.73,"monthChange":-11.73,"rsi_14":34.1,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":20.69},
-{"EMAs":"O O X O","Group":"O","ticker":"NFLX","dayChange":-4.72,"weekChange":-2.67,"monthChange":-2.67,"rsi_14":33.6,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":0},
 {"EMAs":"O O O O","Group":"O","ticker":"MELI","dayChange":0.0,"weekChange":-7.05,"monthChange":-7.05,"rsi_14":30.9,"EMAs.":"O O O O","ZLEMAs":"O O O","weekRange":4.69},
+{"EMAs":"O O X O","Group":"O","ticker":"NFLX","dayChange":-4.72,"weekChange":-2.67,"monthChange":-2.67,"rsi_14":33.6,"EMAs.":"O O X O","ZLEMAs":"O O X","weekRange":0},
 {"EMAs":"O X X X","Group":"X","ticker":"LULU","dayChange":-0.09,"weekChange":3.22,"monthChange":3.22,"rsi_14":61.4,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":14.98}
 ]
