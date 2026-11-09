@@ -6,7 +6,7 @@
 {"ticker":"LABU","dayChange":7.25,"weekChange":-9.49,"monthChange":-9.49,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":47.09},
 {"ticker":"APP","dayChange":9.86,"weekChange":71.21,"monthChange":71.21,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":32.38},
 {"ticker":"TMDX","dayChange":27.92,"weekChange":33.72,"monthChange":33.72,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":29.34},
-{"ticker":"NVDD","dayChange":0.23,"weekChange":8.83,"monthChange":8.83,"rsi_14":68.6,"EMAs.":"O X X X","ZLEMAs":"X X X","weekRange":49.9},
+{"ticker":"NVDD","dayChange":0.23,"weekChange":8.83,"monthChange":8.83,"rsi_14":68.6,"EMAs.":0,"ZLEMAs":0,"weekRange":49.9},
 {"ticker":"MIRM","dayChange":0.19,"weekChange":10.26,"monthChange":10.26,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":45.66},
 {"ticker":"FROG","dayChange":35.33,"weekChange":6.98,"monthChange":6.98,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":93.33},
 {"ticker":"SNPS","dayChange":2.31,"weekChange":-3.67,"monthChange":-3.67,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":49.69},

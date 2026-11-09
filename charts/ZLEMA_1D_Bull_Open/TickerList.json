@@ -48,7 +48,7 @@
 {"ticker":"PFGC","dayChange":-1.99,"weekChange":8.53,"monthChange":8.53,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":72.79},
 {"ticker":"ABNB","dayChange":11.67,"weekChange":15.57,"monthChange":15.57,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":95.81},
 {"ticker":"CMCSA","dayChange":-2.24,"weekChange":5.04,"monthChange":5.04,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":31.6},
-{"ticker":"LULU","dayChange":-0.09,"weekChange":3.22,"monthChange":3.22,"rsi_14":61.4,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":14.98},
+{"ticker":"LULU","dayChange":-0.09,"weekChange":3.22,"monthChange":3.22,"rsi_14":61.4,"EMAs.":0,"ZLEMAs":0,"weekRange":14.98},
 {"ticker":"RCL","dayChange":1.37,"weekChange":6.5,"monthChange":6.5,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":78.21},
 {"ticker":"MCD","dayChange":-0.55,"weekChange":7.13,"monthChange":7.13,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":42.04},
 {"ticker":"CMG","dayChange":-2.74,"weekChange":7.96,"monthChange":7.96,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":50.46},

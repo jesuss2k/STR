@@ -44,7 +44,7 @@
 {"ticker":"ADSK","dayChange":-2.76,"weekChange":4.85,"monthChange":4.85,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":56.67},
 {"ticker":"AJG","dayChange":-2.26,"weekChange":2.01,"monthChange":2.01,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":87.55},
 {"ticker":"HD","dayChange":-1.85,"weekChange":4.33,"monthChange":4.33,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":55.05},
-{"ticker":"LULU","dayChange":-0.09,"weekChange":3.22,"monthChange":3.22,"rsi_14":61.4,"EMAs.":"O X X X","ZLEMAs":"X X O","weekRange":14.98},
+{"ticker":"LULU","dayChange":-0.09,"weekChange":3.22,"monthChange":3.22,"rsi_14":61.4,"EMAs.":0,"ZLEMAs":0,"weekRange":14.98},
 {"ticker":"WYNN","dayChange":4.78,"weekChange":11.32,"monthChange":11.32,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":19.27},
 {"ticker":"PFGC","dayChange":-1.99,"weekChange":8.53,"monthChange":8.53,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":72.79},
 {"ticker":"CCL","dayChange":-0.03,"weekChange":2.6,"monthChange":2.6,"rsi_14":0,"EMAs.":0,"ZLEMAs":0,"weekRange":64.63},
