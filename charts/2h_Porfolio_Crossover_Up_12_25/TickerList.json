@@ -1,5 +1,4 @@
 [
-{"ticker":"PSN","dayChange":5.3,"weekChange":5.3,"monthChange":1.58,"rsi_14":60.8,"EMAs.":0,"ZLEMAs":0,"weekRange":29.44},
-{"ticker":"IWM","dayChange":3.22,"weekChange":3.22,"monthChange":1.12,"rsi_14":53.8,"EMAs.":0,"ZLEMAs":0,"weekRange":70.23},
-{"ticker":"VSAT","dayChange":16.29,"weekChange":16.29,"monthChange":-3.44,"rsi_14":55.3,"EMAs.":0,"ZLEMAs":0,"weekRange":70.8}
+{"ticker":"LABU","dayChange":1.27,"weekChange":10.94,"monthChange":0.41,"rsi_14":52.3,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":57.89},
+{"ticker":"AMD","dayChange":5.66,"weekChange":19.67,"monthChange":6.45,"rsi_14":51.5,"EMAs.":"X O X X","ZLEMAs":"O O X","weekRange":74.24}
 ]
