@@ -1,3 +1,6 @@
 [
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.73,"ZLEMA Slope":0.53,"ticker":"HSY","dayChange":-3.8,"weekChange":-3.8,"monthChange":3.44,"rsi_14":52.5,"EMAs.":"O X X O","ZLEMAs":"O X ","weekRange":18.18}
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.67,"ZLEMA Slope":0.62,"ticker":"ABT","dayChange":-1.31,"weekChange":-0.79,"monthChange":2.7,"rsi_14":56.0,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":54.13},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.96,"ZLEMA Slope":0.78,"ticker":"DPZ","dayChange":-1.43,"weekChange":-1.46,"monthChange":5.0,"rsi_14":58.6,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":29.55},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.6,"ZLEMA Slope":0.5,"ticker":"HSY","dayChange":-1.38,"weekChange":-3.93,"monthChange":3.31,"rsi_14":52.0,"EMAs.":"O X X O","ZLEMAs":"O X ","weekRange":17.92},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.55,"ZLEMA Slope":0.57,"ticker":"WELL","dayChange":-1.24,"weekChange":-0.3,"monthChange":4.13,"rsi_14":58.7,"EMAs.":"X X X O","ZLEMAs":"X X ","weekRange":85.19}
 ]
