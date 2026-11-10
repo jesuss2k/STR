@@ -1,3 +1,4 @@
 [
-{"ticker":"OSCR","dayChange":4.46,"weekChange":9.54,"monthChange":10.55,"rsi_14":55.0,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":82.29}
+{"ticker":"NNOX","dayChange":46.62,"weekChange":42.59,"monthChange":3.76,"rsi_14":41.3,"EMAs.":"O O O X","ZLEMAs":"X X X","weekRange":3.01},
+{"ticker":"YEXT","dayChange":-0.07,"weekChange":0.07,"monthChange":5.35,"rsi_14":62.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":74.76}
 ]
