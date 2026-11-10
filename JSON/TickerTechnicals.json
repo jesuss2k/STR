@@ -35,6 +35,7 @@
 {"ticker":"LLYC_MC","EMAs":"O O O O"},
 {"ticker":"LOG_MC","EMAs":"X X X X"},
 {"ticker":"LYXIB_MC","EMAs":"X X X X"},
+{"ticker":"MAKS_MC","EMAs":"O O O O"},
 {"ticker":"MAP_MC","EMAs":"X O X X"},
 {"ticker":"MEL_MC","EMAs":"X X X X"},
 {"ticker":"MRL_MC","EMAs":"O O X X"},
