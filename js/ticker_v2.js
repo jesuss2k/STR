@@ -49,7 +49,11 @@ document.addEventListener("DOMContentLoaded", async function () {
     document.body.appendChild(summaryDialog);
     const summaryFrame = summaryDialog.querySelector('iframe');
     summaryFrame.title = `${ticker} summary`;
-    const closeSummary = () => summaryDialog.close();
+    summaryFrame.style.visibility = 'hidden';
+    const closeSummary = () => {
+        summaryFrame.style.visibility = 'hidden';
+        summaryDialog.close();
+    };
     const toggleSummary = () => {
         if (summaryDialog.open) {
             closeSummary();
@@ -61,6 +65,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             console.error('Unable to open ticker summary: summary link is unavailable.');
             return;
         }
+        summaryFrame.style.visibility = 'hidden';
         summaryFrame.src = summaryLink.href;
         summaryDialog.showModal();
     };
@@ -70,9 +75,13 @@ document.addEventListener("DOMContentLoaded", async function () {
         if (event.target === summaryDialog) closeSummary();
     });
     summaryDialog.addEventListener('close', () => {
+        summaryFrame.style.visibility = 'hidden';
         summaryFrame.src = 'about:blank';
     });
     summaryFrame.addEventListener('load', () => {
+        const frameSource = summaryFrame.getAttribute('src');
+        if (!summaryDialog.open || !frameSource || frameSource === 'about:blank') return;
+
         const frameDocument = summaryFrame.contentDocument;
         if (!frameDocument) return;
         frameDocument.addEventListener('click', event => {
@@ -89,6 +98,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 closeSummary();
             }
         });
+        summaryFrame.style.visibility = 'visible';
     });
 
     shortcutHelp.querySelector('.shortcut-help-close').addEventListener('click', () => {
