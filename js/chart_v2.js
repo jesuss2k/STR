@@ -84,7 +84,7 @@ function normalizeChartType_v2(chartType) {
 }
 
 const RENKO_CHART_CONFIGS_v2 = Object.freeze({
-    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 1 },
+    'Rk 1D': { dataFolder: '1D_OHLC', defaultFactor: 1, lookbackYears: 5 },
     'Rk 1D50': { dataFolder: '1D_OHLC', defaultFactor: 0.5, lookbackYears: 3 },
     'Rk 1D25': { dataFolder: '1D_OHLC', defaultFactor: 0.25, lookbackYears: 1 },
     'Rk 2H': { dataFolder: '2H', defaultFactor: 1 },
@@ -666,21 +666,27 @@ function prepareIndicatorLineData_v2(rawData, indicatorKey) {
 }
 
 function prepareEmaHistogramRows_v2(rawData, fastKey, slowKey) {
-    return rawData.filter(entry => {
-        const fastRawValue = entry?.[fastKey];
-        const slowRawValue = entry?.[slowKey];
-        const fastValue = Number(fastRawValue);
-        const slowValue = Number(slowRawValue);
-        return fastRawValue !== null && fastRawValue !== undefined && fastRawValue !== '' &&
-            slowRawValue !== null && slowRawValue !== undefined && slowRawValue !== '' &&
-            Number.isFinite(fastValue) && Number.isFinite(slowValue);
-    });
+    return Array.isArray(rawData) ? rawData : [];
 }
 
 function getEmaHistogramValue_v2(entry, fastKey, slowKey) {
     const fastValue = Number(entry?.[fastKey]);
     const slowValue = Number(entry?.[slowKey]);
-    return fastValue === 0 || slowValue === 0 ? 0 : fastValue - slowValue;
+    if (!Number.isFinite(fastValue) || !Number.isFinite(slowValue) ||
+        fastValue === 0 || slowValue === 0) {
+        return 0;
+    }
+    return fastValue - slowValue;
+}
+
+function getZlemaHistogramValue_v2(entry) {
+    const closeValue = Number(entry?.Close);
+    const zlemaValue = Number(entry?.ZLEMA);
+    if (!Number.isFinite(closeValue) || !Number.isFinite(zlemaValue) ||
+        closeValue === 0 || zlemaValue === 0) {
+        return 0;
+    }
+    return closeValue - zlemaValue;
 }
 
 function aggregateMonthlyOhlc_v2(rawData) {
@@ -1105,23 +1111,15 @@ function plotHistogram_1W(histogramChart, rawData) {
 }
 
 function plotHistogram_ZLEMA_v2(histogramChart, rawData) {
-    const validRows = rawData.filter(entry =>
-        entry?.Close !== null && entry?.Close !== undefined && entry?.Close !== '' &&
-        entry?.ZLEMA !== null && entry?.ZLEMA !== undefined && entry?.ZLEMA !== '' &&
-        Number.isFinite(Number(entry.Close)) && Number.isFinite(Number(entry.ZLEMA))
-    );
+    const validRows = Array.isArray(rawData) ? rawData : [];
     if (!validRows.length) {
         console.warn("Histogram not plotted: Close or ZLEMA missing in JSON.");
         return;
     }
 
-    let prevValue = Number(validRows[0].Close) === 0 || Number(validRows[0].ZLEMA) === 0
-        ? 0
-        : Number(validRows[0].Close) - Number(validRows[0].ZLEMA);
+    let prevValue = getZlemaHistogramValue_v2(validRows[0]);
     const histogramData = validRows.map(entry => {
-        const value = Number(entry.Close) === 0 || Number(entry.ZLEMA) === 0
-            ? 0
-            : Number(entry.Close) - Number(entry.ZLEMA);
+        const value = getZlemaHistogramValue_v2(entry);
         let color;
 
         if (value >= 0) {
