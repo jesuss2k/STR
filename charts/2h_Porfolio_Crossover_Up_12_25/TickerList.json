@@ -1,4 +1,5 @@
 [
-{"ticker":"LABU","dayChange":0.82,"weekChange":6.48,"monthChange":-3.62,"rsi_14":49.9,"EMAs.":"X O X X","ZLEMAs":"O X X","weekRange":52.43},
-{"ticker":"AMAT","dayChange":3.68,"weekChange":16.09,"monthChange":-0.98,"rsi_14":45.5,"EMAs.":"O O X X","ZLEMAs":"O O X","weekRange":34.1}
+{"ticker":"EME","dayChange":4.27,"weekChange":10.61,"monthChange":-0.97,"rsi_14":47.1,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":27.92},
+{"ticker":"QTUM","dayChange":3.59,"weekChange":9.23,"monthChange":0.69,"rsi_14":47.3,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":50.91},
+{"ticker":"TSM","dayChange":3.88,"weekChange":9.7,"monthChange":1.41,"rsi_14":49.2,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":65.73}
 ]
