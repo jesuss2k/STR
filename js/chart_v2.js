@@ -667,11 +667,20 @@ function prepareIndicatorLineData_v2(rawData, indicatorKey) {
 
 function prepareEmaHistogramRows_v2(rawData, fastKey, slowKey) {
     return rawData.filter(entry => {
-        const fastValue = Number(entry?.[fastKey]);
-        const slowValue = Number(entry?.[slowKey]);
-        return Number.isFinite(fastValue) && fastValue !== 0 &&
-            Number.isFinite(slowValue) && slowValue !== 0;
+        const fastRawValue = entry?.[fastKey];
+        const slowRawValue = entry?.[slowKey];
+        const fastValue = Number(fastRawValue);
+        const slowValue = Number(slowRawValue);
+        return fastRawValue !== null && fastRawValue !== undefined && fastRawValue !== '' &&
+            slowRawValue !== null && slowRawValue !== undefined && slowRawValue !== '' &&
+            Number.isFinite(fastValue) && Number.isFinite(slowValue);
     });
+}
+
+function getEmaHistogramValue_v2(entry, fastKey, slowKey) {
+    const fastValue = Number(entry?.[fastKey]);
+    const slowValue = Number(entry?.[slowKey]);
+    return fastValue === 0 || slowValue === 0 ? 0 : fastValue - slowValue;
 }
 
 function aggregateMonthlyOhlc_v2(rawData) {
@@ -1062,9 +1071,9 @@ function plotHistogram_1W(histogramChart, rawData) {
         return;
     }
 
-    let prevValue = validRows[0].EMA_5 - validRows[0].EMA_10;
+    let prevValue = getEmaHistogramValue_v2(validRows[0], 'EMA_5', 'EMA_10');
     const histogramData = validRows.map(entry => {
-        const value = entry.EMA_5 - entry.EMA_10;
+        const value = getEmaHistogramValue_v2(entry, 'EMA_5', 'EMA_10');
         let color;
 
         if (value >= 0) {
@@ -1097,17 +1106,22 @@ function plotHistogram_1W(histogramChart, rawData) {
 
 function plotHistogram_ZLEMA_v2(histogramChart, rawData) {
     const validRows = rawData.filter(entry =>
-        Number.isFinite(Number(entry?.Close)) && Number(entry.Close) !== 0 &&
-        Number.isFinite(Number(entry?.ZLEMA)) && Number(entry.ZLEMA) !== 0
+        entry?.Close !== null && entry?.Close !== undefined && entry?.Close !== '' &&
+        entry?.ZLEMA !== null && entry?.ZLEMA !== undefined && entry?.ZLEMA !== '' &&
+        Number.isFinite(Number(entry.Close)) && Number.isFinite(Number(entry.ZLEMA))
     );
     if (!validRows.length) {
         console.warn("Histogram not plotted: Close or ZLEMA missing in JSON.");
         return;
     }
 
-    let prevValue = Number(validRows[0].Close) - Number(validRows[0].ZLEMA);
+    let prevValue = Number(validRows[0].Close) === 0 || Number(validRows[0].ZLEMA) === 0
+        ? 0
+        : Number(validRows[0].Close) - Number(validRows[0].ZLEMA);
     const histogramData = validRows.map(entry => {
-        const value = Number(entry.Close) - Number(entry.ZLEMA);
+        const value = Number(entry.Close) === 0 || Number(entry.ZLEMA) === 0
+            ? 0
+            : Number(entry.Close) - Number(entry.ZLEMA);
         let color;
 
         if (value >= 0) {
@@ -1202,10 +1216,7 @@ function plotHistogram_1M(histogramChart, rawData) {
     const validRows = prepareEmaHistogramRows_v2(rawData, 'EMA_12', 'EMA_25');
 
     validRows.forEach(entry => {
-        const fastEma = Number(entry?.EMA_12);
-        const slowEma = Number(entry?.EMA_25);
-
-        const value = fastEma - slowEma;
+        const value = getEmaHistogramValue_v2(entry, 'EMA_12', 'EMA_25');
         const color = value >= 0
             ? (previousValue === null || value >= previousValue
                 ? "rgba(12, 171, 7, 0.6)"
@@ -1246,9 +1257,9 @@ function plotHistogram_1D(histogramChart, rawData) {
         return;
     }
 
-    let prevValue = validRows[0].EMA_12 - validRows[0].EMA_25;
+    let prevValue = getEmaHistogramValue_v2(validRows[0], 'EMA_12', 'EMA_25');
     const histogramData = validRows.map(entry => {
-        const value = entry.EMA_12 - entry.EMA_25;
+        const value = getEmaHistogramValue_v2(entry, 'EMA_12', 'EMA_25');
         let color;
 
         if (value >= 0) {
@@ -1318,9 +1329,9 @@ function plotHistogram_2H(histogramChart, rawData) {
         return;
     }
 
-    let prevValue = validRows[0].EMA_12 - validRows[0].EMA_25;
+    let prevValue = getEmaHistogramValue_v2(validRows[0], 'EMA_12', 'EMA_25');
     const histogramData = validRows.map(entry => {
-        const value = entry.EMA_12 - entry.EMA_25;
+        const value = getEmaHistogramValue_v2(entry, 'EMA_12', 'EMA_25');
         let color;
 
         if (value >= 0) {
@@ -1391,9 +1402,9 @@ function plotHistogram_30m(histogramChart, rawData) {
         return;
     }
 
-    let prevValue = validRows[0].EMA_12 - validRows[0].EMA_25;
+    let prevValue = getEmaHistogramValue_v2(validRows[0], 'EMA_12', 'EMA_25');
     const histogramData = validRows.map(entry => {
-        const value = entry.EMA_12 - entry.EMA_25;
+        const value = getEmaHistogramValue_v2(entry, 'EMA_12', 'EMA_25');
         let color;
 
         if (value >= 0) {
@@ -1675,6 +1686,26 @@ function isVerticalFitEnabled_v2() {
 
 function isHistogramVisible_v2() {
     return localStorage.getItem('histogramVisible_v2') !== 'false';
+}
+
+function getMonthlyFiveYearRange_v2(chartData) {
+    if (!Array.isArray(chartData) || chartData.length === 0) return null;
+
+    const lastTimestamp = parseOhlcTimestamp_v2(chartData[chartData.length - 1].Timestamp);
+    if (lastTimestamp === null) return null;
+
+    const cutoffDate = new Date(lastTimestamp);
+    cutoffDate.setUTCFullYear(cutoffDate.getUTCFullYear() - 5);
+    const cutoffTimestamp = cutoffDate.getTime();
+    const firstVisibleIndex = chartData.findIndex(row => {
+        const timestamp = parseOhlcTimestamp_v2(row.Timestamp);
+        return timestamp !== null && timestamp >= cutoffTimestamp;
+    });
+
+    return {
+        from: firstVisibleIndex < 0 ? 0 : firstVisibleIndex,
+        to: chartData.length - 1
+    };
 }
 
 function setHistogramVisible_v2(visible) {
@@ -1972,7 +2003,10 @@ async function loadTradingViewChart_v2(ticker = null) {
 
         // Fit once after loading all series and sizing both panes. Manual zoom and
         // pan remain available; resizing does not reapply this initial view.
-        if (isFitToScreenEnabled_v2() && chartData.length > 0) {
+        if ((isFitToScreenEnabled_v2() || selectedChart === '1M') && chartData.length > 0) {
+            const monthlyRange = selectedChart === '1M'
+                ? getMonthlyFiveYearRange_v2(chartData)
+                : null;
             for (const pane of [chart, histogramChart]) {
                 const timeScale = pane.timeScale();
                 // Allow dense histories to fit even on narrow screens.
@@ -1980,6 +2014,7 @@ async function loadTradingViewChart_v2(ticker = null) {
                     minBarSpacing: Math.min(0.5, timeScale.width() / (chartData.length + 1))
                 });
                 timeScale.fitContent();
+                if (monthlyRange) timeScale.setVisibleLogicalRange(monthlyRange);
             }
         }
 
