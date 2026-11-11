@@ -1,4 +1,4 @@
 [
-{"ticker":"AES","dayChange":0.13,"weekChange":0.34,"monthChange":0.61,"rsi_14":49.8,"EMAs.":"X O O X","ZLEMAs":"X O X","weekRange":37.53},
-{"ticker":"MRK","dayChange":-0.48,"weekChange":0.9,"monthChange":-0.98,"rsi_14":53.0,"EMAs.":"X X X O","ZLEMAs":"X O O","weekRange":87.27}
+{"ticker":"AES","dayChange":0.13,"weekChange":0.34,"monthChange":0.61,"rsi_14":49.8,"EMAs.":0,"ZLEMAs":0,"weekRange":37.53},
+{"ticker":"MRK","dayChange":-0.48,"weekChange":0.9,"monthChange":-0.98,"rsi_14":53.0,"EMAs.":0,"ZLEMAs":0,"weekRange":86.56}
 ]
