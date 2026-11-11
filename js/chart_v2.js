@@ -14,7 +14,7 @@ const closedOrderThemePriceLines_v2 = new Set();
 const SITE_THEME_KEY_v2 = 'siteTheme';
 const DEFAULT_CHART_TYPE_v2 = '1W';
 const CHART_ORDER_v2 = Object.freeze([
-    '1W', '1D', '2H', '30M',
+    '1M', '1W', '1D', '2H', '30M',
     'Rk 1D', 'Rk 1D50', 'Rk 1D25', 'Rk 2H', 'Rk 2H50', 'Rk 30M'
 ]);
 
@@ -320,6 +320,7 @@ function getSelectedChart_v2() {
 
 function getChartLabel_v2(chartType) {
     switch (normalizeChartType_v2(chartType)) {
+        case '1M': return '1M';
         case '1W': return '1W';
         case '1D': return '1D';
         case '2H': return '2h';
@@ -349,10 +350,24 @@ function clearActiveMenuLinks_v2() {
         .forEach(link => link.classList.remove('active'));
 }
 
+function ensureMonthlyMenuItem_v2() {
+    const menuOptionsMain = document.getElementById('menu-options-main');
+    if (!menuOptionsMain || document.getElementById('chart-1m')) return;
+
+    const monthlyLink = document.createElement('a');
+    monthlyLink.href = '#';
+    monthlyLink.id = 'chart-1m';
+    monthlyLink.textContent = '1M';
+
+    const firstChartLink = menuOptionsMain.querySelector('#chart-1w');
+    menuOptionsMain.insertBefore(monthlyLink, firstChartLink || menuOptionsMain.firstElementChild);
+}
+
 function updateActiveMenuLinks_v2(selectedChart) {
     clearActiveMenuLinks_v2();
 
     const chartMap = {
+        '1M': 'chart-1m',
         '1W': 'chart-1w',
         '1D': 'chart-1d',
         '2H': 'chart-2h',
@@ -376,6 +391,8 @@ function initializeMenuLogic_v2() {
     const menuCaption = document.getElementById('menu-caption');
     const menuOptionsMain = document.getElementById('menu-options-main');
     const menuOptionsRenko = document.getElementById('menu-options-renko');
+
+    ensureMonthlyMenuItem_v2();
 
     if (!menuCaption || !menuOptionsMain || !menuOptionsRenko) {
         console.warn("Menu elements not found. Skipping menu initialization.");
@@ -434,6 +451,7 @@ function bindMenuActions_v2(ticker) {
         };
     };
 
+    bind('chart-1m', '1M');
     bind('chart-1w', '1W');
     bind('chart-1d', '1D');
     bind('chart-2h', '2H');
@@ -634,6 +652,111 @@ function prepareLineData(rawData) {
     return rawData.map(entry => ({
         time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
         value: entry.Close
+    }));
+}
+
+function prepareIndicatorLineData_v2(rawData, indicatorKey) {
+    return rawData.flatMap(entry => {
+        const value = Number(entry?.[indicatorKey]);
+        if (!Number.isFinite(value) || value === 0) return [];
+
+        const time = Math.floor(new Date(entry.Timestamp).getTime() / 1000);
+        return Number.isFinite(time) ? [{ time, value }] : [];
+    });
+}
+
+function prepareEmaHistogramRows_v2(rawData, fastKey, slowKey) {
+    return rawData.filter(entry => {
+        const fastValue = Number(entry?.[fastKey]);
+        const slowValue = Number(entry?.[slowKey]);
+        return Number.isFinite(fastValue) && fastValue !== 0 &&
+            Number.isFinite(slowValue) && slowValue !== 0;
+    });
+}
+
+function aggregateMonthlyOhlc_v2(rawData) {
+    if (!Array.isArray(rawData)) return [];
+
+    const validRows = rawData
+        .map(row => {
+            const timestamp = parseOhlcTimestamp_v2(row?.Timestamp);
+            const open = Number(row?.Open);
+            const high = Number(row?.High);
+            const low = Number(row?.Low);
+            const close = Number(row?.Close);
+            if (timestamp === null || ![open, high, low, close].every(Number.isFinite)) {
+                return null;
+            }
+
+            return { timestamp, open, high, low, close };
+        })
+        .filter(Boolean)
+        .sort((left, right) => left.timestamp - right.timestamp);
+
+    const monthlyRows = new Map();
+    validRows.forEach(row => {
+        const date = new Date(row.timestamp);
+        const year = date.getUTCFullYear();
+        const month = date.getUTCMonth();
+        const key = `${year}-${String(month + 1).padStart(2, '0')}`;
+        const existing = monthlyRows.get(key);
+
+        if (!existing) {
+            monthlyRows.set(key, {
+                Timestamp: `${key}-01 00:00:00`,
+                Open: row.open,
+                High: row.high,
+                Low: row.low,
+                Close: row.close
+            });
+            return;
+        }
+
+        existing.High = Math.max(existing.High, row.high);
+        existing.Low = Math.min(existing.Low, row.low);
+        existing.Close = row.close;
+    });
+
+    return Array.from(monthlyRows.values());
+}
+
+function calculateZlemaValues_v2(values, period) {
+    const lag = Math.floor((period - 1) / 2);
+    const adjustedValues = values.map((value, index) => {
+        if (!Number.isFinite(value) || index < lag || !Number.isFinite(values[index - lag])) {
+            return null;
+        }
+        return value + (value - values[index - lag]);
+    });
+
+    return calculateEmaValues_v2(adjustedValues, period);
+}
+
+function prepareMonthlyChartData_v2(rawData) {
+    const monthlyRows = aggregateMonthlyOhlc_v2(rawData);
+    if (!monthlyRows.length) return [];
+
+    const closes = monthlyRows.map(row => row.Close);
+    const emaPeriods = {
+        EMA_12: 12,
+        EMA_25: 25,
+        EMA_50: 50,
+        EMA_100: 100,
+        EMA_200: 200
+    };
+    const indicators = Object.fromEntries(
+        Object.entries(emaPeriods).map(([key, period]) => [
+            key,
+            calculateEmaValues_v2(closes, period)
+        ])
+    );
+    indicators.ZLEMA = calculateZlemaValues_v2(closes, 25);
+
+    return monthlyRows.map((row, index) => ({
+        ...row,
+        ...Object.fromEntries(
+            Object.keys(indicators).map(key => [key, indicators[key][index]])
+        )
     }));
 }
 
@@ -856,15 +979,8 @@ function plotEMAs_1W(chart, rawData) {
     };
 
     Object.keys(emaColors).forEach(emaKey => {
-        if (!rawData[0][emaKey]) {
-            console.warn(`⚠ Skipping ${emaKey}, not found in JSON.`);
-            return;
-        }
-
-        const emaData = rawData.map(entry => ({
-            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
-            value: entry[emaKey]
-        }));
+        const emaData = prepareIndicatorLineData_v2(rawData, emaKey);
+        if (!emaData.length) return;
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
@@ -885,6 +1001,7 @@ function plotEMAs_1W(chart, rawData) {
 
 function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
     const yellowMap = {
+        '1M': 'EMA_25',
         '1W': 'EMA_5',
         '1D': 'EMA_25',
         '2H': 'EMA_100',
@@ -897,19 +1014,23 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
         return;
     }
 
-    if (!rawData[0] || rawData[0][yellowKey] === undefined || rawData[0].ZLEMA === undefined) {
+    const zlemaRows = rawData.filter(entry =>
+        Number.isFinite(Number(entry?.ZLEMA)) && Number(entry.ZLEMA) !== 0 &&
+        Number.isFinite(Number(entry?.[yellowKey])) && Number(entry[yellowKey]) !== 0
+    );
+    if (!zlemaRows.length) {
         console.warn(`⚠ Data missing for ZLEMA overlay: ${yellowKey} or ZLEMA not present.`);
         return;
     }
 
-    const zlemaData = rawData.map(entry => ({
+    const zlemaData = zlemaRows.map(entry => ({
         time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
-        value: entry.ZLEMA
+        value: Number(entry.ZLEMA)
     }));
 
-    const emaYellowData = rawData.map(entry => ({
+    const emaYellowData = zlemaRows.map(entry => ({
         time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
-        value: entry[yellowKey]
+        value: Number(entry[yellowKey])
     }));
 
     const zlemaSeries = addPriceSeries_v2(chart, 'Line', {
@@ -935,13 +1056,14 @@ function plotZlemaOverlay_v2(chart, rawData, selectedChart) {
 }
 
 function plotHistogram_1W(histogramChart, rawData) {
-    if (!rawData[0].EMA_5 || !rawData[0].EMA_10) {
+    const validRows = prepareEmaHistogramRows_v2(rawData, 'EMA_5', 'EMA_10');
+    if (!validRows.length) {
         console.warn("⚠ Histogram not plotted: EMA_5 or EMA_10 missing in JSON.");
         return;
     }
 
-    let prevValue = rawData[0].EMA_5 - rawData[0].EMA_10;
-    const histogramData = rawData.map(entry => {
+    let prevValue = validRows[0].EMA_5 - validRows[0].EMA_10;
+    const histogramData = validRows.map(entry => {
         const value = entry.EMA_5 - entry.EMA_10;
         let color;
 
@@ -974,14 +1096,18 @@ function plotHistogram_1W(histogramChart, rawData) {
 }
 
 function plotHistogram_ZLEMA_v2(histogramChart, rawData) {
-    if (!rawData[0] || rawData[0].Close === undefined || rawData[0].ZLEMA === undefined) {
+    const validRows = rawData.filter(entry =>
+        Number.isFinite(Number(entry?.Close)) && Number(entry.Close) !== 0 &&
+        Number.isFinite(Number(entry?.ZLEMA)) && Number(entry.ZLEMA) !== 0
+    );
+    if (!validRows.length) {
         console.warn("Histogram not plotted: Close or ZLEMA missing in JSON.");
         return;
     }
 
-    let prevValue = rawData[0].Close - rawData[0].ZLEMA;
-    const histogramData = rawData.map(entry => {
-        const value = entry.Close - entry.ZLEMA;
+    let prevValue = Number(validRows[0].Close) - Number(validRows[0].ZLEMA);
+    const histogramData = validRows.map(entry => {
+        const value = Number(entry.Close) - Number(entry.ZLEMA);
         let color;
 
         if (value >= 0) {
@@ -1023,15 +1149,8 @@ function plotEMAs_1D(chart, rawData) {
     };
 
     Object.keys(emaColors).forEach(emaKey => {
-        if (!rawData[0][emaKey]) {
-            console.warn(`⚠ Skipping ${emaKey}, not found in JSON.`);
-            return;
-        }
-
-        const emaData = rawData.map(entry => ({
-            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
-            value: entry[emaKey]
-        }));
+        const emaData = prepareIndicatorLineData_v2(rawData, emaKey);
+        if (!emaData.length) return;
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
@@ -1049,14 +1168,86 @@ function plotEMAs_1D(chart, rawData) {
     });
 }
 
+function plotEMAs_1M(chart, rawData) {
+    const emaColors = {
+        EMA_12: "#38ccdd",
+        EMA_25: getYellowThemeColor_v2(),
+        EMA_50: "#e67e22",
+        EMA_100: "#ff0000",
+        EMA_200: "#ffffff",
+        ZLEMA: "#ff0000"
+    };
+
+    Object.entries(emaColors).forEach(([emaKey, color]) => {
+        const emaData = prepareIndicatorLineData_v2(rawData, emaKey);
+        if (!emaData.length) return;
+
+        const emaSeries = addPriceSeries_v2(chart, 'Line', {
+            color,
+            lineWidth: emaKey === 'EMA_25' ? 2 : 1,
+            priceLineVisible: false,
+            lastValueVisible: false,
+            crosshairMarkerVisible: false,
+            pointMarkersVisible: false,
+            lineStyle: emaKey === 'ZLEMA' ? 3 : 0
+        });
+        if (emaKey === 'EMA_25') yellowThemeSeries_v2.add(emaSeries);
+        emaSeries.setData(emaData);
+    });
+}
+
+function plotHistogram_1M(histogramChart, rawData) {
+    const histogramData = [];
+    let previousValue = null;
+    const validRows = prepareEmaHistogramRows_v2(rawData, 'EMA_12', 'EMA_25');
+
+    validRows.forEach(entry => {
+        const fastEma = Number(entry?.EMA_12);
+        const slowEma = Number(entry?.EMA_25);
+
+        const value = fastEma - slowEma;
+        const color = value >= 0
+            ? (previousValue === null || value >= previousValue
+                ? "rgba(12, 171, 7, 0.6)"
+                : "rgba(139, 222, 122, 0.6)")
+            : (previousValue === null || value <= previousValue
+                ? "rgba(222, 7, 28, 0.6)"
+                : "rgba(222, 167, 166, 0.6)");
+
+        histogramData.push({
+            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
+            value,
+            color
+        });
+        previousValue = value;
+    });
+
+    if (!histogramData.length) {
+        console.warn("Histogram not plotted: monthly EMA_12 and EMA_25 are not available yet.");
+        return;
+    }
+
+    histogramSeries_v2 = histogramChart.addHistogramSeries({
+        priceLineVisible: true,
+        lastValueVisible: false,
+        priceFormat: {
+            type: 'price',
+            precision: 0,
+            minMove: 1
+        }
+    });
+    histogramSeries_v2.setData(histogramData);
+}
+
 function plotHistogram_1D(histogramChart, rawData) {
-    if (!rawData[0].EMA_12 || !rawData[0].EMA_25) {
+    const validRows = prepareEmaHistogramRows_v2(rawData, 'EMA_12', 'EMA_25');
+    if (!validRows.length) {
         console.warn("⚠ Histogram not plotted: EMA_12 or EMA_25 missing in JSON.");
         return;
     }
 
-    let prevValue = rawData[0].EMA_12 - rawData[0].EMA_25;
-    const histogramData = rawData.map(entry => {
+    let prevValue = validRows[0].EMA_12 - validRows[0].EMA_25;
+    const histogramData = validRows.map(entry => {
         const value = entry.EMA_12 - entry.EMA_25;
         let color;
 
@@ -1101,15 +1292,8 @@ function plotEMAs_2H(chart, rawData) {
     };
 
     Object.keys(emaColors).forEach(emaKey => {
-        if (!rawData[0][emaKey]) {
-            console.warn(`⚠ Skipping ${emaKey}, not found in JSON.`);
-            return;
-        }
-
-        const emaData = rawData.map(entry => ({
-            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
-            value: entry[emaKey]
-        }));
+        const emaData = prepareIndicatorLineData_v2(rawData, emaKey);
+        if (!emaData.length) return;
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
@@ -1128,13 +1312,14 @@ function plotEMAs_2H(chart, rawData) {
 }
 
 function plotHistogram_2H(histogramChart, rawData) {
-    if (!rawData[0].EMA_12 || !rawData[0].EMA_25) {
+    const validRows = prepareEmaHistogramRows_v2(rawData, 'EMA_12', 'EMA_25');
+    if (!validRows.length) {
         console.warn("⚠ Histogram not plotted: EMA_12 or EMA_25 missing in JSON.");
         return;
     }
 
-    let prevValue = rawData[0].EMA_12 - rawData[0].EMA_25;
-    const histogramData = rawData.map(entry => {
+    let prevValue = validRows[0].EMA_12 - validRows[0].EMA_25;
+    const histogramData = validRows.map(entry => {
         const value = entry.EMA_12 - entry.EMA_25;
         let color;
 
@@ -1180,15 +1365,8 @@ function plotEMAs_30m(chart, rawData) {
     };
 
     Object.keys(emaColors).forEach(emaKey => {
-        if (!rawData[0][emaKey]) {
-            console.warn(`⚠ Skipping ${emaKey}, not found in JSON.`);
-            return;
-        }
-
-        const emaData = rawData.map(entry => ({
-            time: Math.floor(new Date(entry.Timestamp).getTime() / 1000),
-            value: entry[emaKey]
-        }));
+        const emaData = prepareIndicatorLineData_v2(rawData, emaKey);
+        if (!emaData.length) return;
 
         const emaSeries = addPriceSeries_v2(chart, 'Line', {
             color: emaColors[emaKey],
@@ -1207,13 +1385,14 @@ function plotEMAs_30m(chart, rawData) {
 }
 
 function plotHistogram_30m(histogramChart, rawData) {
-    if (!rawData[0].EMA_12 || !rawData[0].EMA_25) {
+    const validRows = prepareEmaHistogramRows_v2(rawData, 'EMA_12', 'EMA_25');
+    if (!validRows.length) {
         console.warn("⚠ Histogram not plotted: EMA_12 or EMA_25 missing in JSON.");
         return;
     }
 
-    let prevValue = rawData[0].EMA_12 - rawData[0].EMA_25;
-    const histogramData = rawData.map(entry => {
+    let prevValue = validRows[0].EMA_12 - validRows[0].EMA_25;
+    const histogramData = validRows.map(entry => {
         const value = entry.EMA_12 - entry.EMA_25;
         let color;
 
@@ -1449,6 +1628,7 @@ function plotSelectedHistogram_v2(histogramChart, rawData, chartType, renderMode
     }
 
     const plotByChart = {
+        '1M': plotHistogram_1M,
         '1W': plotHistogram_1W,
         '1D': plotHistogram_1D,
         '2H': plotHistogram_2H,
@@ -1698,7 +1878,9 @@ async function loadTradingViewChart_v2(ticker = null) {
         const selectedChart = getSelectedChart_v2();
         const referenceLevelsPromise = loadReferenceLevels_v2(ticker, signal);
 
-        if (selectedChart === '1W') {
+        if (selectedChart === '1M') {
+            jsonPath = `../../charts/JSON/1D_OHLC/${encodeURIComponent(ticker)}.json`;
+        } else if (selectedChart === '1W') {
             jsonPath = `../../charts/JSON/1W/${ticker}.json`;
         } else if (selectedChart === '1D') {
             jsonPath = `../../charts/JSON/1D/${ticker}.json`;
@@ -1723,20 +1905,27 @@ async function loadTradingViewChart_v2(ticker = null) {
         }
         if (!isCurrentChartLoad_v2(loadId)) return;
 
-        const candleData = prepareCandleData(rawData);
+        const chartData = selectedChart === '1M'
+            ? prepareMonthlyChartData_v2(rawData)
+            : rawData;
+        if (!chartData.length) {
+            throw new Error(`No valid chart data available for ${ticker}`);
+        }
+
+        const candleData = prepareCandleData(chartData);
 
         const renderMode = getRenderMode_v2();
-        histogramRawData_v2 = rawData;
+        histogramRawData_v2 = chartData;
         histogramChartType_v2 = selectedChart;
         histogramRenderMode_v2 = renderMode;
         let displayCandleData = candleData;
         if (renderMode === 'LINE') {
-            const lineData = prepareLineData(rawData);
+            const lineData = prepareLineData(chartData);
             plotCloseLine(chart, lineData);
             console.log(`✅ Rendered LINE for ${ticker}`);
         } else {
             if (renderMode === 'HEIKIN_ASHI') {
-                displayCandleData = prepareHeikinAshiData(rawData);
+                displayCandleData = prepareHeikinAshiData(chartData);
             }
             plotCandlesticks(chart, displayCandleData);
             console.log(`✅ Rendered ${renderMode === 'HEIKIN_ASHI' ? 'HEIKIN ASHI' : 'CANDLES'} for ${ticker}`);
@@ -1746,7 +1935,13 @@ async function loadTradingViewChart_v2(ticker = null) {
         if (!isCurrentChartLoad_v2(loadId)) return;
         plotReferenceLevels_v2(chart, candleData, referenceLevels);
 
-        if (selectedChart === '1W') {
+        if (selectedChart === '1M') {
+            if (renderMode === 'ZLEMA') {
+                plotZlemaOverlay_v2(chart, chartData, selectedChart);
+            } else {
+                plotEMAs_1M(chart, chartData);
+            }
+        } else if (selectedChart === '1W') {
             if (renderMode === 'ZLEMA') {
                 plotZlemaOverlay_v2(chart, rawData, selectedChart);
             } else {
@@ -1771,18 +1966,18 @@ async function loadTradingViewChart_v2(ticker = null) {
                 plotEMAs_30m(chart, rawData);
             }
         }
-        plotSelectedHistogram_v2(histogramChart, rawData, selectedChart, renderMode);
+        plotSelectedHistogram_v2(histogramChart, chartData, selectedChart, renderMode);
 
         resizeActiveCharts_v2();
 
         // Fit once after loading all series and sizing both panes. Manual zoom and
         // pan remain available; resizing does not reapply this initial view.
-        if (isFitToScreenEnabled_v2() && rawData.length > 0) {
+        if (isFitToScreenEnabled_v2() && chartData.length > 0) {
             for (const pane of [chart, histogramChart]) {
                 const timeScale = pane.timeScale();
                 // Allow dense histories to fit even on narrow screens.
                 timeScale.applyOptions({
-                    minBarSpacing: Math.min(0.5, timeScale.width() / (rawData.length + 1))
+                    minBarSpacing: Math.min(0.5, timeScale.width() / (chartData.length + 1))
                 });
                 timeScale.fitContent();
             }
@@ -2198,6 +2393,7 @@ function getOverlayMode_v2() {
 
 function getPnlBaseChart_v2(selectedChart) {
     const chartMap = {
+        '1M': '1D',
         '1W': '1W',
         '1D': '1D',
         '2H': '2H',
