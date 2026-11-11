@@ -1,5 +1,4 @@
 [
-{"ticker":"EME","dayChange":4.27,"weekChange":10.61,"monthChange":-0.97,"rsi_14":47.1,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":27.92},
-{"ticker":"QTUM","dayChange":3.59,"weekChange":9.23,"monthChange":0.69,"rsi_14":47.3,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":50.91},
-{"ticker":"TSM","dayChange":3.88,"weekChange":9.7,"monthChange":1.41,"rsi_14":49.2,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":65.73}
+{"ticker":"QLD","dayChange":5.84,"weekChange":11.69,"monthChange":0.22,"rsi_14":46.0,"EMAs.":"X O O X","ZLEMAs":"O O X","weekRange":58.13},
+{"ticker":"UDOW","dayChange":1.62,"weekChange":7.19,"monthChange":3.24,"rsi_14":51.6,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":64.58}
 ]
