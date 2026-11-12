@@ -1,3 +1,4 @@
 [
-{"ticker":"UNH","dayChange":0.57,"weekChange":2.82,"monthChange":-0.42,"rsi_14":53.8,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":72.59}
+{"ticker":"TYO","dayChange":2.19,"weekChange":5.26,"monthChange":4.13,"rsi_14":56.8,"EMAs.":"X O X X","ZLEMAs":"X X X","weekRange":76.07},
+{"ticker":"STX","dayChange":-1.31,"weekChange":18.12,"monthChange":-15.53,"rsi_14":38.6,"EMAs.":"O O O X","ZLEMAs":"O O X","weekRange":34.47}
 ]
