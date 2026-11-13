@@ -298,6 +298,7 @@
 {"ticker":"NU","positionStatus":"Open","price":12.0,"quantity":50,"leverage":0},
 {"ticker":"NU","positionStatus":"Open","price":16.585,"quantity":30,"leverage":0},
 {"ticker":"NVDA","positionStatus":"Closed","price":181.6,"quantity":1,"leverage":0},
+{"ticker":"NVDA","positionStatus":"Open","price":151.0,"quantity":10,"leverage":0},
 {"ticker":"NVDA","positionStatus":"Open","price":182.0,"quantity":6,"leverage":0},
 {"ticker":"NVDA","positionStatus":"Open","price":185.8889,"quantity":2,"leverage":0},
 {"ticker":"NVDA","positionStatus":"Open","price":190.1493,"quantity":2,"leverage":0},
