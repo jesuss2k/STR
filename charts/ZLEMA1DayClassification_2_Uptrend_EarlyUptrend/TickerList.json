@@ -1,5 +1,6 @@
 [
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.79,"ZLEMA Slope":0.8,"ticker":"ABNB","dayChange":2.61,"weekChange":-2.17,"monthChange":13.06,"rsi_14":60.3,"EMAs.":"X X X X","ZLEMAs":"X X O","weekRange":86.21},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.88,"ZLEMA Slope":0.56,"ticker":"CVNA","dayChange":1.52,"weekChange":-2.25,"monthChange":5.31,"rsi_14":56.6,"EMAs.":"O X X O","ZLEMAs":"X X ","weekRange":40.67},
-{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.66,"ZLEMA Slope":0.62,"ticker":"XYZ","dayChange":2.92,"weekChange":-0.95,"monthChange":11.08,"rsi_14":57.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.52}
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.79,"ZLEMA Slope":0.79,"ticker":"ABNB","dayChange":2.84,"weekChange":-1.96,"monthChange":13.31,"rsi_14":60.5,"EMAs.":"X X X X","ZLEMAs":"X X X","weekRange":86.68},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.13,"ZLEMA Slope":0.5,"ticker":"AMZN","dayChange":-0.74,"weekChange":2.38,"monthChange":10.45,"rsi_14":56.3,"EMAs.":"X X X O","ZLEMAs":"O X O","weekRange":76.17},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.92,"ZLEMA Slope":0.56,"ticker":"CVNA","dayChange":1.72,"weekChange":-2.05,"monthChange":5.52,"rsi_14":56.8,"EMAs.":"O X X O","ZLEMAs":"X X ","weekRange":41.0},
+{"Stage":"Uptrend","Sub Stage":"Early uptrend","Trend":"-","Sub #":2,"ATR Dist":1.81,"ZLEMA Slope":0.63,"ticker":"XYZ","dayChange":2.88,"weekChange":-0.99,"monthChange":11.03,"rsi_14":57.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.43}
 ]

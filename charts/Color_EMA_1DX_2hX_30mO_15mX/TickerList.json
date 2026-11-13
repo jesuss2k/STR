@@ -1,4 +1,8 @@
 [
-{"EMAs":"X X X O","ticker":"ULTA","dayChange":0.31,"weekChange":1.28,"monthChange":1.97,"rsi_14":62.3,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":77.17},
-{"EMAs":"X X X O","ticker":"XYZ","dayChange":2.92,"weekChange":-0.95,"monthChange":11.08,"rsi_14":57.5,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.52}
+{"EMAs":"X X X O","ticker":"BBY","dayChange":0.16,"weekChange":3.96,"monthChange":8.29,"rsi_14":60.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":93.72},
+{"EMAs":"X X X O","ticker":"HUM","dayChange":-0.15,"weekChange":2.14,"monthChange":6.88,"rsi_14":61.8,"EMAs.":"X X X O","ZLEMAs":"X X X","weekRange":95.4},
+{"EMAs":"O X X O","ticker":"MMYT","dayChange":1.35,"weekChange":1.17,"monthChange":21.13,"rsi_14":62.1,"EMAs.":"O X X O","ZLEMAs":"X X O","weekRange":35.07},
+{"EMAs":"X X X O","ticker":"BIIB","dayChange":0.72,"weekChange":1.58,"monthChange":-0.53,"rsi_14":58.2,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":91.33},
+{"EMAs":"X X X O","ticker":"XYZ","dayChange":2.88,"weekChange":-0.99,"monthChange":11.03,"rsi_14":57.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":88.43},
+{"EMAs":"X X X O","ticker":"ULTA","dayChange":0.91,"weekChange":1.88,"monthChange":2.57,"rsi_14":63.4,"EMAs.":"X X X O","ZLEMAs":"X X O","weekRange":78.6}
 ]
