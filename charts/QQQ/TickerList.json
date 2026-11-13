@@ -52,7 +52,7 @@
 {"Rank":51,"WeightPct":0.38,"ticker":"DDOG","dayChange":0.04,"weekChange":3.03,"monthChange":-21.6,"rsi_14":31.6,"EMAs.":0,"ZLEMAs":0,"weekRange":42.66},
 {"Rank":52,"WeightPct":0.36,"ticker":"MELI","dayChange":-2.44,"weekChange":-2.31,"monthChange":-9.2,"rsi_14":31.6,"EMAs.":0,"ZLEMAs":0,"weekRange":1.14},
 {"Rank":53,"WeightPct":0.36,"ticker":"CSX","dayChange":0.96,"weekChange":6.68,"monthChange":0.79,"rsi_14":60.9,"EMAs.":0,"ZLEMAs":0,"weekRange":93.99},
-{"Rank":54,"WeightPct":0.35,"ticker":"MNST","dayChange":0.37,"weekChange":-0.33,"monthChange":-3.74,"rsi_14":48.4,"EMAs.":0,"ZLEMAs":0,"weekRange":7.62},
+{"Rank":54,"WeightPct":0.35,"ticker":"MNST","dayChange":0.37,"weekChange":-0.33,"monthChange":-3.74,"rsi_14":48.4,"EMAs.":0,"ZLEMAs":0,"weekRange":68.87},
 {"Rank":55,"WeightPct":0.34,"ticker":"APP","dayChange":-2.74,"weekChange":0.63,"monthChange":72.29,"rsi_14":70.4,"EMAs.":0,"ZLEMAs":0,"weekRange":32.86},
 {"Rank":56,"WeightPct":0.32,"ticker":"CMCSA","dayChange":-0.88,"weekChange":1.68,"monthChange":6.8,"rsi_14":64.0,"EMAs.":0,"ZLEMAs":0,"weekRange":34.91},
 {"Rank":57,"WeightPct":0.32,"ticker":"INTU","dayChange":-0.72,"weekChange":-0.39,"monthChange":-0.27,"rsi_14":54.4,"EMAs.":0,"ZLEMAs":0,"weekRange":20.34},
